@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": 1,
+    "cpu_model": "Intel NUC 13 Pro (i7-1360P)",
+    "ram_config": "64GB DDR4",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4_K_M)", "engine": "Ollama", "speed": 11.5, "unit": "T/s" },
+      { "model": "DeepSeek-R1-7B", "engine": "LM Studio", "speed": 13.2, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 2,
+    "cpu_model": "Intel NUC 14 Pro+ (Ultra 9)",
+    "ram_config": "96GB DDR5",
+    "benchmarks": [
+      { "model": "Llama3-8B", "engine": "OpenVINO", "speed": 18.5, "unit": "T/s" },
+      { "model": "Llama3-70B (IQ2)", "engine": "Ollama", "speed": 2.1, "unit": "T/s" }
+    ]
+  }
+]

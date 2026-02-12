@@ -1,0 +1,33 @@
+baseURL = 'https://nucnas.top/'
+languageCode = 'zh-cn'
+title = 'NUC NAS Hub'
+theme = []
+
+[params]
+  description = "专注 NUC、NAS 与 本地 AI 部署的极客指南"
+  author = "Geek Admin"
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "硬件实验室"
+  url = "/hardware/"
+  weight = 2
+[[menu.main]]
+  name = "NAS 学院"
+  url = "/nas/"
+  weight = 3
+[[menu.main]]
+  name = "AI 本地化"
+  url = "/ai/"
+  weight = 4
+[[menu.main]]
+  name = "算力计算"
+  url = "/calculator/"
+  weight = 5
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

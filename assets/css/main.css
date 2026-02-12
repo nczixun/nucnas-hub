@@ -1,0 +1,21 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glow-hover:hover {
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4), inset 0 0 10px rgba(0, 240, 255, 0.1);
+    border-color: #00F0FF;
+  }
+  .bg-grid {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #2d3748 1px, transparent 1px);
+    mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+  }
+}
+
+body {
+  @apply bg-tech-bg text-text-main font-sans antialiased;
+}
