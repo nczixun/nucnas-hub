@@ -1,18 +1,21 @@
 baseURL = 'https://nucnas.top/'
 languageCode = 'zh-cn'
-title = 'NUC NAS Hub'
-theme = []
+# 1. 标题不再强调 NUC，而是强调 Hub (中心)
+title = 'NUC NAS Hub | 迷你主机与私有云指南' 
 
 [params]
-  description = "专注 NUC、NAS 与 本地 AI 部署的极客指南"
+  # 2. 描述要覆盖全品类：Intel, AMD, Apple
+  description = "专注 Mini PC (迷你主机)、NAS 私有云搭建与 HomeLab 实验室。涵盖 Intel NUC、铭凡、零刻、Mac mini 等 SFF 小主机评测与 AI 部署教程。"
   author = "Geek Admin"
+  keywords = "Mini PC, NUC, NAS, SFF, 铭凡, 零刻, Mac mini, HomeLab, 软路由, All-in-One"
 
+# 3. 菜单名称微调，显得更宽泛
 [[menu.main]]
   name = "首页"
   url = "/"
   weight = 1
 [[menu.main]]
-  name = "硬件实验室"
+  name = "主机评测" # 从“硬件实验室”改为更直接的“主机评测”
   url = "/hardware/"
   weight = 2
 [[menu.main]]
@@ -24,10 +27,6 @@ theme = []
   url = "/ai/"
   weight = 4
 [[menu.main]]
-  name = "算力计算"
+  name = "性能天梯" # 从“算力计算”改为“性能天梯”，听起来更像涵盖了所有品牌
   url = "/calculator/"
   weight = 5
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true

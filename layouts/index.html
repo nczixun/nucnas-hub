@@ -1,74 +1,75 @@
 {{ define "main" }}
 <div style="padding: 80px 0;">
     
-    <!-- Hero Section -->
+    <!-- Hero Section: 重新定义 "NUC" -->
     <div style="text-align: center; margin-bottom: 100px;">
         <h1 style="font-size: 80px; font-weight: 700; letter-spacing: -0.015em; margin: 0 0 15px 0;">
-            方寸之间。<br>
-            <span style="background: linear-gradient(90deg, #0071E3, #2BD9FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">大有作为。</span>
+            小体积。<br>
+            <span style="background: linear-gradient(90deg, #0071E3, #A855F7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">大千世界。</span>
         </h1>
-        <p style="font-size: 24px; color: #86868B; max-width: 700px; margin: 0 auto 40px auto; font-weight: 500;">
-            在 NUC 上构建你的个人云端。更私密，更强大。
+        <p style="font-size: 24px; color: #86868B; max-width: 800px; margin: 0 auto 40px auto; font-weight: 500;">
+            从 Intel NUC 到 AMD Ryzen，再到 Apple Mac mini。<br>
+            探索 Mini PC 的极限性能，构建你的桌面数据中心。
         </p>
         <div style="display: flex; justify-content: center; gap: 30px; align-items: center;">
-            <a href="/nas" class="btn-apple">开始了解</a>
-            <a href="/calculator" class="link-more">查看算力矩阵 ></a>
+            <a href="/hardware" class="btn-apple">浏览主机库</a>
+            <a href="/nas" class="link-more">如何搭建 NAS ></a>
         </div>
     </div>
 
-    <!-- Bento Grid 布局 -->
+    <!-- Bento Grid 布局: 展示多样性 -->
     <style>
-        .bento-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-        }
+        .bento-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
         .bento-item {
-            background: #FFFFFF;
-            border-radius: 28px;
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            transition: transform 0.5s cubic-bezier(0.15, 0, 0.2, 1);
-            border: 1px solid rgba(0,0,0,0.02);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-            text-decoration: none;
-            color: inherit;
+            background: #FFFFFF; border-radius: 28px; padding: 30px;
+            display: flex; flex-direction: column; justify-content: flex-start;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.04); text-decoration: none; color: inherit; height: 100%;
         }
-        .bento-item:hover { transform: scale(1.01); box-shadow: 0 10px 40px rgba(0,0,0,0.08); }
-        .bento-tag { font-size: 14px; font-weight: 600; color: #BF4800; margin-bottom: 12px; text-transform: uppercase; }
-        .bento-title { font-size: 32px; font-weight: 700; margin: 0 0 10px 0; }
-        .bento-desc { font-size: 17px; color: #86868B; margin: 0; }
+        .bento-item:hover { transform: translateY(-4px); box-shadow: 0 15px 30px rgba(0,0,0,0.08); }
+        .bento-tag { font-size: 13px; font-weight: 700; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .bento-title { font-size: 24px; font-weight: 700; margin: 0 0 8px 0; }
+        .bento-desc { font-size: 15px; color: #86868B; line-height: 1.5; }
         
-        .full-width { grid-column: span 2; }
+        .span-2 { grid-column: span 2; }
+        .bg-gray { background: #F5F5F7; }
+        .bg-dark { background: #1D1D1F; color: white; }
+        .text-blue { color: #0071E3; }
+        .text-purple { color: #BF4800; } /* 铭凡/AMD 风格色 */
+        .text-green { color: #10B981; }
     </style>
 
     <div class="bento-grid">
-        <!-- 重点评测 -->
-        <a href="/hardware" class="bento-item full-width" style="background: #f5f5f7;">
-            <span class="bento-tag" style="color: #0071e3;">Hardware Lab</span>
-            <h2 class="bento-title">NUC 14 Pro+ 深度评测</h2>
-            <p class="bento-desc">Ultra 9 芯片，本地 AI 推理的理想选择。见识小主机的性能巅峰。</p>
-            <div style="margin-top: 40px; display: flex; justify-content: center;">
-                <!-- 这里可以放置一张极简的小主机正面渲染图 -->
-                <div style="width: 100%; max-width: 400px; height: 200px; background: linear-gradient(180deg, #E5E5E7, #D2D2D7); border-radius: 12px;"></div>
-            </div>
+        <!-- 1. 强调 AMD 阵营 (抓住当下热点) -->
+        <a href="/hardware" class="bento-item span-2 bg-gray">
+            <span class="bento-tag text-purple">AMD Ryzen 阵营</span>
+            <h2 class="bento-title">铭凡 & 零刻 & 极摩客</h2>
+            <p class="bento-desc">核显性能的王者。深入评测 Ryzen 7 7840HS/8845HS 机型，从游戏到虚拟机的全能表现。</p>
+            <!-- 示意图占位 -->
+            <div style="margin-top:20px; height:120px; background:linear-gradient(to right, #ddd, #eee); border-radius:12px;"></div>
         </a>
 
-        <!-- NAS 指南 -->
+        <!-- 2. Apple 生态 -->
+        <a href="/hardware/apple-mac-mini-m4" class="bento-item">
+            <span class="bento-tag text-blue">Apple Silicon</span>
+            <h2 class="bento-title">Mac mini</h2>
+            <p class="bento-desc">静音与能效的巅峰。M4 芯片如何改变家庭服务器的玩法？</p>
+        </a>
+
+        <!-- 3. 经典 NUC 与 NAS -->
         <a href="/nas" class="bento-item">
-            <span class="bento-tag">NAS Academy</span>
-            <h2 class="bento-title">飞牛 OS</h2>
-            <p class="bento-desc">简单、易用。10 分钟构建全能多媒体中心。</p>
+            <span class="bento-tag text-green">HomeLab & NAS</span>
+            <h2 class="bento-title">All-in-One 指南</h2>
+            <p class="bento-desc">利用 PVE 或 ESXi，在一台小主机上同时运行 OpenWrt、NAS 和 Windows。</p>
         </a>
 
-        <!-- AI 部署 -->
-        <a href="/ai" class="bento-item" style="background: #000; color: #fff;">
-            <span class="bento-tag" style="color: #A855F7;">Local AI</span>
-            <h2 class="bento-title" style="color: #fff;">DeepSeek-R1</h2>
-            <p class="bento-desc" style="color: #A1A1A6;">在本地运行大模型，保护你的隐私。完全掌控，无需联网。</p>
+        <!-- 4. AI 算力 -->
+        <a href="/ai" class="bento-item span-2 bg-dark">
+            <span class="bento-tag" style="color: #A855F7;">Local AI Hub</span>
+            <h2 class="bento-title" style="color: white;">本地大模型部署</h2>
+            <p class="bento-desc" style="color: #86868B;">无论是 NPU、核显还是外接独显。教你用最低成本部署 DeepSeek、Llama 3 和 Stable Diffusion。</p>
         </a>
     </div>
+
 </div>
 {{ end }}
