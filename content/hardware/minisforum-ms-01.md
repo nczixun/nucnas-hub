@@ -1,80 +1,41 @@
 ---
-title: "Minisforum MS-01"
-date: 2026-02-12
-summary: "Minisforum MS-01 搭载 i9-13900H Workstation，是 Minisforum 旗下的主力机型。"
+title: "铭凡 MS-01 工作站：HomeLab 玩家的终极梦想"
+date: 2026-02-14
+summary: "双万兆光口 + 三硬盘位 + PCIe 插槽。它不是普通的 Mini PC，它是一台微缩的企业级服务器。"
 categories: ["hardware"]
-tags: ["Minisforum", "MiniPC", "i9-13900H Workstation"]
+brand: "Minisforum"
+model: "MS-01"
+cpu: "Core i9-13900H"
+platform: "intel"
+official_url: "https://search.jd.com/Search?keyword=Minisforum+MS-01"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+MS-01+测评"
+youtube_url: "https://www.youtube.com/results?search_query=Minisforum+MS-01+review"
 ---
 
-<div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 10px;">MS-01</h1>
-    <p style="color: #86868B; font-size: 20px;">Minisforum // i9-13900H Workstation</p>
-</div>
+## 1. 定位：桌面级服务器
+MS-01 预留了一个 PCIe 4.0 x8 半高插槽！你可以插半高显卡或者万兆网卡扩展。
 
-<!-- Apple 风格参数卡片 -->
-<div class="glass-card" style="margin-bottom: 40px; text-align: left;">
-    <h2 style="font-size: 24px; margin-bottom: 20px;">核心规格速览</h2>
-    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-        <div>
-            <span style="display: block; font-size: 12px; color: #86868B; text-transform: uppercase;">Processor</span>
-            <span style="font-weight: 600;">i9-13900H Workstation</span>
-        </div>
-        <div>
-            <span style="display: block; font-size: 12px; color: #86868B; text-transform: uppercase;">Form Factor</span>
-            <span style="font-weight: 600;">Mini PC</span>
-        </div>
-        <div>
-            <span style="display: block; font-size: 12px; color: #86868B; text-transform: uppercase;">Brand</span>
-            <span style="font-weight: 600;">Minisforum</span>
-        </div>
-        <div>
-            <span style="display: block; font-size: 12px; color: #86868B; text-transform: uppercase;">Usage</span>
-            <span style="font-weight: 600;">HomeLab / Office</span>
-        </div>
-    </div>
-</div>
+## 2. 存储：三盘位
+支持 3 个 M.2 插槽，其中一个还支持企业级的 U.2 SSD。
 
-<!-- 外部链接按钮组 -->
-<div style="display: flex; flex-direction: column; gap: 15px;">
-    
-    <!-- 官方链接 -->
-    <a href="https://store.minisforum.com/" target="_blank" class="glass-card" style="display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; padding: 20px;">
-        <div style="display: flex; align-items: center; gap: 15px;">
-            <div style="width: 40px; height: 40px; background: #0071E3; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">官</div>
-            <div>
-                <div style="font-weight: 600;">访问 Minisforum 官方网站</div>
-                <div style="font-size: 12px; color: #86868B;">查看详细技术规格与驱动下载</div>
-            </div>
-        </div>
-        <span style="color: #0071E3;">Go &rarr;</span>
+### ✅ 优点
+双 10G SFP+ 万兆口, 扩展性无敌, 支持 U.2 硬盘, 做工扎实
+
+### ❌ 遗憾
+风扇噪音较大, 价格较贵, 内部结构复杂
+
+---
+## 📺 视频评测推荐
+<div style='display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px;'>
+    <a href='https://search.bilibili.com/all?keyword=Minisforum+MS-01+测评' target='_blank' class='glass-card' style='flex: 1; padding: 20px; display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;'>
+        <div style='width: 40px; height: 40px; background: #FB7299; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;'>B</div>
+        <div><div style='font-weight: 700;'>Bilibili 测评</div><div style='font-size: 12px; color: #86868B;'>国内实测</div></div>
     </a>
-
-    <!-- KOL 测评聚合 (Bilibili) -->
-    <a href="https://search.bilibili.com/all?keyword=Minisforum+MS-01+测评" target="_blank" class="glass-card" style="display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; padding: 20px;">
-        <div style="display: flex; align-items: center; gap: 15px;">
-            <div style="width: 40px; height: 40px; background: #FB7299; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">B</div>
-            <div>
-                <div style="font-weight: 600;">Bilibili 视频测评</div>
-                <div style="font-size: 12px; color: #86868B;">查看国内 UP 主的拆解与实测</div>
-            </div>
-        </div>
-        <span style="color: #FB7299;">Watch &rarr;</span>
+    <a href='https://www.youtube.com/results?search_query=Minisforum+MS-01+review' target='_blank' class='glass-card' style='flex: 1; padding: 20px; display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;'>
+        <div style='width: 40px; height: 40px; background: #FF0000; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;'>Y</div>
+        <div><div style='font-weight: 700;'>YouTube</div><div style='font-size: 12px; color: #86868B;'>全球视角</div></div>
     </a>
-
-    <!-- KOL 测评聚合 (YouTube) -->
-    <a href="https://www.youtube.com/results?search_query=Minisforum+MS-01+review" target="_blank" class="glass-card" style="display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: inherit; padding: 20px;">
-        <div style="display: flex; align-items: center; gap: 15px;">
-            <div style="width: 40px; height: 40px; background: #FF0000; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">Y</div>
-            <div>
-                <div style="font-weight: 600;">YouTube Global Reviews</div>
-                <div style="font-size: 12px; color: #86868B;">全球科技媒体评测汇总</div>
-            </div>
-        </div>
-        <span style="color: #FF0000;">Watch &rarr;</span>
-    </a>
-
 </div>
-
-<div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #E5E5E5; text-align: center; color: #86868B; font-size: 12px;">
-    * 测评链接为实时搜索生成，确保获取最新内容。
+<div style='margin-top: 30px; text-align: center;'>
+    <a href='https://search.jd.com/Search?keyword=Minisforum+MS-01' target='_blank' class='btn-apple' style='background: #E1251B; color:white; border-radius: 99px; padding: 10px 25px; display: inline-block; text-decoration:none;'>去京东查看价格 &rarr;</a>
 </div>
