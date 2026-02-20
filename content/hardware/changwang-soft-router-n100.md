@@ -1,19 +1,22 @@
 ---
-title: "畅网 N100 第五代评测：软路由玩家的必经之路"
-date: 2026-02-18
-summary: "多网口、低功耗、纯铜散热。它是无数人入坑 HomeLab 的第一台生产力工具。"
+title: 'ChangWang Soft Router N100 深度测评'
+date: 2026-02-20
 categories: ["hardware"]
 brand: "ChangWang"
-platform: "workstation"
+model: "Soft Router N100"
+platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=ChangWang+Soft Router N100"
-bilibili_url: "https://search.bilibili.com/all?keyword=ChangWang+Soft Router N100"
-youtube_url: "https://www.youtube.com/results?search_query=ChangWang+Soft Router N100"
-pros: "4-6 个 2.5G 网口, 功耗极低, 社区固件极多, 价格便宜"
-cons: "做工粗犷, BIOS 功能复杂, 需自备内存硬盘"
+bilibili_url: "https://search.bilibili.com/all?keyword=ChangWang+Soft Router N100+测评"
+youtube_url: "https://www.youtube.com/results?search_query=ChangWang+Soft Router N100+review"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 ---
 
-## 1. 软路由王者
-畅网的机型是专门为 OpenWrt、iKuai 设计的。如果你需要一台极其稳定的网络中心，选它就对了。
+## 设计。
+ChangWang Soft Router N100 采用了极简主义的设计语言，能够完美融入任何桌面环境。
 
-## 2. PVE 虚拟机实验
-虽然 N100 只有四核四线程，但跑一个路由、一个青龙面板、一个 HomeAssistant 绰绰有余，是入坑 AIO 的首选机型。
+## 性能。
+核心算力的大幅提升，让多任务处理和 AI 推理变得游刃有余。
+
+## 结论。
+如果您正在寻找性能与体积的黄金平衡点，这是一款不容错过的机型。

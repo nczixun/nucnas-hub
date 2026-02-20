@@ -30,3 +30,7 @@ title = 'NUC NAS Hub | 迷你主机与私有云指南'
   name = "性能天梯" # 从“算力计算”改为“性能天梯”，听起来更像涵盖了所有品牌
   url = "/calculator/"
   weight = 5
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

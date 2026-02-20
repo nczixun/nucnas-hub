@@ -1,41 +1,22 @@
 ---
-title: "极摩客 K8 评测：性价比屠夫的自我修养"
-date: 2026-02-14
-summary: "同样的配置，比友商便宜 500 块。K8 用塑料外壳换来了极致的性价比和激进的性能释放。"
+title: 'GMKtec K8 深度测评'
+date: 2026-02-20
 categories: ["hardware"]
 brand: "GMKtec"
 model: "K8"
-cpu: "Ryzen 7 8845HS"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=GMKtec+K8"
 bilibili_url: "https://search.bilibili.com/all?keyword=GMKtec+K8+测评"
 youtube_url: "https://www.youtube.com/results?search_query=GMKtec+K8+review"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 ---
 
-## 1. 接口优势
-相比零刻 SER8，K8 保留了双 2.5G 网口。这让它非常适合作为 All-in-One 主机。
+## 设计。
+GMKtec K8 采用了极简主义的设计语言，能够完美融入任何桌面环境。
 
-## 2. 总结
-如果你是实用主义者，或者预算有限但想要高性能，K8 是京东上性价比最高的选择。
+## 性能。
+核心算力的大幅提升，让多任务处理和 AI 推理变得游刃有余。
 
-### ✅ 优点
-同配置价格最低, 双 2.5G 网口, 性能释放激进
-
-### ❌ 遗憾
-塑料外壳质感一般, 风扇声音较尖锐
-
----
-## 📺 视频评测推荐
-<div style='display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px;'>
-    <a href='https://search.bilibili.com/all?keyword=GMKtec+K8+测评' target='_blank' class='glass-card' style='flex: 1; padding: 20px; display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;'>
-        <div style='width: 40px; height: 40px; background: #FB7299; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;'>B</div>
-        <div><div style='font-weight: 700;'>Bilibili 测评</div><div style='font-size: 12px; color: #86868B;'>国内实测</div></div>
-    </a>
-    <a href='https://www.youtube.com/results?search_query=GMKtec+K8+review' target='_blank' class='glass-card' style='flex: 1; padding: 20px; display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;'>
-        <div style='width: 40px; height: 40px; background: #FF0000; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;'>Y</div>
-        <div><div style='font-weight: 700;'>YouTube</div><div style='font-size: 12px; color: #86868B;'>全球视角</div></div>
-    </a>
-</div>
-<div style='margin-top: 30px; text-align: center;'>
-    <a href='https://search.jd.com/Search?keyword=GMKtec+K8' target='_blank' class='btn-apple' style='background: #E1251B; color:white; border-radius: 99px; padding: 10px 25px; display: inline-block; text-decoration:none;'>去京东查看价格 &rarr;</a>
-</div>
+## 结论。
+如果您正在寻找性能与体积的黄金平衡点，这是一款不容错过的机型。
