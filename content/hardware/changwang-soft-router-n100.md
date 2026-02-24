@@ -1,4 +1,4 @@
----
+﻿---
 title: '软路由玩家的终极玩具——畅网微控N100 先锋版V2 开箱测评：四网口小钢炮'
 date: 2026-02-19
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=ChangWang+Soft Router N10
 youtube_url: "https://www.youtube.com/results?search_query=ChangWang+Soft Router N100+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "changwang-soft-router-n100"
 ---
 
 # 软路由玩家的“终极玩具”——畅网微控N100 先锋版V2 开箱测评：四网口小钢炮

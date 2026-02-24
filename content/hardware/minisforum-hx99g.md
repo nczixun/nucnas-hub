@@ -1,4 +1,4 @@
----
+﻿---
 title: '独显迷你主机的性能标杆——铭凡 Neptune HX99G 开箱测评：当迷你主机塞进独立显卡'
 date: 2026-02-20
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+HX99G+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+HX99G+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "minisforum-hx99g"
 ---
 
 # 独显迷你主机的"性能标杆"——铭凡 Neptune HX99G 开箱测评：当迷你主机塞进独立显卡

@@ -7,11 +7,13 @@ title = 'NUC NAS Hub | 迷你主机与私有云指南'
   author = "Geek Admin"
   keywords = "Mini PC, NUC, NAS, SFF, 铭凡, 零刻, Mac mini, HomeLab, 软路由, All-in-One"
 
+# 核心修改：将 :title 彻底替换为 :slug
+# 这样 Hugo 就会优先读取你刚才批量添加的英文 slug，生成干净的短链接
 [permalinks]
-  posts = "/posts/:title/"
-  hardware = "/hardware/:title/" # 建议为每个板块单独设置，更清晰
-  nas = "/nas/:title/"
-  ai = "/ai/:title/"
+  posts = "/posts/:slug/"
+  hardware = "/hardware/:slug/" 
+  nas = "/nas/:slug/"
+  ai = "/ai/:slug/"
 
 [sitemap]
   changefreq = "weekly"
@@ -22,18 +24,22 @@ title = 'NUC NAS Hub | 迷你主机与私有云指南'
   name = "首页"
   url = "/"
   weight = 1
+
 [[menu.main]]
   name = "主机评测"
   url = "/hardware/"
   weight = 2
+
 [[menu.main]]
   name = "NAS 学院"
   url = "/nas/"
   weight = 3
+
 [[menu.main]]
   name = "AI 本地化"
   url = "/ai/"
   weight = 4
+
 [[menu.main]]
   name = "性能天梯"
   url = "/calculator/"

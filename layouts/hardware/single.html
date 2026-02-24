@@ -1,74 +1,118 @@
 {{ define "main" }}
-<div style="background-color: #fbfbfd; min-height: 100vh; padding-bottom: 100px;">
-    <!-- 1. 头部区域 -->
-    <header style="max-width: 800px; margin: 0 auto; padding: 80px 22px 40px 22px; text-align: center;">
-        <h1 style="font-size: 48px; font-weight: 700; color: #1d1d1f; letter-spacing: -0.015em; margin-bottom: 20px; line-height: 1.1;">
-            {{ .Title }}
-        </h1>
-        <div style="font-size: 17px; color: #86868b; font-weight: 400;">
-            <time>{{ .Date.Format "2006年01月02日" }}</time>
-            <span style="margin: 0 10px; opacity: 0.3;">|</span>
-            <span>主机评测库</span>
-        </div>
-    </header>
 
-    <!-- 2. 正文容器 -->
-    <main style="max-width: 800px; margin: 0 auto; padding: 0 22px;">
-        <article style="background: #ffffff; border-radius: 24px; padding: 40px; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 20px rgba(0,0,0,0.02); line-height: 1.8; font-size: 17px; color: #1d1d1f;">
-            
-            <style>
-                .apple-content h2 { font-size: 28px; font-weight: 700; margin-top: 40px; margin-bottom: 20px; color: #1d1d1f; border-bottom: 1px solid #f5f5f7; padding-bottom: 10px; }
-                .apple-content p { margin-bottom: 25px; opacity: 0.9; }
-                .pro-con-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 40px 0; }
-                @media (max-width: 600px) { .pro-con-grid { grid-template-columns: 1fr; } }
-            </style>
+<style>
+  /* 复用列表页变量，保持风格统一 */
+  :root {
+    --ui-text-main: #1a1a1a;
+    --ui-text-sub: #444444; /* 正文颜色稍深 */
+    --ui-text-meta: #999999;
+    --ui-border: #eaeaea;
+  }
 
-            <div class="apple-content">
-                {{ .Content }}
-            </div>
+  .article-container {
+    max-width: 800px; /* 内容页更窄，聚焦阅读 */
+    margin: 0 auto;
+    padding: 60px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
 
-            <!-- 3. 优缺点对比 (从 Params 读取) -->
-            <div class="pro-con-grid">
-                <div style="background: #f5f5f7; border-radius: 18px; padding: 25px;">
-                    <div style="color: #10b981; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 20px;">✅</span> 优点
-                    </div>
-                    <div style="font-size: 15px; color: #424245; line-height: 1.6;">
-                        {{ if .Params.pros }}{{ .Params.pros }}{{ else }}暂无数据{{ end }}
-                    </div>
-                </div>
-                <div style="background: #f5f5f7; border-radius: 18px; padding: 25px;">
-                    <div style="color: #ef4444; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
-                        <span style="font-size: 20px;">❌</span> 遗憾
-                    </div>
-                    <div style="font-size: 15px; color: #424245; line-height: 1.6;">
-                        {{ if .Params.cons }}{{ .Params.cons }}{{ else }}暂无数据{{ end }}
-                    </div>
-                </div>
-            </div>
+  /* 导航栏 */
+  .article-nav {
+    margin-bottom: 40px;
+  }
+  
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--ui-text-meta);
+    transition: color 0.2s;
+    font-weight: 500;
+  }
+  
+  .back-btn:hover {
+    color: var(--ui-text-main);
+  }
 
-            <!-- 4. 视频卡片 -->
-            <div style="margin-top: 60px;">
-                <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 25px;">📺 评测视频</h3>
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                    <a href="{{ .Params.bilibili_url }}" target="_blank" style="text-decoration: none; background: #000; color: #fff; border-radius: 16px; padding: 20px; text-align: center; transition: 0.3s;">
-                        <div style="font-weight: 600;">Bilibili</div>
-                        <div style="font-size: 12px; opacity: 0.5;">国内实测</div>
-                    </a>
-                    <a href="{{ .Params.youtube_url }}" target="_blank" style="text-decoration: none; background: #f5f5f7; color: #1d1d1f; border-radius: 16px; padding: 20px; text-align: center; border: 1px solid rgba(0,0,0,0.05); transition: 0.3s;">
-                        <div style="font-weight: 600;">YouTube</div>
-                        <div style="font-size: 12px; opacity: 0.5;">全球视野</div>
-                    </a>
-                </div>
-            </div>
+  /* 文章头部 */
+  .article-header {
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--ui-border);
+    padding-bottom: 30px;
+  }
 
-            <!-- 5. 京东按钮 -->
-            <div style="margin-top: 50px; text-align: center; padding-top: 40px; border-top: 1px solid #f5f5f7;">
-                <a href="{{ .Params.official_url }}" target="_blank" style="background: #e1251b; color: white; padding: 16px 40px; border-radius: 99px; text-decoration: none; font-weight: 700; font-size: 17px; display: inline-block;">
-                    在京东查看实时价格 &rarr;
-                </a>
-            </div>
-        </article>
-    </main>
-</div>
+  .article-title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: var(--ui-text-main);
+    margin-bottom: 20px;
+  }
+
+  .article-meta {
+    font-size: 14px;
+    color: var(--ui-text-meta);
+    display: flex;
+    gap: 20px;
+  }
+
+  /* 正文区域 - 流式排版 */
+  .article-content {
+    font-size: 17px;
+    line-height: 1.8; /* 1.8倍行高，极致阅读体验 */
+    color: var(--ui-text-sub);
+  }
+
+  /* 正文排版细节控制 */
+  .article-content h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--ui-text-main);
+  }
+  
+  .article-content p {
+    margin-bottom: 24px;
+  }
+
+  .article-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+    .article-title { font-size: 28px; }
+    .article-content { font-size: 16px; }
+  }
+</style>
+
+<article class="article-container">
+  <!-- 顶部导航 -->
+  <nav class="article-nav">
+    <!-- link 返回上一级目录 -->
+    <a href="../" class="back-btn">← 返回列表</a>
+  </nav>
+
+  <header class="article-header">
+    <h1 class="article-title">{{ .Title }}</h1>
+    <div class="article-meta">
+      <span>发布于 {{ .Date.Format "2006-01-02" }}</span>
+      {{ with .Params.author }}<span>作者: {{ . }}</span>{{ end }}
+    </div>
+  </header>
+
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+  
+  <!-- 底部导航 (可选) -->
+  <nav class="article-nav" style="margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--ui-border);">
+    <a href="../" class="back-btn">← 返回列表</a>
+  </nav>
+</article>
+
 {{ end }}

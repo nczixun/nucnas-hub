@@ -1,4 +1,4 @@
----
+﻿---
 title: '卷出天际的虎啸小钢炮——铭凡 UM780 XTX 开箱测评：当OCuLink遇上可换盖RGB灯效'
 date: 2026-02-20
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM780 XTX+测�
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+UM780 XTX+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "minisforum-um780-xtx"
 ---
 
 # 卷出天际的"虎啸"小钢炮——铭凡 UM780 XTX 开箱测评：当OCuLink遇上可换盖RGB灯效

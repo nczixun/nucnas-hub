@@ -1,4 +1,4 @@
----
+﻿---
 title: '小米生态的性价比入门之选——小米迷你主机 开箱测评：当MIUI设计语言注入桌面'
 date: 2026-02-20
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Xiaomi+Mini Host+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Xiaomi+Mini Host+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "xiaomi-mini-host"
 ---
 
 

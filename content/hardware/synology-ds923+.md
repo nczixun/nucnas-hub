@@ -1,4 +1,4 @@
----
+﻿---
 title: '专业用户的稳定之选——群晖 DS923+ 开箱测评：4盘位NAS的生态标杆'
 date: 2026-02-20
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Synology+DS923++测评"
 youtube_url: "https://www.youtube.com/results?search_query=Synology+DS923++review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "synology-ds923+"
 ---
 
 # 专业用户的稳定之选——群晖 DS923+ 开箱测评：4盘位NAS的"生态标杆"

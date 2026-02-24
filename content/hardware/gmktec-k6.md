@@ -1,4 +1,4 @@
----
+﻿---
 title: 'GMKtec K6 深度测评'
 date: 2026-02-20
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=GMKtec+K6+测评"
 youtube_url: "https://www.youtube.com/results?search_query=GMKtec+K6+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "gmktec-k6"
 ---
 
 ## 设计。

@@ -1,4 +1,4 @@
----
+﻿---
 title: '英特尔酷睿Ultra的静音美学——零刻 Beelink SEi14 开箱测评：AI PC时代的桌面艺术品'
 date: 2026-02-17
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SEi14+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Beelink+SEi14+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "beelink-sei14"
 ---
 
 # 英特尔酷睿Ultra的“静音美学”——零刻 Beelink SEi14 开箱测评：AI PC时代的桌面艺术品

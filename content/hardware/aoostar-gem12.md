@@ -1,4 +1,4 @@
----
+﻿---
 title: '掌心性能怪兽——天钡 AOOSTAR GEM12 Pro 开箱测评：当迷你主机装上智慧之窗'
 date: 2026-02-14
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Aoostar+GEM12+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Aoostar+GEM12+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "aoostar-gem12"
 ---
 
 # 掌心性能怪兽——天钡 AOOSTAR GEM12 Pro 开箱测评：当迷你主机装上“智慧之窗”

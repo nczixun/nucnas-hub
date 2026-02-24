@@ -1,4 +1,4 @@
----
+﻿---
 title: '数据资产的安全港湾——绿联 DX4600 开箱测评：四盘位NAS的入门优选'
 date: 2026-02-20
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=UGREEN+DX4600+测评"
 youtube_url: "https://www.youtube.com/results?search_query=UGREEN+DX4600+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "ugreen-dx4600"
 ---
 
 # 数据资产的安全港湾——绿联 DX4600 开箱测评：四盘位NAS的"入门优选"

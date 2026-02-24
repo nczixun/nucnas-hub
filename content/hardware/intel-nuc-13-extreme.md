@@ -1,4 +1,4 @@
----
+﻿---
 title: '性能无妥协的小尺寸巨兽——Intel NUC 13 Extreme 猛禽峡谷 开箱测评：当NUC终于长成ITX的模样'
 date: 2026-02-19
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Intel+NUC 13 Extreme+测�
 youtube_url: "https://www.youtube.com/results?search_query=Intel+NUC 13 Extreme+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "intel-nuc-13-extreme"
 ---
 
 # 性能无妥协的"小尺寸巨兽"——Intel NUC 13 Extreme 猛禽峡谷 开箱测评：当NUC终于长成ITX的模样

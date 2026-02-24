@@ -1,4 +1,4 @@
----
+﻿---
 title: '1升体积的性能小钢炮——Minisforum UM790 Pro 开箱测评：当迷你主机遇上锐龙9'
 date: 2026-02-20
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM790 Pro+测�
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+UM790 Pro+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "minisforum-um790-pro"
 ---
 
 # 1升体积的性能"小钢炮"——Minisforum UM790 Pro 开箱测评：当迷你主机遇上锐龙9

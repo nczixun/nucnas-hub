@@ -1,4 +1,4 @@
----
+﻿---
 title: '重新定义入门级性能的5x5方糖——苹果 Mac mini M4 开箱测评：小巧身，大心脏'
 date: 2026-02-14
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Apple+Mac mini M4+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Apple+Mac mini M4+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "apple-mac-mini-m4"
 ---
 
 # 重新定义入门级性能的“5x5方糖”——苹果 Mac mini M4 开箱测评：小巧身，大心脏

@@ -1,4 +1,4 @@
----
+﻿---
 title: '2.5升的信仰性能怪兽——华硕 ROG NUC 开箱测评：当ROG血统注入NUC'
 date: 2026-02-16
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=ASUS+ROG NUC+测评"
 youtube_url: "https://www.youtube.com/results?search_query=ASUS+ROG NUC+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "asus-rog-nuc"
 ---
 
 # 2.5升的“信仰”性能怪兽——华硕 ROG NUC 开箱测评：当ROG血统注入NUC

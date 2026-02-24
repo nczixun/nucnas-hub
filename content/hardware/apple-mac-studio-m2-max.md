@@ -1,4 +1,4 @@
----
+﻿---
 title: '专业创作领域的沉默巨匠——苹果 Mac Studio (M2 Max) 开箱测评：小尺寸，大能量'
 date: 2026-02-15
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Apple+Mac Studio M2 Max+�
 youtube_url: "https://www.youtube.com/results?search_query=Apple+Mac Studio M2 Max+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "apple-mac-studio-m2-max"
 ---
 
 # 专业创作领域的“沉默巨匠”——苹果 Mac Studio (M2 Max) 开箱测评：小尺寸，大能量

@@ -1,4 +1,4 @@
----
+﻿---
 title: '果味十足的静音性能小钢炮——零刻 Beelink SER8 开箱测评：当8845HS遇上MSC 2.0散热'
 date: 2026-02-18
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SER8+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Beelink+SER8+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "beelink-ser8"
 ---
 
 # 果味十足的“静音性能小钢炮”——零刻 Beelink SER8 开箱测评：当8845HS遇上MSC 2.0散热

@@ -1,4 +1,4 @@
----
+﻿---
 title: '巴掌大小的性能猛兽——华硕 NUC 14 Pro+ 开箱测评：当NUC终于有了115W满血释放'
 date: 2026-02-16
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=ASUS+NUC 14 Pro++测评"
 youtube_url: "https://www.youtube.com/results?search_query=ASUS+NUC 14 Pro++review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "asus-nuc-14-pro+"
 ---
 
 # 巴掌大小的“性能猛兽”——华硕 NUC 14 Pro+ 开箱测评：当NUC终于有了115W满血释放

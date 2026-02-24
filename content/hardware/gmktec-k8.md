@@ -1,4 +1,4 @@
----
+﻿---
 title: '均衡的AI性能小钢炮——极摩客 GMKtec K8 开箱测评：当8845HS遇上双2.5G网口'
 date: 2026-02-19
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=GMKtec+K8+测评"
 youtube_url: "https://www.youtube.com/results?search_query=GMKtec+K8+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "gmktec-k8"
 ---
 
 # 均衡的“AI性能小钢炮”——极摩客 GMKtec K8 开箱测评：当8845HS遇上双2.5G网口

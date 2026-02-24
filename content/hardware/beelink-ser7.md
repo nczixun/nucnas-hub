@@ -1,4 +1,4 @@
----
+﻿---
 title: ' 精益求精的性能小钢炮——零刻 Beelink SER7 开箱测评：当7840HS遇上VC均热板'
 date: 2026-02-18
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SER7+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Beelink+SER7+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "beelink-ser7"
 ---
 
 # 精益求精的“性能小钢炮”——零刻 Beelink SER7 开箱测评：当7840HS遇上VC均热板

@@ -1,4 +1,4 @@
----
+﻿---
 title: '重新定义性能密度的AI工作站——苹果 Mac mini M4 Pro 开箱测评：5×5英寸的超级核心'
 date: 2026-02-15
 categories: ["hardware"]
@@ -10,6 +10,7 @@ bilibili_url: "https://search.bilibili.com/all?keyword=Apple+Mac mini M4 Pro+测
 youtube_url: "https://www.youtube.com/results?search_query=Apple+Mac mini M4 Pro+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
+slug: "apple-mac-mini-m4-pro"
 ---
 
 # 重新定义性能密度的“AI工作站”——苹果 Mac mini M4 Pro 开箱测评：5×5英寸的超级核心
