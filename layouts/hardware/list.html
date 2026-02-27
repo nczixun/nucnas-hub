@@ -11,84 +11,48 @@
     <span>硬件测评</span>
 </nav>
 
-<!-- 筛选栏 -->
-<div class="filter-bar">
-    <div class="filter-group">
-        <span class="filter-label">品牌：</span>
-        <select class="filter-select">
-            <option value="">全部</option>
-            <option value="intel">Intel NUC</option>
-            <option value="amd">AMD Ryzen</option>
-            <option value="apple">Apple</option>
-            <option value="minisforum">铭凡</option>
-            <option value="beelink">零刻</option>
-        </select>
-    </div>
-    <div class="filter-group">
-        <span class="filter-label">类型：</span>
-        <select class="filter-select">
-            <option value="">全部</option>
-            <option value="mini">迷你主机</option>
-            <option value="desktop">台式机</option>
-            <option value="all-in-one">一体机</option>
-        </select>
-    </div>
-    <div class="filter-group">
-        <span class="filter-label">价格：</span>
-        <select class="filter-select">
-            <option value="">全部</option>
-            <option value="0-1000">¥0-1000</option>
-            <option value="1000-2000">¥1000-2000</option>
-            <option value="2000-5000">¥2000-5000</option>
-            <option value="5000+">¥5000+</option>
-        </select>
-    </div>
+<!-- 硬件模块导航 -->
+<div class="nas-modules">
+    <a href="/hardware/" class="nas-module-card">
+        <span class="nas-module-icon">🖥️</span>
+        <span class="nas-module-name">迷你主机</span>
+    </a>
+    <a href="/hardware/" class="nas-module-card">
+        <span class="nas-module-icon">💻</span>
+        <span class="nas-module-name">商务办公</span>
+    </a>
+    <a href="/hardware/" class="nas-module-card">
+        <span class="nas-module-icon">🎮</span>
+        <span class="nas-module-name">游戏主机</span>
+    </a>
+    <a href="/hardware/" class="nas-module-card">
+        <span class="nas-module-icon">⚡</span>
+        <span class="nas-module-name">工作站</span>
+    </a>
 </div>
 
-<!-- 文章列表 -->
-<div class="hardware-grid">
+<!-- 测评列表 -->
+<div class="tutorial-list">
     {{ range .Paginator.Pages }}
-    <a href="{{ .RelPermalink }}" class="hardware-card">
-        <div class="hardware-image">
+    <a href="{{ .RelPermalink }}" class="tutorial-card">
+        <div class="tutorial-icon">
             {{ with .Params.image }}
             <img src="{{ . }}" alt="{{ $.Title }}">
             {{ else }}
-            <div class="hardware-image-placeholder">📷</div>
-            {{ end }}
-            
-            {{ with .Params.tags }}
-            {{ $tags := . }}
-            {{ if reflect.IsSlice $tags }}
-            {{ range first 1 $tags }}
-            <span class="hardware-tag">{{ . }}</span>
-            {{ end }}
-            {{ end }}
-            {{ end }}
-            
-            {{ with .Params.score }}
-            <span class="hardware-score">{{ . }}</span>
+            <span>📖</span>
             {{ end }}
         </div>
-        
-        <div class="hardware-content">
-            <h3 class="hardware-title">{{ .Title }}</h3>
-            
-            <div class="hardware-specs">
-                {{ with .Params.hw_specs.cpu }}
-                <span class="spec-item">🖥️ {{ . }}</span>
+        <div class="tutorial-content">
+            <h3 class="tutorial-title">{{ .Title }}</h3>
+            <p class="tutorial-desc">{{ .Description }}</p>
+            <div class="tutorial-meta">
+                <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
+                {{ with .Params.tags }}
+                {{ $tags := . }}
+                {{ if reflect.IsSlice $tags }}
+                <span>🏷️ {{ index $tags 0 }}</span>
                 {{ end }}
-                {{ with .Params.hw_specs.tdp }}
-                <span class="spec-item">⚡ {{ . }}</span>
                 {{ end }}
-            </div>
-            
-            <div class="hardware-footer">
-                {{ with .Params.price }}
-                <span class="hardware-price">¥{{ . }}</span>
-                {{ else }}
-                <span class="hardware-price">暂无报价</span>
-                {{ end }}
-                <span class="hardware-date">{{ .Date.Format "2006-01-02" }}</span>
             </div>
         </div>
     </a>
@@ -101,9 +65,7 @@
     {{ if .Paginator.HasPrev }}
     <a href="{{ .Paginator.Prev.URL }}" class="pagination-btn">上一页</a>
     {{ end }}
-    
     <span class="pagination-info">第 {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }} 页</span>
-    
     {{ if .Paginator.HasNext }}
     <a href="{{ .Paginator.Next.URL }}" class="pagination-btn">下一页</a>
     {{ end }}
