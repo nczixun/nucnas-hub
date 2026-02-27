@@ -8,9 +8,33 @@ platform: "intel"
 official_url: "https://www.asus.com/content.aspx?Content_Id=123456"
 bilibili_url: "https://search.bilibili.com/all?keyword=ASUS+NUC+14+Pro+Plus"
 youtube_url: "https://www.youtube.com/results?search_query=NUC+14+Pro+Plus+review"
-pros: "强劲性能, 优秀散热, 丰富接口"
-cons: "价格较高, 体积偏大"
+pros: 
+  - "强劲性能"
+  - "优秀散热"
+  - "丰富接口"
+cons: 
+  - "价格较高"
+  - "体积偏大"
 slug: "asus-nuc-14-pro-plus"
+score: 8.8
+tags: 
+  - "首发"
+summary: "Ultra 9 + NPU + RTX 4070 扩展，史上最强 NUC"
+audience: "专业工作站用户"
+price: "5000"
+hw_specs:
+  cpu: "Intel Core Ultra 9 185H"
+  tdp: "65W"
+  ram: "DDR5-5600"
+  storage: "双M.2 8TB"
+  lan: "2.5G双网口"
+  gpu: "Arc Xe-LPG"
+radar:
+  performance: 9.5
+  power: 7
+  io: 9
+  noise: 8
+  price: 5
 ---
 
 # Intel NUC 14 Pro+ 评测：Ultra 9 + RTX 4070 扩展，这是目前最强迷你工作站？

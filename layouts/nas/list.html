@@ -1,96 +1,74 @@
 {{ define "main" }}
-<div class="bg-gray-50 min-h-screen py-12">
-    <div class="max-w-6xl mx-auto px-4">
-        
-        <!-- 标题区 -->
-        <div class="mb-12">
-            <h1 class="text-4xl font-extrabold text-gray-900 mb-2">NAS 学院</h1>
-            <p class="text-gray-500 text-lg">全方位的私有云构建与维护指南</p>
+<div class="list-header">
+    <h1 class="list-title">NAS 学院</h1>
+    <p class="list-desc">全方位私有云构建，从硬件选择到 Docker 应用配置</p>
+</div>
+
+<!-- 面包屑 -->
+<nav class="breadcrumb">
+    <a href="/">首页</a>
+    <span class="breadcrumb-separator">/</span>
+    <span>NAS学院</span>
+</nav>
+
+<!-- NAS 模块导航 -->
+<div class="nas-modules">
+    <a href="/nas/" class="nas-module-card">
+        <span class="nas-module-icon">🖥️</span>
+        <span class="nas-module-name">硬件选择</span>
+    </a>
+    <a href="/nas/" class="nas-module-card">
+        <span class="nas-module-icon">💾</span>
+        <span class="nas-module-name">系统安装</span>
+    </a>
+    <a href="/nas/" class="nas-module-card">
+        <span class="nas-module-icon">📦</span>
+        <span class="nas-module-name">Docker</span>
+    </a>
+    <a href="/nas/" class="nas-module-card">
+        <span class="nas-module-icon">🌐</span>
+        <span class="nas-module-name">网络配置</span>
+    </a>
+</div>
+
+<!-- 教程列表 -->
+<div class="tutorial-list">
+    {{ range .Paginator.Pages }}
+    <a href="{{ .RelPermalink }}" class="tutorial-card">
+        <div class="tutorial-icon">
+            {{ with .Params.image }}
+            <img src="{{ . }}" alt="{{ $.Title }}">
+            {{ else }}
+            <span>📖</span>
+            {{ end }}
         </div>
-
-        <!-- 2 列矩阵布局 -->
-        <!-- grid-cols-1 (手机1列) md:grid-cols-2 (电脑2列) -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
-            
-            <!-- 模块 1 -->
-            <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm transition-all hover:shadow-md">
-                <h2 class="flex items-center gap-2 text-xl font-bold text-emerald-600 mb-6">
-                    <span>🖥️</span> 硬件选择
-                </h2>
-                <div class="space-y-6">
-                    <div class="flex flex-col">
-                        <a href="#" class="text-emerald-700 font-bold text-lg hover:underline decoration-2 underline-offset-4">硬件选购指南</a>
-                        <p class="text-gray-500 text-sm mt-1">教你轻松挑选适合 NAS 的硬件，避开常见的坑。</p>
-                    </div>
-                    <div class="flex flex-col">
-                        <a href="#" class="text-emerald-700 font-bold text-lg hover:underline decoration-2 underline-offset-4">推荐 CPU 和主板配置</a>
-                        <p class="text-gray-500 text-sm mt-1">针对不同预算，从低功耗到高性能的装机方案。</p>
-                    </div>
-                    <div class="flex flex-col">
-                        <a href="#" class="text-emerald-700 font-bold text-lg hover:underline decoration-2 underline-offset-4">存储设备选型建议</a>
-                        <p class="text-gray-500 text-sm mt-1">NAS 专用硬盘与 SSD 缓存的最佳实践。</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 模块 2 -->
-            <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm transition-all hover:shadow-md">
-                <h2 class="flex items-center gap-2 text-xl font-bold text-emerald-600 mb-6">
-                    <span>💿</span> 系统安装
-                </h2>
-                <div class="space-y-6">
-                    <div class="flex flex-col">
-                        <a href="/nas/fnos-guide" class="text-emerald-700 font-bold text-lg hover:underline decoration-2 underline-offset-4">安装指南</a>
-                        <p class="text-gray-500 text-sm mt-1">快速部署 FNOS 系统，10 分钟完成系统安装。</p>
-                    </div>
-                    <div class="flex flex-col">
-                        <a href="#" class="text-emerald-700 font-bold text-lg hover:underline decoration-2 underline-offset-4">初始化配置</a>
-                        <p class="text-gray-500 text-sm mt-1">一键完成系统初次设置，开启你的私有云之旅。</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 模块 3 -->
-            <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm transition-all hover:shadow-md">
-                <h2 class="flex items-center gap-2 text-xl font-bold text-emerald-600 mb-6">
-                    <span>🐋</span> Docker 应用
-                </h2>
-                <div class="space-y-6">
-                    <div class="flex flex-col">
-                        <a href="#" class="text-emerald-700 font-bold text-lg hover:underline decoration-2 underline-offset-4">Docker 入门指南</a>
-                        <p class="text-gray-500 text-sm mt-1">掌握 Container 概念，玩转全能 NAS 的核心。</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 模块 4 -->
-            <div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm transition-all hover:shadow-md">
-                <h2 class="flex items-center gap-2 text-xl font-bold text-emerald-600 mb-6">
-                    <span>🌐</span> 网络配置
-                </h2>
-                <div class="space-y-6">
-                    <div class="flex flex-col">
-                        <a href="#" class="text-emerald-700 font-bold text-lg hover:underline decoration-2 underline-offset-4">网络配置基础</a>
-                        <p class="text-gray-500 text-sm mt-1">常见拓扑与 IP 规划，让内网环境更稳定。</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- 底部最新文章 (修正格式) -->
-        <div class="border-t border-gray-200 pt-12">
-            <h3 class="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6">最新教程列表</h3>
-            <div class="grid grid-cols-1 gap-3">
-                {{ range .Pages }}
-                <a href="{{ .RelPermalink }}" class="flex justify-between items-center bg-white p-4 rounded-xl border border-gray-200 hover:border-emerald-500 transition-colors group">
-                    <span class="font-bold text-gray-700 group-hover:text-emerald-600">{{ .Title }}</span>
-                    <span class="text-xs font-mono text-gray-400">{{ .Date.Format "2006-01-02" }}</span>
-                </a>
+        <div class="tutorial-content">
+            <h3 class="tutorial-title">{{ .Title }}</h3>
+            <p class="tutorial-desc">{{ .Description }}</p>
+            <div class="tutorial-meta">
+                <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
+                {{ with .Params.tags }}
+                {{ $tags := . }}
+                {{ if reflect.IsSlice $tags }}
+                <span>🏷️ {{ index $tags 0 }}</span>
+                {{ end }}
                 {{ end }}
             </div>
         </div>
-
-    </div>
+    </a>
+    {{ end }}
 </div>
+
+<!-- 分页 -->
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="pagination-btn">上一页</a>
+    {{ end }}
+    <span class="pagination-info">第 {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }} 页</span>
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="pagination-btn">下一页</a>
+    {{ end }}
+</nav>
+{{ end }}
 {{ end }}

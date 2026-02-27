@@ -1,16 +1,22 @@
 ﻿---
-title: '重新定义性能密度的AI工作站——苹果 Mac mini M4 Pro 开箱测评：5×5英寸的超级核心'
-date: 2026-02-15
-categories: ["hardware"]
-brand: "Apple"
-model: "Mac mini M4 Pro"
-platform: "apple"
-official_url: "https://search.jd.com/Search?keyword=Apple+Mac mini M4 Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=Apple+Mac mini M4 Pro+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Apple+Mac mini M4 Pro+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
-slug: "apple-mac-mini-m4-pro"
+title: "重新定义性能密度的AI工作站——苹果 Mac mini M4 Pro 开箱测评"
+date: 2026-02-27
+image: "/images/eq12.jpg"
+score: 8.5
+hw_specs:
+  cpu: "Apple M4 Pro (14-core CPU)"
+  lan: ""
+  storage: ""
+  tdp: ""
+pros:
+  - 做工精良，极致的 5x5 英寸设计
+  - M4 Pro 性能释放稳定，能效比无敌
+  - 前置接口增加，雷电 5 传输极快
+cons:
+  - 高负载渲染时风扇噪音可感知
+  - 无法自行升级内存 (统一内存架构)
+  - 电源键位置设计在底部
+tags: ["mac mini", "M4"]
 ---
 
 # 重新定义性能密度的“AI工作站”——苹果 Mac mini M4 Pro 开箱测评：5×5英寸的超级核心

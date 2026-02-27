@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="list-header">
+    <h1 class="list-title">本地大模型</h1>
+    <p class="list-desc">本地部署评测，包括 DeepSeek、Llama 3 和 Stable Diffusion</p>
+</div>
+
+<!-- 面包屑 -->
+<nav class="breadcrumb">
+    <a href="/">首页</a>
+    <span class="breadcrumb-separator">/</span>
+    <span>AI</span>
+</nav>
+
+<!-- AI 分类 -->
+<div class="ai-categories">
+    <a href="/ai/" class="ai-category-card">
+        <span class="ai-category-icon">🧠</span>
+        <span class="ai-category-name">DeepSeek</span>
+    </a>
+    <a href="/ai/" class="ai-category-card">
+        <span class="ai-category-icon">🦙</span>
+        <span class="ai-category-name">Llama</span>
+    </a>
+    <a href="/ai/" class="ai-category-card">
+        <span class="ai-category-icon">🎨</span>
+        <span class="ai-category-name">Stable Diffusion</span>
+    </a>
+    <a href="/ai/" class="ai-category-card">
+        <span class="ai-category-icon">⚡</span>
+        <span class="ai-category-name">硬件算力</span>
+    </a>
+</div>
+
+<!-- 教程列表 -->
+<div class="tutorial-list">
+    {{ range .Paginator.Pages }}
+    <a href="{{ .RelPermalink }}" class="tutorial-card">
+        <div class="tutorial-icon">
+            {{ with .Params.image }}
+            <img src="{{ . }}" alt="{{ $.Title }}">
+            {{ else }}
+            <span>🤖</span>
+            {{ end }}
+        </div>
+        <div class="tutorial-content">
+            <h3 class="tutorial-title">{{ .Title }}</h3>
+            <p class="tutorial-desc">{{ .Description }}</p>
+            <div class="tutorial-meta">
+                <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
+                {{ with .Params.tags }}
+                {{ $tags := . }}
+                {{ if reflect.IsSlice $tags }}
+                <span>🏷️ {{ index $tags 0 }}</span>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </a>
+    {{ end }}
+</div>
+
+<!-- 分页 -->
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="pagination-btn">上一页</a>
+    {{ end }}
+    <span class="pagination-info">第 {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }} 页</span>
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="pagination-btn">下一页</a>
+    {{ end }}
+</nav>
+{{ end }}
+{{ end }}

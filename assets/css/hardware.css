@@ -1,0 +1,54 @@
+/* 容器布局 */
+.hw-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    padding: 20px 0;
+}
+
+/* 卡片样式 */
+.hw-card {
+    background: #1e1e1e; /* 深色背景 */
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border: 1px solid #333;
+    text-decoration: none !important;
+    color: #eee !important;
+}
+.hw-card:hover { transform: translateY(-5px); border-color: #007AFF; }
+
+.hw-card-image {
+    height: 180px;
+    background-size: cover;
+    position: relative;
+}
+
+.hw-score {
+    position: absolute;
+    top: 10px; right: 10px;
+    background: #007AFF;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* 详情页规格表 */
+.hw-hero-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background: #f8f9fa; /* 亮色模式可用，暗色模式请改为 #1a1a1a */
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.hw-spec-table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+.hw-spec-table td { padding: 10px; border-bottom: 1px solid #ddd; }
+.hw-spec-table td:first-child { font-weight: bold; color: #666; width: 120px; }
+
+.hw-pros-cons { display: flex; gap: 20px; width: 100%; }
+.pros { flex: 1; color: #2d8a2d; background: #eaffea; padding: 15px; border-radius: 8px; }
+.cons { flex: 1; color: #a33; background: #ffeaea; padding: 15px; border-radius: 8px; }

@@ -1,17 +1,120 @@
 {{ define "main" }}
-<div class="max-w-4xl mx-auto px-4 py-16">
-    <article class="prose prose-slate dark:prose-invert max-w-none 
-        prose-headings:font-bold prose-h1:text-4xl prose-h2:mt-12
-        prose-a:text-brand prose-pre:bg-slate-900 prose-pre:rounded-xl">
-        <header class="mb-12 border-b border-tech-border dark:border-dark-border pb-8 text-center">
-            <div class="text-brand font-mono text-xs mb-4 uppercase tracking-widest">// Log_Entry: {{ .Section }}</div>
-            <h1 class="mb-4">{{ .Title }}</h1>
-            <div class="flex justify-center gap-6 text-xs font-mono text-slate-400">
-                <span>DATE: {{ .Date.Format "2006-01-02" }}</span>
-                <span>{{ .ReadingTime }} MIN READ</span>
-            </div>
-        </header>
-        <div class="leading-relaxed">{{ .Content }}</div>
-    </article>
+<!-- 面包屑 -->
+<nav class="breadcrumb">
+    <a href="/">首页</a>
+    <span class="breadcrumb-separator">/</span>
+    {{ with .Section }}
+    {{ $section := . }}
+    {{ if eq . "hardware" }}
+    <a href="/hardware/">硬件测评</a>
+    {{ else if eq . "nas" }}
+    <a href="/nas/">NAS学院</a>
+    {{ else if eq . "ai" }}
+    <a href="/ai/">AI</a>
+    {{ else }}
+    <a href="/{{ . }}/">{{ . }}</a>
+    {{ end }}
+    <span class="breadcrumb-separator">/</span>
+    {{ end }}
+    <span>{{ .Title }}</span>
+</nav>
+
+<!-- 文章头部 -->
+<header class="article-header">
+    <h1 class="article-title">{{ .Title }}</h1>
+    
+    <div class="article-meta">
+        <span class="meta-date">🕐 {{ .Date.Format "2006-01-02" }}</span>
+        {{ with .Params.categories }}
+        <span class="meta-category">{{ index . 0 }}</span>
+        {{ end }}
+    </div>
+    
+    <!-- 分享按钮 -->
+    <div class="action-buttons">
+        <button class="action-btn favorite-btn" data-post-id="{{ .RelPermalink }}">
+            <span>⭐</span> 收藏
+        </button>
+        <button class="action-btn share-btn" data-platform="weibo">
+            <span>📤</span> 分享
+        </button>
+    </div>
+</header>
+
+<!-- 文章特色图 -->
+{{ with .Params.image }}
+<figure class="article-featured-image">
+    <img src="{{ . }}" alt="{{ $.Title }}">
+    {{ with $.Params.imageCredit }}
+    <figcaption>摄影：{{ . }}</figcaption>
+    {{ end }}
+</figure>
+{{ end }}
+
+<!-- 文章摘要 -->
+{{ with .Summary }}
+<div class="article-summary">
+    {{ . }}
 </div>
+{{ end }}
+
+<!-- 文章内容 -->
+<article class="article-content">
+    {{ .Content }}
+</article>
+
+<!-- 文章标签 -->
+{{ with .Params.tags }}
+<div class="article-tags">
+    <span class="tags-label">标签：</span>
+    {{ range . }}
+    <a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a>
+    {{ end }}
+</div>
+{{ end }}
+
+<!-- 相关文章推荐 -->
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ if $related }}
+<section class="related-articles">
+    <h3 class="section-title">相关文章</h3>
+    <div class="related-grid">
+        {{ range $related }}
+        <a href="{{ .RelPermalink }}" class="related-card">
+            <div class="related-image">
+                {{ with .Params.image }}
+                <img src="{{ . }}" alt="{{ $.Title }}">
+                {{ else }}
+                <span>📄</span>
+                {{ end }}
+            </div>
+            <h4 class="related-title">{{ .Title }}</h4>
+        </a>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+<!-- 评论区 -->
+<section class="comments-section">
+    <h3 class="section-title">评论</h3>
+    
+    <!-- 评论表单 -->
+    <form class="comment-form" onsubmit="event.preventDefault(); alert('评论功能需要后端支持');">
+        <textarea placeholder="写下你的评论..."></textarea>
+        <button type="submit" class="btn-primary">提交评论</button>
+    </form>
+    
+    <!-- 评论列表 -->
+    <div class="comment-list">
+        <div class="comment-item">
+            <div class="comment-avatar">👤</div>
+            <div class="comment-content">
+                <div class="comment-author">访客</div>
+                <div class="comment-time">2024-01-01</div>
+                <p class="comment-text">期待更多内容！</p>
+            </div>
+        </div>
+    </div>
+</section>
 {{ end }}

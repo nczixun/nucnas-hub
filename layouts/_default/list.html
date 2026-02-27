@@ -1,16 +1,86 @@
 ﻿{{ define "main" }}
-<div class="max-w-4xl mx-auto px-4 py-16">
-    <h1 class="text-4xl font-bold mb-8 font-mono">{{ .Title }}</h1>
-    <div class="grid gap-6">
-        {{ range .Pages }}
-        <article class="bg-tech-card border border-tech-border rounded-xl p-6 glow-hover">
-            <a href="{{ .RelPermalink }}" class="block">
-                <h2 class="text-2xl font-bold mb-2 hover:text-neon-blue transition-colors">{{ .Title }}</h2>
-                <div class="text-xs font-mono text-neon-green mb-4">{{ .Date.Format "Jan 02, 2006" }}</div>
-                <p class="text-text-muted">{{ .Summary }}</p>
-            </a>
-        </article>
-        {{ end }}
+<div class="list-header">
+    <h1 class="list-title">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="list-desc">{{ . }}</p>
+    {{ end }}
+    
+    <!-- 筛选功能 -->
+    <div class="filter-bar" style="margin-top: 32px;">
+        <div class="filter-group">
+            <span class="filter-label">排序：</span>
+            <select class="filter-select">
+                <option>最新发布</option>
+                <option>最多阅读</option>
+                <option>评分最高</option>
+            </select>
+        </div>
+        
+        <div class="filter-tags">
+            <a href="{{ .RelPermalink }}" class="filter-tag active">全部</a>
+        </div>
     </div>
 </div>
+
+<div class="article-list">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="article-item">
+        <div class="article-image" style="background: linear-gradient(135deg, var(--mm-hover), var(--mm-card));"></div>
+        
+        <div class="article-content">
+            <h4 class="article-title">{{ .Title }}</h4>
+            <p class="article-summary" style="color: var(--mm-text-secondary); font-size: 14px; margin-bottom: 10px; line-height: 1.6;">
+                {{ .Summary }}...
+            </p>
+            <div class="article-meta">
+                <span>📅 {{ .Date.Format "2006-01-02" }}</span>
+                <span>⏱️ {{ .ReadingTime }} 分钟</span>
+                {{ with .Params.tags }}
+                {{ $tags := . }}
+                {{ if reflect.IsSlice $tags }}
+                <span>🏷️ {{ index $tags 0 }}</span>
+                {{ else }}
+                <span>🏷️ {{ . }}</span>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </a>
+    {{ end }}
+    
+    {{/* 如果没有内容 */}}
+    {{ if eq (len .Pages) 0 }}
+    <div style="text-align: center; padding: 60px 0; color: var(--mm-text-muted);">
+        <div style="font-size: 48px; margin-bottom: 16px;">📭</div>
+        <div style="font-size: 16px;">暂无内容</div>
+    </div>
+    {{ end }}
+</div>
+
+<!-- 分页 -->
+{{ $pag := .Paginate .Pages 12 }}
+{{ if gt $pag.TotalPages 1 }}
+<div class="pagination">
+    {{ if $pag.HasPrev }}
+    <a href="{{ $pag.Prev.URL }}">← 上一页</a>
+    {{ else }}
+    <span class="disabled">← 上一页</span>
+    {{ end }}
+    
+    {{ range $pag.Pagers }}
+    {{ if eq . $pag }}
+    <span class="current">{{ .PageNumber }}</span>
+    {{ else }}
+    <a href="{{ .URL }}">{{ .PageNumber }}</a>
+    {{ end }}
+    {{ end }}
+    
+    {{ if $pag.HasNext }}
+    <a href="{{ $pag.Next.URL }}">下一页 →</a>
+    {{ else }}
+    <span class="disabled">下一页 →</span>
+    {{ end }}
+</div>
 {{ end }}
+{{ end }}
+

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="list-header">
+    <h1 class="list-title">
+        <span class="gradient-text">搜索结果</span>
+    </h1>
+    <p class="list-desc">
+        搜索页面
+    </p>
+</div>
+
+<!-- 面包屑 -->
+<nav class="breadcrumb">
+    <a href="/">首页</a>
+    <span class="breadcrumb-separator">/</span>
+    <span>搜索</span>
+</nav>
+
+{{ $query := "" }}
+{{ with .Params.q }}{{ $query = . }}{{ end }}
+
+<!-- 搜索表单 -->
+<section class="search-form-section">
+    <form class="search-form" action="/search" method="get">
+        <input type="text" name="q" class="search-input-large" placeholder="搜索文章..." value="{{ $query }}">
+        <button type="submit" class="btn-primary">搜索</button>
+    </form>
+</section>
+
+<!-- 热门搜索 -->
+<section class="hot-searches">
+    <h3 class="section-title">热门搜索</h3>
+    <div class="search-tags">
+        <a href="/search?q=NUC" class="search-tag">NUC</a>
+        <a href="/search?q=Mac mini" class="search-tag">Mac mini</a>
+        <a href="/search?q=8845HS" class="search-tag">8845HS</a>
+        <a href="/search?q=群晖" class="search-tag">群晖</a>
+        <a href="/search?q=DeepSeek" class="search-tag">DeepSeek</a>
+    </div>
+</section>
+{{ end }}

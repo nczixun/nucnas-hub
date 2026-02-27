@@ -1,193 +1,112 @@
 {{ define "main" }}
-
-<style>
-  :root {
-    --ui-text-main: #1a1a1a;
-    --ui-text-sub: #555555;
-    --ui-text-meta: #949494;
-    --ui-bg-hover: #fcfcfc;
-    --ui-border: #eeeeee;
-    --ui-accent: #2563eb;
-    --ui-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-
-  .ui-container {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 60px 24px;
-    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .ui-header {
-    margin-bottom: 48px;
-    border-bottom: 1px solid var(--ui-border);
-    padding-bottom: 24px;
-  }
-  .ui-header h1 {
-    font-size: 2.25rem;
-    font-weight: 800;
-    color: var(--ui-text-main);
-    margin: 0;
-    letter-spacing: -0.03em;
-  }
-
-  .ui-list {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .ui-item {
-    display: flex;
-    text-decoration: none;
-    padding: 32px 0;
-    border-bottom: 1px solid var(--ui-border);
-    transition: var(--ui-transition);
-    align-items: flex-start;
-    gap: 32px; /* 替代 margin-right，更现代的间距写法 */
-  }
-
-  .ui-item:hover {
-    padding-left: 8px;
-  }
-
-  /* 缩略图容器 */
-  .ui-item-thumbnail {
-    width: 120px;
-    height: 120px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    overflow: hidden;
-    background: #f5f5f5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--ui-border);
-  }
-  
-  .ui-item-thumbnail img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: var(--ui-transition);
-  }
-
-  .ui-item:hover .ui-item-thumbnail img {
-    transform: scale(1.1);
-  }
-
-  .ui-item-content {
-    flex: 1;
-    min-width: 0; /* 防止长标题撑破布局 */
-  }
-
-  .ui-item-meta {
-    font-size: 0.85rem;
-    color: var(--ui-text-meta);
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-weight: 500;
-  }
-
-  .ui-item-meta .tag {
-    background: #f0f2f5;
-    color: var(--ui-text-sub);
-    padding: 2px 10px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-  }
-
-  .ui-item-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--ui-text-main);
-    margin: 0 0 12px 0;
-    line-height: 1.3;
-    transition: color 0.2s ease;
-  }
-  
-  .ui-item:hover .ui-item-title {
-    color: var(--ui-accent);
-  }
-
-  .ui-item-summary {
-    font-size: 0.95rem;
-    color: var(--ui-text-sub);
-    line-height: 1.6;
-    margin: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  /* 移动端适配 */
-  @media (max-width: 640px) {
-    .ui-item {
-      flex-direction: column-reverse; /* 图片在手机端显示在下方更美观，或者可改为隐藏 */
-      gap: 16px;
-      padding: 24px 0;
-    }
-    .ui-item:hover { padding-left: 0; }
-    .ui-item-thumbnail {
-      width: 100%;
-      height: 160px;
-    }
-    .ui-header h1 { font-size: 1.8rem; }
-  }
-</style>
-
-<div class="ui-container">
-  <header class="ui-header">
-    <h1>{{ .Title }}</h1>
-  </header>
-
-  <div class="ui-list">
-    {{ range .Pages }}
-    <a href="{{ .RelPermalink }}" class="ui-item">
-      
-      <div class="ui-item-content">
-        <div class="ui-item-meta">
-          <time>{{ .Date.Format "2006-01-02" }}</time>
-          {{ with .Params.tags }}
-          <span class="tag">{{ index . 0 }}</span>
-          {{ end }}
-          <span>· {{ .ReadingTime }} min</span>
-        </div>
-        
-        <h2 class="ui-item-title">{{ .Title }}</h2>
-        
-        <p class="ui-item-summary">
-          {{ if .Description }}
-            {{ .Description | plainify | truncate 140 }}
-          {{ else }}
-            {{ .Summary | plainify | truncate 140 }}
-          {{ end }}
-        </p>
-      </div>
-
-      {{ $imgUrl := "" }}
-      {{ if .Params.image }}
-        {{ $imgUrl = .Params.image }}
-      {{ else }}
-        {{ $resource := .Resources.GetMatch "featured*" }}
-        {{ with $resource }}
-          {{ $imgUrl = .RelPermalink }}
-        {{ end }}
-      {{ end }}
-
-      {{ if $imgUrl }}
-      <div class="ui-item-thumbnail">
-        <img src="{{ $imgUrl }}" alt="{{ .Title }}" loading="lazy">
-      </div>
-      {{ end }}
-
-    </a>
-    {{ end }}
-  </div>
+<div class="list-header">
+    <h1 class="list-title">硬件测评</h1>
+    <p class="list-desc">Mini PC 硬件横向评测，AMD/Intel/Apple ，尽在全掌握</p>
 </div>
 
+<!-- 面包屑 -->
+<nav class="breadcrumb">
+    <a href="/">首页</a>
+    <span class="breadcrumb-separator">/</span>
+    <span>硬件测评</span>
+</nav>
+
+<!-- 筛选栏 -->
+<div class="filter-bar">
+    <div class="filter-group">
+        <span class="filter-label">品牌：</span>
+        <select class="filter-select">
+            <option value="">全部</option>
+            <option value="intel">Intel NUC</option>
+            <option value="amd">AMD Ryzen</option>
+            <option value="apple">Apple</option>
+            <option value="minisforum">铭凡</option>
+            <option value="beelink">零刻</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <span class="filter-label">类型：</span>
+        <select class="filter-select">
+            <option value="">全部</option>
+            <option value="mini">迷你主机</option>
+            <option value="desktop">台式机</option>
+            <option value="all-in-one">一体机</option>
+        </select>
+    </div>
+    <div class="filter-group">
+        <span class="filter-label">价格：</span>
+        <select class="filter-select">
+            <option value="">全部</option>
+            <option value="0-1000">¥0-1000</option>
+            <option value="1000-2000">¥1000-2000</option>
+            <option value="2000-5000">¥2000-5000</option>
+            <option value="5000+">¥5000+</option>
+        </select>
+    </div>
+</div>
+
+<!-- 文章列表 -->
+<div class="hardware-grid">
+    {{ range .Paginator.Pages }}
+    <a href="{{ .RelPermalink }}" class="hardware-card">
+        <div class="hardware-image">
+            {{ with .Params.image }}
+            <img src="{{ . }}" alt="{{ $.Title }}">
+            {{ else }}
+            <div class="hardware-image-placeholder">📷</div>
+            {{ end }}
+            
+            {{ with .Params.tags }}
+            {{ $tags := . }}
+            {{ if reflect.IsSlice $tags }}
+            {{ range first 1 $tags }}
+            <span class="hardware-tag">{{ . }}</span>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            
+            {{ with .Params.score }}
+            <span class="hardware-score">{{ . }}</span>
+            {{ end }}
+        </div>
+        
+        <div class="hardware-content">
+            <h3 class="hardware-title">{{ .Title }}</h3>
+            
+            <div class="hardware-specs">
+                {{ with .Params.hw_specs.cpu }}
+                <span class="spec-item">🖥️ {{ . }}</span>
+                {{ end }}
+                {{ with .Params.hw_specs.tdp }}
+                <span class="spec-item">⚡ {{ . }}</span>
+                {{ end }}
+            </div>
+            
+            <div class="hardware-footer">
+                {{ with .Params.price }}
+                <span class="hardware-price">¥{{ . }}</span>
+                {{ else }}
+                <span class="hardware-price">暂无报价</span>
+                {{ end }}
+                <span class="hardware-date">{{ .Date.Format "2006-01-02" }}</span>
+            </div>
+        </div>
+    </a>
+    {{ end }}
+</div>
+
+<!-- 分页 -->
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="pagination-btn">上一页</a>
+    {{ end }}
+    
+    <span class="pagination-info">第 {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }} 页</span>
+    
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="pagination-btn">下一页</a>
+    {{ end }}
+</nav>
+{{ end }}
 {{ end }}
