@@ -128,6 +128,12 @@
         {{ range first 4 (where .Site.RegularPages "Section" "hardware") }}
         <a href="{{ .RelPermalink }}" class="device-card">
             <div class="device-image">
+                {{ with .Params.image }}
+                <img src="{{ . }}" alt="{{ $.Title }}">
+                {{ else }}
+                <div style="width:100%;height:100%;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);display:flex;align-items:center;justify-content:center;color:white;font-size:40px;">🖥️</div>
+                {{ end }}
+                
                 {{ with .Params.tags }}
                 {{ $tags := . }}
                 {{ if reflect.IsSlice $tags }}
@@ -135,10 +141,6 @@
                 <span class="device-tag">{{ . }}</span>
                 {{ end }}
                 {{ end }}
-                {{ end }}
-                
-                {{ with .Params.score }}
-                <span class="device-score">{{ . }}</span>
                 {{ end }}
             </div>
             
@@ -175,9 +177,15 @@
     </div>
     
     <div class="article-list">
-        {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+        {{ range first 5 (where .Site.RegularPages "Section" "hardware") }}
         <a href="{{ .RelPermalink }}" class="article-item">
-            <div class="article-image"></div>
+            <div class="article-image">
+                {{ with .Params.image }}
+                <img src="{{ . }}" alt="{{ $.Title }}">
+                {{ else }}
+                <div style="width:100%;height:100%;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);display:flex;align-items:center;justify-content:center;color:white;font-size:30px;">📄</div>
+                {{ end }}
+            </div>
             
             <div class="article-content">
                 <h4 class="article-title">{{ .Title }}</h4>
@@ -191,30 +199,6 @@
                     <span>🏷️ {{ . }}</span>
                     {{ end }}
                     {{ end }}
-                </div>
-            </div>
-        </a>
-        {{ end }}
-        
-        {{/* 如果没有posts，显示示例 */}}
-        {{ if eq (len (where .Site.RegularPages "Section" "posts")) 0 }}
-        <a href="/nas/" class="article-item">
-            <div class="article-image"></div>
-            <div class="article-content">
-                <h4 class="article-title">教你用 Mini PC 打造 All-in-One 家庭实测</h4>
-                <div class="article-meta">
-                    <span>🕐 2024-01-01</span>
-                    <span>🏷️ 教程</span>
-                </div>
-            </div>
-        </a>
-        <a href="/hardware/" class="article-item">
-            <div class="article-image"></div>
-            <div class="article-content">
-                <h4 class="article-title">AMD Ryzen 7 8845HS 性能功耗测试</h4>
-                <div class="article-meta">
-                    <span>🕐 2024-01-01</span>
-                    <span>🏷️ 测评</span>
                 </div>
             </div>
         </a>
