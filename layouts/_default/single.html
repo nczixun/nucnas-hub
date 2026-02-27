@@ -63,6 +63,22 @@
     {{ .Content }}
 </article>
 
+<!-- 联盟链接 -->
+{{ if .Params.affiliate }}
+<div class="affiliate-box">
+    <h3>🛒 购买推荐</h3>
+    <p>如果你对本文介绍的产品感兴趣，可以通过以下链接购买：</p>
+    <div class="affiliate-links">
+        {{ range .Params.affiliate }}
+        <a href="{{ .url }}" target="_blank" class="affiliate-btn">
+            <span class="affiliate-name">{{ .name }}</span>
+            <span class="affiliate-price">{{ .price }}</span>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
 <!-- 文章标签 -->
 {{ with .Params.tags }}
 <div class="article-tags">

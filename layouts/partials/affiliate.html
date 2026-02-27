@@ -1,0 +1,14 @@
+{{ if .Params.affiliate }}
+<div class="affiliate-box">
+    <h3>🛒 购买链接</h3>
+    <p>点击下方链接购买，我将获得佣金支持：</p>
+    <div class="affiliate-links">
+        {{ range .Params.affiliate }}
+        <a href="{{ .url }}" target="_blank" class="affiliate-btn">
+            <span class="affiliate-name">{{ .name }}</span>
+            <span class="affiliate-price">{{ .price }}</span>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

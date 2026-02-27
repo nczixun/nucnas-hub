@@ -587,3 +587,49 @@ footer {
     font-size: 14px;
     margin-top: 4px;
 }
+
+/* Affiliate Box */
+.affiliate-box {
+    background: var(--apple-bg-secondary);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 24px 0;
+    border: 1px solid var(--apple-border-light);
+}
+.affiliate-box h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.affiliate-box p {
+    color: var(--apple-text-secondary);
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.affiliate-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.affiliate-btn {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    background: var(--apple-blue);
+    color: white !important;
+    border-radius: 8px;
+    transition: all 0.2s;
+    min-width: 140px;
+}
+.affiliate-btn:hover {
+    background: var(--apple-blue-hover);
+    transform: translateY(-2px);
+}
+.affiliate-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+.affiliate-price {
+    font-size: 12px;
+    opacity: 0.9;
+    margin-top: 4px;
+}
