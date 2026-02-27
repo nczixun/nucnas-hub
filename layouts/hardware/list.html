@@ -1,0 +1,193 @@
+{{ define "main" }}
+
+<style>
+  :root {
+    --ui-text-main: #1a1a1a;
+    --ui-text-sub: #555555;
+    --ui-text-meta: #949494;
+    --ui-bg-hover: #fcfcfc;
+    --ui-border: #eeeeee;
+    --ui-accent: #2563eb;
+    --ui-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+
+  .ui-container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .ui-header {
+    margin-bottom: 48px;
+    border-bottom: 1px solid var(--ui-border);
+    padding-bottom: 24px;
+  }
+  .ui-header h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--ui-text-main);
+    margin: 0;
+    letter-spacing: -0.03em;
+  }
+
+  .ui-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ui-item {
+    display: flex;
+    text-decoration: none;
+    padding: 32px 0;
+    border-bottom: 1px solid var(--ui-border);
+    transition: var(--ui-transition);
+    align-items: flex-start;
+    gap: 32px; /* 替代 margin-right，更现代的间距写法 */
+  }
+
+  .ui-item:hover {
+    padding-left: 8px;
+  }
+
+  /* 缩略图容器 */
+  .ui-item-thumbnail {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--ui-border);
+  }
+  
+  .ui-item-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--ui-transition);
+  }
+
+  .ui-item:hover .ui-item-thumbnail img {
+    transform: scale(1.1);
+  }
+
+  .ui-item-content {
+    flex: 1;
+    min-width: 0; /* 防止长标题撑破布局 */
+  }
+
+  .ui-item-meta {
+    font-size: 0.85rem;
+    color: var(--ui-text-meta);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+  }
+
+  .ui-item-meta .tag {
+    background: #f0f2f5;
+    color: var(--ui-text-sub);
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .ui-item-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--ui-text-main);
+    margin: 0 0 12px 0;
+    line-height: 1.3;
+    transition: color 0.2s ease;
+  }
+  
+  .ui-item:hover .ui-item-title {
+    color: var(--ui-accent);
+  }
+
+  .ui-item-summary {
+    font-size: 0.95rem;
+    color: var(--ui-text-sub);
+    line-height: 1.6;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 640px) {
+    .ui-item {
+      flex-direction: column-reverse; /* 图片在手机端显示在下方更美观，或者可改为隐藏 */
+      gap: 16px;
+      padding: 24px 0;
+    }
+    .ui-item:hover { padding-left: 0; }
+    .ui-item-thumbnail {
+      width: 100%;
+      height: 160px;
+    }
+    .ui-header h1 { font-size: 1.8rem; }
+  }
+</style>
+
+<div class="ui-container">
+  <header class="ui-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <div class="ui-list">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="ui-item">
+      
+      <div class="ui-item-content">
+        <div class="ui-item-meta">
+          <time>{{ .Date.Format "2006-01-02" }}</time>
+          {{ with .Params.tags }}
+          <span class="tag">{{ index . 0 }}</span>
+          {{ end }}
+          <span>· {{ .ReadingTime }} min</span>
+        </div>
+        
+        <h2 class="ui-item-title">{{ .Title }}</h2>
+        
+        <p class="ui-item-summary">
+          {{ if .Description }}
+            {{ .Description | plainify | truncate 140 }}
+          {{ else }}
+            {{ .Summary | plainify | truncate 140 }}
+          {{ end }}
+        </p>
+      </div>
+
+      {{ $imgUrl := "" }}
+      {{ if .Params.image }}
+        {{ $imgUrl = .Params.image }}
+      {{ else }}
+        {{ $resource := .Resources.GetMatch "featured*" }}
+        {{ with $resource }}
+          {{ $imgUrl = .RelPermalink }}
+        {{ end }}
+      {{ end }}
+
+      {{ if $imgUrl }}
+      <div class="ui-item-thumbnail">
+        <img src="{{ $imgUrl }}" alt="{{ .Title }}" loading="lazy">
+      </div>
+      {{ end }}
+
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

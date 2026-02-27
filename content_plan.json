@@ -1,0 +1,202 @@
+[
+    {
+        "status":  "pending",
+        "keywords":  "M4芯片,静音,雷电5",
+        "type":  "apple",
+        "model":  "Mac mini M4",
+        "brand":  "Apple",
+        "day":  1
+    },
+    {
+        "status":  "pending",
+        "keywords":  "8845HS,金属机身,极致静音",
+        "type":  "amd",
+        "model":  "SER8",
+        "brand":  "Beelink",
+        "day":  1
+    },
+    {
+        "status":  "pending",
+        "keywords":  "双万兆,工作站,i9-13900H",
+        "type":  "intel",
+        "model":  "MS-01",
+        "brand":  "Minisforum",
+        "day":  1
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ultra 9,AI PC,全新模具",
+        "type":  "intel",
+        "model":  "NUC 14 Pro Plus",
+        "brand":  "ASUS",
+        "day":  1
+    },
+    {
+        "status":  "pending",
+        "keywords":  "8845HS,性价比,双网口",
+        "type":  "amd",
+        "model":  "K8",
+        "brand":  "GMKtec",
+        "day":  1
+    },
+    {
+        "status":  "pending",
+        "keywords":  "RTX4070,败家之眼,光追游戏",
+        "type":  "intel",
+        "model":  "ROG NUC",
+        "brand":  "ASUS",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "RX6650M,独显,液金散热",
+        "type":  "amd",
+        "model":  "HX100G",
+        "brand":  "Minisforum",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "桌面级4070,8L体积,双网口",
+        "type":  "workstation",
+        "model":  "Magnus ONE",
+        "brand":  "Zotac",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "7840HS,指纹识别,磁吸电源",
+        "type":  "amd",
+        "model":  "GTR7",
+        "brand":  "Beelink",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ultra 5,玻璃顶盖,游戏风",
+        "type":  "intel",
+        "model":  "imini Pro",
+        "brand":  "MechRevo",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N200,内置电源,双网口",
+        "type":  "workstation",
+        "model":  "EQ13",
+        "brand":  "Beelink",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,百元神机,办公",
+        "type":  "amd",
+        "model":  "G3",
+        "brand":  "GMKtec",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,双2.5G,PD供电",
+        "type":  "workstation",
+        "model":  "UN100D",
+        "brand":  "Minisforum",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,双盘位,NAS主机",
+        "type":  "nas",
+        "model":  "R1",
+        "brand":  "Aoostar",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,极小体积,随身携带",
+        "type":  "workstation",
+        "model":  "M9",
+        "brand":  "Morefine",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "四盘位,5800U,All-in-One",
+        "type":  "nas",
+        "model":  "WTR Pro",
+        "brand":  "Aoostar",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "AM5插槽,可换CPU,8700G",
+        "type":  "amd",
+        "model":  "MS-A1",
+        "brand":  "Minisforum",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "模块化,内置电池,雷电扩展",
+        "type":  "workstation",
+        "model":  "Mind",
+        "brand":  "Khadas",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ultra 125H,双风扇,雷电4",
+        "type":  "intel",
+        "model":  "K9",
+        "brand":  "GMKtec",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ultra 5,大风扇,静音",
+        "type":  "intel",
+        "model":  "SEi14",
+        "brand":  "Beelink",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "i5-1240P,CNC铝合金,MIUI互联",
+        "type":  "intel",
+        "model":  "Mini Host",
+        "brand":  "Xiaomi",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "vPro,企业级,稳定",
+        "type":  "workstation",
+        "model":  "ThinkCentre M90q",
+        "brand":  "Lenovo",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "戴尔售后,十分紧凑,商务",
+        "type":  "workstation",
+        "model":  "OptiPlex 7010 Micro",
+        "brand":  "Dell",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "精英系列,扩展性强,静音",
+        "type":  "workstation",
+        "model":  "Elite Mini 800 G9",
+        "brand":  "HP",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "商用版,vPro,24x7运行",
+        "type":  "intel",
+        "model":  "NUC 14 Pro",
+        "brand":  "ASUS",
+        "day":  5
+    }
+]

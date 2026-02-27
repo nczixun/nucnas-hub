@@ -1,0 +1,16 @@
+<!-- 标准 Meta -->
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="keywords" content="NUC, NAS, 飞牛OS, TrueNAS, Unraid, 本地AI, 大语言模型, 硬件评测">
+<meta name="author" content="{{ .Site.Params.author }}">
+
+<!-- Open Graph / Facebook (社交媒体展示) -->
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og-image.jpg"> <!-- 建议在static下放一张封面图 -->
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}">

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 py-16">
+    <article class="prose prose-slate dark:prose-invert max-w-none 
+        prose-headings:font-bold prose-h1:text-4xl prose-h2:mt-12
+        prose-a:text-brand prose-pre:bg-slate-900 prose-pre:rounded-xl">
+        <header class="mb-12 border-b border-tech-border dark:border-dark-border pb-8 text-center">
+            <div class="text-brand font-mono text-xs mb-4 uppercase tracking-widest">// Log_Entry: {{ .Section }}</div>
+            <h1 class="mb-4">{{ .Title }}</h1>
+            <div class="flex justify-center gap-6 text-xs font-mono text-slate-400">
+                <span>DATE: {{ .Date.Format "2006-01-02" }}</span>
+                <span>{{ .ReadingTime }} MIN READ</span>
+            </div>
+        </header>
+        <div class="leading-relaxed">{{ .Content }}</div>
+    </article>
+</div>
+{{ end }}

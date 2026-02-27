@@ -1,0 +1,16 @@
+﻿{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 py-16">
+    <h1 class="text-4xl font-bold mb-8 font-mono">{{ .Title }}</h1>
+    <div class="grid gap-6">
+        {{ range .Pages }}
+        <article class="bg-tech-card border border-tech-border rounded-xl p-6 glow-hover">
+            <a href="{{ .RelPermalink }}" class="block">
+                <h2 class="text-2xl font-bold mb-2 hover:text-neon-blue transition-colors">{{ .Title }}</h2>
+                <div class="text-xs font-mono text-neon-green mb-4">{{ .Date.Format "Jan 02, 2006" }}</div>
+                <p class="text-text-muted">{{ .Summary }}</p>
+            </a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
