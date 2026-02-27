@@ -1,13 +1,29 @@
-[Outputs]
-  HTML = true
-  RSS = true
-  JSON = true
+baseURL = "https://www.nucnas.top/"
+languageCode = "zh-CN"
+title = "NUC NAS Hub - 迷你主机与NAS测评网"
+paginate = 12
+enableRobotsTXT = true
 
-[Taxonomies]
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[taxonomies]
   tag = "tags"
-  category = "categories"]
+  category = "categories"
 
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[permalinks]
+  posts = "/post/:slug/"
+  hardware = "/review/:slug/"
+  nas = "/guide/:slug/"
+  ai = "/ai/:slug/"
+  page = "/:slug/"
+
+[minify]
+  disableXML = true
+  minifyOutput = true
