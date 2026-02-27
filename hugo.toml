@@ -1,50 +1,13 @@
-baseURL = 'https://nucnas.top/'
-languageCode = 'zh-cn'
-title = 'NUC NAS Hub | 迷你主机与私有云指南'
+[Outputs]
+  HTML = true
+  RSS = true
+  JSON = true
 
-[params]
-  description = "专注 Mini PC (迷你主机)、NAS 私有云搭建与 HomeLab 实验室。涵盖 Intel NUC、铭凡、零刻、Mac mini 等 SFF 小主机评测与 AI 部署教程。"
-  author = "Geek Admin"
-  keywords = "Mini PC, NUC, NAS, SFF, 铭凡, 零刻, Mac mini, HomeLab, 软路由, All-in-One"
-
-# URL优化：全英文短链
-[permalinks]
-  posts = "/post/:slug/"
-  hardware = "/review/:slug/" 
-  nas = "/guide/:slug/"
-  ai = "/ai/:slug/"
-  page = "/:slug/"
+[Taxonomies]
+  tag = "tags"
+  category = "categories"]
 
 [sitemap]
   changefreq = "weekly"
-  priority = 0.5
   filename = "sitemap.xml"
-
-[[menu.main]]
-  name = "首页"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "主机评测"
-  url = "/hardware/"
-  weight = 2
-
-[[menu.main]]
-  name = "NAS 学院"
-  url = "/nas/"
-  weight = 3
-
-[[menu.main]]
-  name = "AI 本地化"
-  url = "/ai/"
-  weight = 4
-
-[[menu.main]]
-  name = "性能天梯"
-  url = "/calculator/"
-  weight = 5
-
-[markup.goldmark.renderer]
-  # 允许在 Markdown 文件中使用原生 HTML 代码，对于嵌入复杂卡片或脚本很有用
-  unsafe = true
+  priority = 0.5
