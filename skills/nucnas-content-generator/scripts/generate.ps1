@@ -1,5 +1,5 @@
-# NUC NAS Hub - Content Generator Script
-# Usage: .\generate.ps1 -Count 3
+# NUC NAS Hub - Smart Content Generator V2
+# Features: Duplicate Detection + SEO Optimization + Smart Category
 
 param(
     [int]$Count = 3,
@@ -12,11 +12,9 @@ $ErrorActionPreference = "Stop"
 $RepoDir = "D:\Projects\nucnas-hub"
 $ContentDir = "$RepoDir\content"
 
-# Read config
 $secrets = Get-Content "$RepoDir\secrets.json" -Encoding UTF8 | ConvertFrom-Json
 $PexelsToken = $secrets.pexels_token
 
-# Category mapping based on type
 $categoryMap = @{
     "hardware" = "hardware"
     "apple" = "hardware"
@@ -31,54 +29,51 @@ function Get-PexelsImage {
     param([string]$Query)
     
     if (-not $PexelsToken) {
-        return @{
-            url = "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
-            credit = "Pexels"
-        }
-    }
-    
-    $url = "https://api.pexels.com/v1/search?query=$([uri]::EscapeDataString($Query))&per_page=1"
-    $headers = @{
-        "Authorization" = $PexelsToken
+        return @{ url = "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"; credit = "Pexels" }
     }
     
     try {
-        $response = Invoke-RestMethod -Uri $url -Headers $headers -Method Get -TimeoutSec 10
+        $url = "https://api.pexels.com/v1/search?query=$([uri]::EscapeDataString($Query))&per_page=1"
+        $response = Invoke-RestMethod -Uri $url -Headers @{"Authorization" = $PexelsToken} -Method Get -TimeoutSec 10
         if ($response.photos -and $response.photos.Count -gt 0) {
-            $photo = $response.photos[0]
-            return @{
-                url = $photo.src.large2x
-                credit = $photo.photographer
-            }
+            return @{ url = $response.photos[0].src.large2x; credit = $response.photos[0].photographer }
         }
     } catch {
-        Write-Host "Pexels API Error: $_"
+        Write-Host "[WARN] Pexels: $_"
     }
-    
-    return @{
-        url = "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
-        credit = "Pexels"
-    }
+    return @{ url = "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"; credit = "Pexels" }
 }
 
 function Get-Slug {
     param([string]$Title)
-    $slug = $Title -replace '[^\w]', '-' -replace '-+', '-'
-    return $slug.ToLower()
+    $slug = $Title.ToLower()
+    $slug = $slug -replace '[^\w\s-]', ''
+    $slug = $slug -replace '\s+', '-'
+    $slug = $slug -replace '-+', '-'
+    return $slug.Trim('-')
 }
 
 function Test-Duplicate {
-    param([string]$Filename)
-    return Test-Path $filename
+    param([string]$Title, [string]$Category)
+    
+    $slug = Get-Slug -Title $Title
+    $possiblePaths = @(
+        "$ContentDir\$Category\$slug.md",
+        "$ContentDir\hardware\$slug.md",
+        "$ContentDir\nas\$slug.md",
+        "$ContentDir\ai\$slug.md"
+    )
+    
+    foreach ($path in $possiblePaths) {
+        if (Test-Path $path) { return $true }
+    }
+    return $false
 }
 
 function Get-ArticleCategory {
     param([string]$Type)
     $typeLower = $Type.ToLower()
-    if ($categoryMap.ContainsKey($typeLower)) {
-        return $categoryMap[$typeLower]
-    }
-    # Default to hardware for review products
+    if ($categoryMap.ContainsKey($typeLower)) { return $categoryMap[$typeLower] }
     return "hardware"
 }
 
@@ -87,34 +82,37 @@ function New-Article {
         [string]$Title,
         [string]$Category,
         [string]$Summary,
-        [string[]]$Tags
+        [string[]]$Keywords
     )
     
     $date = Get-Date -Format "yyyy-MM-dd"
     $slug = Get-Slug -Title $Title
     $filename = "$ContentDir\$Category\$slug.md"
     
-    # Check for duplicate
-    if (Test-Duplicate -Filename $filename) {
-        Write-Host "SKIP (duplicate): $filename"
-        return $null
+    if (Test-Duplicate -Title $Title -Category $Category) {
+        return @{ status = "skipped"; reason = "duplicate"; title = $Title }
     }
     
-    # Get image
     $image = Get-PexelsImage -Query $Title
     $imageUrl = $image.url
     $photographer = $image.credit
     
-    # Format tags
-    $tagsStr = ($Tags | ForEach-Object { "`"$_`"" }) -join ", "
+    $tags = @()
+    if ($Keywords) {
+        $tags += $Keywords[0..([Math]::Min(2, $Keywords.Count-1))]
+    }
+    $tags += $Category
+    $tagsStr = ($tags | ForEach-Object { "`"$_`"" }) -join ", "
     
     $content = @"
 ---
 title: "$Title"
 date: $date
 summary: "$Summary"
+description: "$Summary"
 categories: ["$Category"]
 tags: [$tagsStr]
+keywords: [$tagsStr]
 image: "$imageUrl"
 imageCredit: "$photographer"
 ---
@@ -123,82 +121,96 @@ imageCredit: "$photographer"
 
 ![]($imageUrl)
 
+## Overview
+
 $Summary
+
+## Key Features
+
+- High-performance processor
+- Compact design
+- Rich connectivity
+- Excellent cooling
+
+## Use Cases
+
+- Home office
+- Light gaming
+- Media entertainment
+- Professional work
+
+## Conclusion
+
+$Title is a recommended $Category device with excellent design and performance.
 
 ---
 *Auto-generated by NUC NAS Hub*
 "@
     
-    # Ensure directory exists
     $dir = Split-Path $filename -Parent
     if (-not (Test-Path $dir)) {
         New-Item -ItemType Directory -Path $dir -Force | Out-Null
     }
     
     Set-Content -Path $filename -Value $content -Encoding UTF8
-    Write-Host "Created: $filename"
-    return $filename
+    return @{ status = "created"; title = $Title; category = $Category; slug = $slug }
 }
 
-# Main
 Write-Host "========================================"
-Write-Host "  NUC NAS Hub Content Generator"
+Write-Host "  NUC NAS Hub Content Generator V2"
 Write-Host "========================================"
-Write-Host ""
 
-# Read content plan
 $planFile = "$RepoDir\content_plan.json"
 $pending = @()
 if (Test-Path $planFile) {
     $plan = Get-Content $planFile -Encoding UTF8 | ConvertFrom-Json
     $pending = $plan | Where-Object { $_.status -eq "pending" }
-    Write-Host "Pending articles: $($pending.Count)"
-    Write-Host ""
+    Write-Host "[INFO] Pending: $($pending.Count) articles"
 }
 
-# Generate articles
 $generated = 0
 $skipped = 0
 
 foreach ($i in 0..($Count-1)) {
     if ($pending.Count -eq 0) {
-        Write-Host "No more pending articles!"
+        Write-Host "[INFO] No more pending articles!"
         break
     }
     
     $item = $pending[$i % $pending.Count]
-    
-    # Determine correct category based on type
     $targetCategory = Get-ArticleCategory -Type $item.type
-    
-    # Override if user specified category
-    if ($Category) {
-        $targetCategory = $Category
-    }
+    if ($Category) { $targetCategory = $Category }
     
     $title = "$($item.brand) $($item.model)"
-    $summary = "$($item.brand) $($item.model) review: $($item.keywords)"
-    $tags = @($item.brand, $item.model, $item.type)
+    $summary = "$($item.brand) $($item.model): $($item.keywords)"
+    $keywords = $item.keywords -split ','
     
-    $result = New-Article -Title $title -Category $targetCategory -Summary $summary -Tags $tags
+    Write-Host ""
+    Write-Host "[PROCESS] $title ($targetCategory)"
     
-    if ($result) {
+    $result = New-Article -Title $title -Category $targetCategory -Summary $summary -Keywords $keywords
+    
+    if ($result.status -eq "created") {
+        Write-Host "[OK] Created: $($result.slug)" -ForegroundColor Green
         $generated++
     } else {
+        Write-Host "[SKIP] Reason: $($result.reason)" -ForegroundColor Yellow
         $skipped++
     }
 }
 
 Write-Host ""
-Write-Host "Generated: $generated | Skipped: $skipped"
-Write-Host ""
+Write-Host "========================================"
+Write-Host "[DONE] Created=$generated | Skipped=$skipped"
+Write-Host "========================================"
 
 if ($Publish -and $generated -gt 0) {
-    Write-Host "Building and publishing..."
+    Write-Host ""
+    Write-Host "[BUILD] Building and publishing..."
     Set-Location $RepoDir
     hugo
     git add -A
     git commit -m "Auto publish $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
     git push
-    Write-Host "Done!"
+    Write-Host "[DONE] Published!" -ForegroundColor Green
 }
