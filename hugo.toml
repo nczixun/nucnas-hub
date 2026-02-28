@@ -1,8 +1,10 @@
 baseURL = "https://www.nucnas.top/"
 languageCode = "zh-CN"
 title = "NUC NAS Hub - 迷你主机与NAS测评网"
-paginate = 12
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 12
 
 [outputs]
   home = ["HTML", "RSS"]
@@ -27,3 +29,6 @@ enableRobotsTXT = true
 [minify]
   disableXML = true
   minifyOutput = true
+
+[markup]
+  ignoreLogs = ["warning-goldmark-raw-html"]
