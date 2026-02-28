@@ -4,7 +4,7 @@ title: "Aoostar R1"
 date: 2026-02-27
 summary: "Aoostar R1: N100,双盘位,NAS主机"
 description: "Aoostar R1: N100,双盘位,NAS主机"
-categories: ["nas"]
+categories: ["hardware"]
 tags: ["N100", "双盘位", "NAS主机", "nas"]
 keywords: ["N100", "双盘位", "NAS主机", "nas"]
 image: "https://images.pexels.com/photos/1526/dark-blur-blurred-gradient.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
