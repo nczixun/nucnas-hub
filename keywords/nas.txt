@@ -1,0 +1,25 @@
+# NAS 关键词
+
+## 高竞争
+- NAS推荐
+- NAS存储
+- 家庭存储
+- 私有云推荐
+- 网络存储
+
+## 中等竞争
+- 群晖NAS
+- 威联通NAS
+- 绿联NAS
+- 极空间NAS
+- DIY NAS
+- NAS搭建
+- NAS组网
+
+## 长尾词
+- NAS做什么
+- NAS值得买吗
+- 群晖还是威联通
+- NAS硬盘推荐
+- 低功耗NAS
+- All in One NAS
