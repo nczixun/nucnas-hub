@@ -1,58 +1,39 @@
 {{ define "main" }}
-<div class="list-header">
-    <h1 class="list-title">硬件测评</h1>
-    <p class="list-desc">Mini PC 硬件横向评测，AMD/Intel/Apple ，尽在全掌握</p>
+<!-- 栏目主页 - 无缩略图版本 -->
+<div class="list-header" style="text-align:center;padding:60px 20px 40px;">
+    <h1 class="list-title" style="font-size:40px;font-weight:700;margin-bottom:12px;">
+        {{ if eq .Section "hardware" }}硬件测评
+        {{ else if eq .Section "nas" }}NAS 学院
+        {{ else if eq .Section "ai" }}AI 指南
+        {{ else if eq .Section "calculator" }}计算器
+        {{ else }}{{ .Title }}{{ end }}
+    </h1>
+    <p class="list-desc" style="font-size:18px;color:#666;">
+        {{ if eq .Section "hardware" }}Mini PC 硬件横向评测，AMD/Intel/Apple 尽在全掌握
+        {{ else if eq .Section "nas" }}全方位私有云构建，从硬件选择到 Docker 应用配置
+        {{ else if eq .Section "ai" }}本地大模型部署评测，DeepSeek、Llama 3 全攻略
+        {{ else if eq .Section "calculator" }}硬件功耗对比、AI 算力测试、性能跑分工具
+        {{ else }}{{ .Description }}{{ end }}
+    </p>
 </div>
 
-<!-- 面包屑 -->
-<nav class="breadcrumb">
-    <a href="/">首页</a>
-    <span class="breadcrumb-separator">/</span>
-    <span>硬件测评</span>
-</nav>
-
-<!-- 硬件模块导航 -->
-<div class="nas-modules">
-    <a href="/hardware/" class="nas-module-card">
-        <span class="nas-module-icon">🖥️</span>
-        <span class="nas-module-name">迷你主机</span>
-    </a>
-    <a href="/hardware/" class="nas-module-card">
-        <span class="nas-module-icon">💻</span>
-        <span class="nas-module-name">商务办公</span>
-    </a>
-    <a href="/hardware/" class="nas-module-card">
-        <span class="nas-module-icon">🎮</span>
-        <span class="nas-module-name">游戏主机</span>
-    </a>
-    <a href="/hardware/" class="nas-module-card">
-        <span class="nas-module-icon">⚡</span>
-        <span class="nas-module-name">工作站</span>
-    </a>
-</div>
-
-<!-- 测评列表 -->
-<div class="tutorial-list">
+<!-- 文章列表 - 无图片 -->
+<div class="article-list" style="max-width:800px;margin:0 auto;padding:0 20px 60px;">
     {{ range .Paginator.Pages }}
-    <a href="{{ .RelPermalink }}" class="tutorial-card">
-        <div class="tutorial-icon">
-            {{ with .Params.image }}
-            <img src="{{ . }}" alt="{{ $.Title }}">
-            {{ else }}
-            <span>📖</span>
-            {{ end }}
+    <a href="{{ .RelPermalink }}" class="article-card" style="display:flex;gap:20px;padding:24px;background:white;border-radius:16px;margin-bottom:16px;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(0,0,0,0.06);transition:all 0.3s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)'">
+        <!-- 左侧图标 -->
+        <div style="width:64px;height:64px;min-width:64px;background:linear-gradient(135deg,{{ if eq $.Section "hardware" }}#667eea{{ else if eq $.Section "nas" }}#5856D6{{ else if eq $.Section "ai" }}#34C759{{ else }}#FF9500{{ end }},{{ if eq $.Section "hardware" }}#764ba2{{ else if eq $.Section "nas" }}#AF52DE{{ else if eq $.Section "ai" }}#30D158{{ else }}#FF3B30{{ end }});border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;">
+            {{ if eq $.Section "hardware" }}🖥️{{ else if eq $.Section "nas" }}💾{{ else if eq $.Section "ai" }}🤖{{ else }}🧮{{ end }}
         </div>
-        <div class="tutorial-content">
-            <h3 class="tutorial-title">{{ .Title }}</h3>
-            <p class="tutorial-desc">{{ .Description }}</p>
-            <div class="tutorial-meta">
+        
+        <!-- 右侧内容 -->
+        <div style="flex:1;">
+            <h3 style="font-size:18px;font-weight:600;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ .Title }}</h3>
+            <p style="font-size:14px;color:#666;margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 100 }}{{ end }}</p>
+            <div style="display:flex;gap:16px;font-size:13px;color:#86868b;">
                 <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
-                {{ with .Params.tags }}
-                {{ $tags := . }}
-                {{ if reflect.IsSlice $tags }}
-                <span>🏷️ {{ index $tags 0 }}</span>
-                {{ end }}
-                {{ end }}
+                {{ with .Params.tags }}{{ $tags := . }}{{ if reflect.IsSlice $tags }}<span>🏷️ {{ index $tags 0 }}</span>{{ end }}{{ end }}
+                {{ with .Params.hw_specs.cpu }}<span>💻 {{ . }}</span>{{ end }}
             </div>
         </div>
     </a>
@@ -61,13 +42,13 @@
 
 <!-- 分页 -->
 {{ if gt .Paginator.TotalPages 1 }}
-<nav class="pagination">
+<nav class="pagination" style="display:flex;justify-content:center;align-items:center;gap:16px;padding:40px 20px;">
     {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}" class="pagination-btn">上一页</a>
+    <a href="{{ .Paginator.Prev.URL }}" style="padding:10px 20px;background:white;border-radius:10px;text-decoration:none;color:#333;box-shadow:0 2px 8px rgba(0,0,0,0.06);">← 上一页</a>
     {{ end }}
-    <span class="pagination-info">第 {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }} 页</span>
+    <span style="color:#666;">第 {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }} 页</span>
     {{ if .Paginator.HasNext }}
-    <a href="{{ .Paginator.Next.URL }}" class="pagination-btn">下一页</a>
+    <a href="{{ .Paginator.Next.URL }}" style="padding:10px 20px;background:white;border-radius:10px;text-decoration:none;color:#333;box-shadow:0 2px 8px rgba(0,0,0,0.06);">下一页 →</a>
     {{ end }}
 </nav>
 {{ end }}
