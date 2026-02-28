@@ -1,4 +1,5 @@
 ﻿---
+slug: "beelink-gtr7"
 title: "Beelink GTR7"
 date: 2026-02-27
 summary: "Beelink GTR7 review: 7840HS,指纹识别,磁吸电源"

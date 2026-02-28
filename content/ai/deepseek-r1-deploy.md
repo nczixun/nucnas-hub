@@ -1,4 +1,5 @@
 ---
+slug: "deepseek-r1-deploy"
 title: "DeepSeek R1 本地部署指南"
 date: 2026-02-20
 categories: ["ai"]

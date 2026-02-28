@@ -1,4 +1,5 @@
 ﻿---
+slug: "apple-mac-mini-m4"
 title: "Apple Mac mini M4"
 date: 2026-02-27
 summary: "Apple Mac mini M4 review: M4芯片,静音,雷电5"

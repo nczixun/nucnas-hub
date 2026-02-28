@@ -1,4 +1,5 @@
 ---
+slug: "fnos-guide"
 title: "飞牛 OS (FnOS) 极速上手指南"
 date: 2024-05-20
 summary: "如何让你的闲置 NUC 在 10 分钟内变身为强大的家庭媒体中心。"

@@ -1,4 +1,5 @@
 ---
+slug: "ollama-openwebui"
 title: "Ollama + OpenWebUI 搭建本地 AI 聊天界面"
 date: 2026-02-18
 categories: ["ai"]

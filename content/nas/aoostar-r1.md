@@ -1,4 +1,5 @@
 ﻿---
+slug: "aoostar-r1"
 title: "Aoostar R1"
 date: 2026-02-27
 summary: "Aoostar R1: N100,双盘位,NAS主机"

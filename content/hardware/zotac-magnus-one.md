@@ -1,4 +1,5 @@
 ﻿---
+slug: "zotac-magnus-one"
 title: "Zotac Magnus ONE"
 date: 2026-02-27
 summary: "Zotac Magnus ONE review: 桌面级4070,8L体积,双网口"

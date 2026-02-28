@@ -1,4 +1,5 @@
 ﻿---
+slug: "minisforum-un100d"
 title: "Minisforum UN100D"
 date: 2026-02-27
 summary: "Minisforum UN100D: N100,双2.5G,PD供电"

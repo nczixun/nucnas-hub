@@ -1,4 +1,5 @@
 ﻿---
+slug: "morefine-m9"
 title: "Morefine M9"
 date: 2026-02-27
 summary: "Morefine M9: N100,极小体积,随身携带"

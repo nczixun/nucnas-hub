@@ -1,4 +1,5 @@
 ﻿---
+slug: "apple-mac-mini-m4-pro"
 title: "重新定义性能密度的AI工作站——苹果 Mac mini M4 Pro 开箱测评"
 date: 2026-02-27
 image: "/images/eq12.jpg"

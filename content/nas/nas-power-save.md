@@ -1,4 +1,5 @@
 ---
+slug: "nas-power-save"
 title: "24/7 运行也不心疼电费：小主机功耗优化策略"
 date: 2026-02-12
 summary: "调整 CPU 频率与硬盘休眠，每年省下一条内存。"

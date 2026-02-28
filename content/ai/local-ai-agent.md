@@ -1,4 +1,5 @@
 ---
+slug: "local-ai-agent"
 title: "本地 AI Agent 完全指南"
 date: 2026-02-15
 categories: ["ai"]
