@@ -1,67 +1,522 @@
-[
-  {"status": "pending", "keywords": "M4芯片,静音,雷电5", "type": "apple", "model": "Mac mini M4", "brand": "Apple", "day": 1},
-  {"status": "pending", "keywords": "8845HS,金属机身,极致静音", "type": "amd", "model": "SER8", "brand": "Beelink", "day": 1},
-  {"status": "pending", "keywords": "双万兆,工作站,i9-13900H", "type": "intel", "model": "MS-01", "brand": "Minisforum", "day": 1},
-  {"status": "pending", "keywords": "Ultra 9,AI PC,全新模具", "type": "intel", "model": "NUC 14 Pro Plus", "brand": "ASUS", "day": 1},
-  {"status": "pending", "keywords": "8845HS,性价比,双网口", "type": "amd", "model": "K8", "brand": "GMKtec", "day": 1},
-  {"status": "pending", "keywords": "RTX4070,败家之眼,光追游戏", "type": "intel", "model": "ROG NUC", "brand": "ASUS", "day": 2},
-  {"status": "pending", "keywords": "RX6650M,独显,液金散热", "type": "amd", "model": "HX100G", "brand": "Minisforum", "day": 2},
-  {"status": "pending", "keywords": "桌面级4070,8L体积,双网口", "type": "workstation", "model": "Magnus ONE", "brand": "Zotac", "day": 2},
-  {"status": "pending", "keywords": "7840HS,指纹识别,磁吸电源", "type": "amd", "model": "GTR7", "brand": "Beelink", "day": 2},
-  {"status": "pending", "keywords": "Ultra 5,玻璃顶盖,游戏风", "type": "intel", "model": "imini Pro", "brand": "MechRevo", "day": 2},
-  {"status": "pending", "keywords": "N200,内置电源,双网口", "type": "workstation", "model": "EQ13", "brand": "Beelink", "day": 3},
-  {"status": "pending", "keywords": "N100,百元神机,办公", "type": "amd", "model": "G3", "brand": "GMKtec", "day": 3},
-  {"status": "pending", "keywords": "N100,双2.5G,PD供电", "type": "workstation", "model": "UN100D", "brand": "Minisforum", "day": 3},
-  {"status": "pending", "keywords": "N100,双盘位,NAS主机", "type": "nas", "model": "R1", "brand": "Aoostar", "day": 3},
-  {"status": "pending", "keywords": "N100,极小体积,随身携带", "type": "workstation", "model": "M9", "brand": "Morefine", "day": 3},
-  {"status": "pending", "keywords": "四盘位,5800U,All-in-One", "type": "nas", "model": "WTR Pro", "brand": "Aoostar", "day": 4},
-  {"status": "pending", "keywords": "AM5插槽,可换CPU,8700G", "type": "amd", "model": "MS-A1", "brand": "Minisforum", "day": 4},
-  {"status": "pending", "keywords": "模块化,内置电池,雷电扩展", "type": "workstation", "model": "Mind", "brand": "Khadas", "day": 4},
-  {"status": "pending", "keywords": "Ultra 125H,双风扇,雷电4", "type": "intel", "model": "K9", "brand": "GMKtec", "day": 4},
-  {"status": "pending", "keywords": "Ultra 5,大风扇,静音", "type": "intel", "model": "SEi14", "brand": "Beelink", "day": 4},
-  {"status": "pending", "keywords": "i5-1240P,CNC铝合金,MIUI互联", "type": "intel", "model": "Mini Host", "brand": "Xiaomi", "day": 5},
-  {"status": "pending", "keywords": "vPro,企业级,稳定", "type": "workstation", "model": "ThinkCentre M90q", "brand": "Lenovo", "day": 5},
-  {"status": "pending", "keywords": "戴尔售后,十分紧凑,商务", "type": "workstation", "model": "OptiPlex 7010 Micro", "brand": "Dell", "day": 5},
-  {"status": "pending", "keywords": "精英系列,扩展性强,静音", "type": "workstation", "model": "Elite Mini 800 G9", "brand": "HP", "day": 5},
-  {"status": "pending", "keywords": "商用版,vPro,24x7运行", "type": "intel", "model": "NUC 14 Pro", "brand": "ASUS", "day": 5},
-  {"status": "pending", "keywords": "群晖安装,虚拟机,教程", "type": "nas", "model": "DSM", "brand": "Synology", "day": 6},
-  {"status": "pending", "keywords": "TrueNAS,开源,ZFS", "type": "nas", "model": "TrueNAS", "brand": "iXsystems", "day": 6},
-  {"status": "pending", "keywords": "Unraid,阵列,虚拟机", "type": "nas", "model": "Unraid", "brand": "Lime Technology", "day": 6},
-  {"status": "pending", "keywords": "飞牛OS,国产,免费", "type": "nas", "model": "FnOS", "brand": "飞牛", "day": 6},
-  {"status": "pending", "keywords": "Docker,容器,应用", "type": "nas", "model": "Docker", "brand": "开源", "day": 7},
-  {"status": "pending", "keywords": "Jellyfin,影视,海报墙", "type": "nas", "model": "Jellyfin", "brand": "开源", "day": 7},
-  {"status": "pending", "keywords": "Plex,媒体服务器,转码", "type": "nas", "model": "Plex", "brand": "Plex", "day": 7},
-  {"status": "pending", "keywords": "emby,影院,刮削", "type": "nas", "model": "Emby", "brand": "Emby", "day": 7},
-  {"status": "pending", "keywords": "Alist,网盘聚合,挂载", "type": "nas", "model": "Alist", "brand": "开源", "day": 8},
-  {"status": "pending", "keywords": "NAS组网,内网穿透,远程访问", "type": "nas", "model": "网络", "brand": "技术", "day": 8},
-  {"status": "pending", "keywords": "Tailscale,异地组网,免费", "type": "nas", "model": "Tailscale", "brand": "开源", "day": 8},
-  {"status": "pending", "keywords": "Frp,内网穿透,公网访问", "type": "nas", "model": "Frp", "brand": "开源", "day": 8},
-  {"status": "pending", "keywords": "Ollama,本地大模型,开源", "type": "ai", "model": "Ollama", "brand": "开源", "day": 9},
-  {"status": "pending", "keywords": "LLM,大语言模型,本地部署", "type": "ai", "model": "LLM", "brand": "AI", "day": 9},
-  {"status": "pending", "keywords": "Stable Diffusion,AI绘图,本地", "type": "ai", "model": "SD", "brand": "开源", "day": 9},
-  {"status": "pending", "keywords": "ComfyUI,工作流,节点", "type": "ai", "model": "ComfyUI", "brand": "开源", "day": 9},
-  {"status": "pending", "keywords": "ChatGPT,对话AI,API", "type": "ai", "model": "ChatGPT", "brand": "OpenAI", "day": 10},
-  {"status": "pending", "keywords": "DeepSeek,国产大模型,免费", "type": "ai", "model": "DeepSeek", "brand": "深度求索", "day": 10},
-  {"status": "pending", "keywords": "Kimi,长文本,AI助手", "type": "ai", "model": "Kimi", "brand": "月之暗面", "day": 10},
-  {"status": "pending", "keywords": "MiniMax,MoE,API", "type": "ai", "model": "MiniMax", "brand": "MiniMax", "day": 10},
-  {"status": "pending", "keywords": "Home Assistant,智能家居,开源", "type": "nas", "model": "HA", "brand": "开源", "day": 11},
-  {"status": "pending", "keywords": "Immich,照片备份,Google Photos替代", "type": "nas", "model": "Immich", "brand": "开源", "day": 11},
-  {"status": "pending", "keywords": "Nextcloud,私有云,同步", "type": "nas", "model": "Nextcloud", "brand": "开源", "day": 11},
-  {"status": "pending", "keywords": "FileRun,文件管理,简洁", "type": "nas", "model": "FileRun", "brand": "开源", "day": 11},
-  {"status": "pending", "keywords": "Qbittorrent,下载,PT", "type": "nas", "model": "QB", "brand": "开源", "day": 12},
-  {"status": "pending", "keywords": "Transmission,下载,轻量", "type": "nas", "model": "Transmiss", "brand": "开源", "day": 12},
-  {"status": "pending", "keywords": "Aria2,下载全能,多协议", "type": "nas", "model": "Aria2", "brand": "开源", "day": 12},
-  {"status": "pending", "keywords": "NAS噪音,功耗,电费", "type": "nas", "model": "功耗", "brand": "知识", "day": 12},
-  {"status": "pending", "keywords": "硬盘选择,固态,机械", "type": "nas", "model": "硬盘", "brand": "知识", "day": 13},
-  {"status": "pending", "keywords": "RAID,阵列,数据安全", "type": "nas", "model": "RAID", "brand": "知识", "day": 13},
-  {"status": "pending", "keywords": "UPS,不断电,保护", "type": "nas", "model": "UPS", "brand": "知识", "day": 13},
-  {"status": "pending", "keywords": "DDNS,动态域名,远程", "type": "nas", "model": "DDNS", "brand": "知识", "day": 13},
-  {"status": "pending", "keywords": "N100评测,性价比,迷你主机", "type": "hardware", "model": "N100", "brand": "Intel", "day": 14},
-  {"status": "pending", "keywords": "i3-8100T,低功耗,办公", "type": "hardware", "model": "8100T", "brand": "Intel", "day": 14},
-  {"status": "pending", "keywords": "R7-5800H,高性能,核显", "type": "hardware", "model": "5800H", "brand": "AMD", "day": 14},
-  {"status": "pending", "keywords": "i5-1240P,轻薄,移动端", "type": "hardware", "model": "1240P", "brand": "Intel", "day": 14},
-  {"status": "pending", "keywords": "R9-7940HS,AI核显,Zen4", "type": "hardware", "model": "7940HS", "brand": "AMD", "day": 15},
-  {"status": "pending", "keywords": "i9-13900H,旗舰,性能", "type": "hardware", "model": "13900H", "brand": "Intel", "day": 15},
-  {"status": "pending", "keywords": "M2 Pro,苹果,专业", "type": "hardware", "model": "M2Pro", "brand": "Apple", "day": 15},
-  {"status": "pending", "keywords": "M3 Max,极限,性能", "type": "hardware", "model": "M3Max", "brand": "Apple", "day": 15}
+﻿[
+    {
+        "status":  "published",
+        "keywords":  "M4芯片,静音,雷电5",
+        "type":  "apple",
+        "model":  "Mac mini M4",
+        "brand":  "Apple",
+        "day":  1
+    },
+    {
+        "status":  "published",
+        "keywords":  "8845HS,金属机身,极致静音",
+        "type":  "amd",
+        "model":  "SER8",
+        "brand":  "Beelink",
+        "day":  1
+    },
+    {
+        "status":  "published",
+        "keywords":  "双万兆,工作站,i9-13900H",
+        "type":  "intel",
+        "model":  "MS-01",
+        "brand":  "Minisforum",
+        "day":  1
+    },
+    {
+        "status":  "published",
+        "keywords":  "Ultra 9,AI PC,全新模具",
+        "type":  "intel",
+        "model":  "NUC 14 Pro Plus",
+        "brand":  "ASUS",
+        "day":  1
+    },
+    {
+        "status":  "published",
+        "keywords":  "8845HS,性价比,双网口",
+        "type":  "amd",
+        "model":  "K8",
+        "brand":  "GMKtec",
+        "day":  1
+    },
+    {
+        "status":  "pending",
+        "keywords":  "RTX4070,败家之眼,光追游戏",
+        "type":  "intel",
+        "model":  "ROG NUC",
+        "brand":  "ASUS",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "RX6650M,独显,液金散热",
+        "type":  "amd",
+        "model":  "HX100G",
+        "brand":  "Minisforum",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "桌面级4070,8L体积,双网口",
+        "type":  "workstation",
+        "model":  "Magnus ONE",
+        "brand":  "Zotac",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "7840HS,指纹识别,磁吸电源",
+        "type":  "amd",
+        "model":  "GTR7",
+        "brand":  "Beelink",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ultra 5,玻璃顶盖,游戏风",
+        "type":  "intel",
+        "model":  "imini Pro",
+        "brand":  "MechRevo",
+        "day":  2
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N200,内置电源,双网口",
+        "type":  "workstation",
+        "model":  "EQ13",
+        "brand":  "Beelink",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,百元神机,办公",
+        "type":  "amd",
+        "model":  "G3",
+        "brand":  "GMKtec",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,双2.5G,PD供电",
+        "type":  "workstation",
+        "model":  "UN100D",
+        "brand":  "Minisforum",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,双盘位,NAS主机",
+        "type":  "nas",
+        "model":  "R1",
+        "brand":  "Aoostar",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100,极小体积,随身携带",
+        "type":  "workstation",
+        "model":  "M9",
+        "brand":  "Morefine",
+        "day":  3
+    },
+    {
+        "status":  "pending",
+        "keywords":  "四盘位,5800U,All-in-One",
+        "type":  "nas",
+        "model":  "WTR Pro",
+        "brand":  "Aoostar",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "AM5插槽,可换CPU,8700G",
+        "type":  "amd",
+        "model":  "MS-A1",
+        "brand":  "Minisforum",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "模块化,内置电池,雷电扩展",
+        "type":  "workstation",
+        "model":  "Mind",
+        "brand":  "Khadas",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ultra 125H,双风扇,雷电4",
+        "type":  "intel",
+        "model":  "K9",
+        "brand":  "GMKtec",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ultra 5,大风扇,静音",
+        "type":  "intel",
+        "model":  "SEi14",
+        "brand":  "Beelink",
+        "day":  4
+    },
+    {
+        "status":  "pending",
+        "keywords":  "i5-1240P,CNC铝合金,MIUI互联",
+        "type":  "intel",
+        "model":  "Mini Host",
+        "brand":  "Xiaomi",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "vPro,企业级,稳定",
+        "type":  "workstation",
+        "model":  "ThinkCentre M90q",
+        "brand":  "Lenovo",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "戴尔售后,十分紧凑,商务",
+        "type":  "workstation",
+        "model":  "OptiPlex 7010 Micro",
+        "brand":  "Dell",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "精英系列,扩展性强,静音",
+        "type":  "workstation",
+        "model":  "Elite Mini 800 G9",
+        "brand":  "HP",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "商用版,vPro,24x7运行",
+        "type":  "intel",
+        "model":  "NUC 14 Pro",
+        "brand":  "ASUS",
+        "day":  5
+    },
+    {
+        "status":  "pending",
+        "keywords":  "群晖安装,虚拟机,教程",
+        "type":  "nas",
+        "model":  "DSM",
+        "brand":  "Synology",
+        "day":  6
+    },
+    {
+        "status":  "pending",
+        "keywords":  "TrueNAS,开源,ZFS",
+        "type":  "nas",
+        "model":  "TrueNAS",
+        "brand":  "iXsystems",
+        "day":  6
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Unraid,阵列,虚拟机",
+        "type":  "nas",
+        "model":  "Unraid",
+        "brand":  "Lime Technology",
+        "day":  6
+    },
+    {
+        "status":  "pending",
+        "keywords":  "飞牛OS,国产,免费",
+        "type":  "nas",
+        "model":  "FnOS",
+        "brand":  "飞牛",
+        "day":  6
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Docker,容器,应用",
+        "type":  "nas",
+        "model":  "Docker",
+        "brand":  "开源",
+        "day":  7
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Jellyfin,影视,海报墙",
+        "type":  "nas",
+        "model":  "Jellyfin",
+        "brand":  "开源",
+        "day":  7
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Plex,媒体服务器,转码",
+        "type":  "nas",
+        "model":  "Plex",
+        "brand":  "Plex",
+        "day":  7
+    },
+    {
+        "status":  "pending",
+        "keywords":  "emby,影院,刮削",
+        "type":  "nas",
+        "model":  "Emby",
+        "brand":  "Emby",
+        "day":  7
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Alist,网盘聚合,挂载",
+        "type":  "nas",
+        "model":  "Alist",
+        "brand":  "开源",
+        "day":  8
+    },
+    {
+        "status":  "pending",
+        "keywords":  "NAS组网,内网穿透,远程访问",
+        "type":  "nas",
+        "model":  "网络",
+        "brand":  "技术",
+        "day":  8
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Tailscale,异地组网,免费",
+        "type":  "nas",
+        "model":  "Tailscale",
+        "brand":  "开源",
+        "day":  8
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Frp,内网穿透,公网访问",
+        "type":  "nas",
+        "model":  "Frp",
+        "brand":  "开源",
+        "day":  8
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Ollama,本地大模型,开源",
+        "type":  "ai",
+        "model":  "Ollama",
+        "brand":  "开源",
+        "day":  9
+    },
+    {
+        "status":  "pending",
+        "keywords":  "LLM,大语言模型,本地部署",
+        "type":  "ai",
+        "model":  "LLM",
+        "brand":  "AI",
+        "day":  9
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Stable Diffusion,AI绘图,本地",
+        "type":  "ai",
+        "model":  "SD",
+        "brand":  "开源",
+        "day":  9
+    },
+    {
+        "status":  "pending",
+        "keywords":  "ComfyUI,工作流,节点",
+        "type":  "ai",
+        "model":  "ComfyUI",
+        "brand":  "开源",
+        "day":  9
+    },
+    {
+        "status":  "pending",
+        "keywords":  "ChatGPT,对话AI,API",
+        "type":  "ai",
+        "model":  "ChatGPT",
+        "brand":  "OpenAI",
+        "day":  10
+    },
+    {
+        "status":  "pending",
+        "keywords":  "DeepSeek,国产大模型,免费",
+        "type":  "ai",
+        "model":  "DeepSeek",
+        "brand":  "深度求索",
+        "day":  10
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Kimi,长文本,AI助手",
+        "type":  "ai",
+        "model":  "Kimi",
+        "brand":  "月之暗面",
+        "day":  10
+    },
+    {
+        "status":  "pending",
+        "keywords":  "MiniMax,MoE,API",
+        "type":  "ai",
+        "model":  "MiniMax",
+        "brand":  "MiniMax",
+        "day":  10
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Home Assistant,智能家居,开源",
+        "type":  "nas",
+        "model":  "HA",
+        "brand":  "开源",
+        "day":  11
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Immich,照片备份,Google Photos替代",
+        "type":  "nas",
+        "model":  "Immich",
+        "brand":  "开源",
+        "day":  11
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Nextcloud,私有云,同步",
+        "type":  "nas",
+        "model":  "Nextcloud",
+        "brand":  "开源",
+        "day":  11
+    },
+    {
+        "status":  "pending",
+        "keywords":  "FileRun,文件管理,简洁",
+        "type":  "nas",
+        "model":  "FileRun",
+        "brand":  "开源",
+        "day":  11
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Qbittorrent,下载,PT",
+        "type":  "nas",
+        "model":  "QB",
+        "brand":  "开源",
+        "day":  12
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Transmission,下载,轻量",
+        "type":  "nas",
+        "model":  "Transmiss",
+        "brand":  "开源",
+        "day":  12
+    },
+    {
+        "status":  "pending",
+        "keywords":  "Aria2,下载全能,多协议",
+        "type":  "nas",
+        "model":  "Aria2",
+        "brand":  "开源",
+        "day":  12
+    },
+    {
+        "status":  "pending",
+        "keywords":  "NAS噪音,功耗,电费",
+        "type":  "nas",
+        "model":  "功耗",
+        "brand":  "知识",
+        "day":  12
+    },
+    {
+        "status":  "pending",
+        "keywords":  "硬盘选择,固态,机械",
+        "type":  "nas",
+        "model":  "硬盘",
+        "brand":  "知识",
+        "day":  13
+    },
+    {
+        "status":  "pending",
+        "keywords":  "RAID,阵列,数据安全",
+        "type":  "nas",
+        "model":  "RAID",
+        "brand":  "知识",
+        "day":  13
+    },
+    {
+        "status":  "pending",
+        "keywords":  "UPS,不断电,保护",
+        "type":  "nas",
+        "model":  "UPS",
+        "brand":  "知识",
+        "day":  13
+    },
+    {
+        "status":  "pending",
+        "keywords":  "DDNS,动态域名,远程",
+        "type":  "nas",
+        "model":  "DDNS",
+        "brand":  "知识",
+        "day":  13
+    },
+    {
+        "status":  "pending",
+        "keywords":  "N100评测,性价比,迷你主机",
+        "type":  "hardware",
+        "model":  "N100",
+        "brand":  "Intel",
+        "day":  14
+    },
+    {
+        "status":  "pending",
+        "keywords":  "i3-8100T,低功耗,办公",
+        "type":  "hardware",
+        "model":  "8100T",
+        "brand":  "Intel",
+        "day":  14
+    },
+    {
+        "status":  "pending",
+        "keywords":  "R7-5800H,高性能,核显",
+        "type":  "hardware",
+        "model":  "5800H",
+        "brand":  "AMD",
+        "day":  14
+    },
+    {
+        "status":  "pending",
+        "keywords":  "i5-1240P,轻薄,移动端",
+        "type":  "hardware",
+        "model":  "1240P",
+        "brand":  "Intel",
+        "day":  14
+    },
+    {
+        "status":  "pending",
+        "keywords":  "R9-7940HS,AI核显,Zen4",
+        "type":  "hardware",
+        "model":  "7940HS",
+        "brand":  "AMD",
+        "day":  15
+    },
+    {
+        "status":  "pending",
+        "keywords":  "i9-13900H,旗舰,性能",
+        "type":  "hardware",
+        "model":  "13900H",
+        "brand":  "Intel",
+        "day":  15
+    },
+    {
+        "status":  "pending",
+        "keywords":  "M2 Pro,苹果,专业",
+        "type":  "hardware",
+        "model":  "M2Pro",
+        "brand":  "Apple",
+        "day":  15
+    },
+    {
+        "status":  "pending",
+        "keywords":  "M3 Max,极限,性能",
+        "type":  "hardware",
+        "model":  "M3Max",
+        "brand":  "Apple",
+        "day":  15
+    }
 ]
