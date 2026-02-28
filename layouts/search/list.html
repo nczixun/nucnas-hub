@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="search-page" style="max-width:800px;margin:0 auto;padding:40px 20px;">
+    <h1 style="font-size:32px;font-weight:700;margin-bottom:8px;">🔍 搜索结果</h1>
+    <p style="color:#666;margin-bottom:32px;">关于 "{{ .Title }}" 的搜索结果</p>
+    
+    <!-- 搜索框 -->
+    <form action="/search" method="get" style="margin-bottom:32px;">
+        <input type="text" name="q" value="{{ .Title }}" placeholder="搜索迷你主机、NAS、AI..." style="width:100%;padding:16px 20px;border:2px solid #667eea;border-radius:12px;font-size:16px;">
+    </form>
+    
+    <!-- JD 联盟推荐 -->
+    <div style="background:white;border-radius:16px;padding:24px;margin-bottom:24px;">
+        <h2 style="font-size:20px;font-weight:600;margin-bottom:16px;">🛒 推荐购买 <span style="background:#e53935;color:white;padding:2px 8px;border-radius:4px;font-size:12px;">京东联盟</span></h2>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px;">
+            <a href="#" style="display:block;padding:16px;border:1px solid #eee;border-radius:12px;text-decoration:none;color:inherit;transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size:40px;margin-bottom:12px;">🖥️</div>
+                <div style="font-size:14px;font-weight:500;margin-bottom:8px;">高性能迷你主机</div>
+                <div style="font-size:18px;font-weight:700;color:#e53935;">¥1999起</div>
+            </a>
+            <a href="#" style="display:block;padding:16px;border:1px solid #eee;border-radius:12px;text-decoration:none;color:inherit;transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                <div style="font-size:40px;margin-bottom:12px;">💾</div>
+                <div style="font-size:14px;font-weight:500;margin-bottom:8px;">家庭NAS存储</div>
+                <div style="font-size:18px;font-weight:700;color:#e53935;">¥1999起</div>
+            </a>
+        </div>
+    </div>
+    
+    <!-- 站内结果 -->
+    <div style="background:white;border-radius:16px;padding:24px;">
+        <h2 style="font-size:20px;font-weight:600;margin-bottom:16px;">📄 站内文章</h2>
+        
+        {{ $query := .Title }}
+        {{ $results := where .Site.RegularPages "Title" "contains" $query }}
+        
+        {{ if $results }}
+            {{ range $results }}
+            <a href="{{ .RelPermalink }}" style="display:block;padding:20px 0;border-bottom:1px solid #f5f5f5;text-decoration:none;color:inherit;">
+                <div style="font-size:18px;font-weight:600;color:#667eea;margin-bottom:8px;">{{ .Title }}</div>
+                <p style="font-size:14px;color:#666;margin-bottom:8px;">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 80 }}{{ end }}</p>
+                <div style="font-size:13px;color:#86868b;">🕐 {{ .Date.Format "2006-01-02" }}</div>
+            </a>
+            {{ end }}
+        {{ else }}
+            <p style="color:#86868b;text-align:center;padding:40px;">未找到相关文章</p>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
