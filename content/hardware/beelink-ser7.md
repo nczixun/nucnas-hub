@@ -1,5 +1,5 @@
 ﻿---
-title: ' 精益求精的性能小钢炮——零刻 Beelink SER7 开箱测评：当7840HS遇上VC均热板'
+title: "Beelink SER7 评测：AMD 7840HS 性能怪兽来了"
 date: 2026-02-18
 categories: ["hardware"]
 brand: "Beelink"

@@ -1,5 +1,5 @@
 ﻿---
-title: '巴掌大小的性能猛兽——华硕 NUC 14 Pro+ 开箱测评：当NUC终于有了115W满血释放'
+title: "Intel NUC 14 Pro+ 全面评测：Ultra 9 + RTX 4070 最强迷你主机？"
 date: 2026-02-16
 categories: ["hardware"]
 brand: "ASUS"

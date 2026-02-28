@@ -1,5 +1,5 @@
 ﻿---
-title: 'GMKtec G3 深度测评'
+title: "GMKTEC G3 评测：Intel N100 入门级迷你主机值不值？"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "GMKtec"

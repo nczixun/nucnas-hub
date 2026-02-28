@@ -1,5 +1,5 @@
 ﻿---
-title: '独显迷你主机的性能标杆——铭凡 Neptune HX99G 开箱测评：当迷你主机塞进独立显卡'
+title: "Minisforum HX99G 评测：AMD 6900HX + RX 6600M 独显组合"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"

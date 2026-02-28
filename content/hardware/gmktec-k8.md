@@ -1,5 +1,5 @@
 ﻿---
-title: '均衡的AI性能小钢炮——极摩客 GMKtec K8 开箱测评：当8845HS遇上双2.5G网口'
+title: "GMKTEC K8 评测：AMD Ryzen 7 8845HS 迷你主机，性能与体积的完美平衡"
 date: 2026-02-19
 categories: ["hardware"]
 brand: "GMKtec"

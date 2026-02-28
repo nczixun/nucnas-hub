@@ -1,5 +1,5 @@
 ﻿---
-title: '经典NUC的传承与进化——华硕 ASUS NUC 14 Pro 开箱测评：标准4x4的商用典范'
+title: "ASUS NUC 14 Pro 评测：Intel Ultra 9 185H 迷你主机性能实测"
 date: 2026-02-16
 categories: ["hardware"]
 brand: "ASUS"

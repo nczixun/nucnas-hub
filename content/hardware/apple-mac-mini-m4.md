@@ -1,6 +1,6 @@
 ﻿---
 slug: "apple-mac-mini-m4"
-title: "Apple Mac mini M4"
+title: "Apple Mac mini M4 深度评测：小体积大能量，M4芯片有多强？"
 date: 2026-02-27
 summary: "Apple Mac mini M4 review: M4芯片,静音,雷电5"
 categories: ["hardware"]

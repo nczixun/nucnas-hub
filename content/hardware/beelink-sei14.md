@@ -1,5 +1,5 @@
 ﻿---
-title: '英特尔酷睿Ultra的静音美学——零刻 Beelink SEi14 开箱测评：AI PC时代的桌面艺术品'
+title: "Beelink SEI14 评测：商务办公迷你主机新选择"
 date: 2026-02-17
 categories: ["hardware"]
 brand: "Beelink"

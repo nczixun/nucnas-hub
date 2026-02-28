@@ -1,5 +1,5 @@
 ﻿---
-title: '掌心性能怪兽——天钡 AOOSTAR GEM12 Pro 开箱测评：当迷你主机装上智慧之窗'
+title: "Aoostar GEM12 评测：AMD 8845HS 迷你主机新选择"
 date: 2026-02-14
 categories: ["hardware"]
 brand: "Aoostar"

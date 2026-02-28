@@ -1,5 +1,5 @@
 ﻿---
-title: '果味十足的静音性能小钢炮——零刻 Beelink SER8 开箱测评：当8845HS遇上MSC 2.0散热'
+title: "Beelink SER8 深度评测：AMD Ryzen 8845HS 最强迷你主机？"
 date: 2026-02-18
 categories: ["hardware"]
 brand: "Beelink"

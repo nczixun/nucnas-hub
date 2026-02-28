@@ -1,5 +1,5 @@
 ﻿---
-title: '小米生态的性价比入门之选——小米迷你主机 开箱测评：当MIUI设计语言注入桌面'
+title: "小米迷你主机评测：Intel Core i7-1260P + 16GB内存够用吗？"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Xiaomi"

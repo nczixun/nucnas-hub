@@ -1,5 +1,5 @@
 ﻿---
-title: '2.5升的信仰性能怪兽——华硕 ROG NUC 开箱测评：当ROG血统注入NUC'
+title: "ROG NUC 评测：游戏玩家的终极迷你主机，RTX 4070 性能炸裂"
 date: 2026-02-16
 categories: ["hardware"]
 brand: "ASUS"

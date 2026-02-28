@@ -1,6 +1,6 @@
 ﻿---
 slug: "mechrevo-imini-pro"
-title: "MechRevo imini Pro"
+title: "机械革命 imini Pro 评测：Intel Ultra 5 125H 表现如何？"
 date: 2026-02-27
 summary: "MechRevo imini Pro review: Ultra 5,玻璃顶盖,游戏风"
 categories: ["hardware"]

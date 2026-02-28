@@ -1,6 +1,6 @@
 ﻿---
 slug: "beelink-gtr7"
-title: "Beelink GTR7"
+title: "Beelink GTR7 评测：AMD 7940HS + 32GB内存，性能党的最爱"
 date: 2026-02-27
 summary: "Beelink GTR7 review: 7840HS,指纹识别,磁吸电源"
 categories: ["hardware"]

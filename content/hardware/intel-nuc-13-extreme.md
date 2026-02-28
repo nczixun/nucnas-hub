@@ -1,5 +1,5 @@
 ﻿---
-title: '性能无妥协的小尺寸巨兽——Intel NUC 13 Extreme 猛禽峡谷 开箱测评：当NUC终于长成ITX的模样'
+title: "Intel NUC 13 Extreme 评测：13代i9 + RTX 4080 性能怪兽"
 date: 2026-02-19
 categories: ["hardware"]
 brand: "Intel"

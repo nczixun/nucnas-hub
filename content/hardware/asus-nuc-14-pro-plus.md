@@ -1,5 +1,5 @@
 ---
-title: ' intel NUC 14 Pro+ 评测：Ultra 9 185H + RTX 4070 独显扩展，这是目前最强迷你主机？'
+title: "NUC 14 Pro+ 评测：RTX 4070 扩展坞加持，性能直接起飞"
 date: 2026-02-27
 categories: ["hardware"]
 brand: "ASUS"

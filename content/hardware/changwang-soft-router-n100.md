@@ -1,5 +1,5 @@
 ﻿---
-title: '软路由玩家的终极玩具——畅网微控N100 先锋版V2 开箱测评：四网口小钢炮'
+title: "软路由新选择：Changwang N100 评测"
 date: 2026-02-19
 categories: ["hardware"]
 brand: "ChangWang"

@@ -1,5 +1,5 @@
 ﻿---
-title: 'GMKtec K6 深度测评'
+title: "GMKTEC K6 评测：AMD 7600 迷你主机，性价比之王"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "GMKtec"

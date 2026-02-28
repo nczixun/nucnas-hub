@@ -1,6 +1,6 @@
 ﻿---
 slug: "zotac-magnus-one"
-title: "Zotac Magnus ONE"
+title: "Zotac Magnus ONE 评测：RTX 4070 独显迷你主机"
 date: 2026-02-27
 summary: "Zotac Magnus ONE review: 桌面级4070,8L体积,双网口"
 categories: ["hardware"]

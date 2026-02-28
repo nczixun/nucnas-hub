@@ -1,5 +1,5 @@
 ﻿---
-title: '数据资产的安全港湾——绿联 DX4600 开箱测评：四盘位NAS的入门优选'
+title: "绿联 DX4600 评测：国产NAS崛起，性价比之王"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "UGREEN"

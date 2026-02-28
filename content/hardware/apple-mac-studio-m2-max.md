@@ -1,5 +1,5 @@
 ﻿---
-title: '专业创作领域的沉默巨匠——苹果 Mac Studio (M2 Max) 开箱测评：小尺寸，大能量'
+title: "Mac Studio M2 Max 评测：专业创作者的最佳选择"
 date: 2026-02-15
 categories: ["hardware"]
 brand: "Apple"

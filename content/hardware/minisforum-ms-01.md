@@ -1,5 +1,5 @@
 ﻿---
-title: '2.5L的All in One神教圣体——铭凡 Minisforum MS-01 开箱测评：当迷你工作站塞进万兆和PCIe'
+title: "Minisforum MS-01 评测：工作站在掌心，史上最强迷你主机？"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"

@@ -1,5 +1,5 @@
 ﻿---
-title: '卷出天际的虎啸小钢炮——铭凡 UM780 XTX 开箱测评：当OCuLink遇上可换盖RGB灯效'
+title: "Minisforum UM780 XTX 评测：核显性能天花板"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"

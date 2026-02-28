@@ -1,5 +1,5 @@
 ﻿---
-title: '1升体积的性能小钢炮——Minisforum UM790 Pro 开箱测评：当迷你主机遇上锐龙9'
+title: "Minisforum UM790 Pro 评测：AMD 7940HS 旗舰迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"

@@ -1,5 +1,5 @@
 ﻿---
-title: '专业用户的稳定之选——群晖 DS923+ 开箱测评：4盘位NAS的生态标杆'
+title: "Synology DS923+ 评测：中小企业NAS首选，性能升级"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Synology"

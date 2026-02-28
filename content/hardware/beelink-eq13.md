@@ -1,5 +1,5 @@
 ﻿---
-title: '内置电源的静音办公神器——零刻 Beelink EQ13 开箱测评：入门级迷你主机的革新之作'
+title: "Beelink EQ13 评测：入门级迷你主机，性价比之选"
 date: 2026-02-17
 categories: ["hardware"]
 brand: "Beelink"
