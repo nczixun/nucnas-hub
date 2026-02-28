@@ -39,7 +39,7 @@
 
         <!-- 文章特色图 -->
         {{ with .Params.image }}
-        <figure class="article-featured-image" style="margin:0 0 40px;border-radius:16px;overflow:hidden;">
+        <figure class="article-featured-image" style="display:none;" style="margin:0 0 40px;border-radius:16px;overflow:hidden;">
             <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:auto;display:block;">
             {{ with $.Params.imageCredit }}
             <figcaption style="text-align:right;font-size:12px;color:#86868b;margin-top:8px;">📷 {{ . }}</figcaption>
