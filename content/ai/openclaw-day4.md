@@ -1,72 +1,30 @@
 ---
-title: "Day 4：Skills 技能系�?- 让AI能力翻�?
+title: "Day 4：Skills 技能系统 - 让AI能力翻倍"
 date: 2026-03-03
 categories: ["ai"]
-summary: "1000+社区技能，一键安装即�?
+slug: "openclaw-day4-skills-system"
+summary: "OpenClaw技能系统详解，1000+社区技能一键安装，涵盖AI、搜索、编程、智能家居等31个分类。"
+tags: ["OpenClaw", "Skills", "技能系统", "ClawHub", "插件"]
 image: "https://images.pexels.com/photos/3735438/pexels-photo-3735438.jpeg"
 imageCredit: "Pexels"
 ---
 
-# Day 4：Skills 技能系�?
-OpenClaw 的杀手锏之一就是**Skills 技能系�?*。目前已�?1000+ 社区技能，涵盖 31 个分类�?
-## 技能分类一�?
-| 分类 | 数量 | 示例 |
-|------|------|------|
-| AI & 大模�?| 159 | DeepSeek、Ollama |
-| 搜索 & 研究 | 148 | 网页搜索、YouTube |
-| 编程 Agent | 55 | 代码审查、调�?|
-| DevOps & �?| 144 | AWS、Docker |
-| 智能家居 | 50 | HomeAssistant |
-| 语音 & 音频 | 44 | TTS、语音识�?|
+# Day 4：Skills 技能系统 - 让AI能力翻倍
 
-## 安装技�?
-### 使用 ClawHub CLI
+![技能系统](https://images.pexels.com/photos/3735438/pexels-photo-3735438.jpeg "OpenClaw 技能系统")
 
-```bash
-npx clawhub@latest install weather
-```
+OpenClaw 的杀手锏之一就是**Skills 技能系统**。目前已有 1000+ 社区技能，涵盖 31 个分类。
 
-### 手动安装
+> 相关文章：[Day 3 核心概念](/ai/openclaw-day3-core-concepts/)
 
-1. 创建 `skills/weather` 目录
-2. 添加 `SKILL.md` 文件
-3. 重启 OpenClaw
+## 常用技能推荐
 
-## 技�?
-每个技能包含：
-
-```
-结构skills/weather/
-├── SKILL.md          # 技能定�?├── skill.js          # 执行逻辑
-└── config.json       # 配置
-```
-
-## SKILL.md 示例
-
-```markdown
-# weather - 查询天气
-
-## 触发关键�?- 天气
-- 多少�?
-## 参数
-- city: 城市名称
-
-## 示例
-- "北京天气怎么�?
-- "上海今天多少�?
-```
-
-## 常用技能推�?
-### 必装技�?- `weather` - 天气查询
+- `weather` - 天气查询
 - `search` - 网页搜索
-- `file-manager` - 文件管理
-
-### 进阶技�?- `browser-control` - 浏览器自动化
-- `email-sender` - 邮件发�?- `scheduler` - 定时任务
+- `browser-control` - 浏览器自动化
 
 ## 明天预告
 
-Day 5我们将学习自动化任务与心跳机制，�?AI 主动为你工作�?
----
+Day 5我们将学习自动化任务与心跳机制，让 AI 主动为你工作。
 
-*本文�?NUC NAS Hub 自动生成*
+---

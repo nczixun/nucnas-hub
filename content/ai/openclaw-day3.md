@@ -1,77 +1,36 @@
 ---
-title: "Day 3：核心概念三剑客 AGENTS.md / SOUL.md / MEMORY.md"
+title: "Day 3：核心概念 AGENTS.md / SOUL.md / MEMORY.md 深入理解"
 date: 2026-03-02
 categories: ["ai"]
-summary: "深入理解OpenClaw的记忆与人格系统"
+slug: "openclaw-day3-core-concepts"
+summary: "深入理解OpenClaw三大核心文件：AGENTS.md行为准则、SOUL.md人格设定、MEMORY.md长期记忆，打造个性化AI助理。"
+tags: ["OpenClaw", "AGENTS.md", "SOUL.md", "MEMORY.md", "AI人格", "提示词工程"]
 image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
 imageCredit: "Pexels"
 ---
 
-# Day 3：核心概念三剑客
+# Day 3：核心概念 AGENTS.md / SOUL.md / MEMORY.md 深入理解
 
-OpenClaw 的灵魂在于它�?*人格系统**。通过三个核心文件，你可以完全定制 AI 助理的性格、知识和记忆�?
+![OpenClaw核心概念](https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg "OpenClaw 核心概念")
+
+OpenClaw 的灵魂在于它的**人格系统**。通过三个核心文件，你可以完全定制 AI 助理的性格、知识和记忆。
+
+> 相关文章：[Day 2 平台接入](/ai/openclaw-day2-platform-integration/)
+
 ## AGENTS.md - 行为准则
 
-定义 AI 助理�?*工作范围**�?*行为规范**�?
-```markdown
-# AGENTS.md - 工作指南
-
-## 首要注意事项
-- 数据安全第一，绝不外泄用户信�?- 执行危险操作前必须确�?
-## 可执行操�?- 读取文件、搜索网�?- 发送消息、回复邮�?
-## 需要确认的操作
-- 删除文件
-- 发送外部消�?- 安装软件
-```
+定义 AI 助理的**工作范围**和**行为规范**。
 
 ## SOUL.md - 人格设定
 
-定义 AI 助理�?*性格**�?*语气**�?*风格**�?
-```markdown
-# SOUL.md - 我是�?
-## 身份
-- 名字：小助手
-- 性格：幽默风趣，偶尔整活
-
-## 说话风格
-- 轻松活泼
-- 适当使用 emoji
-- 重要事项严谨对待
-```
+定义 AI 助理的**性格**、**语气**和**风格**。
 
 ## MEMORY.md - 长期记忆
 
-记录重要�?*用户偏好**�?*历史交互**�?*知识积累**�?
-```markdown
-# MEMORY.md - 重要记录
-
-## 用户偏好
-- 喜欢简洁直接的沟�?- 工作时间：周一至周�?9:00-18:00
-
-## 重要日期
-- 2024-01-01：项目启�?
-## 常用工具
-- 浏览器：Chrome
-- 编辑器：VS Code
-```
-
-## 三者关�?
-```
-AGENTS.md �?规则（能做什么）
-    �?SOUL.md �?性格（怎么表现�?    �?MEMORY.md �?记忆（记得什么）
-```
-
-## 实际使用示例
-
-创建这些文件后，OpenClaw 会自动加载：
-
-```bash
-openclaw start
-# AI 助手现在有了人格�?```
+记录重要的**用户偏好**、**历史交互**和**知识积累**。
 
 ## 明天预告
 
-Day 4我们将学�?Skills 技能系统，�?AI 掌握更多能力�?
----
+Day 4我们将学习 Skills 技能系统，让 AI 掌握更多能力。
 
-*本文�?NUC NAS Hub 自动生成*
+---
