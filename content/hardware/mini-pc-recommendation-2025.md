@@ -3,7 +3,6 @@ title: "2025年迷你主机推荐：性价比最高的10款"
 date: 2026-02-28
 categories: ["hardware"]
 summary: "2025年迷你主机推荐，盘点性价比最高的10款迷你电脑，适合办公、游戏 NAS"
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
 slug: "mini-pc-recommendation-2025"
 tags: ["迷你主机推荐", "迷你电脑", "性价比"]
 brand: "汇总"
