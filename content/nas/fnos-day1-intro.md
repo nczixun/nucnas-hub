@@ -1,14 +1,16 @@
 ---
-title: "Day 1: 飞牛OS是什么？—— 国产NAS新选择"
-date: 2026-03-07
-summary: "认识飞牛OS(FNOS)，一款基于Debian 12的国产NAS操作系统。"
+title: "Day 1：飞牛OS是什么？国产NAS新选择（完全指南）"
+date: 2026-02-28
+summary: "飞牛OS(FNOS)是基于Debian 12的国产NAS系统，开源免费、易上手、支持Docker，家庭NAS首选。一文带你全面了解FNOS。"
 categories: ["nas"]
 slug: "fnos-day1-intro"
-tags: ["飞牛OS", "FNOS", "NAS", "教程"]
+tags: ["飞牛OS", "FNOS", "NAS", "教程", "家庭存储", "私有云"]
 image: https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg
 ---
 
-# Day 1: 飞牛OS是什么？—— 国产NAS新选择
+# Day 1：飞牛OS是什么？国产NAS新选择（完全指南）
+
+![飞牛OS NAS系统](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg "飞牛OS - 国产NAS系统")
 
 ## 什么是飞牛OS？
 
