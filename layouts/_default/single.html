@@ -1,136 +1,133 @@
 {{ define "main" }}
-<!-- 面包屑 -->
-<nav class="breadcrumb">
-    <a href="/">首页</a>
-    <span class="breadcrumb-separator">/</span>
-    {{ with .Section }}
-    {{ $section := . }}
-    {{ if eq . "hardware" }}
-    <a href="/hardware/">硬件测评</a>
-    {{ else if eq . "nas" }}
-    <a href="/nas/">NAS学院</a>
-    {{ else if eq . "ai" }}
-    <a href="/ai/">AI</a>
-    {{ else }}
-    <a href="/{{ . }}/">{{ . }}</a>
-    {{ end }}
-    <span class="breadcrumb-separator">/</span>
-    {{ end }}
-    <span>{{ .Title }}</span>
-</nav>
-
-<!-- 文章头部 -->
-<header class="article-header">
-    <h1 class="article-title">{{ .Title }}</h1>
-    
-    <div class="article-meta">
-        <span class="meta-date">🕐 {{ .Date.Format "2006-01-02" }}</span>
-        {{ with .Params.categories }}
-        <span class="meta-category">{{ index . 0 }}</span>
+<!-- 内容页 - 白色柔和风格 -->
+<main class="article-page">
+    <!-- 面包屑 -->
+    <nav class="breadcrumb" style="max-width:800px;margin:0 auto 24px;padding:0 20px;">
+        <a href="/" style="color:#666;text-decoration:none;font-size:14px;">首页</a>
+        <span style="color:#999;margin:0 8px;">/</span>
+        {{ with .Section }}
+        {{ if eq . "hardware" }}
+        <a href="/hardware/" style="color:#666;text-decoration:none;font-size:14px;">硬件测评</a>
+        {{ else if eq . "nas" }}
+        <a href="/nas/" style="color:#666;text-decoration:none;font-size:14px;">NAS学院</a>
+        {{ else if eq . "ai" }}
+        <a href="/ai/" style="color:#666;text-decoration:none;font-size:14px;">AI</a>
+        {{ else }}
+        <a href="/{{ . }}/" style="color:#666;text-decoration:none;font-size:14px;">{{ . }}</a>
         {{ end }}
-    </div>
-    
-    <!-- 分享按钮 -->
-    <div class="action-buttons">
-        <button class="action-btn favorite-btn" data-post-id="{{ .RelPermalink }}">
-            <span>⭐</span> 收藏
-        </button>
-        <button class="action-btn share-btn" data-platform="weibo">
-            <span>📤</span> 分享
-        </button>
-    </div>
-</header>
-
-<!-- 文章特色图 -->
-{{ with .Params.image }}
-<figure class="article-featured-image">
-    <img src="{{ . }}" alt="{{ $.Title }}">
-    {{ with $.Params.imageCredit }}
-    <figcaption>摄影：{{ . }}</figcaption>
-    {{ end }}
-</figure>
-{{ end }}
-
-<!-- 文章摘要 -->
-{{ with .Summary }}
-<div class="article-summary">
-    {{ . }}
-</div>
-{{ end }}
-
-<!-- 文章内容 -->
-<article class="article-content">
-    {{ .Content }}
-</article>
-
-<!-- 联盟链接 -->
-{{ if .Params.affiliate }}
-<div class="affiliate-box">
-    <h3>🛒 购买推荐</h3>
-    <p>如果你对本文介绍的产品感兴趣，可以通过以下链接购买：</p>
-    <div class="affiliate-links">
-        {{ range .Params.affiliate }}
-        <a href="{{ .url }}" target="_blank" class="affiliate-btn">
-            <span class="affiliate-name">{{ .name }}</span>
-            <span class="affiliate-price">{{ .price }}</span>
-        </a>
+        <span style="color:#999;margin:0 8px;">/</span>
         {{ end }}
-    </div>
-</div>
-{{ end }}
+        <span style="color:#333;font-size:14px;">{{ .Title }}</span>
+    </nav>
 
-<!-- 文章标签 -->
-{{ with .Params.tags }}
-<div class="article-tags">
-    <span class="tags-label">标签：</span>
-    {{ range . }}
-    <a href="/tags/{{ . | urlize }}" class="tag">{{ . }}</a>
-    {{ end }}
-</div>
-{{ end }}
-
-<!-- 相关文章推荐 -->
-{{ $related := .Site.RegularPages.Related . | first 3 }}
-{{ if $related }}
-<section class="related-articles">
-    <h3 class="section-title">相关文章</h3>
-    <div class="related-grid">
-        {{ range $related }}
-        <a href="{{ .RelPermalink }}" class="related-card">
-            <div class="related-image">
-                {{ with .Params.image }}
-                <img src="{{ . }}" alt="{{ $.Title }}">
-                {{ else }}
-                <span>📄</span>
+    <!-- 文章容器 - 白色卡片 -->
+    <article class="article-container" style="max-width:800px;margin:0 auto;background:white;border-radius:24px;box-shadow:0 2px 20px rgba(0,0,0,0.06);padding:48px;">
+        
+        <!-- 文章头部 -->
+        <header class="article-header" style="text-align:center;margin-bottom:40px;padding-bottom:32px;border-bottom:1px solid #f0f0f0;">
+            <h1 class="article-title" style="font-size:36px;font-weight:700;color:#1d1d1f;line-height:1.3;margin-bottom:20px;">
+                {{ .Title }}
+            </h1>
+            
+            <div class="article-meta" style="display:flex;justify-content:center;gap:20px;color:#86868b;font-size:14px;">
+                <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
+                {{ with .Params.categories }}
+                <span style="background:#f5f5f7;padding:4px 12px;border-radius:12px;">{{ index . 0 }}</span>
                 {{ end }}
             </div>
-            <h4 class="related-title">{{ .Title }}</h4>
-        </a>
-        {{ end }}
-    </div>
-</section>
-{{ end }}
+        </header>
 
-<!-- 评论区 -->
-<section class="comments-section">
-    <h3 class="section-title">评论</h3>
-    
-    <!-- 评论表单 -->
-    <form class="comment-form" onsubmit="event.preventDefault(); alert('评论功能需要后端支持');">
-        <textarea placeholder="写下你的评论..."></textarea>
-        <button type="submit" class="btn-primary">提交评论</button>
-    </form>
-    
-    <!-- 评论列表 -->
-    <div class="comment-list">
-        <div class="comment-item">
-            <div class="comment-avatar">👤</div>
-            <div class="comment-content">
-                <div class="comment-author">访客</div>
-                <div class="comment-time">2024-01-01</div>
-                <p class="comment-text">期待更多内容！</p>
+        <!-- 文章特色图 -->
+        {{ with .Params.image }}
+        <figure class="article-featured-image" style="margin:0 0 40px;border-radius:16px;overflow:hidden;">
+            <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:auto;display:block;">
+            {{ with $.Params.imageCredit }}
+            <figcaption style="text-align:right;font-size:12px;color:#86868b;margin-top:8px;">📷 {{ . }}</figcaption>
+            {{ end }}
+        </figure>
+        {{ end }}
+
+        <!-- 文章摘要 -->
+        {{ with .Summary }}
+        <div class="article-summary" style="background:linear-gradient(135deg,#f8f9fa,#fff);padding:24px;border-radius:16px;margin-bottom:40px;border-left:4px solid #667eea;">
+            {{ . }}
+        </div>
+        {{ end }}
+
+        <!-- 文章内容 - 柔和排版 -->
+        <div class="article-content" style="font-size:17px;line-height:1.8;color:#333;">
+            {{ .Content }}
+        </div>
+
+        <!-- 联盟链接 -->
+        {{ if .Params.affiliate }}
+        <div class="affiliate-box" style="background:linear-gradient(135deg,#fff5f5,#fff);padding:24px;border-radius:16px;margin-top:40px;border:1px solid #ffe5e5;">
+            <h3 style="font-size:18px;margin-bottom:16px;">🛒 购买推荐</h3>
+            <div style="display:flex;flex-direction:column;gap:12px;">
+                {{ range .Params.affiliate }}
+                <a href="{{ .url }}" target="_blank" style="display:flex;justify-content:space-between;align-items:center;background:white;padding:16px;border-radius:12px;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.05);transition:transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <span style="font-weight:600;">{{ .name }}</span>
+                    <span style="color:#FF3B30;font-weight:700;">{{ .price }}</span>
+                </a>
+                {{ end }}
             </div>
         </div>
+        {{ end }}
+
+        <!-- 文章标签 -->
+        {{ with .Params.tags }}
+        <div class="article-tags" style="margin-top:40px;padding-top:24px;border-top:1px solid #f0f0f0;">
+            <span style="color:#86868b;font-size:14px;margin-right:12px;">🏷️ 标签：</span>
+            {{ range . }}
+            <a href="/tags/{{ . | urlize }}" style="display:inline-block;background:#f5f5f7;color:#333;padding:6px 14px;border-radius:16px;font-size:13px;text-decoration:none;margin-right:8px;margin-bottom:8px;transition:background 0.2s;" onmouseover="this.style.background='#e8e8ed'" onmouseout="this.style.background='#f5f5f7'">{{ . }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </article>
+
+    <!-- 相关文章 -->
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ if $related }}
+    <section class="related-articles" style="max-width:800px;margin:60px auto;padding:0 20px;">
+        <h3 style="font-size:24px;font-weight:700;margin-bottom:24px;">相关文章</h3>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+            {{ range $related }}
+            <a href="{{ .RelPermalink }}" style="background:white;border-radius:16px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(0,0,0,0.06);transition:all 0.3s;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)'">
+                <div style="height:140px;background:linear-gradient(135deg,#667eea,#764ba2);display:flex;align-items:center;justify-content:center;font-size:36px;">
+                    {{ with .Params.image }}<img src="{{ . }}" style="width:100%;height:100%;object-fit:cover;">{{ else }}📄{{ end }}
+                </div>
+                <div style="padding:16px;">
+                    <h4 style="font-size:15px;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ .Title }}</h4>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+
+    <!-- 返回首页 -->
+    <div style="text-align:center;margin:40px 0 80px;">
+        <a href="/" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#667eea,#764ba2);color:white;padding:14px 28px;border-radius:50px;text-decoration:none;font-weight:600;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            ← 返回首页
+        </a>
     </div>
-</section>
+</main>
+
+<style>
+.article-content p { margin-bottom: 1.5em; }
+.article-content h2 { font-size: 24px; font-weight: 700; margin: 2em 0 1em; color: #1d1d1f; }
+.article-content h3 { font-size: 20px; font-weight: 600; margin: 1.5em 0 0.8em; color: #1d1d1f; }
+.article-content ul, .article-content ol { margin-bottom: 1.5em; padding-left: 1.5em; }
+.article-content li { margin-bottom: 0.5em; }
+.article-content code { background: #f5f5f7; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+.article-content pre { background: #1d1d1f; color: #fff; padding: 20px; border-radius: 12px; overflow-x: auto; margin: 1.5em 0; }
+.article-content pre code { background: none; padding: 0; }
+.article-content blockquote { border-left: 4px solid #667eea; padding-left: 20px; margin: 1.5em 0; color: #666; font-style: italic; }
+.article-content img { max-width: 100%; height: auto; border-radius: 12px; margin: 1.5em 0; }
+.article-content a { color: #667eea; text-decoration: none; }
+.article-content a:hover { text-decoration: underline; }
+.article-content table { width: 100%; border-collapse: collapse; margin: 1.5em 0; }
+.article-content th, .article-content td { padding: 12px; border: 1px solid #e5e5e5; text-align: left; }
+.article-content th { background: #f5f5f7; font-weight: 600; }
+</style>
 {{ end }}
