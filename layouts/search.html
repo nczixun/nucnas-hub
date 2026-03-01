@@ -72,7 +72,7 @@
             <h2>🛒 推荐购买 <span class="jd-tag">京东联盟</span></h2>
             <div class="product-grid">
                 {{ $query := .Title }}
-                {{ if or (contains $query "mac") (contains $query "Mac") }}
+                {{ if or (in $query "mac") (in $query "Mac") }}
                 <a href="https://union.jd.com/search?skuIds=123456789" target="_blank" class="product-card">
                     <div class="product-image">🖥️</div>
                     <div class="product-title">Apple Mac mini M4 芯片</div>

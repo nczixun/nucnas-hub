@@ -1,6 +1,6 @@
-﻿<!-- SEO 优化 -->
+<!-- SEO 优化 -->
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta name="keywords" content="{{ if .Keywords }}{{ .Keywords }}{{ else }}NUC, NAS, 群晖, TrueNAS, Unraid, 本地AI, 开源大模型, 硬件测评, Mini PC{{ end }}">
+<meta name="keywords" content="{{ if .Keywords }}{{ .Keywords }}{{ else }}NUC, NAS, 群晖, TrueNAS, Unraid, 本地AI, 开源大模型, 硬件测评, Mini PC, AI, Hardware Review{{ end }}">
 <meta name="author" content="{{ .Site.Params.author | default "NUCNAS.HUB" }}">
 <meta name="robots" content="index, follow">
 
@@ -10,15 +10,65 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
+{{ if .Params.image }}
+<meta property="og:image" content="{{ .Params.image }}">
+{{ else }}
 <meta property="og:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
+{{ end }}
+{{ if eq .Site.Language.Lang "en" }}
+<meta property="og:locale" content="en_US">
+{{ else }}
 <meta property="og:locale" content="zh_CN">
+{{ end }}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ if .Params.image }}
+<meta name="twitter:image" content="{{ .Params.image }}">
+{{ else }}
 <meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
+{{ end }}
 
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ .Permalink }}">
 
+<!-- Language Alternates -->
+{{ if .IsTranslated }}
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
+{{ end }}
+{{ end }}
+
+<!-- JSON-LD Structured Data -->
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author | default "NUCNAS.HUB" }}"
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "image": {{ if .Params.image }}{{ .Params.image | jsonify }}{{ else }}"{{ .Site.BaseURL }}images/og-image.jpg"{{ end }},
+  "url": "{{ .Permalink }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{ end }}
