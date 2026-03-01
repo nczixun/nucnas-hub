@@ -4,20 +4,20 @@ title = "NUC NAS Hub - 迷你主机与NAS测评网"
 enableRobotsTXT = true
 enableGitInfo = true
 
-# Multilingual
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
+# 单一语言，不再使用多语言
+# defaultContentLanguage = "zh"
+# defaultContentLanguageInSubdir = true
 
-[languages]
-  [languages.zh]
-    languageName = "中文"
-    weight = 1
-    title = "NUC NAS Hub - 迷你主机与NAS测评网"
+# [languages]
+#   [languages.zh]
+#     languageName = "中文"
+#     weight = 1
+#     title = "NUC NAS Hub - 迷你主机与NAS测评网"
     
-  [languages.en]
-    languageName = "English"
-    weight = 2
-    title = "NUC NAS Hub - Mini PC & NAS Reviews"
+#   [languages.en]
+#     languageName = "English"
+#     weight = 2
+#     title = "NUC NAS Hub - Mini PC & NAS Reviews"
 
 [pagination]
   pagerSize = 12
