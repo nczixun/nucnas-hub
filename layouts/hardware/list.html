@@ -1,5 +1,5 @@
 {{ define "main" }}
-<!-- 栏目主页 - 无缩略图版本 -->
+<!-- 栏目主页 - 硬件测评卡片式布局 -->
 <div class="list-header" style="text-align:center;padding:60px 20px 40px;">
     <h1 class="list-title" style="font-size:40px;font-weight:700;margin-bottom:12px;">
         {{ if eq .Section "hardware" }}硬件测评
@@ -17,23 +17,44 @@
     </p>
 </div>
 
-<!-- 文章列表 - 无图片 -->
-<div class="article-list" style="max-width:800px;margin:0 auto;padding:0 20px 60px;">
+<!-- 文章列表 - 卡片网格布局 -->
+<div class="article-grid" style="max-width:1200px;margin:0 auto;padding:0 20px 60px;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px;">
     {{ range .Paginator.Pages }}
-    <a href="{{ .RelPermalink }}" class="article-card" style="display:flex;gap:20px;padding:24px;background:white;border-radius:16px;margin-bottom:16px;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(0,0,0,0.06);transition:all 0.3s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)'">
-        <!-- 左侧图标 -->
-        <div style="width:64px;height:64px;min-width:64px;background:linear-gradient(135deg,{{ if eq $.Section "hardware" }}#667eea{{ else if eq $.Section "nas" }}#5856D6{{ else if eq $.Section "ai" }}#34C759{{ else }}#FF9500{{ end }},{{ if eq $.Section "hardware" }}#764ba2{{ else if eq $.Section "nas" }}#AF52DE{{ else if eq $.Section "ai" }}#30D158{{ else }}#FF3B30{{ end }});border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;">
-            {{ if eq $.Section "hardware" }}🖥️{{ else if eq $.Section "nas" }}💾{{ else if eq $.Section "ai" }}🤖{{ else }}🧮{{ end }}
+    <a href="{{ .RelPermalink }}" class="article-card" style="display:block;background:white;border-radius:20px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 4px 20px rgba(0,0,0,0.08);transition:all 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 16px 40px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'">
+        <!-- 封面图 -->
+        <div style="height:180px;background:linear-gradient(135deg,#667eea,#764ba2);position:relative;overflow:hidden;">
+            {{ with .Params.image }}
+            <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:100%;object-fit:cover;">
+            {{ else }}
+            <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:56px;">
+                🖥️
+            </div>
+            {{ end }}
+            <!-- 标签 -->
+            {{ with .Params.tags }}
+            {{ $tags := . }}
+            {{ if reflect.IsSlice $tags }}
+            <span style="position:absolute;top:12px;right:12px;background:rgba(255,255,255,0.95);padding:6px 12px;border-radius:20px;font-size:12px;font-weight:600;color:#333;">{{ index $tags 0 }}</span>
+            {{ end }}
+            {{ end }}
         </div>
         
-        <!-- 右侧内容 -->
-        <div style="flex:1;">
-            <h3 style="font-size:18px;font-weight:600;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ .Title }}</h3>
-            <p style="font-size:14px;color:#666;margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 100 }}{{ end }}</p>
-            <div style="display:flex;gap:16px;font-size:13px;color:#86868b;">
+        <!-- 内容区 -->
+        <div style="padding:20px;">
+            <h3 style="font-size:17px;font-weight:600;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4;">{{ .Title }}</h3>
+            
+            <!-- 硬件规格 -->
+            {{ with .Params.hw_specs }}
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+                {{ with .cpu }}<span style="background:#f5f5f7;padding:4px 10px;border-radius:6px;font-size:12px;color:#555;">💻 {{ . }}</span>{{ end }}
+                {{ with .gpu }}<span style="background:#f5f5f7;padding:4px 10px;border-radius:6px;font-size:12px;color:#555;">🎮 {{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+            
+            <!-- 底部信息 -->
+            <div style="display:flex;justify-content:space-between;align-items:center;font-size:13px;color:#86868b;">
                 <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
-                {{ with .Params.tags }}{{ $tags := . }}{{ if reflect.IsSlice $tags }}<span>🏷️ {{ index $tags 0 }}</span>{{ end }}{{ end }}
-                {{ with .Params.hw_specs.cpu }}<span>💻 {{ . }}</span>{{ end }}
+                <span style="color:#667eea;font-weight:500;">阅读全文 →</span>
             </div>
         </div>
     </a>
