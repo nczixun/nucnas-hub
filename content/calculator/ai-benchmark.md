@@ -2,6 +2,7 @@
 title: "AI 算力测试"
 slug: "ai-benchmark"
 description: "测试本地设备的AI推理性能"
+date: 2026-03-01
 ---
 
 # 🤖 AI 算力测试

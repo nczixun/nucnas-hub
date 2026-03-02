@@ -2,6 +2,7 @@
 title: "GPU 对比工具"
 slug: "gpu-compare"
 description: "对比两款显卡的规格和性能"
+date: 2026-03-01
 ---
 
 # 🎮 GPU 对比工具

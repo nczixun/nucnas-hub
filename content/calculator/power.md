@@ -2,6 +2,7 @@
 title: "功耗计算器"
 slug: "power"
 description: "根据CPU/GPU TDP计算整机功耗，估算电费"
+date: 2026-03-01
 ---
 
 # ⚡ 功耗计算器
