@@ -302,7 +302,8 @@ nav {
 .nav-links a {
     color: var(--apple-text);
     opacity: 0.8;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 500;
     transition: opacity 0.2s;
 }
 .nav-links a:hover,
