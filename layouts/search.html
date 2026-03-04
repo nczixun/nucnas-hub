@@ -85,28 +85,28 @@
                     <div class="product-price">¥7999起</div>
                     <div class="product-commission">预估佣金 ¥240</div>
                 </a>
-                {{ else if or (contains $query "nuc") (contains $query "NUC") }}
+                {{ else if or (in $query "nuc") (in $query "NUC") }}
                 <a href="#" class="product-card">
                     <div class="product-image">🖥️</div>
                     <div class="product-title">Intel NUC 13 Pro</div>
                     <div class="product-price">¥3999起</div>
                     <div class="product-commission">预估佣金 ¥120</div>
                 </a>
-                {{ else if or (contains $query "amd") (contains $query "Ryzen") }}
+                {{ else if or (in $query "amd") (in $query "Ryzen") }}
                 <a href="#" class="product-card">
                     <div class="product-image">🎮</div>
                     <div class="product-title">AMD Ryzen 7 8845HS 迷你主机</div>
                     <div class="product-price">¥2999起</div>
                     <div class="product-commission">预估佣金 ¥90</div>
                 </a>
-                {{ else if or (contains $query "nas") (contains $query "NAS") }}
+                {{ else if or (in $query "nas") (in $query "NAS") }}
                 <a href="#" class="product-card">
                     <div class="product-image">💾</div>
                     <div class="product-title">群晖 DS923+</div>
                     <div class="product-price">¥4900起</div>
                     <div class="product-commission">预估佣金 ¥147</div>
                 </a>
-                {{ else if or (contains $query "ai") (contains $query "AI") (contains $query "大模型") }}
+                {{ else if or (in $query "ai") (in $query "AI") (in $query "大模型") }}
                 <a href="#" class="product-card">
                     <div class="product-image">🤖</div>
                     <div class="product-title">NVIDIA RTX 4090 显卡</div>
