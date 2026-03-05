@@ -78,7 +78,7 @@
         {{ range first 4 (where .Site.RegularPages "Section" "hardware") }}
         <a href="{{ .RelPermalink }}" style="background:white;border-radius:20px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 4px 20px rgba(0,0,0,0.08);transition:transform 0.3s,box-shadow 0.3s;display:block;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'">
             <div style="height:180px;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);display:flex;align-items:center;justify-content:center;font-size:56px;">
-                {{ with .Params.image }}<img src="{{ . }}" style="width:100%;height:100%;object-fit:cover;">{{ else }}🖥️{{ end }}
+                {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:100%;object-fit:cover;">{{ else }}🖥️{{ end }}
             </div>
             <div style="padding:20px;">
                 <h4 style="font-size:16px;font-weight:600;margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4;">{{ .Title }}</h4>
@@ -104,7 +104,7 @@
         {{ range first 5 (where .Site.RegularPages "Section" "hardware") }}
         <a href="{{ .RelPermalink }}" style="display:flex;gap:20px;padding:20px;background:white;border-radius:16px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(0,0,0,0.06);transition:all 0.2s;" onmouseover="this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)'" onmouseout="this.style.boxShadow='0 2px 16px rgba(0,0,0,0.06)'">
             <div style="width:180px;height:110px;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:40px;overflow:hidden;">
-                {{ with .Params.image }}<img src="{{ . }}" style="width:100%;height:100%;object-fit:cover;">{{ else }}📄{{ end }}
+                {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:100%;object-fit:cover;">{{ else }}📄{{ end }}
             </div>
             <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
                 <h4 style="font-size:17px;font-weight:600;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4;">{{ .Title }}</h4>
