@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,25 @@
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
+    <!-- DNS 预解析 -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="dns-prefetch" href="//hm.baidu.com">
+    <link rel="dns-prefetch" href="//www.clarity.ms">
+    
+    <!-- 预连接 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- 预加载首屏图片 (LCP 优化) -->
+    {{ if .IsHome }}
+    <link rel="preload" as="image" href="/images/hero-bg.webp">
+    {{ end }}
+    {{ if .Params.image }}
+    <link rel="preload" as="image" href="{{ .Params.image }}">
+    {{ end }}
+    
     <!-- Apple Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,18 +39,16 @@
     <!-- SEO -->
     {{ partial "seo.html" . }}
     
-    <!-- GA4 -->
-    {{ if .Site.Params.googleAnalytics }}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+    <!-- GA4 - 异步加载 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYMJT3JFHC"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '{{ .Site.Params.googleAnalytics }}');
+        gtag('config', 'G-YYMJT3JFHC');
     </script>
-    {{ end }}
     
-    <!-- Microsoft Clarity -->
+    <!-- Microsoft Clarity - 异步加载 -->
     {{ if .Site.Params.clarityID }}
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
@@ -43,15 +60,6 @@
     {{ end }}
     
     {{ block "extra_head" . }}{{ end }}
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YYMJT3JFHC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YYMJT3JFHC');
-</script>
 
 {{- if .IsPage }}
 <meta property="og:type" content="article">
@@ -172,6 +180,7 @@
             });
         });
     </script>
+<!-- 百度统计 - 异步加载 -->
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -183,4 +192,3 @@ var _hmt = _hmt || [];
 </script>
 </body>
 </html>
-
