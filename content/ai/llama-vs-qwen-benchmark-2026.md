@@ -6,9 +6,12 @@ summary: "两款热门本地大模型实测对比，看看哪个更好用"
 image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
 imageCredit: "Pexels"
 tags: ["Llama 3.2", "Qwen2.5", "benchmark"]
+slug: "llama-vs-qwen-benchmark-2026"
 ---
 
 # Llama 3.2 vs Qwen2.5：本地大模型真实对比
+
+![大模型对比](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "模型对比")
 
 两款最火的本地模型，实际表现如何？
 
@@ -37,14 +40,12 @@ tags: ["Llama 3.2", "Qwen2.5", "benchmark"]
 - Llama 3.2：Python写得不错
 - Qwen2.5：代码能力强，略逊Llama
 
-### 响应速度
-- 同参数下两者差不多
-- 4bit量化后速度都能接受
+---
 
-## 推荐选择
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
-- 日常对话、写作：选Qwen2.5
-- 编程、开发：选Llama 3.2
-- 中文为主：闭眼选Qwen
+<div class="page-nav">
+  <a href="/hardware/asus-nuc-14-pro-plus/" rel="prev">上一页：NUC 14 Pro+ 评测</a>
+</div>
 
-两个模型都不错，看你具体需求。
+*本文由 NUC NAS Hub 自动生成*
