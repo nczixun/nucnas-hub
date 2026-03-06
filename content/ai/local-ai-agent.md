@@ -7,11 +7,15 @@ summary: "从零开始搭建本地 AI Agent，实现自动化任务处理。"
 image: "https://images.pexels.com/photos/209639/pexels-photo-209639.jpeg"
 imageCredit: "Photo by Pexels"
 tags: ["AI Agent", "自动化", "教程"]
+image: "https://images.pexels.com/photos/209639/pexels-photo-209639.jpeg"
+imageCredit: "Pexels"
 ---
 
 # 本地 AI Agent 完全指南
 
-AI Agent（AI 智能体）是当前 AI 领域的热门话题，它可以自主完成复杂任务。本文教你如何搭建本地 AI Agent。
+![AI Agent](https://images.pexels.com/photos/209639/pexels-photo-209639.jpeg "AI Agent")
+
+AI Agent（AI 智能体）是当前 <a href="/ai/" target="_blank">AI</a> 领域的热门话题，它可以自主完成复杂任务。本文教你如何搭建本地 AI Agent。
 
 ## 什么是 AI Agent？
 
@@ -50,5 +54,11 @@ docker-compose up -d
 - **监控系统**：监控网站/服务状态
 
 ---
+
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
+
+<div class="page-nav">
+  <a href="/ai/ollama-beginner-guide-2026/" rel="prev">上一页：本地大模型部署入门指南：Ollama使用教程</a>
+</div>
 
 *本文由 NUC NAS Hub 自动生成*
