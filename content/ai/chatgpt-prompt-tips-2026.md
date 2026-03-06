@@ -1,4 +1,4 @@
-<parameter name="content">---
+---
 title: "ChatGPT使用技巧：这样提问效率翻倍"
 date: 2026-03-06
 categories: ["ai"]
@@ -6,11 +6,14 @@ summary: "掌握这几个提问技巧，让AI更好地帮你干活"
 image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
 imageCredit: "Pexels"
 tags: ["ChatGPT", "prompt", "tutorial"]
+slug: "chatgpt-prompt-tips-2026"
 ---
 
 # ChatGPT使用技巧：这样提问效率翻倍
 
-同样是用ChatGPT，为啥别人问的答案比你好？技巧在这。
+![AI提问技巧](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "Prompt技巧")
+
+同样是用<a href="/ai/" target="_blank">ChatGPT</a>，为啥别人问的答案比你好？技巧在这。
 
 ## 技巧1：给足背景
 
@@ -26,11 +29,11 @@ tags: ["ChatGPT", "prompt", "tutorial"]
 ✅ 第二步：写HTML代码
 ✅ 第三步：加CSS样式
 
-复杂问题拆开问，AI不容易跑偏。
+复杂问题拆开问，<a href="/ai/" target="_blank">AI</a>不容易跑偏。
 
 ## 技巧3：指定格式
 
-❌ 给我推荐几本书
+❌ 推荐5本Python入门书
 ✅ 推荐5本Python入门书，用表格展示，包含书名、作者、豆瓣评分
 
 要什么格式直接说，省得再改。
@@ -38,22 +41,14 @@ tags: ["ChatGPT", "prompt", "tutorial"]
 ## 技巧4：给它一个角色
 
 ❌ 帮我修改这段代码
-✅ 你是一个资深Python工程师，帮我审查这段代码，指出可能的问题和优化建议
+✅ 你是一个资深Python工程师，帮我review这段代码，指出潜在问题
 
-角色设定能让AI进入对应思维模式。
+---
 
-## 技巧5：给示例
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
-✅ 帮我写一封邮件，按照以下格式：
-标题：xxx
-开头：问候语
-正文：xxx
-结尾：xxx
+<div class="page-nav">
+  <a href="/hardware/mini-pc-nas-ai-2026/" rel="prev">上一页：迷你主机 + NAS + AI本地部署</a>
+</div>
 
-示例比描述更直观。
-
-## 进阶：连续对话
-
-不要一句话问完就结束。追问、补充、纠正， AI能理解上下文，越聊越懂你。
-
-多用几次你就懂了。
+*本文由 NUC NAS Hub 自动生成*
