@@ -160,3 +160,14 @@ deploy:
 4. **Gokapi**: 临时文件分享
 
 Docker让NAS的可能性无限扩展。根据自己的需求选择合适的应用，逐步打造属于自己的私人云服务。
+
+---
+
+*更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
+
+<div class="page-nav">
+  <a href="/hardware/x-host/" rel="iaomi-miniprev">上一页：小米迷你主机评测</a>
+  <a href="/nas/nas-docker-apps-recommend-2026-v3/" rel="next">下一页：NAS必装Docker应用推荐 V3</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*
