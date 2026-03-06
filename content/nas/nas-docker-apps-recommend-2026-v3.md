@@ -5,19 +5,23 @@ categories: ["nas"]
 tags: ["NAS", "Docker", "私有云", "应用推荐", "Docker Compose"]
 platform: "nas"
 slug: "nas-docker-apps-recommend-2026-v3"
+image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
+imageCredit: "Pexels"
 ---
 
 # 2026年NAS必装Docker应用：这20个应用让你的私有云更强大
+
+![NAS Docker应用](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "Docker")
 
 **更新日期：** 2026年3月5日
 
 ## 一、前言
 
-Docker是NAS进阶玩法的核心。借助Docker，你可以在NAS上运行各种服务，从文件管理到智能家居，从影音娱乐到AI应用。本文精选20个必备Docker应用，让你的NAS物超所值。
+<a href="/nas/docker-best-practice/" target="_blank">Docker</a>是<a href="/nas/" target="_blank">NAS</a>进阶玩法的核心。借助<a href="/nas/docker-best-practice/" target="_blank">Docker</a>，你可以在<a href="/nas/" target="_blank">NAS</a>上运行各种服务，从文件管理到智能家居，从影音娱乐到AI应用。本文精选20个必备<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用，让你的<a href="/nas/" target="_blank">NAS</a>物超所值。
 
 ## 二、必备工具类
 
-### 2.1 Portainer（容器管理）
+### 2.1 <a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>（容器管理）
 
 ```yaml
 version: '3'
@@ -33,15 +37,15 @@ services:
       - portainer_data:/data
 ```
 
-**功能**：图形化Docker管理面板，可视化容器、镜像、网络管理
+**功能**：图形化<a href="/nas/docker-best-practice/" target="_blank">Docker</a>管理面板，可视化容器、镜像、网络管理
 
-**推荐理由**：必装！管理Docker更直观
+**推荐理由**：必装！管理<a href="/nas/docker-best-practice/" target="_blank">Docker</a>更直观
 
 ### 2.2 FileBrowser（文件管理）
 
 **功能**：网页版文件管理器，支持拖拽上传、在线预览、权限管理
 
-**替代方案**：Alist（网盘聚合）
+**替代方案**：<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>（网盘聚合）
 
 ### 2.3 Nginx Proxy Manager（反向代理）
 
@@ -86,7 +90,7 @@ jellyfin:
 
 ## 四、照片管理类
 
-### 4.1 Immich（AI相册）
+### 4.1 <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>（AI相册）
 
 **功能**：Google Photos开源替代，AI人脸识别、地图视图、备份同步
 
@@ -100,11 +104,11 @@ jellyfin:
 
 **功能**：另一款强大的AI相册，支持物体识别、地名识别
 
-**对比**：Immich更注重移动端体验，PhotoPrism网页功能更丰富
+**对比**：<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>更注重移动端体验，PhotoPrism网页功能更丰富
 
 ## 五、智能家居类
 
-### 5.1 Home Assistant
+### 5.1 <a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>
 
 **功能**：开源智能家居平台，支持数千种设备
 
@@ -143,15 +147,15 @@ jellyfin:
 
 ## 七、AI/开发类
 
-### 7.1 Ollama（本地大模型）
+### 7.1 <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>（本地大模型）
 
-**功能**：在NAS上运行Llama 2、DeepSeek等大语言模型
+**功能**：在<a href="/nas/" target="_blank">NAS</a>上运行Llama 2、DeepSeek等大语言模型
 
 **推荐配置**：需要16GB+内存，建议N5105以上CPU
 
 ### 7.2 OpenWebUI（对话界面）
 
-**功能**：ChatGPT风格界面，连接Ollama或其他API
+**功能**：ChatGPT风格界面，连接<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>或其他API
 
 ### 7.3 Stable Diffusion WebUI（AI绘画）
 
@@ -175,9 +179,9 @@ jellyfin:
 
 ## 九、安装建议
 
-### 9.1 Docker Compose模板
+### 9.1 <a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>模板
 
-推荐使用Portainer的"Stacks"功能或Docker Compose管理
+推荐使用<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>的"Stacks"功能或<a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>管理
 
 ### 9.2 资源分配
 
@@ -185,8 +189,8 @@ jellyfin:
 | :--- | :--- | :--- |
 | Jellyfin | 2核+ | 4GB+ |
 | Home Assistant | 1核 | 2GB |
-| Immich | 2核 | 4GB+ |
-| Ollama | 4核 | 16GB+ |
+| <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a> | 2核 | 4GB+ |
+| <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a> | 4核 | 16GB+ |
 
 ### 9.3 数据持久化
 
@@ -199,17 +203,27 @@ volumes:
 
 ## 十、总结
 
-这20款Docker应用涵盖了NAS的方方面面：
+这20款<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用涵盖了<a href="/nas/" target="_blank">NAS</a>的方方面面：
 
-- **工具类**：Portainer、Nginx PM、FileBrowser
+- **工具类**：<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>、Nginx PM、FileBrowser
 - **影音类**：Jellyfin、Bazarr、qBittorrent
-- **相册类**：Immich、PhotoPrism
-- **家居类**：Home Assistant、AdGuard
+- **相册类**：<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>、PhotoPrism
+- **家居类**：<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>、AdGuard
 - **效率类**：Syncthing、Wallabag
-- **AI类**：Ollama、OpenWebUI
+- **AI类**：<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>、OpenWebUI
 
-**安装建议**：从简单应用开始，逐步深入。Docker让NAS真正成为生产力工具！
+**安装建议**：从简单应用开始，逐步深入。<a href="/nas/docker-best-practice/" target="_blank">Docker</a>让<a href="/nas/" target="_blank">NAS</a>真正成为生产力工具！
 
 **相关教程**：
-- [NAS Docker入门指南](/guide/nas-docker-guide)
-- [Home Assistant安装配置](/guide/home-assistant-nas)
+- [<a href="/nas/docker-best-practice/" target="_blank">NAS Docker入门指南</a>](/nas/docker-best-practice/)
+- [<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant安装配置</a>](/nas/home-assistant-nuc/)
+
+---
+
+*更多内容请关注 [NAS学院](/nas/)。*
+
+<div class="page-nav">
+  <a href="/nas/nas-beginner-guide-2026/" rel="prev">上一页：NAS新手完全指南：2026年从零开始构建你的私有云</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*
