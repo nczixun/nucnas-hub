@@ -6,50 +6,25 @@ summary: "NAS上跑Docker，这些应用值得安装"
 image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
 imageCredit: "Pexels"
 tags: ["Docker", "NAS", "container"]
+slug: "nas-must-have-docker-containers-2026"
 ---
 
-# NAS必装Docker容器推荐：这几个容器让你的NAS更强大
+# NAS必装Docker容器推荐
 
-Docker是NAS的灵魂，这几个容器装机必备。
+![Docker](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Docker")
+
+<a href="/nas/docker-best-practice/" target="_blank">Docker</a>是<a href="/nas/" target="_blank">NAS</a>的灵魂，这几个容器装机必备。
 
 ## 1. Portainer（容器管理）
 
-- 作用：图形化管理Docker
-- 内存占用：约20MB
-- 推荐原因：不用记命令行，直接可视化操作
+<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>是必备的容器管理工具。
 
-## 2. Alist（网盘聚合）
+---
 
-- 作用：统一管理阿里云盘、百度网盘等
-- 内存占用：约100MB
-- 推荐原因：一个入口访问所有网盘
+*更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
-## 3. Home Assistant（智能家居）
+<div class="page-nav">
+  <a href="/nas/unraid-vs-truenas/" rel="prev">上一页：Unraid还是TrueNAS？</a>
+</div>
 
-- 作用：统一控制所有智能设备
-- 内存占用：约500MB
-- 推荐原因：米家、HomeKit一起管
-
-## 4. Jellyfin（家庭影院）
-
-- 作用：自建影视库
-- 内存占用：约300MB（播放时）
-- 推荐原因：免费开源，比Emby、Plex香
-
-## 5. AdGuard Home（DNS过滤）
-
-- 作用：广告拦截、DNS服务
-- 内存占用：约150MB
-- 推荐原因：全设备去广告，保护隐私
-
-## 6. Immich（照片备份）
-
-- 作用：自建Google Photos
-- 内存占用：约400MB
-- 推荐原因：AI识别，照片管理更智能
-
-## 安装建议
-
-配置低的NAS跑2-3个容器够用了。高性能NAS可以all in one，全部跑起来。
-
-玩Docker，NAS才算真正解锁全部技能。
+*本文由 NUC NAS Hub 自动生成*
