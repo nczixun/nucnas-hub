@@ -7,25 +7,21 @@ summary: "OpenClaw心跳机制详解，定时任务自动执行，让AI主动为
 tags: ["OpenClaw", "心跳", "自动化", "Cron", "定时任务"]
 image: "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg"
 imageCredit: "Pexels"
+slug: "openclaw-day5"
 ---
 
-# Day 5：自动化任务与心跳机制 - AI主动为你工作
+# Day 5：自动化任务与心跳机制
 
-![自动化任务](https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg "OpenClaw 自动化")
+![自动化任务](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "Automation")
 
-OpenClaw 最强大的功能之一是**主动执行能力**。通过心跳机制，AI 可以定期检查并完成任务。
-
-> 相关文章：[Day 4 技能系统](/ai/openclaw-day4-skills-system/)
-
-## 心跳配置示例
-
-```markdown
-## 每天早上 8 点
-检查天气 → 发送提醒
-```
-
-## 明天预告
-
-Day 6我们将学习进阶功能：浏览器控制、文件操作和系统集成。
+<a href="/ai/" target="_blank">OpenClaw</a>心跳机制让AI主动为你工作。
 
 ---
+
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
+
+<div class="page-nav">
+  <a href="/nas/fnos-full-guide/" rel="prev">上一页：飞牛OS深度体验</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*
