@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum UM790 评测：AMD 7940H 顶级迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "Minisforum"
 model: "UM790"
 platform: "amd"
 slug: "minisforum-um790"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum UM790 评测
 
-![UM790](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "UM790")
 
 <a href="/hardware/minisforum-um790/" target="_blank">Minisforum UM790</a> 是一款 AMD 7940H 顶级<a href="/hardware/" target="_blank">迷你主机</a>。
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "AMD Ryzen AI 300系列迷你主机前瞻：Strix Point带来AI新体验"
 date: 2026-03-02
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Ryzen+AI+300+mini+pc+
 pros: "强劲AI算力, 核显性能出色, 支持PCIe 5.0"
 cons: "首发价格较高, 迷你主机产品较少"
 slug: "amd-ryzen-ai-300-mini-pc-preview"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # AMD Ryzen AI 300系列迷你主机前瞻：Strix Point带来AI新体验
 
-![AMD Ryzen AI](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Ryzen AI 300")
 
 **更新日期：** 2026年3月2日
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "M1 苹果迷你主机 评测：Apple M1 芯片"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "Apple"
 model: "M1 Mac mini"
 platform: "apple"
 slug: "mac-mini-m1"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # M1 苹果迷你主机 评测
 
-![M1 Mac mini](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "M1 Mac mini")
 
 <a href="/hardware/mac-mini-m1/" target="_blank">Apple M1 Mac mini</a> 是一款搭载 Apple M1 芯片的<a href="/hardware/" target="_blank">迷你主机</a>。
 

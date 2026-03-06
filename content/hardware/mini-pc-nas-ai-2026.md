@@ -1,16 +1,13 @@
----
+﻿---
 title: "迷你主机 + NAS + AI本地部署：家庭智能中心的终极方案"
 date: 2026-03-01
 categories: ["hardware"]
 summary: "深入探讨如何利用迷你主机与NAS的组合，打造属于自己的家庭AI计算中心，实现隐私安全、成本可控的智能家居体验。"
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
-imageCredit: "Pexels"
 slug: "mini-pc-nas-ai-2026"
 ---
 
 # 迷你主机 + NAS + AI本地部署：家庭智能中心的终极方案
 
-![NAS+AI](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg "家庭AI中心")
 
 在云计算与边缘计算并行的时代，一个有趣的趋势正在悄然兴起——越来越多的技术爱好者和普通用户开始追求**AI能力的本地化**。当ChatGPT、Claude等大语言模型风靡全球时，一个核心问题也随之浮现：我们的数据隐私何在？我们的算力成本如何控制？答案或许就藏在那个看似不起眼的设备组合中——**迷你主机 + NAS + AI本地部署**。
 

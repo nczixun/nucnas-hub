@@ -1,4 +1,4 @@
----
+﻿---
 title: "2026年迷你主机选购指南：Intel vs AMD vs Apple Silicon三大平台对比"
 date: 2026-03-05
 categories: ["hardware"]
@@ -7,13 +7,10 @@ brand: "Intel"
 model: "迷你主机对比"
 platform: "intel"
 slug: "mini-pc-platform-comparison-2026"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 2026年迷你主机三大平台对比
 
-![迷你主机平台对比](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "平台对比")
 
 **更新日期：** 2026年3月5日
 

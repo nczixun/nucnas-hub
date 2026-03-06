@@ -1,4 +1,4 @@
----
+﻿---
 title: "Synology DS923+ 评测：中小企业NAS首选，性能升级"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Synology+DS923++revie
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "synology-ds923+"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Synology DS923+ 评测
 
-![DS923+](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "DS923+")
 
 ## 一、前言
 

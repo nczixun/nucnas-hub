@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum EM680 评测：超小体积 AMD 6800U 迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+EM680+revi
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-em680"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum EM680 评测
 
-![EM680](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "EM680")
 
 <a href="/hardware/minisforum-em680/" target="_blank">Minisforum EM680</a> 是一款超小体积的 AMD 6800U<a href="/hardware/" target="_blank">迷你主机</a>。
 

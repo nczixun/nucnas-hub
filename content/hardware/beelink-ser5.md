@@ -1,4 +1,4 @@
----
+﻿---
 title: "Beelink SER5 评测：AMD 5800H 性价比之选"
 date: 2026-02-18
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Beelink+SER5+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "beelink-ser5"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Beelink SER5 评测
 
-![SER5](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "SER5")
 
 <a href="/hardware/beelink-ser5/" target="_blank">Beelink SER5</a> 搭载 AMD 5800H 处理器，是一款性价比极高的<a href="/hardware/" target="_blank">迷你主机</a>。
 

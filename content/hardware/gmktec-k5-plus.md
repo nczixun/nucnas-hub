@@ -1,4 +1,4 @@
----
+﻿---
 title: "GMKTEC K5 Plus 评测：AMD 5800H 入门首选"
 date: 2026-02-18
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=GMKTEC+K5+Plus+review
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "gmktec-k5-plus"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # GMKTEC K5 Plus 评测
 
-![K5 Plus](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "K5 Plus")
 
 <a href="/hardware/gmktec-k5-plus/" target="_blank">GMKTEC K5 Plus</a> 搭载 AMD 5800H 处理器，是一款入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 

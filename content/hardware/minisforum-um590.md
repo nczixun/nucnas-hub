@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum UM590 评测：AMD 5900H 高性能迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "Minisforum"
 model: "UM590"
 platform: "amd"
 slug: "minisforum-um590"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum UM590 评测
 
-![UM590](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "UM590")
 
 <a href="/hardware/minisforum-um590/" target="_blank">Minisforum UM590</a> 是一款 AMD 5900H 高性能<a href="/hardware/" target="_blank">迷你主机</a>。
 

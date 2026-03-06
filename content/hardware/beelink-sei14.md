@@ -1,4 +1,4 @@
----
+﻿---
 title: "Beelink SEI14 评测：商务办公迷你主机新选择"
 date: 2026-02-17
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Beelink+SEi14+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "beelink-sei14"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Beelink SEI14 评测：商务办公迷你主机新选择
 
-![Beelink SEI14](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "SEI14")
 
 ## 一、前言
 

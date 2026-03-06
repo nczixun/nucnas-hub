@@ -1,17 +1,14 @@
----
+﻿---
 title: "2026年高性能迷你主机推荐：AMD Ryzen AI 300系列强势来袭"
 date: 2026-03-04
 categories: ["hardware"]
 summary: "AMD Ryzen AI 300系列处理器搭载XDNA 2架构NPU，AI性能领先Intel Ultra 2代"
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
-imageCredit: "Pexels"
 tags: ["mini pc", "AMD", "Ryzen AI", "2026"]
 slug: "amd-ryzen-ai-300-2026"
 ---
 
 # 2026年高性能迷你主机推荐：AMD Ryzen AI 300系列强势来袭
 
-![AMD Ryzen AI 300](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Ryzen AI 300")
 
 随着AMD正式发布Ryzen AI 300系列处理器，<a href="/hardware/" target="_blank">迷你主机</a>市场迎来了新一轮性能革命。这代处理器不仅在CPU和GPU性能上大幅提升，更是首次在x86处理器上实现了强大的本地<a href="/ai/" target="_blank">AI</a>算力。
 

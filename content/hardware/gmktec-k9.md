@@ -1,4 +1,4 @@
----
+﻿---
 title: "GMKtec K9 评测：Ultra 125H双风扇强劲散热，雷电4全速连接"
 date: 2026-03-01
 categories: ["hardware"]

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum HX200 评测：AMD 7940HS 高性能迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+HX200+revi
 pros: "做工精良，性能稳定，接口丰富"
 cons: "负载较高时有风扇声，扩展位有限"
 slug: "minisforum-hx200"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum HX200 评测
 
-![HX200](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "HX200")
 
 <a href="/hardware/minisforum-hx200/" target="_blank">Minisforum HX200</a> 是一款 AMD 7940HS 高性能<a href="/hardware/" target="_blank">迷你主机</a>。
 

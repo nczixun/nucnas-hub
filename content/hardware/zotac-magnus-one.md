@@ -5,13 +5,11 @@ date: 2026-02-27
 summary: "Zotac Magnus ONE review: 桌面级4070,8L体积,双网口"
 categories: ["hardware"]
 tags: ["Zotac", "Magnus ONE", "workstation"]
-image: "https://images.pexels.com/photos/6704954/pexels-photo-6704954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-imageCredit: "Sergei Starostin"
 ---
 
 # Zotac Magnus ONE
 
-![](https://images.pexels.com/photos/6704954/pexels-photo-6704954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+
 
 Zotac Magnus ONE review: 桌面级4070,8L体积,双网口
 

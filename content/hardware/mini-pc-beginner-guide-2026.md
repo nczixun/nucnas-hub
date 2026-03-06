@@ -1,4 +1,4 @@
----
+﻿---
 title: "2026年迷你主机新手入门指南：从小白到玩家的完全攻略"
 date: 2026-03-05
 draft: false
@@ -9,14 +9,11 @@ featured_image: ""
 sticky: false
 unversioned: false
 author: "NUCNAS"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "mini-pc-beginner-guide-2026"
 ---
 
 # 2026年迷你主机新手入门指南
 
-![迷你主机](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "迷你主机")
 
 ## 前言
 

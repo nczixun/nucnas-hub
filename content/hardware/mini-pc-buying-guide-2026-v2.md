@@ -1,17 +1,14 @@
----
+﻿---
 title: "2026年迷你主机选购指南：不同预算怎么选？"
 date: 2026-03-06
 categories: ["hardware"]
 summary: "从1000到6000，不同预算的迷你主机选购建议"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["buying guide", "2026"]
 slug: "mini-pc-buying-guide-2026-v2"
 ---
 
 # 2026年迷你主机选购指南：不同预算怎么选？
 
-![迷你主机选购](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "选购指南")
 
 直接说重点。
 

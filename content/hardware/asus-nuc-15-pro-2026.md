@@ -1,4 +1,4 @@
----
+﻿---
 title: "ASUS NUC 15 Pro深度评测：Intel Ultra 200U能否重塑商务迷你主机标杆？"
 date: 2026-03-03
 categories: ["hardware"]
@@ -18,13 +18,10 @@ cons:
   - "内存仅支持单通道"
   - "无RTX显卡版本"
 slug: "asus-nuc-15-pro-2026"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # ASUS NUC 15 Pro 深度评测
 
-![NUC 15 Pro](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "NUC 15 Pro")
 
 ## 概述
 

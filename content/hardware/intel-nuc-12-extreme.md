@@ -1,4 +1,4 @@
----
+﻿---
 title: "Intel NUC 12 Extreme 评测：独显加持的性能怪兽"
 date: 2026-02-27
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Intel+NUC+12+Extreme+
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "intel-nuc-12-extreme"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Intel NUC 12 Extreme 评测
 
-![NUC 12 Extreme](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "NUC 12 Extreme")
 
 <a href="/hardware/intel-nuc-12-extreme/" target="_blank">Intel NUC 12 Extreme</a> 是独显加持的性能怪兽级<a href="/hardware/" target="_blank">迷你主机</a>。
 

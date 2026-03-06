@@ -1,4 +1,4 @@
----
+﻿---
 title: "零刻 SER5 Pro 评测：AMD 5800H 升级版"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "零刻"
 model: "SER5 Pro"
 platform: "amd"
 slug: "ser5-pro"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 零刻 SER5 Pro 评测
 
-![SER5 Pro](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "SER5 Pro")
 
 <a href="/hardware/ser5-pro/" target="_blank">零刻 SER5 Pro</a> 是一款 AMD 5800H 升级版<a href="/hardware/" target="_blank">迷你主机</a>。
 

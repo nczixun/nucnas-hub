@@ -1,4 +1,4 @@
----
+﻿---
 title: "Aoostar GEM12 评测：AMD 8845HS 迷你主机新选择"
 date: 2026-02-14
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Aoostar+GEM12+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "aoostar-gem12"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Aoostar GEM12 评测：AMD 8845HS 迷你主机新选择
 
-![Aoostar GEM12](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "GEM12")
 
 ## 一、前言
 

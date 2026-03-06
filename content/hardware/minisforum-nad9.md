@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum NAD9 评测：Intel N95 入门级迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+NAD9+revie
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-nad9"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum NAD9 评测
 
-![NAD9](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "NAD9")
 
 <a href="/hardware/minisforum-nad9/" target="_blank">Minisforum NAD9</a> 是一款 Intel N95 入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 

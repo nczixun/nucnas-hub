@@ -1,4 +1,4 @@
----
+﻿---
 title: "Beelink SER6 评测：AMD 6900HX 升级款"
 date: 2026-02-18
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Beelink+SER6+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "beelink-ser6"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Beelink SER6 评测
 
-![SER6](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "SER6")
 
 <a href="/hardware/beelink-ser6/" target="_blank">Beelink SER6</a> 搭载 AMD 6900HX 处理器，是 SER5 的升级款<a href="/hardware/" target="_blank">迷你主机</a>。
 

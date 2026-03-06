@@ -1,4 +1,4 @@
----
+﻿---
 title: "Beelink EQ13 评测：入门级迷你主机，性价比之选"
 date: 2026-02-17
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Beelink+EQ13+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "beelink-eq13"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Beelink EQ13 评测：入门级迷你主机性价比之选
 
-![Beelink EQ13](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "EQ13")
 
 ## 一、前言
 

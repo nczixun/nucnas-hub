@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum EM780 评测：AMD 7840U 超小体积旗舰"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+EM780+revi
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-em780"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum EM780 评测
 
-![EM780](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "EM780")
 
 <a href="/hardware/minisforum-em780/" target="_blank">Minisforum EM780</a> 是一款超小体积的 AMD 7840U<a href="/hardware/" target="_blank">迷你主机</a>。
 

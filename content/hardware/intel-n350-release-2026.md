@@ -1,10 +1,8 @@
----
+﻿---
 title: "Intel N350处理器发布：入门级迷你主机新选择"
 date: 2026-03-06
 categories: ["hardware"]
 summary: "Intel N350双核处理器发布，主打低功耗办公场景"
-image: "https://images.pexels.com/photos/159538/https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["Intel", "N350", "mini pc", "2026"]
 ---
 

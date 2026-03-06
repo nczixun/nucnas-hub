@@ -1,4 +1,4 @@
----
+﻿---
 title: "2026年AMD Ryzen AI 300系列迷你主机选购指南：AI时代的高性能计算"
 date: 2026-03-05
 categories: ["hardware"]
@@ -7,13 +7,10 @@ brand: "AMD"
 model: "Ryzen AI 300"
 platform: "amd"
 slug: "amd-ryzen-ai-300-minipc-2026"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # AMD Ryzen AI 300系列迷你主机横评：2026年最值得购买的AI PC
 
-![AMD Ryzen AI 300](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "AI PC")
 
 ## 一、前言：AI PC时代的到来
 

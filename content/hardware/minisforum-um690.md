@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum UM690 评测：AMD 6900H 旗舰迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "Minisforum"
 model: "UM690"
 platform: "amd"
 slug: "minisforum-um690"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum UM690 评测
 
-![UM690](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "UM690")
 
 <a href="/hardware/minisforum-um690/" target="_blank">Minisforum UM690</a> 是一款 AMD 6900H 旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。
 

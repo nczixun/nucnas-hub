@@ -1,17 +1,14 @@
----
+﻿---
 title: "迷你主机配件推荐：这几款配件让你的主机更好用"
 date: 2026-03-06
 categories: ["hardware"]
 summary: "迷你主机搭配这些配件，体验直接提升一个档次"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["accessories", "mini pc"]
 slug: "mini-pc-accessories-2026"
 ---
 
 # 迷你主机配件推荐
 
-![配件](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "配件")
 
 主机买回来，这几个配件值得配上。
 

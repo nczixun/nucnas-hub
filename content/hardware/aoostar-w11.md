@@ -1,4 +1,4 @@
----
+﻿---
 title: "Aoostar W11 评测：AMD 5825U 高性价比迷你主机"
 date: 2026-02-14
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Aoostar+W11+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "aoostar-w11"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Aoostar W11 评测
 
-![W11](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "W11")
 
 <a href="/hardware/aoostar-w11/" target="_blank">Aoostar W11</a> 搭载 AMD 5825U 处理器，是一款高性价比<a href="/hardware/" target="_blank">迷你主机</a>。
 

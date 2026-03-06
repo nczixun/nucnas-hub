@@ -1,4 +1,4 @@
----
+﻿---
 title: "QNAP TS-464 评测：4盘位NAS旗舰，性能与功能兼具"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=QNAP+TS-464+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "qnap-ts-464"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # QNAP TS-464 评测：4盘位NAS旗舰
 
-![QNAP TS-464](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "TS-464")
 
 ## 一、前言
 

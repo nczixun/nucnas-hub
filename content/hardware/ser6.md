@@ -1,4 +1,4 @@
----
+﻿---
 title: "零刻 SER6 评测：AMD 6600H 入门级"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "零刻"
 model: "SER6"
 platform: "amd"
 slug: "ser6"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 零刻 SER6 评测
 
-![SER6](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "SER6")
 
 <a href="/hardware/ser6/" target="_blank">零刻 SER6</a> 是一款 AMD 6600H 入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 

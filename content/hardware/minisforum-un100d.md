@@ -1,4 +1,4 @@
----
+﻿---
 slug: "minisforum-un100d"
 title: "Minisforum UN100D 评测：Intel N100 入门首选"
 date: 2026-02-27
@@ -7,14 +7,11 @@ description: "Minisforum UN100D: N100,双2.5G,PD供电"
 categories: ["hardware"]
 tags: ["N100", "双2.5G", "PD供电", "hardware"]
 keywords: ["N100", "双2.5G", "PD供电", "hardware"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "minisforum-un100d"
 ---
 
 # Minisforum UN100D 评测
 
-![Minisforum UN100D](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "UN100D")
 
 ## 概述
 

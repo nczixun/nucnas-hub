@@ -1,4 +1,4 @@
----
+﻿---
 title: "ROG NUC 评测：游戏玩家的终极迷你主机，RTX 4070 性能炸裂"
 date: 2026-02-16
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=ASUS+ROG+NUC+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "asus-rog-nuc"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # ROG NUC 评测：游戏玩家的终极迷你主机
 
-![ROG NUC](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "ROG NUC")
 
 ## 一、前言
 

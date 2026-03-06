@@ -1,4 +1,4 @@
----
+﻿---
 title: "零刻 EQ59 Pro 评测：Intel N5105 办公神器"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "零刻"
 model: "EQ59 Pro"
 platform: "intel"
 slug: "eq59-pro"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 零刻 EQ59 Pro 评测
 
-![EQ59 Pro](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "EQ59 Pro")
 
 <a href="/hardware/eq59-pro/" target="_blank">零刻 EQ59 Pro</a> 是一款 Intel N5105 办公神器<a href="/hardware/" target="_blank">迷你主机</a>。
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "绿联 DX4600 评测：国产NAS崛起，性价比之王"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=UGREEN+DX4600+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "ugreen-dx4600"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 绿联 DX4600 评测
 
-![DX4600](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "DX4600")
 
 ## 一、前言
 

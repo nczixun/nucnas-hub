@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum V3 评测：AMD 8840U 三合一平板"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+V3+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-v3"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum V3 评测
 
-![V3](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "V3")
 
 <a href="/hardware/minisforum-v3/" target="_blank">Minisforum V3</a> 是一款 AMD 8840U 三合一平板<a href="/hardware/" target="_blank">迷你主机</a>。
 

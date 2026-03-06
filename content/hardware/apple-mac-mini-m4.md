@@ -1,18 +1,15 @@
----
+﻿---
 slug: "apple-mac-mini-m4"
 title: "Apple Mac mini M4 深度评测：小体积大能量，M4芯片有多强？"
 date: 2026-02-27
 summary: "Apple Mac mini M4 review: M4芯片,静音,雷电5"
 categories: ["hardware"]
 tags: ["Apple", "Mac mini M4", "apple"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "apple-mac-mini-m4"
 ---
 
 # Apple Mac mini M4 深度评测
 
-![Mac mini M4](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Mac mini M4")
 
 ## 概述
 

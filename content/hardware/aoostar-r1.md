@@ -1,4 +1,4 @@
----
+﻿---
 slug: "aoostar-r1"
 title: "Aoostar R1"
 date: 2026-02-27
@@ -7,14 +7,11 @@ description: "Aoostar R1: N100,双盘位,NAS主机"
 categories: ["hardware"]
 tags: ["N100", "双盘位", "NAS主机", "nas"]
 keywords: ["N100", "双盘位", "NAS主机", "nas"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "aoostar-r1"
 ---
 
 # Aoostar R1 评测
 
-![Aoostar R1](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "R1")
 
 ## 概述
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "2026年N100迷你主机推荐：百元级性能小钢炮"
 date: 2026-03-05
 draft: false
@@ -9,14 +9,11 @@ featured_image: ""
 sticky: false
 unversioned: false
 author: "NUCNAS"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "n100-minipc-recommend-2026"
 ---
 
 # 2026年N100迷你主机推荐：百元级性能小钢炮
 
-![N100迷你主机](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "N100")
 
 ## 前言
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum V3三合一平板：AMD Ryzen 8000系列的极致创新"
 date: 2026-03-03
 categories: ["hardware"]
@@ -38,13 +38,10 @@ radar:
   io: 7
   noise: 7
   price: 7
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum V3三合一平板：AMD Ryzen 8000系列极致创新
 
-![Minisforum V3](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "V3")
 
 ## 一、前言
 

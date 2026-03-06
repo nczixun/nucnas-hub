@@ -1,4 +1,4 @@
----
+﻿---
 title: "M2 苹果迷你主机 评测：Apple M2 芯片升级版"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "Apple"
 model: "M2 Mac mini"
 platform: "apple"
 slug: "mac-mini-m2"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # M2 苹果迷你主机 评测
 
-![M2 Mac mini](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "M2 Mac mini")
 
 <a href="/hardware/mac-mini-m2/" target="_blank">Apple M2 Mac mini</a> 是一款搭载 Apple M2 芯片的升级版<a href="/hardware/" target="_blank">迷你主机</a>。
 

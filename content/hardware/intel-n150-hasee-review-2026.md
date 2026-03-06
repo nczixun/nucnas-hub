@@ -1,10 +1,8 @@
----
+﻿---
 title: "Intel N150来了！神舟PC新品发布，入门迷你主机新选择"
 date: 2026-03-06
 categories: ["hardware"]
 summary: "Intel N150处理器发布，神舟首发搭载新品，实测性能对比N100"
-image: "https://images.unsplash.com/photo-1624705002806-5d72df825a4a?w=800"
-imageCredit: "Unsplash"
 tags: ["Intel", "N150", "神舟", "迷你主机", "评测"]
 ---
 

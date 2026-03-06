@@ -1,16 +1,13 @@
----
+﻿---
 title: "AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代"
 date: 2026-03-03
 categories: ["hardware"]
 summary: "AMD 全新 Ryzen AI 300 系列处理器专为 AI PC 设计，集成 XDNA 2 架构 NPU，提供 50TOPS 算力。本文首发测评告诉你这款处理器在迷你主机上的实际表现。"
-image: "https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg"
-imageCredit: "Pexels"
 slug: "amd-ryzen-ai-300-review"
 ---
 
 # AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代
 
-![AMD Ryzen AI 300](https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg "Ryzen AI 300")
 
 AMD 这次真没开玩笑。全新 Ryzen AI 300 系列来了，50TOPS 的 NPU 算力，直接把 Intel 按在地上摩擦。
 

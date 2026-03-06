@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum HX99G 评测：AMD 6900HX + RX 6600M 独显组合"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+HX99G+revi
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-hx99g"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum HX99G 评测
 
-![HX99G](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "HX99G")
 
 ## 一、前言
 

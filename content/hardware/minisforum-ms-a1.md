@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum MS-A1 评测：AM5插槽可换CPU，8700G核显怪兽"
 date: 2026-03-01
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+MS-A1+revi
 pros: "AM5插槽可升级,8700G核显强劲,接口丰富"
 cons: "散热器体积较大,准系统价格较高"
 slug: "minisforum-ms-a1"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum MS-A1 评测
 
-![MS-A1](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "MS-A1")
 
 ## 一、前言
 

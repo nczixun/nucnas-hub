@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum UM560 评测：AMD 5600H 入门级迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "Minisforum"
 model: "UM560"
 platform: "amd"
 slug: "minisforum-um560"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum UM560 评测
 
-![UM560](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "UM560")
 
 <a href="/hardware/minisforum-um560/" target="_blank">Minisforum UM560</a> 是一款 AMD 5600H 入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 

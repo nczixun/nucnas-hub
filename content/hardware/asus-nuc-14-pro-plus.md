@@ -1,4 +1,4 @@
----
+﻿---
 title: "NUC 14 Pro+ 评测：RTX 4070 扩展坞加持，性能直接起飞"
 date: 2026-02-27
 categories: ["hardware"]
@@ -35,13 +35,10 @@ radar:
   io: 9
   noise: 8
   price: 5
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # NUC 14 Pro+ 评测：RTX 4070 扩展坞加持，性能直接起飞
 
-![NUC 14 Pro+](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "NUC 14 Pro+")
 
 Intel NUC 14 Pro+ 是目前最强的<a href="/hardware/" target="_blank">迷你主机</a>之一，支持RTX 4070扩展坞，性能直接起飞。
 

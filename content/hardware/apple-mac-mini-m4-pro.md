@@ -1,9 +1,7 @@
----
+﻿---
 slug: "apple-mac-mini-m4-pro"
 title: "Mac mini M4 Pro 评测：性能怪兽还是小钢炮？"
 date: 2026-02-27
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 score: 8.5
 hw_specs:
   cpu: "Apple M4 Pro (14-core CPU)"
@@ -20,13 +18,10 @@ cons:
   - 电源键位置设计在底部
 tags: ["mac mini", "M4"]
 slug: "apple-mac-mini-m4-pro"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Mac mini M4 Pro 评测：性能怪兽还是小钢炮？
 
-![Mac mini M4 Pro](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Mac mini")
 
 ## 一、前言
 

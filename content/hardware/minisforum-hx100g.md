@@ -1,18 +1,15 @@
----
+﻿---
 slug: "minisforum-hx100g"
 title: "Minisforum HX100G 评测：首批搭载 Intel Ultra 的迷你主机"
 date: 2026-02-27
 summary: "Minisforum HX100G review: RX6650M,独显,液金散热"
 categories: ["hardware"]
 tags: ["Minisforum", "HX100G", "amd"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "minisforum-hx100g"
 ---
 
 # Minisforum HX100G 评测
 
-![HX100G](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "HX100G")
 
 ## 概述
 

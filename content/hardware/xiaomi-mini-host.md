@@ -1,4 +1,4 @@
----
+﻿---
 title: "小米迷你主机评测：Intel Core i7-1260P + 16GB内存够用吗？"
 date: 2026-02-20
 categories: ["hardware"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=Xiaomi+Mini+Host+revi
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "xiaomi-mini-host"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 小米迷你主机评测
 
-![小米迷你主机](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "小米")
 
 ## 一、前言
 

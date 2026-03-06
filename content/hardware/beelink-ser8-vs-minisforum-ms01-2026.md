@@ -1,10 +1,8 @@
----
+﻿---
 title: "Beelink SER8 vs Minisforum MS-01：锐龙8000迷你主机正面刚"
 date: 2026-03-06
 categories: ["hardware"]
 summary: "两款搭载AMD Ryzen 8000系列的迷你主机对比实测"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["Beelink", "Minisforum", "Ryzen 8000", "comparison"]
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 slug: "morefine-m9"
 title: "Morefine M9 评测：Intel Core i9-12900HK 旗舰迷你主机"
 date: 2026-02-27
@@ -7,14 +7,11 @@ description: "Morefine M9: N100,极小体积,随身携带"
 categories: ["hardware"]
 tags: ["N100", "极小体积", "随身携带", "hardware"]
 keywords: ["N100", "极小体积", "随身携带", "hardware"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "morefine-m9"
 ---
 
 # Morefine M9 评测
 
-![Morefine M9](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "M9")
 
 ## 概述
 

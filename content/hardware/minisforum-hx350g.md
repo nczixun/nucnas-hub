@@ -1,4 +1,4 @@
----
+﻿---
 title: "Minisforum HX350G 评测：AMD 5900HX + RTX 3050 独显版"
 date: 2026-02-20
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "Minisforum"
 model: "HX350G"
 platform: "amd"
 slug: "minisforum-hx350g"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Minisforum HX350G 评测
 
-![HX350G](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "HX350G")
 
 <a href="/hardware/minisforum-hx350g/" target="_blank">Minisforum HX350G</a> 是一款 AMD 5900HX + RTX 3050 独显版<a href="/hardware/" target="_blank">迷你主机</a>。
 

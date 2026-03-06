@@ -1,4 +1,4 @@
----
+﻿---
 title: "零刻 GT-R 评测：Intel i9-12900HK 旗舰迷你主机"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "零刻"
 model: "GT-R"
 platform: "intel"
 slug: "gtr"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 零刻 GT-R 评测
 
-![GT-R](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "GT-R")
 
 <a href="/hardware/gtr/" target="_blank">零刻 GT-R</a> 是一款 Intel i9-12900HK 旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。
 

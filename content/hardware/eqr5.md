@@ -1,4 +1,4 @@
----
+﻿---
 title: "零刻 EQR5 评测：AMD 5800H 入门级"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "零刻"
 model: "EQR5"
 platform: "amd"
 slug: "eqr5"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 零刻 EQR5 评测
 
-![EQR5](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "EQR5")
 
 <a href="/hardware/eqr5/" target="_blank">零刻 EQR5</a> 是一款 AMD 5800H 入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 

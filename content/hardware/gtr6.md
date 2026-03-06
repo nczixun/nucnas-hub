@@ -1,4 +1,4 @@
----
+﻿---
 title: "零刻 GTR6 评测：AMD 6900HX 旗舰版"
 date: 2026-02-18
 categories: ["hardware"]
@@ -6,13 +6,10 @@ brand: "零刻"
 model: "GTR6"
 platform: "amd"
 slug: "gtr6"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 零刻 GTR6 评测
 
-![GTR6](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "GTR6")
 
 <a href="/hardware/gtr6/" target="_blank">零刻 GTR6</a> 是一款 AMD 6900HX 旗舰版<a href="/hardware/" target="_blank">迷你主机</a>。
 
