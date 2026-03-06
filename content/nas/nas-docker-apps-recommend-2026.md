@@ -1,4 +1,4 @@
----
+﻿---
 title: "极空间/绿联NAS Docker应用推荐：这10个容器让你的NAS更好用"
 date: 2026-03-02
 categories: ["nas"]
@@ -11,13 +11,10 @@ youtube_url: "https://www.youtube.com/results?search_query=nas+docker+apps+2024"
 pros: "开源免费, 丰富生态, 持续更新"
 cons: "需要一定技术基础, 部分应用配置复杂"
 slug: "nas-docker-apps-recommend-2026"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # NAS Docker应用推荐
 
-![Docker应用](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Docker")
 
 <a href="/nas/docker-best-practice/" target="_blank">Docker</a>是<a href="/nas/" target="_blank">NAS</a>的灵魂，这10个容器让你的NAS更好用。
 

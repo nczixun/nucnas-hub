@@ -1,19 +1,14 @@
----
+﻿---
 title: "2026年3月GitHub热门AI项目盘点：AI伴侣、本地大模型、Agent工具"
 date: 2026-03-03
 categories: ["ai"]
 summary: "盘点2026年3月GitHub最火的AI项目，包括AIRI AI伴侣、ruflo Agent编排平台、OpenSandbox等，提供详细安装教程。"
-image: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg
-imageCredit: "Alex Knight"
 tags: ["GitHub", "AI", "工具", "教程"]
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 slug: "github-trending-2026-03"
 ---
 
 # 2026年3月GitHub热门AI项目盘点
 
-![GitHub AI](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "AI Projects")
 
 今天GitHub trending发布了最新热门项目，让我们一起来看看有哪些值得关注的<a href="/ai/" target="_blank">AI</a>开源项目！
 

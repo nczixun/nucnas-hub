@@ -1,17 +1,14 @@
----
+﻿---
 title: "NAS数据备份策略：3-2-1原则与实际方案"
 date: 2026-03-06
 categories: ["nas"]
 summary: "NAS数据备份的正确姿势，防止数据丢失"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["NAS", "backup", "security"]
 slug: "nas-backup-strategy-2026"
 ---
 
 # NAS数据备份策略：3-2-1原则与实际方案
 
-![NAS备份](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "备份策略")
 
 <a href="/nas/" target="_blank">NAS</a>硬盘会坏，云盘会跑路。备份这件事，不能偷懒。
 

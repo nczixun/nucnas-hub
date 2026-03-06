@@ -1,17 +1,14 @@
----
+﻿---
 title: "极空间Z4 Pro安装Docker可视化面板全攻略"
 date: 2026-03-06
 categories: ["nas"]
 summary: "手把手教你在极空间Z4 Pro上安装Portainer，实现Docker容器可视化管理"
-image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
-imageCredit: "Unsplash"
 tags: ["极空间", "Z4 Pro", "Docker", "Portainer", "教程"]
 slug: "z4pro-portainer-install-guide-2026"
 ---
 
 # 极空间Z4 Pro安装Docker可视化面板全攻略
 
-![Portainer](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Portainer")
 
 很多新手<a href="/nas/" target="_blank">NAS</a>用户对<a href="/nas/docker-best-practice/" target="_blank">Docker</a>命令望而却步，今天手把手教你在极空间Z4 Pro上安装Portainer，轻松实现容器可视化管理。
 

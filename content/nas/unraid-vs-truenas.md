@@ -1,17 +1,14 @@
----
+﻿---
 slug: "unraid-vs-truenas"
 title: "Unraid 还是 TrueNAS？选出最适合你的存储方案"
 date: 2026-02-12
 summary: "深度对比两者的文件系统、扩展性及硬件要求。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "unraid-vs-truenas"
 ---
 
 # Unraid还是TrueNAS？
 
-![存储方案](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Unraid vs TrueNAS")
 
 对于准备自建<a href="/nas/" target="_blank">NAS</a>或升级存储系统的用户来说，选操作系统往往是最纠结的环节。
 

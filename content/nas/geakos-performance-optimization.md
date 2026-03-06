@@ -1,17 +1,14 @@
----
+﻿---
 title: "GEAKOS 内存占用高？手把手教你性能优化"
 date: 2026-03-06
 categories: ["nas"]
 slug: "geakos-performance-optimization"
 summary: "GEAKOS内存占用高被诟病？教你通过Docker限制、关闭不必要的服务、优化配置降低内存占用，让低配设备也能流畅运行。"
 tags: ["GEAKOS", "性能优化", "NAS", "内存优化", "Docker"]
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-imageCredit: "Pexels"
 ---
 
 # GEAKOS 内存占用高？手把手教你性能优化
 
-![GEAKOS性能优化](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "性能优化")
 
 <a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>发布后社区反馈最多的就是**内存占用高**的问题。有用户反映开机就占用2GB+内存，这在低配置设备上确实是个问题。
 

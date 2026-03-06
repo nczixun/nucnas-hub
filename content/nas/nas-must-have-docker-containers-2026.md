@@ -1,17 +1,14 @@
----
+﻿---
 title: "NAS必装Docker容器推荐：这几个容器让你的NAS更强大"
 date: 2026-03-06
 categories: ["nas"]
 summary: "NAS上跑Docker，这些应用值得安装"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["Docker", "NAS", "container"]
 slug: "nas-must-have-docker-containers-2026"
 ---
 
 # NAS必装Docker容器推荐
 
-![Docker](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Docker")
 
 <a href="/nas/docker-best-practice/" target="_blank">Docker</a>是<a href="/nas/" target="_blank">NAS</a>的灵魂，这几个容器装机必备。
 

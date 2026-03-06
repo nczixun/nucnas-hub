@@ -1,16 +1,13 @@
----
+﻿---
 title: "本地部署 DeepSeek R1 完整指南：免费使用最强开源大模型"
 date: 2026-03-03
 categories: ["ai"]
 summary: "DeepSeek R1 以仅 1/20 的成本实现了与 GPT-4o 相当的性能。本文详解如何在迷你主机或 NAS 上本地部署 DeepSeek R1，实现完全免费的 AI 助手。"
-image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
-imageCredit: "Pexels"
 slug: "deepseek-r1-local-deploy-guide"
 ---
 
 # 本地部署 DeepSeek R1 完整指南
 
-![DeepSeek R1](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "R1")
 
 2026 年初，DeepSeek R1 的发布震动了整个 AI 行业。这个来自中国的大语言模型以仅 1/20 的训练成本，实现了与 GPT-4o 相当的推理能力，而且完全开源、支持本地部署。
 

@@ -1,17 +1,14 @@
----
+﻿---
 slug: "nas-power-save"
 title: "24/7 运行也不心疼电费：小主机功耗优化策略"
 date: 2026-02-12
 summary: "调整 CPU 频率与硬盘休眠，每年省下一条内存。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-imageCredit: "Pexels"
 slug: "nas-power-save"
 ---
 
 # 24/7运行也不心疼电费：小主机功耗优化策略
 
-![NAS功耗优化](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "功耗优化")
 
 让<a href="/nas/" target="_blank">NAS</a> 24小时开机是很多用户的常态：PT下载需要保种、远程访问需要随时在线、照片备份需要实时同步，智能家居中枢更是不能间断。但随之而来的问题是：电费账单。一台功率50瓦的NUC一年耗电约400度，按居民电价计算就是两三百元。如果同时运行多盘位NAS或额外挂载硬盘，功耗更是成倍增长。
 

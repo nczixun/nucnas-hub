@@ -1,17 +1,14 @@
----
+﻿---
 title: "Llama 3.2 vs Qwen2.5：本地大模型真实对比"
 date: 2026-03-06
 categories: ["ai"]
 summary: "两款热门本地大模型实测对比，看看哪个更好用"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["Llama 3.2", "Qwen2.5", "benchmark"]
 slug: "llama-vs-qwen-benchmark-2026"
 ---
 
 # Llama 3.2 vs Qwen2.5：本地大模型真实对比
 
-![大模型对比](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "模型对比")
 
 两款最火的本地模型，实际表现如何？
 

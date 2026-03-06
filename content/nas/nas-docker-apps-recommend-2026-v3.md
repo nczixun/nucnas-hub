@@ -1,17 +1,14 @@
----
+﻿---
 title: "2026年NAS必装Docker应用推荐：提升私有云生产力"
 date: 2026-03-05
 categories: ["nas"]
 tags: ["NAS", "Docker", "私有云", "应用推荐", "Docker Compose"]
 platform: "nas"
 slug: "nas-docker-apps-recommend-2026-v3"
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 2026年NAS必装Docker应用：这20个应用让你的私有云更强大
 
-![NAS Docker应用](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "Docker")
 
 **更新日期：** 2026年3月5日
 

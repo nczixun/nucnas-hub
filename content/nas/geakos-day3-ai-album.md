@@ -1,16 +1,15 @@
----
+﻿---
 title: "Day 3：AI智能相册 - 让照片自动分类整理"
 date: 2026-03-02
 categories: ["nas"]
 slug: "geakos-day3-ai-album"
 summary: "GEAKOS AI相册功能详解：人脸识别、地点分类、场景识别、AI文字搜索，让找照片变简单。"
 tags: ["GEAKOS", "AI相册", "NAS", "照片管理"]
-image: "https://images.pexels.com/photos/摄影-1170.jpg"
 ---
 
 # Day 3：AI智能相册
 
-![AI智能相册](https://images.pexels.com/photos/摄影-1170.jpg "GEAKOS AI相册")
+
 
 ## AI相册核心功能
 

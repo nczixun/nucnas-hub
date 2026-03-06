@@ -1,18 +1,15 @@
----
+﻿---
 title: "Day 5：自动化任务与心跳机制 - AI主动为你工作"
 date: 2026-03-04
 categories: ["ai"]
 slug: "openclaw-day5-automation-heartbeat"
 summary: "OpenClaw心跳机制详解，定时任务自动执行，让AI主动为你检查邮件、天气、新闻等。"
 tags: ["OpenClaw", "心跳", "自动化", "Cron", "定时任务"]
-image: "https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg"
-imageCredit: "Pexels"
 slug: "openclaw-day5"
 ---
 
 # Day 5：自动化任务与心跳机制
 
-![自动化任务](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "Automation")
 
 <a href="/ai/" target="_blank">OpenClaw</a>心跳机制让AI主动为你工作。
 

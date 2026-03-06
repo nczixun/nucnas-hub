@@ -1,20 +1,16 @@
----
+﻿---
 title: "NAS搭建全攻略：从零开始构建家庭存储中心"
 date: 2026-02-28
 categories: ["nas"]
 summary: "NAS搭建教程，教你如何从零开始构建家庭存储中心，包括硬件选择、系统安装、RAID配置"
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
 slug: "nas-setup-guide"
 tags: ["NAS搭建", "家庭存储", "私有云"]
 brand: "教程"
 model: "搭建指南"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # NAS搭建全攻略：从零开始构建家庭存储中心
 
-![NAS搭建](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "NAS")
 
 你是否为手机空间不足而烦恼？是否为网盘限速而头疼？本文将教你如何搭建一个属于自己的 <a href="/nas/" target="_blank">NAS</a>（网络附加存储），让数据尽在掌握。
 

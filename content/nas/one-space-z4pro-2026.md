@@ -1,4 +1,4 @@
----
+﻿---
 title: "极空间Z4Pro性能版深度评测：新一代NAS旗舰是否值得升级？"
 date: 2026-03-03
 categories: ["nas"]
@@ -18,13 +18,10 @@ cons:
   - "价格偏高"
   - "外网访问速度一般"
 slug: "one-space-z4pro-2026"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 极空间Z4Pro性能版深度评测
 
-![Z4Pro](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Z4Pro")
 
 ## 一、前言
 

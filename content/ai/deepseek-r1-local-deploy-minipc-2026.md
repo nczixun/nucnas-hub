@@ -1,17 +1,14 @@
----
+﻿---
 title: "2026年本地大模型部署指南：在迷你主机上运行DeepSeek R1"
 date: 2026-03-05
 categories: ["ai"]
 tags: ["AI", "大模型", "DeepSeek", "Ollama", "本地部署", "教程"]
 platform: "ai"
 slug: "deepseek-r1-local-deploy-minipc-2026"
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 2026年本地大模型部署：迷你主机运行DeepSeek R1完整指南
 
-![DeepSeek R1部署](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "本地大模型")
 
 **更新日期：** 2026年3月5日
 

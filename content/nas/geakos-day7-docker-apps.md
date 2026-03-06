@@ -1,16 +1,15 @@
----
+﻿---
 title: "Day 7：Docker与应用中心 - 拓展无限可能"
 date: 2026-03-06
 categories: ["nas"]
 slug: "geakos-day7-docker-apps"
 summary: "GEAKOS Docker教程：应用中心介绍、第三方服务部署、Docker Compose使用，拓展NAS玩法。"
 tags: ["GEAKOS", "Docker", "NAS", "应用中心"]
-image: "https://images.pexels.com/photos/容器.jpeg"
 ---
 
 # Day 7：Docker与应用中心
 
-![Docker应用](https://images.pexels.com/photos/容器.jpeg "GEAKOS Docker")
+
 
 ## 应用中心
 

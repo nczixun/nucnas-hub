@@ -1,16 +1,15 @@
----
+﻿---
 title: "Day 1：GEAKOS 是什么？国产AI NAS新选择（对比飞牛OS）"
 date: 2026-02-28
 categories: ["nas"]
 slug: "geakos-day1-intro"
 summary: "GEAKOS是国产AI驱动NAS系统，集成智能相册、影视中心、远程访问。与飞牛OS对比，哪个更适合你？"
 tags: ["GEAKOS", "NAS", "AI", "飞牛OS", "私有云", "家庭存储"]
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
 ---
 
 # Day 1：GEAKOS 是什么？国产AI NAS新选择
 
-![GEAKOS 智能NAS](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg "GEAKOS - AI智能NAS")
+
 
 ## 什么是 GEAKOS？
 

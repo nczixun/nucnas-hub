@@ -1,4 +1,4 @@
----
+﻿---
 title: "Alist网盘聚合神器：一键挂载20+网盘"
 date: 2026-03-05
 draft: false
@@ -9,14 +9,11 @@ featured_image: ""
 sticky: false
 unversioned: false
 author: "NUCNAS"
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
-imageCredit: "Pexels"
 slug: "alist-network-aggregation-2026"
 ---
 
 # Alist网盘聚合神器：一键挂载20+网盘
 
-![Alist网盘聚合](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg "网盘聚合")
 
 ## 前言
 

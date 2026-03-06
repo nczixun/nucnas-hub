@@ -1,17 +1,14 @@
----
+﻿---
 title: "TrueNAS vs Unraid vs DSM：2026年三大NAS系统全面对比"
 date: 2026-03-04
 categories: ["nas"]
 summary: "从功能、易用性、数据保护等方面对比三大主流NAS系统"
-image: "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg"
-imageCredit: "Pexels"
 tags: ["NAS", "系统", "TrueNAS", "Unraid", "DSM"]
 slug: "nas-system-comparison-2026"
 ---
 
 # TrueNAS vs Unraid vs DSM：2026年三大NAS系统全面对比
 
-![NAS系统对比](https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg "NAS系统")
 
 选择合适的<a href="/nas/" target="_blank">NAS</a>系统是搭建私有云的关键一步。本文将从功能、易用性、数据保护、适用场景等方面，对比目前主流的三大<a href="/nas/" target="_blank">NAS</a>系统。
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "本地部署DeepSeek R1：迷你主机/NAS硬件要求与性能实测"
 date: 2026-03-02
 categories: ["ai"]

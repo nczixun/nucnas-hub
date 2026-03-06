@@ -1,17 +1,14 @@
----
+﻿---
 slug: "zfs-on-nuc"
 title: "NUC 挂载外部磁阵：ZFS 文件系统的进阶玩法"
 date: 2026-02-12
 summary: "兼顾性能与安全，为你的 NUC 扩展百 T 空间。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-imageCredit: "Pexels"
 slug: "zfs-on-nuc"
 ---
 
 # NUC挂载外部磁阵：ZFS文件系统的进阶玩法
 
-![ZFS存储](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "ZFS")
 
 Intel <a href="/hardware/" target="_blank">NUC</a>以其小巧的体积和强劲的性能成为家庭<a href="/nas/" target="_blank">NAS</a>的热门选择，但它最大的局限在于内部硬盘位有限——大多数NUC只有2个2.5寸硬盘位，即使是最新的NUC 12 Enthusiast也只有2个M.2插槽。对于有海量数据存储需求的用户（高清影视爱好者、摄影师、PT玩家），100TB甚至更大的存储空间是刚需，而NUC本身的容量远远不够。
 

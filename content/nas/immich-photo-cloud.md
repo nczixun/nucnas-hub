@@ -1,16 +1,13 @@
----
+﻿---
 slug: "immich-photo-cloud"
 title: "Immich：替代 Google Photos 的私有照片方案"
 date: 2026-02-12
 summary: "像原厂 App 一样流畅，支持 AI 人脸识别。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Immich：替代 Google Photos 的私有照片方案
 
-![Immich私有相册](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "私有相册")
 
 在这个手机摄影爆炸的时代，每个家庭的照片数量都在飞速增长。宝宝成长的点滴、旅行中的风景、日常生活的小确幸——这些定格的瞬间承载着无可替代的记忆。然而，将照片完全托付给Google Photos或iCloud存在隐私风险，云存储的容量焦虑也时刻困扰着我们。部署一套私有照片管理方案，成为越来越多家庭用户的需求。
 

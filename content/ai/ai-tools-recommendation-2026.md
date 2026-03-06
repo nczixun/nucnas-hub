@@ -1,17 +1,14 @@
----
+﻿---
 title: "AI工具推荐：这些神器让效率翻倍"
 date: 2026-03-06
 categories: ["ai"]
 summary: "日常工作和生活中好用的AI工具分享"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["AI tools", "productivity"]
 slug: "ai-tools-recommendation-2026"
 ---
 
 # AI工具推荐：这些神器让效率翻倍
 
-![AI工具](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "AI Tools")
 
 分享几个日常在用的<a href="/ai/" target="_blank">AI</a>工具，都是真香系列。
 

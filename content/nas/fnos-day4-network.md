@@ -1,17 +1,14 @@
----
+﻿---
 title: "Day 4: 飞牛OS网络配置 —— 打造高速私有云"
 date: 2026-03-10
 summary: "学习飞牛OS的网络配置，实现局域网访问和IP设置。"
 categories: ["nas"]
 slug: "fnos-day4-network"
 tags: ["飞牛OS", "网络", "IP", "局域网"]
-image: https://images.pexels.com/photos/1569018/pexels-photo-1569018.jpeg
-imageCredit: "Pexels"
 ---
 
 # Day 4: 飞牛OS网络配置
 
-![飞牛OS网络](https://images.pexels.com/photos/1569018/pexels-photo-1569018.jpeg "网络配置")
 
 ## 基础网络设置
 

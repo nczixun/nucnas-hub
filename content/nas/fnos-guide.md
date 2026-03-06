@@ -1,16 +1,13 @@
----
+﻿---
 slug: "fnos-guide"
 title: "飞牛 OS (FnOS) 极速上手指南"
 date: 2024-05-20
 summary: "如何让你的闲置 NUC 在 10 分钟内变身为强大的家庭媒体中心。"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "fnos-guide"
 ---
 
 # 飞牛 OS (FnOS) 极速上手指南
 
-![飞牛OS](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "FnOS")
 
 很多人的抽屉里都吃着灰躺着一台 Intel <a href="/hardware/" target="_blank">NUC</a>。它处理日常办公可能略显吃力，但如果作为一台 7x24小时在线的媒体服务器，它的性能绰绰有余。
 

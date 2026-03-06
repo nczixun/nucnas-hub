@@ -1,4 +1,4 @@
----
+﻿---
 title: "群晖NAS进阶教程：利用Docker搭建个人知识库系统"
 date: 2026-03-03
 categories: ["nas"]
@@ -22,13 +22,10 @@ tags:
   - "教程"
   - "Docker"
   - "知识管理"
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 群晖NAS进阶教程：利用Docker搭建个人知识库系统
 
-![知识库系统](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "知识库")
 
 **更新日期：** 2026年3月3日
 

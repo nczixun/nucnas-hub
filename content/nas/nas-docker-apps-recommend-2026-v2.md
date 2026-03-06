@@ -1,10 +1,8 @@
----
+﻿---
 title: "NAS必装Docker应用推荐：2026年打造私人云服务"
 date: 2026-03-04
 categories: ["nas"]
 summary: "推荐10款最实用的NAS Docker应用，打造私人影音、下载、备份中心"
-image: "https://images.pexels.com/photos/1435484/pexels-photo-1435484.jpeg"
-imageCredit: "Pexels"
 tags: ["NAS", "Docker", "私有云", "应用"]
 ---
 

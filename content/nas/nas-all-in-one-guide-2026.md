@@ -1,4 +1,4 @@
----
+﻿---
 title: "NAS All-in-One完全指南：2026年一台设备搞定所有需求"
 date: 2026-03-05
 draft: false
@@ -9,14 +9,11 @@ featured_image: ""
 sticky: false
 unversioned: false
 author: "NUCNAS"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "nas-all-in-one-guide-2026"
 ---
 
 # NAS All-in-One完全指南：2026年一台设备搞定所有需求
 
-![NAS All-in-One](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "AIO")
 
 ## 前言
 

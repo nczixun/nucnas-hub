@@ -1,20 +1,15 @@
----
+﻿---
 slug: "deepseek-r1-deploy"
 title: "DeepSeek R1 本地部署指南"
 date: 2026-02-20
 categories: ["ai"]
 summary: "手把手教你如何在本地部署 DeepSeek R1 大模型，在离线环境下也能享受 AI 带来的便利。"
-image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
-imageCredit: "Photo by Pexels"
 tags: ["DeepSeek", "本地部署", "大模型"]
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 slug: "deepseek-r1-deploy"
 ---
 
 # DeepSeek R1 本地部署指南
 
-![DeepSeek R1](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "DeepSeek R1")
 
 国产开源大模型 DeepSeek R1 出来了，性能直接对标 GPT-4。最骚的是，它还能本地部署，不用联网也能玩。
 

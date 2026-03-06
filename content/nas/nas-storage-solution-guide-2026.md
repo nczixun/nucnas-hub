@@ -1,17 +1,14 @@
----
+﻿---
 title: "NAS存储方案怎么选：Basic、RAID0、RAID1、RAID5全解析"
 date: 2026-03-06
 categories: ["nas"]
 summary: "不同存储模式有什么区别？数据安全和容量如何权衡？"
-image: "https://images.plexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["NAS", "RAID", "storage"]
 slug: "nas-storage-solution-guide-2026"
 ---
 
 # NAS存储方案怎么选：Basic、RAID0、RAID1、RAID5全解析
 
-![NAS存储](https://images.plexels.com/photos/159538/pexels-photo-159538.jpeg "存储方案")
 
 存储模式选错了，数据可能全丢。这篇帮你搞清楚。
 

@@ -1,17 +1,14 @@
----
+﻿---
 title: "迷你主机装GEAKOS：Intel 3865U性能实测"
 date: 2026-03-06
 categories: ["hardware"]
 slug: "minipc-geakos-3865u-review"
 summary: "用几百块的Intel 3865U迷你主机安装GEAKOS，性能够用吗？实测AI相册响应速度、4K视频解码、内存占用告诉你答案。"
 tags: ["GEAKOS", "迷你主机", "Intel 3865U", "NAS硬件", "低功耗"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 迷你主机装GEAKOS：Intel 3865U性能实测
 
-![3865U迷你主机](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "迷你主机")
 
 最近很多朋友问：几百块的二手迷你主机能跑<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>吗？刚好手里有一台3865U的小主机，今天来实测一下。
 

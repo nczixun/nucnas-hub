@@ -1,17 +1,14 @@
----
+﻿---
 title: "Day 2: 飞牛OS硬件选购指南 —— 性价比配置推荐"
 date: 2026-03-08
 summary: "从入门到进阶，教你挑选适合飞牛OS的NAS硬件。"
 categories: ["nas"]
 slug: "fnos-day2-hardware"
 tags: ["飞牛OS", "硬件", "NAS", "教程"]
-image: https://images.pexels.com/photos/159777/technology-pc-computer-workspace-159777.jpeg
-imageCredit: "Pexels"
 ---
 
 # Day 2: 飞牛OS硬件选购指南
 
-![飞牛OS硬件](https://images.pexels.com/photos/159777/technology-pc-computer-workspace-159777.jpeg "硬件选购")
 
 ## 入门方案：J1900/J1800 工控机
 

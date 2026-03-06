@@ -1,16 +1,13 @@
----
+﻿---
 slug: "tailscale-remote-access"
 title: "Tailscale：无需公网 IP，实现内网穿透"
 date: 2026-02-12
 summary: "全球范围内安全访问你家里的 NUC NAS。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Tailscale：无需公网IP，实现内网穿透
 
-![Tailscale内网穿透](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "内网穿透")
 
 "我在公司想访问家里的NAS文件"、"我在出差时想看看监控摄像头的实时画面"、"我想在外网控制家里的智能家居设备"——这些场景的核心需求只有一个：**远程访问内网设备**。然而，国内大多数家庭宽带都没有公网IPv4地址，运营商提供的NAT使得直接从外部访问成为奢望。花生壳、frp等内网穿透工具要么收费昂贵，要么配置复杂，要么速度堪忧。
 

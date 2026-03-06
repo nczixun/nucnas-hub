@@ -1,18 +1,13 @@
----
+﻿---
 title: "迷你主机上的AI革命：如何在NUC上本地部署DeepSeek等大模型"
 date: 2026-03-01
 categories: ["ai"]
 summary: "从零开始教你在迷你主机上部署本地大模型，实现私有AI助手，兼顾隐私与性能"
-image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
-imageCredit: "Pexels"
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 slug: "deploy-llm-mini-pc-2026"
 ---
 
 # 迷你主机上的AI革命：如何在NUC上本地部署DeepSeek等大模型
 
-![本地大模型部署](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "AI部署")
 
 想象一下，你的桌面上有一台仅有手掌大小的设备，却能运行与ChatGPT能力相当的语言模型。所有对话数据都存储在你的本地硬盘上，无需联网即可使用——这就是**本地大模型部署**的魅力。
 

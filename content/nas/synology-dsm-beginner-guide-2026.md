@@ -1,17 +1,14 @@
----
+﻿---
 title: "群晖DSM 7.2新手入门：10分钟搭建私人NAS"
 date: 2026-03-06
 categories: ["nas"]
 summary: "群晖DSM 7.2安装配置教程，新手也能快速上手"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["Synology", "DSM", "tutorial"]
 slug: "synology-dsm-beginner-guide-2026"
 ---
 
 # 群晖DSM 7.2新手入门：10分钟搭建私人NAS
 
-![群晖DSM](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "DSM")
 
 群晖系统对新手最友好，看完这篇你也能上手。
 

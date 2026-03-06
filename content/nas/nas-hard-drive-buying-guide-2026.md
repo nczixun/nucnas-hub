@@ -1,4 +1,4 @@
----
+﻿---
 title: "NAS硬盘选购指南：机械硬盘 vs 固态硬盘怎么选"
 date: 2026-03-05
 draft: false
@@ -9,14 +9,11 @@ featured_image: ""
 sticky: false
 unversioned: false
 author: "NUCNAS"
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-imageCredit: "Pexels"
 slug: "nas-hard-drive-buying-guide-2026"
 ---
 
 # NAS硬盘选购指南：机械硬盘 vs 固态硬盘怎么选
 
-![NAS硬盘](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "硬盘选购")
 
 ## 前言
 

@@ -1,17 +1,14 @@
----
+﻿---
 title: "Day 6: 飞牛OS Docker入门 —— 打造万能NAS"
 date: 2026-03-12
 summary: "学习Docker基础，在飞牛OS上部署各种应用。"
 categories: ["nas"]
 slug: "fnos-day6-docker"
 tags: ["飞牛OS", "Docker", "容器", "应用"]
-image: https://images.pexels.com/photos/1661005/pexels-photo-1661005.jpeg
-imageCredit: "Pexels"
 ---
 
 # Day 6: 飞牛OS Docker入门
 
-![Docker容器](https://images.pexels.com/photos/1661005/pexels-photo-1661005.jpeg "Docker")
 
 ## 什么是<a href="/nas/docker-best-practice/" target="_blank">Docker</a>？
 

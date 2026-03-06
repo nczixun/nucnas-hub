@@ -1,16 +1,13 @@
----
+﻿---
 title: "NAS作为家庭AI知识库：手把手教你构建私有RAG系统"
 date: 2026-03-01
 categories: ["nas"]
 summary: "深入探索如何利用NAS设备搭建私有RAG系统，让AI真正成为你的专属知识助手"
-image: "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg"
-imageCredit: "Pexels"
 slug: "nas-rag-system-2026"
 ---
 
 # NAS作为家庭AI知识库：手把手教你构建私有RAG系统
 
-![RAG系统](https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg "RAG")
 
 在这个信息爆炸的时代，你是否曾为找不到一份重要的技术文档而焦头烂额？是否希望拥有一个能够理解你所有笔记、论文、产品手册的AI助手？如今，借助<a href="/nas/" target="_blank">NAS</a>和RAG技术，这些愿望都可以在本地实现。本文将带你深入了解如何利用<a href="/nas/" target="_blank">NAS</a>搭建私有RAG系统，让<a href="/ai/" target="_blank">AI</a>真正成为你的专属知识助手。
 

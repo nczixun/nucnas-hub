@@ -1,4 +1,4 @@
----
+﻿---
 title: "2026年AI硬件选购指南：这些设备让本地AI不再是梦"
 date: 2026-03-03
 categories: ["ai"]
@@ -25,13 +25,10 @@ tags:
 summary: "从N100到RTX 4090，不同预算的AI PC配置推荐"
 audience: "想要入门本地AI的用户"
 price: "999起"
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 2026年AI硬件选购指南：这些设备让本地AI不再是梦
 
-![AI硬件选购](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "AI PC")
 
 **更新日期：** 2026年3月3日
 

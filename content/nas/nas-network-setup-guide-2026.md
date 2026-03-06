@@ -1,17 +1,14 @@
----
+﻿---
 title: "NAS网络设置全攻略：内网访问、外网穿透、链路聚合"
 date: 2026-03-06
 categories: ["nas"]
 summary: "NAS网络配置常见问题一文讲清"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["NAS", "network", "VPN"]
 slug: "nas-network-setup-guide-2026"
 ---
 
 # NAS网络设置全攻略：内网访问、外网穿透、链路聚合
 
-![NAS网络](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "网络配置")
 
 网络配不好，<a href="/nas/" target="_blank">NAS</a>速度快不了。
 

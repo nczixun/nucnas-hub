@@ -1,19 +1,14 @@
----
+﻿---
 slug: "local-ai-agent"
 title: "本地 AI Agent 完全指南"
 date: 2026-02-15
 categories: ["ai"]
 summary: "从零开始搭建本地 AI Agent，实现自动化任务处理。"
-image: "https://images.pexels.com/photos/209639/pexels-photo-209639.jpeg"
-imageCredit: "Photo by Pexels"
 tags: ["AI Agent", "自动化", "教程"]
-image: "https://images.pexels.com/photos/209639/pexels-photo-209639.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 本地 AI Agent 完全指南
 
-![AI Agent](https://images.pexels.com/photos/209639/pexels-photo-209639.jpeg "AI Agent")
 
 AI Agent（AI 智能体）是当前 <a href="/ai/" target="_blank">AI</a> 领域的热门话题，它可以自主完成复杂任务。本文教你如何搭建本地 AI Agent。
 

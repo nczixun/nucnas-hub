@@ -1,17 +1,14 @@
----
+﻿---
 title: "Day 2：接入飞书/Telegram/Discord，打造你的专属AI助手"
 date: 2026-03-01
 categories: ["ai"]
 slug: "openclaw-day2-platform-integration"
 summary: "手把手教你将OpenClaw接入飞书、Telegram、Discord，实现随时随地对话。含详细配置步骤和多平台对比。"
 tags: ["OpenClaw", "飞书机器人", "Telegram Bot", "Discord Bot", "AI助手配置"]
-image: "https://images.pexels.com/photos/4126724/pexels-photo-4126724.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Day 2：接入飞书/Telegram/Discord，打造你的专属AI助手
 
-![AI助手接入多平台](https://images.pexels.com/photos/4126724/pexels-photo-4126724.jpeg "OpenClaw 多平台接入")
 
 ## 为什么需要接入通讯平台？
 

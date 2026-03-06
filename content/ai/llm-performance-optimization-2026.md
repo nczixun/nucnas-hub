@@ -1,17 +1,14 @@
----
+﻿---
 title: "本地大模型性能优化：让模型跑得更快"
 date: 2026-03-06
 categories: ["ai"]
 summary: "通过量化、GPU加速等方式提升本地大模型运行速度"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["LLM", "optimization", "performance"]
 slug: "llm-performance-optimization-2026"
 ---
 
 # 本地大模型性能优化：让模型跑得更快
 
-![LLM优化](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "性能优化")
 
 模型跑太慢？试试这几个优化方法。
 

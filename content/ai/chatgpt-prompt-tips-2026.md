@@ -1,17 +1,14 @@
----
+﻿---
 title: "ChatGPT使用技巧：这样提问效率翻倍"
 date: 2026-03-06
 categories: ["ai"]
 summary: "掌握这几个提问技巧，让AI更好地帮你干活"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["ChatGPT", "prompt", "tutorial"]
 slug: "chatgpt-prompt-tips-2026"
 ---
 
 # ChatGPT使用技巧：这样提问效率翻倍
 
-![AI提问技巧](https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg "Prompt技巧")
 
 同样是用<a href="/ai/" target="_blank">ChatGPT</a>，为啥别人问的答案比你好？技巧在这。
 

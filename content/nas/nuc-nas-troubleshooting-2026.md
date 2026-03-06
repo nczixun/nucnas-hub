@@ -1,16 +1,13 @@
----
+﻿---
 title: "NUC做NAS避坑指南：这5个常见问题一不小心就翻车"
 date: 2026-03-02
 categories: ["nas"]
 summary: "入手NUC做NAS必看！5个常见翻车问题+Quick Fix解决方案，还有硬件选购建议"
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
-imageCredit: "Pexels"
 slug: "nuc-nas-troubleshooting-2026"
 ---
 
 # NUC做NAS避坑指南：这5个常见问题一不小心就翻车
 
-![NUC NAS](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800 "避坑指南")
 
 入手<a href="/hardware/" target="_blank">NUC</a>做<a href="/nas/" target="_blank">NAS</a>的玩家越来越多，但真正用起来的却没几个——不是卡在虚拟化直通上，就是被风扇噪音折磨到退货。
 

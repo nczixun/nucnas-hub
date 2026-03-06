@@ -1,17 +1,14 @@
----
+﻿---
 title: "Day 5: 飞牛OS远程访问 —— Tailscale/FRP完美方案"
 date: 2026-03-11
 summary: "通过Tailscale或FRP实现外网安全访问飞牛OS。"
 categories: ["nas"]
 slug: "fnos-day5-remote"
 tags: ["飞牛OS", "远程访问", "Tailscale", "FRP"]
-image: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg
-imageCredit: "Pexels"
 ---
 
 # Day 5: 飞牛OS远程访问
 
-![远程访问](https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg "远程访问")
 
 ## 为什么需要远程访问？
 

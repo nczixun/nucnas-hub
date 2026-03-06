@@ -1,17 +1,14 @@
----
+﻿---
 slug: "data-321-backup"
 title: "数据无价：3-2-1 备份策略在家庭环境的落地"
 date: 2026-02-12
 summary: "即使硬盘全坏，也不怕丢失珍贵的家庭回忆。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-imageCredit: "Pexels"
 slug: "data-321-backup"
 ---
 
 # 数据无价：3-2-1 备份策略在家庭环境的落地
 
-![数据备份](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "备份策略")
 
 在数字化时代，家庭数据的重要性不言而喻。从宝宝出生的第一张照片，到工作多年的文档资料，再到积累多年的电影音乐收藏，这些都是无法用金钱衡量的宝贵资产。然而，硬盘会损坏、电脑会丢失、云服务商可能会倒闭——数据丢失的风险无处不在。作为一个理性的<a href="/nas/" target="_blank">NAS</a>用户，我们必须建立完善的备份策略，而3-2-1原则就是业界公认的最佳实践。
 

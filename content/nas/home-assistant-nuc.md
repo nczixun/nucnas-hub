@@ -1,16 +1,13 @@
----
+﻿---
 slug: "home-assistant-nuc"
 title: "用 NUC 跑 Home Assistant：打造最强智能家居中枢"
 date: 2026-02-12
 summary: "接入米家、HomeKit，实现全屋自动化联动。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 用 NUC 跑 Home Assistant：打造最强智能家居中枢
 
-![Home Assistant智能家居](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "智能家居")
 
 智能家居的概念已经炒作了多年，但真正让用户体验到"智能化"的，并非那些单纯的语音助手或手机遥控，而是能够**自动化运行、无需人工干预**的整体系统。<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>（以下简称HA）正是这样一款开源的智能家居平台，它可以统一管理来自不同品牌的设备——小米米家、苹果HomeKit、Yeelight、涂鸦、MQTT设备——并通过自动化规则将它们串联起来，实现"人走灯灭"、"离家模式"、"温度自动调节"等真正的智能场景。
 

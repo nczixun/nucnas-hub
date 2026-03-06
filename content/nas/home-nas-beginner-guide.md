@@ -1,16 +1,13 @@
----
+﻿---
 title: "小白入门：5分钟学会搭建家庭私有云，告别网盘限速！"
 date: 2026-02-27
 categories: ["nas"]
 summary: "手把手教你使用零成本方案搭建家庭私有云，手机照片自动备份，多设备文件秒同步"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 slug: "home-nas-beginner-guide"
 ---
 
 # 小白入门：5分钟学会搭建家庭私有云
 
-![私有云](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "私有云")
 
 ## 为什么要搭建家庭私有云？
 

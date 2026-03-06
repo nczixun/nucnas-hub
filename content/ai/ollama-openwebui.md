@@ -1,18 +1,15 @@
----
+﻿---
 slug: "ollama-openwebui"
 title: "Ollama + OpenWebUI 搭建本地 AI 聊天界面"
 date: 2026-02-18
 categories: ["ai"]
 summary: "使用 Ollama + OpenWebUI 搭建一个美观易用的本地 AI 聊天界面，支持多模型切换。"
-image: "https://images.pexels.com/photos/4126724/pexels-photo-4126724.jpeg"
-imageCredit: "Photo by Pexels"
 tags: ["Ollama", "OpenWebUI", "教程"]
 slug: "ollama-openwebui"
 ---
 
 # Ollama + OpenWebUI 搭建本地 AI 聊天界面
 
-![AI聊天界面](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "OpenWebUI")
 
 虽然命令行可以运行大模型，但一个美观的聊天界面体验更好。本文介绍如何使用 OpenWebUI 搭建本地 AI 聊天界面。
 

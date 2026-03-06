@@ -1,17 +1,14 @@
----
+﻿---
 title: "Day 3: 飞牛OS安装教程 —— 多种方式任你选"
 date: 2026-03-09
 summary: "详细介绍飞牛OS的多种安装方式：U盘启动、硬盘挂载、虚拟机。"
 categories: ["nas"]
 slug: "fnos-day3-install"
 tags: ["飞牛OS", "安装", "教程", "U盘启动"]
-image: https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg
-imageCredit: "Pexels"
 ---
 
 # Day 3: 飞牛OS安装教程
 
-![飞牛OS安装](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg "安装教程")
 
 ## 安装方式一览
 

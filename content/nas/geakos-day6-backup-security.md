@@ -1,16 +1,15 @@
----
+﻿---
 title: "Day 6：数据备份与安全 - 守护你的数字资产"
 date: 2026-03-05
 categories: ["nas"]
 slug: "geakos-day6-backup-security"
 summary: "GEAKOS数据安全：跨设备备份、双重备份、SMB/NFS协议、数据隔离、保险箱，安全感拉满。"
 tags: ["GEAKOS", "数据备份", "NAS安全", "RAID"]
-image: "https://images.pexels.com/photos/安全.jpeg"
 ---
 
 # Day 6：数据备份与安全
 
-![数据安全](https://images.pexels.com/photos/安全.jpeg "GEAKOS 数据安全")
+
 
 ## 备份功能
 

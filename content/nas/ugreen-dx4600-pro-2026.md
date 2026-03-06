@@ -1,4 +1,4 @@
----
+﻿---
 title: "绿联NAS DX4600 Pro深度评测：老牌外设厂商的NAS首秀能否成功？"
 date: 2026-03-03
 categories: ["nas"]
@@ -38,13 +38,10 @@ radar:
   io: 8
   noise: 8
   price: 9
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 绿联NAS DX4600 Pro深度评测
 
-![绿联DX4600 Pro](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "DX4600 Pro")
 
 ## 一、前言
 

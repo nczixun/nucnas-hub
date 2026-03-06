@@ -1,16 +1,13 @@
----
+﻿---
 slug: "jellyfin-hw-transcode"
 title: "Jellyfin 硬解全攻略：开启 Intel 核显 4K 压榨"
 date: 2026-02-12
 summary: "解决播放卡顿，让 NUC 轻松同时转发 5 路 4K 视频。"
 categories: ["nas"]
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # Jellyfin 硬解全攻略：开启 Intel 核显 4K 压榨
 
-![Jellyfin硬解](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "Jellyfin")
 
 <a href="/nas/jellyfin-hw-transcode/" target="_blank">Jellyfin</a>是开源多媒体领域的明星项目，作为Emby的正统精神继承者，它完全免费、功能强大、支持全平台。然而，很多用户在部署<a href="/nas/jellyfin-hw-transcode/" target="_blank">Jellyfin</a>后发现播放4K视频时CPU占用率飙升、画面卡顿、甚至无法流畅播放——这通常是因为没有正确启用硬件解码（硬解）。对于使用Intel NUC的用户来说，利用核显进行硬解是解决这个问题的最佳方案。本文将带来完整的<a href="/nas/jellyfin-hw-transcode/" target="_blank">Jellyfin</a>硬解配置教程，让你充分压榨NUC的性能，实现多路4K视频同时播放。
 

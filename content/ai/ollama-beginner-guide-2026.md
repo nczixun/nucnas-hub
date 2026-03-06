@@ -1,4 +1,4 @@
----
+﻿---
 title: "本地大模型部署入门指南：Ollama使用教程，2026年轻松在电脑上跑AI"
 date: 2026-03-05
 draft: false
@@ -9,14 +9,11 @@ featured_image: ""
 sticky: false
 unversioned: false
 author: "NUCNAS"
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 slug: "ollama-beginner-guide-2026"
 ---
 
 # 本地大模型部署入门指南：Ollama使用教程，2026年轻松在电脑上跑AI
 
-![Ollama本地部署](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "Ollama")
 
 ## 前言
 

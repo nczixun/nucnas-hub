@@ -1,17 +1,14 @@
----
+﻿---
 title: "TrueNAS vs Unraid vs DSM：2026年NAS系统全面对比"
 date: 2026-03-05
 categories: ["nas"]
 tags: ["NAS", "TrueNAS", "Unraid", "群晖", "系统对比"]
 platform: "nas"
 slug: "truenas-unraid-dsm-2026"
-image: "https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg"
-imageCredit: "Pexels"
 ---
 
 # TrueNAS vs Unraid vs DSM：2026年NAS系统全面对比
 
-![NAS系统对比](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "NAS")
 
 ## 一、前言
 

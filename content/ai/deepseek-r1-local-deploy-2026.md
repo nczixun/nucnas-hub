@@ -1,4 +1,4 @@
----
+﻿---
 title: "DeepSeek R1本地部署教程：零成本拥有你的私人AI"
 date: 2026-03-05
 draft: false

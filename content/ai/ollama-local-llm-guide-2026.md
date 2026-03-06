@@ -1,17 +1,14 @@
----
+﻿---
 title: "Ollama本地部署大模型：零基础入门指南"
 date: 2026-03-06
 categories: ["ai"]
 summary: "用Ollama在本地部署大模型，无需显卡也能玩"
-image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
-imageCredit: "Pexels"
 tags: ["Ollama", "local LLM", "deployment"]
 slug: "ollama-local-llm-guide-2026"
 ---
 
 # Ollama本地部署大模型：零基础入门指南
 
-![Ollama](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "Ollama")
 
 本地跑大模型，<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>是最简单的方案。
 

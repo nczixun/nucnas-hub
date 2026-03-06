@@ -1,17 +1,14 @@
----
+﻿---
 title: "NAS常用服务端口冲突？手把手教你排查与解决"
 date: 2026-03-06
 categories: ["nas"]
 summary: "NAS端口冲突导致服务无法启动？教你快速定位问题端口并解决"
-image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800"
-imageCredit: "Unsplash"
 tags: ["NAS", "端口冲突", "故障排查", "Docker", "网络"]
 slug: "nas-port-conflict-troubleshooting-2026"
 ---
 
 # NAS常用服务端口冲突？手把手教你排查与解决
 
-![端口冲突](https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800 "端口排查")
 
 <a href="/nas/" target="_blank">NAS</a>上服务越来越多，端口冲突成为常见问题。今天教你在群晖/极空间/威联通上快速定位并解决端口冲突。
 

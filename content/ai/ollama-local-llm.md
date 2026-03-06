@@ -1,20 +1,16 @@
----
+﻿---
 title: "本地部署 AI 大模型：Ollama 安装使用教程"
 date: 2026-02-28
 categories: ["ai"]
 summary: "Ollama 本地部署 AI 大模型教程，教你如何在电脑上运行 LLaMA、Qwen 等大模型"
-image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg"
 slug: "ollama-local-llm"
 tags: ["Ollama", "本地部署", "大模型", "LLaMA"]
 brand: "教程"
 model: "AI部署"
-image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 本地部署 AI 大模型：Ollama 安装使用教程
 
-![Ollama](https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg "Ollama")
 
 还在为 ChatGPT API 付费而心疼？本文教你用 <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a> 在本地部署大模型，完全免费，离线可用！
 

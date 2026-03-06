@@ -1,16 +1,15 @@
----
+﻿---
 title: "Day 4：影视中心 - 打造你的私人影院"
 date: 2026-03-03
 categories: ["nas"]
 slug: "geakos-day4-video-center"
 summary: "GEAKOS影视中心：智能海报墙、4K硬解、字幕匹配、多端进度同步，追剧党必备。"
 tags: ["GEAKOS", "影视中心", "NAS", "Jellyfin", "Plex"]
-image: "https://images.pexels.com/photos/精彩内容.jpeg"
 ---
 
 # Day 4：影视中心
 
-![影视中心](https://images.pexels.com/photos/精彩内容.jpeg "GEAKOS 影视中心")
+
 
 ## 核心功能
 
