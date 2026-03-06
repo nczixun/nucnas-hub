@@ -7,7 +7,6 @@ description: "Aoostar R1: N100,双盘位,NAS主机"
 categories: ["hardware"]
 tags: ["N100", "双盘位", "NAS主机", "nas"]
 keywords: ["N100", "双盘位", "NAS主机", "nas"]
-slug: "aoostar-r1"
 ---
 
 # Aoostar R1 评测

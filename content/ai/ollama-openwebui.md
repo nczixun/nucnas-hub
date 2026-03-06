@@ -5,7 +5,6 @@ date: 2026-02-18
 categories: ["ai"]
 summary: "使用 Ollama + OpenWebUI 搭建一个美观易用的本地 AI 聊天界面，支持多模型切换。"
 tags: ["Ollama", "OpenWebUI", "教程"]
-slug: "ollama-openwebui"
 ---
 
 # Ollama + OpenWebUI 搭建本地 AI 聊天界面

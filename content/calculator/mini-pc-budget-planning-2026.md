@@ -1,4 +1,4 @@
----
+﻿---
 title: "迷你主机预算规划：不同预算怎么花最值？"
 date: 2026-03-06
 categories: ["calculator"]

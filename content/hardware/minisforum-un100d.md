@@ -7,7 +7,6 @@ description: "Minisforum UN100D: N100,双2.5G,PD供电"
 categories: ["hardware"]
 tags: ["N100", "双2.5G", "PD供电", "hardware"]
 keywords: ["N100", "双2.5G", "PD供电", "hardware"]
-slug: "minisforum-un100d"
 ---
 
 # Minisforum UN100D 评测

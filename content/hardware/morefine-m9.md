@@ -7,7 +7,6 @@ description: "Morefine M9: N100,极小体积,随身携带"
 categories: ["hardware"]
 tags: ["N100", "极小体积", "随身携带", "hardware"]
 keywords: ["N100", "极小体积", "随身携带", "hardware"]
-slug: "morefine-m9"
 ---
 
 # Morefine M9 评测

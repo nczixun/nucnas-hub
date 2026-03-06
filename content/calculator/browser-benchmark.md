@@ -1,4 +1,4 @@
----
+﻿---
 title: "浏览器跑分测试"
 slug: "browser-benchmark"
 description: "测试浏览器JavaScript和渲染性能"

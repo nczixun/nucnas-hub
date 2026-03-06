@@ -1,4 +1,4 @@
----
+﻿---
 title: "迷你主机性能对比：Intel Ultra vs AMD 锐龙8000"
 date: 2026-03-06
 categories: ["calculator"]

@@ -5,7 +5,6 @@ date: 2026-02-20
 categories: ["ai"]
 summary: "手把手教你如何在本地部署 DeepSeek R1 大模型，在离线环境下也能享受 AI 带来的便利。"
 tags: ["DeepSeek", "本地部署", "大模型"]
-slug: "deepseek-r1-deploy"
 ---
 
 # DeepSeek R1 本地部署指南

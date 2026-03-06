@@ -17,7 +17,6 @@ cons:
   - 无法自行升级内存 (统一内存架构)
   - 电源键位置设计在底部
 tags: ["mac mini", "M4"]
-slug: "apple-mac-mini-m4-pro"
 ---
 
 # Mac mini M4 Pro 评测：性能怪兽还是小钢炮？

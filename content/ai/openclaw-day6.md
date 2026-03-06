@@ -5,7 +5,6 @@ categories: ["ai"]
 slug: "openclaw-day6-advanced-browser-file"
 summary: "OpenClaw进阶教程：浏览器自动化控制、文件操作、填表单、抓数据，让AI帮你操作电脑。"
 tags: ["OpenClaw", "浏览器控制", "文件操作", "自动化", "RPA"]
-slug: "openclaw-day6"
 ---
 
 # Day 6：进阶技巧 - 浏览器控制与文件操作

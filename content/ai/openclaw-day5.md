@@ -5,7 +5,6 @@ categories: ["ai"]
 slug: "openclaw-day5-automation-heartbeat"
 summary: "OpenClaw心跳机制详解，定时任务自动执行，让AI主动为你检查邮件、天气、新闻等。"
 tags: ["OpenClaw", "心跳", "自动化", "Cron", "定时任务"]
-slug: "openclaw-day5"
 ---
 
 # Day 5：自动化任务与心跳机制

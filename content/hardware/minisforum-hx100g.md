@@ -5,7 +5,6 @@ date: 2026-02-27
 summary: "Minisforum HX100G review: RX6650M,独显,液金散热"
 categories: ["hardware"]
 tags: ["Minisforum", "HX100G", "amd"]
-slug: "minisforum-hx100g"
 ---
 
 # Minisforum HX100G 评测

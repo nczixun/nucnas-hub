@@ -5,7 +5,6 @@ categories: ["ai"]
 slug: "openclaw-day7-deployment-security"
 summary: "OpenClaw部署教程：阿里云/腾讯云/Docker一键部署，SSL证书配置，安全防护设置。"
 tags: ["OpenClaw", "部署", "Docker", "Nginx", "SSL", "安全"]
-slug: "openclaw-day7"
 ---
 
 # Day 7：部署上线与安全设置

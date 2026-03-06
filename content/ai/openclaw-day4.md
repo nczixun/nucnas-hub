@@ -5,7 +5,6 @@ categories: ["ai"]
 slug: "openclaw-day4-skills-system"
 summary: "OpenClaw技能系统详解，1000+社区技能一键安装，涵盖AI、搜索、编程、智能家居等31个分类。"
 tags: ["OpenClaw", "Skills", "技能系统", "ClawHub", "插件"]
-slug: "openclaw-day4"
 ---
 
 # Day 4：Skills 技能系统 - 让AI能力翻倍

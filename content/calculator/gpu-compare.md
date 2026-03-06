@@ -1,4 +1,4 @@
----
+﻿---
 title: "GPU 对比工具"
 slug: "gpu-compare"
 description: "对比两款显卡的规格和性能"

@@ -6,7 +6,6 @@ brand: "Minisforum"
 model: "V3"
 platform: "amd"
 official_url: "https://www.minisforum.com"
- "https://searchbilibili_url:.bilibili.com/all?keyword=Minisforum+V3+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+V3+review"
 pros: 
   - "三合一创新设计"

@@ -1,4 +1,4 @@
----
+﻿---
 title: "迷你主机功耗计算：一年电费多少钱？"
 date: 2026-03-06
 categories: ["calculator"]

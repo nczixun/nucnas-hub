@@ -5,7 +5,6 @@ date: 2026-02-27
 summary: "Apple Mac mini M4 review: M4芯片,静音,雷电5"
 categories: ["hardware"]
 tags: ["Apple", "Mac mini M4", "apple"]
-slug: "apple-mac-mini-m4"
 ---
 
 # Apple Mac mini M4 深度评测

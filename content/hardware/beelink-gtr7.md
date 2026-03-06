@@ -5,7 +5,6 @@ date: 2026-02-27
 summary: "Beelink GTR7 review: 7840HS,指纹识别,磁吸电源"
 categories: ["hardware"]
 tags: ["Beelink", "GTR7", "amd"]
-slug: "beelink-gtr7"
 ---
 
 # Beelink GTR7 评测

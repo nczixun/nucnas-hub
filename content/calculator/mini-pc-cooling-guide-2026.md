@@ -1,4 +1,4 @@
----
+﻿---
 title: "迷你主机散热方案：如何让主机冷静下来？"
 date: 2026-03-06
 categories: ["calculator"]
