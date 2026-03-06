@@ -13,7 +13,7 @@ imageCredit: "Pexels"
 
 ![3865U迷你主机](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "迷你主机")
 
-最近很多朋友问：几百块的二手迷你主机能跑GEAKOS吗？刚好手里有一台3865U的小主机，今天来实测一下。
+最近很多朋友问：几百块的二手迷你主机能跑<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>吗？刚好手里有一台3865U的小主机，今天来实测一下。
 
 ## 测试设备配置
 
@@ -82,7 +82,7 @@ curl -fsSL https://os.5nas.com/install.sh | sudo sh
 | 空闲 | 1.8GB | 2% |
 | AI识别中 | 3.5GB | 45% |
 | 4K播放 | 2.2GB | 30% |
-| Docker运行 | 4.0GB+ | 50%+ |
+| <a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>运行 | 4.0GB+ | 50%+ |
 
 **结论**：8GB内存勉强够用，建议16GB
 
@@ -106,7 +106,7 @@ curl -fsSL https://os.5nas.com/install.sh | sudo sh
 
 ### ❌ 不适合
 - 🤖 大量照片AI识别（需要等待）
-- 🐳 跑多个Docker容器
+- 🐳 跑多个<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>容器
 - 💻 虚拟机
 
 ## 对比更主流的N5105
@@ -125,17 +125,21 @@ curl -fsSL https://os.5nas.com/install.sh | sudo sh
 
 ## 总结
 
-Intel 3865U可以运行GEAKOS，但有一些注意事项：
+Intel 3865U可以运行<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>，但有一些注意事项：
 
 1. **内存建议8GB以上**，否则AI功能会有压力
 2. **AI识别较慢**，需要耐心等待
 3. **4K视频播放无问题**，HDR略吃力
-4. **不适合重度Docker用户**
+4. **不适合重度<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>用户**
 
 如果你的需求是家庭影院+文件存储，3865U足够。如果想要更好的AI体验，建议上N5105或更高配置。
 
 ---
 
 *关注我们，获取更多NAS和迷你主机测评。*
+
+<div class="page-nav">
+  <a href="/nas/geakos-performance-optimization/" rel="prev">上一页：GEAKOS 内存占用高？手把手教你性能优化</a>
+</div>
 
 *本文由 NUC NAS Hub 自动生成*

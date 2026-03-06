@@ -13,21 +13,21 @@ imageCredit: "Pexels"
 
 ![GEAKOS性能优化](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "性能优化")
 
-GEAKOS发布后社区反馈最多的就是**内存占用高**的问题。有用户反映开机就占用2GB+内存，这在低配置设备上确实是个问题。
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>发布后社区反馈最多的就是**内存占用高**的问题。有用户反映开机就占用2GB+内存，这在低配置设备上确实是个问题。
 
 别急，本文教你几招有效降低内存占用！
 
 ## 问题分析：内存都去哪了？
 
-GEAKOS默认启动的服务比较多：
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>默认启动的服务比较多：
 
 - 🤖 AI服务（人脸识别、场景识别）
 - 🎬 影视库服务
 - 🌐 GEAKLink远程访问
-- 🐳 Docker守护进程
+- 🐳 <a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>守护进程
 - 📱 应用服务
 
-如果你不用AI功能或Docker完全可以关闭相应服务。
+如果你不用AI功能或<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>完全可以关闭相应服务。
 
 ## 优化方案
 
@@ -41,14 +41,14 @@ docker stop geekai
 docker disable geekai
 ```
 
-### 方案2：限制Docker内存（节省~500MB）
+### 方案2：限制<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>内存（节省~500MB）
 
 ```bash
 # 编辑Docker配置
 nano /etc/docker/daemon.json
 ```
 
-添加以下内容限制Docker内存：
+添加以下内容限制<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>内存：
 
 ```json
 {
@@ -97,7 +97,7 @@ echo '/swapfile none swap sw 0 0' >> /etc/fstab
 |------|----------|----------|
 | J系列/N系列 | 轻度使用 | 8GB+ |
 | i3/i5级别 | 正常使用 | 16GB+ |
-| 高端配置 | 重度Docker | 32GB+ |
+| 高端配置 | 重度<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a> | 32GB+ |
 
 ## 一键优化脚本
 
@@ -156,12 +156,17 @@ echo "优化后内存占用应该降低30-50%"
 
 ## 总结
 
-GEAKOS内存占用高的问题确实存在，但通过以上优化可以显著降低。对于低配置设备（如N5105/3865U），**建议至少8GB内存**，优化后可流畅运行。
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>内存占用高的问题确实存在，但通过以上优化可以显著降低。对于低配置设备（如N5105/3865U），**建议至少8GB内存**，优化后可流畅运行。
 
-如果你追求更低的资源占用，可以考虑 [飞牛OS](/nas/geakos-vs-fnos-deep-comparison/) 作为替代方案。
+如果你追求更低的资源占用，可以考虑 <a href="/nas/geakos-vs-fnos-deep-comparison/" target="_blank">飞牛OS</a> 作为替代方案。
 
 ---
 
 *有问题欢迎评论区讨论。更多NAS技巧请关注 [NAS学院](/nas/)。*
+
+<div class="page-nav">
+  <a href="/nas/geakos-vs-fnos-deep-comparison/" rel="prev">上一页：GEAKOS vs 飞牛OS 深度横评：谁才是国产免费NAS之王？</a>
+  <a href="/nas/minipc-geakos-3865u-review/" rel="next">下一页：迷你主机装GEAKOS：Intel 3865U性能实测</a>
+</div>
 
 *本文由 NUC NAS Hub 自动生成*
