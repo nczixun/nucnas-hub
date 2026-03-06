@@ -6,9 +6,12 @@ categories: ["nas"]
 slug: "fnos-day4-network"
 tags: ["飞牛OS", "网络", "IP", "局域网"]
 image: https://images.pexels.com/photos/1569018/pexels-photo-1569018.jpeg
+imageCredit: "Pexels"
 ---
 
 # Day 4: 飞牛OS网络配置
+
+![飞牛OS网络](https://images.pexels.com/photos/1569018/pexels-photo-1569018.jpeg "网络配置")
 
 ## 基础网络设置
 
@@ -58,43 +61,12 @@ http://192.168.x.x
 |------|------|------|
 | HTTP | 80 | Web管理 |
 | HTTPS | 443 | 安全Web |
-| SSH | 22 | 远程命令行 |
-| SMB | 445 | 文件共享 |
-
-### 设置端口转发
-
-在路由器设置：
-1. 找到"端口转发"设置
-2. 添加入站规则
-3. 指向飞牛NAS IP
-
-## 网络诊断
-
-### 检查网络状态
-
-```bash
-# 查看IP
-ip addr
-
-# 测试连通性
-ping 8.8.8.8
-
-# DNS测试
-nslookup google.com
-```
-
-### 常见问题
-
-**Q: 无法获取IP？**
-A: 检查网线连接，确认网卡驱动
-
-**Q: 无法访问外网？**
-A: 检查网关和DNS设置
-
-## 明天预告
-
-Day 5我们将介绍远程访问设置，通过Tailscale/FRP实现外网访问。
 
 ---
 
-*关注我，每天学习飞牛OS！*
+<div class="page-nav">
+  <a href="/nas/fnos-day3-install/" rel="prev">上一页：Day 3：飞牛OS安装教程</a>
+  <a href="/nas/fnos-day5-remote/" rel="next">下一页：Day 5：飞牛OS远程访问</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*
