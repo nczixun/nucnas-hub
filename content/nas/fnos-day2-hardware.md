@@ -6,9 +6,12 @@ categories: ["nas"]
 slug: "fnos-day2-hardware"
 tags: ["飞牛OS", "硬件", "NAS", "教程"]
 image: https://images.pexels.com/photos/159777/technology-pc-computer-workspace-159777.jpeg
+imageCredit: "Pexels"
 ---
 
 # Day 2: 飞牛OS硬件选购指南
+
+![飞牛OS硬件](https://images.pexels.com/photos/159777/technology-pc-computer-workspace-159777.jpeg "硬件选购")
 
 ## 入门方案：J1900/J1800 工控机
 
@@ -24,7 +27,7 @@ image: https://images.pexels.com/photos/159777/technology-pc-computer-workspace-
 | 接口 | 2×SATA3, 千兆网口, USB 3.0 |
 
 **优点：** 价格便宜，省电
-**缺点：** 性能较弱，不适合Docker大量部署
+**缺点：** 性能较弱，不适合<a href="/nas/docker-best-practice/" target="_blank">Docker</a>大量部署
 
 ## 进阶方案：联想M920Q
 
@@ -56,7 +59,7 @@ image: https://images.pexels.com/photos/159777/technology-pc-computer-workspace-
 
 ### 系统盘
 - **推荐：** NVMe SSD 128GB+
-- **用途：** 安装系统，运行Docker
+- **用途：** 安装系统，运行<a href="/nas/docker-best-practice/" target="_blank">Docker</a>
 
 ### 数据盘
 - **推荐：** 西部数据红盘/希捷酷狼
@@ -75,3 +78,10 @@ Day 3我们将介绍飞牛OS的多种安装方法。
 ---
 
 *关注我，每天学习飞牛OS！*
+
+<div class="page-nav">
+  <a href="/nas/fnos-day1-intro/" rel="prev">上一页：Day 1：飞牛OS是什么？国产NAS新选择</a>
+  <a href="/nas/fnos-day3-install/" rel="next">下一页：Day 3：飞牛OS安装教程</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*

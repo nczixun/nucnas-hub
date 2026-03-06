@@ -14,7 +14,7 @@ image: https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg
 
 ## 什么是飞牛OS？
 
-飞牛OS（简称FNOS）是一款基于 **Debian 12** 开发的国产NAS操作系统。它致力于让NAS像Windows一样简单易用，同时保持Linux系统的高效和灵活性。
+飞牛OS（简称<a href="/nas/fnos-day1-intro/" target="_blank">FNOS</a>）是一款基于 **Debian 12** 开发的国产<a href="/nas/" target="_blank">NAS</a>操作系统。它致力于让<a href="/nas/" target="_blank">NAS</a>像Windows一样简单易用，同时保持Linux系统的高效和灵活性。
 
 ## 核心特点
 
@@ -27,7 +27,7 @@ image: https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg
 - 无需深入了解Linux即可上手
 
 ### 📦 应用生态
-- 支持Docker容器
+- 支持<a href="/nas/docker-best-practice/" target="_blank">Docker</a>容器
 - 内置应用中心（持续更新中）
 
 ### 🔒 安全可靠
@@ -47,22 +47,29 @@ image: https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg
 
 - 🏠 家庭用户：打造私人影音库
 - 💼 小微企业：文件存储与共享
-- 🧑‍💻 技术人员：Docker实验环境
-- 🌐 玩家：探索NAS各种玩法
+- 🧑‍💻 技术人员：<a href="/nas/docker-best-practice/" target="_blank">Docker</a>实验环境
+- 🌐 玩家：探索<a href="/nas/" target="_blank">NAS</a>各种玩法
 
-## 与其他NAS系统对比
+## 与其他<a href="/nas/" target="_blank">NAS</a>系统对比
 
 | 特性 | 飞牛OS | 群晖 | Unraid |
 |------|--------|------|--------|
 | 价格 | 免费 | 付费 | 付费 |
 | 易用性 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
-| Docker | 支持 | 支持 | 支持 |
+| <a href="/nas/docker-best-practice/" target="_blank">Docker</a> | 支持 | 支持 | 支持 |
 | 社区 | 发展中 | 成熟 | 成熟 |
 
 ## 明天预告
 
-Day 2我们将介绍飞牛OS的硬件选择，教你如何挑选性价比最高的NAS设备。
+Day 2我们将介绍飞牛OS的硬件选择，教你如何挑选性价比最高的<a href="/nas/" target="_blank">NAS</a>设备。
 
 ---
 
 *关注我，每天学习飞牛OS！*
+
+<div class="page-nav">
+  <a href="/nas/jellyfin-hw-transcode/" rel="prev">上一页：Jellyfin 硬解全攻略：开启Intel核显4K压榨</a>
+  <a href="/nas/fnos-day2-hardware/" rel="next">下一页：Day 2：飞牛OS硬件选择指南</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*

@@ -6,9 +6,12 @@ categories: ["nas"]
 slug: "fnos-day3-install"
 tags: ["飞牛OS", "安装", "教程", "U盘启动"]
 image: https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg
+imageCredit: "Pexels"
 ---
 
 # Day 3: 飞牛OS安装教程
+
+![飞牛OS安装](https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg "安装教程")
 
 ## 安装方式一览
 
@@ -79,28 +82,13 @@ qm importdisk 100 fnos.qcow2 vmbr0 --format qcow2
 
 ### 使用ESXi
 
-1. 创建虚拟机（选择Debian 12兼容）
-2. 添加硬盘时选择"使用物理磁盘"
-3. 挂载ISO镜像启动
-
-## 安装后首次配置
-
-1. 设置管理员密码
-2. 配置网络（DHCP/静态IP）
-3. 访问Web管理界面
-
-## 常见问题
-
-**Q: 安装后无法启动？**
-A: 检查启动顺序，确保从正确设备启动
-
-**Q: 无法识别硬盘？**
-A: 检查硬盘模式（AHCI/RAID）
-
-## 明天预告
-
-Day 4我们将介绍飞牛OS的网络配置。
+类似Proxmox步骤，创建虚拟机后导入镜像即可。
 
 ---
 
-*关注我，每天学习飞牛OS！*
+<div class="page-nav">
+  <a href="/nas/fnos-day2-hardware/" rel="prev">上一页：Day 2：飞牛OS硬件选购指南</a>
+  <a href="/nas/fnos-day4-network/" rel="next">下一页：Day 4：飞牛OS网络设置</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*
