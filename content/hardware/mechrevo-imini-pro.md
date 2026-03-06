@@ -5,13 +5,11 @@ date: 2026-02-27
 summary: "MechRevo imini Pro review: Ultra 5,玻璃顶盖,游戏风"
 categories: ["hardware"]
 tags: ["MechRevo", "imini Pro", "intel"]
-image: "https://images.pexels.com/photos/14199143/pexels-photo-14199143.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-imageCredit: "GENTCREATE"
 ---
 
 # MechRevo imini Pro
 
-![](https://images.pexels.com/photos/14199143/pexels-photo-14199143.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+
 
 MechRevo imini Pro review: Ultra 5,玻璃顶盖,游戏风
 

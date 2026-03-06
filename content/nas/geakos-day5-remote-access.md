@@ -1,16 +1,15 @@
----
+﻿---
 title: "Day 5：GEAKLink 远程访问 - 随时随地畅享私人云"
 date: 2026-03-04
 categories: ["nas"]
 slug: "geakos-day5-remote-access"
 summary: "GEAKOS远程访问功能：P2P加密直连、一键开启、无需配置，随时随地访问NAS文件。"
 tags: ["GEAKOS", "远程访问", "内网穿透", "私有云"]
-image: "https://images.pexels.com/photos/云技术.jpeg"
 ---
 
 # Day 5：GEAKLink 远程访问
 
-![远程访问](https://images.pexels.com/photos/云技术.jpeg "GEAKOS 远程访问")
+
 
 ## GEAKLink 特点
 

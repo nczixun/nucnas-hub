@@ -1,14 +1,14 @@
----
+﻿---
 title: "Day 5: 飞牛OS远程访问 —— Tailscale/FRP完美方案"
 date: 2026-03-11
 summary: "通过Tailscale或FRP实现外网安全访问飞牛OS。"
 categories: ["nas"]
 slug: "fnos-day5-remote"
 tags: ["飞牛OS", "远程访问", "Tailscale", "FRP"]
-image: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg
 ---
 
 # Day 5: 飞牛OS远程访问
+
 
 ## 为什么需要远程访问？
 
@@ -17,7 +17,7 @@ image: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg
 - 🎬 观看影片
 - ⚙️ 管理设置
 
-## 方案一：Tailscale（推荐）
+## 方案一：<a href="/nas/tailscale-remote-access/" target="_blank">Tailscale</a>（推荐）
 
 ### 什么是Tailscale？
 
@@ -25,7 +25,7 @@ image: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg
 
 ### 安装步骤
 
-1. 在飞牛OS中安装Tailscale
+1. 在飞牛OS中安装<a href="/nas/tailscale-remote-access/" target="_blank">Tailscale</a>
 2. 登录账号获取设备密钥
 3. 记录设备节点
 
@@ -60,52 +60,11 @@ bind_port = 7000
 token = your_token
 ```
 
-### 客户端配置
-
-```yaml
-# frpc.ini
-[common]
-server_addr = your_server
-server_port = 7000
-token = your_token
-
-[ssh]
-type = tcp
-local_ip = 192.168.1.100
-local_port = 22
-remote_port = 6000
-```
-
-### Docker部署FRP
-
-```yaml
-version: '3'
-services:
-  frpc:
-    image: snowdreamtech/frpc
-    volumes:
-      - ./frpc.ini:/etc/frp/frpc.ini
-    restart: unless-stopped
-```
-
-## 方案三：DDNS动态域名
-
-适用于有公网IP的用户：
-
-1. 注册DDNS服务（如花生壳）
-2. 在路由器设置DDNS更新
-3. 使用域名访问
-
-## 安全建议
-
-- ⚠️ 使用强密码
-- ⚠️ 启用防火墙
-- ⚠️ 优先使用Tailscale
-
-## 明天预告
-
-Day 6我们将介绍Docker应用部署，让飞牛OS更强大。
-
 ---
 
-*关注我，每天学习飞牛OS！*
+<div class="page-nav">
+  <a href="/nas/fnos-day4-network/" rel="prev">上一页：Day 4：飞牛OS网络配置</a>
+  <a href="/nas/fnos-day6-docker/" rel="next">下一页：Day 6：飞牛OS Docker应用</a>
+</div>
+
+*本文由 NUC NAS Hub 自动生成*

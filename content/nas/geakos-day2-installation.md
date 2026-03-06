@@ -1,16 +1,15 @@
----
+﻿---
 title: "Day 2：GEAKOS 安装部署教程 - 一键启动智能NAS"
 date: 2026-03-01
 categories: ["nas"]
 slug: "geakos-day2-installation"
 summary: "GEAKOS安装教程，一行命令部署Debian/Ubuntu。硬件要求、虚拟机安装、常见问题解答。"
 tags: ["GEAKOS", "NAS安装", "Debian", "教程"]
-image: "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
 ---
 
 # Day 2：GEAKOS 安装部署教程
 
-![GEAKOS安装](https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg "GEAKOS 安装")
+
 
 ## 系统要求
 

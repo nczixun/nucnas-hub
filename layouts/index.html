@@ -1,91 +1,91 @@
 {{ define "main" }}
 <!-- Hero Section - 炫酷渐变背景 -->
-<div class="hero-section" style="background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); padding: 80px 22px; border-radius: 24px; margin-bottom: 60px; text-align: center; position: relative; overflow: hidden;">
+<div class="hero-section" style="background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); padding: 100px 40px; border-radius: 28px; margin-bottom: 80px; text-align: center; position: relative; overflow: hidden;">
     <div style="position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(88,86,214,0.15)0%,transparent50%);animation:rotate 20s linear infinite;"></div>
     <div style="position:absolute;bottom:-30%;right:-20%;width:100%;height:100%;background:radial-gradient(circle,rgba(175,82,222,0.1)0%,transparent50%);"></div>
     
     <div style="position:relative;z-index:1;">
-        <h1 style="font-size:56px;font-weight:800;color:white;margin-bottom:20px;line-height:1.2;">
+        <h1 class="hero-title" style="font-size:56px;font-weight:800;color:white;margin-bottom:24px;line-height:1.2;">
             发现你的<br>
-            <span style="background:linear-gradient(90deg,#667eea,#764ba2,#f093fb);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">下一台设备</span>
+            <span class="hero-title-accent" style="background:linear-gradient(90deg,#667eea,#764ba2,#f093fb);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">下一台设备</span>
         </h1>
-        <p style="font-size:20px;color:rgba(255,255,255,0.8);margin-bottom:32px;max-width:600px;margin-left:auto;margin-right:auto;line-height:1.7;">
+        <p class="hero-subtitle" style="font-size:20px;color:rgba(255,255,255,0.8);margin-bottom:40px;max-width:600px;margin-left:auto;margin-right:auto;line-height:1.7;">
             从 Intel NUC 到 AMD Ryzen，再到 Apple Mac mini，<br>
             探索 Mini PC 的极致性能，感受家庭NAS与AI的魅力。
         </p>
-        <div style="display:flex;gap:16px;justify-content:center;margin-bottom:40px;">
-            <a href="/hardware/" style="background:linear-gradient(90deg,#667eea,#764ba2);color:white;padding:14px 32px;border-radius:50px;font-size:18px;font-weight:600;text-decoration:none;">硬件测评</a>
-            <a href="/nas/" style="background:rgba(255,255,255,0.15);color:white;padding:14px 32px;border-radius:50px;font-size:18px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.3);">NAS 指南</a>
+        <div style="display:flex;gap:16px;justify-content:center;margin-bottom:48px;">
+            <a href="/hardware/" style="background:linear-gradient(90deg,#667eea,#764ba2);color:white;padding:16px 36px;border-radius:50px;font-size:18px;font-weight:600;text-decoration:none;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(102,126,234,0.4)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">硬件测评</a>
+            <a href="/nas/" style="background:rgba(255,255,255,0.15);color:white;padding:16px 36px;border-radius:50px;font-size:18px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.3);transition:background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">NAS 指南</a>
         </div>
-        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;align-items:center;">
             <span style="color:rgba(255,255,255,0.6);font-size:14px;">热门搜索：</span>
-            <a href="/search?q=Ryzen 8845HS" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;">Ryzen 8845HS</a>
-            <a href="/search?q=Mac mini M4" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;">Mac mini M4</a>
-            <a href="/search?q=All-in-One" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;">All-in-One</a>
+            <a href="/search?q=Ryzen 8845HS" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">Ryzen 8845HS</a>
+            <a href="/search?q=Mac mini M4" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">Mac mini M4</a>
+            <a href="/search?q=All-in-One" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">All-in-One</a>
         </div>
     </div>
 </div>
 
 <!-- 四大栏目卡片 -->
-<section style="margin-bottom:60px;">
-    <h2 style="font-size:32px;font-weight:700;margin-bottom:24px;">探索栏目</h2>
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;">
-        <a href="/hardware/" style="background:linear-gradient(135deg,#667eea,#764ba2);border-radius:20px;padding:28px;text-decoration:none;color:white;transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="background:rgba(255,255,255,0.2);width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+<section style="margin-bottom:80px;">
+    <h2 class="section-title" style="font-size:36px;font-weight:700;margin-bottom:32px;">探索栏目</h2>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+        <a href="/hardware/" style="background:linear-gradient(135deg,#667eea,#764ba2);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(102,126,234,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
             </div>
-            <h3 style="font-size:20px;font-weight:600;margin-bottom:8px;">硬件测评</h3>
-            <p style="opacity:0.8;font-size:14px;margin-bottom:16px;">Mini PC 横向评测</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.7;font-size:13px;"><span>12+ 文章</span><span>→</span></div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">硬件测评</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">Mini PC 横向评测</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>12+ 文章</span><span>→</span></div>
         </a>
         
-        <a href="/nas/" style="background:linear-gradient(135deg,#5856D6,#AF52DE);border-radius:20px;padding:28px;text-decoration:none;color:white;transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="background:rgba(255,255,255,0.2);width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="4" width="20" height="8" rx="2"/><rect x="2" y="12" width="20" height="8" rx="2"/></svg>
+        <a href="/nas/" style="background:linear-gradient(135deg,#5856D6,#AF52DE);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(88,86,214,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="4" width="20" height="8" rx="2"/><rect x="2" y="12" width="20" height="8" rx="2"/></svg>
             </div>
-            <h3 style="font-size:20px;font-weight:600;margin-bottom:8px;">NAS 学院</h3>
-            <p style="opacity:0.8;font-size:14px;margin-bottom:16px;">私有云构建指南</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.7;font-size:13px;"><span>20+ 教程</span><span>→</span></div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">NAS 学院</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">私有云构建指南</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>20+ 教程</span><span>→</span></div>
         </a>
         
-        <a href="/calculator/" style="background:linear-gradient(135deg,#34C759,#30D158);border-radius:20px;padding:28px;text-decoration:none;color:white;transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="background:rgba(255,255,255,0.2);width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        <a href="/calculator/" style="background:linear-gradient(135deg,#34C759,#30D158);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(52,199,89,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             </div>
-            <h3 style="font-size:20px;font-weight:600;margin-bottom:8px;">本地大模型</h3>
-            <p style="opacity:0.8;font-size:14px;margin-bottom:16px;">DeepSeek 部署指南</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.7;font-size:13px;"><span>15+ 篇</span><span>→</span></div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">本地大模型</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">DeepSeek 部署指南</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>15+ 篇</span><span>→</span></div>
         </a>
         
-        <a href="/calculator/" style="background:linear-gradient(135deg,#FF9500,#FF3B30);border-radius:20px;padding:28px;text-decoration:none;color:white;transition:transform 0.3s;" onmouseover="this.style.transform='translateY(-8px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="background:rgba(255,255,255,0.2);width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/></svg>
+        <a href="/calculator/" style="background:linear-gradient(135deg,#FF9500,#FF3B30);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(255,149,0,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/></svg>
             </div>
-            <h3 style="font-size:20px;font-weight:600;margin-bottom:8px;">计算器</h3>
-            <p style="opacity:0.8;font-size:14px;margin-bottom:16px;">性能功耗对比</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.7;font-size:13px;"><span>5+ 工具</span><span>→</span></div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">计算器</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">性能功耗对比</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>5+ 工具</span><span>→</span></div>
         </a>
     </div>
 </section>
 
 <!-- 热门设备 -->
-<section style="margin-bottom:60px;">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
-        <h2 style="font-size:32px;font-weight:700;">热门设备</h2>
-        <a href="/hardware/" style="color:#667eea;font-weight:600;">查看全部 →</a>
+<section style="margin-bottom:80px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;">
+        <h2 class="section-title" style="font-size:36px;font-weight:700;margin-bottom:0;">热门设备</h2>
+        <a href="/hardware/" style="color:#667eea;font-weight:600;font-size:16px;text-decoration:none;">查看全部 →</a>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
         {{ range first 4 (where .Site.RegularPages "Section" "hardware") }}
-        <a href="{{ .RelPermalink }}" style="background:white;border-radius:16px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 4px 20px rgba(0,0,0,0.08);transition:transform 0.3s;display:block;" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
-            <div style="height:180px;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);display:flex;align-items:center;justify-content:center;font-size:48px;">
-                {{ with .Params.image }}<img src="{{ . }}" style="width:100%;height:100%;object-fit:cover;">{{ else }}🖥️{{ end }}
+        <a href="{{ .RelPermalink }}" style="background:white;border-radius:20px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 4px 20px rgba(0,0,0,0.08);transition:transform 0.3s,box-shadow 0.3s;display:block;" onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(0,0,0,0.12)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)'">
+            <div style="height:180px;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);display:flex;align-items:center;justify-content:center;font-size:56px;">
+                {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" width="400" height="180" style="width:100%;height:100%;object-fit:cover;">{{ else }}🖥️{{ end }}
             </div>
-            <div style="padding:16px;">
-                <h4 style="font-size:15px;font-weight:600;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ .Title }}</h4>
-                <div style="display:flex;gap:8px;margin-bottom:8px;">
-                    {{ with .Params.hw_specs.cpu }}<span style="font-size:12px;background:#f5f5f7;padding:4px 8px;border-radius:4px;">{{ . }}</span>{{ end }}
+            <div style="padding:20px;">
+                <h4 style="font-size:16px;font-weight:600;margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4;">{{ .Title }}</h4>
+                <div style="display:flex;gap:8px;margin-bottom:12px;">
+                    {{ with .Params.hw_specs.cpu }}<span style="font-size:12px;background:#f5f5f7;padding:6px 10px;border-radius:6px;color:#666;">{{ . }}</span>{{ end }}
                 </div>
-                <div style="font-size:18px;font-weight:700;color:#FF3B30;">
+                <div style="font-size:20px;font-weight:700;color:#FF3B30;">
                     {{ with .Params.price }}¥{{ . }}{{ else }}暂无报价{{ end }}
                 </div>
             </div>
@@ -95,20 +95,20 @@
 </section>
 
 <!-- 最新文章 -->
-<section style="margin-bottom:60px;">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
-        <h2 style="font-size:32px;font-weight:700;">最新文章</h2>
-        <a href="/posts" style="color:#667eea;font-weight:600;">查看全部 →</a>
+<section style="margin-bottom:80px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;">
+        <h2 class="section-title" style="font-size:36px;font-weight:700;margin-bottom:0;">最新文章</h2>
+        <a href="/posts" style="color:#667eea;font-weight:600;font-size:16px;text-decoration:none;">查看全部 →</a>
     </div>
-    <div style="display:flex;flex-direction:column;gap:16px;">
+    <div style="display:flex;flex-direction:column;gap:20px;">
         {{ range first 5 (where .Site.RegularPages "Section" "hardware") }}
-        <a href="{{ .RelPermalink }}" style="display:flex;gap:16px;padding:16px;background:white;border-radius:12px;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(0,0,0,0.06);transition:all 0.2s;" onmouseover="this.style.boxShadow='0 4px 20px rgba(0,0,0,0.1)'" onmouseout="this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)'">
-            <div style="width:160px;height:100px;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);border-radius:8px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:32px;overflow:hidden;">
-                {{ with .Params.image }}<img src="{{ . }}" style="width:100%;height:100%;object-fit:cover;">{{ else }}📄{{ end }}
+        <a href="{{ .RelPermalink }}" style="display:flex;gap:20px;padding:20px;background:white;border-radius:16px;text-decoration:none;color:inherit;box-shadow:0 2px 16px rgba(0,0,0,0.06);transition:all 0.2s;" onmouseover="this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)'" onmouseout="this.style.boxShadow='0 2px 16px rgba(0,0,0,0.06)'">
+            <div style="width:180px;height:110px;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);border-radius:12px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:40px;overflow:hidden;">
+                {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high" width="180" height="110" style="width:100%;height:100%;object-fit:cover;">{{ else }}📄{{ end }}
             </div>
             <div style="flex:1;display:flex;flex-direction:column;justify-content:center;">
-                <h4 style="font-size:16px;font-weight:600;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ .Title }}</h4>
-                <span style="font-size:13px;color:#86868B;">🕐 {{ .Date.Format "2006-01-02" }}</span>
+                <h4 style="font-size:17px;font-weight:600;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.4;">{{ .Title }}</h4>
+                <span style="font-size:14px;color:#86868B;">🕐 {{ .Date.Format "2006-01-02" }}</span>
             </div>
         </a>
         {{ end }}
@@ -116,12 +116,12 @@
 </section>
 
 <!-- 订阅区域 -->
-<section style="background:linear-gradient(135deg,#0f0c29,#302b63);padding:60px 40px;border-radius:24px;text-align:center;margin:40px 0;">
-    <h3 style="color:white;font-size:32px;font-weight:700;margin-bottom:16px;">订阅更新</h3>
-    <p style="color:rgba(255,255,255,0.7);font-size:18px;margin-bottom:32px;">获取最新的硬件测评和 NAS 教程</p>
-    <form onsubmit="event.preventDefault(); alert('谢谢订阅！');" style="display:flex;gap:12px;justify-content:center;max-width:500px;margin:0 auto;">
-        <input type="email" placeholder="输入您的邮箱" required style="flex:1;padding:16px 24px;border-radius:50px;border:none;font-size:16px;">
-        <button type="submit" style="background:linear-gradient(90deg,#667eea,#764ba2);color:white;border:none;padding:16px 32px;border-radius:50px;font-size:16px;font-weight:600;cursor:pointer;">订阅</button>
+<section style="background:linear-gradient(135deg,#0f0c29,#302b63);padding:80px 48px;border-radius:28px;text-align:center;margin:60px 0;">
+    <h3 style="color:white;font-size:36px;font-weight:700;margin-bottom:20px;">订阅更新</h3>
+    <p style="color:rgba(255,255,255,0.75);font-size:20px;margin-bottom:40px;">获取最新的硬件测评和 NAS 教程</p>
+    <form onsubmit="event.preventDefault(); alert('谢谢订阅！');" style="display:flex;gap:16px;justify-content:center;max-width:540px;margin:0 auto;">
+        <input type="email" placeholder="输入您的邮箱" required style="flex:1;padding:18px 28px;border-radius:50px;border:none;font-size:16px;outline:none;">
+        <button type="submit" style="background:linear-gradient(90deg,#667eea,#764ba2);color:white;border:none;padding:18px 36px;border-radius:50px;font-size:16px;font-weight:600;cursor:pointer;transition:transform 0.2s,box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(102,126,234,0.4)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">订阅</button>
     </form>
 </section>
 {{ end }}

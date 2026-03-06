@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div style="max-width:800px;margin:0 auto;padding:40px 20px;">
+    <h1 style="font-size:36px;font-weight:700;margin-bottom:16px;">网站地图</h1>
+    <p style="color:#666;margin-bottom:40px;">以下是 {{ .Site.Title }} 的所有页面</p>
+    
+    <!-- 栏目 -->
+    <section style="margin-bottom:40px;">
+        <h2 style="font-size:24px;font-weight:600;margin-bottom:20px;">📁 栏目</h2>
+        <ul style="list-style:none;padding:0;">
+            <li style="margin-bottom:12px;"><a href="/hardware/" style="color:#667eea;text-decoration:none;font-size:18px;">🖥️ 硬件测评</a></li>
+            <li style="margin-bottom:12px;"><a href="/nas/" style="color:#667eea;text-decoration:none;font-size:18px;">💾 NAS学院</a></li>
+            <li style="margin-bottom:12px;"><a href="/ai/" style="color:#667eea;text-decoration:none;font-size:18px;">🤖 AI指南</a></li>
+            <li style="margin-bottom:12px;"><a href="/calculator/" style="color:#667eea;text-decoration:none;font-size:18px;">🧮 计算器</a></li>
+        </ul>
+    </section>
+    
+    <!-- 最新文章 -->
+    <section style="margin-bottom:40px;">
+        <h2 style="font-size:24px;font-weight:600;margin-bottom:20px;">📄 最新文章</h2>
+        <ul style="list-style:none;padding:0;">
+            {{ range first 20 (where .Site.RegularPages "Section" "!=" "") }}
+            <li style="margin-bottom:12px;padding:12px;background:white;border-radius:8px;">
+                <a href="{{ .RelPermalink }}" style="color:#333;text-decoration:none;">{{ .Title }}</a>
+                <span style="color:#999;font-size:13px;margin-left:12px;">{{ .Date.Format "2006-01-02" }}</span>
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+    
+    <!-- 工具页面 -->
+    <section style="margin-bottom:40px;">
+        <h2 style="font-size:24px;font-weight:600;margin-bottom:20px;">🛠️ 工具页面</h2>
+        <ul style="list-style:none;padding:0;">
+            <li style="margin-bottom:12px;"><a href="/about/" style="color:#667eea;text-decoration:none;">关于我们</a></li>
+            <li style="margin-bottom:12px;"><a href="/search/" style="color:#667eea;text-decoration:none;">搜索</a></li>
+        </ul>
+    </section>
+</div>
+{{ end }}

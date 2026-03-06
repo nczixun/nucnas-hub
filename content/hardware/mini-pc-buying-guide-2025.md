@@ -1,10 +1,8 @@
----
+﻿---
 title: "2025年迷你主机选购指南：NUC/迷你主机推荐全攻略"
 date: 2025-01-15
 categories: ["hardware"]
 summary: "从Intel NUC到AMD Ryzen，帮你找到最适合的迷你主机"
-image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg"
-imageCredit: "Pexels"
 ---
 
 # 2025年迷你主机选购指南
