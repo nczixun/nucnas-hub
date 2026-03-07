@@ -40,7 +40,7 @@
         "day":  1
     },
     {
-        "status":  "pending",
+        "status":  "published",
         "keywords":  "RTX4070,败家之眼,光追游戏",
         "type":  "intel",
         "model":  "ROG NUC",
@@ -208,7 +208,7 @@
         "day":  6
     },
     {
-        "status":  "pending",
+        "status":  "published",
         "keywords":  "TrueNAS,开源,ZFS",
         "type":  "nas",
         "model":  "TrueNAS",
@@ -296,7 +296,7 @@
         "day":  8
     },
     {
-        "status":  "pending",
+        "status":  "published",
         "keywords":  "Ollama,本地大模型,开源",
         "type":  "ai",
         "model":  "Ollama",
