@@ -1,56 +1,412 @@
-﻿{{ define "main" }}
+{{ define "main" }}
 <div class="max-w-4xl mx-auto px-4 py-16" x-data="benchmarkApp()">
     
-    <h1 class="text-4xl font-bold mb-2">NUC AI 算力矩阵</h1>
-    <p class="text-text-muted mb-8 font-mono">输入硬件型号，查看本地大模型推理速度。</p>
+    <div class="calc-header">
+        <h1 class="calc-title">🤖 NUC AI 算力矩阵</h1>
+        <p class="calc-subtitle">选择硬件型号，查看本地大模型推理速度对比</p>
+    </div>
 
     <!-- 筛选器 -->
-    <div class="bg-tech-card border border-tech-border p-6 rounded-xl mb-8">
-        <label class="block text-sm font-bold mb-2 text-neon-blue">选择硬件型号</label>
-        <select x-model="selectedId" class="w-full bg-tech-bg border border-tech-border text-white p-3 rounded focus:border-neon-blue focus:ring-1 focus:ring-neon-blue outline-none">
-            <option value="0">请选择 NUC / 小主机型号...</option>
+    <div class="calc-card">
+        <label class="calc-label">选择硬件型号</label>
+        <select x-model="selectedId" class="calc-select">
+            <option value="0">请选择迷你主机 / NUC 型号...</option>
             <template x-for="machine in machines" :key="machine.id">
                 <option :value="machine.id" x-text="machine.cpu_model + ' (' + machine.ram_config + ')'"></option>
             </template>
         </select>
+        
+        <!-- 分类筛选 -->
+        <div class="category-filter">
+            <button 
+                class="category-btn" 
+                :class="categoryFilter === '' ? 'active' : ''"
+                @click="categoryFilter = ''"
+            >全部</button>
+            <template x-for="cat in categories" :key="cat">
+                <button 
+                    class="category-btn" 
+                    :class="categoryFilter === cat ? 'active' : ''"
+                    @click="categoryFilter = cat"
+                    x-text="cat"
+                ></button>
+            </template>
+        </div>
     </div>
 
     <!-- 结果展示 -->
-    <div x-show="selectedId != 0" class="grid gap-4" style="display: none;">
-        <template x-for="bench in currentBenchmarks" :key="bench.model">
-            <div class="bg-tech-card border border-tech-border p-4 rounded-lg flex justify-between items-center hover:border-neon-green transition-colors">
-                <div>
-                    <div class="font-bold text-lg" x-text="bench.model"></div>
-                    <div class="text-xs text-text-muted font-mono" x-text="'Engine: ' + bench.engine"></div>
-                </div>
-                <div class="text-right">
-                    <div class="text-2xl font-black font-mono" 
-                         :class="bench.speed > 10 ? 'text-neon-green' : (bench.speed > 5 ? 'text-yellow-400' : 'text-red-400')"
-                         x-text="bench.speed">
-                    </div>
-                    <div class="text-xs text-text-muted" x-text="bench.unit"></div>
-                </div>
+    <div x-show="selectedId != 0" class="result-section" style="display: none;">
+        <div class="machine-info">
+            <div class="machine-header">
+                <span class="machine-category" x-text="currentMachine.category"></span>
+                <span class="machine-ram" x-text="currentMachine.ram_config"></span>
             </div>
-        </template>
+            <h2 class="machine-name" x-text="currentMachine.cpu_model"></h2>
+        </div>
+        
+        <div class="benchmark-grid">
+            <template x-for="bench in currentBenchmarks" :key="bench.model">
+                <div class="benchmark-card">
+                    <div class="benchmark-left">
+                        <div class="benchmark-model" x-text="bench.model"></div>
+                        <div class="benchmark-engine" x-text="'Engine: ' + bench.engine"></div>
+                    </div>
+                    <div class="benchmark-right">
+                        <div class="benchmark-speed" 
+                             :class="getSpeedClass(bench.speed)"
+                             x-text="bench.speed">
+                        </div>
+                        <div class="benchmark-unit" x-text="bench.unit"></div>
+                    </div>
+                </div>
+            </template>
+        </div>
+        
+        <!-- 性能等级 -->
+        <div class="perf-level">
+            <span class="perf-label">综合评级：</span>
+            <span class="perf-badge" :class="perfLevel.class" x-text="perfLevel.text"></span>
+        </div>
     </div>
 
-    <div x-show="selectedId == 0" class="text-center py-12 text-text-muted border-2 border-dashed border-tech-border rounded-xl">
-        Waiting for input...
+    <div x-show="selectedId == 0" class="empty-state">
+        <div class="empty-icon">🖥️</div>
+        <p>选择硬件型号查看算力对比</p>
+    </div>
+
+    <!-- 数据说明 -->
+    <div class="info-section">
+        <h3>📊 数据说明</h3>
+        <ul>
+            <li>测试数据基于 Q4_K_M 量化模型，实际性能因模型、量化方式不同可能有差异</li>
+            <li>推理速度单位：T/s (Tokens per Second)，数值越高越好</li>
+            <li>推荐配置：32GB+ RAM 运行 7B 模型，64GB+ 运行 14B 模型</li>
+        </ul>
     </div>
 
 </div>
 
-<!-- 将 Hugo 数据注入 JS -->
 <script>
     function benchmarkApp() {
         return {
             selectedId: 0,
+            categoryFilter: '',
             machines: {{ .Site.Data.benchmarks | jsonify | safeJS }},
+            get categories() {
+                const cats = [...new Set(this.machines.map(m => m.category))];
+                return cats.sort();
+            },
+            get filteredMachines() {
+                if (!this.categoryFilter) return this.machines;
+                return this.machines.filter(m => m.category === this.categoryFilter);
+            },
+            get currentMachine() {
+                return this.machines.find(m => m.id == this.selectedId) || {};
+            },
             get currentBenchmarks() {
                 const machine = this.machines.find(m => m.id == this.selectedId);
                 return machine ? machine.benchmarks : [];
+            },
+            get perfLevel() {
+                if (this.currentBenchmarks.length === 0) return { text: '-', class: '' };
+                const avgSpeed = this.currentBenchmarks.reduce((sum, b) => sum + b.speed, 0) / this.currentBenchmarks.length;
+                if (avgSpeed >= 20) return { text: '旗舰级', class: 'level-flagship' };
+                if (avgSpeed >= 15) return { text: '高性能', class: 'level-high' };
+                if (avgSpeed >= 10) return { text: '主流', class: 'level-mainstream' };
+                return { text: '入门', class: 'level-entry' };
+            },
+            getSpeedClass(speed) {
+                if (speed >= 20) return 'speed-fast';
+                if (speed >= 10) return 'speed-medium';
+                return 'speed-slow';
             }
         }
     }
 </script>
+
+<style>
+.calc-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.calc-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.calc-subtitle {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+}
+
+.calc-card {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    border: 1px solid rgba(102, 126, 234, 0.3);
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 32px;
+}
+
+.calc-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a0a0ff;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.calc-select {
+    width: 100%;
+    padding: 16px 20px;
+    background: rgba(0,0,0,0.4);
+    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2'%3E%3Cpolyline points='6,9 12,15 18,9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 20px;
+}
+
+.calc-select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 30px rgba(102, 126, 234, 0.3);
+}
+
+.calc-select option {
+    background: #1a1a2e;
+    color: white;
+    padding: 12px;
+}
+
+.category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.category-btn {
+    padding: 8px 16px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-btn:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.category-btn.active {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-color: #667eea;
+    color: white;
+}
+
+.result-section {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.machine-info {
+    background: linear-gradient(135deg, #667eea20, #764ba220);
+    border: 1px solid rgba(102, 126, 234, 0.3);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.machine-header {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.machine-category {
+    background: #667eea;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.machine-ram {
+    background: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.8);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.machine-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.benchmark-grid {
+    display: grid;
+    gap: 12px;
+}
+
+.benchmark-card {
+    background: linear-gradient(135deg, #1a1a2e 13e 1000%, #162%);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.benchmark-card:hover {
+    border-color: rgba(102, 126, 234, 0.5);
+    transform: translateX(4px);
+}
+
+.benchmark-model {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.benchmark-engine {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    font-family: monospace;
+}
+
+.benchmark-speed {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'SF Mono', Monaco, monospace;
+    text-align: right;
+}
+
+.speed-fast { color: #34C759; }
+.speed-medium { color: #FFD60A; }
+.speed-slow { color: #FF453A; }
+
+.benchmark-unit {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    text-align: right;
+}
+
+.perf-level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 24px;
+    padding: 16px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+}
+
+.perf-label {
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+}
+
+.perf-badge {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.level-flagship {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #1a1a2e;
+}
+
+.level-high {
+    background: linear-gradient(135deg, #34C759, #30D158);
+    color: white;
+}
+
+.level-mainstream {
+    background: linear-gradient(135deg, #0A84FF, #5E5CE6);
+    color: white;
+}
+
+.level-entry {
+    background: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.7);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(255,255,255,0.03);
+    border: 2px dashed rgba(255,255,255,0.1);
+    border-radius: 20px;
+}
+
+.empty-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.empty-state p {
+    color: rgba(255,255,255,0.5);
+    font-size: 16px;
+}
+
+.info-section {
+    margin-top: 40px;
+    padding: 24px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 16px;
+}
+
+.info-section h3 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.info-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-section li {
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    padding: 8px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.info-section li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #667eea;
+}
+</style>
 {{ end }}

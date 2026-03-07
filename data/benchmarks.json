@@ -1,20 +1,134 @@
-﻿[
+[
   {
     "id": 1,
     "cpu_model": "Intel NUC 13 Pro (i7-1360P)",
     "ram_config": "64GB DDR4",
+    "category": "Intel NUC",
     "benchmarks": [
       { "model": "Llama3-8B (Q4_K_M)", "engine": "Ollama", "speed": 11.5, "unit": "T/s" },
-      { "model": "DeepSeek-R1-7B", "engine": "LM Studio", "speed": 13.2, "unit": "T/s" }
+      { "model": "DeepSeek-R1-7B", "engine": "LM Studio", "speed": 13.2, "unit": "T/s" },
+      { "model": "Qwen2-7B", "engine": "Ollama", "speed": 14.8, "unit": "T/s" }
     ]
   },
   {
     "id": 2,
-    "cpu_model": "Intel NUC 14 Pro+ (Ultra 9)",
+    "cpu_model": "Intel NUC 14 Pro+ (Ultra 9 185H)",
     "ram_config": "96GB DDR5",
+    "category": "Intel NUC",
     "benchmarks": [
       { "model": "Llama3-8B", "engine": "OpenVINO", "speed": 18.5, "unit": "T/s" },
-      { "model": "Llama3-70B (IQ2)", "engine": "Ollama", "speed": 2.1, "unit": "T/s" }
+      { "model": "Llama3-70B (IQ2)", "engine": "Ollama", "speed": 2.1, "unit": "T/s" },
+      { "model": "DeepSeek-R1-14B", "engine": "LM Studio", "speed": 8.7, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 3,
+    "cpu_model": "ASUS NUC 14 Pro",
+    "ram_config": "64GB DDR5",
+    "category": "ASUS NUC",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 16.2, "unit": "T/s" },
+      { "model": "Qwen2.5-7B", "engine": "Ollama", "speed": 17.5, "unit": "T/s" },
+      { "model": "DeepSeek-R1-8B", "engine": "LM Studio", "speed": 12.4, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 4,
+    "cpu_model": "Beelink SEI14 (i7-12650H)",
+    "ram_config": "32GB DDR4",
+    "category": "Beelink",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 9.8, "unit": "T/s" },
+      { "model": "Qwen2-7B", "engine": "Ollama", "speed": 10.2, "unit": "T/s" },
+      { "model": "Phi-3.5", "engine": "LM Studio", "speed": 15.6, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 5,
+    "cpu_model": "Beelink SER8 (AMD Ryzen 7 8845HS)",
+    "ram_config": "32GB DDR5",
+    "category": "Beelink",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 22.5, "unit": "T/s" },
+      { "model": "DeepSeek-R1-14B", "engine": "LM Studio", "speed": 11.8, "unit": "T/s" },
+      { "model": "Qwen2.5-14B", "engine": "Ollama", "speed": 13.2, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 6,
+    "cpu_model": "Beelink GTR7 (AMD Ryzen 7 7840HS)",
+    "ram_config": "32GB DDR5",
+    "category": "Beelink",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 21.3, "unit": "T/s" },
+      { "model": "Mistral-7B", "engine": "Ollama", "speed": 18.7, "unit": "T/s" },
+      { "model": "Phi-3", "engine": "LM Studio", "speed": 16.2, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 7,
+    "cpu_model": "Minisforum V3 (AMD Ryzen 7 8840U)",
+    "ram_config": "32GB DDR5",
+    "category": "Minisforum",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 20.8, "unit": "T/s" },
+      { "model": "DeepSeek-R1-14B", "engine": "LM Studio", "speed": 10.5, "unit": "T/s" },
+      { "model": "Qwen2-7B", "engine": "Ollama", "speed": 19.2, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 8,
+    "cpu_model": "Minisforum EM780 (AMD Ryzen 7 7840U)",
+    "ram_config": "32GB DDR5",
+    "category": "Minisforum",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 19.5, "unit": "T/s" },
+      { "model": "Mistral-7B", "engine": "Ollama", "speed": 17.8, "unit": "T/s" },
+      { "model": "Phi-3.5", "engine": "LM Studio", "speed": 15.3, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 9,
+    "cpu_model": "GMKtec K5 Plus (AMD Ryzen 7 8845HS)",
+    "ram_config": "32GB DDR5",
+    "category": "GMKtec",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 23.1, "unit": "T/s" },
+      { "model": "DeepSeek-R1-14B", "engine": "LM Studio", "speed": 12.5, "unit": "T/s" },
+      { "model": "Qwen2.5-14B", "engine": "Ollama", "speed": 14.2, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 10,
+    "cpu_model": "GMKtec K8 (AMD Ryzen 9 8945HS)",
+    "ram_config": "64GB DDR5",
+    "category": "GMKtec",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 25.6, "unit": "T/s" },
+      { "model": "Llama3-70B (IQ2)", "engine": "Ollama", "speed": 3.2, "unit": "T/s" },
+      { "model": "DeepSeek-R1-32B", "engine": "LM Studio", "speed": 6.8, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 11,
+    "cpu_model": "MoreFine M9 (Intel N100)",
+    "ram_config": "16GB DDR5",
+    "category": "MoreFine",
+    "benchmarks": [
+      { "model": "Phi-4-mini", "engine": "LM Studio", "speed": 28.5, "unit": "T/s" },
+      { "model": "Qwen2-0.5B", "engine": "Ollama", "speed": 45.2, "unit": "T/s" },
+      { "model": "TinyLlama-1.1B", "engine": "Ollama", "speed": 52.3, "unit": "T/s" }
+    ]
+  },
+  {
+    "id": 12,
+    "cpu_model": "AYANEO AM02 (AMD Ryzen 7 8845HS)",
+    "ram_config": "32GB DDR5",
+    "category": "AYANEO",
+    "benchmarks": [
+      { "model": "Llama3-8B (Q4)", "engine": "Ollama", "speed": 21.8, "unit": "T/s" },
+      { "model": "Qwen2.5-7B", "engine": "Ollama", "speed": 23.4, "unit": "T/s" },
+      { "model": "DeepSeek-R1-8B", "engine": "LM Studio", "speed": 11.2, "unit": "T/s" }
     ]
   }
 ]
