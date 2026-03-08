@@ -1,30 +1,30 @@
-ï»¿---
-title: "é›¶åˆ» EQ59 Pro è¯„æµ‹ï¼šIntel N5105 åŠžå…¬ç¥žå™¨"
+---
+title: "Áã¿Ì EQ59 Pro ÆÀ²â£ºIntel N5105 °ì¹«ÉñÆ÷"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "é›¶åˆ»"
+brand: "Áã¿Ì"
 model: "EQ59 Pro"
 platform: "intel"
 slug: "eq59-pro"
 ---
 
-# é›¶åˆ» EQ59 Pro è¯„æµ‹
+# Áã¿Ì EQ59 Pro ÆÀ²â
 
 
-<a href="/hardware/eq59-pro/" target="_blank">é›¶åˆ» EQ59 Pro</a> æ˜¯ä¸€æ¬¾ Intel N5105 åŠžå…¬ç¥žå™¨<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/eq59-pro/" target="_blank">Áã¿Ì EQ59 Pro</a> ÊÇÒ»¿î Intel N5105 °ì¹«ÉñÆ÷<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- Intel N5105 æ€§èƒ½è¶³å¤Ÿ
-- åŠžå…¬é¦–é€‰
-- ä»·æ ¼å®žæƒ 
+- Intel N5105 ÐÔÄÜ×ã¹»
+- °ì¹«Ê×Ñ¡
+- ¼Û¸ñÊµ»Ý
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼þÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/ser5-pro/" rel="prev">ä¸Šä¸€é¡µï¼šé›¶åˆ» SER5 Pro è¯„æµ‹</a>
+  <a href="/review/ser5-pro/" rel="prev">ÉÏÒ»Ò³£ºÁã¿Ì SER5 Pro ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

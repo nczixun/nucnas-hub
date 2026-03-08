@@ -1,30 +1,30 @@
-ï»¿---
-title: "é›¶åˆ» GTR5 è¯„æµ‹ï¼šAMD 5900HX æ——èˆ°è¿·ä½ ä¸»æœº"
+---
+title: "Áã¿Ì GTR5 ÆÀ²â£ºAMD 5900HX Æì½¢ÃÔÄãÖ÷»ú"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "é›¶åˆ»"
+brand: "Áã¿Ì"
 model: "GTR5"
 platform: "amd"
 slug: "gtr5"
 ---
 
-# é›¶åˆ» GTR5 è¯„æµ‹
+# Áã¿Ì GTR5 ÆÀ²â
 
 
-<a href="/hardware/gtr5/" target="_blank">é›¶åˆ» GTR5</a> æ˜¯ä¸€æ¬¾ AMD 5900HX æ——èˆ°çº§<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/gtr5/" target="_blank">Áã¿Ì GTR5</a> ÊÇÒ»¿î AMD 5900HX Æì½¢¼¶<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- AMD 5900HX æ€§èƒ½æ——èˆ°
-- æŽ¥å£ä¸°å¯Œ
-- æ•£çƒ­ä¼˜ç§€
+- AMD 5900HX ÐÔÄÜÆì½¢
+- ½Ó¿Ú·á¸»
+- É¢ÈÈÓÅÐã
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼þÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/gtr/" rel="prev">ä¸Šä¸€é¡µï¼šé›¶åˆ» GT-R è¯„æµ‹</a>
+  <a href="/review/gtr/" rel="prev">ÉÏÒ»Ò³£ºÁã¿Ì GT-R ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

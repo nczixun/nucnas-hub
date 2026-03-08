@@ -1,35 +1,35 @@
-ï»¿---
-title: "Beelink SER6 è¯„æµ‹ï¼šAMD 6900HX å‡çº§æ¬¾"
+---
+title: "Beelink SER6 ÆÀ²â£ºAMD 6900HX Éı¼¶¿î"
 date: 2026-02-18
 categories: ["hardware"]
 brand: "Beelink"
 model: "SER6"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Beelink+SER6"
-bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SER6+æµ‹è¯„"
+bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SER6+²âÆÀ"
 youtube_url: "https://www.youtube.com/results?search_query=Beelink+SER6+review"
-pros: "åšå·¥ç²¾è‰¯, æ€§èƒ½ç¨³å®š, æ¥å£ä¸°å¯Œ"
-cons: "è´Ÿè½½è¾ƒé«˜æ—¶æœ‰é£æ‰‡å£°, æ‰©å±•ä½æœ‰é™"
+pros: "×ö¹¤¾«Á¼, ĞÔÄÜÎÈ¶¨, ½Ó¿Ú·á¸»"
+cons: "¸ºÔØ½Ï¸ßÊ±ÓĞ·çÉÈÉù, À©Õ¹Î»ÓĞÏŞ"
 slug: "beelink-ser6"
 ---
 
-# Beelink SER6 è¯„æµ‹
+# Beelink SER6 ÆÀ²â
 
 
-<a href="/hardware/beelink-ser6/" target="_blank">Beelink SER6</a> æ­è½½ AMD 6900HX å¤„ç†å™¨ï¼Œæ˜¯ SER5 çš„å‡çº§æ¬¾<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/beelink-ser6/" target="_blank">Beelink SER6</a> ´îÔØ AMD 6900HX ´¦ÀíÆ÷£¬ÊÇ SER5 µÄÉı¼¶¿î<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- AMD 6900HX æ€§èƒ½æ›´å¼º
-- æ¥å£å‡çº§
-- æ•£çƒ­æ”¹è¿›
+- AMD 6900HX ĞÔÄÜ¸üÇ¿
+- ½Ó¿ÚÉı¼¶
+- É¢ÈÈ¸Ä½ø
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/beelink-ser5/" rel="prev">ä¸Šä¸€é¡µï¼šBeelink SER5 è¯„æµ‹</a>
+  <a href="/review/beelink-ser5/" rel="prev">ÉÏÒ»Ò³£ºBeelink SER5 ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

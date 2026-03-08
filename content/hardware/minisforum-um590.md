@@ -1,5 +1,5 @@
-ï»¿---
-title: "Minisforum UM590 è¯„æµ‹ï¼šAMD 5900H é«˜æ€§èƒ½è¿·ä½ ä¸»æœº"
+---
+title: "Minisforum UM590 ÆÀ²â£ºAMD 5900H ¸ßĞÔÄÜÃÔÄãÖ÷»ú"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
@@ -8,23 +8,23 @@ platform: "amd"
 slug: "minisforum-um590"
 ---
 
-# Minisforum UM590 è¯„æµ‹
+# Minisforum UM590 ÆÀ²â
 
 
-<a href="/hardware/minisforum-um590/" target="_blank">Minisforum UM590</a> æ˜¯ä¸€æ¬¾ AMD 5900H é«˜æ€§èƒ½<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/minisforum-um590/" target="_blank">Minisforum UM590</a> ÊÇÒ»¿î AMD 5900H ¸ßĞÔÄÜ<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- AMD 5900H æ€§èƒ½å¼ºåŠ²
-- æ¥å£ä¸°å¯Œ
-- æ•£çƒ­ä¼˜ç§€
+- AMD 5900H ĞÔÄÜÇ¿¾¢
+- ½Ó¿Ú·á¸»
+- É¢ÈÈÓÅĞã
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-um560/" rel="prev">ä¸Šä¸€é¡µï¼šMinisforum UM560 è¯„æµ‹</a>
+  <a href="/review/minisforum-um560/" rel="prev">ÉÏÒ»Ò³£ºMinisforum UM560 ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

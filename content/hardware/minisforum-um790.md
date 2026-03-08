@@ -1,5 +1,5 @@
-ï»¿---
-title: "Minisforum UM790 è¯„æµ‹ï¼šAMD 7940H é¡¶çº§è¿·ä½ ä¸»æœº"
+---
+title: "Minisforum UM790 ÆÀ²â£ºAMD 7940H ¶¥¼¶ÃÔÄãÖ÷»ú"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
@@ -8,23 +8,23 @@ platform: "amd"
 slug: "minisforum-um790"
 ---
 
-# Minisforum UM790 è¯„æµ‹
+# Minisforum UM790 ÆÀ²â
 
 
-<a href="/hardware/minisforum-um790/" target="_blank">Minisforum UM790</a> æ˜¯ä¸€æ¬¾ AMD 7940H é¡¶çº§<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/minisforum-um790/" target="_blank">Minisforum UM790</a> ÊÇÒ»¿î AMD 7940H ¶¥¼¶<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- AMD 7940H æ€§èƒ½é¡¶çº§
-- æ¥å£ä¸°å¯Œ
-- æ•£çƒ­ä¼˜ç§€
+- AMD 7940H ĞÔÄÜ¶¥¼¶
+- ½Ó¿Ú·á¸»
+- É¢ÈÈÓÅĞã
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-um690/" rel="prev">ä¸Šä¸€é¡µï¼šMinisforum UM690 è¯„æµ‹</a>
+  <a href="/review/minisforum-um690/" rel="prev">ÉÏÒ»Ò³£ºMinisforum UM690 ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

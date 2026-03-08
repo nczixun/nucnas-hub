@@ -1,30 +1,30 @@
-ï»¿---
-title: "é›¶åˆ» SER7 è¯„æµ‹ï¼šAMD 7840HS é«˜æ€§èƒ½è¿·ä½ ä¸»æœº"
+---
+title: "Áã¿Ì SER7 ÆÀ²â£ºAMD 7840HS ¸ßÐÔÄÜÃÔÄãÖ÷»ú"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "é›¶åˆ»"
+brand: "Áã¿Ì"
 model: "SER7"
 platform: "amd"
 slug: "ser7"
 ---
 
-# é›¶åˆ» SER7 è¯„æµ‹
+# Áã¿Ì SER7 ÆÀ²â
 
 
-<a href="/hardware/ser7/" target="_blank">é›¶åˆ» SER7</a> æ˜¯ä¸€æ¬¾ AMD 7840HS é«˜æ€§èƒ½<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/ser7/" target="_blank">Áã¿Ì SER7</a> ÊÇÒ»¿î AMD 7840HS ¸ßÐÔÄÜ<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- AMD 7840HS æ€§èƒ½å¼ºåŠ²
-- æŽ¥å£ä¸°å¯Œ
-- æ•£çƒ­ä¼˜ç§€
+- AMD 7840HS ÐÔÄÜÇ¿¾¢
+- ½Ó¿Ú·á¸»
+- É¢ÈÈÓÅÐã
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼þÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/ser8-8845hs/" rel="prev">ä¸Šä¸€é¡µï¼šé›¶åˆ» SER8 8845HS è¯„æµ‹</a>
+  <a href="/review/ser8-8845hs/" rel="prev">ÉÏÒ»Ò³£ºÁã¿Ì SER8 8845HS ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

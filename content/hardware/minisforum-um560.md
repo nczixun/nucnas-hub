@@ -1,5 +1,5 @@
-ï»¿---
-title: "Minisforum UM560 è¯„æµ‹ï¼šAMD 5600H å…¥é—¨çº§è¿·ä½ ä¸»æœº"
+---
+title: "Minisforum UM560 ÆÀ²â£ºAMD 5600H ÈëÃÅ¼¶ÃÔÄãÖ÷»ú"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
@@ -8,23 +8,23 @@ platform: "amd"
 slug: "minisforum-um560"
 ---
 
-# Minisforum UM560 è¯„æµ‹
+# Minisforum UM560 ÆÀ²â
 
 
-<a href="/hardware/minisforum-um560/" target="_blank">Minisforum UM560</a> æ˜¯ä¸€æ¬¾ AMD 5600H å…¥é—¨çº§<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/minisforum-um560/" target="_blank">Minisforum UM560</a> ÊÇÒ»¿î AMD 5600H ÈëÃÅ¼¶<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- AMD 5600H æ€§èƒ½è¶³å¤Ÿ
-- ä»·æ ¼å®æƒ 
-- æ¥å£ä¸°å¯Œ
+- AMD 5600H ĞÔÄÜ×ã¹»
+- ¼Û¸ñÊµ»İ
+- ½Ó¿Ú·á¸»
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-hx99g-pro/" rel="prev">ä¸Šä¸€é¡µï¼šMinisforum HX99G Pro è¯„æµ‹</a>
+  <a href="/review/minisforum-hx99g-pro/" rel="prev">ÉÏÒ»Ò³£ºMinisforum HX99G Pro ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

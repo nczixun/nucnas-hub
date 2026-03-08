@@ -1,35 +1,35 @@
-ï»¿---
-title: "Minisforum NAD9 Pro è¯„æµ‹ï¼šIntel N100 å‡çº§ç‰ˆ"
+---
+title: "Minisforum NAD9 Pro ÆÀ²â£ºIntel N100 Éı¼¶°æ"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "NAD9 Pro"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+NAD9+Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+NAD9+Pro+æµ‹è¯„"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+NAD9+Pro+²âÆÀ"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+NAD9+Pro+review"
-pros: "åšå·¥ç²¾è‰¯, æ€§èƒ½ç¨³å®š, æ¥å£ä¸°å¯Œ"
-cons: "è´Ÿè½½è¾ƒé«˜æ—¶æœ‰é£æ‰‡å£°, æ‰©å±•ä½æœ‰é™"
+pros: "×ö¹¤¾«Á¼, ĞÔÄÜÎÈ¶¨, ½Ó¿Ú·á¸»"
+cons: "¸ºÔØ½Ï¸ßÊ±ÓĞ·çÉÈÉù, À©Õ¹Î»ÓĞÏŞ"
 slug: "minisforum-nad9-pro"
 ---
 
-# Minisforum NAD9 Pro è¯„æµ‹
+# Minisforum NAD9 Pro ÆÀ²â
 
 
-<a href="/hardware/minisforum-nad9-pro/" target="_blank">Minisforum NAD9 Pro</a> æ˜¯ä¸€æ¬¾ Intel N100 å‡çº§ç‰ˆ<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/minisforum-nad9-pro/" target="_blank">Minisforum NAD9 Pro</a> ÊÇÒ»¿î Intel N100 Éı¼¶°æ<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- Intel N100 æ€§èƒ½æ›´å¥½
-- ä»·æ ¼å®æƒ 
-- æ¥å£ä¸°å¯Œ
+- Intel N100 ĞÔÄÜ¸üºÃ
+- ¼Û¸ñÊµ»İ
+- ½Ó¿Ú·á¸»
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-nad9/" rel="prev">ä¸Šä¸€é¡µï¼šMinisforum NAD9 è¯„æµ‹</a>
+  <a href="/review/minisforum-nad9/" rel="prev">ÉÏÒ»Ò³£ºMinisforum NAD9 ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*

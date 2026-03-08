@@ -1,30 +1,30 @@
-ï»¿---
-title: "é›¶åˆ» EQ12 Pro è¯„æµ‹ï¼šIntel N100 é«˜æ€§ä»·æ¯”"
+---
+title: "Áã¿Ì EQ12 Pro ÆÀ²â£ºIntel N100 ¸ßÐÔ¼Û±È"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "é›¶åˆ»"
+brand: "Áã¿Ì"
 model: "EQ12 Pro"
 platform: "intel"
 slug: "eq12-pro"
 ---
 
-# é›¶åˆ» EQ12 Pro è¯„æµ‹
+# Áã¿Ì EQ12 Pro ÆÀ²â
 
 
-<a href="/hardware/eq12-pro/" target="_blank">é›¶åˆ» EQ12 Pro</a> æ˜¯ä¸€æ¬¾ Intel N100 é«˜æ€§ä»·æ¯”<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
+<a href="/review/eq12-pro/" target="_blank">Áã¿Ì EQ12 Pro</a> ÊÇÒ»¿î Intel N100 ¸ßÐÔ¼Û±È<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
 
-## ä¸»è¦ç‰¹ç‚¹
+## Ö÷ÒªÌØµã
 
-- Intel N100 æ€§èƒ½è¶³å¤Ÿ
-- ä»·æ ¼å®žæƒ 
-- æŽ¥å£ä¸°å¯Œ
+- Intel N100 ÐÔÄÜ×ã¹»
+- ¼Û¸ñÊµ»Ý
+- ½Ó¿Ú·á¸»
 
 ---
 
-*æ›´å¤š<a href="/hardware/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/hardware/)ã€‚*
+*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼þÆµµÀ](/review/)¡£*
 
 <div class="page-nav">
-  <a href="/hardware/eq59-pro/" rel="prev">ä¸Šä¸€é¡µï¼šé›¶åˆ» EQ59 Pro è¯„æµ‹</a>
+  <a href="/review/eq59-pro/" rel="prev">ÉÏÒ»Ò³£ºÁã¿Ì EQ59 Pro ÆÀ²â</a>
 </div>
 
-*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*
+*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*
