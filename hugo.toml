@@ -4,6 +4,15 @@ title = "NUC NAS Hub - 迷你主机与NAS测评网"
 enableRobotsTXT = true
 enableGitInfo = true
 
+# SEO 配置
+[params]
+  description = "NUC NAS Hub - 专业的迷你主机与NAS测评网站，提供硬件测评、NAS教程、本地AI部署指南"
+  author = "NUCNAS.HUB"
+
+# Open Graph 图片
+[params.og]
+  image = "/images/og-image.jpg"
+
 # 单一语言，不再使用多语言
 # defaultContentLanguage = "zh"
 # defaultContentLanguageInSubdir = true
