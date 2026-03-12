@@ -1,0 +1,46 @@
+{{ define "main" }}
+<!-- OpenClaw 教程栏目主页 -->
+<div class="list-header" style="text-align:center;padding:60px 20px 40px;">
+    <h1 class="list-title" style="font-size:40px;font-weight:700;margin-bottom:12px;">
+        OpenClaw 教程
+    </h1>
+    <p class="list-desc" style="font-size:18px;color:#666;">
+        从零开始学习 OpenClaw AI 助手，7 天入门到进阶
+    </p>
+</div>
+
+<!-- 文章列表 -->
+<div class="article-list" style="max-width:800px;margin:0 auto;padding:0 20px 60px;">
+    {{ range .Paginator.Pages }}
+    <a href="{{ .RelPermalink }}" class="article-card" style="display:flex;gap:20px;padding:24px;background:white;border-radius:16px;margin-bottom:16px;text-decoration:none;color:inherit;box-shadow:0 2px 12px rgba(0,0,0,0.06);transition:all 0.3s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.1)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 2px 12px rgba(0,0,0,0.06)'">
+        <!-- 左侧图标 -->
+        <div style="width:64px;height:64px;min-width:64px;background:linear-gradient(135deg,#007AFF,#5856D6);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;">
+            🦞
+        </div>
+        
+        <!-- 右侧内容 -->
+        <div style="flex:1;">
+            <h3 style="font-size:18px;font-weight:600;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ .Title }}</h3>
+            <p style="font-size:14px;color:#666;margin-bottom:12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 100 }}{{ end }}</p>
+            <div style="display:flex;gap:16px;font-size:13px;color:#86868b;">
+                <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
+                {{ with .Params.tags }}{{ $tags := . }}{{ if reflect.IsSlice $tags }}<span>🏷️ {{ index $tags 0 }}</span>{{ end }}{{ end }}
+            </div>
+        </div>
+    </a>
+    {{ end }}
+</div>
+
+<!-- 分页 -->
+{{ if gt .Paginator.TotalPages 1 }}
+<nav class="pagination" style="display:flex;justify-content:center;align-items:center;gap:16px;padding:40px 20px;">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" style="padding:10px 20px;background:white;border-radius:10px;text-decoration:none;color:#333;box-shadow:0 2px 8px rgba(0,0,0,0.06);">← 上一页</a>
+    {{ end }}
+    <span style="color:#666;">第 {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }} 页</span>
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" style="padding:10px 20px;background:white;border-radius:10px;text-decoration:none;color:#333;box-shadow:0 2px 8px rgba(0,0,0,0.06);">下一页 →</a>
+    {{ end }}
+</nav>
+{{ end }}
+{{ end }}
