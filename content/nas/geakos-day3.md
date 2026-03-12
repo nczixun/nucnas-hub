@@ -1,10 +1,12 @@
 ---
 title: "GEAKOS 7 天入门教程：第 3 天 - 系统安装与初始化"
 date: 2026-03-12
+description: "GEAKOS 7天教程第3天：系统安装、初始化配置、存储设置，避坑必看！"
+keywords: "GEAKOS, 系统安装, 初始化配置, 存储设置, RAID"
 categories: ["NAS"]
 summary: "GEAKOS 7天教程第3天：系统安装、初始化配置、存储设置，避坑必看！"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
-tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门"]
+tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门", "安装", "初始化"]
 series: ["GEAKOS 7天教程"]
 ---
 

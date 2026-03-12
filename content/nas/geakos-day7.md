@@ -1,10 +1,12 @@
 ---
 title: "GEAKOS 7 天入门教程：第 7 天 - Docker 部署与进阶玩法"
 date: 2026-03-12
+description: "GEAKOS 7天教程第7天：Docker安装、常用容器推荐、备份与安全，避坑必看！"
+keywords: "GEAKOS, Docker部署, 容器安装, Portainer, 备份策略"
 categories: ["NAS"]
 summary: "GEAKOS 7天教程第7天：Docker安装、常用容器推荐、备份与安全，避坑必看！"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
-tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门"]
+tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门", "Docker", "进阶"]
 series: ["GEAKOS 7天教程"]
 ---
 

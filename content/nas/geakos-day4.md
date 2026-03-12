@@ -1,10 +1,12 @@
 ---
 title: "GEAKOS 7 天入门教程：第 4 天 - 客户端安装与远程访问"
 date: 2026-03-12
+description: "GEAKOS 7天教程第4天：客户端下载安装、GEAK Link远程访问、局域网访问，避坑必看！"
+keywords: "GEAKOS, 客户端下载, 远程访问, GEAK Link, 内网穿透"
 categories: ["NAS"]
 summary: "GEAKOS 7天教程第4天：客户端下载安装、GEAK Link远程访问、局域网访问，避坑必看！"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
-tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门"]
+tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门", "客户端", "远程访问"]
 series: ["GEAKOS 7天教程"]
 ---
 

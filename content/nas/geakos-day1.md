@@ -1,10 +1,12 @@
 ---
 title: "GEAKOS 7 天入门教程：第 1 天 - 初识 GEAKOS 与硬件准备"
 date: 2026-03-12
+description: "GEAKOS 7天教程第1天：了解GEAKOS是什么，硬件选择与采购指南，避坑必看！"
+keywords: "GEAKOS, NAS教程, 私有云, 硬件选择, N100, 迷你主机, NAS入门"
 categories: ["NAS"]
 summary: "GEAKOS 7天教程第1天：了解 GEAKOS 是什么，硬件选择与采购指南，避坑必看！"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
-tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门"]
+tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门", "硬件"]
 series: ["GEAKOS 7天教程"]
 ---
 

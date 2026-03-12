@@ -1,10 +1,12 @@
 ---
 title: "GEAKOS 7 天入门教程：第 6 天 - 影视中心与相册"
 date: 2026-03-12
+description: "GEAKOS 7天教程第6天：影视中心配置、相册备份、AI识别，避坑必看！"
+keywords: "GEAKOS, 影视中心, 相册备份, AI识别, 家庭影院"
 categories: ["NAS"]
 summary: "GEAKOS 7天教程第6天：影视中心配置、相册备份、AI识别，避坑必看！"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
-tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门"]
+tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门", "影视中心", "AI相册"]
 series: ["GEAKOS 7天教程"]
 ---
 

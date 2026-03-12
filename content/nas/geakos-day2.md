@@ -1,10 +1,12 @@
 ---
 title: "GEAKOS 7 天入门教程：第 2 天 - 制作启动盘与 BIOS 设置"
 date: 2026-03-12
+description: "GEAKOS 7天教程第2天：制作启动盘、BIOS设置、U盘启动，避坑必看！"
+keywords: "GEAKOS, 启动盘制作, BIOS设置, Rufus, Ventoy, U盘启动"
 categories: ["NAS"]
 summary: "GEAKOS 7天教程第2天：制作启动盘、BIOS设置、U盘启动，避坑必看！"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
-tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门"]
+tags: ["NAS", "GEAKOS", "私有云", "教程", "7天入门", "启动盘", "BIOS"]
 series: ["GEAKOS 7天教程"]
 ---
 
