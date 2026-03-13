@@ -1,142 +1,120 @@
 ---
-title: "Stable Diffusion WebUI 闁哄牜鍓欏﹢鎾焾閵娧嗩唹闁轰焦鐟ч埢濂告晬濮橆厽鈻旈柛妤嬬節閸樸倗绱旈钘夌樄闁告鎷�"
+title: "Stable Diffusion WebUI 本地部署教程：AI 绘画一键安装"
 date: 2026-03-08T15:03:00+08:00
 category: ["AI"]
-tags: ["Stable Diffusion", "WebUI", "闁哄牜鍓欏﹢鎾焾閵娧嗩唹", "AI 缂備焦岣块弫锟�", "闁哄嫭鍎冲畷锟�", "闁轰焦鐟ч埢锟�"]
+tags: ["Stable Diffusion", "WebUI", "本地部署", "AI 绘画", "Docker"]
 draft: false
 ---
 
-闁诡垰纾弫锟� Stable Diffusion 闁汇垻鍠愰崹姘跺炊閸撗冾暬闁挎稑濂旂徊鐐▔瀹ュ棗鍘掗柣鈧妼濠€顏嗙棯閹稿孩绠涢柛鏂烘缁卞灚娼诲▎鎴犳闁轰焦鐟ょ紞姗€寮甸鈧﹢鎾焾閵娧嗩唹 WebUI闁挎稑鐬奸弫楣冨炊閻愵剚绾柤濂変簽閺侀亶濡撮敓锟�
+ Stable Diffusion 是目前最流行的开源 AI 绘画工具，本文将详细介绍在本地部署 Stable Diffusion WebUI 的完整方案，让你可以轻松实现 AI 生成图片。
 
-## 缁绢収鍏涘▎銏㈡啺娴ｅ湱婀�
+## 硬件要求
 
-闁哄牃鍋撳ù锝呴叄閸樸倗绱旈鍡欑獥
-- 闁哄嫭鍎抽悺锟� 6GB闁挎稑鐗嗘刊鍝勵嚕妤﹀灝鍘撮悹鐑樺煀缁憋拷
-- 闁告劕鎳庨悺锟� 16GB
-- 缁绢収鍓涘ú锟� 50GB+闁挎稑鐗婅啯闁搞劌顑呯欢銏″緞瑜濈槐锟�
+**最低配置**
+- 显存： 6GB（RTX 1060 6GB 起步）
+- 内存： 16GB
+- 存储： 50GB+ SSD
 
-闁规亽鍔忓畷姗€鏌婂鍥╂瀭闁挎冻鎷�
-- 闁哄嫭鍎抽悺锟� 8GB+
-- 闁告劕鎳庨悺锟� 32GB
-- SSD 閻庢稒锚閸嬶拷
+**推荐配置**
+- 显存： 8GB+
+- 内存： 32GB
+- SSD： 100GB+
 
-## 闁绘粠鍨伴。銊╁礄閸℃妲�
+显卡性能直接影响出图速度，建议使用 NVIDIA 显卡以获得最佳体验。
 
-### 1. 閻庣懓顦抽ˉ锟� Python
+## Windows 系统部署
 
-鐎点倝缂氶鍛媴鐠恒劍鏆� Anaconda 闁瑰瓨鐗滃ú鍧楀箳閵夈儳鏆旈悷渚婃嫹 Python 3.10+闁挎冻鎷�
+### 1. 安装 Python 和 Git
+
+首先从官网下载并安装 Python 3.10+ 和 Git。
 
 ```bash
-# 婵☆偀鍋撻柡宀嬫嫹 Python 闁绘鐗婂﹢锟�
+# 验证安装
 python --version
+git --version
 ```
 
-### 2. 閻庣懓顦抽ˉ锟� Git
-
-```bash
-# Windows 濞戞挸顑呴悾銊ф啑閿燂拷 Git
-winget install Git.Git
-```
-
-### 3. 闁稿繐顑夊▓鏇熴亜閸︻厽绐�
+### 2. 克隆 WebUI 仓库
 
 ```bash
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 ```
 
-## 闁哄嫭鍎冲畷杈ㄣ仚閸楃偛袟闂佹澘绉堕悿锟�
-
-### NVIDIA 闁哄嫭鍎冲畷锟�
-
-缁绢収鍠曠换姘扁偓鐟邦槼椤ュ﹥绂嶉崱妯讳粯闁哄倷鍗抽埞宥夊礉椤帞绀夐柣鎺曟硾閹鈧懓顦抽ˉ锟� CUDA闁挎冻鎷�
+### 3. 运行启动脚本
 
 ```bash
-# 婵☆偀鍋撻柡灞诲劦閳瑰秹宕濋敓锟�
-nvidia-smi
-
-# 閻庣懓顦抽ˉ锟� CUDA Toolkit闁挎稑鐗嗛々褔寮稿⿰鍕⒕閻熶礁鎷戠槐锟�
-winget install NVIDIA.CUDA Toolkit
+# Windows 用户直接运行
+webui-user.bat
 ```
 
-### AMD 闁哄嫭鍎冲畷閬嶆晬閸︾垊nux闁挎冻鎷�
+首次启动会自动下载所需模型，可能需要较长时间。
 
-闂傚洠鍋撻悷鏇氱閻ｃ劎鎲楅敓锟� ROCm闁挎冻鎷�
+## Docker 部署（推荐）
+
+### 1. 安装 Docker Desktop
+
+从官网下载并安装 Docker Desktop。
+
+### 2. 创建配置文件
+
+创建 `docker-compose.yml` 文件：
+
+```yaml
+version: '3.8'
+services:
+  sd-webui:
+    image: alvd/sd-webui-stable-diffusion:latest
+    container_name: sd-webui
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./models:/app/stable-diffusion-webui/models
+      - ./outputs:/app/stable-diffusion-webui/outputs
+    environment:
+      - CLI_ARGS=--xformers --api
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+```
+
+### 3. 启动容器
 
 ```bash
-# 婵烇綀顕ф慨锟� ROCm 濞寸姵鎸哥花锟�
-sudo apt update
-sudo apt install rocm-libs
+docker-compose up -d
 ```
 
-## 闁告凹鍨版慨锟� WebUI
+## 模型下载与配置
 
-### Windows
+### 常用模型推荐
 
-闁烩晛鐡ㄧ敮瀛樻交閹邦垼鏀介柨娑虫嫹
+| 模型 | 用途 | 大小 |
+|------|------|------|
+| sd-v1-5.safetensors | 基础模型 | 4GB |
+| dreamshaper | 艺术风格 | 2GB |
+| realistic-vision | 写实风格 | 2GB |
 
-```bash
-./webui-user.bat
+### 模型存放路径
+
+```
+stable-diffusion-webui/
+└── models/
+    └── Stable-diffusion/
+        └── your-model.safetensors
 ```
 
-濡絾鐗楅濂稿触椤栨艾袟濞村吋鐭粭鍛姜閽樺鍞ㄧ痪顓涘亾婵☆垪鈧磭鈧兘鏁嶅畝鍕粯閻熸洑妞掔粩瀛樼濞戞瑦顦ч梻鍌涚暘閳ь剨鎷�
+## 常见问题
 
-### 闁煎浜滈悾鐐▕婢跺﹤妫橀柡渚婃嫹
+1. **显存不足**：尝试使用更小的模型或开启低显存模式
+2. **启动失败**：检查 NVIDIA 驱动和 CUDA 是否正确安装
+3. **下载慢**：建议使用国内镜像源或手动下载模型
 
-濞ｅ浂鍠楅弫锟� `webui-user.bat`闁挎冻鎷�
+## 性能优化
 
-```bat
-set COMMANDLINE_ARGS=--xformers --medvram --opt-split-attention
-```
-
-闁告瑥鍊归弳鐔烘嫚鐎涙ɑ顫栭柨娑虫嫹
-- `--xformers`闁挎稒鐭繛鍥偨閿燂拷 xformers 濞村吋锚鐎垫煡鏁嶇仦鐐枖閻庢稒蓱濞插潡鎯囬敓锟�
-- `--medvram`闁挎稒鐭懙鎴犵驳婢跺鈻旈悗娑櫭肩槐顓㈠礌閿燂拷
-- `--opt-split-attention`闁挎稒鐭槐顓㈠礌閺嶃劍鏆堥柟鏉跨箰婵繘寮甸崫鍕厬
-
-## 闁哄嫭鍎抽悺銊﹀濡搫顕ч柟鍨涘亾鐎归潻鎷�
-
-### 1. 闁告凹鍨抽弫锟� xformers
-
-```bash
-pip install xformers
-```
-
-### 2. 闂傚嫬绉崇紞鍡涙偨閻旂ǹ鐏囬柛鎺戞妞存悂鎮抽敓锟�
-
-濡絾鐗楅濂告偨閻旂ǹ鐏囩€点倝缂氶鍛存偨閿燂拷 512x512闁挎稑鐬奸崯娑㈠箖婢跺﹥鍊甸柛鎰Х閻ㄧ喐顨囧Ο绯曞亾閿燂拷
-
-### 3. 濞达綀娉曢弫銈呂熼垾宕団偓鐑芥煂韫囨挸顕�
-
-闂侇偄顦扮€氥劑鏌岃箛鎾愁嚙闁告艾娴峰▓鎴澪熼垾宕団偓鐑芥晬閸繍娲� SD 1.5 4bit 闂佹彃绻愮€垫煡鎮ч崼顒傜闁靛棴鎷�
-
-## 閻㈩垱鐡曢～鍡涙⒒椤曗偓椤ｏ拷
-
-**Q: 闁哄嫭鍎抽悺銊︾▔瀹ュ拋妾柟顒€绨肩粻鐐哄礉閻戝洨鍚�**
-A: 濞达綀娉曢弫锟� --lowvram 婵☆垪鈧磭纭€闁挎稑鏈崹銊╂嚀閸涱厼纾崇紒鐙欏嫭鈻旈柛妞旀壋鍋撻敓锟�
-
-**Q: 闁汇垻鍠愰崹姘嚗閸喎寮柟顒€绨肩粻鐐哄礉閻戝洨鍚�**
-A: 缁绢収鍠涢濠氬及閹冨耿濡炵懓宕慨鈺呭椽閿燂拷 CUDA 婵繐绲块垾妯尖偓鐟邦槼椤ュ﹪鏁嶇仦鑺ュ剻闁活澁鎷� xformers闁靛棴鎷�
-
-**Q: 婵☆垪鈧磭鈧攱绋夌€ｎ厽绁伴柛鎺撴緲閹姐垽鏌屽畝瀣惞**
-A: `models/Stable-diffusion/` 闁烩晩鍠栫紞宥夊Υ閿燂拷
-
-## 闁规亽鍔忓畷妯何熼垾宕団偓锟�
-
-闁稿繈鍎靛Λ顒勫箳閵娿劌绀冮柨娑虫嫹
-- Stable Diffusion 1.5闁挎稑鐗婂〒鍫曞箣閹邦喖鏆冮柨娑樼灱閺佹捇骞€娴ｈ浠樺┑鍌涙灮缁憋拷
-- DreamShaper闁挎稑鐗呭Ч澶愭偋閳哄倹娅忛柡瀣矊閵堜粙鏁嶉敓锟�
-- Realistic Vision闁挎稑鐗嗛崯鎾垛偓鍦仱椤ユ捇寮界涵椋庣
-
-## 闁瑰瓨鍨瑰▓鎴︽煀瀹ュ洨鏋傞柛鎺戞闂婏拷
-
-閺夆晜鐟﹀Σ鎼佸箣閹寸姵鐣遍柛姘煎灠婵晠宕ｉ崒娑欐闁挎冻鎷�
-
-```bat
-set COMMANDLINE_ARGS=--xformers --medvram --api --listen
-```
-
-闂佹澘绉撮幃锟� RTX 3060 12GB闁挎稑鑻悢鈧柡鍫墲閸忔ḿ鎹勯敓锟� 1024x1024 闁告帒妫滄ご鎼佹偝閸ャ儮鍋撻敓锟�
-
----
-*婵炴潙顑堥惁顖炲及閹冨耿闁挎稒鐡揟X 3060 12GB闁挎稑鐭傞埞宥夊礉閿燂拷 535.154闁挎稑顒thon 3.10.11*
+- 使用 xformers 提升出图速度
+- 开启 attention slicing 降低显存占用
+- 使用 VAE 优化图片质量

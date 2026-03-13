@@ -1,27 +1,64 @@
 ---
-title: "Day 3锛氭牳蹇冩蹇� AGENTS.md / SOUL.md / MEMORY.md 娣卞叆鐞嗚В"
+title: "Day 3：核心概念 AGENTS.md / SOUL.md / MEMORY.md 深入理解"
 date: 2026-03-02
 categories: ["ai"]
 slug: "openclaw-day3-core-concepts"
-summary: "娣卞叆鐞嗚ВOpenClaw涓夊ぇ鏍稿績鏂囦欢锛欰GENTS.md琛屼负鍑嗗垯銆丼OUL.md浜烘牸璁惧畾銆丮EMORY.md闀挎湡璁板繂锛屾墦閫犱釜鎬у寲AI鍔╃悊銆�"
-tags: ["OpenClaw", "AGENTS.md", "SOUL.md", "MEMORY.md", "AI浜烘牸", "鎻愮ず璇嶅伐绋�"]
+summary: "深入理解OpenClaw三大核心文件，AGENTS.md作为行为规则、SOUL.md人格设定、MEMORY.md长期记忆，打造个性化AI助手。"
+tags: ["OpenClaw", "AGENTS.md", "SOUL.md", "MEMORY.md", "AI人格", "提示工程"]
 ---
 
-# Day 3锛氭牳蹇冩蹇� AGENTS.md / SOUL.md / MEMORY.md 娣卞叆鐞嗚В
+# Day 3：核心概念 AGENTS.md / SOUL.md / MEMORY.md 深入理解
 
 
-<a href="/ai/" target="_blank">OpenClaw</a> 鐨勭伒榄傚湪浜庡畠鐨�**浜烘牸绯荤粺**銆傞€氳繃涓変釜鏍稿績鏂囦欢锛屼綘鍙互瀹屽叏瀹氬埗 AI 鍔╃悊鐨勬€ф牸銆佺煡璇嗗拰璁板繂銆�
+<a href="/ai/" target="_blank">OpenClaw</a> 的灵魂在于它的**人格系统**。通过三个核心文件，你可以完全定制 AI 助手的风格、认知和记忆。
 
-## AGENTS.md - 琛屼负鍑嗗垯
+## AGENTS.md - 行为规则
 
-瀹氫箟AI鐨勮涓鸿鑼冨拰宸ヤ綔娴佺▼銆�
+定义 AI 的行为规范和工作流程。
+
+```markdown
+# AGENTS.md - 你的工作空间
+
+## 每次任务前
+1. 读取 SOUL.md - 了解我是谁
+2. 读取 USER.md - 了解你在帮助谁
+3. 读取 memory/ 今天和昨天的笔记
+```
+
+### 关键特性
+- 定义任务流程
+- 设置安全规则
+- 配置自动化行为
+
+## SOUL.md - 人格设定
+
+定义 AI 的性格、语气和交流方式。
+
+```markdown
+# SOUL.md - 我是谁
+
+- 名字：小助手
+- 性格：冷静高效，偶尔幽默
+- 风格：直接简洁，拒绝废话
+```
+
+## MEMORY.md - 长期记忆
+
+存储跨会话的重要信息。
+
+```markdown
+# MEMORY.md - 重要记忆
+
+- 主人偏好：...
+- 重要日期：...
+- 工作习惯：...
+```
 
 ---
 
-*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
-
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 <div class="page-nav">
-  <a href="/ai/openclaw-day2-platform-integration/" rel="prev">涓婁竴椤碉細Day 2锛氭帴鍏ラ涔�/Telegram/Discord</a>
+  <a href="/ai/openclaw-day2-platform-integration/" rel="prev">上一页：Day 2：接入飞书/Telegram/Discord</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*本文由 NUC NAS Hub 自动生成*

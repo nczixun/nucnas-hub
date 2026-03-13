@@ -1,23 +1,51 @@
 ---
-title: "Day 4锛歋kills 鎶€鑳界郴缁� - 璁〢I鑳藉姏缈诲€�"
+title: "Day 4：Skills 技能系统 - 解锁AI能力矩阵"
 date: 2026-03-03
 categories: ["ai"]
 slug: "openclaw-day4-skills-system"
-summary: "OpenClaw鎶€鑳界郴缁熻瑙ｏ紝1000+绀惧尯鎶€鑳戒竴閿畨瑁咃紝娑电洊AI銆佹悳绱€€佺紪绋嬨€佹櫤鑳藉灞呯瓑31涓垎绫汇€�"
-tags: ["OpenClaw", "Skills", "鎶€鑳界郴缁�", "ClawHub", "鎻掍欢"]
+summary: "OpenClaw技能系统详解，1000+社区技能一键安装，覆盖AI、搜索、编程、智能家居等31个分类。"
+tags: ["OpenClaw", "Skills", "技能系统", "ClawHub", "插件"]
 ---
 
-# Day 4锛歋kills 鎶€鑳界郴缁� - 璁〢I鑳藉姏缈诲€�
+# Day 4：Skills 技能系统 - 解锁AI能力矩阵
 
 
-<a href="/ai/" target="_blank">OpenClaw</a>鎶€鑳界郴缁熸嫢鏈�1000+绀惧尯鎶€鑳戒竴閿畨瑁呫€�
+<a href="/ai/" target="_blank">OpenClaw</a>技能系统拥有1000+社区技能一键安装。
+
+## 什么是 Skills
+
+Skills 是 OpenClaw 的扩展系统，让 AI 可以调用各种外部工具和服务。
+
+### 常用技能分类
+
+| 分类 | 数量 | 用途 |
+|------|------|------|
+| AI 工具 | 200+ | 大模型调用 |
+| 搜索 | 150+ | 信息检索 |
+| 编程 | 180+ | 代码生成 |
+| 智能家居 | 100+ | IoT 控制 |
+
+## 安装技能
+
+```bash
+# 使用 ClawHub 安装技能
+clawhub install xiaohongshu-mcp
+
+# 查看已安装技能
+clawhub list
+```
+
+## 常用技能推荐
+
+- `xiaohongshu-mcp` - 小红书自动发布
+- `gog` - Google Workspace 工具
+- `github` - GitHub 操作
 
 ---
 
-*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
-
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 <div class="page-nav">
-  <a href="/review/asus-nuc-15-pro-2026/" rel="prev">涓婁竴椤碉細ASUS NUC 15 Pro 璇勬祴</a>
+  <a href="/review/asus-nuc-15-pro-2026/" rel="prev">上一页：ASUS NUC 15 Pro 评测</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*本文由 NUC NAS Hub 自动生成*

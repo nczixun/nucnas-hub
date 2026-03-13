@@ -1,45 +1,58 @@
 ---
-title: "Day 2锛氭帴鍏ラ涔�/Telegram/Discord锛屾墦閫犱綘鐨勪笓灞濧I鍔╂墜"
+title: "Day 2：接入飞书/Telegram/Discord，打造你的专属AI助手"
 date: 2026-03-01
 categories: ["ai"]
 slug: "openclaw-day2-platform-integration"
-summary: "鎵嬫妸鎵嬫暀浣犲皢OpenClaw鎺ュ叆椋炰功銆乀elegram銆丏iscord锛屽疄鐜伴殢鏃堕殢鍦板璇濄€傚惈璇︾粏閰嶇疆姝ラ鍜屽骞冲彴瀵规瘮銆�"
-tags: ["OpenClaw", "椋炰功鏈哄櫒浜�", "Telegram Bot", "Discord Bot", "AI鍔╂墜閰嶇疆"]
+summary: "手把手教你将OpenClaw接入飞书、Telegram、Discord，实现随时随地的AI对话。包含详细配置步骤和多平台对比。"
+tags: ["OpenClaw", "飞书机器人", "Telegram Bot", "Discord Bot", "AI助手配置"]
 ---
 
-# Day 2锛氭帴鍏ラ涔�/Telegram/Discord锛屾墦閫犱綘鐨勪笓灞濧I鍔╂墜
+# Day 2：接入飞书/Telegram/Discord，打造你的专属AI助手
 
 
-## 涓轰粈涔堥渶瑕佹帴鍏ラ€氳骞冲彴锛�
+## 为什么要接入通讯平台
 
-<a href="/ai/" target="_blank">OpenClaw</a> 榛樿鍙兘鍦ㄦ湰鏈鸿闂紝鎺ュ叆閫氳骞冲彴鍚庯紝浣犲彲浠ワ細
+<a href="/ai/" target="_blank">OpenClaw</a> 默认只能在本机访问，接入通讯平台后，你可以：
 
-- ?? 闅忔椂闅忓湴鍙戞秷鎭寚鎸� AI 鍋氫簨
-- ?? 鎵嬫満杩滅▼鎺у埗鐢佃剳
-- ?? 璁╁洟闃熸垚鍛樹篃鑳戒娇鐢� AI 鍔╃悊
+- 📱 随时随地发送消息让 AI 做事
+- 📲 手机远程控制电脑
+- 👥 让团队成员也能使用 AI 助手
 
-## 鎺ュ叆椋炰功锛堟帹鑽愬浗鍐呯敤鎴凤級
+## 接入飞书（推荐国内用户）
 
-### 姝ラ 1锛氬垱寤洪涔﹀簲鐢�
+### 步骤 1：创建飞书应用
 
-1. 鎵撳紑 [椋炰功寮€鏀惧钩鍙癩(https://open.feishu.cn/)
-2. 鍒涘缓浼佷笟鑷缓搴旂敤
-3. 鑾峰彇 App ID 鍜� App Secret
+1. 打开 [飞书开放平台](https://open.feishu.cn/)
+2. 创建企业自建应用
+3. 获取 App ID 和 App Secret
 
-## 澶氬钩鍙板姣�
+### 步骤 2：配置应用权限
 
-| 骞冲彴 | 闅惧害 | 鍥藉唴璁块棶 | 閫傚悎浜虹兢 |
+在飞书后台添加以下权限：
+- im:chat:message:p2p
+- im:resource:download
+
+### 步骤 3：在 OpenClaw 中配置
+
+```bash
+openclaw config set channel feishu
+openclaw config set feishu_app_id your_app_id
+openclaw config set feishu_app_secret your_secret
+```
+
+## 多平台对比
+
+| 平台 | 难度 | 国内访问 | 适合人群 |
 |------|------|----------|----------|
-| 椋炰功 | ?? | ? | 鍥藉唴鍥㈤槦 |
-| Telegram | ?? | ? | 鍥介檯鐢ㄦ埛 |
-| Discord | ?? | ? | 绀惧尯杩愯惀 |
+| 飞书 | ⭐ | ✅ | 国内团队 |
+| Telegram | ⭐⭐ | ❌ | 国际用户 |
+| Discord | ⭐⭐ | ❌ | 社区运营 |
 
 ---
 
-*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
-
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 <div class="page-nav">
-  <a href="/ai/ollama-openwebui/" rel="prev">涓婁竴椤碉細Ollama + OpenWebUI 鎼缓</a>
+  <a href="/ai/ollama-openwebui/" rel="prev">上一页：Ollama + OpenWebUI 搭建</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*本文由 NUC NAS Hub 自动生成*

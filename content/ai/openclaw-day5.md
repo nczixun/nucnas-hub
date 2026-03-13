@@ -1,23 +1,59 @@
 ---
-title: "Day 5锛氳嚜鍔ㄥ寲浠诲姟涓庡績璺虫満鍒� - AI涓诲姩涓轰綘宸ヤ綔"
+title: "Day 5：自动化任务与心跳机制 - AI主动为你工作"
 date: 2026-03-04
 categories: ["ai"]
 slug: "openclaw-day5-automation-heartbeat"
-summary: "OpenClaw蹇冭烦鏈哄埗璇﹁В锛屽畾鏃朵换鍔¤嚜鍔ㄦ墽琛岋紝璁〢I涓诲姩涓轰綘妫€鏌ラ偖浠躲€佸ぉ姘斻€佹柊闂荤瓑銆�"
-tags: ["OpenClaw", "蹇冭烦", "鑷姩鍖�", "Cron", "瀹氭椂浠诲姟"]
+summary: "OpenClaw心跳机制详解，定时任务自动执行，让AI主动为你检查邮件、天气、新闻等。"
+tags: ["OpenClaw", "心跳", "自动化", "Cron", "定时任务"]
 ---
 
-# Day 5锛氳嚜鍔ㄥ寲浠诲姟涓庡績璺虫満鍒�
+# Day 5：自动化任务与心跳机制
 
 
-<a href="/ai/" target="_blank">OpenClaw</a>蹇冭烦鏈哄埗璁〢I涓诲姩涓轰綘宸ヤ綔銆�
+<a href="/ai/" target="_blank">OpenClaw</a>心跳机制让AI主动为你工作。
+
+## 什么是心跳机制
+
+心跳是 OpenClaw 的定期检查机制，让 AI 可以主动执行任务而无需等待用户指令。
+
+### 典型应用场景
+
+- 📧 检查新邮件
+- 🌤️ 天气预报提醒
+- 📰 新闻摘要
+- 🔔 社交媒体通知
+
+## 配置心跳任务
+
+在 `HEARTBEAT.md` 中配置：
+
+```markdown
+# HEARTBEAT.md
+
+## 每日任务
+
+| 时间 | 任务 |
+|------|------|
+| 08:00 | 检查邮件 |
+| 12:00 | 天气提醒 |
+| 18:00 | 新闻汇总 |
+```
+
+## Cron 定时任务
+
+```bash
+# 每天早上 8 点执行
+0 8 * * * openclaw task morning-brief
+
+# 每小时检查一次
+0 * * * * openclaw check-notifications
+```
 
 ---
 
-*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
-
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 <div class="page-nav">
-  <a href="/guide/fnos-full-guide/" rel="prev">涓婁竴椤碉細椋炵墰OS娣卞害浣撻獙</a>
+  <a href="/guide/fnos-full-guide/" rel="prev">上一页：飞牛OS深度体验</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*本文由 NUC NAS Hub 自动生成*
