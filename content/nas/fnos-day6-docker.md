@@ -1,36 +1,36 @@
 ---
-title: "Day 6: 椋炵墰OS Docker鍏ラ棬 鈥斺€� 鎵撻€犱竾鑳絅AS"
+title: "Day 6: 妞嬬偟澧癘S Docker閸忋儵妫� 閳ユ柡鈧拷 閹垫捇鈧姳绔鹃懗绲匒S"
 date: 2026-03-12
-summary: "瀛︿範Docker鍩虹锛屽湪椋炵墰OS涓婇儴缃插悇绉嶅簲鐢ㄣ€�"
+summary: "鐎涳缚绡凞ocker閸╄櫣顢呴敍灞芥躬妞嬬偟澧癘S娑撳﹪鍎寸純鎻掓倗缁夊秴绨查悽銊ｂ偓锟�"
 categories: ["nas"]
 slug: "fnos-day6-docker"
-tags: ["椋炵墰OS", "Docker", "瀹瑰櫒", "搴旂敤"]
+tags: ["妞嬬偟澧癘S", "Docker", "鐎圭懓娅�", "鎼存梻鏁�"]
 ---
 
-# Day 6: 椋炵墰OS Docker鍏ラ棬
+# Day 6: 妞嬬偟澧癘S Docker閸忋儵妫�
 
 
-## 浠€涔堟槸<a href="/guide/docker-best-practice/" target="_blank">Docker</a>锛�
+## 娴犫偓娑斿牊妲�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>閿涳拷
 
-<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鏄竴涓鍣ㄥ钩鍙帮紝璁╁簲鐢ㄥ湪浠讳綍鐜閮借兘杩愯銆�
+<a href="/guide/docker-best-practice/" target="_blank">Docker</a>閺勵垯绔存稉顏勵啇閸ｃ劌閽╅崣甯礉鐠佲晛绨查悽銊ユ躬娴犺缍嶉悳顖氼暔闁€熷厴鏉╂劘顢戦妴锟�
 
-## 涓轰粈涔堢敤<a href="/guide/docker-best-practice/" target="_blank">Docker</a>锛�
+## 娑撹桨绮堟稊鍫㈡暏<a href="/guide/docker-best-practice/" target="_blank">Docker</a>閿涳拷
 
-- ?? 涓€娆￠厤缃紝鍒板杩愯
-- ?? 杞绘澗鏇存柊
-- ?? 骞插噣鍗歌浇
-- ?? 鐢熸€佷赴瀵�
+- ?? 娑撯偓濞嗭繝鍘ょ純顕嗙礉閸掓澘顦╂潻鎰攽
+- ?? 鏉炵粯婢楅弴瀛樻煀
+- ?? 楠炴彃鍣ｉ崡姝屾祰
+- ?? 閻㈢喐鈧椒璧寸€碉拷
 
-## 瀹夎<a href="/guide/docker-best-practice/" target="_blank">Docker</a>
+## 鐎瑰顥�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>
 
-椋炵墰OS Web鐣岄潰鐩存帴鏀寔锛�
+妞嬬偟澧癘S Web閻ｅ矂娼伴惄瀛樺复閺€顖涘瘮閿涳拷
 ```
-搴旂敤涓績 鈫� Docker 鈫� 瀹夎
+鎼存梻鏁ゆ稉顓炵妇 閳拷 Docker 閳拷 鐎瑰顥�
 ```
 
-## 甯哥敤<a href="/guide/docker-best-practice/" target="_blank">Docker</a>搴旂敤
+## 鐢摜鏁�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鎼存梻鏁�
 
-### 1. 閮ㄧ讲QBittorrent
+### 1. 闁劎璁睶Bittorrent
 
 ```yaml
 version: '3'
@@ -51,7 +51,7 @@ services:
     restart: unless-stopped
 ```
 
-### 2. 閮ㄧ讲 <a href="/guide/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> 濯掍綋鏈嶅姟鍣�
+### 2. 闁劎璁� <a href="/guide/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> 婵帊缍嬮張宥呭閸ｏ拷
 
 ```yaml
 services:
@@ -63,8 +63,8 @@ services:
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day5-remote/" rel="prev">涓婁竴椤碉細Day 5锛氶鐗汷S杩滅▼璁块棶</a>
-  <a href="/guide/fnos-day7-backup/" rel="next">涓嬩竴椤碉細Day 7锛氶鐗汷S鏁版嵁澶囦唤</a>
+  <a href="/guide/fnos-day5-remote/" rel="prev">娑撳﹣绔存い纰夌窗Day 5閿涙岸顥ｉ悧姹稴鏉╂粎鈻肩拋鍧楁６</a>
+  <a href="/guide/fnos-day7-backup/" rel="next">娑撳绔存い纰夌窗Day 7閿涙岸顥ｉ悧姹稴閺佺増宓佹径鍥﹀敜</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

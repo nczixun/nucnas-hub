@@ -1,54 +1,54 @@
-锘�---
-title: "AI 绠楀姏娴嬭瘯"
+閿橈拷---
+title: "AI 缁犳濮忓ù瀣槸"
 slug: "ai-benchmark"
-description: "娴嬭瘯鏈湴璁惧鐨凙I鎺ㄧ悊鎬ц兘"
+description: "濞村鐦張顒€婀寸拋鎯ь槵閻ㄥ嚈I閹恒劎鎮婇幀褑鍏�"
 date: 2026-03-01
 ---
 
-# 馃 AI 绠楀姏娴嬭瘯
+# 棣冾樆 AI 缁犳濮忓ù瀣槸
 
-鍦ㄦ祻瑙堝櫒涓繍琛岀畝鍗曠殑 AI 鎺ㄧ悊娴嬭瘯锛岃瘎浼拌澶囨€ц兘銆�
+閸︺劍绁荤憴鍫濇珤娑擃叀绻嶇悰宀€鐣濋崡鏇犳畱 AI 閹恒劎鎮婂ù瀣槸閿涘矁鐦庢导鎷岊啎婢跺洦鈧嗗厴閵嗭拷
 
 <div class="benchmark-container">
   <div class="benchmark-info">
-    <p>姝ゆ祴璇曢€氳繃杩愯澶氫釜鐭╅樀杩愮畻鏉ヨ瘎浼� CPU/GPU 鐨� AI 鎺ㄧ悊鎬ц兘銆�</p>
+    <p>濮濄倖绁寸拠鏇⑩偓姘崇箖鏉╂劘顢戞径姘嚋閻晠妯€鏉╂劗鐣婚弶銉ㄧ槑娴硷拷 CPU/GPU 閻拷 AI 閹恒劎鎮婇幀褑鍏橀妴锟�</p>
   </div>
   
   <div class="benchmark-controls">
-    <label>娴嬭瘯娆℃暟</label>
+    <label>濞村鐦▎鈩冩殶</label>
     <select id="iterations">
-      <option value="100">100 娆� (蹇€�)</option>
-      <option value="1000" selected>1000 娆� (鏍囧噯)</option>
-      <option value="5000">5000 娆� (娣卞害)</option>
+      <option value="100">100 濞嗭拷 (韫囶偊鈧拷)</option>
+      <option value="1000" selected>1000 濞嗭拷 (閺嶅洤鍣�)</option>
+      <option value="5000">5000 濞嗭拷 (濞ｅ崬瀹�)</option>
     </select>
     
-    <button onclick="runBenchmark()" class="benchmark-btn">寮€濮嬫祴璇�</button>
+    <button onclick="runBenchmark()" class="benchmark-btn">瀵偓婵绁寸拠锟�</button>
   </div>
   
   <div class="benchmark-progress" id="progress" style="display:none;">
     <div class="progress-bar">
       <div class="progress-fill" id="progress-fill"></div>
     </div>
-    <p id="progress-text">娴嬭瘯涓�...</p>
+    <p id="progress-text">濞村鐦稉锟�...</p>
   </div>
   
   <div class="benchmark-result" id="result" style="display:none;">
-    <h3>娴嬭瘯缁撴灉</h3>
+    <h3>濞村鐦紒鎾寸亯</h3>
     <div class="result-grid">
       <div class="result-item">
-        <span>鎬昏€楁椂</span>
+        <span>閹槒鈧妞�</span>
         <strong id="total-time">0 ms</strong>
       </div>
       <div class="result-item">
-        <span>骞冲潎鑰楁椂</span>
-        <strong id="avg-time">0 ms/娆�</strong>
+        <span>楠炲啿娼庨懓妤佹</span>
+        <strong id="avg-time">0 ms/濞嗭拷</strong>
       </div>
       <div class="result-item">
-        <span>杩愮畻閫熷害</span>
-        <strong id="ops-per-sec">0 娆�/绉�</strong>
+        <span>鏉╂劗鐣婚柅鐔峰</span>
+        <strong id="ops-per-sec">0 濞嗭拷/缁夛拷</strong>
       </div>
       <div class="result-item">
-        <span>鎬ц兘璇勭骇</span>
+        <span>閹嗗厴鐠囧嫮楠�</span>
         <strong id="rating">-</strong>
       </div>
     </div>
@@ -65,10 +65,10 @@ function runBenchmark() {
   setTimeout(() => {
     const startTime = performance.now();
     
-    // 妯℃嫙鐭╅樀杩愮畻娴嬭瘯
+    // 濡剝瀚欓惌鈺呮█鏉╂劗鐣诲ù瀣槸
     let result = 0;
     for (let i = 0; i < iterations; i++) {
-      // 鐭╅樀涔樻硶妯℃嫙
+      // 閻晠妯€娑旀ɑ纭跺Ο鈩冨珯
       const a = Array(100).fill(0).map(() => Math.random());
       const b = Array(100).fill(0).map(() => Math.random());
       for (let j = 0; j < 100; j++) {
@@ -77,11 +77,11 @@ function runBenchmark() {
         }
       }
       
-      // 鏇存柊杩涘害
+      // 閺囧瓨鏌婃潻娑樺
       if (i % 100 === 0) {
         const progress = (i / iterations) * 100;
         document.getElementById('progress-fill').style.width = progress + '%';
-        document.getElementById('progress-text').textContent = `娴嬭瘯涓�... ${Math.round(progress)}%`;
+        document.getElementById('progress-text').textContent = `濞村鐦稉锟�... ${Math.round(progress)}%`;
       }
     }
     
@@ -90,18 +90,18 @@ function runBenchmark() {
     const avgTime = totalTime / iterations;
     const opsPerSec = 10000 / (totalTime / 1000);
     
-    // 璁＄畻璇勭骇
+    // 鐠侊紕鐣荤拠鍕獓
     let rating;
-    if (avgTime < 0.1) rating = '馃敟 椤剁骇 (RTX 4090+)';
-    else if (avgTime < 0.5) rating = '猸� 浼樼 (RTX 4070+)';
-    else if (avgTime < 1) rating = '馃憤 鑹ソ (RTX 3060+)';
-    else if (avgTime < 3) rating = '馃挭 涓€鑸� (GTX 1660+)';
-    else if (avgTime < 10) rating = '鈿狅笍 鍏ラ棬 (闆嗘樉)';
-    else rating = '馃悽 杈冨急';
+    if (avgTime < 0.1) rating = '棣冩暉 妞ゅ墎楠� (RTX 4090+)';
+    else if (avgTime < 0.5) rating = '鐚革拷 娴兼ḿ顫� (RTX 4070+)';
+    else if (avgTime < 1) rating = '棣冩啢 閼诡垰銈� (RTX 3060+)';
+    else if (avgTime < 3) rating = '棣冩尛 娑撯偓閼革拷 (GTX 1660+)';
+    else if (avgTime < 10) rating = '閳跨媴绗� 閸忋儵妫� (闂嗗棙妯�)';
+    else rating = '棣冩偨 鏉堝啫鎬�';
     
     document.getElementById('total-time').textContent = totalTime.toFixed(0) + ' ms';
-    document.getElementById('avg-time').textContent = avgTime.toFixed(2) + ' ms/娆�';
-    document.getElementById('ops-per-sec').textContent = opsPerSec.toFixed(0) + ' 娆�/绉�';
+    document.getElementById('avg-time').textContent = avgTime.toFixed(2) + ' ms/濞嗭拷';
+    document.getElementById('ops-per-sec').textContent = opsPerSec.toFixed(0) + ' 濞嗭拷/缁夛拷';
     document.getElementById('rating').textContent = rating;
     
     document.getElementById('progress').style.display = 'none';

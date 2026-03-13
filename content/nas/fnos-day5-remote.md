@@ -1,57 +1,57 @@
 ---
-title: "Day 5: 椋炵墰OS杩滅▼璁块棶 鈥斺€� Tailscale/FRP瀹岀編鏂规"
+title: "Day 5: 妞嬬偟澧癘S鏉╂粎鈻肩拋鍧楁６ 閳ユ柡鈧拷 Tailscale/FRP鐎瑰瞼绶ㄩ弬瑙勵攳"
 date: 2026-03-11
-summary: "閫氳繃Tailscale鎴朏RP瀹炵幇澶栫綉瀹夊叏璁块棶椋炵墰OS銆�"
+summary: "闁俺绻僒ailscale閹存湉RP鐎圭偟骞囨径鏍秹鐎瑰鍙忕拋鍧楁６妞嬬偟澧癘S閵嗭拷"
 categories: ["nas"]
 slug: "fnos-day5-remote"
-tags: ["椋炵墰OS", "杩滅▼璁块棶", "Tailscale", "FRP"]
+tags: ["妞嬬偟澧癘S", "鏉╂粎鈻肩拋鍧楁６", "Tailscale", "FRP"]
 ---
 
-# Day 5: 椋炵墰OS杩滅▼璁块棶
+# Day 5: 妞嬬偟澧癘S鏉╂粎鈻肩拋鍧楁６
 
 
-## 涓轰粈涔堥渶瑕佽繙绋嬭闂紵
+## 娑撹桨绮堟稊鍫ユ付鐟曚浇绻欑粙瀣問闂傤噯绱�
 
-涓嶅湪瀹舵椂涔熻兘锛�
-- ?? 璁块棶鏂囦欢
-- ?? 瑙傜湅褰辩墖
-- ?? 绠＄悊璁剧疆
+娑撳秴婀€硅埖妞傛稊鐔诲厴閿涳拷
+- ?? 鐠佸潡妫堕弬鍥︽
+- ?? 鐟欏倻婀呰ぐ杈╁
+- ?? 缁狅紕鎮婄拋鍓х枂
 
-## 鏂规涓€锛�<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>锛堟帹鑽愶級
+## 閺傝顢嶆稉鈧敍锟�<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>閿涘牊甯归懡鎰剁礆
 
-### 浠€涔堟槸Tailscale锛�
+### 娴犫偓娑斿牊妲窽ailscale閿涳拷
 
-鍩轰簬WireGuard鐨勫紓鍦扮粍缃戝伐鍏凤紝绠€鍗曞畨鍏ㄣ€�
+閸╄桨绨琖ireGuard閻ㄥ嫬绱撻崷鎵矋缂冩垵浼愰崗鍑ょ礉缁犫偓閸楁洖鐣ㄩ崗銊ｂ偓锟�
 
-### 瀹夎姝ラ
+### 鐎瑰顥婂銉╊€�
 
-1. 鍦ㄩ鐗汷S涓畨瑁�<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>
-2. 鐧诲綍璐﹀彿鑾峰彇璁惧瀵嗛挜
-3. 璁板綍璁惧鑺傜偣
+1. 閸︺劑顥ｉ悧姹稴娑擃厼鐣ㄧ憗锟�<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>
+2. 閻ц缍嶇拹锕€褰块懢宄板絿鐠佹儳顦€靛棝鎸�
+3. 鐠佹澘缍嶇拋鎯ь槵閼哄倻鍋�
 
-### 閰嶇疆
+### 闁板秶鐤�
 
 ```bash
-# 鍚姩Tailscale
+# 閸氼垰濮㏕ailscale
 tailscale up --accept-routes
 
-# 鏌ョ湅鐘舵€�
+# 閺屻儳婀呴悩鑸碘偓锟�
 tailscale status
 ```
 
-### 浼樼偣
-- ? 鍏嶈垂
-- ? 鍔犲瘑瀹夊叏
-- ? 绠€鍗曟槗鐢�
-- ? 鏀寔鎵€鏈夎澶�
+### 娴兼ḿ鍋�
+- ? 閸忓秷鍨�
+- ? 閸旂姴鐦戠€瑰鍙�
+- ? 缁犫偓閸楁洘妲楅悽锟�
+- ? 閺€顖涘瘮閹碘偓閺堝顔曟径锟�
 
-## 鏂规浜岋細FRP鍐呯綉绌块€�
+## 閺傝顢嶆禍宀嬬窗FRP閸愬懐缍夌粚鍧椻偓锟�
 
-### 浠€涔堟槸FRP锛�
+### 娴犫偓娑斿牊妲窮RP閿涳拷
 
-閫氳繃涓浆鏈嶅姟鍣ㄥ疄鐜板唴缃戠┛閫忋€�
+闁俺绻冩稉顓℃祮閺堝秴濮熼崳銊ョ杽閻滄澘鍞寸純鎴犫敍闁繈鈧拷
 
-### 鏈嶅姟绔厤缃�
+### 閺堝秴濮熺粩顖炲帳缂冿拷
 
 ```yaml
 # frps.ini
@@ -63,8 +63,8 @@ token = your_token
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day4-network/" rel="prev">涓婁竴椤碉細Day 4锛氶鐗汷S缃戠粶閰嶇疆</a>
-  <a href="/guide/fnos-day6-docker/" rel="next">涓嬩竴椤碉細Day 6锛氶鐗汷S Docker搴旂敤</a>
+  <a href="/guide/fnos-day4-network/" rel="prev">娑撳﹣绔存い纰夌窗Day 4閿涙岸顥ｉ悧姹稴缂冩垹绮堕柊宥囩枂</a>
+  <a href="/guide/fnos-day6-docker/" rel="next">娑撳绔存い纰夌窗Day 6閿涙岸顥ｉ悧姹稴 Docker鎼存梻鏁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

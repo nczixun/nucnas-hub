@@ -1,42 +1,42 @@
 ---
-title: "本地 AI Agent 完全指南：2026打造你的 AI 助手"
+title: "鏈湴 AI Agent 瀹屽叏鎸囧崡锛�2026鎵撻€犱綘鐨� AI 鍔╂墜"
 date: 2026-01-01
 categories: ["ai"]
-summary: "本地 AI Agent 搭建指南，打造个人 AI 助手"
-tags: ["AI Agent", "本地部署", "自动化", "助手"]
+summary: "鏈湴 AI Agent 鎼缓鎸囧崡锛屾墦閫犱釜浜� AI 鍔╂墜"
+tags: ["AI Agent", "鏈湴閮ㄧ讲", "鑷姩鍖�", "鍔╂墜"]
 slug: "local-ai-agent"
 ---
 
-# 本地 AI Agent 完全指南
+# 鏈湴 AI Agent 瀹屽叏鎸囧崡
 
-## 什么是 AI Agent？
+## 浠€涔堟槸 AI Agent锛�
 
-AI Agent 是能自主规划和执行任务的 AI 系统，可以帮你完成各种复杂任务。
+AI Agent 鏄兘鑷富瑙勫垝鍜屾墽琛屼换鍔＄殑 AI 绯荤粺锛屽彲浠ュ府浣犲畬鎴愬悇绉嶅鏉備换鍔°€�
 
-## 核心组件
+## 鏍稿績缁勪欢
 
-### 1. 大语言模型
+### 1. 澶ц瑷€妯″瀷
 
-本地运行的 LLM 作为大脑：
+鏈湴杩愯鐨� LLM 浣滀负澶ц剳锛�
 
 - Ollama
 - LM Studio
 - llama.cpp
 
-### 2. 记忆系统
+### 2. 璁板繂绯荤粺
 
-- 短期记忆：上下文窗口
-- 长期记忆：向量数据库
+- 鐭湡璁板繂锛氫笂涓嬫枃绐楀彛
+- 闀挎湡璁板繂锛氬悜閲忔暟鎹簱
 
-### 3. 工具调用
+### 3. 宸ュ叿璋冪敤
 
-Agent 可以调用外部工具：
+Agent 鍙互璋冪敤澶栭儴宸ュ叿锛�
 
-- 搜索引擎
-- API 接口
-- 本地命令
+- 鎼滅储寮曟搸
+- API 鎺ュ彛
+- 鏈湴鍛戒护
 
-## 推荐框架
+## 鎺ㄨ崘妗嗘灦
 
 ### LangChain
 
@@ -49,28 +49,28 @@ llm = Ollama(model="llama3")
 
 ### AutoGen
 
-微软推出的多 Agent 框架。
+寰蒋鎺ㄥ嚭鐨勫 Agent 妗嗘灦銆�
 
 ### CrewAI
 
-多 Agent 协作框架。
+澶� Agent 鍗忎綔妗嗘灦銆�
 
-## 搭建步骤
+## 鎼缓姝ラ
 
-### 1. 安装 Ollama
+### 1. 瀹夎 Ollama
 
 ```bash
 winget install Ollama.Ollama
 ```
 
-### 2. 安装 LangChain
+### 2. 瀹夎 LangChain
 
 ```bash
 pip install langchain
 pip install langchain-community
 ```
 
-### 3. 创建 Agent
+### 3. 鍒涘缓 Agent
 
 ```python
 from langchain.agents import load_tools
@@ -80,16 +80,16 @@ tools = load_tools(["serpapi", "llm-math"], llm=llm)
 agent = initialize_agent(tools, llm, agent="zero-shot-react-description")
 ```
 
-## 应用场景
+## 搴旂敤鍦烘櫙
 
-- 自动化工作流
-- 智能客服
-- 个人助理
-- 代码助手
-- 数据分析
+- 鑷姩鍖栧伐浣滄祦
+- 鏅鸿兘瀹㈡湇
+- 涓汉鍔╃悊
+- 浠ｇ爜鍔╂墜
+- 鏁版嵁鍒嗘瀽
 
-## 总结
+## 鎬荤粨
 
-本地 AI Agent 是未来趋势，隐私安全，完全可控。
+鏈湴 AI Agent 鏄湭鏉ヨ秼鍔匡紝闅愮瀹夊叏锛屽畬鍏ㄥ彲鎺с€�
 
-**推荐指数**：⭐⭐⭐⭐⭐
+**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨瓙

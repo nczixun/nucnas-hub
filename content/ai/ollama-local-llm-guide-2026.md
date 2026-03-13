@@ -1,29 +1,29 @@
 ---
-title: "Ollama鏈湴閮ㄧ讲澶фā鍨嬶細闆跺熀纭€鍏ラ棬鎸囧崡"
+title: "Ollama閺堫剙婀撮柈銊ц婢堆勀侀崹瀣剁窗闂嗚泛鐔€绾偓閸忋儵妫幐鍥у础"
 date: 2026-03-06
 categories: ["ai"]
-summary: "鐢∣llama鍦ㄦ湰鍦伴儴缃插ぇ妯″瀷锛屾棤闇€鏄惧崱涔熻兘鐜�"
+summary: "閻⑩垼llama閸︺劍婀伴崷浼村劥缂冩彃銇囧Ο鈥崇€烽敍灞炬￥闂団偓閺勬儳宕辨稊鐔诲厴閻滐拷"
 tags: ["Ollama", "local LLM", "deployment"]
 slug: "ollama-local-llm-guide-2026"
 ---
 
-# Ollama鏈湴閮ㄧ讲澶фā鍨嬶細闆跺熀纭€鍏ラ棬鎸囧崡
+# Ollama閺堫剙婀撮柈銊ц婢堆勀侀崹瀣剁窗闂嗚泛鐔€绾偓閸忋儵妫幐鍥у础
 
 
-鏈湴璺戝ぇ妯″瀷锛�<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>鏄渶绠€鍗曠殑鏂规銆�
+閺堫剙婀寸捄鎴濄亣濡€崇€烽敍锟�<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>閺勵垱娓剁粻鈧崡鏇犳畱閺傝顢嶉妴锟�
 
-## 鐜瑕佹眰
+## 閻滎垰顣ㄧ憰浣圭湴
 
-- Mac锛歁1/M2/M3鑺墖锛堟帹鑽愶級
-- Windows锛氳嚦灏�16GB鍐呭瓨
-- Linux锛氫换鎰忎富娴佸彂琛岀増
+- Mac閿涙瓉1/M2/M3閼侯垳澧栭敍鍫熷腹閼芥劧绱�
+- Windows閿涙俺鍤︾亸锟�16GB閸愬懎鐡�
+- Linux閿涙矮鎹㈤幇蹇庡瘜濞翠礁褰傜悰宀€澧�
 
 ---
 
-*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
+*閺囨潙顦�<a href="/ai/" target="_blank">AI</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [AI妫版垿浜綸(/ai/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/amd-ryzen-ai-300-mini-pc-preview/" rel="prev">涓婁竴椤碉細AMD Ryzen AI 300绯诲垪杩蜂綘涓绘満鍓嶇灮</a>
+  <a href="/review/amd-ryzen-ai-300-mini-pc-preview/" rel="prev">娑撳﹣绔存い纰夌窗AMD Ryzen AI 300缁鍨潻铚傜稑娑撶粯婧€閸撳秶鐏�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

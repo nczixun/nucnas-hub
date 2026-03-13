@@ -1,51 +1,51 @@
 ---
-title: "GEAKOS 鍐呭瓨鍗犵敤楂橈紵鎵嬫妸鎵嬫暀浣犳€ц兘浼樺寲"
+title: "GEAKOS 闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌涳公缁辩敻骞嶇€ｎ偄惟闁归潧顑嗛弳鈧ù锝囧У閳ь儸鍡楀幋濞村吋锚鐎碉拷"
 date: 2026-03-06
 categories: ["nas"]
 slug: "geakos-performance-optimization"
-summary: "GEAKOS鍐呭瓨鍗犵敤楂樿璇熺梾锛熸暀浣犻€氳繃Docker闄愬埗銆佸叧闂笉蹇呰鐨勬湇鍔°€佷紭鍖栭厤缃檷浣庡唴瀛樺崰鐢紝璁╀綆閰嶈澶囦篃鑳芥祦鐣呰繍琛屻€�"
-tags: ["GEAKOS", "鎬ц兘浼樺寲", "NAS", "鍐呭瓨浼樺寲", "Docker"]
+summary: "GEAKOS闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌浨归～锔炬嫚閻旂儤鈷曢柨娑氬枑閺嗏偓濞达絿濞€閳ь剚淇虹换鍍乷cker闂傚嫭鍔曢崺妤呭Υ娴ｇǹ褰犻梻鍌ゅ幒缁楀绠涢崨閭︽矗闁汇劌瀚﹢鍥礉鎺抽埀顑挎缁鳖參宕犻弽顓炲赋缂傚喚鍣ｅ閿嬫媴鎼粹€虫暥閻庢稒锚瀹曚即鎮介…鎺旂閻犱讲鏅欑紞鍡涙煀瀹ュ牜鍟庡璺烘矗缁″啴鎳楅懞銉с偊闁伙絽鎳撶换宥囨偘鐏炵儵鍋撻敓锟�"
+tags: ["GEAKOS", "闁诡儸鍡楀幋濞村吋锚鐎碉拷", "NAS", "闁告劕鎳庨悺銊﹀濡搫顕�", "Docker"]
 ---
 
-# GEAKOS 鍐呭瓨鍗犵敤楂橈紵鎵嬫妸鎵嬫暀浣犳€ц兘浼樺寲
+# GEAKOS 闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌涳公缁辩敻骞嶇€ｎ偄惟闁归潧顑嗛弳鈧ù锝囧У閳ь儸鍡楀幋濞村吋锚鐎碉拷
 
 
-<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>鍙戝竷鍚庣ぞ鍖哄弽棣堟渶澶氱殑灏辨槸**鍐呭瓨鍗犵敤楂�**鐨勯棶棰樸€傛湁鐢ㄦ埛鍙嶆槧寮€鏈哄氨鍗犵敤2GB+鍐呭瓨锛岃繖鍦ㄤ綆閰嶇疆璁惧涓婄‘瀹炴槸涓棶棰樸€�
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>闁告瑦鍨电粩鐑藉触鎼达絻浠﹂柛鏍ф惈瀵姤锛冮崼鐔镐粯濠㈣埖姘ㄥ▓鎴犱焊鏉堛劍笑**闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌︽嫹**闁汇劌瀚板Λ鑸碉紣濡硶鍋撻崒娑欑畳闁烩偓鍔嶉崺娑㈠矗瀹ュ棙衼鐎殿喒鍋撻柡鍫濇惈濮樸劑宕￠悩鍨殢2GB+闁告劕鎳庨悺銊╂晬瀹€鍐闁革负鍔嬬紞鍡涙煀瀹ュ洨鏋傞悹浣瑰劤椤︻剚绋夋繝鍕ㄢ偓妯尖偓鍦仦濡插憡绋夐鍫燂紪濡増菧閳ь剨鎷�
 
-鍒€ワ紝鏈枃鏁欎綘鍑犳嫑鏈夋晥闄嶄綆鍐呭瓨鍗犵敤锛�
+闁告帩鍋呴埀顑惧劵缁辨繈寮甸浣圭€柡浣圭懁缂嶆﹢宕欓悩鍐茬彛闁哄牆顦伴弲銉╂⒔瀹ュ嫮绉甸柛鎰噹閻°劑宕￠悩鍨殢闁挎冻鎷�
 
-## 闂鍒嗘瀽锛氬唴瀛橀兘鍘诲摢浜嗭紵
+## 闂傚偆鍣ｉ。浠嬪礆閸℃ḿ鈧粙鏁嶅顒€鏁堕悗娑欙耿閸忔﹢宕㈢拠鍙夋喛濞存粌妫寸槐锟�
 
-<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>榛樿鍚姩鐨勬湇鍔℃瘮杈冨锛�
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>濮掓稒枪椤撳宕ラ姘楅柣銊ュ濠€鍥礉閳╁啰妲烽弶鍫濆暙椤﹀潡鏁嶉敓锟�
 
-- ?? AI鏈嶅姟锛堜汉鑴歌瘑鍒€佸満鏅瘑鍒級
-- ?? 褰辫搴撴湇鍔�
-- ?? GEAKLink杩滅▼璁块棶
-- ?? <a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>瀹堟姢杩涚▼
-- ?? 搴旂敤鏈嶅姟
+- ?? AI闁哄牆绉存慨鐔兼晬閸粍鐪介柤瀛樼摃閻︽垿宕氶鐘亾娴ｅ憡绨氶柡鍜佸灥閻︽垿宕氶顒傜
+- ?? 鐟滄媽绮鹃～瀣償閹惧瓨绠涢柛鏃撴嫹
+- ?? GEAKLink閺夆晜绮庨埢鑲╂媼閸ф锛�
+- ?? <a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>閻庣懓鐗婃慨銏℃交濞戞埃鏌�
+- ?? 閹煎瓨姊婚弫銈夊嫉瀹ュ懎顫�
 
-濡傛灉浣犱笉鐢ˋI鍔熻兘鎴�<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>瀹屽叏鍙互鍏抽棴鐩稿簲鏈嶅姟銆�
+濠碘€冲€归悘澶嬫媴閻樿京鐟濋柣鈶哄┉闁告梻鍠曢崗姗€骞嬮敓锟�<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>閻庣懓鑻崣蹇涘矗椤栨瑤绨伴柛蹇斿▕濡挳鎯勭粙璺ㄥ畨闁哄牆绉存慨鐔煎Υ閿燂拷
 
-## 浼樺寲鏂规
+## 濞村吋锚鐎垫煡寮憴鍕垫敵
 
-### 鏂规1锛氬叧闂瑼I鏈嶅姟锛堣妭鐪亊800MB锛�
+### 闁哄倽顫夐、锟�1闁挎稒鑹鹃崣褔姊婚悷绯忛柡鍫濈Т婵喖鏁嶉崼锝呂濋柣顏冪哎800MB闁挎冻鎷�
 
-濡傛灉浣犵殑鐓х墖涓嶅锛孉I鍔熻兘涓嶆槸鍒氶渶锛屽彲浠ュ叧闂細
+濠碘€冲€归悘澶嬫媴閻樺灚鐣遍柣鎾楀懎顣诲☉鎾崇Т椤﹀潡鏁嶇€涘闁告梻鍠曢崗妯荤▔瀹ュ棙笑闁告帗宀稿〒鍫曟晬鐏炶棄璁插ù鐘劚閸櫻囨⒒椤撱劎绐�
 
 ```bash
-# SSH鐧诲綍鍚庢墽琛�
+# SSH闁谎嗩嚙缂嶅秹宕ユ惔銏犫挃閻炴冻鎷�
 docker stop geekai
 docker disable geekai
 ```
 
-### 鏂规2锛氶檺鍒�<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>鍐呭瓨锛堣妭鐪亊500MB锛�
+### 闁哄倽顫夐、锟�2闁挎稒宀稿娲礆閿燂拷<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>闁告劕鎳庨悺銊╂晬閸絽螡闁活亙绨�500MB闁挎冻鎷�
 
 ```bash
-# 缂栬緫Docker閰嶇疆
+# 缂傚倹鐗炵欢鐛秓cker闂佹澘绉堕悿锟�
 nano /etc/docker/daemon.json
 ```
 
-娣诲姞浠ヤ笅鍐呭闄愬埗<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>鍐呭瓨锛�
+婵烇綀顕ф慨鐐寸閵夈倗鐟撻柛鎰噹椤旀劙姊介幇顒€鐓�<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>闁告劕鎳庨悺銊╂晬閿燂拷
 
 ```json
 {
@@ -61,58 +61,58 @@ nano /etc/docker/daemon.json
 }
 ```
 
-### 鏂规3锛氬叧闂璆EAKLink锛堣妭鐪亊200MB锛�
+### 闁哄倽顫夐、锟�3闁挎稒鑹鹃崣褔姊婚悹鍜礎KLink闁挎稑鐗愭俊顓㈡儑娴滐拷200MB闁挎冻鎷�
 
-濡傛灉鍙湪灞€鍩熺綉浣跨敤锛屽彲浠ュ叧闂繙绋嬭闂湇鍔★細
+濠碘€冲€归悘澶愬矗椤忓嫭韬悘鐐╁亾闁糕晝鍠撶紞澶嬫媴鐠恒劍鏆忛柨娑樿嫰瑜板弶绂掗妷銉ュ綘闂傚偆鍙€缁绘瑧绮欑€ｎ収鍟忛梻鍌ゅ枟濠€鍥礉閳藉懐绐�
 
 ```bash
-# 鍋滄GEAKLink鏈嶅姟
+# 闁稿绮嶉姹獷AKLink闁哄牆绉存慨锟�
 systemctl stop geaklink
 systemctl disable geaklink
 ```
 
-### 鏂规4锛氫娇鐢⊿wap浜ゆ崲鍒嗗尯
+### 闁哄倽顫夐、锟�4闁挎稒鐭繛鍥偨閳覆ap濞存嚎鍊栧畷鏌ュ礆閸℃闅�
 
-濡傛灉鍐呭瓨瀹炲湪涓嶅鐢紝鍚敤Swap锛�
+濠碘€冲€归悘澶愬礃閸涱厾鎽犻悗鍦仜濠€顏呯▔瀹ュ拋妾柣銏╃厜缁辨繈宕ラ婊勬殢Swap闁挎冻鎷�
 
 ```bash
-# 鍒涘缓2GB Swap
+# 闁告帗绋戠紓锟�2GB Swap
 fallocate -l 2G /swapfile
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 
-# 寮€鏈鸿嚜鍔ㄥ惎鐢�
+# 鐎殿喒鍋撻柡鍫ョ細閸ゆ粓宕濋妸銉﹀剻闁活澁鎷�
 echo '/swapfile none swap sw 0 0' >> /etc/fstab
 ```
 
-## 纭欢寤鸿
+## 缁绢収鍏涘▎銏狀嚈妤︽鍞�
 
-鏍规嵁瀹炴祴锛屾帹鑽愪互涓嬮厤缃細
+闁哄秷顫夊畵浣衡偓鍦仦缁佹挳鏁嶇仦鎯ц吂闁艰姤鍔掓禍鎺撶▔鐎ｎ喖甯崇紓鍐惧櫙缁憋拷
 
-| 閰嶇疆 | 鎺ㄨ崘鍦烘櫙 | 鍐呭瓨寤鸿 |
+| 闂佹澘绉堕悿锟� | 闁规亽鍔忓畷姗€宕烽悜妯荤彲 | 闁告劕鎳庨悺銊ヮ嚈妤︽鍞� |
 |------|----------|----------|
-| J绯诲垪/N绯诲垪 | 杞诲害浣跨敤 | 8GB+ |
-| i3/i5绾у埆 | 姝ｅ父浣跨敤 | 16GB+ |
-| 楂樼閰嶇疆 | 閲嶅害<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a> | 32GB+ |
+| J缂侇垵顕ч崹锟�/N缂侇垵顕ч崹锟� | 閺夌偠顕х€硅櫕鎷呯捄銊︽殢 | 8GB+ |
+| i3/i5缂佺嫏鍐ㄧ劶 | 婵繐绲介悥鑸垫媴鐠恒劍鏆� | 16GB+ |
+| 濡ゅ倹岣块顒勬煀瀹ュ洨鏋� | 闂佹彃绉寸€癸拷<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a> | 32GB+ |
 
-## 涓€閿紭鍖栬剼鏈�
+## 濞戞挴鍋撻梺娆惧枙缁鳖參宕犻弽顒€澹栭柡鍫嫹
 
-鎴戞暣鐞嗕簡涓€涓竴閿紭鍖栬剼鏈細
+闁瑰瓨鍨堕弳锝夋偠閸℃洜鍟婂☉鎾亾濞戞搩浜欑粩鎾煥椤旇崵鍠橀柛鏍ㄧ墳閸撳ジ寮甸濠勭獥
 
 ```bash
 #!/bin/bash
-# GEAKOS 浼樺寲鑴氭湰
+# GEAKOS 濞村吋锚鐎垫煡鎳樺顓熸嫳
 
-echo "=== GEAKOS 鍐呭瓨浼樺寲寮€濮� ==="
+echo "=== GEAKOS 闁告劕鎳庨悺銊﹀濡搫顕х€殿喒鍋撳┑顕嗘嫹 ==="
 
-# 1. 鍋滄闈炲繀瑕佹湇鍔�
-echo "[1/5] 鍋滄闈炲繀瑕佹湇鍔�..."
+# 1. 闁稿绮嶉娑㈡閻愯尙绠戦悷鏇氱劍濠€鍥礉閿燂拷
+echo "[1/5] 闁稿绮嶉娑㈡閻愯尙绠戦悷鏇氱劍濠€鍥礉閿燂拷..."
 systemctl stop geak-ai 2>/dev/null
 systemctl stop geak-link 2>/dev/null
 
-# 2. 闄愬埗Docker鍐呭瓨
-echo "[2/5] 閰嶇疆Docker鍐呭瓨闄愬埗..."
+# 2. 闂傚嫭鍔曢崺妗猳cker闁告劕鎳庨悺锟�
+echo "[2/5] 闂佹澘绉堕悿鍜瞣cker闁告劕鎳庨悺銊╂⒔閹邦剙鐓�..."
 mkdir -p /etc/docker
 cat > /etc/docker/daemon.json <<EOF
 {
@@ -125,45 +125,45 @@ cat > /etc/docker/daemon.json <<EOF
 }
 EOF
 
-# 3. 娓呯悊鏃ュ織
-echo "[3/5] 娓呯悊绯荤粺鏃ュ織..."
+# 3. 婵炴挸鎳愰幃濠囧籍閵夈儳绠�
+echo "[3/5] 婵炴挸鎳愰幃濠勫寲閼姐倗鍩犻柡鍐﹀劚缁伙拷..."
 journalctl --vacuum-time=7d
 rm -rf /var/log/*.gz
 
-# 4. 娓呯悊涓存椂鏂囦欢
-echo "[4/5] 娓呯悊涓存椂鏂囦欢..."
+# 4. 婵炴挸鎳愰幃濠冪▔鐎涙ɑ顦ч柡鍌氭矗濞嗭拷
+echo "[4/5] 婵炴挸鎳愰幃濠冪▔鐎涙ɑ顦ч柡鍌氭矗濞嗭拷..."
 rm -rf /tmp/*
 rm -rf /var/tmp/*
 
-# 5. 閲嶅惎Docker
-echo "[5/5] 閲嶅惎Docker鏈嶅姟..."
+# 5. 闂佹彃绉撮幆宥cker
+echo "[5/5] 闂佹彃绉撮幆宥cker闁哄牆绉存慨锟�..."
 systemctl restart docker
 
-echo "=== 浼樺寲瀹屾垚锛佸缓璁噸鍚郴缁� ==="
-echo "浼樺寲鍚庡唴瀛樺崰鐢ㄥ簲璇ラ檷浣�30-50%"
+echo "=== 濞村吋锚鐎佃尙鈧懓鏈崹姘舵晬娴ｅ摜绱﹂悹渚囧櫍閸ｆ悂宕ラ婊堝厙缂備緤鎷� ==="
+echo "濞村吋锚鐎垫煡宕ユ惔鈥虫暥閻庢稒锚瀹曚即鎮介妸銉у畨閻犲洢鍎靛閿嬫媴閿燂拷30-50%"
 ```
 
-## 鏁堟灉瀵规瘮
+## 闁轰礁鐗婇悘澶屸偓浣冾潐閻︼拷
 
-| 浼樺寲鍓� | 浼樺寲鍚� | 鑺傜渷 |
+| 濞村吋锚鐎垫煡宕滈敓锟� | 濞村吋锚鐎垫煡宕ラ敓锟� | 闁煎搫鍊诲〒锟� |
 |--------|--------|------|
 | 2.5GB | 1.2GB | 52% |
 | 3.0GB | 1.5GB | 50% |
 | 3.5GB | 1.8GB | 49% |
 
-## 鎬荤粨
+## 闁诡剝宕电划锟�
 
-<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>鍐呭瓨鍗犵敤楂樼殑闂纭疄瀛樺湪锛屼絾閫氳繃浠ヤ笂浼樺寲鍙互鏄捐憲闄嶄綆銆傚浜庝綆閰嶇疆璁惧锛堝N5105/3865U锛夛紝**寤鸿鑷冲皯8GB鍐呭瓨**锛屼紭鍖栧悗鍙祦鐣呰繍琛屻€�
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌涐缚濞堟垿姊婚鈧。鐣屾兜椤旇偐鏉介悗娑櫭﹢顏堟晬鐏炶偐绋婚梺顐ｄ亢缁诲啯绂掗妷銈囩憪濞村吋锚鐎垫煡宕ｉ娆庣鞍闁哄嫭宕橀幉鏌ユ⒔瀹ュ嫮绉甸柕鍡楀€搁顔界鎼存繄绉甸梺鏉跨Ф閻ゅ棛鎷嬮幆褜妲甸柨娑樼墕椤╊湐5105/3865U闁挎稑顧€缁憋拷**鐎点倝缂氶鍛存嚊閸愯尙姣�8GB闁告劕鎳庨悺锟�**闁挎稑濂旂槐顓㈠礌閺嵮勫€甸柛娆樺灡缁侊箓鎮鹃崨鎵閻炴稑琚埀顒婃嫹
 
-濡傛灉浣犺拷姹傛洿浣庣殑璧勬簮鍗犵敤锛屽彲浠ヨ€冭檻 <a href="/guide/geakos-vs-fnos-deep-comparison/" target="_blank">椋炵墰OS</a> 浣滀负鏇夸唬鏂规銆�
+濠碘€冲€归悘澶嬫媴閻樼儤瀚规慨鐟板€瑰ú鎸庢媴鎼达絾鐣遍悹褍瀚花顕€宕￠悩鍨殢闁挎稑鑻ぐ鍙夌閵夈劉鍋撻崘顓燁€� <a href="/guide/geakos-vs-fnos-deep-comparison/" target="_blank">濡炲鍋熸晶鐧楽</a> 濞达絾绮堢拹鐔煎即婢剁ǹ鏁╅柡鍌濐潐椤㈠秹濡撮敓锟�
 
 ---
 
-*鏈夐棶棰樻杩庤瘎璁哄尯璁ㄨ銆傛洿澶歂AS鎶€宸ц鍏虫敞 [NAS瀛﹂櫌](/guide/)銆�*
+*闁哄牆顦靛Λ鑸碉紣濡椿鍋ㄩ弶鈺佹唉閻﹀海鎷嬮崫鍕殬閻犱降鍔忛鎴﹀Υ閸屾稒绾鑸电搳AS闁瑰灈鍋撶€圭鍡╁殲闁稿繗娅曢弫锟� [NAS閻庢冻绠撳▍瀹�(/guide/)闁靛棴鎷�*
 
 <div class="page-nav">
-  <a href="/guide/geakos-vs-fnos-deep-comparison/" rel="prev">涓婁竴椤碉細GEAKOS vs 椋炵墰OS 娣卞害妯瘎锛氳皝鎵嶆槸鍥戒骇鍏嶈垂NAS涔嬬帇锛�</a>
-  <a href="/guide/minipc-geakos-3865u-review/" rel="next">涓嬩竴椤碉細杩蜂綘涓绘満瑁匞EAKOS锛欼ntel 3865U鎬ц兘瀹炴祴</a>
+  <a href="/guide/geakos-vs-fnos-deep-comparison/" rel="prev">濞戞挸锕ｇ粩瀛樸亜绾板绐桮EAKOS vs 濡炲鍋熸晶鐧楽 婵烇絽宕€瑰啿螣椤忓洨妲戦柨娑欎亢閻ㄦ繈骞嶅鍡樞﹂柛銉﹀灊妤犲洭宕楀鍫濈€璑AS濞戞柨顑囩敮鍥晬閿燂拷</a>
+  <a href="/guide/minipc-geakos-3865u-review/" rel="next">濞戞挸顑勭粩瀛樸亜绾板绐楅弶鈺勬腹缂嶆ɑ绋夌紒妯荤皻閻熶礁灏€EAKOS闁挎稒顑梟tel 3865U闁诡儸鍡楀幋閻庡湱鍋炵粊锟�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*闁哄牜鍓氶弸鍐偨閿燂拷 NUC NAS Hub 闁煎浜滄慨鈺呮偨閻旂ǹ鐏�*

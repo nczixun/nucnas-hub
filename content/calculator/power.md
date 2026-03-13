@@ -1,13 +1,13 @@
-锘�---
-title: "鍔熻€楄绠楀櫒"
+閿橈拷---
+title: "閸旂喕鈧顓哥粻妤€娅�"
 slug: "power"
-description: "鏍规嵁CPU/GPU TDP璁＄畻鏁存満鍔熻€楋紝浼扮畻鐢佃垂"
+description: "閺嶈宓丆PU/GPU TDP鐠侊紕鐣婚弫瀛樻簚閸旂喕鈧绱濇导鎵暬閻絻鍨�"
 date: 2026-03-01
 ---
 
-# 鈿� 鍔熻€楄绠楀櫒
+# 閳匡拷 閸旂喕鈧顓哥粻妤€娅�
 
-鏍规嵁纭欢 TDP 璁＄畻鏁存満鍔熻€楀拰骞村害鐢佃垂銆�
+閺嶈宓佺涵顑挎 TDP 鐠侊紕鐣婚弫瀛樻簚閸旂喕鈧鎷伴獮鏉戝閻絻鍨傞妴锟�
 
 <div class="calculator">
   <div class="calc-input">
@@ -21,38 +21,38 @@ date: 2026-03-01
   </div>
   
   <div class="calc-input">
-    <label>鍏朵粬閰嶄欢 (W)</label>
+    <label>閸忔湹绮柊宥勬 (W)</label>
     <input type="number" id="other-tdp" value="50" min="0" max="200">
   </div>
   
   <div class="calc-input">
-    <label>姣忔棩浣跨敤鏃堕暱 (灏忔椂)</label>
+    <label>濮ｅ繑妫╂担璺ㄦ暏閺冨爼鏆� (鐏忓繑妞�)</label>
     <input type="number" id="hours" value="8" min="0" max="24">
   </div>
   
   <div class="calc-input">
-    <label>鐢佃垂 (鍏�/搴�)</label>
+    <label>閻絻鍨� (閸忥拷/鎼达拷)</label>
     <input type="number" id="electricity" value="0.6" step="0.1" min="0" max="2">
   </div>
   
-  <button onclick="calculatePower()" class="calc-btn">璁＄畻鍔熻€�</button>
+  <button onclick="calculatePower()" class="calc-btn">鐠侊紕鐣婚崝鐔烩偓锟�</button>
   
   <div class="result" id="result" style="display:none;">
     <div class="result-item">
-      <span>鏁存満鍔熻€�</span>
+      <span>閺佸瓨婧€閸旂喕鈧拷</span>
       <strong id="total-power">0 W</strong>
     </div>
     <div class="result-item">
-      <span>姣忔棩鑰楃數</span>
-      <strong id="daily-power">0 搴�</strong>
+      <span>濮ｅ繑妫╅懓妤冩暩</span>
+      <strong id="daily-power">0 鎼达拷</strong>
     </div>
     <div class="result-item">
-      <span>姣忔湀鐢佃垂</span>
-      <strong id="monthly-cost">0 鍏�</strong>
+      <span>濮ｅ繑婀€閻絻鍨�</span>
+      <strong id="monthly-cost">0 閸忥拷</strong>
     </div>
     <div class="result-item">
-      <span>骞村害鐢佃垂</span>
-      <strong id="yearly-cost">0 鍏�</strong>
+      <span>楠炴潙瀹抽悽浣冨瀭</span>
+      <strong id="yearly-cost">0 閸忥拷</strong>
     </div>
   </div>
 </div>
@@ -71,9 +71,9 @@ function calculatePower() {
   const yearly = daily * 365 * electricity;
   
   document.getElementById('total-power').textContent = total + ' W';
-  document.getElementById('daily-power').textContent = daily.toFixed(2) + ' 搴�';
-  document.getElementById('monthly-cost').textContent = monthly.toFixed(2) + ' 鍏�';
-  document.getElementById('yearly-cost').textContent = yearly.toFixed(2) + ' 鍏�';
+  document.getElementById('daily-power').textContent = daily.toFixed(2) + ' 鎼达拷';
+  document.getElementById('monthly-cost').textContent = monthly.toFixed(2) + ' 閸忥拷';
+  document.getElementById('yearly-cost').textContent = yearly.toFixed(2) + ' 閸忥拷';
   
   document.getElementById('result').style.display = 'block';
 }

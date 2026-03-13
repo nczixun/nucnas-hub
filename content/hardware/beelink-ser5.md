@@ -1,35 +1,35 @@
 ---
-title: "Beelink SER5 璇勬祴锛欰MD 5800H 鎬т环姣斾箣閫�"
+title: "Beelink SER5 鐠囧嫭绁撮敍娆癕D 5800H 閹傜幆濮ｆ柧绠ｉ柅锟�"
 date: 2026-02-18
 categories: ["hardware"]
 brand: "Beelink"
 model: "SER5"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Beelink+SER5"
-bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SER5+娴嬭瘎"
+bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SER5+濞村鐦�"
 youtube_url: "https://www.youtube.com/results?search_query=Beelink+SER5+review"
-pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
-cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
+pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
+cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
 slug: "beelink-ser5"
 ---
 
-# Beelink SER5 璇勬祴
+# Beelink SER5 鐠囧嫭绁�
 
 
-<a href="/review/beelink-ser5/" target="_blank">Beelink SER5</a> 鎼浇 AMD 5800H 澶勭悊鍣紝鏄竴娆炬€т环姣旀瀬楂樼殑<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
+<a href="/review/beelink-ser5/" target="_blank">Beelink SER5</a> 閹碱叀娴� AMD 5800H 婢跺嫮鎮婇崳顭掔礉閺勵垯绔村▎鐐偓褌鐜В鏃€鐎妯兼畱<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
 
-## 涓昏鐗圭偣
+## 娑撴槒顩﹂悧鍦仯
 
-- AMD 5800H 鎬ц兘寮哄姴
-- 鎺ュ彛涓板瘜
-- 浠锋牸瀹炴儬
+- AMD 5800H 閹嗗厴瀵搫濮�
+- 閹恒儱褰涙稉鏉跨槣
+- 娴犻攱鐗哥€圭偞鍎�
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/ai/openclaw-day7/" rel="prev">涓婁竴椤碉細Day 7锛氶儴缃蹭笂绾夸笌瀹夊叏璁剧疆</a>
+  <a href="/ai/openclaw-day7/" rel="prev">娑撳﹣绔存い纰夌窗Day 7閿涙岸鍎寸純韫瑐缁惧じ绗岀€瑰鍙忕拋鍓х枂</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

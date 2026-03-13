@@ -1,19 +1,19 @@
 ---
-title: "Immich 自建照片云：NAS 搭建指南"
+title: "Immich 鑷缓鐓х墖浜戯細NAS 鎼缓鎸囧崡"
 date: 2026-01-01
 categories: ["nas"]
-summary: "Immich 自建照片云教程，Google Photos 替代品"
-tags: ["Immich", "照片", "云相册", "NAS"]
+summary: "Immich 鑷缓鐓х墖浜戞暀绋嬶紝Google Photos 鏇夸唬鍝�"
+tags: ["Immich", "鐓х墖", "浜戠浉鍐�", "NAS"]
 slug: "immich-photo-cloud"
 ---
 
-# Immich 自建照片云
+# Immich 鑷缓鐓х墖浜�
 
-## 什么是 Immich？
+## 浠€涔堟槸 Immich锛�
 
-Immich 是开源的自托管照片备份解决方案，界面类似 Google Photos。
+Immich 鏄紑婧愮殑鑷墭绠＄収鐗囧浠借В鍐虫柟妗堬紝鐣岄潰绫讳技 Google Photos銆�
 
-## 安装方式
+## 瀹夎鏂瑰紡
 
 ### Docker Compose
 
@@ -59,21 +59,21 @@ volumes:
   pgdata:
 ```
 
-## 功能特点
+## 鍔熻兘鐗圭偣
 
-- ✅ 自动备份手机照片
-- ✅ AI 人脸识别
-- ✅ 地图视图
-- ✅ 相册管理
-- ✅ 共享相册
+- 鉁� 鑷姩澶囦唤鎵嬫満鐓х墖
+- 鉁� AI 浜鸿劯璇嗗埆
+- 鉁� 鍦板浘瑙嗗浘
+- 鉁� 鐩稿唽绠＄悊
+- 鉁� 鍏变韩鐩稿唽
 
-## 移动端
+## 绉诲姩绔�
 
-- iOS：App Store
-- Android：Google Play
+- iOS锛欰pp Store
+- Android锛欸oogle Play
 
-## 总结
+## 鎬荤粨
 
-Immich 是自建照片云的最佳选择。
+Immich 鏄嚜寤虹収鐗囦簯鐨勬渶浣抽€夋嫨銆�
 
-**推荐指数**：⭐⭐⭐⭐⭐
+**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨瓙

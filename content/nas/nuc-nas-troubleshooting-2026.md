@@ -1,51 +1,51 @@
 ---
-title: "NUC鍋歂AS閬垮潙鎸囧崡锛氳繖5涓父瑙侀棶棰樹竴涓嶅皬蹇冨氨缈昏溅"
+title: "NUC閸嬫瓊AS闁灝娼欓幐鍥у础閿涙俺绻�5娑擃亜鐖剁憴渚€妫舵０妯圭娑撳秴鐨箛鍐ㄦ皑缂堟槒婧�"
 date: 2026-03-02
 categories: ["nas"]
-summary: "鍏ユ墜NUC鍋歂AS蹇呯湅锛�5涓父瑙佺炕杞﹂棶棰�+Quick Fix瑙ｅ喅鏂规锛岃繕鏈夌‖浠堕€夎喘寤鸿"
+summary: "閸忋儲澧淣UC閸嬫瓊AS韫囧懐婀呴敍锟�5娑擃亜鐖剁憴浣虹倳鏉烇箓妫舵０锟�+Quick Fix鐟欙絽鍠呴弬瑙勵攳閿涘矁绻曢張澶屸€栨禒鍫曗偓澶庡枠瀵ら缚顔�"
 slug: "nuc-nas-troubleshooting-2026"
 ---
 
-# NUC鍋歂AS閬垮潙鎸囧崡锛氳繖5涓父瑙侀棶棰樹竴涓嶅皬蹇冨氨缈昏溅
+# NUC閸嬫瓊AS闁灝娼欓幐鍥у础閿涙俺绻�5娑擃亜鐖剁憴渚€妫舵０妯圭娑撳秴鐨箛鍐ㄦ皑缂堟槒婧�
 
 
-鍏ユ墜<a href="/review/" target="_blank">NUC</a>鍋�<a href="/guide/" target="_blank">NAS</a>鐨勭帺瀹惰秺鏉ヨ秺澶氾紝浣嗙湡姝ｇ敤璧锋潵鐨勫嵈娌″嚑涓€斺€斾笉鏄崱鍦ㄨ櫄鎷熷寲鐩撮€氫笂锛屽氨鏄椋庢墖鍣煶鎶樼（鍒伴€€璐с€�
-
----
-
-## ?? 闂涓€锛氳櫄鎷熷寲鐩撮€氬け璐�
-
-### 鐥囩姸琛ㄧ幇
-- PVE/ESXi寮€鍚疺T-d鍚庤櫄鎷熸満鏃犳硶鍚姩
-- 鎻愮ず"IOMMU group is empty"鎴�"not usable"
-
-### 瑙ｅ喅鏂规
-1. BIOS寮€鍚疺T-d鍜孖nter VT-X
-2. 娣诲姞鍐呮牳鍙傛暟锛歩ntel_iommu=on iommu=pt
-3. 鐩撮€氳澶囨坊鍔犲埌铏氭嫙鏈�
+閸忋儲澧�<a href="/review/" target="_blank">NUC</a>閸嬶拷<a href="/guide/" target="_blank">NAS</a>閻ㄥ嫮甯虹€规儼绉洪弶銉ㄧШ婢舵熬绱濇担鍡欐埂濮濓絿鏁ょ挧閿嬫降閻ㄥ嫬宓堝▽鈥冲殤娑擃亖鈧柡鈧柧绗夐弰顖氬幢閸︺劏娅勯幏鐔峰閻╂挳鈧矮绗傞敍灞芥皑閺勵垵顫︽搴㈠閸ｎ亪鐓堕幎妯硷紙閸掍即鈧偓鐠愌佲偓锟�
 
 ---
 
-## ?? 闂浜岋細椋庢墖鍣煶
+## ?? 闂傤噣顣芥稉鈧敍姘虫珓閹风喎瀵查惄鎾偓姘亼鐠愶拷
 
-### 瑙ｅ喅鏂规
-1. BIOS璋冭妭椋庢墖鏇茬嚎
-2. 浣跨敤fancontrol鑴氭湰
-3. 鏇存崲闈欓煶椋庢墖
+### 閻ュ洨濮哥悰銊у箛
+- PVE/ESXi瀵偓閸氱柡T-d閸氬氦娅勯幏鐔告簚閺冪姵纭堕崥顖氬З
+- 閹绘劗銇�"IOMMU group is empty"閹达拷"not usable"
 
----
-
-## ?? 闂涓夛細纭洏浼戠湢
-
-### 瑙ｅ喅鏂规
-閰嶇疆<a href="/guide/" target="_blank">NAS</a>绯荤粺浼戠湢鍙傛暟锛岃缃悎閫傜殑浼戠湢鏃堕棿銆�
+### 鐟欙絽鍠呴弬瑙勵攳
+1. BIOS瀵偓閸氱柡T-d閸滃瓥nter VT-X
+2. 濞ｈ濮為崘鍛壋閸欏倹鏆熼敍姝﹏tel_iommu=on iommu=pt
+3. 閻╂挳鈧俺顔曟径鍥ㄥ潑閸旂姴鍩岄搹姘珯閺堬拷
 
 ---
 
-*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
+## ?? 闂傤噣顣芥禍宀嬬窗妞嬪孩澧栭崳顏堢叾
+
+### 鐟欙絽鍠呴弬瑙勵攳
+1. BIOS鐠嬪啳濡搴㈠閺囪尙鍤�
+2. 娴ｈ法鏁ancontrol閼存碍婀�
+3. 閺囧瓨宕查棃娆撶叾妞嬪孩澧�
+
+---
+
+## ?? 闂傤噣顣芥稉澶涚窗绾剛娲忔导鎴犳耿
+
+### 鐟欙絽鍠呴弬瑙勵攳
+闁板秶鐤�<a href="/guide/" target="_blank">NAS</a>缁崵绮烘导鎴犳耿閸欏倹鏆熼敍宀冾啎缂冾喖鎮庨柅鍌滄畱娴兼垹婀㈤弮鍫曟？閵嗭拷
+
+---
+
+*閺囨潙顦�<a href="/guide/" target="_blank">NAS</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [NAS鐎涳箓娅宂(/guide/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/guide/synology-dsm-beginner-guide-2026/" rel="prev">涓婁竴椤碉細缇ゆ櫀DSM 7.2鏂版墜鍏ラ棬</a>
+  <a href="/guide/synology-dsm-beginner-guide-2026/" rel="prev">娑撳﹣绔存い纰夌窗缂囥倖娅€DSM 7.2閺傜増澧滈崗銉╂，</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

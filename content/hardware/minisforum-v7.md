@@ -1,35 +1,35 @@
 ---
-title: "Minisforum V7 璇勬祴锛欰MD 8845HS 鏃楄埌杩蜂綘涓绘満"
+title: "Minisforum V7 鐠囧嫭绁撮敍娆癕D 8845HS 閺冩鍩屾潻铚傜稑娑撶粯婧€"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "V7"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+V7"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+V7+娴嬭瘎"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+V7+濞村鐦�"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+V7+review"
-pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
-cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
+pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
+cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
 slug: "minisforum-v7"
 ---
 
-# Minisforum V7 璇勬祴
+# Minisforum V7 鐠囧嫭绁�
 
 
-<a href="/review/minisforum-v7/" target="_blank">Minisforum V7</a> 鏄竴娆� AMD 8845HS 鏃楄埌绾�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
+<a href="/review/minisforum-v7/" target="_blank">Minisforum V7</a> 閺勵垯绔村▎锟� AMD 8845HS 閺冩鍩岀痪锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
 
-## 涓昏鐗圭偣
+## 娑撴槒顩﹂悧鍦仯
 
-- AMD 8845HS 鎬ц兘鏃楄埌
-- 鎺ュ彛涓板瘜
-- 鏁ｇ儹浼樼
+- AMD 8845HS 閹嗗厴閺冩鍩�
+- 閹恒儱褰涙稉鏉跨槣
+- 閺侊絿鍎规导妯碱潊
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/minisforum-v3/" rel="prev">涓婁竴椤碉細Minisforum V3 璇勬祴</a>
+  <a href="/review/minisforum-v3/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum V3 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

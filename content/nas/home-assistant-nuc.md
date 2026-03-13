@@ -1,21 +1,21 @@
 ---
-title: "Home Assistant 安装教程：智能家居中枢"
+title: "Home Assistant 瀹夎鏁欑▼锛氭櫤鑳藉灞呬腑鏋�"
 date: 2026-01-01
 categories: ["nas"]
-summary: "Home Assistant 安装教程，打造智能家居中枢"
-tags: ["Home Assistant", "智能家居", "NAS", "Docker"]
+summary: "Home Assistant 瀹夎鏁欑▼锛屾墦閫犳櫤鑳藉灞呬腑鏋�"
+tags: ["Home Assistant", "鏅鸿兘瀹跺眳", "NAS", "Docker"]
 slug: "home-assistant-nuc"
 ---
 
-# Home Assistant 安装教程
+# Home Assistant 瀹夎鏁欑▼
 
-## 什么是 Home Assistant？
+## 浠€涔堟槸 Home Assistant锛�
 
-Home Assistant 是开源的智能家居平台，支持数千种智能设备。
+Home Assistant 鏄紑婧愮殑鏅鸿兘瀹跺眳骞冲彴锛屾敮鎸佹暟鍗冪鏅鸿兘璁惧銆�
 
-## 安装方式
+## 瀹夎鏂瑰紡
 
-### Docker 安装（推荐）
+### Docker 瀹夎锛堟帹鑽愶級
 
 ```yaml
 version: '3.8'
@@ -34,34 +34,34 @@ services:
     privileged: true
 ```
 
-### 启动
+### 鍚姩
 
 ```bash
 docker compose up -d
 ```
 
-## 首次配置
+## 棣栨閰嶇疆
 
-1. 访问 `http://localhost:8123`
-2. 创建账户
-3. 自动发现设备
+1. 璁块棶 `http://localhost:8123`
+2. 鍒涘缓璐︽埛
+3. 鑷姩鍙戠幇璁惧
 
-## 常用集成
+## 甯哥敤闆嗘垚
 
-| 集成 | 用途 |
+| 闆嗘垚 | 鐢ㄩ€� |
 |------|------|
-| 米家 | 小米设备 |
-| HomeKit | 苹果设备 |
-| Tuya | 涂鸦设备 |
-| MQTT | 自定义设备 |
+| 绫冲 | 灏忕背璁惧 |
+| HomeKit | 鑻规灉璁惧 |
+| Tuya | 娑傞甫璁惧 |
+| MQTT | 鑷畾涔夎澶� |
 
-##自动化
+##鑷姩鍖�
 
-### 创建自动化
+### 鍒涘缓鑷姩鍖�
 
 ```yaml
 automation:
-  - alias: "离家模式"
+  - alias: "绂诲妯″紡"
     trigger:
       - platform: state
         entity_id: binary_sensor.door
@@ -71,14 +71,14 @@ automation:
         entity_id: all
 ```
 
-## 推荐插件
+## 鎺ㄨ崘鎻掍欢
 
-- HACS：第三方插件市场
-- ESPHome：DIY 设备
-- Node-RED：可视化流程
+- HACS锛氱涓夋柟鎻掍欢甯傚満
+- ESPHome锛欴IY 璁惧
+- Node-RED锛氬彲瑙嗗寲娴佺▼
 
-## 总结
+## 鎬荤粨
 
-Home Assistant 是智能家居的核心，值得投入时间配置。
+Home Assistant 鏄櫤鑳藉灞呯殑鏍稿績锛屽€煎緱鎶曞叆鏃堕棿閰嶇疆銆�
 
-**推荐指数**：⭐⭐⭐⭐⭐
+**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨瓙

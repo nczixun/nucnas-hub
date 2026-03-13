@@ -1,58 +1,58 @@
 ---
-title: "Stable Diffusion WebUI 本地部署教程：2026最新版"
+title: "Stable Diffusion WebUI 鏈湴閮ㄧ讲鏁欑▼锛�2026鏈€鏂扮増"
 date: 2026-01-01
 categories: ["ai"]
-summary: "Stable Diffusion WebUI 本地部署教程，生成 AI 绘画"
-tags: ["Stable Diffusion", "AI 绘画", "本地部署", "教程", "WebUI"]
+summary: "Stable Diffusion WebUI 鏈湴閮ㄧ讲鏁欑▼锛岀敓鎴� AI 缁樼敾"
+tags: ["Stable Diffusion", "AI 缁樼敾", "鏈湴閮ㄧ讲", "鏁欑▼", "WebUI"]
 slug: "stable-diffusion-webui-deploy-2026"
 ---
 
-# Stable Diffusion WebUI 本地部署教程：2026最新版
+# Stable Diffusion WebUI 鏈湴閮ㄧ讲鏁欑▼锛�2026鏈€鏂扮増
 
-## 什么是 Stable Diffusion？
+## 浠€涔堟槸 Stable Diffusion锛�
 
-Stable Diffusion 是一个开源的 AI 图像生成模型，可以生成高质量的图片。
+Stable Diffusion 鏄竴涓紑婧愮殑 AI 鍥惧儚鐢熸垚妯″瀷锛屽彲浠ョ敓鎴愰珮璐ㄩ噺鐨勫浘鐗囥€�
 
-## 系统要求
+## 绯荤粺瑕佹眰
 
-### 最低配置
+### 鏈€浣庨厤缃�
 
-| 组件 | 要求 |
+| 缁勪欢 | 瑕佹眰 |
 |------|------|
-| 显卡 | GTX 1660 Ti |
-| 显存 | 6GB |
-| 内存 | 16GB |
-| 存储 | 50GB SSD |
+| 鏄惧崱 | GTX 1660 Ti |
+| 鏄惧瓨 | 6GB |
+| 鍐呭瓨 | 16GB |
+| 瀛樺偍 | 50GB SSD |
 
-### 推荐配置
+### 鎺ㄨ崘閰嶇疆
 
-| 组件 | 推荐 |
+| 缁勪欢 | 鎺ㄨ崘 |
 |------|------|
-| 显卡 | RTX 4070+ |
-| 显存 | 12GB+ |
-| 内存 | 32GB |
-| 存储 | 100GB SSD |
+| 鏄惧崱 | RTX 4070+ |
+| 鏄惧瓨 | 12GB+ |
+| 鍐呭瓨 | 32GB |
+| 瀛樺偍 | 100GB SSD |
 
-## 安装步骤
+## 瀹夎姝ラ
 
-### 1. 安装依赖
+### 1. 瀹夎渚濊禆
 
 ```powershell
-# 安装 Python 3.10
+# 瀹夎 Python 3.10
 winget install Python.Python.3.10
 
-# 安装 Git
+# 瀹夎 Git
 winget install Git.Git
 ```
 
-### 2. 克隆项目
+### 2. 鍏嬮殕椤圭洰
 
 ```powershell
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 ```
 
-### 3. 运行 WebUI
+### 3. 杩愯 WebUI
 
 ```powershell
 # Windows
@@ -62,97 +62,97 @@ cd stable-diffusion-webui
 ./webui.sh
 ```
 
-## 常用参数
+## 甯哥敤鍙傛暟
 
-### 文生图参数
+### 鏂囩敓鍥惧弬鏁�
 
-| 参数 | 说明 | 推荐值 |
+| 鍙傛暟 | 璇存槑 | 鎺ㄨ崘鍊� |
 |------|------|--------|
-| Prompt | 提示词 | 详细描述 |
-| Negative Prompt | 负面提示词 | 低质量、变形 |
-| Steps | 采样步数 | 20-30 |
-| CFG Scale | 引导强度 | 7-10 |
-| Seed | 随机种子 | -1 随机 |
+| Prompt | 鎻愮ず璇� | 璇︾粏鎻忚堪 |
+| Negative Prompt | 璐熼潰鎻愮ず璇� | 浣庤川閲忋€佸彉褰� |
+| Steps | 閲囨牱姝ユ暟 | 20-30 |
+| CFG Scale | 寮曞寮哄害 | 7-10 |
+| Seed | 闅忔満绉嶅瓙 | -1 闅忔満 |
 
-### 高分辨率修复
+### 楂樺垎杈ㄧ巼淇
 
 ```python
-# 开启 Hires.fix
+# 寮€鍚� Hires.fix
 Hires fix: True
 Upscale by: 2
 Denoising strength: 0.4
 ```
 
-## 推荐模型
+## 鎺ㄨ崘妯″瀷
 
-### 写实风格
+### 鍐欏疄椋庢牸
 
-| 模型 | 特点 |
+| 妯″瀷 | 鐗圭偣 |
 |------|------|
-| Realistic Vision | 真实感强 |
-| Juggernaut XL | 高细节 |
-| Deliberate | 创意丰富 |
+| Realistic Vision | 鐪熷疄鎰熷己 |
+| Juggernaut XL | 楂樼粏鑺� |
+| Deliberate | 鍒涙剰涓板瘜 |
 
-### 动漫风格
+### 鍔ㄦ极椋庢牸
 
-| 模型 | 特点 |
+| 妯″瀷 | 鐗圭偣 |
 |------|------|
-| Animagine XL 3.1 | 动漫专用 |
-| Pix2Pix | 风格转换 |
-| Counterfeit | 复古动漫 |
+| Animagine XL 3.1 | 鍔ㄦ极涓撶敤 |
+| Pix2Pix | 椋庢牸杞崲 |
+| Counterfeit | 澶嶅彜鍔ㄦ极 |
 
-## 本地模型存放位置
+## 鏈湴妯″瀷瀛樻斁浣嶇疆
 
 ```
 stable-diffusion-webui/
-└── models/
-    └── Stable-diffusion/
-        └── model.safetensors
+鈹斺攢鈹€ models/
+    鈹斺攢鈹€ Stable-diffusion/
+        鈹斺攢鈹€ model.safetensors
 ```
 
-## 常用插件
+## 甯哥敤鎻掍欢
 
-| 插件 | 功能 |
+| 鎻掍欢 | 鍔熻兘 |
 |------|------|
-| ControlNet | 姿势控制 |
-| LoRA | 风格微调 |
-| VAE | 画质提升 |
-| Deforum | 动画生成 |
+| ControlNet | 濮垮娍鎺у埗 |
+| LoRA | 椋庢牸寰皟 |
+| VAE | 鐢昏川鎻愬崌 |
+| Deforum | 鍔ㄧ敾鐢熸垚 |
 
-## 常见问题
+## 甯歌闂
 
-### Q: 显存不够怎么办？
+### Q: 鏄惧瓨涓嶅鎬庝箞鍔烇紵
 
-A: 使用量化版本模型，或开启 CPU 模式（不推荐，速度慢）
+A: 浣跨敤閲忓寲鐗堟湰妯″瀷锛屾垨寮€鍚� CPU 妯″紡锛堜笉鎺ㄨ崘锛岄€熷害鎱級
 
-### Q: 生成速度慢？
+### Q: 鐢熸垚閫熷害鎱紵
 
-A: 使用 xFormers 加速：
+A: 浣跨敤 xFormers 鍔犻€燂細
 
 ```powershell
 pip install xformers
 ```
 
-### Q: 模型放在哪里？
+### Q: 妯″瀷鏀惧湪鍝噷锛�
 
-A: `models/Stable-diffusion` 目录
+A: `models/Stable-diffusion` 鐩綍
 
-## 性能优化
+## 鎬ц兘浼樺寲
 
-### 显存优化
+### 鏄惧瓨浼樺寲
 
-1. 使用 --lowvram 参数
-2. 选择量化模型
-3. 减少批处理数量
+1. 浣跨敤 --lowvram 鍙傛暟
+2. 閫夋嫨閲忓寲妯″瀷
+3. 鍑忓皯鎵瑰鐞嗘暟閲�
 
-### 速度优化
+### 閫熷害浼樺寲
 
-1. 安装 xFormers
-2. 使用 TensorRT 优化
-3. 选择合适的采样器 (DPM++ 2M Karras)
+1. 瀹夎 xFormers
+2. 浣跨敤 TensorRT 浼樺寲
+3. 閫夋嫨鍚堥€傜殑閲囨牱鍣� (DPM++ 2M Karras)
 
-## 总结
+## 鎬荤粨
 
-Stable Diffusion WebUI 让 AI 绘画变得简单，部署到本地可以无限生成图片。
+Stable Diffusion WebUI 璁� AI 缁樼敾鍙樺緱绠€鍗曪紝閮ㄧ讲鍒版湰鍦板彲浠ユ棤闄愮敓鎴愬浘鐗囥€�
 
-**下一步**：选择一个喜欢的模型，开始创作吧！
+**涓嬩竴姝�**锛氶€夋嫨涓€涓枩娆㈢殑妯″瀷锛屽紑濮嬪垱浣滃惂锛�

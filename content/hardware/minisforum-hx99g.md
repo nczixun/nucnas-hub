@@ -1,33 +1,33 @@
 ---
-title: "Minisforum HX99G 璇勬祴锛欰MD 6900HX + RX 6600M 鐙樉缁勫悎"
+title: "Minisforum HX99G 鐠囧嫭绁撮敍娆癕D 6900HX + RX 6600M 閻欘剚妯夌紒鍕値"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "HX99G"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+HX99G"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+HX99G+娴嬭瘎"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+HX99G+濞村鐦�"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+HX99G+review"
-pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
-cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
+pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
+cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
 slug: "minisforum-hx99g"
 ---
 
-# Minisforum HX99G 璇勬祴
+# Minisforum HX99G 鐠囧嫭绁�
 
 
-## 涓€銆佸墠瑷€
+## 娑撯偓閵嗕礁澧犵懛鈧�
 
-鍦�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>鐨勫彂灞曞彶涓婏紝鏈変竴涓骇鍝佺郴鍒楀缁堣鐜╁娲ユ触涔愰亾鈥斺€旈摥鍑＄殑**Neptune锛堟捣鐜嬫槦锛夌郴鍒�**銆傚畠寮€鍒涙€у湴鍦�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>涓鍏ヤ簡**鐙珛鏄惧崱**锛岃"灏忛挗鐐�"鐨勬€ц兘涓婇檺琚交搴曟墦鐮淬€�
+閸︼拷<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閻ㄥ嫬褰傜仦鏇炲蕉娑撳⿵绱濋張澶夌娑擃亙楠囬崫浣洪兇閸掓顫愮紒鍫ｎ潶閻溾晛顔嶅ú銉﹁Е娑旀劙浜鹃垾鏂衡偓鏃堟懃閸戯紕娈�**Neptune閿涘牊鎹ｉ悳瀣Е閿涘閮撮崚锟�**閵嗗倸鐣犲鈧崚娑欌偓褍婀撮崷锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>娑擃厼顢ｉ崗銉ょ啊**閻欘剛鐝涢弰鎯у幢**閿涘矁顔€"鐏忓繘鎸楅悙锟�"閻ㄥ嫭鈧嗗厴娑撳﹪妾虹悮顐氦鎼存洘澧﹂惍娣偓锟�
 
-浠婂ぉ鏉ュ埌娴嬭瘎瀹ょ殑锛屾鏄繖涓€绯诲垪鐨勬槑鏄熶骇鍝佲€斺€�**閾嚒 HX99G**銆傚畠鎼浇AMD閿愰緳9 6900HX澶勭悊鍣ㄥ拰Radeon RX 6600M鐙珛鏄惧崱锛屽湪涓嶅埌2.5鍗囩殑浣撶Н鍐咃紝瀹炵幇浜嗙湡姝ｇ殑1080p娓告垙鑳藉姏銆�
+娴犲﹤銇夐弶銉ュ煂濞村鐦庣€广倗娈戦敍灞绢劀閺勵垵绻栨稉鈧化璇插灙閻ㄥ嫭妲戦弰鐔堕獓閸濅讲鈧柡鈧拷**闁绢厼鍤� HX99G**閵嗗倸鐣犻幖顓℃祰AMD闁挎劙绶�9 6900HX婢跺嫮鎮婇崳銊ユ嫲Radeon RX 6600M閻欘剛鐝涢弰鎯у幢閿涘苯婀稉宥呭煂2.5閸楀洨娈戞担鎾缎濋崘鍜冪礉鐎圭偟骞囨禍鍡欐埂濮濓絿娈�1080p濞撳憡鍨欓懗钘夊閵嗭拷
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/minisforum-hx100g/" rel="prev">涓婁竴椤碉細Minisforum HX100G 璇勬祴</a>
+  <a href="/review/minisforum-hx100g/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum HX100G 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

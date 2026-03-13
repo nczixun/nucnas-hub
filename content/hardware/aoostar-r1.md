@@ -2,39 +2,39 @@
 slug: "aoostar-r1"
 title: "Aoostar R1"
 date: 2026-02-27
-summary: "Aoostar R1: N100,鍙岀洏浣�,NAS涓绘満"
-description: "Aoostar R1: N100,鍙岀洏浣�,NAS涓绘満"
+summary: "Aoostar R1: N100,閸欏瞼娲忔担锟�,NAS娑撶粯婧€"
+description: "Aoostar R1: N100,閸欏瞼娲忔担锟�,NAS娑撶粯婧€"
 categories: ["hardware"]
-tags: ["N100", "鍙岀洏浣�", "NAS涓绘満", "nas"]
-keywords: ["N100", "鍙岀洏浣�", "NAS涓绘満", "nas"]
+tags: ["N100", "閸欏瞼娲忔担锟�", "NAS娑撶粯婧€", "nas"]
+keywords: ["N100", "閸欏瞼娲忔担锟�", "NAS娑撶粯婧€", "nas"]
 ---
 
-# Aoostar R1 璇勬祴
+# Aoostar R1 鐠囧嫭绁�
 
 
-## 姒傝堪
+## 濮掑倽鍫�
 
-<a href="/review/aoostar-r1/" target="_blank">Aoostar R1</a> 鏄竴娆惧熀浜� N100 澶勭悊鍣ㄧ殑鍙岀洏浣� <a href="/guide/" target="_blank">NAS</a> 涓绘満锛屼笓涓哄搴瓨鍌ㄨ璁°€�
+<a href="/review/aoostar-r1/" target="_blank">Aoostar R1</a> 閺勵垯绔村▎鎯х唨娴滐拷 N100 婢跺嫮鎮婇崳銊ф畱閸欏瞼娲忔担锟� <a href="/guide/" target="_blank">NAS</a> 娑撶粯婧€閿涘奔绗撴稉鍝勵啀鎼搭厼鐡ㄩ崒銊啎鐠伮扳偓锟�
 
-## 涓昏鐗圭偣
+## 娑撴槒顩﹂悧鍦仯
 
-- **澶勭悊鍣�**锛欼ntel N100
-- **鐩樹綅**锛氬弻鐩樹綅璁捐
-- **鐢ㄩ€�**锛氬搴�<a href="/guide/" target="_blank">NAS</a>銆佽交閲忕骇鏈嶅姟鍣�
+- **婢跺嫮鎮婇崳锟�**閿涙ntel N100
+- **閻╂ü缍�**閿涙艾寮婚惄妯圭秴鐠佹崘顓�
+- **閻€劑鈧拷**閿涙艾顔嶆惔锟�<a href="/guide/" target="_blank">NAS</a>閵嗕浇浜ら柌蹇曢獓閺堝秴濮熼崳锟�
 
-## 閫傜敤鍦烘櫙
+## 闁倻鏁ら崷鐑樻珯
 
-- 瀹跺涵鍔炲叕
-- 杞诲害娓告垙
-- 濯掍綋濞变箰
-- 涓撲笟宸ヤ綔
+- 鐎硅泛娑甸崝鐐插彆
+- 鏉炶瀹冲〒鍛婂灆
+- 婵帊缍嬫繛鍙樼
+- 娑撴挷绗熷銉ょ稊
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>鍜�<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [纭欢棰戦亾](/review/) 鍜� [NAS瀛﹂櫌](/guide/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閸滐拷<a href="/guide/" target="_blank">NAS</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/) 閸滐拷 [NAS鐎涳箓娅宂(/guide/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/guide/nas-storage-solution-guide-2026/" rel="prev">涓婁竴椤碉細NAS瀛樺偍鏂规鎬庝箞閫�</a>
+  <a href="/guide/nas-storage-solution-guide-2026/" rel="prev">娑撳﹣绔存い纰夌窗NAS鐎涙ê鍋嶉弬瑙勵攳閹簼绠為柅锟�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

@@ -1,62 +1,62 @@
 ---
-title: "2026骞存湰鍦板ぇ妯″瀷閮ㄧ讲鎸囧崡锛氬湪杩蜂綘涓绘満涓婅繍琛孌eepSeek R1"
+title: "2026妤犵偛鐡ㄥ﹢浼村捶閺夎￥浜ｆ俊顖椻偓宕団偓鐑芥焾閵娧嗩唹闁圭ǹ娲ゅ畷锟犳晬濮橆剚韬弶鈺勬腹缂嶆ɑ绋夌紒妯荤皻濞戞挸锕ㄧ换宥囨偘鐎涘當epSeek R1"
 date: 2026-03-05
 categories: ["ai"]
-tags: ["AI", "澶фā鍨�", "DeepSeek", "Ollama", "鏈湴閮ㄧ讲", "鏁欑▼"]
+tags: ["AI", "濠㈠爢鍕€渚€宕归敓锟�", "DeepSeek", "Ollama", "闁哄牜鍓欏﹢鎾焾閵娧嗩唹", "闁轰焦鐟ч埢锟�"]
 platform: "ai"
 slug: "deepseek-r1-local-deploy-minipc-2026"
 ---
 
-# 2026骞存湰鍦板ぇ妯″瀷閮ㄧ讲锛氳糠浣犱富鏈鸿繍琛孌eepSeek R1瀹屾暣鎸囧崡
+# 2026妤犵偛鐡ㄥ﹢浼村捶閺夎￥浜ｆ俊顖椻偓宕団偓鐑芥焾閵娧嗩唹闁挎稒淇虹化鐘虫媴閻樺崬鐦滈柡鍫ョ細缁诲秶鎮扮€涘當epSeek R1閻庣懓鏈弳锝夊箰閸パ冪
 
 
-**鏇存柊鏃ユ湡锛�** 2026骞�3鏈�5鏃�
+**闁哄洤鐡ㄩ弻濠囧籍閵夛附鍩傞柨娑虫嫹** 2026妤犵儑鎷�3闁哄牞鎷�5闁哄喛鎷�
 
-## 涓€銆佸墠瑷€
+## 濞戞挴鍋撻柕鍡曠婢х姷鎳涢埀锟�
 
-DeepSeek R1鏄腑鍥藉洟闃熷紑鍙戠殑寮€婧愬ぇ璇█妯″瀷锛屾€ц兘瀵规爣OpenAI o1锛屼絾瀹屽叏寮€婧愬彲鏈湴閮ㄧ讲銆傛湰鏂囧皢璇︾粏浠嬬粛濡備綍鍦�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>涓婃湰鍦拌繍琛孌eepSeek R1銆�
+DeepSeek R1闁哄嫷鍨懙鎴﹀炊閽樺绀嬮梻鍐枎缁辨垿宕ｉ幋鐘崇暠鐎殿喒鍋撴繝褎鍔曢妵鍥╂嫚椤撯檧鏋呮俊顖椻偓宕団偓鐑芥晬鐏為敮鍋撹閸忔ḿ鈧絻顫夐悥顤昿enAI o1闁挎稑濂旂徊鍓р偓鐟拌嫰閸欏繐顕ｉ埀顒€鈹冮幇顒€璁查柡鍫墮濠€鎾焾閵娧嗩唹闁靛棗鍊瑰﹢浼村棘閸パ呮閻犲浄濡囩划蹇旂鐎ｎ剛鐭濆┑鈥冲€风紞宥夊捶閿燂拷<a href="/review/" target="_blank">閺夆晞娓圭紞妯荤▔缂佹ɑ绨�</a>濞戞挸锕ュ﹢浼村捶閹峰瞼绠ラ悶娑樼摃eepSeek R1闁靛棴鎷�
 
-## 浜屻€佺‖浠惰姹�
+## 濞存粌琚埀顑胯兌閳ユ牗绂掗幆閭︽矗婵櫢鎷�
 
-### 2.1 鏈€浣庨厤缃紙7B鍙傛暟锛�
+### 2.1 闁哄牃鍋撳ù锝呴叄閸樸倗绱旈鍡欑7B闁告瑥鍊归弳鐔兼晬閿燂拷
 
-| 缁勪欢 | 瑕佹眰 |
+| 缂備礁瀚▎锟� | 閻熸洑鐒﹂惇锟� |
 | :--- | :--- |
-| **鍐呭瓨** | 16GB+ |
-| **瀛樺偍** | 30GB+锛堟ā鍨嬫枃浠讹級 |
-| **绯荤粺** | Linux/Windows WSL2 |
+| **闁告劕鎳庨悺锟�** | 16GB+ |
+| **閻庢稒锚閸嬶拷** | 30GB+闁挎稑鐗婅啯闁搞劌顑嗛弸鍐╃鐠佸湱绀� |
+| **缂侇垵宕电划锟�** | Linux/Windows WSL2 |
 
-### 2.2 鎺ㄨ崘閰嶇疆锛�14B+鍙傛暟锛�
+### 2.2 闁规亽鍔忓畷姗€鏌婂鍥╂瀭闁挎冻鎷�14B+闁告瑥鍊归弳鐔兼晬閿燂拷
 
-| 缁勪欢 | 瑕佹眰 |
+| 缂備礁瀚▎锟� | 閻熸洑鐒﹂惇锟� |
 | :--- | :--- |
-| **鍐呭瓨** | 32GB+ |
-| **瀛樺偍** | 50GB+ NVMe SSD |
-| **鏄惧崱** | 8GB+ VRAM锛堝彲閫夛紝CPU涔熻兘杩愯锛� |
+| **闁告劕鎳庨悺锟�** | 32GB+ |
+| **閻庢稒锚閸嬶拷** | 50GB+ NVMe SSD |
+| **闁哄嫭鍎冲畷锟�** | 8GB+ VRAM闁挎稑鐗嗚ぐ鏌ユ焻婢舵稓绀塁PU濞戞梻鍠曢崗妯绘交閹邦垼鏀介柨娑虫嫹 |
 
-## 涓夈€侀儴缃叉柟妗�
+## 濞戞挸顦埀顑跨窔閸庡绱旈崣澶嬬厵婵℃鎷�
 
-### 3.1 鏂规涓€锛�<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>锛堟帹鑽愶級
+### 3.1 闁哄倽顫夐、宥嗙▔閳ь剟鏁嶉敓锟�<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>闁挎稑鐗婄敮褰掓嚒閹板墎绀�
 
-<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>鏄綋鍓嶆渶娴佽鐨勬湰鍦板ぇ妯″瀷杩愯宸ュ叿锛屾敮鎸乄indows銆丮ac銆丩inux銆�
+<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>闁哄嫷鍨扮紞瀣礈瀹ュ棙浠樻繛缈犳祰椤㈡垿鎯冮崟顒佹嫳闁革附婢橀妵鍥熼垾宕団偓閿嬫交閹邦垼鏀界€规悶鍎遍崣鍧楁晬鐏炵偓鏆滈柟闀愮畼indows闁靛棔搴渁c闁靛棔淇痠nux闁靛棴鎷�
 
-**瀹夎姝ラ**锛�
+**閻庣懓顦抽ˉ濠傤潰閵夆晩鈧拷**闁挎冻鎷�
 
-1. 涓嬭浇<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>
+1. 濞戞挸顑堝ù锟�<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>
 ```bash
 # Linux
 curl -fsSL https://ollama.com/install.sh | sh
 
 # Windows
-# 鍓嶅線 https://ollama.com/download/windows 涓嬭浇瀹夎鍖�
+# 闁告挸绉寸欢锟� https://ollama.com/download/windows 濞戞挸顑堝ù鍥┾偓鐟邦槼椤ュ﹪宕犻敓锟�
 ```
 
 ---
 
-*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼鍜�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>鍐呭璇峰叧娉� [AI棰戦亾](/ai/) 鍜� [纭欢棰戦亾](/review/)銆�*
+*闁哄洦娼欓ˇ锟�<a href="/ai/" target="_blank">AI</a>闁轰焦鐟ч埢濂稿椽閿燂拷<a href="/review/" target="_blank">閺夆晞娓圭紞妯荤▔缂佹ɑ绨�</a>闁告劕鎳庨鎰嫚瀹勬澘褰犳繛澶涙嫹 [AI濡増鍨挎禍缍�(/ai/) 闁告粣鎷� [缁绢収鍏涘▎銏★紣閹达缚澹昡(/review/)闁靛棴鎷�*
 
 <div class="page-nav">
-  <a href="/review/amd-ryzen-ai-300-minipc-2026/" rel="prev">涓婁竴椤碉細AMD Ryzen AI 300绯诲垪杩蜂綘涓绘満閫夎喘鎸囧崡</a>
+  <a href="/review/amd-ryzen-ai-300-minipc-2026/" rel="prev">濞戞挸锕ｇ粩瀛樸亜绾板绐桝MD Ryzen AI 300缂侇垵顕ч崹顏呮交閾氬倻绋戝☉鎾剁帛濠р偓闂侇偄顦抽崰姗€骞愰崶褍纭€</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*闁哄牜鍓氶弸鍐偨閿燂拷 NUC NAS Hub 闁煎浜滄慨鈺呮偨閻旂ǹ鐏�*

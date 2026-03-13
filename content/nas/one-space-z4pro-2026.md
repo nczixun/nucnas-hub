@@ -1,45 +1,45 @@
 ---
-title: "鏋佺┖闂碯4Pro鎬ц兘鐗堟繁搴﹁瘎娴嬶細鏂颁竴浠AS鏃楄埌鏄惁鍊煎緱鍗囩骇锛�"
+title: "闁哄鑳堕埞鏍⒒绾帮拷4Pro闁诡儸鍡楀幋闁绘鐗婄换浣规償閿曚胶妲戞繛鏉戭儜缁变即寮０浣侯伇濞寸媭鏋朅S闁哄啯顨夐崺宀勫及椤栨碍鍎婇柛濠勫帶缁堕亶宕￠崶鈺呯崜闁挎冻鎷�"
 date: 2026-03-03
 categories: ["nas"]
-brand: "鏋佺┖闂�"
-model: "Z4Pro鎬ц兘鐗�"
+brand: "闁哄鑳堕埞鏍⒒閿燂拷"
+model: "Z4Pro闁诡儸鍡楀幋闁绘鎷�"
 platform: "qnap"
 official_url: "https://www.one-space.com"
-bilibili_url: "https://search.bilibili.com/all?keyword=鏋佺┖闂碯4Pro+娴嬭瘎"
-youtube_url: "https://www.youtube.com/results?search_query=鏋佺┖闂碯4Pro+review"
+bilibili_url: "https://search.bilibili.com/all?keyword=闁哄鑳堕埞鏍⒒绾帮拷4Pro+婵炴潙顑堥惁锟�"
+youtube_url: "https://www.youtube.com/results?search_query=闁哄鑳堕埞鏍⒒绾帮拷4Pro+review"
 pros: 
-  - "Intel N305鎬ц兘寮哄姴"
-  - "鍐呯疆Docker/铏氭嫙鏈�"
-  - "AI鐩稿唽鍔熻兘寮哄ぇ"
-  - "褰辫澧欎綋楠屼紭绉€"
+  - "Intel N305闁诡儸鍡楀幋鐎殿喖鎼慨锟�"
+  - "闁告劕鎳愰悿鍜瞣cker/闁惧繑纰嶇€氭瑩寮甸敓锟�"
+  - "AI闁烩晝枪閸炰粙宕濋悢璇插幋鐎殿喖鎼妵锟�"
+  - "鐟滄媽绮鹃～瀣櫠濞嗗海绉煎Δ鐘插缁鳖厾绮旈埀锟�"
 cons: 
-  - "铏氭嫙鏈烘€ц兘鏈夐檺"
-  - "浠锋牸鍋忛珮"
-  - "澶栫綉璁块棶閫熷害涓€鑸�"
+  - "闁惧繑纰嶇€氭瑩寮甸悜妯峰亾瑜戦崗姗€寮垫径鎰€�"
+  - "濞寸娀鏀遍悧鎼佸磻韫囨稓褰�"
+  - "濠㈣埖鐗滅紞澶屾媼閸ф锛栭梺顐ゅ枎鐎硅櫕绋夐埀顒勬嚋閿燂拷"
 slug: "one-space-z4pro-2026"
 ---
 
-# 鏋佺┖闂碯4Pro鎬ц兘鐗堟繁搴﹁瘎娴�
+# 闁哄鑳堕埞鏍⒒绾帮拷4Pro闁诡儸鍡楀幋闁绘鐗婄换浣规償閿曚胶妲戞繛杈炬嫹
 
 
-## 涓€銆佸墠瑷€
+## 濞戞挴鍋撻柕鍡曠婢х姷鎳涢埀锟�
 
-<a href="/guide/one-space-z4pro-2026/" target="_blank">鏋佺┖闂碯4Pro</a> 鏄柊涓€浠�<a href="/guide/" target="_blank">NAS</a>鏃楄埌锛屾惌杞絀ntel N305澶勭悊鍣ㄣ€�
+<a href="/guide/one-space-z4pro-2026/" target="_blank">闁哄鑳堕埞鏍⒒绾帮拷4Pro</a> 闁哄嫷鍨遍弻濠冪▔閳ь剚绂掗敓锟�<a href="/guide/" target="_blank">NAS</a>闁哄啯顨夐崺宀勬晬鐏炵偓鍎楅弶鐐电イntel N305濠㈣泛瀚幃濠囧闯閵婏絺鍋撻敓锟�
 
-## 涓昏鐗圭偣
+## 濞戞挻妲掗々锕傛偋閸︻厼浠�
 
-- Intel N305鎬ц兘寮哄姴
-- 鍐呯疆<a href="/guide/docker-best-practice/" target="_blank">Docker</a>/铏氭嫙鏈�
-- AI鐩稿唽鍔熻兘寮哄ぇ
-- 褰辫澧欎綋楠屼紭绉€
+- Intel N305闁诡儸鍡楀幋鐎殿喖鎼慨锟�
+- 闁告劕鎳愰悿锟�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>/闁惧繑纰嶇€氭瑩寮甸敓锟�
+- AI闁烩晝枪閸炰粙宕濋悢璇插幋鐎殿喖鎼妵锟�
+- 鐟滄媽绮鹃～瀣櫠濞嗗海绉煎Δ鐘插缁鳖厾绮旈埀锟�
 
 ---
 
-*鏇村<a href="/guide/" target="_blank">NAS</a>浜у搧娴嬭瘎璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
+*闁哄洦娼欓ˇ锟�<a href="/guide/" target="_blank">NAS</a>濞存籂鍐╂儌婵炴潙顑堥惁搴ｆ嫚瀹勬澘褰犳繛澶涙嫹 [NAS閻庢冻绠撳▍瀹�(/guide/)闁靛棴鎷�*
 
 <div class="page-nav">
-  <a href="/review/mini-pc-platform-comparison-2026/" rel="prev">涓婁竴椤碉細2026骞磋糠浣犱富鏈轰笁澶у钩鍙板姣�</a>
+  <a href="/review/mini-pc-platform-comparison-2026/" rel="prev">濞戞挸锕ｇ粩瀛樸亜绾板绐�2026妤犵偟顥愮化鐘虫媴閻樺崬鐦滈柡鍫ｆ〃缁椾焦寰勮闁解晠宕ｉ弶娆惧殸婵綇鎷�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*闁哄牜鍓氶弸鍐偨閿燂拷 NUC NAS Hub 闁煎浜滄慨鈺呮偨閻旂ǹ鐏�*

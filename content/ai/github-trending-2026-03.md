@@ -1,48 +1,48 @@
 ---
-title: "2026骞�3鏈圙itHub鐑棬AI椤圭洰鐩樼偣锛欰I浼翠荆銆佹湰鍦板ぇ妯″瀷銆丄gent宸ュ叿"
+title: "2026楠烇拷3閺堝湙itHub閻戭參妫珹I妞ゅ湱娲伴惄妯煎仯閿涙I娴肩繝鑽嗛妴浣规拱閸︽澘銇囧Ο鈥崇€烽妴涓刧ent瀹搞儱鍙�"
 date: 2026-03-03
 categories: ["ai"]
-summary: "鐩樼偣2026骞�3鏈圙itHub鏈€鐏殑AI椤圭洰锛屽寘鎷珹IRI AI浼翠荆銆乺uflo Agent缂栨帓骞冲彴銆丱penSandbox绛夛紝鎻愪緵璇︾粏瀹夎鏁欑▼銆�"
-tags: ["GitHub", "AI", "宸ュ叿", "鏁欑▼"]
+summary: "閻╂ḿ鍋�2026楠烇拷3閺堝湙itHub閺堚偓閻忣偆娈慉I妞ゅ湱娲伴敍灞藉瘶閹风徆IRI AI娴肩繝鑽嗛妴涔簎flo Agent缂傛牗甯撻獮鍐插酱閵嗕副penSandbox缁涘绱濋幓鎰返鐠囷妇绮忕€瑰顥婇弫娆戔柤閵嗭拷"
+tags: ["GitHub", "AI", "瀹搞儱鍙�", "閺佹瑧鈻�"]
 slug: "github-trending-2026-03"
 ---
 
-# 2026骞�3鏈圙itHub鐑棬AI椤圭洰鐩樼偣
+# 2026楠烇拷3閺堝湙itHub閻戭參妫珹I妞ゅ湱娲伴惄妯煎仯
 
 
-浠婂ぉGitHub trending鍙戝竷浜嗘渶鏂扮儹闂ㄩ」鐩紝璁╂垜浠竴璧锋潵鐪嬬湅鏈夊摢浜涘€煎緱鍏虫敞鐨�<a href="/ai/" target="_blank">AI</a>寮€婧愰」鐩紒
+娴犲﹤銇塆itHub trending閸欐垵绔锋禍鍡樻付閺傛壆鍎归梻銊┿€嶉惄顕嗙礉鐠佲晜鍨滄禒顑跨鐠ч攱娼甸惇瀣箙閺堝鎽㈡禍娑樷偓鐓庣繁閸忚櫕鏁為惃锟�<a href="/ai/" target="_blank">AI</a>瀵偓濠ф劙銆嶉惄顕嗙磼
 
-## ?? 鏈湡鐑棬椤圭洰涓€瑙�
+## ?? 閺堫剚婀￠悜顓㈡，妞ゅ湱娲版稉鈧憴锟�
 
-| 椤圭洰 | Stars | 浠婃棩鏂板 | 鎻忚堪 |
+| 妞ゅ湱娲� | Stars | 娴犲﹥妫╅弬鏉款杻 | 閹诲繗鍫� |
 |------|-------|----------|------|
-| airi | 21,210 | 1,425 | 鑷墭绠I浼翠荆 |
-| wifi-densepose | 20,699 | 5,080 | WiFi濮挎€佷及璁� |
-| ruflo | 17,825 | 821 | Claude Agent缂栨帓骞冲彴 |
-| OpenSandbox | 3,937 | 982 | 闃块噷AI娌欑 |
+| airi | 21,210 | 1,425 | 閼奉亝澧粻顡嘔娴肩繝鑽� |
+| wifi-densepose | 20,699 | 5,080 | WiFi婵寧鈧椒鍙婄拋锟� |
+| ruflo | 17,825 | 821 | Claude Agent缂傛牗甯撻獮鍐插酱 |
+| OpenSandbox | 3,937 | 982 | 闂冨潡鍣稟I濞屾瑧顔� |
 
 ---
 
-## 1?? AIRI - 鑷墭绠I浼翠荆 ?21,210
+## 1?? AIRI - 閼奉亝澧粻顡嘔娴肩繝鑽� ?21,210
 
-**椤圭洰鍦板潃**锛歨ttps://github.com/moeru-ai/airi
+**妞ゅ湱娲伴崷鏉挎絻**閿涙ttps://github.com/moeru-ai/airi
 
-AIRI鏄竴涓紑婧愮殑<a href="/ai/" target="_blank">AI</a> VTuber椤圭洰锛屾棬鍦ㄥ鐜癗euro-sama锛岃姣忎釜鐢ㄦ埛閮借兘鎷ユ湁鑷繁鐨勮櫄鎷�<a href="/ai/" target="_blank">AI</a>浼翠荆銆�
+AIRI閺勵垯绔存稉顏勭磻濠ф劗娈�<a href="/ai/" target="_blank">AI</a> VTuber妞ゅ湱娲伴敍灞炬，閸︺劌顦查悳鐧梕uro-sama閿涘矁顔€濮ｅ繋閲滈悽銊﹀煕闁€熷厴閹枫儲婀侀懛顏勭箒閻ㄥ嫯娅勯幏锟�<a href="/ai/" target="_blank">AI</a>娴肩繝鑽嗛妴锟�
 
-### ?? 鏍稿績鍔熻兘
+### ?? 閺嶇ǹ绺鹃崝鐔诲厴
 
-- ?? 鏀寔瀹炴椂璇煶瀵硅瘽
-- ?? 鑳界帺Minecraft銆丗actorio绛夋父鎴�
-- ?? 鏀寔Discord銆乀elegram闆嗘垚
-- ?? 鏀寔VRM/Live2D铏氭嫙褰㈣薄
-- ?? 鏀寔Web/妗岄潰/绉诲姩绔�
+- ?? 閺€顖涘瘮鐎圭偞妞傜拠顓㈢叾鐎电鐦�
+- ?? 閼崇晫甯篗inecraft閵嗕笚actorio缁涘鐖堕幋锟�
+- ?? 閺€顖涘瘮Discord閵嗕箑elegram闂嗗棙鍨�
+- ?? 閺€顖涘瘮VRM/Live2D閾忔碍瀚欒ぐ銏ｈ杽
+- ?? 閺€顖涘瘮Web/濡楀矂娼�/缁夎濮╃粩锟�
 
 ---
 
-*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
+*閺囨潙顦�<a href="/ai/" target="_blank">AI</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [AI妫版垿浜綸(/ai/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/ai/deepseek-r1-deploy/" rel="prev">涓婁竴椤碉細DeepSeek R1 鏈湴閮ㄧ讲鎸囧崡</a>
+  <a href="/ai/deepseek-r1-deploy/" rel="prev">娑撳﹣绔存い纰夌窗DeepSeek R1 閺堫剙婀撮柈銊ц閹稿洤宕�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

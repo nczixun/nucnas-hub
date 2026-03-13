@@ -1,25 +1,25 @@
 ---
-title: "TrueNAS vs Unraid vs DSM锛�2026骞碞AS绯荤粺鍏ㄩ潰瀵规瘮"
+title: "TrueNAS vs Unraid vs DSM閿涳拷2026楠炵AS缁崵绮洪崗銊╂桨鐎佃鐦�"
 date: 2026-03-05
 categories: ["nas"]
-tags: ["NAS", "TrueNAS", "Unraid", "缇ゆ櫀", "绯荤粺瀵规瘮"]
+tags: ["NAS", "TrueNAS", "Unraid", "缂囥倖娅€", "缁崵绮虹€佃鐦�"]
 platform: "nas"
 slug: "truenas-unraid-dsm-2026"
 ---
 
-# TrueNAS vs Unraid vs DSM锛�2026骞碞AS绯荤粺鍏ㄩ潰瀵规瘮
+# TrueNAS vs Unraid vs DSM閿涳拷2026楠炵AS缁崵绮洪崗銊╂桨鐎佃鐦�
 
 
-## 涓€銆佸墠瑷€
+## 娑撯偓閵嗕礁澧犵懛鈧�
 
-<a href="/guide/" target="_blank">NAS</a>绯荤粺涓夊ぇ宸ㄥご瀵规瘮銆�
+<a href="/guide/" target="_blank">NAS</a>缁崵绮烘稉澶娿亣瀹搞劌銇旂€佃鐦妴锟�
 
 ---
 
-*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
+*閺囨潙顦�<a href="/guide/" target="_blank">NAS</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [NAS鐎涳箓娅宂(/guide/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/guide/nas-setup-guide/" rel="prev">涓婁竴椤碉細NAS鎼缓鍏ㄦ敾鐣�</a>
+  <a href="/guide/nas-setup-guide/" rel="prev">娑撳﹣绔存い纰夌窗NAS閹碱厼缂撻崗銊︽暰閻ｏ拷</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

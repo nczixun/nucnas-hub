@@ -1,43 +1,43 @@
 ---
-title: "Minisforum UM790 Pro 璇勬祴锛欰MD 7940HS 鏃楄埌杩蜂綘涓绘満"
+title: "Minisforum UM790 Pro 鐠囧嫭绁撮敍娆癕D 7940HS 閺冩鍩屾潻铚傜稑娑撶粯婧€"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "UM790 Pro"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+UM790 Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM790 Pro+娴嬭瘎"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM790 Pro+濞村鐦�"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+UM790 Pro+review"
-pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
-cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
+pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
+cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
 slug: "minisforum-um790-pro"
 ---
 
-# Minisforum UM790 Pro 璇勬祴锛欰MD 7940HS 鏃楄埌杩蜂綘涓绘満
+# Minisforum UM790 Pro 鐠囧嫭绁撮敍娆癕D 7940HS 閺冩鍩屾潻铚傜稑娑撶粯婧€
 
 
-## 涓€銆佸墠瑷€
+## 娑撯偓閵嗕礁澧犵懛鈧�
 
-鍦�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>甯傚満锛屾€ц兘涓庝綋绉殑骞宠　涓€鐩存槸鍚勫鍘傚晢杩介€愮殑鐩爣銆備粖澶╂潵鍒版祴璇勫鐨勶紝鏄潵鑷�**Minisforum閾嚒**鐨�**UM790 Pro**鈥斺€斾竴娆炬惌杞�**AMD閿愰緳9 7940HS澶勭悊鍣�**鍜�**Radeon 780M鏍告樉**鐨勬棗鑸扮骇<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
+閸︼拷<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>鐢倸婧€閿涘本鈧嗗厴娑撳簼缍嬬粔顖滄畱楠炲疇銆€娑撯偓閻╁瓨妲搁崥鍕啀閸樺倸鏅㈡潻浠嬧偓鎰畱閻╊喗鐖ｉ妴鍌欑矕婢垛晜娼甸崚鐗堢ゴ鐠囧嫬顓婚惃鍕剁礉閺勵垱娼甸懛锟�**Minisforum闁绢厼鍤�**閻拷**UM790 Pro**閳ユ柡鈧柧绔村▎鐐儗鏉烇拷**AMD闁挎劙绶�9 7940HS婢跺嫮鎮婇崳锟�**閸滐拷**Radeon 780M閺嶅憡妯�**閻ㄥ嫭妫楅懜鎵獓<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
 
-杩欏彴浠�0.77鍗囦綋绉殑"鎬ц兘灏忛挗鐐�"锛岀┒绔熻兘閲婃斁澶氬ぇ鐨勮兘閲忥紵璁╂垜浠竴鎺㈢┒绔熴€�
+鏉╂瑥褰存禒锟�0.77閸楀洣缍嬬粔顖滄畱"閹嗗厴鐏忓繘鎸楅悙锟�"閿涘瞼鈹掔粩鐔诲厴闁插﹥鏂佹径姘亣閻ㄥ嫯鍏橀柌蹇ョ吹鐠佲晜鍨滄禒顑跨閹恒垻鈹掔粩鐔粹偓锟�
 
-## 浜屻€佸瑙傝璁�
+## 娴滃被鈧礁顦荤憴鍌濐啎鐠侊拷
 
-**鍖呰涓庨厤浠�**
-UM790 Pro鐨勫寘瑁呯洅閲囩敤姗欓粦閰嶈壊锛岃璁＄畝绾︼紝浣撶Н姣斿墠浠ｄ骇鍝佹槑鏄剧缉灏忋€�
+**閸栧懓顥婃稉搴ㄥ帳娴狅拷**
+UM790 Pro閻ㄥ嫬瀵樼憗鍛磪闁插洨鏁ゅ娆撶拨闁板秷澹婇敍宀冾啎鐠侊紕鐣濈痪锔肩礉娴ｆ挾袧濮ｆ柨澧犳禒锝勯獓閸濅焦妲戦弰鍓х級鐏忓繈鈧拷
 
-- **120W鐢垫簮閫傞厤鍣�**锛氱敱鑸槈浠ｅ伐锛屼綋绉緝灏�
-- **HDMI瑙嗛绾�**
-- **VESA鎸傛灦鍙婅灪涓�**
-- **澶囩敤姗¤兌鑴氬灚**
+- **120W閻㈠灚绨柅鍌炲帳閸ｏ拷**閿涙氨鏁遍懜顏勬娴狅絽浼愰敍灞肩秼缁夘垵绶濈亸锟�
+- **HDMI鐟欏棝顣剁痪锟�**
+- **VESA閹稿倹鐏﹂崣濠呯仾娑擄拷**
+- **婢跺洨鏁ゅ陇鍏岄懘姘仛**
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/minisforum-un100d/" rel="prev">涓婁竴椤碉細Minisforum UN100D 璇勬祴</a>
+  <a href="/review/minisforum-un100d/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum UN100D 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

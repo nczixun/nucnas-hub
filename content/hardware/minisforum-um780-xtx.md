@@ -1,31 +1,31 @@
 ---
-title: "Minisforum UM780 XTX 璇勬祴锛氭牳鏄炬€ц兘澶╄姳鏉�"
+title: "Minisforum UM780 XTX 鐠囧嫭绁撮敍姘壋閺勭偓鈧嗗厴婢垛晞濮抽弶锟�"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "UM780 XTX"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+UM780 XTX"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM780+XTX+娴嬭瘎"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM780+XTX+濞村鐦�"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+UM780+XTX+review"
-pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
-cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
+pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
+cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
 slug: "minisforum-um780-xtx"
 ---
 
-# Minisforum UM780 XTX 璇勬祴
+# Minisforum UM780 XTX 鐠囧嫭绁�
 
 
-## 涓€銆佸墠瑷€
+## 娑撯偓閵嗕礁澧犵懛鈧�
 
-<a href="/review/minisforum-um780-xtx/" target="_blank">Minisforum UM780 XTX</a> 鏄牳鏄炬€ц兘澶╄姳鐨�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
+<a href="/review/minisforum-um780-xtx/" target="_blank">Minisforum UM780 XTX</a> 閺勵垱鐗抽弰鐐偓褑鍏樻径鈺勫С閻拷<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/minisforum-ms-a1/" rel="prev">涓婁竴椤碉細Minisforum MS-A1 璇勬祴</a>
+  <a href="/review/minisforum-ms-a1/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum MS-A1 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

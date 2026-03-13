@@ -1,53 +1,53 @@
 ---
-title: "Minisforum MS-01 评测：最强性能迷你工作站"
+title: "Minisforum MS-01 璇勬祴锛氭渶寮烘€ц兘杩蜂綘宸ヤ綔绔�"
 date: 2026-01-01
 categories: ["hardware"]
-summary: "Minisforum MS-01 评测，Intel i9-12900H，双 2.5G 网口，雷电4"
-tags: ["Minisforum", "MS-01", "迷你主机", "工作站"]
+summary: "Minisforum MS-01 璇勬祴锛孖ntel i9-12900H锛屽弻 2.5G 缃戝彛锛岄浄鐢�4"
+tags: ["Minisforum", "MS-01", "杩蜂綘涓绘満", "宸ヤ綔绔�"]
 slug: "minisforum-ms-01"
 ---
 
-# Minisforum MS-01 评测
+# Minisforum MS-01 璇勬祴
 
-Minisforum MS-01 是一款定位于工作站的迷你主机，搭载 Intel i9-12900H 处理器。
+Minisforum MS-01 鏄竴娆惧畾浣嶄簬宸ヤ綔绔欑殑杩蜂綘涓绘満锛屾惌杞� Intel i9-12900H 澶勭悊鍣ㄣ€�
 
-## 核心配置
+## 鏍稿績閰嶇疆
 
-| 组件 | 规格 |
+| 缁勪欢 | 瑙勬牸 |
 |------|------|
-| 处理器 | Intel i9-12900H |
-| 核心数 | 14 核 20 线程 |
-| 基础频率 | 2.5 GHz |
-| 睿频 | 5.0 GHz |
-| 核显 | Iris Xe (96EU) |
-| 内存 | DDR5-5200 双通道 |
-| 存储 | 2× M.2 NVMe + 1× SATA |
+| 澶勭悊鍣� | Intel i9-12900H |
+| 鏍稿績鏁� | 14 鏍� 20 绾跨▼ |
+| 鍩虹棰戠巼 | 2.5 GHz |
+| 鐫块 | 5.0 GHz |
+| 鏍告樉 | Iris Xe (96EU) |
+| 鍐呭瓨 | DDR5-5200 鍙岄€氶亾 |
+| 瀛樺偍 | 2脳 M.2 NVMe + 1脳 SATA |
 
-## 性能测试
+## 鎬ц兘娴嬭瘯
 
-### CPU 基准
+### CPU 鍩哄噯
 
-| 测试 | 分数 |
+| 娴嬭瘯 | 鍒嗘暟 |
 |------|------|
-| Cinebench R23 单核 | 1950 |
-| Cinebench R23 多核 | 18500 |
-| Geekbench 6 单核 | 2800 |
+| Cinebench R23 鍗曟牳 | 1950 |
+| Cinebench R23 澶氭牳 | 18500 |
+| Geekbench 6 鍗曟牳 | 2800 |
 
-## 接口
+## 鎺ュ彛
 
-- 2× 2.5G 网口
-- 1× 雷电4
-- 4× USB 3.2
-- 1× HDMI
-- 1× DP
+- 2脳 2.5G 缃戝彛
+- 1脳 闆风數4
+- 4脳 USB 3.2
+- 1脳 HDMI
+- 1脳 DP
 
-## 适用场景
+## 閫傜敤鍦烘櫙
 
-- 软路由
+- 杞矾鐢�
 - NAS
-- 虚拟机
-- 小型服务器
+- 铏氭嫙鏈�
+- 灏忓瀷鏈嶅姟鍣�
 
-## 总结
+## 鎬荤粨
 
-**推荐指数**：⭐⭐⭐⭐☆
+**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨槅

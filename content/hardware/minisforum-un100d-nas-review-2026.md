@@ -1,27 +1,27 @@
 ---
-title: "閾嚒UN100D璇勬祴锛欼ntel N100鍏ラ棬NAS绁炲櫒杩樻槸楦¤倠锛�"
+title: "闁绢厼鍤扷N100D鐠囧嫭绁撮敍娆糿tel N100閸忋儵妫琋AS缁佺偛娅掓潻妯绘Ц妤βゅ€犻敍锟�"
 date: 2026-03-06
 categories: ["hardware"]
-summary: "閾嚒UN100D鎼浇Intel N100澶勭悊鍣紝閫傚悎鍋氱函NAS杩樻槸鎬ц兘涓嶈冻锛熷疄娴嬪憡璇変綘"
-tags: ["閾嚒", "UN100D", "Intel N100", "NAS", "璇勬祴"]
+summary: "闁绢厼鍤扷N100D閹碱叀娴嘔ntel N100婢跺嫮鎮婇崳顭掔礉闁倸鎮庨崑姘卞嚱NAS鏉╂ɑ妲搁幀褑鍏樻稉宥堝喕閿涚喎鐤勫ù瀣啞鐠囧缍�"
+tags: ["闁绢厼鍤�", "UN100D", "Intel N100", "NAS", "鐠囧嫭绁�"]
 slug: "minisforum-un100d-nas-review-2026"
 ---
 
-# 閾嚒UN100D璇勬祴
+# 闁绢厼鍤扷N100D鐠囧嫭绁�
 
 
-閾嚒UN100D鏄竴娆炬惌杞絀ntel N100澶勭悊鍣ㄧ殑<a href="/review/" target="_blank">杩蜂綘涓绘満</a>锛屽畾浣嶅叆闂ㄧ骇甯傚満銆�
+闁绢厼鍤扷N100D閺勵垯绔村▎鐐儗鏉炵祤ntel N100婢跺嫮鎮婇崳銊ф畱<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閿涘苯鐣炬担宥呭弳闂傘劎楠囩敮鍌氭簚閵嗭拷
 
-## 澶栬涓庢帴鍙�
+## 婢舵牞顫囨稉搴㈠复閸欙拷
 
-鎺ュ彛涓板瘜锛屽鐢ㄣ€�
+閹恒儱褰涙稉鏉跨槣閿涘苯顧勯悽銊ｂ偓锟�
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/minisforum-un100d-review-2026/" rel="prev">涓婁竴椤碉細Minisforum UN100D浣跨敤浣撻獙</a>
+  <a href="/review/minisforum-un100d-review-2026/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum UN100D娴ｈ法鏁ゆ担鎾荤崣</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

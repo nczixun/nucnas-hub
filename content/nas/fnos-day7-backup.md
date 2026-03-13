@@ -1,42 +1,42 @@
 ---
-title: "Day 7: 椋炵墰OS鏁版嵁澶囦唤涓庡悓姝� 鈥斺€� 瀹堟姢浣犵殑鏁版嵁瀹夊叏"
+title: "Day 7: 妞嬬偟澧癘S閺佺増宓佹径鍥﹀敜娑撳骸鎮撳锟� 閳ユ柡鈧拷 鐎瑰牊濮㈡担鐘垫畱閺佺増宓佺€瑰鍙�"
 date: 2026-03-13
-summary: "瀛︿範椋炵墰OS鐨勬暟鎹浠界瓥鐣ワ紝淇濇姢閲嶈鏁版嵁涓嶄涪澶便€�"
+summary: "鐎涳缚绡勬鐐靛OS閻ㄥ嫭鏆熼幑顔碱槵娴犵晫鐡ラ悾銉礉娣囨繃濮㈤柌宥堫洣閺佺増宓佹稉宥勬丢婢朵究鈧拷"
 categories: ["nas"]
 slug: "fnos-day7-backup"
-tags: ["椋炵墰OS", "澶囦唤", "鍚屾", "鏁版嵁瀹夊叏"]
+tags: ["妞嬬偟澧癘S", "婢跺洣鍞�", "閸氬本顒�", "閺佺増宓佺€瑰鍙�"]
 ---
 
-# Day 7: 椋炵墰OS鏁版嵁澶囦唤涓庡悓姝�
+# Day 7: 妞嬬偟澧癘S閺佺増宓佹径鍥﹀敜娑撳骸鎮撳锟�
 
 
-## 涓轰粈涔堥渶瑕佸浠斤紵
+## 娑撹桨绮堟稊鍫ユ付鐟曚礁顦禒鏂ょ吹
 
-- ?? 纭洏浼氬潖
-- ?? 绯荤粺浼氬穿
-- ?? 璇垹鏂囦欢
-- ?? 鍕掔储鐥呮瘨
+- ?? 绾剛娲忔导姘綎
+- ?? 缁崵绮烘导姘┛
+- ?? 鐠囶垰鍨归弬鍥︽
+- ?? 閸曟帞鍌ㄩ惀鍛槰
 
-## 澶囦唤绛栫暐
+## 婢跺洣鍞ょ粵鏍殣
 
-### 3-2-1 鍘熷垯
-- 3浠芥暟鎹壇鏈�
-- 2绉嶄笉鍚屽瓨鍌ㄤ粙璐�
-- 1浠藉紓鍦板瓨鍌�
+### 3-2-1 閸樼喎鍨�
+- 3娴犺姤鏆熼幑顔煎閺堬拷
+- 2缁夊秳绗夐崥灞界摠閸屻劋绮欑拹锟�
+- 1娴犺棄绱撻崷鏉跨摠閸岋拷
 
-## 鏈湴澶囦唤
+## 閺堫剙婀存径鍥﹀敜
 
-### 浣跨敤rsync
+### 娴ｈ法鏁sync
 
 ```bash
-# 澶囦唤鍒板彟涓€涓‖鐩�
+# 婢跺洣鍞ら崚鏉垮綗娑撯偓娑擃亞鈥栭惄锟�
 rsync -avz /source /backup
 
-# 澧為噺澶囦唤
+# 婢х偤鍣烘径鍥﹀敜
 rsync -avz --delete /source /backup
 ```
 
-### 浣跨敤<a href="/guide/docker-best-practice/" target="_blank">Docker</a>瀹瑰櫒
+### 娴ｈ法鏁�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鐎圭懓娅�
 
 ```yaml
 version: '3'
@@ -53,22 +53,22 @@ services:
     restart: unless-stopped
 ```
 
-## 浜戠鍚屾
+## 娴滄垹顏崥灞绢劄
 
-### 1. Rclone閰嶇疆
+### 1. Rclone闁板秶鐤�
 
 ```bash
-# 瀹夎Rclone
+# 鐎瑰顥奟clone
 curl https://rclone.org/install.sh | sudo bash
 
-# 閰嶇疆
+# 闁板秶鐤�
 rclone config
 ```
 
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day6-docker/" rel="prev">涓婁竴椤碉細Day 6锛氶鐗汷S Docker搴旂敤</a>
+  <a href="/guide/fnos-day6-docker/" rel="prev">娑撳﹣绔存い纰夌窗Day 6閿涙岸顥ｉ悧姹稴 Docker鎼存梻鏁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

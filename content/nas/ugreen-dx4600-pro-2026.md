@@ -1,35 +1,35 @@
 ---
-title: "缁胯仈NAS DX4600 Pro娣卞害璇勬祴锛氳€佺墝澶栬鍘傚晢鐨凬AS棣栫鑳藉惁鎴愬姛锛�"
+title: "缂備浇鍎绘禒鍦S DX4600 Pro婵烇絽宕€瑰磭鎷犻崟顒傘偞闁挎稒淇洪埀顑胯兌婢ф繃寰勯弽顒夊晭闁告ê鍊搁弲銏ゆ儍閸戠徆S濡絾鐗滈～鍛存嚄閽樺鍎婇柟瀛樺姇婵盯鏁嶉敓锟�"
 date: 2026-03-03
 categories: ["nas"]
-brand: "缁胯仈"
+brand: "缂備浇鍎绘禒锟�"
 model: "DX4600 Pro"
 platform: "docker"
 official_url: "https://www.ugREEN.com"
-bilibili_url: "https://search.bilibili.com/all?keyword=缁胯仈NAS+DX4600+娴嬭瘎"
-youtube_url: "https://www.youtube.com/results?search_query=缁胯仈DX4600+review"
+bilibili_url: "https://search.bilibili.com/all?keyword=缂備浇鍎绘禒鍦S+DX4600+婵炴潙顑堥惁锟�"
+youtube_url: "https://www.youtube.com/results?search_query=缂備浇鍎绘禒鍦朮4600+review"
 pros: 
-  - "Intel N6005鎬ц兘鍑鸿壊"
-  - "浠锋牸浜叉皯"
-  - "鎺ュ彛涓板瘜"
-  - "绯荤粺杩唬蹇€�"
+  - "Intel N6005闁诡儸鍡楀幋闁告垿缂氭竟锟�"
+  - "濞寸娀鏀遍悧鍛婄閸欏姣�"
+  - "闁规亽鍎辫ぐ娑欑▔閺夎法妲�"
+  - "缂侇垵宕电划鐑樻交椤撴繂鏁╅煫鍥跺亰閳ь剨鎷�"
 cons: 
-  - "Docker鍔熻兘杈冩柊"
-  - "鐢熸€佷笉濡傜兢鏅�"
-  - "铏氭嫙鏈哄姛鑳芥湁闄�"
+  - "Docker闁告梻鍠曢崗妯绘綇閸愨晜鐓€"
+  - "闁汇垻鍠愰埀顑挎缁楀淇婇崒婊冨弮闁哄拑鎷�"
+  - "闁惧繑纰嶇€氭瑩寮甸崫鍕潬闁煎疇濮ゅ﹢渚€姊介敓锟�"
 slug: "ugreen-dx4600-pro-2026"
 score: 8.0
 tags: 
-  - "璇勬祴"
-  - "鏂板搧"
-summary: "Intel N6005+8GB鍐呭瓨锛屾€т环姣斾箣閫�"
-audience: "杩芥眰鎬т环姣旂殑瀹跺涵鐢ㄦ埛"
+  - "閻犲洤瀚粊锟�"
+  - "闁哄倹婢橀幖锟�"
+summary: "Intel N6005+8GB闁告劕鎳庨悺銊╂晬鐏為敮鍋撹閻滎垰袙閺傚墽顓洪梺顐嫹"
+audience: "閺夆晞濮ら惇浼村箑瑜岄悳顖毿掗弮鍌涚暠閻庣娉涘☉鐢告偨閵婏箑鐓�"
 price: "2299"
 hw_specs:
   cpu: "Intel N6005"
   ram: "8GB DDR4"
-  storage: "4脳3.5\" + 2脳M.2"
-  lan: "2.5G鍙岀綉鍙�"
+  storage: "4閼达拷3.5\" + 2閼寸熂.2"
+  lan: "2.5G闁告瑥鐬肩紞澶愬矗閿燂拷"
   usb: "USB3.2+Type-C"
   hdmi: "HDMI 2.0"
 radar:
@@ -40,43 +40,43 @@ radar:
   price: 9
 ---
 
-# 缁胯仈NAS DX4600 Pro娣卞害璇勬祴
+# 缂備浇鍎绘禒鍦S DX4600 Pro婵烇絽宕€瑰磭鎷犻崟顒傘偞
 
 
-## 涓€銆佸墠瑷€
+## 濞戞挴鍋撻柕鍡曠婢х姷鎳涢埀锟�
 
-缁胯仈浣滀负鑰佺墝澶栬鍘傚晢锛屽叾NAS棣栫琛ㄧ幇濡備綍锛�<a href="/guide/ugreen-dx4600-pro-2026/" target="_blank">DX4600 Pro</a>鎼浇Intel N6005澶勭悊鍣紝鏄竴娆鹃潰鍚戝搴敤鎴风殑<a href="/guide/" target="_blank">NAS</a>璁惧銆�
+缂備浇鍎绘禒鍫熸媴濠娾偓鐠愮喖鎳撴担鍝勵杺濠㈣埖鐗為鏇㈠储閸屾碍娅岄柨娑樿嫰閸欑定AS濡絾鐗滈～鍛偘閵娧冪疀濠碘€冲€风紞宥夋晬閿燂拷<a href="/guide/ugreen-dx4600-pro-2026/" target="_blank">DX4600 Pro</a>闁圭⒈鍙€濞村様ntel N6005濠㈣泛瀚幃濠囧闯椤帞绀夐柡鍕靛灟缁旀潙鈻庢ィ鍐╂〃闁告碍鍨甸宥嗘償椤撶姵鏆忛柟鎾棑濞堬拷<a href="/guide/" target="_blank">NAS</a>閻犱焦鍎抽ˇ顒勫Υ閿燂拷
 
-## 涓昏閰嶇疆
+## 濞戞挻妲掗々锕傛煀瀹ュ洨鏋�
 
-| 瑙勬牸 | 鍙傛暟 |
+| 閻熸瑥瀚悧锟� | 闁告瑥鍊归弳锟� |
 |------|------|
-| 澶勭悊鍣� | Intel N6005 |
-| 鍐呭瓨 | 8GB DDR4 |
-| 瀛樺偍 | 4脳3.5" + 2脳M.2 |
-| 缃戝彛 | 2.5G鍙岀綉鍙� |
+| 濠㈣泛瀚幃濠囧闯閿燂拷 | Intel N6005 |
+| 闁告劕鎳庨悺锟� | 8GB DDR4 |
+| 閻庢稒锚閸嬶拷 | 4閼达拷3.5" + 2閼寸熂.2 |
+| 缂傚啯鍨佃ぐ锟� | 2.5G闁告瑥鐬肩紞澶愬矗閿燂拷 |
 | USB | USB3.2+Type-C |
 | HDMI | HDMI 2.0 |
 
-## 浼樼偣
+## 濞村吋岣块崑锟�
 
-- 鎬ц兘鍑鸿壊
-- 浠锋牸浜叉皯
-- 鎺ュ彛涓板瘜
-- 绯荤粺杩唬蹇€�
+- 闁诡儸鍡楀幋闁告垿缂氭竟锟�
+- 濞寸娀鏀遍悧鍛婄閸欏姣�
+- 闁规亽鍎辫ぐ娑欑▔閺夎法妲�
+- 缂侇垵宕电划鐑樻交椤撴繂鏁╅煫鍥跺亰閳ь剨鎷�
 
-## 缂虹偣
+## 缂傚倽娅ｉ崑锟�
 
-- <a href="/guide/docker-best-practice/" target="_blank">Docker</a>鍔熻兘杈冩柊
-- 鐢熸€佷笉濡傜兢鏅�
-- 铏氭嫙鏈哄姛鑳芥湁闄�
+- <a href="/guide/docker-best-practice/" target="_blank">Docker</a>闁告梻鍠曢崗妯绘綇閸愨晜鐓€
+- 闁汇垻鍠愰埀顑挎缁楀淇婇崒婊冨弮闁哄拑鎷�
+- 闁惧繑纰嶇€氭瑩寮甸崫鍕潬闁煎疇濮ゅ﹢渚€姊介敓锟�
 
 ---
 
-*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
+*闁哄洦娼欓ˇ锟�<a href="/guide/" target="_blank">NAS</a>闁轰焦鐟ч埢鑲╂嫚瀹勬澘褰犳繛澶涙嫹 [NAS閻庢冻绠撳▍瀹�(/guide/)闁靛棴鎷�*
 
 <div class="page-nav">
-  <a href="/review/minisforum-um790-pro/" rel="prev">涓婁竴椤碉細Minisforum UM790 Pro 璇勬祴</a>
+  <a href="/review/minisforum-um790-pro/" rel="prev">濞戞挸锕ｇ粩瀛樸亜绾板绐桵inisforum UM790 Pro 閻犲洤瀚粊锟�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*闁哄牜鍓氶弸鍐偨閿燂拷 NUC NAS Hub 闁煎浜滄慨鈺呮偨閻旂ǹ鐏�*

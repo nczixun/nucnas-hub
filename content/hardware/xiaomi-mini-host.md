@@ -1,31 +1,31 @@
 ---
-title: "灏忕背杩蜂綘涓绘満璇勬祴锛欼ntel Core i7-1260P + 16GB鍐呭瓨澶熺敤鍚楋紵"
+title: "鐏忓繒鑳屾潻铚傜稑娑撶粯婧€鐠囧嫭绁撮敍娆糿tel Core i7-1260P + 16GB閸愬懎鐡ㄦ径鐔烘暏閸氭绱�"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Xiaomi"
 model: "Mini Host"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=Xiaomi+Mini Host"
-bilibili_url: "https://search.bilibili.com/all?keyword=Xiaomi+Mini+Host+娴嬭瘎"
+bilibili_url: "https://search.bilibili.com/all?keyword=Xiaomi+Mini+Host+濞村鐦�"
 youtube_url: "https://www.youtube.com/results?search_query=Xiaomi+Mini+Host+review"
-pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
-cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
+pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
+cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
 slug: "xiaomi-mini-host"
 ---
 
-# 灏忕背杩蜂綘涓绘満璇勬祴
+# 鐏忓繒鑳屾潻铚傜稑娑撶粯婧€鐠囧嫭绁�
 
 
-## 涓€銆佸墠瑷€
+## 娑撯偓閵嗕礁澧犵懛鈧�
 
-鍦�2022骞村簳锛屽皬绫冲彂甯冧簡鏃椾笅棣栨妗岄潰<a href="/review/" target="_blank">杩蜂綘涓绘満</a>锛屾寮忚繘鍐涜繖涓Intel NUC鍜孧ac mini涓诲鐨勫競鍦恒€傚畠寤剁画浜嗗皬绫崇敓鎬佷竴璐殑**绠€绾﹁璁¤瑷€**锛屾惌杞�12浠ｉ叿鐫縤5-1240P澶勭悊鍣紝瀹氫环**2999鍏�**璧凤紝鐩存帴鐬勫噯浜嗗叆闂ㄧ骇鍔炲叕鍜屽搴敤鎴枫€�
+閸︼拷2022楠炴潙绨抽敍灞界毈缁啿褰傜敮鍐х啊閺冩ぞ绗呮＃鏍儥濡楀矂娼�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閿涘本顒滃蹇氱箻閸愭稖绻栨稉顏囶潶Intel NUC閸滃ac mini娑撹顕遍惃鍕閸︽亽鈧倸鐣犲鍓佺敾娴滃棗鐨猾宕囨晸閹椒绔寸拹顖滄畱**缁犫偓缁撅箒顔曠拋陇顕㈢懛鈧�**閿涘本鎯屾潪锟�12娴狅綁鍙块惈绺�5-1240P婢跺嫮鎮婇崳顭掔礉鐎规矮鐜�**2999閸忥拷**鐠у嚖绱濋惄瀛樺复閻嫬鍣禍鍡楀弳闂傘劎楠囬崝鐐插彆閸滃苯顔嶆惔顓犳暏閹存灚鈧拷
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/synology-ds923+/" rel="prev">涓婁竴椤碉細Synology DS923+ 璇勬祴</a>
+  <a href="/review/synology-ds923+/" rel="prev">娑撳﹣绔存い纰夌窗Synology DS923+ 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

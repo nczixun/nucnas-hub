@@ -1,30 +1,30 @@
 ---
-title: "闆跺埢 EQR5 璇勬祴锛欰MD 5800H 鍏ラ棬绾�"
+title: "闂嗚泛鍩� EQR5 鐠囧嫭绁撮敍娆癕D 5800H 閸忋儵妫痪锟�"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "闆跺埢"
+brand: "闂嗚泛鍩�"
 model: "EQR5"
 platform: "amd"
 slug: "eqr5"
 ---
 
-# 闆跺埢 EQR5 璇勬祴
+# 闂嗚泛鍩� EQR5 鐠囧嫭绁�
 
 
-<a href="/review/eqr5/" target="_blank">闆跺埢 EQR5</a> 鏄竴娆� AMD 5800H 鍏ラ棬绾�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
+<a href="/review/eqr5/" target="_blank">闂嗚泛鍩� EQR5</a> 閺勵垯绔村▎锟� AMD 5800H 閸忋儵妫痪锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
 
-## 涓昏鐗圭偣
+## 娑撴槒顩﹂悧鍦仯
 
-- AMD 5800H 鎬ц兘瓒冲
-- 浠锋牸瀹炴儬
-- 鎺ュ彛涓板瘜
+- AMD 5800H 閹嗗厴鐡掑啿顧�
+- 娴犻攱鐗哥€圭偞鍎�
+- 閹恒儱褰涙稉鏉跨槣
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/eqr6/" rel="prev">涓婁竴椤碉細闆跺埢 EQR6 璇勬祴</a>
+  <a href="/review/eqr6/" rel="prev">娑撳﹣绔存い纰夌窗闂嗚泛鍩� EQR6 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

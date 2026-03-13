@@ -1,47 +1,47 @@
-锘�---
-title: "娴忚鍣ㄨ窇鍒嗘祴璇�"
+閿橈拷---
+title: "濞村繗顫嶉崳銊ㄧ獓閸掑棙绁寸拠锟�"
 slug: "browser-benchmark"
-description: "娴嬭瘯娴忚鍣↗avaScript鍜屾覆鏌撴€ц兘"
+description: "濞村鐦ù蹇氼潔閸ｂ啑avaScript閸滃本瑕嗛弻鎾粹偓褑鍏�"
 date: 2026-03-01
 ---
 
-# 馃寪 娴忚鍣ㄨ窇鍒嗘祴璇�
+# 棣冨 濞村繗顫嶉崳銊ㄧ獓閸掑棙绁寸拠锟�
 
-娴嬭瘯娴忚鍣� JavaScript 鎵ц鏁堢巼鍜屾覆鏌撴€ц兘銆�
+濞村鐦ù蹇氼潔閸ｏ拷 JavaScript 閹笛嗩攽閺佸牏宸奸崪灞捐閺屾挻鈧嗗厴閵嗭拷
 
 <div class="benchmark-container">
   <div class="benchmark-info">
-    <p>閫氳繃杩愯 JavaScript 鍩哄噯娴嬭瘯锛岃瘎浼版祻瑙堝櫒鎬ц兘銆�</p>
+    <p>闁俺绻冩潻鎰攽 JavaScript 閸╁搫鍣ù瀣槸閿涘矁鐦庢导鐗堢セ鐟欏牆娅掗幀褑鍏橀妴锟�</p>
   </div>
   
   <div class="benchmark-tests">
     <div class="test-item">
       <div class="test-header">
-        <h4>馃敘 璁＄畻鎬ц兘</h4>
-        <button onclick="runMathTest()" class="test-btn" id="math-btn">寮€濮嬫祴璇�</button>
+        <h4>棣冩晿 鐠侊紕鐣婚幀褑鍏�</h4>
+        <button onclick="runMathTest()" class="test-btn" id="math-btn">瀵偓婵绁寸拠锟�</button>
       </div>
       <div class="test-result" id="math-result"></div>
     </div>
     
     <div class="test-item">
       <div class="test-header">
-        <h4>馃摑 瀛楃涓插鐞�</h4>
-        <button onclick="runStringTest()" class="test-btn" id="string-btn">寮€濮嬫祴璇�</button>
+        <h4>棣冩憫 鐎涙顑佹稉鎻掝槱閻烇拷</h4>
+        <button onclick="runStringTest()" class="test-btn" id="string-btn">瀵偓婵绁寸拠锟�</button>
       </div>
       <div class="test-result" id="string-result"></div>
     </div>
     
     <div class="test-item">
       <div class="test-header">
-        <h4>馃帹 娓叉煋鎬ц兘</h4>
-        <button onclick="runRenderTest()" class="test-btn" id="render-btn">寮€濮嬫祴璇�</button>
+        <h4>棣冨腹 濞撳弶鐓嬮幀褑鍏�</h4>
+        <button onclick="runRenderTest()" class="test-btn" id="render-btn">瀵偓婵绁寸拠锟�</button>
       </div>
       <div class="test-result" id="render-result"></div>
     </div>
   </div>
   
   <div class="benchmark-summary" id="summary" style="display:none;">
-    <h3>鎬讳綋璇勫垎</h3>
+    <h3>閹缍嬬拠鍕瀻</h3>
     <div class="score-display" id="total-score">0</div>
     <p id="score-rating">-</p>
   </div>
@@ -53,7 +53,7 @@ let scores = { math: 0, string: 0, render: 0 };
 function runMathTest() {
   const btn = document.getElementById('math-btn');
   btn.disabled = true;
-  btn.textContent = '娴嬭瘯涓�...';
+  btn.textContent = '濞村鐦稉锟�...';
   
   setTimeout(() => {
     const start = performance.now();
@@ -67,11 +67,11 @@ function runMathTest() {
     scores.math = score;
     
     document.getElementById('math-result').innerHTML = `
-      <div class="score">${score.toFixed(0)} 鍒�</div>
-      <div class="time">鑰楁椂: ${time.toFixed(0)} ms</div>
+      <div class="score">${score.toFixed(0)} 閸掞拷</div>
+      <div class="time">閼版妞�: ${time.toFixed(0)} ms</div>
     `;
     
-    btn.textContent = '閲嶆柊娴嬭瘯';
+    btn.textContent = '闁插秵鏌婂ù瀣槸';
     btn.disabled = false;
     updateSummary();
   }, 100);
@@ -80,7 +80,7 @@ function runMathTest() {
 function runStringTest() {
   const btn = document.getElementById('string-btn');
   btn.disabled = true;
-  btn.textContent = '娴嬭瘯涓�...';
+  btn.textContent = '濞村鐦稉锟�...';
   
   setTimeout(() => {
     const start = performance.now();
@@ -94,11 +94,11 @@ function runStringTest() {
     scores.string = score;
     
     document.getElementById('string-result').innerHTML = `
-      <div class="score">${score.toFixed(0)} 鍒�</div>
-      <div class="time">鑰楁椂: ${time.toFixed(0)} ms</div>
+      <div class="score">${score.toFixed(0)} 閸掞拷</div>
+      <div class="time">閼版妞�: ${time.toFixed(0)} ms</div>
     `;
     
-    btn.textContent = '閲嶆柊娴嬭瘯';
+    btn.textContent = '闁插秵鏌婂ù瀣槸';
     btn.disabled = false;
     updateSummary();
   }, 100);
@@ -107,7 +107,7 @@ function runStringTest() {
 function runRenderTest() {
   const btn = document.getElementById('render-btn');
   btn.disabled = true;
-  btn.textContent = '娴嬭瘯涓�...';
+  btn.textContent = '濞村鐦稉锟�...';
   
   setTimeout(() => {
     const start = performance.now();
@@ -123,11 +123,11 @@ function runRenderTest() {
     scores.render = score;
     
     document.getElementById('render-result').innerHTML = `
-      <div class="score">${score.toFixed(0)} 鍒�</div>
-      <div class="time">鑰楁椂: ${time.toFixed(0)} ms</div>
+      <div class="score">${score.toFixed(0)} 閸掞拷</div>
+      <div class="time">閼版妞�: ${time.toFixed(0)} ms</div>
     `;
     
-    btn.textContent = '閲嶆柊娴嬭瘯';
+    btn.textContent = '闁插秵鏌婂ù瀣槸';
     btn.disabled = false;
     updateSummary();
   }, 100);
@@ -140,11 +140,11 @@ function updateSummary() {
     document.getElementById('total-score').textContent = total.toFixed(0);
     
     let rating;
-    if (total > 8000) rating = '馃殌 椤剁骇鎬ц兘';
-    else if (total > 6000) rating = '猸� 浼樼';
-    else if (total > 4000) rating = '馃憤 鑹ソ';
-    else if (total > 2000) rating = '馃挭 涓€鑸�';
-    else rating = '鈿狅笍 杈冨急';
+    if (total > 8000) rating = '棣冩畬 妞ゅ墎楠囬幀褑鍏�';
+    else if (total > 6000) rating = '鐚革拷 娴兼ḿ顫�';
+    else if (total > 4000) rating = '棣冩啢 閼诡垰銈�';
+    else if (total > 2000) rating = '棣冩尛 娑撯偓閼革拷';
+    else rating = '閳跨媴绗� 鏉堝啫鎬�';
     
     document.getElementById('score-rating').textContent = rating;
   }

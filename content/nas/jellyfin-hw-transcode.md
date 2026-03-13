@@ -1,25 +1,25 @@
 ---
-title: "Jellyfin 硬件转码设置指南：4K 畅享"
+title: "Jellyfin 纭欢杞爜璁剧疆鎸囧崡锛�4K 鐣呬韩"
 date: 2026-01-01
 categories: ["nas"]
-summary: "Jellyfin 硬件转码设置指南，Intel QSV/NVIDIA NVENC"
-tags: ["Jellyfin", "转码", "4K", "NAS"]
+summary: "Jellyfin 纭欢杞爜璁剧疆鎸囧崡锛孖ntel QSV/NVIDIA NVENC"
+tags: ["Jellyfin", "杞爜", "4K", "NAS"]
 slug: "jellyfin-hw-transcode"
 ---
 
-# Jellyfin 硬件转码设置指南
+# Jellyfin 纭欢杞爜璁剧疆鎸囧崡
 
-## 为什么需要硬件转码？
+## 涓轰粈涔堥渶瑕佺‖浠惰浆鐮侊紵
 
-硬件转码可以大幅降低 CPU 占用，流畅播放 4K 视频。
+纭欢杞爜鍙互澶у箙闄嶄綆 CPU 鍗犵敤锛屾祦鐣呮挱鏀� 4K 瑙嗛銆�
 
-## Intel 核显设置（推荐）
+## Intel 鏍告樉璁剧疆锛堟帹鑽愶級
 
-### 1. 安装 Intel 显卡驱动
+### 1. 瀹夎 Intel 鏄惧崱椹卞姩
 
-确保系统已安装 Intel 显卡驱动。
+纭繚绯荤粺宸插畨瑁� Intel 鏄惧崱椹卞姩銆�
 
-### 2. 配置 Docker
+### 2. 閰嶇疆 Docker
 
 ```yaml
 services:
@@ -38,13 +38,13 @@ services:
     restart: unless-stopped
 ```
 
-### 3. Jellyfin 后台配置
+### 3. Jellyfin 鍚庡彴閰嶇疆
 
-1. 控制面板 → 播放 → 转码
-2. 硬件加速：Intel QuickSync (QSV)
-3. 启用硬件解码
+1. 鎺у埗闈㈡澘 鈫� 鎾斁 鈫� 杞爜
+2. 纭欢鍔犻€燂細Intel QuickSync (QSV)
+3. 鍚敤纭欢瑙ｇ爜
 
-## NVIDIA 显卡设置
+## NVIDIA 鏄惧崱璁剧疆
 
 ```yaml
 services:
@@ -62,46 +62,46 @@ services:
               capabilities: [gpu]
 ```
 
-## 支持的格式
+## 鏀寔鐨勬牸寮�
 
 ### Intel QSV
 
-| 格式 | 支持 |
+| 鏍煎紡 | 鏀寔 |
 |------|------|
-| H.264 | ✅ |
-| HEVC (H.265) | ✅ |
-| VP9 | ✅ |
-| AV1 | ✅ |
+| H.264 | 鉁� |
+| HEVC (H.265) | 鉁� |
+| VP9 | 鉁� |
+| AV1 | 鉁� |
 
 ### NVIDIA NVENC
 
-| 格式 | 支持 |
+| 鏍煎紡 | 鏀寔 |
 |------|------|
-| H.264 | ✅ |
-| HEVC (H.265) | ✅ |
-| VP9 | ❌ |
-| AV1 | ✅ |
+| H.264 | 鉁� |
+| HEVC (H.265) | 鉁� |
+| VP9 | 鉂� |
+| AV1 | 鉁� |
 
-## 性能对比
+## 鎬ц兘瀵规瘮
 
-| 方案 | 4K 转码 CPU | 功耗 |
+| 鏂规 | 4K 杞爜 CPU | 鍔熻€� |
 |------|-------------|------|
-| 软件转码 | 80% | 高 |
-| Intel QSV | 10% | 低 |
-| NVIDIA | 5% | 中 |
+| 杞欢杞爜 | 80% | 楂� |
+| Intel QSV | 10% | 浣� |
+| NVIDIA | 5% | 涓� |
 
-## 常见问题
+## 甯歌闂
 
-### Q: 找不到硬件加速？
+### Q: 鎵句笉鍒扮‖浠跺姞閫燂紵
 
-A: 检查 Docker 设备映射
+A: 妫€鏌� Docker 璁惧鏄犲皠
 
-### Q: 转码失败？
+### Q: 杞爜澶辫触锛�
 
-A: 检查驱动是否正确安装
+A: 妫€鏌ラ┍鍔ㄦ槸鍚︽纭畨瑁�
 
-## 总结
+## 鎬荤粨
 
-Intel QSV 是 NAS 最佳选择，功耗低效果好。
+Intel QSV 鏄� NAS 鏈€浣抽€夋嫨锛屽姛鑰椾綆鏁堟灉濂姐€�
 
-**推荐指数**：⭐⭐⭐⭐⭐
+**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨瓙

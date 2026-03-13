@@ -1,19 +1,19 @@
 ---
-title: "Docker Compose 进阶教程：2026年多容器编排"
+title: "Docker Compose 杩涢樁鏁欑▼锛�2026骞村瀹瑰櫒缂栨帓"
 date: 2026-01-01
 categories: ["nas"]
-summary: "Docker Compose 进阶教程，教你如何编排多个容器"
-tags: ["Docker", "Docker Compose", "NAS", "容器", "教程"]
+summary: "Docker Compose 杩涢樁鏁欑▼锛屾暀浣犲浣曠紪鎺掑涓鍣�"
+tags: ["Docker", "Docker Compose", "NAS", "瀹瑰櫒", "鏁欑▼"]
 slug: "docker-compose-advanced-2026"
 ---
 
-# Docker Compose 进阶教程：2026年多容器编排
+# Docker Compose 杩涢樁鏁欑▼锛�2026骞村瀹瑰櫒缂栨帓
 
-## 什么是 Docker Compose？
+## 浠€涔堟槸 Docker Compose锛�
 
-Docker Compose 是一个用于定义和运行多容器 Docker 应用的工具。
+Docker Compose 鏄竴涓敤浜庡畾涔夊拰杩愯澶氬鍣� Docker 搴旂敤鐨勫伐鍏枫€�
 
-## 基础语法
+## 鍩虹璇硶
 
 ```yaml
 version: '3.8'
@@ -27,9 +27,9 @@ services:
       - ./html:/usr/share/nginx/html
 ```
 
-## 进阶技巧
+## 杩涢樁鎶€宸�
 
-### 1. 环境变量
+### 1. 鐜鍙橀噺
 
 ```yaml
 services:
@@ -43,7 +43,7 @@ services:
       - .env
 ```
 
-### 2. 网络配置
+### 2. 缃戠粶閰嶇疆
 
 ```yaml
 services:
@@ -63,10 +63,10 @@ networks:
     driver: bridge
   backend:
     driver: bridge
-    internal: true  # 隔离网络
+    internal: true  # 闅旂缃戠粶
 ```
 
-### 3. 数据持久化
+### 3. 鏁版嵁鎸佷箙鍖�
 
 ```yaml
 services:
@@ -81,7 +81,7 @@ volumes:
   mysql_data:
 ```
 
-### 4. 依赖关系
+### 4. 渚濊禆鍏崇郴
 
 ```yaml
 services:
@@ -102,16 +102,16 @@ services:
       retries: 5
 ```
 
-### 5. 重启策略
+### 5. 閲嶅惎绛栫暐
 
 ```yaml
 services:
   jellyfin:
     image: jellyfin/jellyfin
-    restart: unless-stopped  # 始终重启，除非手动停止
+    restart: unless-stopped  # 濮嬬粓閲嶅惎锛岄櫎闈炴墜鍔ㄥ仠姝�
 ```
 
-## 完整示例：家庭影院
+## 瀹屾暣绀轰緥锛氬搴奖闄�
 
 ```yaml
 version: '3.8'
@@ -172,35 +172,35 @@ volumes:
   portainer_data:
 ```
 
-## 常用命令
+## 甯哥敤鍛戒护
 
 ```bash
-# 启动所有服务
+# 鍚姩鎵€鏈夋湇鍔�
 docker compose up -d
 
-# 查看日志
+# 鏌ョ湅鏃ュ織
 docker compose logs -f
 
-# 停止所有服务
+# 鍋滄鎵€鏈夋湇鍔�
 docker compose down
 
-# 重启指定服务
+# 閲嶅惎鎸囧畾鏈嶅姟
 docker compose restart web
 
-# 进入容器
+# 杩涘叆瀹瑰櫒
 docker compose exec web sh
 
-# 查看状态
+# 鏌ョ湅鐘舵€�
 docker compose ps
 ```
 
-## 最佳实践
+## 鏈€浣冲疄璺�
 
-1. **使用版本控制**：将 docker-compose.yml 纳入 Git 管理
-2. **环境变量分离**：使用 .env 文件管理敏感信息
-3. **健康检查**：为关键服务配置 healthcheck
-4. **日志管理**：配置日志轮转
-5. **资源限制**：为容器设置内存和 CPU 限制
+1. **浣跨敤鐗堟湰鎺у埗**锛氬皢 docker-compose.yml 绾冲叆 Git 绠＄悊
+2. **鐜鍙橀噺鍒嗙**锛氫娇鐢� .env 鏂囦欢绠＄悊鏁忔劅淇℃伅
+3. **鍋ュ悍妫€鏌�**锛氫负鍏抽敭鏈嶅姟閰嶇疆 healthcheck
+4. **鏃ュ織绠＄悊**锛氶厤缃棩蹇楄疆杞�
+5. **璧勬簮闄愬埗**锛氫负瀹瑰櫒璁剧疆鍐呭瓨鍜� CPU 闄愬埗
 
 ```yaml
 services:
@@ -216,8 +216,8 @@ services:
           cpus: '0.5'
 ```
 
-## 总结
+## 鎬荤粨
 
-Docker Compose 是管理家庭实验室服务的利器，熟练掌握可以大大提高运维效率。
+Docker Compose 鏄鐞嗗搴疄楠屽鏈嶅姟鐨勫埄鍣紝鐔熺粌鎺屾彙鍙互澶уぇ鎻愰珮杩愮淮鏁堢巼銆�
 
-**下一步**：尝试部署一套属于你的家庭影院系统吧！
+**涓嬩竴姝�**锛氬皾璇曢儴缃蹭竴濂楀睘浜庝綘鐨勫搴奖闄㈢郴缁熷惂锛�

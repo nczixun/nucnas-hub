@@ -1,40 +1,40 @@
 ---
 slug: "morefine-m9"
-title: "Morefine M9 璇勬祴锛欼ntel Core i9-12900HK 鏃楄埌杩蜂綘涓绘満"
+title: "Morefine M9 鐠囧嫭绁撮敍娆糿tel Core i9-12900HK 閺冩鍩屾潻铚傜稑娑撶粯婧€"
 date: 2026-02-27
-summary: "Morefine M9: N100,鏋佸皬浣撶Н,闅忚韩鎼哄甫"
-description: "Morefine M9: N100,鏋佸皬浣撶Н,闅忚韩鎼哄甫"
+summary: "Morefine M9: N100,閺嬩礁鐨担鎾缎�,闂呭繗闊╅幖鍝勭敨"
+description: "Morefine M9: N100,閺嬩礁鐨担鎾缎�,闂呭繗闊╅幖鍝勭敨"
 categories: ["hardware"]
-tags: ["N100", "鏋佸皬浣撶Н", "闅忚韩鎼哄甫", "hardware"]
-keywords: ["N100", "鏋佸皬浣撶Н", "闅忚韩鎼哄甫", "hardware"]
+tags: ["N100", "閺嬩礁鐨担鎾缎�", "闂呭繗闊╅幖鍝勭敨", "hardware"]
+keywords: ["N100", "閺嬩礁鐨担鎾缎�", "闂呭繗闊╅幖鍝勭敨", "hardware"]
 ---
 
-# Morefine M9 璇勬祴
+# Morefine M9 鐠囧嫭绁�
 
 
-## 姒傝堪
+## 濮掑倽鍫�
 
-<a href="/review/morefine-m9/" target="_blank">Morefine M9</a> 鏄竴娆捐秴灏忎綋绉殑<a href="/review/" target="_blank">杩蜂綘涓绘満</a>锛屼究鎼烘€у己锛岄€傚悎绉诲姩鍔炲叕銆�
+<a href="/review/morefine-m9/" target="_blank">Morefine M9</a> 閺勵垯绔村▎鎹愮Т鐏忓繋缍嬬粔顖滄畱<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閿涘奔绌堕幖鐑樷偓褍宸遍敍宀勨偓鍌氭値缁夎濮╅崝鐐插彆閵嗭拷
 
-## 涓昏鐗圭偣
+## 娑撴槒顩﹂悧鍦仯
 
-- 瓒呭皬浣撶Н璁捐
-- 渚挎惡鎬у己
-- 鎺ュ彛涓板瘜
-- 鏁ｇ儹鍑鸿壊
+- 鐡掑懎鐨担鎾缎濈拋鎹愵吀
+- 娓氭寧鎯￠幀褍宸�
+- 閹恒儱褰涙稉鏉跨槣
+- 閺侊絿鍎归崙楦垮
 
-## 閫傜敤鍦烘櫙
+## 闁倻鏁ら崷鐑樻珯
 
-- 绉诲姩鍔炲叕
-- 瀹跺涵濞变箰
-- 杞婚噺绾у簲鐢�
+- 缁夎濮╅崝鐐插彆
+- 鐎硅泛娑垫繛鍙樼
+- 鏉炲鍣虹痪褍绨查悽锟�
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/ai/deepseek-r1-minipc-deploy-2026/" rel="prev">涓婁竴椤碉細鏈湴閮ㄧ讲DeepSeek-R1</a>
+  <a href="/ai/deepseek-r1-minipc-deploy-2026/" rel="prev">娑撳﹣绔存い纰夌窗閺堫剙婀撮柈銊цDeepSeek-R1</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

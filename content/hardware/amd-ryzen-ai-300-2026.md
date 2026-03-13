@@ -1,29 +1,29 @@
 ---
-title: "2026骞撮珮鎬ц兘杩蜂綘涓绘満鎺ㄨ崘锛欰MD Ryzen AI 300绯诲垪寮哄娍鏉ヨ"
+title: "2026楠炴挳鐝幀褑鍏樻潻铚傜稑娑撶粯婧€閹恒劏宕橀敍娆癕D Ryzen AI 300缁鍨鍝勫◢閺夈儴顫�"
 date: 2026-03-04
 categories: ["hardware"]
-summary: "AMD Ryzen AI 300绯诲垪澶勭悊鍣ㄦ惌杞絏DNA 2鏋舵瀯NPU锛孉I鎬ц兘棰嗗厛Intel Ultra 2浠�"
+summary: "AMD Ryzen AI 300缁鍨径鍕倞閸ｃ劍鎯屾潪绲廌NA 2閺嬭埖鐎疦PU閿涘瓑I閹嗗厴妫板棗鍘汭ntel Ultra 2娴狅拷"
 tags: ["mini pc", "AMD", "Ryzen AI", "2026"]
 slug: "amd-ryzen-ai-300-2026"
 ---
 
-# 2026骞撮珮鎬ц兘杩蜂綘涓绘満鎺ㄨ崘锛欰MD Ryzen AI 300绯诲垪寮哄娍鏉ヨ
+# 2026楠炴挳鐝幀褑鍏樻潻铚傜稑娑撶粯婧€閹恒劏宕橀敍娆癕D Ryzen AI 300缁鍨鍝勫◢閺夈儴顫�
 
 
-闅忕潃AMD姝ｅ紡鍙戝竷Ryzen AI 300绯诲垪澶勭悊鍣紝<a href="/review/" target="_blank">杩蜂綘涓绘満</a>甯傚満杩庢潵浜嗘柊涓€杞€ц兘闈╁懡銆傝繖浠ｅ鐞嗗櫒涓嶄粎鍦–PU鍜孏PU鎬ц兘涓婂ぇ骞呮彁鍗囷紝鏇存槸棣栨鍦▁86澶勭悊鍣ㄤ笂瀹炵幇浜嗗己澶х殑鏈湴<a href="/ai/" target="_blank">AI</a>绠楀姏銆�
+闂呭繒娼傾MD濮濓絽绱￠崣鎴濈Ryzen AI 300缁鍨径鍕倞閸ｎ煉绱�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>鐢倸婧€鏉╁孩娼垫禍鍡樻煀娑撯偓鏉烆喗鈧嗗厴闂堚晛鎳￠妴鍌濈箹娴狅絽顦╅悶鍡楁珤娑撳秳绮庨崷鈥揚U閸滃瓘PU閹嗗厴娑撳﹤銇囬獮鍛絹閸楀浄绱濋弴瀛樻Ц妫ｆ牗顐奸崷鈻�86婢跺嫮鎮婇崳銊ょ瑐鐎圭偟骞囨禍鍡楀繁婢堆呮畱閺堫剙婀�<a href="/ai/" target="_blank">AI</a>缁犳濮忛妴锟�
 
-## Ryzen AI 300绯诲垪鎶€鏈В鏋�
+## Ryzen AI 300缁鍨幎鈧張顖澬掗弸锟�
 
-### XDNA 2鏋舵瀯NPU
+### XDNA 2閺嬭埖鐎疦PU
 
-Ryzen AI 300绯诲垪鏈€澶х殑浜偣鏄泦鎴愪簡AMD XDNA 2鏋舵瀯鐨凬PU锛堢缁忕綉缁滃鐞嗗崟鍏冿級銆傛牴鎹畼鏂规暟鎹紝鍏�<a href="/ai/" target="_blank">AI</a>绠楀姏鏈€楂樺彲杈�50 TOPS锛岃繙瓒匢ntel Ultra 200V绯诲垪鐨勭害45 TOPS銆�
+Ryzen AI 300缁鍨張鈧径褏娈戞禍顔惧仯閺勵垶娉﹂幋鎰啊AMD XDNA 2閺嬭埖鐎惃鍑琍U閿涘牏顨ｇ紒蹇曠秹缂佹粌顦╅悶鍡楀礋閸忓喛绱氶妴鍌涚壌閹诡喖鐣奸弬瑙勬殶閹诡噯绱濋崗锟�<a href="/ai/" target="_blank">AI</a>缁犳濮忛張鈧妯哄讲鏉堬拷50 TOPS閿涘矁绻欑搾鍖tel Ultra 200V缁鍨惃鍕45 TOPS閵嗭拷
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/ai/openclaw-day3/" rel="prev">涓婁竴椤碉細Day 3锛氭牳蹇冩蹇�</a>
+  <a href="/ai/openclaw-day3/" rel="prev">娑撳﹣绔存い纰夌窗Day 3閿涙碍鐗宠箛鍐╊洤韫囷拷</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

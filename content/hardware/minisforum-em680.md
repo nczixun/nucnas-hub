@@ -1,35 +1,35 @@
 ---
-title: "Minisforum EM680 璇勬祴锛氳秴灏忎綋绉� AMD 6800U 杩蜂綘涓绘満"
+title: "Minisforum EM680 鐠囧嫭绁撮敍姘崇Т鐏忓繋缍嬬粔锟� AMD 6800U 鏉╄渹缍樻稉缁樻簚"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "EM680"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+EM680"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+EM680+娴嬭瘎"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+EM680+濞村鐦�"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+EM680+review"
-pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
-cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
+pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
+cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
 slug: "minisforum-em680"
 ---
 
-# Minisforum EM680 璇勬祴
+# Minisforum EM680 鐠囧嫭绁�
 
 
-<a href="/review/minisforum-em680/" target="_blank">Minisforum EM680</a> 鏄竴娆捐秴灏忎綋绉殑 AMD 6800U<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
+<a href="/review/minisforum-em680/" target="_blank">Minisforum EM680</a> 閺勵垯绔村▎鎹愮Т鐏忓繋缍嬬粔顖滄畱 AMD 6800U<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
 
-## 涓昏鐗圭偣
+## 娑撴槒顩﹂悧鍦仯
 
-- AMD 6800U 鎬ц兘寮哄姴
-- 浣撶Н灏忓阀
-- 鎺ュ彛涓板瘜
+- AMD 6800U 閹嗗厴瀵搫濮�
+- 娴ｆ挾袧鐏忓繐闃€
+- 閹恒儱褰涙稉鏉跨槣
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/aoostar-gem10/" rel="prev">涓婁竴椤碉細Aoostar GEM10 璇勬祴</a>
+  <a href="/review/aoostar-gem10/" rel="prev">娑撳﹣绔存い纰夌窗Aoostar GEM10 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*

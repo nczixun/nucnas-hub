@@ -1,30 +1,30 @@
 ---
-title: "闆跺埢 SER7 璇勬祴锛欰MD 7840HS 楂樻€ц兘杩蜂綘涓绘満"
+title: "闂嗚泛鍩� SER7 鐠囧嫭绁撮敍娆癕D 7840HS 妤傛ɑ鈧嗗厴鏉╄渹缍樻稉缁樻簚"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "闆跺埢"
+brand: "闂嗚泛鍩�"
 model: "SER7"
 platform: "amd"
 slug: "ser7"
 ---
 
-# 闆跺埢 SER7 璇勬祴
+# 闂嗚泛鍩� SER7 鐠囧嫭绁�
 
 
-<a href="/review/ser7/" target="_blank">闆跺埢 SER7</a> 鏄竴娆� AMD 7840HS 楂樻€ц兘<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
+<a href="/review/ser7/" target="_blank">闂嗚泛鍩� SER7</a> 閺勵垯绔村▎锟� AMD 7840HS 妤傛ɑ鈧嗗厴<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
 
-## 涓昏鐗圭偣
+## 娑撴槒顩﹂悧鍦仯
 
-- AMD 7840HS 鎬ц兘寮哄姴
-- 鎺ュ彛涓板瘜
-- 鏁ｇ儹浼樼
+- AMD 7840HS 閹嗗厴瀵搫濮�
+- 閹恒儱褰涙稉鏉跨槣
+- 閺侊絿鍎规导妯碱潊
 
 ---
 
-*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
+*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
 
 <div class="page-nav">
-  <a href="/review/ser8-8845hs/" rel="prev">涓婁竴椤碉細闆跺埢 SER8 8845HS 璇勬祴</a>
+  <a href="/review/ser8-8845hs/" rel="prev">娑撳﹣绔存い纰夌窗闂嗚泛鍩� SER8 8845HS 鐠囧嫭绁�</a>
 </div>
 
-*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
+*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
