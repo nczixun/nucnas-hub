@@ -1,35 +1,35 @@
----
-title: "Minisforum NAD9 Pro 鐠囧嫭绁撮敍娆糿tel N100 閸楀洨楠囬悧锟�"
+﻿---
+title: "Minisforum NAD9 Pro 评测：Intel N100 升级版"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "NAD9 Pro"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+NAD9+Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+NAD9+Pro+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+NAD9+Pro+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+NAD9+Pro+review"
-pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-nad9-pro"
 ---
 
-# Minisforum NAD9 Pro 鐠囧嫭绁�
+# Minisforum NAD9 Pro 评测
 
 
-<a href="/review/minisforum-nad9-pro/" target="_blank">Minisforum NAD9 Pro</a> 閺勵垯绔村▎锟� Intel N100 閸楀洨楠囬悧锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/minisforum-nad9-pro/" target="_blank">Minisforum NAD9 Pro</a> 是一款 Intel N100 升级版<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- Intel N100 閹嗗厴閺囨潙銈�
-- 娴犻攱鐗哥€圭偞鍎�
-- 閹恒儱褰涙稉鏉跨槣
+- Intel N100 性能更好
+- 价格实惠
+- 接口丰富
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/minisforum-nad9/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum NAD9 鐠囧嫭绁�</a>
+  <a href="/hardware/minisforum-nad9/" rel="prev">上一页：Minisforum NAD9 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

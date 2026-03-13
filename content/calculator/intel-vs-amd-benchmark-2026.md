@@ -1,66 +1,65 @@
-閿橈拷---
-title: "鏉╄渹缍樻稉缁樻簚閹嗗厴鐎佃鐦敍娆糿tel Ultra vs AMD 闁挎劙绶�8000"
-slug: "tel-ultra-vs-amd-8000"
+锘�---
+title: "杩蜂綘涓绘満鎬ц兘瀵规瘮锛欼ntel Ultra vs AMD 閿愰緳8000"
 date: 2026-03-06
 categories: ["calculator"]
-summary: "娑撱倖顑欐稉缁樼ウ婢跺嫮鎮婇崳銊ョ杽濞村绐囬崚鍡楊嚠濮ｏ拷"
+summary: "涓ゆ涓绘祦澶勭悊鍣ㄥ疄娴嬭窇鍒嗗姣�"
 image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
 imageCredit: "Pexels"
 tags: ["benchmark", "Intel Ultra", "AMD Ryzen"]
 ---
 
-# 鏉╄渹缍樻稉缁樻簚閹嗗厴鐎佃鐦敍娆糿tel Ultra vs AMD 闁挎劙绶�8000
+# 杩蜂綘涓绘満鎬ц兘瀵规瘮锛欼ntel Ultra vs AMD 閿愰緳8000
 
-闁ntel鏉╂ɑ妲窤MD閿涚喓娲块幒銉ф箙鐠烘垵鍨庨妴锟�
+閫塈ntel杩樻槸AMD锛熺洿鎺ョ湅璺戝垎銆�
 
-## 濞村鐦張鍝勭€�
+## 娴嬭瘯鏈哄瀷
 
-- Intel闂冧絻鎯€閿涙瓉inisforum MS-01閿涘湶ltra 5 125H閿涳拷
-- AMD闂冧絻鎯€閿涙eelink SER8閿涘湩7 8845HS閿涳拷
+- Intel闃佃惀锛歁inisforum MS-01锛圲ltra 5 125H锛�
+- AMD闃佃惀锛欱eelink SER8锛圧7 8845HS锛�
 
-## CPU鐠烘垵鍨�
+## CPU璺戝垎
 
-Cinebench R23閿涳拷
-| 閸ㄥ褰� | 閸楁洘鐗� | 婢舵碍鐗� |
+Cinebench R23锛�
+| 鍨嬪彿 | 鍗曟牳 | 澶氭牳 |
 |------|------|------|
 | Ultra 5 125H | 1680 | 14320 |
 | R7 8845HS | 1780 | 14560 |
 
-婢舵碍鐗抽幀褑鍏樺顔荤瑝婢舵熬绱滱MD閸楁洘鐗抽悾銉ュ繁閵嗭拷
+澶氭牳鎬ц兘宸笉澶氾紝AMD鍗曟牳鐣ュ己銆�
 
-## GPU鐠烘垵鍨�
+## GPU璺戝垎
 
-3DMark Time Spy閿涳拷
-| 閺嶅憡妯� | 閸掑棙鏆� |
+3DMark Time Spy锛�
+| 鏍告樉 | 鍒嗘暟 |
 |------|------|
-| Intel Arc 7閺嶅憡妯� | 3200 |
+| Intel Arc 7鏍告樉 | 3200 |
 | AMD Radeon 780M | 3400 |
 
-AMD閺嶅憡妯夋潻妯绘Ц閺囨潙宸辨稉鈧悙骞库偓锟�
+AMD鏍告樉杩樻槸鏇村己涓€鐐广€�
 
-## 鐎圭偤妾〒鍛婂灆濞村鐦�
+## 瀹為檯娓告垙娴嬭瘯
 
-1080P娑擃厾鏁剧拹銊ｂ偓濠傚斧缁佺偑鈧绱�
-- Ultra 5閿涳拷52鐢拷
-- R7 8845HS閿涳拷58鐢拷
+1080P涓敾璐ㄣ€婂師绁炪€嬶細
+- Ultra 5锛�52甯�
+- R7 8845HS锛�58甯�
 
-閵嗗S2閵嗭拷1080P娴ｅ海鏁剧拹顭掔窗
-- Ultra 5閿涳拷85鐢拷
-- R7 8845HS閿涳拷95鐢拷
+銆奀S2銆�1080P浣庣敾璐細
+- Ultra 5锛�85甯�
+- R7 8845HS锛�95甯�
 
-AMD鐏忓繗鍎ㄩ妴锟�
+AMD灏忚儨銆�
 
-## AI閹嗗厴
+## AI鎬ц兘
 
-Procyon ML濞村鐦敍锟�
-| NPU | 瀵版鍨� |
+Procyon ML娴嬭瘯锛�
+| NPU | 寰楀垎 |
 |-----|------|
 | Intel NPU | 480 |
 | AMD NPU | 520 |
 
-AI缁犳濮忛弬褰掓桨閿涘瓑MD閻ｃ儴鍎ㄩ妴锟�
+AI绠楀姏鏂归潰锛孉MD鐣ヨ儨銆�
 
-## 闁鍠樺楦款唴
+## 閫夎喘寤鸿
 
-- 閸旂偛鍙曟稉杞板瘜閿涙岸鈧ntel Ultra閿涘奔鐜弽鐓庢▕娑撳秴顦块敍灞藉悑鐎硅鈧勬纯婵傦拷
-- 濞撳憡鍨�/AI閿涙岸鈧牽MD闁挎劙绶抽敍灞剧壋閺勬儳宸辨稉鈧禍锟�
+- 鍔炲叕涓轰富锛氶€塈ntel Ultra锛屼环鏍煎樊涓嶅锛屽吋瀹规€ф洿濂�
+- 娓告垙/AI锛氶€堿MD閿愰緳锛屾牳鏄惧己涓€浜�

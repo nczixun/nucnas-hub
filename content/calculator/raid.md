@@ -1,172 +1,420 @@
 ---
-title: "杩蜂綘涓绘満 RAID 閰嶇疆鎸囧崡锛氭暟鎹畨鍏ㄥ繀澶�"
-date: 2026-01-01
-categories: ["calculator"]
-summary: "RAID 閰嶇疆鎸囧崡锛屽府鍔╅€夋嫨鏈€閫傚悎鐨� RAID 妯″紡"
-tags: ["RAID", "NAS", "瀛樺偍", "鏁版嵁瀹夊叏"]
+title: "RAID 计算器"
 slug: "raid"
+description: "RAID 容量计算器，支持 RAID 0/1/5/6/10 容量计算与容错分析"
+date: 2026-03-07
 ---
 
-# 杩蜂綘涓绘満 RAID 閰嶇疆鎸囧崡
+# 💾 RAID 容量计算器
 
-## 浠€涔堟槸 RAID锛�
+选择 RAID 模式，输入硬盘参数，计算可用容量与容错能力。
 
-RAID锛堢嫭绔嬬鐩樺啑浣欓樀鍒楋級鏄竴绉嶅皢澶氫釜纭洏缁勫悎璧锋潵鎻愰珮鏁版嵁瀹夊叏鎬у拰鎬ц兘鐨勬妧鏈€�
+<div x-data="raidCalculator()" class="raid-calculator">
+    
+    <!-- RAID 模式选择 -->
+    <div class="raid-mode-select">
+        <label class="raid-label">选择 RAID 模式</label>
+        <div class="raid-modes">
+            <template x-for="mode in raidModes" :key="mode.id">
+                <button 
+                    class="raid-mode-btn"
+                    :class="selectedMode === mode.id ? 'active' : ''"
+                    @click="selectMode(mode.id)"
+                    :title="mode.desc"
+                >
+                    <span class="mode-name" x-text="mode.name"></span>
+                    <span class="mode-desc" x-text="mode.desc"></span>
+                </button>
+            </template>
+        </div>
+    </div>
 
-## RAID 绾у埆瀵规瘮
+    <!-- 硬盘配置 -->
+    <div class="raid-config">
+        <div class="config-row">
+            <div class="config-item">
+                <label class="raid-label">硬盘数量</label>
+                <input type="number" x-model="diskCount" min="2" max="24" class="raid-input" @input="calculate()">
+            </div>
+            <div class="config-item">
+                <label class="raid-label">单盘容量 (TB)</label>
+                <input type="number" x-model="diskSize" min="1" max="100" step="0.5" class="raid-input" @input="calculate()">
+            </div>
+        </div>
+    </div>
 
-| RAID 绾у埆 | 鏈€灏戠‖鐩� | 鍙敤瀹归噺 | 鎬ц兘 | 瀹夊叏鎬� | 鎺ㄨ崘鍦烘櫙 |
-|-----------|----------|----------|------|--------|----------|
-| RAID 0 | 2 | 100% | 鏈€蹇� | 鏃� | 娓告垙涓存椂瀛樺偍 |
-| RAID 1 | 2 | 50% | 姝ｅ父 | 楂� | 閲嶈鏁版嵁澶囦唤 |
-| RAID 5 | 3 | n-1 | 杈冨揩 | 涓珮 | 灏忓瀷 NAS |
-| RAID 6 | 4 | n-2 | 涓瓑 | 楂� | 浼佷笟绾у瓨鍌� |
-| RAID 10 | 4 | 50% | 鏈€蹇� | 鏋侀珮 | 鏁版嵁搴�/铏氭嫙鍖� |
+    <!-- 计算结果 -->
+    <div class="raid-result" x-show="diskCount >= 2">
+        <div class="result-grid">
+            <div class="result-card">
+                <div class="result-icon">💽</div>
+                <div class="result-label">可用容量</div>
+                <div class="result-value" x-text="result.usableCapacity"></div>
+                <div class="result-sub" x-text="'原始容量: ' + result.rawCapacity + ' TB'"></div>
+            </div>
+            <div class="result-card">
+                <div class="result-icon">🛡️</div>
+                <div class="result-label">容错能力</div>
+                <div class="result-value" 
+                     :class="result.faultTolerance > 0 ? 'text-green' : 'text-red'"
+                     x-text="result.faultTolerance + ' 块硬盘'"></div>
+                <div class="result-sub" x-text="result.faultTolerance > 0 ? '可同时故障数量' : '无容错'"></div>
+            </div>
+            <div class="result-card">
+                <div class="result-icon">📊</div>
+                <div class="result-label">存储效率</div>
+                <div class="result-value" x-text="result.efficiency + '%'"></div>
+                <div class="result-sub" x-text="result.waste + ' TB 冗余'"></div>
+            </div>
+        </div>
+    </div>
 
-## 璇︾粏璇存槑
+    <!-- 警告提示 -->
+    <div class="raid-warning" x-show="warning" x-text="warning" style="display: none;"></div>
 
-### RAID 0锛氶€熷害鑷充笂
+    <!-- RAID 模式说明 -->
+    <div class="raid-info">
+        <h3>📋 RAID 模式对比</h3>
+        <table class="raid-table">
+            <thead>
+                <tr>
+                    <th>模式</th>
+                    <th>最小盘数</th>
+                    <th>容错</th>
+                    <th>效率</th>
+                    <th>特点</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>RAID 0</strong></td>
+                    <td>2</td>
+                    <td>❌ 无</td>
+                    <td>100%</td>
+                    <td>性能最佳，无容错</td>
+                </tr>
+                <tr>
+                    <td><strong>RAID 1</strong></td>
+                    <td>2</td>
+                    <td>✅ N-1</td>
+                    <td>50%</td>
+                    <td>镜像备份，安全性高</td>
+                </tr>
+                <tr>
+                    <td><strong>RAID 5</strong></td>
+                    <td>3</td>
+                    <td>✅ 1</td>
+                    <td>67%-94%</td>
+                    <td>平衡性能与安全</td>
+                </tr>
+                <tr>
+                    <td><strong>RAID 6</strong></td>
+                    <td>4</td>
+                    <td>✅ 2</td>
+                    <td>50%-92%</td>
+                    <td>双重校验，极端安全</td>
+                </tr>
+                <tr>
+                    <td><strong>RAID 10</strong></td>
+                    <td>4</td>
+                    <td>✅ 1/2</td>
+                    <td>50%</td>
+                    <td>镜像+条带，性能安全兼顾</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-**鍘熺悊**锛氭暟鎹垎鏁ｅ啓鍏ユ墍鏈夌‖鐩�
+</div>
 
-**浼樼偣**锛�
-- 閫熷害鏈€蹇�
-- 瀹归噺鍒╃敤鐜� 100%
+<script>
+function raidCalculator() {
+    return {
+        diskCount: 4,
+        diskSize: 8,
+        selectedMode: '5',
+        warning: '',
+        raidModes: [
+            { id: '0', name: 'RAID 0', desc: '性能优先' },
+            { id: '1', name: 'RAID 1', desc: '镜像备份' },
+            { id: '5', name: 'RAID 5', desc: '均衡之选' },
+            { id: '6', name: 'RAID 6', desc: '双重容错' },
+            { id: '10', name: 'RAID 10', desc: '企业级' }
+        ],
+        result: {
+            usableCapacity: '0 TB',
+            rawCapacity: '0',
+            faultTolerance: 0,
+            efficiency: 0,
+            waste: 0
+        },
+        selectMode(mode) {
+            this.selectedMode = mode;
+            this.calculate();
+        },
+        calculate() {
+            const count = parseInt(this.diskCount) || 0;
+            const size = parseFloat(this.diskSize) || 0;
+            this.warning = '';
+            
+            if (count < 2 || size <= 0) {
+                this.result = { usableCapacity: '0 TB', rawCapacity: '0', faultTolerance: 0, efficiency: 0, waste: 0 };
+                return;
+            }
+            
+            const raw = count * size;
+            let usable = 0;
+            let faultTolerance = 0;
+            
+            switch(this.selectedMode) {
+                case '0':
+                    usable = raw;
+                    faultTolerance = 0;
+                    if (count < 2) this.warning = 'RAID 0 至少需要 2 块硬盘';
+                    break;
+                case '1':
+                    usable = size;
+                    faultTolerance = count - 1;
+                    if (count < 2) this.warning = 'RAID 1 至少需要 2 块硬盘';
+                    break;
+                case '5':
+                    usable = (count - 1) * size;
+                    faultTolerance = 1;
+                    if (count < 3) this.warning = 'RAID 5 至少需要 3 块硬盘';
+                    break;
+                case '6':
+                    usable = (count - 2) * size;
+                    faultTolerance = 2;
+                    if (count < 4) this.warning = 'RAID 6 至少需要 4 块硬盘';
+                    break;
+                case '10':
+                    const mirrorPairs = Math.floor(count / 2);
+                    usable = mirrorPairs * size;
+                    faultTolerance = Math.floor(count / 2) - 1;
+                    if (count < 4) this.warning = 'RAID 10 至少需要 4 块硬盘';
+                    break;
+            }
+            
+            const efficiency = raw > 0 ? Math.round((usable / raw) * 100) : 0;
+            const waste = raw - usable;
+            
+            this.result = {
+                usableCapacity: usable.toFixed(1) + ' TB',
+                rawCapacity: raw.toFixed(1),
+                faultTolerance: faultTolerance,
+                efficiency: efficiency,
+                waste: waste.toFixed(1)
+            };
+        }
+    }
+}
+</script>
 
-**缂虹偣**锛�
-- 鏃犳暟鎹繚鎶�
-- 涓€鍧楃‖鐩樻崯鍧� = 鎵€鏈夋暟鎹涪澶�
+<style>
+.raid-calculator {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Noto Sans SC', sans-serif;
+}
 
-**閫傜敤**锛氭父鎴忋€佸閫熷害瑕佹眰楂樼殑涓存椂瀛樺偍
+.raid-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a0a0ff;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-### RAID 1锛氶暅鍍忓浠�
+.raid-modes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 32px;
+}
 
-**鍘熺悊**锛氭暟鎹悓鏃跺啓鍏ヤ袱鍧楃‖鐩�
+@media (max-width: 600px) {
+    .raid-modes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
-**浼樼偣**锛�
-- 鏁版嵁缁濆瀹夊叏
-- 璇诲彇閫熷害缈诲€�
+.raid-mode-btn {
+    background: rgba(255,255,255,0.05);
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 16px 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+}
 
-**缂虹偣**锛�
-- 瀹归噺鍒╃敤鐜囧彧鏈� 50%
+.raid-mode-btn:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.3);
+}
 
-**閫傜敤**锛氶噸瑕佹枃浠跺浠姐€佸搴収鐗�
+.raid-mode-btn.active {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-color: #667eea;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+}
 
-### RAID 5锛氬潎琛′箣閫�
+.mode-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 4px;
+}
 
-**鍘熺悊**锛氬垎甯冨紡濂囧伓鏍￠獙
+.mode-desc {
+    display: block;
+    font-size: 11px;
+    color: rgba(255,255,255,0.6);
+}
 
-**浼樼偣**锛�
-- 瀹归噺鍒╃敤鐜囬珮 (n-1)
-- 璇诲彇閫熷害蹇�
+.raid-config {
+    background: rgba(255,255,255,0.05);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
 
-**缂虹偣**锛�
-- 鍐欏叆閫熷害杈冩參
-- 鍙兘瀹瑰繊 1 鍧楃‖鐩樻崯鍧�
+.config-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
-**閫傜敤**锛氬皬鍨� NAS銆佷釜浜轰簯瀛樺偍
+.raid-input {
+    width: 100%;
+    padding: 14px 18px;
+    background: rgba(0,0,0,0.3);
+    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
 
-### RAID 6锛氬弻閲嶄繚鎶�
+.raid-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+}
 
-**鍘熺悊**锛氬弻閲嶅鍋舵牎楠�
+.result-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+}
 
-**浼樼偣**锛�
-- 鍙蹇� 2 鍧楃‖鐩樻崯鍧�
-- 瀹夊叏鎬ф瀬楂�
+@media (max-width: 600px) {
+    .result-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
-**缂虹偣**锛�
-- 瀹归噺鍒╃敤鐜� (n-2)
-- 鍐欏叆閫熷害鎱�
+.result-card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.1);
+}
 
-**閫傜敤**锛氫紒涓氬瓨鍌ㄣ€佸叧閿笟鍔�
+.result-icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
 
-### RAID 10锛氭€ц兘涓庡畨鍏�
+.result-label {
+    font-size: 12px;
+    color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
 
-**鍘熺悊**锛歊AID 1 + RAID 0
+.result-value {
+    font-size: 28px;
+    font-weight: 800;
+    color: #667eea;
+    margin-bottom: 4px;
+}
 
-**浼樼偣**锛�
-- 璇诲彇閫熷害鏋佸揩
-- 鍙蹇嶅鍧楃‖鐩樻崯鍧�
+.result-value.text-green {
+    color: #34C759;
+}
 
-**缂虹偣**锛�
-- 瀹归噺鍒╃敤鐜� 50%
-- 闇€瑕佽嚦灏� 4 鍧楃‖鐩�
+.result-value.text-red {
+    color: #FF3B30;
+}
 
-**閫傜敤**锛氭暟鎹簱銆佽櫄鎷熸満銆佸叧閿簲鐢�
+.result-sub {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+}
 
-## 瀹归噺璁＄畻
+.raid-warning {
+    background: rgba(255, 59, 48, 0.2);
+    border: 1px solid #FF3B30;
+    border-radius: 10px;
+    padding: 12px 16px;
+    color: #FF3B30;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
 
-### 璁＄畻鍏紡
+.raid-info {
+    background: rgba(255,255,255,0.05);
+    border-radius: 16px;
+    padding: 24px;
+}
 
-```
-RAID 0: 瀹归噺 = 纭洏瀹归噺 脳 鏁伴噺
-RAID 1: 瀹归噺 = 纭洏瀹归噺 脳 鏁伴噺 梅 2
-RAID 5: 瀹归噺 = 纭洏瀹归噺 脳 (鏁伴噺 - 1)
-RAID 6: 瀹归噺 = 纭洏瀹归噺 脳 (鏁伴噺 - 2)
-RAID 10: 瀹归噺 = 纭洏瀹归噺 脳 鏁伴噺 梅 2
-```
+.raid-info h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: white;
+}
 
-### 绀轰緥
+.raid-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
 
-| 閰嶇疆 | 纭洏 | 鍙敤瀹归噺 |
-|------|------|----------|
-| RAID 0 | 4脳8TB | 32TB |
-| RAID 1 | 2脳8TB | 8TB |
-| RAID 5 | 4脳8TB | 24TB |
-| RAID 6 | 4脳8TB | 16TB |
-| RAID 10 | 4脳8TB | 16TB |
+.raid-table th,
+.raid-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
 
-## 杩蜂綘涓绘満鎺ㄨ崘
+.raid-table th {
+    color: #a0a0ff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
-### 2 鐩樹綅
+.raid-table td {
+    color: rgba(255,255,255,0.8);
+}
 
-| 鏂规 | RAID 1 |
-|------|--------|
-| 瀹归噺 | 8TB (2脳8TB) |
-| 瀹夊叏鎬� | 楂� |
+.raid-table tr:hover td {
+    background: rgba(255,255,255,0.05);
+}
+</style>
 
-### 4 鐩樹綅
-
-| 鏂规 | RAID 5 | RAID 6 |
-|------|--------|--------|
-| 瀹归噺 | 24TB | 16TB |
-| 瀹夊叏鎬� | 涓珮 | 鏋侀珮 |
-
-### 6+ 鐩樹綅
-
-| 鏂规 | RAID 6 | RAID 10 |
-|------|--------|---------|
-| 瀹归噺 | 32TB | 24TB |
-| 瀹夊叏鎬� | 鏋侀珮 | 鏋侀珮 |
-
-## 娉ㄦ剰浜嬮」
-
-### 鈿狅笍 涓嶈浣跨敤
-
-- 娣峰悎涓嶅悓瀹归噺纭洏
-- 娣峰悎涓嶅悓鍝佺墝纭洏
-- 蹇借纭洏鍋ュ悍
-
-### 鉁� 姝ｇ‘鍋氭硶
-
-- 浣跨敤鍚屽瀷鍙风‖鐩�
-- 瀹氭湡妫€鏌ョ‖鐩樺仴搴�
-- 瀹氭湡澶囦唤鍒板叾浠栦綅缃�
-- 寤虹珛 3-2-1 澶囦唤鍘熷垯
-
-## 3-2-1 澶囦唤鍘熷垯
-
-> 3 浠藉壇鏈�
-> 2 绉嶄笉鍚屽瓨鍌ㄤ粙璐�
-> 1 浠藉紓鍦板瓨鍌�
-
-## 鎬荤粨
-
-| 浣跨敤鍦烘櫙 | 鎺ㄨ崘 RAID |
-|----------|-----------|
-| 棰勭畻鏈夐檺 | RAID 1 |
-| 瀹跺涵 NAS | RAID 5 |
-| 閲嶈鏁版嵁 | RAID 6 |
-| 鏋佽嚧鎬ц兘 | RAID 10 |
-
-**寤鸿**锛氬浜庡ぇ澶氭暟鐢ㄦ埛锛孯AID 5 鎴� RAID 6 鏄渶浣抽€夋嫨銆�
+<!-- Alpine.js -->
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>

@@ -1,23 +1,23 @@
 ---
-title: "Day 5閿涙俺鍤滈崝銊ュ娴犺濮熸稉搴＄妇鐠鸿櫕婧€閸掞拷 - AI娑撹濮╂稉杞扮稑瀹搞儰缍�"
+title: "Day 5锛氳嚜鍔ㄥ寲浠诲姟涓庡績璺虫満鍒� - AI涓诲姩涓轰綘宸ヤ綔"
 date: 2026-03-04
 categories: ["ai"]
 slug: "openclaw-day5-automation-heartbeat"
-summary: "OpenClaw韫囧啳鐑﹂張鍝勫煑鐠囷箒袙閿涘苯鐣鹃弮鏈垫崲閸斅ゅ殰閸斻劍澧界悰宀嬬礉鐠併€娑撹濮╂稉杞扮稑濡偓閺屻儵鍋栨禒韬测偓浣搞亯濮樻柣鈧焦鏌婇梻鑽ょ搼閵嗭拷"
-tags: ["OpenClaw", "韫囧啳鐑�", "閼奉亜濮╅崠锟�", "Cron", "鐎规碍妞傛禒璇插"]
+summary: "OpenClaw蹇冭烦鏈哄埗璇﹁В锛屽畾鏃朵换鍔¤嚜鍔ㄦ墽琛岋紝璁〢I涓诲姩涓轰綘妫€鏌ラ偖浠躲€佸ぉ姘斻€佹柊闂荤瓑銆�"
+tags: ["OpenClaw", "蹇冭烦", "鑷姩鍖�", "Cron", "瀹氭椂浠诲姟"]
 ---
 
-# Day 5閿涙俺鍤滈崝銊ュ娴犺濮熸稉搴＄妇鐠鸿櫕婧€閸掞拷
+# Day 5锛氳嚜鍔ㄥ寲浠诲姟涓庡績璺虫満鍒�
 
 
-<a href="/ai/" target="_blank">OpenClaw</a>韫囧啳鐑﹂張鍝勫煑鐠併€娑撹濮╂稉杞扮稑瀹搞儰缍旈妴锟�
+<a href="/ai/" target="_blank">OpenClaw</a>蹇冭烦鏈哄埗璁〢I涓诲姩涓轰綘宸ヤ綔銆�
 
 ---
 
-*閺囨潙顦�<a href="/ai/" target="_blank">AI</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [AI妫版垿浜綸(/ai/)閵嗭拷*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/fnos-full-guide/" rel="prev">娑撳﹣绔存い纰夌窗妞嬬偟澧癘S濞ｅ崬瀹虫担鎾荤崣</a>
+  <a href="/guide/fnos-full-guide/" rel="prev">涓婁竴椤碉細椋炵墰OS娣卞害浣撻獙</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

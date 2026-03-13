@@ -1,35 +1,35 @@
----
-title: "GMKTEC K5 Plus 鐠囧嫭绁撮敍娆癕D 5800H 閸忋儵妫＃鏍偓锟�"
+﻿---
+title: "GMKTEC K5 Plus 评测：AMD 5800H 入门首选"
 date: 2026-02-18
 categories: ["hardware"]
 brand: "GMKTEC"
 model: "K5 Plus"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=GMKTEC+K5+Plus"
-bilibili_url: "https://search.bilibili.com/all?keyword=GMKTEC+K5+Plus+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=GMKTEC+K5+Plus+测评"
 youtube_url: "https://www.youtube.com/results?search_query=GMKTEC+K5+Plus+review"
-pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 slug: "gmktec-k5-plus"
 ---
 
-# GMKTEC K5 Plus 鐠囧嫭绁�
+# GMKTEC K5 Plus 评测
 
 
-<a href="/review/gmktec-k5-plus/" target="_blank">GMKTEC K5 Plus</a> 閹碱叀娴� AMD 5800H 婢跺嫮鎮婇崳顭掔礉閺勵垯绔村▎鎯у弳闂傘劎楠�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/gmktec-k5-plus/" target="_blank">GMKTEC K5 Plus</a> 搭载 AMD 5800H 处理器，是一款入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- AMD 5800H 閹嗗厴鐡掑啿顧�
-- 娴犻攱鐗哥€圭偞鍎�
-- 閹恒儱褰涙稉鏉跨槣
+- AMD 5800H 性能足够
+- 价格实惠
+- 接口丰富
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/gmktec-k6/" rel="prev">娑撳﹣绔存い纰夌窗GMKTEC K6 鐠囧嫭绁�</a>
+  <a href="/hardware/gmktec-k6/" rel="prev">上一页：GMKTEC K6 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

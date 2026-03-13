@@ -1,53 +1,38 @@
----
-title: "Minisforum MS-01 璇勬祴锛氭渶寮烘€ц兘杩蜂綘宸ヤ綔绔�"
-date: 2026-01-01
+﻿---
+title: "Minisforum MS-01 评测：工作站在掌心，史上最强迷你主机？"
+date: 2026-02-20
 categories: ["hardware"]
-summary: "Minisforum MS-01 璇勬祴锛孖ntel i9-12900H锛屽弻 2.5G 缃戝彛锛岄浄鐢�4"
-tags: ["Minisforum", "MS-01", "杩蜂綘涓绘満", "宸ヤ綔绔�"]
+brand: "Minisforum"
+model: "MS-01"
+platform: "intel"
+official_url: "https://search.jd.com/Search?keyword=Minisforum+MS-01"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+MS-01+测评"
+youtube_url: "https://www.youtube.com/results?search_query=Minisforum+MS-01+review"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-ms-01"
 ---
 
-# Minisforum MS-01 璇勬祴
+# Minisforum MS-01 评测：史上最强迷你工作站
 
-Minisforum MS-01 鏄竴娆惧畾浣嶄簬宸ヤ綔绔欑殑杩蜂綘涓绘満锛屾惌杞� Intel i9-12900H 澶勭悊鍣ㄣ€�
 
-## 鏍稿績閰嶇疆
+## 一、前言
 
-| 缁勪欢 | 瑙勬牸 |
-|------|------|
-| 澶勭悊鍣� | Intel i9-12900H |
-| 鏍稿績鏁� | 14 鏍� 20 绾跨▼ |
-| 鍩虹棰戠巼 | 2.5 GHz |
-| 鐫块 | 5.0 GHz |
-| 鏍告樉 | Iris Xe (96EU) |
-| 鍐呭瓨 | DDR5-5200 鍙岄€氶亾 |
-| 瀛樺偍 | 2脳 M.2 NVMe + 1脳 SATA |
+在<a href="/hardware/" target="_blank">迷你主机</a>的江湖里，铭凡（Minisforum）一直以"敢想敢做"著称。如果说之前的UM系列是为了满足桌面娱乐，那么今天这台**MS-01**，则是冲着**技术极客、Homelab玩家和企业级用户**的命门去的。
 
-## 鎬ц兘娴嬭瘯
+它不再仅仅追求体积的极致小巧，而是在约**2.5升**的机身内，集成了**双10G SFP+光口、双2.5G电口、两个USB4，以及一条物理PCIe x16插槽**（实际速率x8）。这种配置在<a href="/hardware/" target="_blank">迷你主机</a>领域堪称"异类"，甚至被玩家戏称为"先天All in One圣体"。
 
-### CPU 鍩哄噯
+## 二、外观与接口
 
-| 娴嬭瘯 | 鍒嗘暟 |
-|------|------|
-| Cinebench R23 鍗曟牳 | 1950 |
-| Cinebench R23 澶氭牳 | 18500 |
-| Geekbench 6 鍗曟牳 | 2800 |
+**体积与设计**
+MS-01的机身尺寸为196×189×48mm，体积约**2.5升**，重量**1.5公斤**，比我们常见的0.8L<a href="/hardware/" target="_blank">迷你主机</a>大了一圈，但依然远小于传统ITX机箱。外壳以金属为主，辅以塑料面板，整体风格硬朗，更像一台专业工作站而非家用小可爱。
 
-## 鎺ュ彛
+---
 
-- 2脳 2.5G 缃戝彛
-- 1脳 闆风數4
-- 4脳 USB 3.2
-- 1脳 HDMI
-- 1脳 DP
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
-## 閫傜敤鍦烘櫙
+<div class="page-nav">
+  <a href="/nas/nas-rag-system-2026/" rel="prev">上一页：NAS作为家庭AI知识库：构建私有RAG系统</a>
+</div>
 
-- 杞矾鐢�
-- NAS
-- 铏氭嫙鏈�
-- 灏忓瀷鏈嶅姟鍣�
-
-## 鎬荤粨
-
-**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨槅
+*本文由 NUC NAS Hub 自动生成*

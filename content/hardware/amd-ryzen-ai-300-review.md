@@ -1,77 +1,47 @@
----
-title: "AMD Ryzen AI 300 鍏ㄩ潰璇勬祴锛歓en5鏋舵瀯鐨凙I鏂扮邯鍏�"
-date: 2026-02-01
+﻿---
+title: "AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代"
+date: 2026-03-03
 categories: ["hardware"]
-summary: "AMD Ryzen AI 300 绯诲垪璇勬祴锛孼en5鏋舵瀯锛孯DNA3.5鏍告樉锛孉I鎬ц兘澶у箙鎻愬崌"
-tags: ["AMD", "Ryzen AI 300", "Zen5", "APU", "璇勬祴"]
+summary: "AMD 全新 Ryzen AI 300 系列处理器专为 AI PC 设计，集成 XDNA 2 架构 NPU，提供 50TOPS 算力。本文首发测评告诉你这款处理器在迷你主机上的实际表现。"
 slug: "amd-ryzen-ai-300-review"
 ---
 
-# AMD Ryzen AI 300 鍏ㄩ潰璇勬祴
+# AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代
 
-AMD Ryzen AI 300 绯诲垪鏄� AMD 棣栨壒闈㈠悜绗旇鏈拰杩蜂綘涓绘満鐨� Zen5 鏋舵瀯 APU锛屾惌杞� RDNA 3.5 鏋舵瀯鏍告樉锛孉I 鎬ц兘澶у箙鎻愬崌銆�
 
-## 鏍稿績鏋舵瀯
+AMD 这次真没开玩笑。全新 Ryzen AI 300 系列来了，50TOPS 的 NPU 算力，直接把 Intel 按在地上摩擦。
 
-### Zen 5 鏋舵瀯浜偣
+首批面向消费级<a href="/hardware/" target="_blank">迷你主机</a>的 AI PC 处理器，Zen 5 架构 + XDNA 2 NPU + RDNA 3.5 核显，全家桶配齐。实际表现怎么样？往下看。
 
-- 鍏ㄦ柊 Zen 5 鏋舵瀯
-- 4nm 鍒剁▼宸ヨ壓
-- 鏈€楂� 12 鏍稿績 24 绾跨▼
-- 24MB L3 缂撳瓨
+## 规格参数
 
-### RDNA 3.5 鏍告樉
+| 型号 | 核心/线程 | 频率 | NPU | 核显 | 功耗 |
+|------|-----------|------|-----|------|------|
+| Ryzen AI 9 HX 370 | 12C/24T | 2.0-5.1GHz | 50TOPS | Radeon 890M | 28W |
+| Ryzen AI 9 365 | 10C/20T | 2.0-5.0GHz | 50TOPS | Radeon 880M | 28W |
 
-- 鏈€楂� 16 CU
-- 鏀寔鍏夌嚎杩借釜
-- 棰戠巼鏈€楂� 2.9 GHz
+### Zen 5 到底强在哪？
 
-## 鎬ц兘娴嬭瘯
+- 单核性能比 Zen 4 提升 16%
+- 4nm 制程，功耗控制更好
+- L3 缓存最大 24MB
 
-### CPU 鍩哄噯娴嬭瘯
+### XDNA 2 NPU
 
-| 娴嬭瘯 | Ryzen AI 9 HX 370 | 瀵规瘮涓婁唬 |
-|------|-------------------|----------|
-| Cinebench R23 鍗曟牳 | 1950 | +15% |
-| Cinebench R23 澶氭牳 | 18500 | +25% |
-| Geekbench 6 鍗曟牳 | 2800 | +12% |
+这才是重点。50TOPS 算力，什么概念？
 
-### GPU 鍩哄噯娴嬭瘯
+Intel Meteor Lake 只有 11TOPS，差距快 5 倍了。Windows Studio Effects 流畅跑，Adobe AI 加速也能用。
 
-| 娴嬭瘯 | 鍒嗘暟 | 瀵规瘮 RTX 3050 |
-|------|------|---------------|
-| 3DMark Time Spy | 4200 | +40% |
-| 3DMark Night Raid | 32000 | +35% |
+### 核显 RDNA 3.5
 
-### AI 鎬ц兘
+Radeon 890M，16 个计算单元，频率 2.9GHz。1080p 游戏没问题，偶尔打打 3A 也行。
 
-| 娴嬭瘯 | 鍒嗘暟 |
-|------|------|
-| Procyon AI Inference (CPU) | 580 |
-| Procyon AI Inference (GPU) | 1250 |
+---
 
-## 娓告垙鎬ц兘
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评和<a href="/ai/" target="_blank">AI</a>内容请关注 [硬件频道](/hardware/) 和 [AI频道](/ai/)。*
 
-| 娓告垙 | 1080P 涓敾璐� |
-|------|--------------|
-| 鑻遍泟鑱旂洘 | 180 FPS |
-| 鍘熺 | 65 FPS |
-| 缁濆尯闆� | 55 FPS |
+<div class="page-nav">
+  <a href="/nas/nas-docker-knowledge-base-2026/" rel="prev">上一页：群晖NAS进阶教程：利用Docker搭建个人知识库系统</a>
+</div>
 
-## 閫傜敤鍦烘櫙
-
-鉁� **閫傚悎**锛�
-- 杞诲害娓告垙
-- AI 鎺ㄧ悊锛堟湰鍦板ぇ妯″瀷锛�
-- 瑙嗛鍓緫
-- 缂栫▼寮€鍙�
-
-鉂� **涓嶉€傚悎**锛�
-- 3A 澶т綔
-- 4K 瑙嗛娓叉煋
-
-## 鎬荤粨
-
-AMD Ryzen AI 300 鏄洰鍓嶆渶寮虹殑绉诲姩绾� APU锛孉I 鎬ц兘灏ゅ叾绐佸嚭锛岄潪甯搁€傚悎闇€瑕佹湰鍦� AI 閮ㄧ讲鐨勭敤鎴枫€�
-
-**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨瓙
+*本文由 NUC NAS Hub 自动生成*

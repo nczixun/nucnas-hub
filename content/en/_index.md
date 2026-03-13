@@ -1,6 +1,5 @@
 ---
 title: "News"
-slug: "news"
 description: "Latest tech news and industry updates"
 ---
 

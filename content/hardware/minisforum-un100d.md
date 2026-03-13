@@ -1,41 +1,41 @@
----
+﻿---
 slug: "minisforum-un100d"
-title: "Minisforum UN100D 鐠囧嫭绁撮敍娆糿tel N100 閸忋儵妫＃鏍偓锟�"
+title: "Minisforum UN100D 评测：Intel N100 入门首选"
 date: 2026-02-27
-summary: "Minisforum UN100D: N100,閸欙拷2.5G,PD娓氭稓鏁�"
-description: "Minisforum UN100D: N100,閸欙拷2.5G,PD娓氭稓鏁�"
+summary: "Minisforum UN100D: N100,双2.5G,PD供电"
+description: "Minisforum UN100D: N100,双2.5G,PD供电"
 categories: ["hardware"]
-tags: ["N100", "閸欙拷2.5G", "PD娓氭稓鏁�", "hardware"]
-keywords: ["N100", "閸欙拷2.5G", "PD娓氭稓鏁�", "hardware"]
+tags: ["N100", "双2.5G", "PD供电", "hardware"]
+keywords: ["N100", "双2.5G", "PD供电", "hardware"]
 ---
 
-# Minisforum UN100D 鐠囧嫭绁�
+# Minisforum UN100D 评测
 
 
-## 濮掑倽鍫�
+## 概述
 
-<a href="/review/minisforum-un100d/" target="_blank">Minisforum UN100D</a> 閺勵垯绔村▎鎯х唨娴滐拷 Intel N100 婢跺嫮鎮婇崳銊ф畱閸忋儵妫痪锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閿涘本鏁幐浣稿蓟2.5G缂冩垵褰涢崪瀛璂娓氭稓鏁搁妴锟�
+<a href="/hardware/minisforum-un100d/" target="_blank">Minisforum UN100D</a> 是一款基于 Intel N100 处理器的入门级<a href="/hardware/" target="_blank">迷你主机</a>，支持双2.5G网口和PD供电。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- **婢跺嫮鎮婇崳锟�**閿涙ntel N100
-- **缂冩垵褰�**閿涙艾寮�2.5G缂冩垵褰�
-- **娓氭稓鏁�**閿涙瓍D娓氭稓鏁�
-- **娴ｆ挾袧**閿涙氨鎻ｉ崙鎴ｎ啎鐠侊拷
+- **处理器**：Intel N100
+- **网口**：双2.5G网口
+- **供电**：PD供电
+- **体积**：紧凑设计
 
-## 闁倻鏁ら崷鐑樻珯
+## 适用场景
 
-- 鐎硅泛娑甸崝鐐插彆
-- 鏉烆垵鐭鹃悽锟�
-- <a href="/guide/" target="_blank">NAS</a>鏉炲鍣虹痪褍绨查悽锟�
-- 婵帊缍嬮幘顓熸杹
+- 家庭办公
+- 软路由
+- <a href="/nas/" target="_blank">NAS</a>轻量级应用
+- 媒体播放
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/aoostar-r1/" rel="prev">娑撳﹣绔存い纰夌窗Aoostar R1 鐠囧嫭绁�</a>
+  <a href="/hardware/aoostar-r1/" rel="prev">上一页：Aoostar R1 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

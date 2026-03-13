@@ -1,62 +1,62 @@
----
-title: "2026妤犵偛鐡ㄥ﹢浼村捶閺夎￥浜ｆ俊顖椻偓宕団偓鐑芥焾閵娧嗩唹闁圭ǹ娲ゅ畷锟犳晬濮橆剚韬弶鈺勬腹缂嶆ɑ绋夌紒妯荤皻濞戞挸锕ㄧ换宥囨偘鐎涘當epSeek R1"
+﻿---
+title: "2026年本地大模型部署指南：在迷你主机上运行DeepSeek R1"
 date: 2026-03-05
 categories: ["ai"]
-tags: ["AI", "濠㈠爢鍕€渚€宕归敓锟�", "DeepSeek", "Ollama", "闁哄牜鍓欏﹢鎾焾閵娧嗩唹", "闁轰焦鐟ч埢锟�"]
+tags: ["AI", "大模型", "DeepSeek", "Ollama", "本地部署", "教程"]
 platform: "ai"
 slug: "deepseek-r1-local-deploy-minipc-2026"
 ---
 
-# 2026妤犵偛鐡ㄥ﹢浼村捶閺夎￥浜ｆ俊顖椻偓宕団偓鐑芥焾閵娧嗩唹闁挎稒淇虹化鐘虫媴閻樺崬鐦滈柡鍫ョ細缁诲秶鎮扮€涘當epSeek R1閻庣懓鏈弳锝夊箰閸パ冪
+# 2026年本地大模型部署：迷你主机运行DeepSeek R1完整指南
 
 
-**闁哄洤鐡ㄩ弻濠囧籍閵夛附鍩傞柨娑虫嫹** 2026妤犵儑鎷�3闁哄牞鎷�5闁哄喛鎷�
+**更新日期：** 2026年3月5日
 
-## 濞戞挴鍋撻柕鍡曠婢х姷鎳涢埀锟�
+## 一、前言
 
-DeepSeek R1闁哄嫷鍨懙鎴﹀炊閽樺绀嬮梻鍐枎缁辨垿宕ｉ幋鐘崇暠鐎殿喒鍋撴繝褎鍔曢妵鍥╂嫚椤撯檧鏋呮俊顖椻偓宕団偓鐑芥晬鐏為敮鍋撹閸忔ḿ鈧絻顫夐悥顤昿enAI o1闁挎稑濂旂徊鍓р偓鐟拌嫰閸欏繐顕ｉ埀顒€鈹冮幇顒€璁查柡鍫墮濠€鎾焾閵娧嗩唹闁靛棗鍊瑰﹢浼村棘閸パ呮閻犲浄濡囩划蹇旂鐎ｎ剛鐭濆┑鈥冲€风紞宥夊捶閿燂拷<a href="/review/" target="_blank">閺夆晞娓圭紞妯荤▔缂佹ɑ绨�</a>濞戞挸锕ュ﹢浼村捶閹峰瞼绠ラ悶娑樼摃eepSeek R1闁靛棴鎷�
+DeepSeek R1是中国团队开发的开源大语言模型，性能对标OpenAI o1，但完全开源可本地部署。本文将详细介绍如何在<a href="/hardware/" target="_blank">迷你主机</a>上本地运行DeepSeek R1。
 
-## 濞存粌琚埀顑胯兌閳ユ牗绂掗幆閭︽矗婵櫢鎷�
+## 二、硬件要求
 
-### 2.1 闁哄牃鍋撳ù锝呴叄閸樸倗绱旈鍡欑7B闁告瑥鍊归弳鐔兼晬閿燂拷
+### 2.1 最低配置（7B参数）
 
-| 缂備礁瀚▎锟� | 閻熸洑鐒﹂惇锟� |
+| 组件 | 要求 |
 | :--- | :--- |
-| **闁告劕鎳庨悺锟�** | 16GB+ |
-| **閻庢稒锚閸嬶拷** | 30GB+闁挎稑鐗婅啯闁搞劌顑嗛弸鍐╃鐠佸湱绀� |
-| **缂侇垵宕电划锟�** | Linux/Windows WSL2 |
+| **内存** | 16GB+ |
+| **存储** | 30GB+（模型文件） |
+| **系统** | Linux/Windows WSL2 |
 
-### 2.2 闁规亽鍔忓畷姗€鏌婂鍥╂瀭闁挎冻鎷�14B+闁告瑥鍊归弳鐔兼晬閿燂拷
+### 2.2 推荐配置（14B+参数）
 
-| 缂備礁瀚▎锟� | 閻熸洑鐒﹂惇锟� |
+| 组件 | 要求 |
 | :--- | :--- |
-| **闁告劕鎳庨悺锟�** | 32GB+ |
-| **閻庢稒锚閸嬶拷** | 50GB+ NVMe SSD |
-| **闁哄嫭鍎冲畷锟�** | 8GB+ VRAM闁挎稑鐗嗚ぐ鏌ユ焻婢舵稓绀塁PU濞戞梻鍠曢崗妯绘交閹邦垼鏀介柨娑虫嫹 |
+| **内存** | 32GB+ |
+| **存储** | 50GB+ NVMe SSD |
+| **显卡** | 8GB+ VRAM（可选，CPU也能运行） |
 
-## 濞戞挸顦埀顑跨窔閸庡绱旈崣澶嬬厵婵℃鎷�
+## 三、部署方案
 
-### 3.1 闁哄倽顫夐、宥嗙▔閳ь剟鏁嶉敓锟�<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>闁挎稑鐗婄敮褰掓嚒閹板墎绀�
+### 3.1 方案一：<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>（推荐）
 
-<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>闁哄嫷鍨扮紞瀣礈瀹ュ棙浠樻繛缈犳祰椤㈡垿鎯冮崟顒佹嫳闁革附婢橀妵鍥熼垾宕団偓閿嬫交閹邦垼鏀界€规悶鍎遍崣鍧楁晬鐏炵偓鏆滈柟闀愮畼indows闁靛棔搴渁c闁靛棔淇痠nux闁靛棴鎷�
+<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>是当前最流行的本地大模型运行工具，支持Windows、Mac、Linux。
 
-**閻庣懓顦抽ˉ濠傤潰閵夆晩鈧拷**闁挎冻鎷�
+**安装步骤**：
 
-1. 濞戞挸顑堝ù锟�<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>
+1. 下载<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>
 ```bash
 # Linux
 curl -fsSL https://ollama.com/install.sh | sh
 
 # Windows
-# 闁告挸绉寸欢锟� https://ollama.com/download/windows 濞戞挸顑堝ù鍥┾偓鐟邦槼椤ュ﹪宕犻敓锟�
+# 前往 https://ollama.com/download/windows 下载安装包
 ```
 
 ---
 
-*闁哄洦娼欓ˇ锟�<a href="/ai/" target="_blank">AI</a>闁轰焦鐟ч埢濂稿椽閿燂拷<a href="/review/" target="_blank">閺夆晞娓圭紞妯荤▔缂佹ɑ绨�</a>闁告劕鎳庨鎰嫚瀹勬澘褰犳繛澶涙嫹 [AI濡増鍨挎禍缍�(/ai/) 闁告粣鎷� [缁绢収鍏涘▎銏★紣閹达缚澹昡(/review/)闁靛棴鎷�*
+*更多<a href="/ai/" target="_blank">AI</a>教程和<a href="/hardware/" target="_blank">迷你主机</a>内容请关注 [AI频道](/ai/) 和 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/amd-ryzen-ai-300-minipc-2026/" rel="prev">濞戞挸锕ｇ粩瀛樸亜绾板绐桝MD Ryzen AI 300缂侇垵顕ч崹顏呮交閾氬倻绋戝☉鎾剁帛濠р偓闂侇偄顦抽崰姗€骞愰崶褍纭€</a>
+  <a href="/hardware/amd-ryzen-ai-300-minipc-2026/" rel="prev">上一页：AMD Ryzen AI 300系列迷你主机选购指南</a>
 </div>
 
-*闁哄牜鍓氶弸鍐偨閿燂拷 NUC NAS Hub 闁煎浜滄慨鈺呮偨閻旂ǹ鐏�*
+*本文由 NUC NAS Hub 自动生成*

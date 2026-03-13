@@ -1,35 +1,35 @@
----
-title: "Minisforum HX200 鐠囧嫭绁撮敍娆癕D 7940HS 妤傛ɑ鈧嗗厴鏉╄渹缍樻稉缁樻簚"
+﻿---
+title: "Minisforum HX200 评测：AMD 7940HS 高性能迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "HX200"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+HX200"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+HX200+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+HX200+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+HX200+review"
-pros: "閸嬫艾浼愮划鎹愬閿涘本鈧嗗厴缁嬪啿鐣鹃敍灞惧复閸欙絼璧寸€碉拷"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢瑰府绱濋幍鈺佺潔娴ｅ秵婀侀梽锟�"
+pros: "做工精良，性能稳定，接口丰富"
+cons: "负载较高时有风扇声，扩展位有限"
 slug: "minisforum-hx200"
 ---
 
-# Minisforum HX200 鐠囧嫭绁�
+# Minisforum HX200 评测
 
 
-<a href="/review/minisforum-hx200/" target="_blank">Minisforum HX200</a> 閺勵垯绔村▎锟� AMD 7940HS 妤傛ɑ鈧嗗厴<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/minisforum-hx200/" target="_blank">Minisforum HX200</a> 是一款 AMD 7940HS 高性能<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- AMD 7940HS 閹嗗厴瀵搫濮�
-- 閹恒儱褰涙稉鏉跨槣
-- 閺侊絿鍎规导妯碱潊
+- AMD 7940HS 性能强劲
+- 接口丰富
+- 散热优秀
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/minisforum-v7/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum V7 鐠囧嫭绁�</a>
+  <a href="/hardware/minisforum-v7/" rel="prev">上一页：Minisforum V7 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

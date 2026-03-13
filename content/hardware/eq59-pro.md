@@ -1,69 +1,30 @@
----
-title: "闆跺埢 EQ59 Pro 璇勬祴锛氬崈鍏冪骇鍏ラ棬NAS棣栭€�"
-date: 2026-01-10
+﻿---
+title: "零刻 EQ59 Pro 评测：Intel N5105 办公神器"
+date: 2026-02-18
 categories: ["hardware"]
-summary: "闆跺埢 EQ59 Pro 璇勬祴锛孖ntel N5105 澶勭悊鍣紝閫傚悎杞矾鐢卞拰杞婚噺绾AS"
-tags: ["闆跺埢", "EQ59 Pro", "NAS", "Intel N5105", "杩蜂綘涓绘満"]
+brand: "零刻"
+model: "EQ59 Pro"
+platform: "intel"
 slug: "eq59-pro"
 ---
 
-# 闆跺埢 EQ59 Pro 璇勬祴锛氬崈鍏冪骇鍏ラ棬NAS棣栭€�
+# 零刻 EQ59 Pro 评测
 
-闆跺埢 EQ59 Pro 鏄竴娆惧畾浣嶄簬鍏ラ棬绾у競鍦虹殑杩蜂綘涓绘満锛屾惌杞� Intel N5105 澶勭悊鍣紝闈炲父閫傚悎浣滀负杞矾鐢辨垨杞婚噺绾� NAS 浣跨敤銆�
 
-## 鏍稿績閰嶇疆
+<a href="/hardware/eq59-pro/" target="_blank">零刻 EQ59 Pro</a> 是一款 Intel N5105 办公神器<a href="/hardware/" target="_blank">迷你主机</a>。
 
-| 缁勪欢 | 瑙勬牸 |
-|------|------|
-| 澶勭悊鍣� | Intel Celeron N5105 |
-| 鏍稿績鏁� | 4 鏍� 4 绾跨▼ |
-| 鍩虹棰戠巼 | 2.0 GHz |
-| 鐫块 | 2.9 GHz |
-| 鍐呭瓨 | 16GB DDR4 |
-| 瀛樺偍 | 512GB SSD |
+## 主要特点
 
-## 閫傜敤鍦烘櫙
+- Intel N5105 性能足够
+- 办公首选
+- 价格实惠
 
-### 鉁� 閫傚悎
+---
 
-- 杞矾鐢憋紙OpenWrt銆佺埍蹇級
--杞婚噺绾� NAS
-- 涓嬭浇鏈�
-- Home Assistant 瀹跺涵鏅鸿兘涓灑
-- Docker 杩愯杞婚噺瀹瑰櫒
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
-### 鉂� 涓嶉€傚悎
+<div class="page-nav">
+  <a href="/hardware/ser5-pro/" rel="prev">上一页：零刻 SER5 Pro 评测</a>
+</div>
 
-- 4K 瑙嗛杞爜
-- 铏氭嫙鏈哄寮€
-- 澶у瀷 AI 妯″瀷杩愯
-
-## 鎬ц兘娴嬭瘯
-
-| 娴嬭瘯椤圭洰 | 鍒嗘暟 |
-|----------|------|
-| Geekbench 5 鍗曟牳 | 650 |
-| Geekbench 5 澶氭牳 | 2200 |
-| PassMark CPU | 5800 |
-
-## 鍔熻€楄〃鐜�
-
-| 鐘舵€� | 鍔熻€� |
-|------|------|
-| 寰呮満 | 8W |
-| 璐熻浇 | 15W |
-| 宄板€� | 25W |
-
-## 鎺ュ彛涓板瘜
-
-- 2x 2.5G 缃戝彛
-- 2x USB 3.0
-- 2x USB 2.0
-- 1x HDMI
-- 1x DP
-
-## 鎬荤粨
-
-闆跺埢 EQ59 Pro 鏄绠楁湁闄愮敤鎴风殑缁濅匠閫夋嫨锛屽崈鍏冧环浣嶅嵆鍙嫢鏈夌ǔ瀹氱殑杞矾鐢辨垨 NAS 瑙ｅ喅鏂规銆�
-
-**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨瓙
+*本文由 NUC NAS Hub 自动生成*

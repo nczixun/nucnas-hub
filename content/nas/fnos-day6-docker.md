@@ -1,36 +1,36 @@
----
-title: "Day 6: 妞嬬偟澧癘S Docker閸忋儵妫� 閳ユ柡鈧拷 閹垫捇鈧姳绔鹃懗绲匒S"
+﻿---
+title: "Day 6: 飞牛OS Docker入门 —— 打造万能NAS"
 date: 2026-03-12
-summary: "鐎涳缚绡凞ocker閸╄櫣顢呴敍灞芥躬妞嬬偟澧癘S娑撳﹪鍎寸純鎻掓倗缁夊秴绨查悽銊ｂ偓锟�"
+summary: "学习Docker基础，在飞牛OS上部署各种应用。"
 categories: ["nas"]
 slug: "fnos-day6-docker"
-tags: ["妞嬬偟澧癘S", "Docker", "鐎圭懓娅�", "鎼存梻鏁�"]
+tags: ["飞牛OS", "Docker", "容器", "应用"]
 ---
 
-# Day 6: 妞嬬偟澧癘S Docker閸忋儵妫�
+# Day 6: 飞牛OS Docker入门
 
 
-## 娴犫偓娑斿牊妲�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>閿涳拷
+## 什么是<a href="/nas/docker-best-practice/" target="_blank">Docker</a>？
 
-<a href="/guide/docker-best-practice/" target="_blank">Docker</a>閺勵垯绔存稉顏勵啇閸ｃ劌閽╅崣甯礉鐠佲晛绨查悽銊ユ躬娴犺缍嶉悳顖氼暔闁€熷厴鏉╂劘顢戦妴锟�
+<a href="/nas/docker-best-practice/" target="_blank">Docker</a>是一个容器平台，让应用在任何环境都能运行。
 
-## 娑撹桨绮堟稊鍫㈡暏<a href="/guide/docker-best-practice/" target="_blank">Docker</a>閿涳拷
+## 为什么用<a href="/nas/docker-best-practice/" target="_blank">Docker</a>？
 
-- ?? 娑撯偓濞嗭繝鍘ょ純顕嗙礉閸掓澘顦╂潻鎰攽
-- ?? 鏉炵粯婢楅弴瀛樻煀
-- ?? 楠炴彃鍣ｉ崡姝屾祰
-- ?? 閻㈢喐鈧椒璧寸€碉拷
+- 📦 一次配置，到处运行
+- 🔄 轻松更新
+- 🧹 干净卸载
+- 💪 生态丰富
 
-## 鐎瑰顥�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>
+## 安装<a href="/nas/docker-best-practice/" target="_blank">Docker</a>
 
-妞嬬偟澧癘S Web閻ｅ矂娼伴惄瀛樺复閺€顖涘瘮閿涳拷
+飞牛OS Web界面直接支持：
 ```
-鎼存梻鏁ゆ稉顓炵妇 閳拷 Docker 閳拷 鐎瑰顥�
+应用中心 → Docker → 安装
 ```
 
-## 鐢摜鏁�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鎼存梻鏁�
+## 常用<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用
 
-### 1. 闁劎璁睶Bittorrent
+### 1. 部署QBittorrent
 
 ```yaml
 version: '3'
@@ -51,7 +51,7 @@ services:
     restart: unless-stopped
 ```
 
-### 2. 闁劎璁� <a href="/guide/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> 婵帊缍嬮張宥呭閸ｏ拷
+### 2. 部署 <a href="/nas/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> 媒体服务器
 
 ```yaml
 services:
@@ -63,8 +63,8 @@ services:
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day5-remote/" rel="prev">娑撳﹣绔存い纰夌窗Day 5閿涙岸顥ｉ悧姹稴鏉╂粎鈻肩拋鍧楁６</a>
-  <a href="/guide/fnos-day7-backup/" rel="next">娑撳绔存い纰夌窗Day 7閿涙岸顥ｉ悧姹稴閺佺増宓佹径鍥﹀敜</a>
+  <a href="/nas/fnos-day5-remote/" rel="prev">上一页：Day 5：飞牛OS远程访问</a>
+  <a href="/nas/fnos-day7-backup/" rel="next">下一页：Day 7：飞牛OS数据备份</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

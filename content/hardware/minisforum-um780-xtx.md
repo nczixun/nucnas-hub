@@ -1,31 +1,31 @@
----
-title: "Minisforum UM780 XTX 鐠囧嫭绁撮敍姘壋閺勭偓鈧嗗厴婢垛晞濮抽弶锟�"
+﻿---
+title: "Minisforum UM780 XTX 评测：核显性能天花板"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "UM780 XTX"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+UM780 XTX"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM780+XTX+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM780+XTX+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+UM780+XTX+review"
-pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-um780-xtx"
 ---
 
-# Minisforum UM780 XTX 鐠囧嫭绁�
+# Minisforum UM780 XTX 评测
 
 
-## 娑撯偓閵嗕礁澧犵懛鈧�
+## 一、前言
 
-<a href="/review/minisforum-um780-xtx/" target="_blank">Minisforum UM780 XTX</a> 閺勵垱鐗抽弰鐐偓褑鍏樻径鈺勫С閻拷<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/minisforum-um780-xtx/" target="_blank">Minisforum UM780 XTX</a> 是核显性能天花的<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/minisforum-ms-a1/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum MS-A1 鐠囧嫭绁�</a>
+  <a href="/hardware/minisforum-ms-a1/" rel="prev">上一页：Minisforum MS-A1 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

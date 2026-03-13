@@ -1,51 +1,51 @@
----
-title: "GEAKOS 闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌涳公缁辩敻骞嶇€ｎ偄惟闁归潧顑嗛弳鈧ù锝囧У閳ь儸鍡楀幋濞村吋锚鐎碉拷"
+﻿---
+title: "GEAKOS 内存占用高？手把手教你性能优化"
 date: 2026-03-06
 categories: ["nas"]
 slug: "geakos-performance-optimization"
-summary: "GEAKOS闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌浨归～锔炬嫚閻旂儤鈷曢柨娑氬枑閺嗏偓濞达絿濞€閳ь剚淇虹换鍍乷cker闂傚嫭鍔曢崺妤呭Υ娴ｇǹ褰犻梻鍌ゅ幒缁楀绠涢崨閭︽矗闁汇劌瀚﹢鍥礉鎺抽埀顑挎缁鳖參宕犻弽顓炲赋缂傚喚鍣ｅ閿嬫媴鎼粹€虫暥閻庢稒锚瀹曚即鎮介…鎺旂閻犱讲鏅欑紞鍡涙煀瀹ュ牜鍟庡璺烘矗缁″啴鎳楅懞銉с偊闁伙絽鎳撶换宥囨偘鐏炵儵鍋撻敓锟�"
-tags: ["GEAKOS", "闁诡儸鍡楀幋濞村吋锚鐎碉拷", "NAS", "闁告劕鎳庨悺銊﹀濡搫顕�", "Docker"]
+summary: "GEAKOS内存占用高被诟病？教你通过Docker限制、关闭不必要的服务、优化配置降低内存占用，让低配设备也能流畅运行。"
+tags: ["GEAKOS", "性能优化", "NAS", "内存优化", "Docker"]
 ---
 
-# GEAKOS 闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌涳公缁辩敻骞嶇€ｎ偄惟闁归潧顑嗛弳鈧ù锝囧У閳ь儸鍡楀幋濞村吋锚鐎碉拷
+# GEAKOS 内存占用高？手把手教你性能优化
 
 
-<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>闁告瑦鍨电粩鐑藉触鎼达絻浠﹂柛鏍ф惈瀵姤锛冮崼鐔镐粯濠㈣埖姘ㄥ▓鎴犱焊鏉堛劍笑**闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌︽嫹**闁汇劌瀚板Λ鑸碉紣濡硶鍋撻崒娑欑畳闁烩偓鍔嶉崺娑㈠矗瀹ュ棙衼鐎殿喒鍋撻柡鍫濇惈濮樸劑宕￠悩鍨殢2GB+闁告劕鎳庨悺銊╂晬瀹€鍐闁革负鍔嬬紞鍡涙煀瀹ュ洨鏋傞悹浣瑰劤椤︻剚绋夋繝鍕ㄢ偓妯尖偓鍦仦濡插憡绋夐鍫燂紪濡増菧閳ь剨鎷�
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>发布后社区反馈最多的就是**内存占用高**的问题。有用户反映开机就占用2GB+内存，这在低配置设备上确实是个问题。
 
-闁告帩鍋呴埀顑惧劵缁辨繈寮甸浣圭€柡浣圭懁缂嶆﹢宕欓悩鍐茬彛闁哄牆顦伴弲銉╂⒔瀹ュ嫮绉甸柛鎰噹閻°劑宕￠悩鍨殢闁挎冻鎷�
+别急，本文教你几招有效降低内存占用！
 
-## 闂傚偆鍣ｉ。浠嬪礆閸℃ḿ鈧粙鏁嶅顒€鏁堕悗娑欙耿閸忔﹢宕㈢拠鍙夋喛濞存粌妫寸槐锟�
+## 问题分析：内存都去哪了？
 
-<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>濮掓稒枪椤撳宕ラ姘楅柣銊ュ濠€鍥礉閳╁啰妲烽弶鍫濆暙椤﹀潡鏁嶉敓锟�
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>默认启动的服务比较多：
 
-- ?? AI闁哄牆绉存慨鐔兼晬閸粍鐪介柤瀛樼摃閻︽垿宕氶鐘亾娴ｅ憡绨氶柡鍜佸灥閻︽垿宕氶顒傜
-- ?? 鐟滄媽绮鹃～瀣償閹惧瓨绠涢柛鏃撴嫹
-- ?? GEAKLink閺夆晜绮庨埢鑲╂媼閸ф锛�
-- ?? <a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>閻庣懓鐗婃慨銏℃交濞戞埃鏌�
-- ?? 閹煎瓨姊婚弫銈夊嫉瀹ュ懎顫�
+- 🤖 AI服务（人脸识别、场景识别）
+- 🎬 影视库服务
+- 🌐 GEAKLink远程访问
+- 🐳 <a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>守护进程
+- 📱 应用服务
 
-濠碘€冲€归悘澶嬫媴閻樿京鐟濋柣鈶哄┉闁告梻鍠曢崗姗€骞嬮敓锟�<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>閻庣懓鑻崣蹇涘矗椤栨瑤绨伴柛蹇斿▕濡挳鎯勭粙璺ㄥ畨闁哄牆绉存慨鐔煎Υ閿燂拷
+如果你不用AI功能或<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>完全可以关闭相应服务。
 
-## 濞村吋锚鐎垫煡寮憴鍕垫敵
+## 优化方案
 
-### 闁哄倽顫夐、锟�1闁挎稒鑹鹃崣褔姊婚悷绯忛柡鍫濈Т婵喖鏁嶉崼锝呂濋柣顏冪哎800MB闁挎冻鎷�
+### 方案1：关闭AI服务（节省~800MB）
 
-濠碘€冲€归悘澶嬫媴閻樺灚鐣遍柣鎾楀懎顣诲☉鎾崇Т椤﹀潡鏁嶇€涘闁告梻鍠曢崗妯荤▔瀹ュ棙笑闁告帗宀稿〒鍫曟晬鐏炶棄璁插ù鐘劚閸櫻囨⒒椤撱劎绐�
+如果你的照片不多，AI功能不是刚需，可以关闭：
 
 ```bash
-# SSH闁谎嗩嚙缂嶅秹宕ユ惔銏犫挃閻炴冻鎷�
+# SSH登录后执行
 docker stop geekai
 docker disable geekai
 ```
 
-### 闁哄倽顫夐、锟�2闁挎稒宀稿娲礆閿燂拷<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>闁告劕鎳庨悺銊╂晬閸絽螡闁活亙绨�500MB闁挎冻鎷�
+### 方案2：限制<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>内存（节省~500MB）
 
 ```bash
-# 缂傚倹鐗炵欢鐛秓cker闂佹澘绉堕悿锟�
+# 编辑Docker配置
 nano /etc/docker/daemon.json
 ```
 
-婵烇綀顕ф慨鐐寸閵夈倗鐟撻柛鎰噹椤旀劙姊介幇顒€鐓�<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a>闁告劕鎳庨悺銊╂晬閿燂拷
+添加以下内容限制<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a>内存：
 
 ```json
 {
@@ -61,58 +61,58 @@ nano /etc/docker/daemon.json
 }
 ```
 
-### 闁哄倽顫夐、锟�3闁挎稒鑹鹃崣褔姊婚悹鍜礎KLink闁挎稑鐗愭俊顓㈡儑娴滐拷200MB闁挎冻鎷�
+### 方案3：关闭GEAKLink（节省~200MB）
 
-濠碘€冲€归悘澶愬矗椤忓嫭韬悘鐐╁亾闁糕晝鍠撶紞澶嬫媴鐠恒劍鏆忛柨娑樿嫰瑜板弶绂掗妷銉ュ綘闂傚偆鍙€缁绘瑧绮欑€ｎ収鍟忛梻鍌ゅ枟濠€鍥礉閳藉懐绐�
+如果只在局域网使用，可以关闭远程访问服务：
 
 ```bash
-# 闁稿绮嶉姹獷AKLink闁哄牆绉存慨锟�
+# 停止GEAKLink服务
 systemctl stop geaklink
 systemctl disable geaklink
 ```
 
-### 闁哄倽顫夐、锟�4闁挎稒鐭繛鍥偨閳覆ap濞存嚎鍊栧畷鏌ュ礆閸℃闅�
+### 方案4：使用Swap交换分区
 
-濠碘€冲€归悘澶愬礃閸涱厾鎽犻悗鍦仜濠€顏呯▔瀹ュ拋妾柣銏╃厜缁辨繈宕ラ婊勬殢Swap闁挎冻鎷�
+如果内存实在不够用，启用Swap：
 
 ```bash
-# 闁告帗绋戠紓锟�2GB Swap
+# 创建2GB Swap
 fallocate -l 2G /swapfile
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 
-# 鐎殿喒鍋撻柡鍫ョ細閸ゆ粓宕濋妸銉﹀剻闁活澁鎷�
+# 开机自动启用
 echo '/swapfile none swap sw 0 0' >> /etc/fstab
 ```
 
-## 缁绢収鍏涘▎銏狀嚈妤︽鍞�
+## 硬件建议
 
-闁哄秷顫夊畵浣衡偓鍦仦缁佹挳鏁嶇仦鎯ц吂闁艰姤鍔掓禍鎺撶▔鐎ｎ喖甯崇紓鍐惧櫙缁憋拷
+根据实测，推荐以下配置：
 
-| 闂佹澘绉堕悿锟� | 闁规亽鍔忓畷姗€宕烽悜妯荤彲 | 闁告劕鎳庨悺銊ヮ嚈妤︽鍞� |
+| 配置 | 推荐场景 | 内存建议 |
 |------|----------|----------|
-| J缂侇垵顕ч崹锟�/N缂侇垵顕ч崹锟� | 閺夌偠顕х€硅櫕鎷呯捄銊︽殢 | 8GB+ |
-| i3/i5缂佺嫏鍐ㄧ劶 | 婵繐绲介悥鑸垫媴鐠恒劍鏆� | 16GB+ |
-| 濡ゅ倹岣块顒勬煀瀹ュ洨鏋� | 闂佹彃绉寸€癸拷<a href="/guide/geakos-performance-optimization/" target="_blank">Docker</a> | 32GB+ |
+| J系列/N系列 | 轻度使用 | 8GB+ |
+| i3/i5级别 | 正常使用 | 16GB+ |
+| 高端配置 | 重度<a href="/nas/geakos-performance-optimization/" target="_blank">Docker</a> | 32GB+ |
 
-## 濞戞挴鍋撻梺娆惧枙缁鳖參宕犻弽顒€澹栭柡鍫嫹
+## 一键优化脚本
 
-闁瑰瓨鍨堕弳锝夋偠閸℃洜鍟婂☉鎾亾濞戞搩浜欑粩鎾煥椤旇崵鍠橀柛鏍ㄧ墳閸撳ジ寮甸濠勭獥
+我整理了一个一键优化脚本：
 
 ```bash
 #!/bin/bash
-# GEAKOS 濞村吋锚鐎垫煡鎳樺顓熸嫳
+# GEAKOS 优化脚本
 
-echo "=== GEAKOS 闁告劕鎳庨悺銊﹀濡搫顕х€殿喒鍋撳┑顕嗘嫹 ==="
+echo "=== GEAKOS 内存优化开始 ==="
 
-# 1. 闁稿绮嶉娑㈡閻愯尙绠戦悷鏇氱劍濠€鍥礉閿燂拷
-echo "[1/5] 闁稿绮嶉娑㈡閻愯尙绠戦悷鏇氱劍濠€鍥礉閿燂拷..."
+# 1. 停止非必要服务
+echo "[1/5] 停止非必要服务..."
 systemctl stop geak-ai 2>/dev/null
 systemctl stop geak-link 2>/dev/null
 
-# 2. 闂傚嫭鍔曢崺妗猳cker闁告劕鎳庨悺锟�
-echo "[2/5] 闂佹澘绉堕悿鍜瞣cker闁告劕鎳庨悺銊╂⒔閹邦剙鐓�..."
+# 2. 限制Docker内存
+echo "[2/5] 配置Docker内存限制..."
 mkdir -p /etc/docker
 cat > /etc/docker/daemon.json <<EOF
 {
@@ -125,45 +125,45 @@ cat > /etc/docker/daemon.json <<EOF
 }
 EOF
 
-# 3. 婵炴挸鎳愰幃濠囧籍閵夈儳绠�
-echo "[3/5] 婵炴挸鎳愰幃濠勫寲閼姐倗鍩犻柡鍐﹀劚缁伙拷..."
+# 3. 清理日志
+echo "[3/5] 清理系统日志..."
 journalctl --vacuum-time=7d
 rm -rf /var/log/*.gz
 
-# 4. 婵炴挸鎳愰幃濠冪▔鐎涙ɑ顦ч柡鍌氭矗濞嗭拷
-echo "[4/5] 婵炴挸鎳愰幃濠冪▔鐎涙ɑ顦ч柡鍌氭矗濞嗭拷..."
+# 4. 清理临时文件
+echo "[4/5] 清理临时文件..."
 rm -rf /tmp/*
 rm -rf /var/tmp/*
 
-# 5. 闂佹彃绉撮幆宥cker
-echo "[5/5] 闂佹彃绉撮幆宥cker闁哄牆绉存慨锟�..."
+# 5. 重启Docker
+echo "[5/5] 重启Docker服务..."
 systemctl restart docker
 
-echo "=== 濞村吋锚鐎佃尙鈧懓鏈崹姘舵晬娴ｅ摜绱﹂悹渚囧櫍閸ｆ悂宕ラ婊堝厙缂備緤鎷� ==="
-echo "濞村吋锚鐎垫煡宕ユ惔鈥虫暥閻庢稒锚瀹曚即鎮介妸銉у畨閻犲洢鍎靛閿嬫媴閿燂拷30-50%"
+echo "=== 优化完成！建议重启系统 ==="
+echo "优化后内存占用应该降低30-50%"
 ```
 
-## 闁轰礁鐗婇悘澶屸偓浣冾潐閻︼拷
+## 效果对比
 
-| 濞村吋锚鐎垫煡宕滈敓锟� | 濞村吋锚鐎垫煡宕ラ敓锟� | 闁煎搫鍊诲〒锟� |
+| 优化前 | 优化后 | 节省 |
 |--------|--------|------|
 | 2.5GB | 1.2GB | 52% |
 | 3.0GB | 1.5GB | 50% |
 | 3.5GB | 1.8GB | 49% |
 
-## 闁诡剝宕电划锟�
+## 总结
 
-<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>闁告劕鎳庨悺銊╁础閻樺灚鏆忓Δ鍌涐缚濞堟垿姊婚鈧。鐣屾兜椤旇偐鏉介悗娑櫭﹢顏堟晬鐏炶偐绋婚梺顐ｄ亢缁诲啯绂掗妷銈囩憪濞村吋锚鐎垫煡宕ｉ娆庣鞍闁哄嫭宕橀幉鏌ユ⒔瀹ュ嫮绉甸柕鍡楀€搁顔界鎼存繄绉甸梺鏉跨Ф閻ゅ棛鎷嬮幆褜妲甸柨娑樼墕椤╊湐5105/3865U闁挎稑顧€缁憋拷**鐎点倝缂氶鍛存嚊閸愯尙姣�8GB闁告劕鎳庨悺锟�**闁挎稑濂旂槐顓㈠礌閺嵮勫€甸柛娆樺灡缁侊箓鎮鹃崨鎵閻炴稑琚埀顒婃嫹
+<a href="/guide/geakos-day1-intro/" target="_blank">GEAKOS</a>内存占用高的问题确实存在，但通过以上优化可以显著降低。对于低配置设备（如N5105/3865U），**建议至少8GB内存**，优化后可流畅运行。
 
-濠碘€冲€归悘澶嬫媴閻樼儤瀚规慨鐟板€瑰ú鎸庢媴鎼达絾鐣遍悹褍瀚花顕€宕￠悩鍨殢闁挎稑鑻ぐ鍙夌閵夈劉鍋撻崘顓燁€� <a href="/guide/geakos-vs-fnos-deep-comparison/" target="_blank">濡炲鍋熸晶鐧楽</a> 濞达絾绮堢拹鐔煎即婢剁ǹ鏁╅柡鍌濐潐椤㈠秹濡撮敓锟�
+如果你追求更低的资源占用，可以考虑 <a href="/nas/geakos-vs-fnos-deep-comparison/" target="_blank">飞牛OS</a> 作为替代方案。
 
 ---
 
-*闁哄牆顦靛Λ鑸碉紣濡椿鍋ㄩ弶鈺佹唉閻﹀海鎷嬮崫鍕殬閻犱降鍔忛鎴﹀Υ閸屾稒绾鑸电搳AS闁瑰灈鍋撶€圭鍡╁殲闁稿繗娅曢弫锟� [NAS閻庢冻绠撳▍瀹�(/guide/)闁靛棴鎷�*
+*有问题欢迎评论区讨论。更多NAS技巧请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/guide/geakos-vs-fnos-deep-comparison/" rel="prev">濞戞挸锕ｇ粩瀛樸亜绾板绐桮EAKOS vs 濡炲鍋熸晶鐧楽 婵烇絽宕€瑰啿螣椤忓洨妲戦柨娑欎亢閻ㄦ繈骞嶅鍡樞﹂柛銉﹀灊妤犲洭宕楀鍫濈€璑AS濞戞柨顑囩敮鍥晬閿燂拷</a>
-  <a href="/guide/minipc-geakos-3865u-review/" rel="next">濞戞挸顑勭粩瀛樸亜绾板绐楅弶鈺勬腹缂嶆ɑ绋夌紒妯荤皻閻熶礁灏€EAKOS闁挎稒顑梟tel 3865U闁诡儸鍡楀幋閻庡湱鍋炵粊锟�</a>
+  <a href="/nas/geakos-vs-fnos-deep-comparison/" rel="prev">上一页：GEAKOS vs 飞牛OS 深度横评：谁才是国产免费NAS之王？</a>
+  <a href="/nas/minipc-geakos-3865u-review/" rel="next">下一页：迷你主机装GEAKOS：Intel 3865U性能实测</a>
 </div>
 
-*闁哄牜鍓氶弸鍐偨閿燂拷 NUC NAS Hub 闁煎浜滄慨鈺呮偨閻旂ǹ鐏�*
+*本文由 NUC NAS Hub 自动生成*

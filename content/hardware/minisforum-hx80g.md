@@ -1,35 +1,35 @@
----
-title: "Minisforum HX80G 鐠囧嫭绁撮敍娆癕D 6900HX + RX 6600M 閻欘剚妯�"
+﻿---
+title: "Minisforum HX80G 评测：AMD 6900HX + RX 6600M 独显"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "HX80G"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+HX80G"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+HX80G+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+HX80G+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+HX80G+review"
-pros: "閸嬫艾浼愮划鎹愬閿涘本鈧嗗厴缁嬪啿鐣鹃敍灞惧复閸欙絼璧寸€碉拷"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢瑰府绱濋幍鈺佺潔娴ｅ秵婀侀梽锟�"
+pros: "做工精良，性能稳定，接口丰富"
+cons: "负载较高时有风扇声，扩展位有限"
 slug: "minisforum-hx80g"
 ---
 
-# Minisforum HX80G 鐠囧嫭绁�
+# Minisforum HX80G 评测
 
 
-<a href="/review/minisforum-hx80g/" target="_blank">Minisforum HX80G</a> 閺勵垯绔村▎锟� AMD 6900HX + RX 6600M 閻欘剚妯�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/minisforum-hx80g/" target="_blank">Minisforum HX80G</a> 是一款 AMD 6900HX + RX 6600M 独显<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
 - AMD 6900HX + RX 6600M
-- 閻欘剚妯夐幀褑鍏樺鍝勫Т
-- 閹恒儱褰涙稉鏉跨槣
+- 独显性能强劲
+- 接口丰富
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/minisforum-hx200/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum HX200 鐠囧嫭绁�</a>
+  <a href="/hardware/minisforum-hx200/" rel="prev">上一页：Minisforum HX200 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

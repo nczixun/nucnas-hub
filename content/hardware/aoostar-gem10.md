@@ -1,35 +1,35 @@
----
-title: "Aoostar GEM10 鐠囧嫭绁撮敍娆癕D 6800H 娑擃厾顏稊瀣偓锟�"
+﻿---
+title: "Aoostar GEM10 评测：AMD 6800H 中端之选"
 date: 2026-02-14
 categories: ["hardware"]
 brand: "Aoostar"
 model: "GEM10"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Aoostar+GEM10"
-bilibili_url: "https://search.bilibili.com/all?keyword=Aoostar+GEM10+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=Aoostar+GEM10+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Aoostar+GEM10+review"
-pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 slug: "aoostar-gem10"
 ---
 
-# Aoostar GEM10 鐠囧嫭绁�
+# Aoostar GEM10 评测
 
 
-<a href="/review/aoostar-gem10/" target="_blank">Aoostar GEM10</a> 閹碱叀娴� AMD 6800H 婢跺嫮鎮婇崳顭掔礉閺勵垯绔村▎鍙ヨ厬缁旓拷<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/aoostar-gem10/" target="_blank">Aoostar GEM10</a> 搭载 AMD 6800H 处理器，是一款中端<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- AMD 6800H 閹嗗厴瀵搫濮�
-- 娴犻攱鐗哥€圭偞鍎�
-- 閹恒儱褰涙稉鏉跨槣
+- AMD 6800H 性能强劲
+- 价格实惠
+- 接口丰富
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/aoostar-w11/" rel="prev">娑撳﹣绔存い纰夌窗Aoostar W11 鐠囧嫭绁�</a>
+  <a href="/hardware/aoostar-w11/" rel="prev">上一页：Aoostar W11 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

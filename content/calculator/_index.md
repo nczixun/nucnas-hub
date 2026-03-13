@@ -1,38 +1,37 @@
 ---
-title: "鐠侊紕鐣婚崳锟�"
-slug: ""
-description: "绾兛娆㈤崝鐔烩偓妤€顕В鏂烩偓涓処缁犳濮忓ù瀣槸閵嗕焦鈧嗗厴鐠烘垵鍨庡銉ュ徔"
+title: "璁＄畻鍣�"
+description: "纭欢鍔熻€楀姣斻€丄I绠楀姏娴嬭瘯銆佹€ц兘璺戝垎宸ュ叿"
 ---
 
-# 鐎圭偟鏁ゅ銉ュ徔
+# 瀹炵敤宸ュ叿
 
 <div class="tools-grid">
-  <!-- 閸旂喕鈧顓哥粻妤€娅� -->
+  <!-- 鍔熻€楄绠楀櫒 -->
   <a href="/calculator/power/" class="tool-card">
     <div class="tool-icon">?</div>
-    <h3>閸旂喕鈧顓哥粻妤€娅�</h3>
-    <p>閺嶈宓� CPU/GPU TDP 鐠侊紕鐣婚弫瀛樻簚閸旂喕鈧绱濇导鎵暬閻絻鍨�</p>
+    <h3>鍔熻€楄绠楀櫒</h3>
+    <p>鏍规嵁 CPU/GPU TDP 璁＄畻鏁存満鍔熻€楋紝浼扮畻鐢佃垂</p>
   </a>
 
-  <!-- AI 缁犳濮忓ù瀣槸 -->
+  <!-- AI 绠楀姏娴嬭瘯 -->
   <a href="/calculator/ai-benchmark/" class="tool-card">
     <div class="tool-icon">??</div>
-    <h3>AI 缁犳濮忓ù瀣槸</h3>
-    <p>濞村鐦張顒€婀寸拋鎯ь槵閻拷 AI 閹恒劎鎮婇幀褑鍏�</p>
+    <h3>AI 绠楀姏娴嬭瘯</h3>
+    <p>娴嬭瘯鏈湴璁惧鐨� AI 鎺ㄧ悊鎬ц兘</p>
   </a>
 
-  <!-- 濞村繗顫嶉崳銊︹偓褑鍏樺ù瀣槸 -->
+  <!-- 娴忚鍣ㄦ€ц兘娴嬭瘯 -->
   <a href="/calculator/browser-benchmark/" class="tool-card">
     <div class="tool-icon">??</div>
-    <h3>濞村繗顫嶉崳銊ㄧ獓閸掞拷</h3>
-    <p>濞村鐦ù蹇氼潔閸ｏ拷 JavaScript 閹嗗厴</p>
+    <h3>娴忚鍣ㄨ窇鍒�</h3>
+    <p>娴嬭瘯娴忚鍣� JavaScript 鎬ц兘</p>
   </a>
   
-  <!-- GPU鐎佃鐦� -->
+  <!-- GPU瀵规瘮 -->
   <a href="/calculator/gpu-compare/" class="tool-card">
     <div class="tool-icon">??</div>
-    <h3>GPU 鐎佃鐦�</h3>
-    <p>鐎佃鐦稉銈嗩儥閺勬儳宕遍惃鍕潐閺嶇厧鎷伴幀褑鍏�</p>
+    <h3>GPU 瀵规瘮</h3>
+    <p>瀵规瘮涓ゆ鏄惧崱鐨勮鏍煎拰鎬ц兘</p>
   </a>
 </div>
 

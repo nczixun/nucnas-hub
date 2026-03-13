@@ -1,35 +1,35 @@
----
-title: "Intel NUC 13 Pro 鐠囧嫭绁撮敍姘付閸氬簼绔存禒锝囧嚱鐞涒偓缂侊拷 NUC"
+﻿---
+title: "Intel NUC 13 Pro 评测：最后一代纯血统 NUC"
 date: 2026-02-27
 categories: ["hardware"]
 brand: "Intel"
 model: "NUC 13 Pro"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=Intel+NUC+13+Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=Intel+NUC+13+Pro+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=Intel+NUC+13+Pro+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Intel+NUC+13+Pro+review"
-pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 slug: "intel-nuc-13-pro"
 ---
 
-# Intel NUC 13 Pro 鐠囧嫭绁�
+# Intel NUC 13 Pro 评测
 
 
-<a href="/review/intel-nuc-13-pro/" target="_blank">Intel NUC 13 Pro</a> 閺勵垱娓堕崥搴濈娴狅絿鍑界悰鈧紒锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/intel-nuc-13-pro/" target="_blank">Intel NUC 13 Pro</a> 是最后一代纯血统<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- 13 娴狅綁鍙块惈鍨槱閻炲棗娅�
-- 閹恒儱褰涙稉鏉跨槣
-- 缂佸繐鍚€鐠佹崘顓�
+- 13 代酷睿处理器
+- 接口丰富
+- 经典设计
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/beelink-ser6/" rel="prev">娑撳﹣绔存い纰夌窗Beelink SER6 鐠囧嫭绁�</a>
+  <a href="/hardware/beelink-ser6/" rel="prev">上一页：Beelink SER6 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

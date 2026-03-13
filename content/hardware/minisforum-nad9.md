@@ -1,35 +1,35 @@
----
-title: "Minisforum NAD9 鐠囧嫭绁撮敍娆糿tel N95 閸忋儵妫痪褑绯犳担鐘卞瘜閺堬拷"
+﻿---
+title: "Minisforum NAD9 评测：Intel N95 入门级迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "NAD9"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+NAD9"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+NAD9+濞村鐦�"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+NAD9+测评"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+NAD9+review"
-pros: "閸嬫艾浼愮划鎹愬, 閹嗗厴缁嬪啿鐣�, 閹恒儱褰涙稉鏉跨槣"
-cons: "鐠愮喕娴囨潏鍐彯閺冭埖婀佹搴㈠婢癸拷, 閹碘晛鐫嶆担宥嗘箒闂勶拷"
+pros: "做工精良, 性能稳定, 接口丰富"
+cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-nad9"
 ---
 
-# Minisforum NAD9 鐠囧嫭绁�
+# Minisforum NAD9 评测
 
 
-<a href="/review/minisforum-nad9/" target="_blank">Minisforum NAD9</a> 閺勵垯绔村▎锟� Intel N95 閸忋儵妫痪锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/minisforum-nad9/" target="_blank">Minisforum NAD9</a> 是一款 Intel N95 入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- Intel N95 閹嗗厴鐡掑啿顧�
-- 娴犻攱鐗哥€圭偞鍎�
-- 閹恒儱褰涙稉鏉跨槣
+- Intel N95 性能足够
+- 价格实惠
+- 接口丰富
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/minisforum-em780/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum EM780 鐠囧嫭绁�</a>
+  <a href="/hardware/minisforum-em780/" rel="prev">上一页：Minisforum EM780 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

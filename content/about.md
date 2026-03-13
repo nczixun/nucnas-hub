@@ -1,6 +1,5 @@
 ---
 title: "关于 NUCNAS.HUB"
-slug: "about"
 date: 2024-01-01
 description: "关于 NUCNAS.HUB - 你的 Mini PC 和 NAS 终极指南"
 ---

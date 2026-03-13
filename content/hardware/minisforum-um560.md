@@ -1,5 +1,5 @@
----
-title: "Minisforum UM560 鐠囧嫭绁撮敍娆癕D 5600H 閸忋儵妫痪褑绯犳担鐘卞瘜閺堬拷"
+﻿---
+title: "Minisforum UM560 评测：AMD 5600H 入门级迷你主机"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
@@ -8,23 +8,23 @@ platform: "amd"
 slug: "minisforum-um560"
 ---
 
-# Minisforum UM560 鐠囧嫭绁�
+# Minisforum UM560 评测
 
 
-<a href="/review/minisforum-um560/" target="_blank">Minisforum UM560</a> 閺勵垯绔村▎锟� AMD 5600H 閸忋儵妫痪锟�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>閵嗭拷
+<a href="/hardware/minisforum-um560/" target="_blank">Minisforum UM560</a> 是一款 AMD 5600H 入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 
-## 娑撴槒顩﹂悧鍦仯
+## 主要特点
 
-- AMD 5600H 閹嗗厴鐡掑啿顧�
-- 娴犻攱鐗哥€圭偞鍎�
-- 閹恒儱褰涙稉鏉跨槣
+- AMD 5600H 性能足够
+- 价格实惠
+- 接口丰富
 
 ---
 
-*閺囨潙顦�<a href="/review/" target="_blank">鏉╄渹缍樻稉缁樻簚</a>濞村鐦庣拠宄板彠濞夛拷 [绾兛娆㈡０鎴︿壕](/review/)閵嗭拷*
+*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/review/minisforum-hx99g-pro/" rel="prev">娑撳﹣绔存い纰夌窗Minisforum HX99G Pro 鐠囧嫭绁�</a>
+  <a href="/hardware/minisforum-hx99g-pro/" rel="prev">上一页：Minisforum HX99G Pro 评测</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*本文由 NUC NAS Hub 自动生成*

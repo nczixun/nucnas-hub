@@ -1,223 +1,223 @@
 ---
-title: "Docker Compose 杩涢樁鏁欑▼锛�2026骞村瀹瑰櫒缂栨帓"
-date: 2026-01-01
+title: "Docker Compose 进阶教程：NAS 上手 docker-compose.yml 写法"
+date: 2026-03-08
 categories: ["nas"]
-summary: "Docker Compose 杩涢樁鏁欑▼锛屾暀浣犲浣曠紪鎺掑涓鍣�"
-tags: ["Docker", "Docker Compose", "NAS", "瀹瑰櫒", "鏁欑▼"]
-slug: "docker-compose-advanced-2026"
+brand: "Docker"
+model: "Docker Compose"
+platform: "docker"
+slug: "docker-compose-advanced-guide-2026"
+tags: ["Docker Compose", "NAS", "Docker", "容器", "进阶教程"]
 ---
 
-# Docker Compose 杩涢樁鏁欑▼锛�2026骞村瀹瑰櫒缂栨帓
+# Docker Compose 进阶教程：NAS 上手 docker-compose.yml 写法
 
-## 浠€涔堟槸 Docker Compose锛�
+会用 Docker 但不了解 Docker Compose？这篇文章手把手教你用 docker-compose 管理 NAS 上的服务。
 
-Docker Compose 鏄竴涓敤浜庡畾涔夊拰杩愯澶氬鍣� Docker 搴旂敤鐨勫伐鍏枫€�
+## 什么是 Docker Compose？
 
-## 鍩虹璇硶
+Docker Compose 是 Docker 官方提供的容器编排工具，通过一个 `docker-compose.yml` 文件定义多个容器，一键启动、停止、备份。
 
-```yaml
-version: '3.8'
+**对比传统 Docker 命令：**
+- 传统：一个容器一条命令，复杂
+- Compose：一个文件管所有，简单
 
-services:
-  web:
-    image: nginx
-    ports:
-      - "80:80"
-    volumes:
-      - ./html:/usr/share/nginx/html
+## 快速开始
+
+### 1. 安装 Docker Compose
+
+```bash
+# Docker Desktop 自带
+# 群晖：套件中心安装 Docker
+# 绿联/极空间：应用中心一键安装
+# 验证安装
+docker compose version
 ```
 
-## 杩涢樁鎶€宸�
+### 2. 创建 docker-compose.yml
 
-### 1. 鐜鍙橀噺
-
-```yaml
-services:
-  database:
-    image: postgres:15
-    environment:
-      - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
-      - POSTGRES_DB=app
-    env_file:
-      - .env
-```
-
-### 2. 缃戠粶閰嶇疆
-
-```yaml
-services:
-  web:
-    build: .
-    networks:
-      - frontend
-      - backend
-  
-  db:
-    image: postgres:15
-    networks:
-      - backend
-
-networks:
-  frontend:
-    driver: bridge
-  backend:
-    driver: bridge
-    internal: true  # 闅旂缃戠粶
-```
-
-### 3. 鏁版嵁鎸佷箙鍖�
-
-```yaml
-services:
-  mysql:
-    image: mysql:8
-    volumes:
-      - mysql_data:/var/lib/mysql
-      - ./conf:/etc/mysql/conf.d
-      - ./logs:/var/log/mysql
-
-volumes:
-  mysql_data:
-```
-
-### 4. 渚濊禆鍏崇郴
-
-```yaml
-services:
-  web:
-    build: .
-    depends_on:
-      db:
-        condition: service_healthy
-      redis:
-        condition: service_started
-  
-  db:
-    image: postgres:15
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U admin -d app"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-```
-
-### 5. 閲嶅惎绛栫暐
-
-```yaml
-services:
-  jellyfin:
-    image: jellyfin/jellyfin
-    restart: unless-stopped  # 濮嬬粓閲嶅惎锛岄櫎闈炴墜鍔ㄥ仠姝�
-```
-
-## 瀹屾暣绀轰緥锛氬搴奖闄�
+在 NAS 上新建文件夹，例如 `/docker/jellyfin`，新建 `docker-compose.yml`：
 
 ```yaml
 version: '3.8'
 
 services:
   jellyfin:
-    image: jellyfin/jellyfin
+    image: jellyfin/jellyfin:latest
     container_name: jellyfin
-    environment:
-      - TZ=Asia/Shanghai
-    volumes:
-      - jellyfin_config:/config
-      - jellyfin_cache:/cache
-      - /mnt/media:/media:ro
+    restart: unless-stopped
     ports:
       - "8096:8096"
       - "8920:8920"
-    restart: unless-stopped
-    networks:
-      - home_lab
-
-  adguard:
-    image: adguard/adguardhome
-    container_name: adguard
     volumes:
-      - adguard_work:/opt/adguardhome/work
-      - adguard_conf:/opt/adguardhome/conf
-    ports:
-      - "53:53/tcp"
-      - "53:53/udp"
-      - "3000:3000/tcp"
-    restart: unless-stopped
-    networks:
-      - home_lab
-
-  portainer:
-    image: portainer/portainer-ce
-    container_name: portainer
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - portainer_data:/data
-    ports:
-      - "9443:9443"
-      - "9000:9000"
-    restart: unless-stopped
-    networks:
-      - home_lab
-
-networks:
-  home_lab:
-    driver: bridge
-
-volumes:
-  jellyfin_config:
-  jellyfin_cache:
-  adguard_work:
-  adguard_conf:
-  portainer_data:
+      - ./config:/config
+      - ./cache:/cache
+      - /volume1/media:/media:ro
+    environment:
+      - TZ=Asia/Shanghai
+      - JELLYFIN_PublishedServerUrl=http://your-nas-ip:8096
 ```
 
-## 甯哥敤鍛戒护
+### 3. 启动服务
 
 ```bash
-# 鍚姩鎵€鏈夋湇鍔�
+# 进入目录
+cd /docker/jellyfin
+
+# 启动所有服务
 docker compose up -d
 
-# 鏌ョ湅鏃ュ織
-docker compose logs -f
-
-# 鍋滄鎵€鏈夋湇鍔�
-docker compose down
-
-# 閲嶅惎鎸囧畾鏈嶅姟
-docker compose restart web
-
-# 杩涘叆瀹瑰櫒
-docker compose exec web sh
-
-# 鏌ョ湅鐘舵€�
+# 查看状态
 docker compose ps
+
+# 查看日志
+docker compose logs -f
 ```
 
-## 鏈€浣冲疄璺�
+## 进阶配置
 
-1. **浣跨敤鐗堟湰鎺у埗**锛氬皢 docker-compose.yml 绾冲叆 Git 绠＄悊
-2. **鐜鍙橀噺鍒嗙**锛氫娇鐢� .env 鏂囦欢绠＄悊鏁忔劅淇℃伅
-3. **鍋ュ悍妫€鏌�**锛氫负鍏抽敭鏈嶅姟閰嶇疆 healthcheck
-4. **鏃ュ織绠＄悊**锛氶厤缃棩蹇楄疆杞�
-5. **璧勬簮闄愬埗**锛氫负瀹瑰櫒璁剧疆鍐呭瓨鍜� CPU 闄愬埗
+### 多容器编排
+
+一个文件管理多个服务：
+
+```yaml
+version: '3.8'
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    restart: unless-stopped
+    ports:
+      - "8096:8096"
+    volumes:
+      - ./jellyfin/config:/config
+      - /volume1/media:/media:ro
+
+  alist:
+    image: xhofe/alist:latest
+    container_name: alist
+    restart: unless-stopped
+    ports:
+      - "5244:5244"
+    volumes:
+      - ./alist:/opt/alist/data
+    environment:
+      - TZ=Asia/Shanghai
+```
+
+### 环境变量文件
+
+新建 `.env` 文件：
+
+```
+TZ=Asia/Shanghai
+PUID=1000
+PGID=1000
+```
+
+在 compose 中引用：
+
+```yaml
+environment:
+  - TZ=${TZ}
+  - PUID=${PUID}
+```
+
+### 网络配置
+
+```yaml
+networks:
+  nas_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+
+services:
+  app:
+    networks:
+      - nas_network
+```
+
+### 健康检查
 
 ```yaml
 services:
   jellyfin:
-    image: jellyfin/jellyfin
+    image: jellyfin/jellyfin:latest
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8096"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+```
+
+### 资源限制
+
+```yaml
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
     deploy:
       resources:
         limits:
+          cpus: '2'
           memory: 4G
-          cpus: '2.0'
         reservations:
-          memory: 1G
           cpus: '0.5'
+          memory: 512M
 ```
 
-## 鎬荤粨
+## 常用命令
 
-Docker Compose 鏄鐞嗗搴疄楠屽鏈嶅姟鐨勫埄鍣紝鐔熺粌鎺屾彙鍙互澶уぇ鎻愰珮杩愮淮鏁堢巼銆�
+| 命令 | 说明 |
+| :--- | :--- |
+| `docker compose up -d` | 后台启动 |
+| `docker compose down` | 停止并删除 |
+| `docker compose restart` | 重启 |
+| `docker compose logs -f` | 查看日志 |
+| `docker compose pull` | 更新镜像 |
+| `docker compose up -d --force-recreate` | 强制重建 |
+| `docker compose config` | 验证配置 |
 
-**涓嬩竴姝�**锛氬皾璇曢儴缃蹭竴濂楀睘浜庝綘鐨勫搴奖闄㈢郴缁熷惂锛�
+## 备份与迁移
+
+### 备份
+
+```bash
+# 备份配置文件
+tar -czvf backup.tar.gz ./config .env docker-compose.yml
+```
+
+### 迁移
+
+```bash
+# 复制整个文件夹到新设备
+# 重新启动
+docker compose up -d
+```
+
+## 常见问题
+
+**Q：端口冲突怎么办？**
+A：修改 ports 部分的不同端口映射。
+
+**Q：如何更新容器？**
+A：`docker compose pull` 然后 `docker compose up -d`。
+
+**Q：数据如何持久化？**
+A：使用 volumes 挂载宿主机目录。
+
+**Q：容器启动失败？**
+A：`docker compose logs` 查看错误信息。
+
+## 推荐组合
+
+- **影音中心**：Jellyfin + QBittorrent + Alist
+- **下载机**：QBittorrent + Transmission + Alist
+- **HomeLab**：AdGuard + Nginx Proxy Manager + Portainer
+
+## 总结
+
+Docker Compose 是管理 NAS 容器的神器。一个文件管所有，再也不怕容器乱跑。掌握这些技巧，你的 NAS 运维能力会提升一个档次。

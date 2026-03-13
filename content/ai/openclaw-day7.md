@@ -1,23 +1,23 @@
 ---
-title: "Day 7閿涙岸鍎寸純韫瑐缁惧じ绗岀€瑰鍙忕拋鍓х枂 - 閹垫捇鈧姴鐣ㄩ崗銊ф畱AI閸斺晜澧�"
+title: "Day 7锛氶儴缃蹭笂绾夸笌瀹夊叏璁剧疆 - 鎵撻€犲畨鍏ㄧ殑AI鍔╂墜"
 date: 2026-03-06
 categories: ["ai"]
 slug: "openclaw-day7-deployment-security"
-summary: "OpenClaw闁劎璁查弫娆戔柤閿涙岸妯嬮柌灞肩隘/閼垫崘顔嗘禍锟�/Docker娑撯偓闁款噣鍎寸純璇х礉SSL鐠囦椒鍔熼柊宥囩枂閿涘苯鐣ㄩ崗銊╂Щ閹躲倛顔曠純顔衡偓锟�"
-tags: ["OpenClaw", "闁劎璁�", "Docker", "Nginx", "SSL", "鐎瑰鍙�"]
+summary: "OpenClaw閮ㄧ讲鏁欑▼锛氶樋閲屼簯/鑵捐浜�/Docker涓€閿儴缃诧紝SSL璇佷功閰嶇疆锛屽畨鍏ㄩ槻鎶よ缃€�"
+tags: ["OpenClaw", "閮ㄧ讲", "Docker", "Nginx", "SSL", "瀹夊叏"]
 ---
 
-# Day 7閿涙岸鍎寸純韫瑐缁惧じ绗岀€瑰鍙忕拋鍓х枂
+# Day 7锛氶儴缃蹭笂绾夸笌瀹夊叏璁剧疆
 
 
-<a href="/ai/" target="_blank">OpenClaw</a>闁劎璁查弫娆戔柤閵嗭拷
+<a href="/ai/" target="_blank">OpenClaw</a>閮ㄧ讲鏁欑▼銆�
 
 ---
 
-*閺囨潙顦�<a href="/ai/" target="_blank">AI</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [AI妫版垿浜綸(/ai/)閵嗭拷*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/review/minisforum-un100d-nas-review-2026/" rel="prev">娑撳﹣绔存い纰夌窗闁绢厼鍤扷N100D鐠囧嫭绁�</a>
+  <a href="/review/minisforum-un100d-nas-review-2026/" rel="prev">涓婁竴椤碉細閾嚒UN100D璇勬祴</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

@@ -1,23 +1,23 @@
 ---
-title: "Day 4閿涙瓔kills 閹垛偓閼崇晫閮寸紒锟� - 鐠併€閼宠棄濮忕紙璇测偓锟�"
+title: "Day 4锛歋kills 鎶€鑳界郴缁� - 璁〢I鑳藉姏缈诲€�"
 date: 2026-03-03
 categories: ["ai"]
 slug: "openclaw-day4-skills-system"
-summary: "OpenClaw閹垛偓閼崇晫閮寸紒鐔活嚊鐟欙綇绱�1000+缁€鎯у隘閹垛偓閼虫垝绔撮柨顔肩暔鐟佸拑绱濆☉鐢垫磰AI閵嗕焦鎮崇槐鈧偓浣虹椽缁嬪鈧焦娅ら懗钘夘啀鐏炲懐鐡�31娑擃亜鍨庣猾姹団偓锟�"
-tags: ["OpenClaw", "Skills", "閹垛偓閼崇晫閮寸紒锟�", "ClawHub", "閹绘帊娆�"]
+summary: "OpenClaw鎶€鑳界郴缁熻瑙ｏ紝1000+绀惧尯鎶€鑳戒竴閿畨瑁咃紝娑电洊AI銆佹悳绱€€佺紪绋嬨€佹櫤鑳藉灞呯瓑31涓垎绫汇€�"
+tags: ["OpenClaw", "Skills", "鎶€鑳界郴缁�", "ClawHub", "鎻掍欢"]
 ---
 
-# Day 4閿涙瓔kills 閹垛偓閼崇晫閮寸紒锟� - 鐠併€閼宠棄濮忕紙璇测偓锟�
+# Day 4锛歋kills 鎶€鑳界郴缁� - 璁〢I鑳藉姏缈诲€�
 
 
-<a href="/ai/" target="_blank">OpenClaw</a>閹垛偓閼崇晫閮寸紒鐔稿閺堬拷1000+缁€鎯у隘閹垛偓閼虫垝绔撮柨顔肩暔鐟佸懌鈧拷
+<a href="/ai/" target="_blank">OpenClaw</a>鎶€鑳界郴缁熸嫢鏈�1000+绀惧尯鎶€鑳戒竴閿畨瑁呫€�
 
 ---
 
-*閺囨潙顦�<a href="/ai/" target="_blank">AI</a>閺佹瑧鈻肩拠宄板彠濞夛拷 [AI妫版垿浜綸(/ai/)閵嗭拷*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/review/asus-nuc-15-pro-2026/" rel="prev">娑撳﹣绔存い纰夌窗ASUS NUC 15 Pro 鐠囧嫭绁�</a>
+  <a href="/review/asus-nuc-15-pro-2026/" rel="prev">涓婁竴椤碉細ASUS NUC 15 Pro 璇勬祴</a>
 </div>
 
-*閺堫剚鏋冮悽锟� NUC NAS Hub 閼奉亜濮╅悽鐔稿灇*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

@@ -1,95 +1,59 @@
----
-title: "鏈湴 AI Agent 瀹屽叏鎸囧崡锛�2026鎵撻€犱綘鐨� AI 鍔╂墜"
-date: 2026-01-01
-categories: ["ai"]
-summary: "鏈湴 AI Agent 鎼缓鎸囧崡锛屾墦閫犱釜浜� AI 鍔╂墜"
-tags: ["AI Agent", "鏈湴閮ㄧ讲", "鑷姩鍖�", "鍔╂墜"]
+﻿---
 slug: "local-ai-agent"
+title: "本地 AI Agent 完全指南"
+date: 2026-02-15
+categories: ["ai"]
+summary: "从零开始搭建本地 AI Agent，实现自动化任务处理。"
+tags: ["AI Agent", "自动化", "教程"]
 ---
 
-# 鏈湴 AI Agent 瀹屽叏鎸囧崡
+# 本地 AI Agent 完全指南
 
-## 浠€涔堟槸 AI Agent锛�
 
-AI Agent 鏄兘鑷富瑙勫垝鍜屾墽琛屼换鍔＄殑 AI 绯荤粺锛屽彲浠ュ府浣犲畬鎴愬悇绉嶅鏉備换鍔°€�
+AI Agent（AI 智能体）是当前 <a href="/ai/" target="_blank">AI</a> 领域的热门话题，它可以自主完成复杂任务。本文教你如何搭建本地 AI Agent。
 
-## 鏍稿績缁勪欢
+## 什么是 AI Agent？
 
-### 1. 澶ц瑷€妯″瀷
+AI Agent 是能够自主理解、规划并执行任务的 AI 系统。与普通聊天机器人不同，Agent 可以：
+- 自主规划任务步骤
+- 调用工具执行操作
+- 根据反馈调整策略
 
-鏈湴杩愯鐨� LLM 浣滀负澶ц剳锛�
+## 本地 Agent 方案
 
-- Ollama
-- LM Studio
-- llama.cpp
+### 使用 OpenClaw
 
-### 2. 璁板繂绯荤粺
+OpenClaw 是一个强大的本地 AI Agent 平台，支持：
+- 多平台接入（Telegram、Discord 等）
+- 工具调用能力
+- 记忆系统
+- 心跳机制
 
-- 鐭湡璁板繂锛氫笂涓嬫枃绐楀彛
-- 闀挎湡璁板繂锛氬悜閲忔暟鎹簱
-
-### 3. 宸ュ叿璋冪敤
-
-Agent 鍙互璋冪敤澶栭儴宸ュ叿锛�
-
-- 鎼滅储寮曟搸
-- API 鎺ュ彛
-- 鏈湴鍛戒护
-
-## 鎺ㄨ崘妗嗘灦
-
-### LangChain
-
-```python
-from langchain.agents import AgentExecutor
-from langchain.llms import Ollama
-
-llm = Ollama(model="llama3")
-```
-
-### AutoGen
-
-寰蒋鎺ㄥ嚭鐨勫 Agent 妗嗘灦銆�
-
-### CrewAI
-
-澶� Agent 鍗忎綔妗嗘灦銆�
-
-## 鎼缓姝ラ
-
-### 1. 瀹夎 Ollama
+### 安装 OpenClaw
 
 ```bash
-winget install Ollama.Ollama
+# 克隆项目
+git clone https://github.com/openclaw/openclaw.git
+
+# 进入目录
+cd openclaw
+
+# 启动服务
+docker-compose up -d
 ```
 
-### 2. 瀹夎 LangChain
+## 应用场景
 
-```bash
-pip install langchain
-pip install langchain-community
-```
+- **自动化办公**：自动回复邮件、整理文档
+- **数据分析**：定期抓取数据并分析
+- **监控系统**：监控网站/服务状态
 
-### 3. 鍒涘缓 Agent
+---
 
-```python
-from langchain.agents import load_tools
-from langchain.agents import initialize_agent
+*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
-tools = load_tools(["serpapi", "llm-math"], llm=llm)
-agent = initialize_agent(tools, llm, agent="zero-shot-react-description")
-```
+<div class="page-nav">
+  <a href="/ai/ollama-beginner-guide-2026/" rel="prev">上一页：本地大模型部署入门指南：Ollama使用教程</a>
+</div>
 
-## 搴旂敤鍦烘櫙
-
-- 鑷姩鍖栧伐浣滄祦
-- 鏅鸿兘瀹㈡湇
-- 涓汉鍔╃悊
-- 浠ｇ爜鍔╂墜
-- 鏁版嵁鍒嗘瀽
-
-## 鎬荤粨
-
-鏈湴 AI Agent 鏄湭鏉ヨ秼鍔匡紝闅愮瀹夊叏锛屽畬鍏ㄥ彲鎺с€�
-
-**鎺ㄨ崘鎸囨暟**锛氣瓙猸愨瓙猸愨瓙
+*本文由 NUC NAS Hub 自动生成*
