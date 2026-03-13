@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Intel N350处理器发布：入门级迷你主机新选择"
 date: 2026-03-06
 categories: ["hardware"]

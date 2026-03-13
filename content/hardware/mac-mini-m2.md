@@ -1,4 +1,4 @@
-﻿---
+---
 title: "M2 苹果迷你主机 评测：Apple M2 芯片升级版"
 date: 2026-02-18
 categories: ["hardware"]

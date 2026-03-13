@@ -1,4 +1,4 @@
-﻿---
+---
 slug: "mechrevo-imini-pro"
 title: "机械革命 imini Pro 评测：Intel Ultra 5 125H 表现如何？"
 date: 2026-02-27

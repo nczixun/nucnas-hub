@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Beelink SER6 评测：AMD 6900HX 升级款"
 date: 2026-02-18
 categories: ["hardware"]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "小米迷你主机评测：Intel Core i7-1260P + 16GB内存够用吗？"
 date: 2026-02-20
 categories: ["hardware"]

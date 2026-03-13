@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum HX200 评测：AMD 7940HS 高性能迷你主机"
 date: 2026-02-20
 categories: ["hardware"]

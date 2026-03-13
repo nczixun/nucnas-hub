@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Beelink SER8 深度评测：AMD Ryzen 8845HS 最强迷你主机？"
 date: 2026-02-18
 categories: ["hardware"]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Aoostar GEM12 评测：AMD 8845HS 迷你主机新选择"
 date: 2026-02-14
 categories: ["hardware"]

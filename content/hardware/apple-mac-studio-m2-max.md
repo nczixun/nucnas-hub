@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Mac Studio M2 Max 评测：专业创作者的最佳选择"
 date: 2026-02-15
 categories: ["hardware"]

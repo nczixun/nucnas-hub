@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Beelink SER8 vs Minisforum MS-01：锐龙8000迷你主机正面刚"
 date: 2026-03-06
 categories: ["hardware"]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "零刻 EQR5 评测：AMD 5800H 入门级"
 date: 2026-02-18
 categories: ["hardware"]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Aoostar W11 评测：AMD 5825U 高性价比迷你主机"
 date: 2026-02-14
 categories: ["hardware"]

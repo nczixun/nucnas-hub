@@ -1,4 +1,4 @@
-﻿---
+---
 title: "零刻 SER5 Pro 评测：AMD 5800H 升级版"
 date: 2026-02-18
 categories: ["hardware"]

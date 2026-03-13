@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum HX99G 评测：AMD 6900HX + RX 6600M 独显组合"
 date: 2026-02-20
 categories: ["hardware"]

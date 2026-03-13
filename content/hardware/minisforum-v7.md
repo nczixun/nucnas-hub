@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum V7 评测：AMD 8845HS 旗舰迷你主机"
 date: 2026-02-20
 categories: ["hardware"]

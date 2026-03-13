@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum MS-A1 评测：AM5插槽可换CPU，8700G核显怪兽"
 date: 2026-03-01
 categories: ["hardware"]
