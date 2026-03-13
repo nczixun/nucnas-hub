@@ -1,7 +1,7 @@
 ---
 title: "迷你主机散热方案：如何让机器保持低温 2026"
 date: 2026-03-10
-categories: ["calculator"]
+categories: ["hardware"]
 brand: "散热方案"
 model: "散热设计"
 slug: "minipc-cooling-solution-2026"

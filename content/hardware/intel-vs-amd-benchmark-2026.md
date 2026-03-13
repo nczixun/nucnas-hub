@@ -1,7 +1,7 @@
 ---
 title: "你的主机性能对比：Intel Ultra vs AMD 锐龙8000"
 date: 2026-03-06
-categories: ["calculator"]
+categories: ["hardware"]
 summary: "两大主流处理器实测跑分对比"
 image: "https://images.pexels.com/photos/159538/pexels-photo-159538.jpeg"
 imageCredit: "Pexels"

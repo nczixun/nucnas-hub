@@ -1,7 +1,7 @@
 ---
 title: "迷你主机处理器对比：N100 vs 8845HS 性能差距有多大"
 date: 2026-03-07
-categories: ["calculator"]
+categories: ["hardware"]
 brand: "迷你主机"
 model: "迷你主机"
 slug: "minipc-benchmark-n100-vs-8845hs-2026"
