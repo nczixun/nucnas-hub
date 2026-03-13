@@ -1,0 +1,17 @@
+baseURL = 'https://www.nucnas.top/'
+languageCode = 'zh-cn'
+title = 'NUC NAS Hub - 迷你主机与私有云指南'
+theme = ''
+defaultContentLanguage = 'zh-cn'
+
+[params]
+  description = '专注迷你主机、NAS与本地化AI部署'
+  author = 'NUC NAS Hub'
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
