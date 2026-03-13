@@ -1,63 +1,63 @@
 ---
-title: "Stable Diffusion WebUI 鏈湴閮ㄧ讲鏁欑▼锛氬厤璐圭敓鎴� AI 鐢讳綔"
+title: "Stable Diffusion WebUI 閺堫剙婀撮柈銊ц閺佹瑧鈻奸敍姘帳鐠愬湱鏁撻幋锟� AI 閻㈣缍�"
 date: 2026-03-08
 category: "AI"
-tags: ["Stable Diffusion", "鏈湴閮ㄧ讲", "AI 缁樺浘", "Docker"]
-description: "璇﹁В Stable Diffusion WebUI 鏈湴閮ㄧ讲鏂规硶锛岄浂鎴愭湰杩愯 AI 缁樺浘"
+tags: ["Stable Diffusion", "閺堫剙婀撮柈銊ц", "AI 缂佹ê娴�", "Docker"]
+description: "鐠囷箒袙 Stable Diffusion WebUI 閺堫剙婀撮柈銊ц閺傝纭堕敍宀勬祩閹存劖婀版潻鎰攽 AI 缂佹ê娴�"
 ---
 
-# Stable Diffusion WebUI 鏈湴閮ㄧ讲鏁欑▼锛氬厤璐圭敓鎴� AI 鐢讳綔
+# Stable Diffusion WebUI 閺堫剙婀撮柈銊ц閺佹瑧鈻奸敍姘帳鐠愬湱鏁撻幋锟� AI 閻㈣缍�
 
-## 涓轰粈涔堟湰鍦伴儴缃诧紵
+## 娑撹桨绮堟稊鍫熸拱閸︿即鍎寸純璇х吹
 
- Stable Diffusion锛堢畝绉� SD锛夋槸寮€婧� AI 缁樺浘妯″瀷锛屽畬鍏ㄥ厤璐瑰彲鐢ㄣ€傞儴缃插湪鏈湴鎰忓懗鐫€锛�
-- 鏃犻檺鐢熸垚锛屼笉鍙� API 璐圭敤闄愬埗
-- 闅愮瀹夊叏锛屽浘鐗囦笉澶栦紶
-- 鍙嚜瀹氫箟妯″瀷銆佹彃浠�
+ Stable Diffusion閿涘牏鐣濈粔锟� SD閿涘妲稿鈧┃锟� AI 缂佹ê娴樺Ο鈥崇€烽敍灞界暚閸忋劌鍘ょ拹鐟板讲閻€劊鈧倿鍎寸純鎻掓躬閺堫剙婀撮幇蹇撴嚄閻偓閿涳拷
+- 閺冪娀妾洪悽鐔稿灇閿涘奔绗夐崣锟� API 鐠愬湱鏁ら梽鎰煑
+- 闂呮劗顫嗙€瑰鍙忛敍灞芥禈閻楀洣绗夋径鏍︾炊
+- 閸欘垵鍤滅€规矮绠熷Ο鈥崇€烽妴浣瑰絻娴狅拷
 
-## 纭欢瑕佹眰
+## 绾兛娆㈢憰浣圭湴
 
-| 閰嶇疆 | 鏈€浣� | 鎺ㄨ崘 |
+| 闁板秶鐤� | 閺堚偓娴ｏ拷 | 閹恒劏宕� |
 |------|------|------|
-| 鏄惧崱 | GTX 1060 6GB | RTX 3060 12GB+ |
-| 鍐呭瓨 | 16GB | 32GB |
-| 瀛樺偍 | 50GB | 100GB+ |
+| 閺勬儳宕� | GTX 1060 6GB | RTX 3060 12GB+ |
+| 閸愬懎鐡� | 16GB | 32GB |
+| 鐎涙ê鍋� | 50GB | 100GB+ |
 
-鏍告樉鎴栦綆绔樉鍗′篃鑳借繍琛岋紝浣嗙敓鎴愰€熷害杈冩參銆�
+閺嶅憡妯夐幋鏍︾秵缁旑垱妯夐崡鈥茬瘍閼冲€熺箥鐞涘矉绱濇担鍡欐晸閹存劙鈧喎瀹虫潏鍐╁弮閵嗭拷
 
-## 鏂规硶涓€锛歐indows 涓€閿畨瑁咃紙鎺ㄨ崘鏂版墜锛�
+## 閺傝纭舵稉鈧敍姝恑ndows 娑撯偓闁款喖鐣ㄧ憗鍜冪礄閹恒劏宕橀弬鐗堝閿涳拷
 
-### 绗竴姝ワ細瀹夎 Python 涓� Git
+### 缁楊兛绔村銉窗鐎瑰顥� Python 娑擄拷 Git
 
-1. 涓嬭浇 [Python 3.10.6](https://www.python.org/)锛�**鍔″繀鍕鹃€� Add to PATH**锛�
-2. 涓嬭浇 [Git for Windows](https://git-scm.com/)
+1. 娑撳娴� [Python 3.10.6](https://www.python.org/)閿涳拷**閸斺€崇箑閸曢箖鈧拷 Add to PATH**閿涳拷
+2. 娑撳娴� [Git for Windows](https://git-scm.com/)
 
-### 绗簩姝ワ細鍏嬮殕椤圭洰
+### 缁楊兛绨╁銉窗閸忓娈曟い鍦窗
 
 ```powershell
-# 鍒涘缓宸ヤ綔鐩綍
+# 閸掓稑缂撳銉ょ稊閻╊喖缍�
 mkdir C:\SD-WebUI
 cd C:\SD-WebUI
 
-# 鍏嬮殕瀹樻柟浠撳簱
+# 閸忓娈曠€规ɑ鏌熸禒鎾崇氨
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 ```
 
-### 绗笁姝ワ細涓嬭浇妯″瀷
+### 缁楊兛绗佸銉窗娑撳娴囧Ο鈥崇€�
 
-1. 璁块棶 [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) 涓嬭浇 `sd_xl_base_1.0.safetensors`
-2. 鏀惧叆 `models\Stable-diffusion` 鐩綍
+1. 鐠佸潡妫� [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) 娑撳娴� `sd_xl_base_1.0.safetensors`
+2. 閺€鎯у弳 `models\Stable-diffusion` 閻╊喖缍�
 
-### 绗洓姝ワ細鍚姩杩愯
+### 缁楊剙娲撳銉窗閸氼垰濮╂潻鎰攽
 
 ```powershell
 cd C:\SD-WebUI
 webui-user.bat
 ```
 
-棣栨鍚姩浼氫笅杞戒緷璧栵紝绾� 10-15 鍒嗛挓銆傚惎鍔ㄦ垚鍔熷悗锛屾祻瑙堝櫒璁块棶 `http://127.0.0.1:7860`銆�
+妫ｆ牗顐奸崥顖氬З娴兼矮绗呮潪鎴掔贩鐠ф牭绱濈痪锟� 10-15 閸掑棝鎸撻妴鍌氭儙閸斻劍鍨氶崝鐔锋倵閿涘本绁荤憴鍫濇珤鐠佸潡妫� `http://127.0.0.1:7860`閵嗭拷
 
-## 鏂规硶浜岋細Docker 閮ㄧ讲锛堥€傚悎杩涢樁鐢ㄦ埛锛�
+## 閺傝纭舵禍宀嬬窗Docker 闁劎璁查敍鍫モ偓鍌氭値鏉╂盯妯侀悽銊﹀煕閿涳拷
 
 ```yaml
 # docker-compose.yml
@@ -86,25 +86,25 @@ services:
 docker-compose up -d
 ```
 
-## 鍩虹浣跨敤鎸囧崡
+## 閸╄櫣顢呮担璺ㄦ暏閹稿洤宕�
 
-1. **Prompt锛堟鍚戞彁绀鸿瘝锛�**锛氭弿杩颁綘鎯崇敾鐨勫唴瀹癸紝濡� `1girl, long hair, sunset, detailed`
-2. **Negative Prompt锛堝弽鍚戞彁绀鸿瘝锛�**锛氫笉鎯宠鐨勫厓绱狅紝濡� `low quality, blurry, extra fingers`
-3. **Sampling Steps**锛氶噰鏍锋鏁帮紝20-30 瓒冲
-4. **CFG Scale**锛氭彁绀鸿瘝寮曞寮哄害锛�7-12 鎺ㄨ崘
-5. **灏哄**锛氶粯璁� 512x512锛屽彲璁句负 1024x1024锛堥渶瑕侀珮娓呮ā鍨嬶級
+1. **Prompt閿涘牊顒滈崥鎴炲絹缁€楦跨槤閿涳拷**閿涙碍寮挎潻棰佺稑閹磭鏁鹃惃鍕敶鐎圭櫢绱濇俊锟� `1girl, long hair, sunset, detailed`
+2. **Negative Prompt閿涘牆寮介崥鎴炲絹缁€楦跨槤閿涳拷**閿涙矮绗夐幆瀹狀洣閻ㄥ嫬鍘撶槐鐙呯礉婵★拷 `low quality, blurry, extra fingers`
+3. **Sampling Steps**閿涙岸鍣伴弽閿嬵劄閺佸府绱�20-30 鐡掑啿顧�
+4. **CFG Scale**閿涙碍褰佺粈楦跨槤瀵洖顕卞鍝勫閿涳拷7-12 閹恒劏宕�
+5. **鐏忓搫顕�**閿涙岸绮拋锟� 512x512閿涘苯褰茬拋鍙ヨ礋 1024x1024閿涘牓娓剁憰渚€鐝〒鍛侀崹瀣剁礆
 
-## 甯歌闂
+## 鐢瓕顫嗛梻顕€顣�
 
-**Q锛氱敓鎴愰€熷害澶氬皯锛�**
-A锛歊TX 3060 绾� 3-5 绉�/鍥撅紝RTX 4090 绾� 1-2 绉�/鍥俱€�
+**Q閿涙氨鏁撻幋鎰扳偓鐔峰婢舵艾鐨敍锟�**
+A閿涙瓓TX 3060 缁撅拷 3-5 缁夛拷/閸ユ拝绱漅TX 4090 缁撅拷 1-2 缁夛拷/閸ヤ勘鈧拷
 
-**Q锛氭ā鍨嬫斁鍝噷锛�**
-A锛歚models\Stable-diffusion` 鐩綍锛屾敮鎸� .safetensors 鍜� .ckpt 鏍煎紡銆�
+**Q閿涙碍膩閸ㄥ鏂侀崫顏堝櫡閿涳拷**
+A閿涙瓪models\Stable-diffusion` 閻╊喖缍嶉敍灞炬暜閹革拷 .safetensors 閸滐拷 .ckpt 閺嶇厧绱￠妴锟�
 
-**Q锛氭姤 CUDA 閿欒鎬庝箞鍔烇紵**
-A锛氱‘淇� NVIDIA 椹卞姩 >= 535锛屾洿鏂� CUDA Toolkit銆�
+**Q閿涙碍濮� CUDA 闁挎瑨顕ら幀搴濈疄閸旂儑绱�**
+A閿涙氨鈥樻穱锟� NVIDIA 妞瑰崬濮� >= 535閿涘本娲块弬锟� CUDA Toolkit閵嗭拷
 
 ---
 
-鏈湴閮ㄧ讲 Stable Diffusion 鏄� AI 缁樼敾鐨勭涓€姝ャ€傞儴缃插畬鎴愬悗锛屼綘鍙互灏濊瘯 ControlNet 鎺у浘銆丩oRA 寰皟銆丆omfyUI 宸ヤ綔娴佺瓑杩涢樁鐜╂硶锛岀敾鍑哄晢涓氱骇浣滃搧銆�
+閺堫剙婀撮柈銊ц Stable Diffusion 閺勶拷 AI 缂佹ḿ鏁鹃惃鍕儑娑撯偓濮濄儯鈧倿鍎寸純鎻掔暚閹存劕鎮楅敍灞肩稑閸欘垯浜掔亸婵婄槸 ControlNet 閹貉冩禈閵嗕俯oRA 瀵邦喛鐨熼妴涓唎mfyUI 瀹搞儰缍斿ù浣虹搼鏉╂盯妯侀悳鈺傜《閿涘瞼鏁鹃崙鍝勬櫌娑撴氨楠囨担婊冩惂閵嗭拷

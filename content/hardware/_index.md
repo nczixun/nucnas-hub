@@ -1,29 +1,29 @@
 ---
-title: "纭欢娴嬭瘎"
-description: "杩蜂綘涓绘満銆丮ini PC 娴嬭瘎涓庨€夎喘鎸囧崡"
+title: "绾兛娆㈠ù瀣槑"
+description: "鏉╄渹缍樻稉缁樻簚閵嗕府ini PC 濞村鐦庢稉搴ㄢ偓澶庡枠閹稿洤宕�"
 ---
 
-# 纭欢娴嬭瘎
+# 绾兛娆㈠ù瀣槑
 
-绮鹃€夎糠浣犱富鏈恒€丮ini PC 娴嬭瘎鏂囩珷銆?
-## 鐑棬娴嬭瘎
+缁箖鈧绯犳担鐘卞瘜閺堟亽鈧府ini PC 濞村鐦庨弬鍥╃彿閵�?
+## 閻戭參妫ù瀣槑
 
-- [Intel N 绯诲垪瀵规瘮](/review/intel-n150-n100-n305-comparison-2026/)
-- [AMD Ryzen AI 300 绯诲垪](/review/amd-ryzen-ai-300-2026/)
-- [NAS 閫夎喘鎸囧崡](/guide/nas-buying-guide-2026/)
+- [Intel N 缁鍨€佃鐦甝(/review/intel-n150-n100-n305-comparison-2026/)
+- [AMD Ryzen AI 300 缁鍨猐(/review/amd-ryzen-ai-300-2026/)
+- [NAS 闁鍠橀幐鍥у础](/guide/nas-buying-guide-2026/)
 
-## 鍝佺墝鍒嗙被
+## 閸濅胶澧濋崚鍡欒
 
 ### Intel
-- NUC 绯诲垪
-- 璧涙壃/濂旇吘绯诲垪
+- NUC 缁鍨�
+- 鐠ф稒澹�/婵傛棁鍚樼化璇插灙
 
 ### AMD
-- Ryzen 5000 绯诲垪
-- Ryzen 7000 绯诲垪
-- Ryzen AI 300 绯诲垪
+- Ryzen 5000 缁鍨�
+- Ryzen 7000 缁鍨�
+- Ryzen AI 300 缁鍨�
 
-### 鍏朵粬
-- 闆跺埢
-- 閾嚒
-- 鏋佹懇瀹?- 缁胯仈
+### 閸忔湹绮�
+- 闂嗚泛鍩�
+- 闁绢厼鍤�
+- 閺嬩焦鎳囩€�?- 缂佽儻浠�

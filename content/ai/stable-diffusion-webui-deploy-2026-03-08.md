@@ -1,142 +1,142 @@
 ---
-title: "Stable Diffusion WebUI 鏈湴閮ㄧ讲鏁欑▼锛氭樉鍗￠厤缃寚鍗�"
+title: "Stable Diffusion WebUI 閺堫剙婀撮柈銊ц閺佹瑧鈻奸敍姘▔閸楋繝鍘ょ純顔藉瘹閸楋拷"
 date: 2026-03-08T15:03:00+08:00
 category: ["AI"]
-tags: ["Stable Diffusion", "WebUI", "鏈湴閮ㄧ讲", "AI 缁樼敾", "鏄惧崱", "鏁欑▼"]
+tags: ["Stable Diffusion", "WebUI", "閺堫剙婀撮柈銊ц", "AI 缂佹ḿ鏁�", "閺勬儳宕�", "閺佹瑧鈻�"]
 draft: false
 ---
 
-鎯崇敤 Stable Diffusion 鐢熸垚鍥剧墖锛屼絾涓嶆兂鐢ㄥ湪绾挎湇鍔★紵杩欑瘒鏁欎綘鏈湴閮ㄧ讲 WebUI锛岀敾鍥炬洿鑷敱銆�
+閹磭鏁� Stable Diffusion 閻㈢喐鍨氶崶鍓у閿涘奔绲炬稉宥嗗厒閻€劌婀痪鎸庢箛閸斺槄绱垫潻娆戠槖閺佹瑤缍橀張顒€婀撮柈銊ц WebUI閿涘瞼鏁鹃崶鐐纯閼奉亞鏁遍妴锟�
 
-## 纭欢瑕佹眰
+## 绾兛娆㈢憰浣圭湴
 
-鏈€浣庨厤缃細
-- 鏄惧瓨 6GB锛堝媺寮鸿兘璺戯級
-- 鍐呭瓨 16GB
-- 纭洏 50GB+锛堟ā鍨嬪緢澶э級
+閺堚偓娴ｅ酣鍘ょ純顕嗙窗
+- 閺勬儳鐡� 6GB閿涘牆濯哄楦垮厴鐠烘埊绱�
+- 閸愬懎鐡� 16GB
+- 绾剛娲� 50GB+閿涘牊膩閸ㄥ绶㈡径褝绱�
 
-鎺ㄨ崘閰嶇疆锛�
-- 鏄惧瓨 8GB+
-- 鍐呭瓨 32GB
-- SSD 瀛樺偍
+閹恒劏宕橀柊宥囩枂閿涳拷
+- 閺勬儳鐡� 8GB+
+- 閸愬懎鐡� 32GB
+- SSD 鐎涙ê鍋�
 
-## 鐜鍑嗗
+## 閻滎垰顣ㄩ崙鍡楊槵
 
-### 1. 瀹夎 Python
+### 1. 鐎瑰顥� Python
 
-寤鸿浣跨敤 Anaconda 鎴栫洿鎺ュ畨瑁� Python 3.10+锛�
+瀵ら缚顔呮担璺ㄦ暏 Anaconda 閹存牜娲块幒銉ョ暔鐟侊拷 Python 3.10+閿涳拷
 
 ```bash
-# 妫€鏌� Python 鐗堟湰
+# 濡偓閺岋拷 Python 閻楀牊婀�
 python --version
 ```
 
-### 2. 瀹夎 Git
+### 2. 鐎瑰顥� Git
 
 ```bash
-# Windows 涓嬪畨瑁� Git
+# Windows 娑撳鐣ㄧ憗锟� Git
 winget install Git.Git
 ```
 
-### 3. 鍏嬮殕椤圭洰
+### 3. 閸忓娈曟い鍦窗
 
 ```bash
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 ```
 
-## 鏄惧崱椹卞姩閰嶇疆
+## 閺勬儳宕辨す鍗炲З闁板秶鐤�
 
-### NVIDIA 鏄惧崱
+### NVIDIA 閺勬儳宕�
 
-纭繚瀹夎浜嗘渶鏂伴┍鍔紝鐒跺悗瀹夎 CUDA锛�
+绾喕绻氱€瑰顥婃禍鍡樻付閺備即鈹嶉崝顭掔礉閻掕泛鎮楃€瑰顥� CUDA閿涳拷
 
 ```bash
-# 妫€鏌ラ┍鍔�
+# 濡偓閺屻儵鈹嶉崝锟�
 nvidia-smi
 
-# 瀹夎 CUDA Toolkit锛堝鏋滄病瑁咃級
+# 鐎瑰顥� CUDA Toolkit閿涘牆顩ч弸婊勭梾鐟佸拑绱�
 winget install NVIDIA.CUDA Toolkit
 ```
 
-### AMD 鏄惧崱锛圠inux锛�
+### AMD 閺勬儳宕遍敍鍦爄nux閿涳拷
 
-闇€瑕佸畨瑁� ROCm锛�
+闂団偓鐟曚礁鐣ㄧ憗锟� ROCm閿涳拷
 
 ```bash
-# 娣诲姞 ROCm 浠撳簱
+# 濞ｈ濮� ROCm 娴犳挸绨�
 sudo apt update
 sudo apt install rocm-libs
 ```
 
-## 鍚姩 WebUI
+## 閸氼垰濮� WebUI
 
 ### Windows
 
-鐩存帴杩愯锛�
+閻╁瓨甯存潻鎰攽閿涳拷
 
 ```bash
 ./webui-user.bat
 ```
 
-棣栨鍚姩浼氫笅杞藉熀纭€妯″瀷锛岄渶瑕佷竴浜涙椂闂淬€�
+妫ｆ牗顐奸崥顖氬З娴兼矮绗呮潪钘夌唨绾偓濡€崇€烽敍宀勬付鐟曚椒绔存禍娑欐闂傛番鈧拷
 
-### 鑷畾涔夊弬鏁�
+### 閼奉亜鐣炬稊澶婂棘閺侊拷
 
-淇敼 `webui-user.bat`锛�
+娣囶喗鏁� `webui-user.bat`閿涳拷
 
 ```bat
 set COMMANDLINE_ARGS=--xformers --medvram --opt-split-attention
 ```
 
-鍙傛暟璇存槑锛�
-- `--xformers`锛氫娇鐢� xformers 浼樺寲锛屾樉瀛樻洿鐪�
-- `--medvram`锛氫腑绛夋樉瀛樹紭鍖�
-- `--opt-split-attention`锛氫紭鍖栨敞鎰忓姏鏈哄埗
+閸欏倹鏆熺拠瀛樻閿涳拷
+- `--xformers`閿涙矮濞囬悽锟� xformers 娴兼ê瀵查敍灞炬▔鐎涙ɑ娲块惇锟�
+- `--medvram`閿涙矮鑵戠粵澶嬫▔鐎涙ü绱崠锟�
+- `--opt-split-attention`閿涙矮绱崠鏍ㄦ暈閹板繐濮忛張鍝勫煑
 
-## 鏄惧瓨浼樺寲鎶€宸�
+## 閺勬儳鐡ㄦ导妯哄閹垛偓瀹革拷
 
-### 1. 鍚敤 xformers
+### 1. 閸氼垳鏁� xformers
 
 ```bash
 pip install xformers
 ```
 
-### 2. 闄嶄綆鐢熸垚鍒嗚鲸鐜�
+### 2. 闂勫秳缍嗛悽鐔稿灇閸掑棜椴搁悳锟�
 
-棣栨鐢熸垚寤鸿鐢� 512x512锛岀啛鎮夊悗鍐嶈皟楂樸€�
+妫ｆ牗顐奸悽鐔稿灇瀵ら缚顔呴悽锟� 512x512閿涘瞼鍟涢幃澶婃倵閸愬秷鐨熸妯糕偓锟�
 
-### 3. 浣跨敤妯″瀷閲忓寲
+### 3. 娴ｈ法鏁ゅΟ鈥崇€烽柌蹇撳
 
-閫夋嫨閲忓寲鍚庣殑妯″瀷锛堝 SD 1.5 4bit 閲忓寲鐗堬級銆�
+闁瀚ㄩ柌蹇撳閸氬海娈戝Ο鈥崇€烽敍鍫濐洤 SD 1.5 4bit 闁插繐瀵查悧鍫礆閵嗭拷
 
-## 甯歌闂
+## 鐢瓕顫嗛梻顕€顣�
 
-**Q: 鏄惧瓨涓嶅鎬庝箞鍔烇紵**
-A: 浣跨敤 --lowvram 妯″紡锛屾垨鑰呭崌绾ф樉鍗°€�
+**Q: 閺勬儳鐡ㄦ稉宥咁檮閹簼绠為崝鐑囩吹**
+A: 娴ｈ法鏁� --lowvram 濡€崇础閿涘本鍨ㄩ懓鍛磳缁狙勬▔閸椔扳偓锟�
 
-**Q: 鐢熸垚寰堟參鎬庝箞鍔烇紵**
-A: 纭鏄惧崱椹卞姩鍜� CUDA 姝ｇ‘瀹夎锛屽惎鐢� xformers銆�
+**Q: 閻㈢喐鍨氬鍫熷弮閹簼绠為崝鐑囩吹**
+A: 绾喛顓婚弰鎯у幢妞瑰崬濮╅崪锟� CUDA 濮濓絿鈥樼€瑰顥婇敍灞芥儙閻拷 xformers閵嗭拷
 
-**Q: 妯″瀷涓嬭浇鍒板摢閲岋紵**
-A: `models/Stable-diffusion/` 鐩綍銆�
+**Q: 濡€崇€锋稉瀣祰閸掓澘鎽㈤柌宀嬬吹**
+A: `models/Stable-diffusion/` 閻╊喖缍嶉妴锟�
 
-## 鎺ㄨ崘妯″瀷
+## 閹恒劏宕樺Ο鈥崇€�
 
-鍏ラ棬鎺ㄨ崘锛�
-- Stable Diffusion 1.5锛堟渶鎴愮啛锛岀敓鎬佹渶濂斤級
-- DreamShaper锛堜汉鐗╂晥鏋滃ソ锛�
-- Realistic Vision锛堝啓瀹為鏍硷級
+閸忋儵妫幒銊ㄥ礃閿涳拷
+- Stable Diffusion 1.5閿涘牊娓堕幋鎰暃閿涘瞼鏁撻幀浣规付婵傛枻绱�
+- DreamShaper閿涘牅姹夐悧鈺傛櫏閺嬫粌銈介敍锟�
+- Realistic Vision閿涘牆鍟撶€圭偤顥撻弽纭风礆
 
-## 鎴戠殑閰嶇疆鍒嗕韩
+## 閹存垹娈戦柊宥囩枂閸掑棔闊�
 
-杩欐槸鎴戠殑鍚姩鍙傛暟锛�
+鏉╂瑦妲搁幋鎴犳畱閸氼垰濮╅崣鍌涙殶閿涳拷
 
 ```bat
 set COMMANDLINE_ARGS=--xformers --medvram --api --listen
 ```
 
-閰嶅悎 RTX 3060 12GB锛屽熀鏈兘璺� 1024x1024 鍒嗚鲸鐜囥€�
+闁板秴鎮� RTX 3060 12GB閿涘苯鐔€閺堫剝鍏樼捄锟� 1024x1024 閸掑棜椴搁悳鍥モ偓锟�
 
 ---
-*娴嬭瘯鏄惧崱锛歊TX 3060 12GB锛岄┍鍔� 535.154锛孭ython 3.10.11*
+*濞村鐦弰鎯у幢閿涙瓓TX 3060 12GB閿涘矂鈹嶉崝锟� 535.154閿涘ython 3.10.11*

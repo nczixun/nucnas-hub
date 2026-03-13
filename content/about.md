@@ -1,32 +1,32 @@
 ---
-title: "鍏充簬 NUCNAS.HUB"
+title: "閸忓厖绨� NUCNAS.HUB"
 date: 2024-01-01
-description: "鍏充簬 NUCNAS.HUB - 浣犵殑 Mini PC 涓� NAS 缁堟瀬鎸囧崡"
+description: "閸忓厖绨� NUCNAS.HUB - 娴ｇ姷娈� Mini PC 娑擄拷 NAS 缂佸牊鐎幐鍥у础"
 ---
 
-# 鍏充簬 NUCNAS.HUB
+# 閸忓厖绨� NUCNAS.HUB
 
-NUCNAS.HUB 鏄綘鏈€鍙潬鐨� Mini PC 涓� NAS 璧勬簮骞冲彴銆�
+NUCNAS.HUB 閺勵垯缍橀張鈧崣顖炴浆閻拷 Mini PC 娑擄拷 NAS 鐠у嫭绨獮鍐插酱閵嗭拷
 
-## 鎴戜滑鐨勪娇鍛�
+## 閹存垳婊戦惃鍕▏閸涳拷
 
-涓烘暟鐮佺埍濂借€呫€丏IY 鐜╁鍜� IT 浠庝笟鑰呮彁渚涳細
-- 鏈€鍏ㄩ潰鐨勭‖浠舵祴璇�
-- 鏈€瀹炵敤鐨� NAS 鏁欑▼
-- 鏈€鍓嶆部鐨� AI 閮ㄧ讲鎸囧崡
+娑撶儤鏆熼惍浣哄煃婵傚€熲偓鍛偓涓廔Y 閻溾晛顔嶉崪锟� IT 娴犲簼绗熼懓鍛絹娓氭冻绱�
+- 閺堚偓閸忋劑娼伴惃鍕€栨禒鑸电ゴ鐠囷拷
+- 閺堚偓鐎圭偟鏁ら惃锟� NAS 閺佹瑧鈻�
+- 閺堚偓閸撳秵閮ㄩ惃锟� AI 闁劎璁查幐鍥у础
 
-## 鏍忕洰浠嬬粛
+## 閺嶅繒娲版禒瀣矝
 
-| 鏍忕洰 | 鍐呭 |
+| 閺嶅繒娲� | 閸愬懎顔� |
 |------|------|
-| 纭欢娴嬭瘎 | Intel NUC銆丄MD Ryzen銆丄pple Mac mini 绛夎糠浣犱富鏈鸿缁嗚瘎娴� |
-| NAS 瀛﹂櫌 | 缇ゆ櫀銆佸▉鑱旈€氥€乀rueNAS 绛夌郴缁熷畨瑁呬笌閰嶇疆鏁欑▼ |
-| AI | DeepSeek銆丩lama 绛夊ぇ妯″瀷鏈湴閮ㄧ讲鎸囧崡 |
-| 璁＄畻鍣� | 鍔熻€椼€佺畻鍔涖€佹€т环姣旂瓑瀹炵敤宸ュ叿 |
+| 绾兛娆㈠ù瀣槑 | Intel NUC閵嗕竸MD Ryzen閵嗕竸pple Mac mini 缁涘绯犳担鐘卞瘜閺堥缚顕涚紒鍡氱槑濞达拷 |
+| NAS 鐎涳箓娅� | 缂囥倖娅€閵嗕礁鈻夐懕鏃堚偓姘モ偓涔€rueNAS 缁涘閮寸紒鐔风暔鐟佸懍绗岄柊宥囩枂閺佹瑧鈻� |
+| AI | DeepSeek閵嗕俯lama 缁涘銇囧Ο鈥崇€烽張顒€婀撮柈銊ц閹稿洤宕� |
+| 鐠侊紕鐣婚崳锟� | 閸旂喕鈧ぜ鈧胶鐣婚崝娑栤偓浣光偓褌鐜В鏃傜搼鐎圭偟鏁ゅ銉ュ徔 |
 
-## 鑱旂郴鎴戜滑
+## 閼辨梻閮撮幋鎴滄粦
 
 - Email: hello@nucnas.top
 - GitHub: https://github.com/nczixun/nucnas-hub
 
-漏 2024 NUCNAS.HUB. All rights reserved.
+婕� 2024 NUCNAS.HUB. All rights reserved.

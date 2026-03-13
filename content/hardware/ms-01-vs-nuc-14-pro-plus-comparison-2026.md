@@ -1,31 +1,31 @@
 ---
-title: "Minisforum MS-01 vs ASUS NUC 14 Pro Plus 瀵规瘮妯瘎"
+title: "Minisforum MS-01 vs ASUS NUC 14 Pro Plus 鐎佃鐦Ο顏囩槑"
 date: 2026-03-07
 categories: ["hardware"]
-brand: "瀵规瘮妯瘎"
+brand: "鐎佃鐦Ο顏囩槑"
 model: "MS-01 vs NUC 14 Pro Plus"
 platform: "intel"
 slug: "ms-01-vs-nuc-14-pro-plus-comparison"
 ---
 
-# Minisforum MS-01 vs ASUS NUC 14 Pro Plus 瀵规瘮妯瘎
+# Minisforum MS-01 vs ASUS NUC 14 Pro Plus 鐎佃鐦Ο顏囩槑
 
-涓ゅ彴閮芥槸**涓囧厓绾у伐浣滅珯绾ц糠浣犱富鏈�**锛屼粖澶╃‖纰扮‖瀵规瘮涓€涓嬨€�
+娑撱倕褰撮柈鑺ユЦ**娑撳洤鍘撶痪褍浼愭担婊呯彲缁狙嗙碃娴ｇ姳瀵岄張锟�**閿涘奔绮栨径鈺冣€栫喊鎵€栫€佃鐦稉鈧稉瀣ㄢ偓锟�
 
-**鏍稿績閰嶇疆瀵规瘮锛�**
+**閺嶇ǹ绺鹃柊宥囩枂鐎佃鐦敍锟�**
 
-| 鍙傛暟 | Minisforum MS-01 | ASUS NUC 14 Pro Plus |
+| 閸欏倹鏆� | Minisforum MS-01 | ASUS NUC 14 Pro Plus |
 | :--- | :--- | :--- |
-| 澶勭悊鍣� | i9-13900H | Ultra 9 185H |
-| 鍐呭瓨 | 64GB DDR5 | 96GB DDR5 |
-| 瀛樺偍 | 鍙� 2.5G 缃戝彛 + 鍙屼竾鍏� | 2.5G 缃戝彛 |
-| 鍞环 | 8999 鍏� | 7499 鍏� |
+| 婢跺嫮鎮婇崳锟� | i9-13900H | Ultra 9 185H |
+| 閸愬懎鐡� | 64GB DDR5 | 96GB DDR5 |
+| 鐎涙ê鍋� | 閸欙拷 2.5G 缂冩垵褰� + 閸欏奔绔鹃崗锟� | 2.5G 缂冩垵褰� |
+| 閸烆喕鐜� | 8999 閸忥拷 | 7499 閸忥拷 |
 
-**瀹炴祴鎬ц兘锛�**
+**鐎圭偞绁撮幀褑鍏橀敍锟�**
 
-- Geekbench 6 鍗曟牳锛歁S-01 2800 鍒嗭紝NUC 14 Pro Plus 2600 鍒�
-- 鏍告樉鎬ц兘锛歂UC 14 Pro Plus 鐣ュ己 15%
-- 鎵╁睍鎬э細MS-01 澶氫竴涓竾鍏嗙綉鍙�
+- Geekbench 6 閸楁洘鐗抽敍姝丼-01 2800 閸掑棴绱漀UC 14 Pro Plus 2600 閸掞拷
+- 閺嶅憡妯夐幀褑鍏橀敍姝俇C 14 Pro Plus 閻ｃ儱宸� 15%
+- 閹碘晛鐫嶉幀褝绱癕S-01 婢舵矮绔存稉顏冪閸忓棛缍夐崣锟�
 
-**缁撹锛�**
-闇€瑕佷竾鍏嗙綉缁溿€佽拷姹傛瀬鑷存€ц兘锛岄€� **MS-01**銆傝拷姹傛€т环姣斻€佸亸濂� Intel 鐢熸€侊紝閫� **NUC 14 Pro Plus**銆�
+**缂佹捁顔戦敍锟�**
+闂団偓鐟曚椒绔鹃崗鍡欑秹缂佹嚎鈧浇鎷峰Ч鍌涚€懛瀛樷偓褑鍏橀敍宀勨偓锟� **MS-01**閵嗗倽鎷峰Ч鍌涒偓褌鐜В鏂烩偓浣镐焊婵傦拷 Intel 閻㈢喐鈧緤绱濋柅锟� **NUC 14 Pro Plus**閵嗭拷

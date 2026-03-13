@@ -1,18 +1,18 @@
 ---
-title: "Docker Compose 杩涢樁锛氬瀹瑰櫒缂栨帓瀹炴垬鎸囧崡"
+title: "Docker Compose 鏉╂盯妯侀敍姘樋鐎圭懓娅掔紓鏍ㄥ笓鐎圭偞鍨幐鍥у础"
 date: 2026-03-08T15:03:00+08:00
-category: ["NAS 瀛﹂櫌"]
-tags: ["Docker", "Docker Compose", "NAS", "瀹瑰櫒缂栨帓", "鑷姩鍖�", "鏁欑▼"]
+category: ["NAS 鐎涳箓娅�"]
+tags: ["Docker", "Docker Compose", "NAS", "鐎圭懓娅掔紓鏍ㄥ笓", "閼奉亜濮╅崠锟�", "閺佹瑧鈻�"]
 draft: false
 ---
 
-浼氱敤 Docker 浣嗕笉鐔熸倝 Compose锛熻繖绡囧甫浣犺繘闃躲€傚浼� docker-compose锛屼竴閿鐞嗘墍鏈夊鍣ㄣ€�
+娴兼氨鏁� Docker 娴ｅ棔绗夐悢鐔稿€� Compose閿涚喕绻栫弧鍥х敨娴ｇ姾绻橀梼韬测偓鍌氼劅娴硷拷 docker-compose閿涘奔绔撮柨顔绢吀閻炲棙澧嶉張澶婎啇閸ｃ劊鈧拷
 
-## 涓轰粈涔堢敤 Docker Compose锛�
+## 娑撹桨绮堟稊鍫㈡暏 Docker Compose閿涳拷
 
-鎵嬪姩 docker run 姣忔閮借鏁蹭竴鍫嗗弬鏁帮紝瀹瑰櫒澶氫簡鏍规湰璁颁笉浣忋€侰ompose 鐢� YAML 鏂囦欢瀹氫箟鏈嶅姟锛岀増鏈帶鍒躲€佽縼绉汇€佸浠介兘鏂逛究銆�
+閹靛濮� docker run 濮ｅ繑顐奸柈鍊燁洣閺佽弓绔撮崼鍡楀棘閺佸府绱濈€圭懓娅掓径姘啊閺嶈婀扮拋棰佺瑝娴ｅ繈鈧景ompose 閻拷 YAML 閺傚洣娆㈢€规矮绠熼張宥呭閿涘瞼澧楅張顒佸付閸掕翰鈧浇绺肩粔姹団偓浣割槵娴犱粙鍏橀弬閫涚┒閵嗭拷
 
-## 鍩虹缁撴瀯
+## 閸╄櫣顢呯紒鎾寸€�
 
 ```yaml
 version: '3.8'
@@ -29,11 +29,11 @@ services:
       POSTGRES_PASSWORD: secret
 ```
 
-## 杩涢樁鎶€宸�
+## 鏉╂盯妯侀幎鈧锟�
 
-### 1. 鐜鍙橀噺绠＄悊
+### 1. 閻滎垰顣ㄩ崣姗€鍣虹粻锛勬倞
 
-鍒涘缓 `.env` 鏂囦欢锛�
+閸掓稑缂� `.env` 閺傚洣娆㈤敍锟�
 
 ```bash
 # .env
@@ -41,7 +41,7 @@ POSTGRES_PASSWORD=your_secure_password
 DATA_PATH=/mnt/storage
 ```
 
-Compose 鑷姩璇诲彇锛�
+Compose 閼奉亜濮╃拠璇插絿閿涳拷
 
 ```yaml
 services:
@@ -53,7 +53,7 @@ services:
       - ${DATA_PATH}/postgres:/var/lib/postgresql/data
 ```
 
-### 2. 缃戠粶闅旂
+### 2. 缂冩垹绮堕梾鏃傤瀲
 
 ```yaml
 services:
@@ -67,10 +67,10 @@ services:
 networks:
   frontend:
   backend:
-    internal: true  # 瀹屽叏闅旂
+    internal: true  # 鐎瑰苯鍙忛梾鏃傤瀲
 ```
 
-### 3. 鍋ュ悍妫€鏌�
+### 3. 閸嬨儱鎮嶅Λ鈧弻锟�
 
 ```yaml
 services:
@@ -83,7 +83,7 @@ services:
       retries: 3
 ```
 
-### 4. 渚濊禆鍏崇郴
+### 4. 娓氭繆绂嗛崗宕囬兇
 
 ```yaml
 services:
@@ -95,26 +95,26 @@ services:
         condition: service_started
 ```
 
-## 甯哥敤鍛戒护
+## 鐢摜鏁ら崨鎴掓姢
 
 ```bash
-# 鍚姩鎵€鏈夋湇鍔�
+# 閸氼垰濮╅幍鈧張澶嬫箛閸旓拷
 docker-compose up -d
 
-# 鏌ョ湅鏃ュ織
+# 閺屻儳婀呴弮銉ョ箶
 docker-compose logs -f
 
-# 鏇存柊闀滃儚
+# 閺囧瓨鏌婇梹婊冨剼
 docker-compose pull
 docker-compose up -d
 
-# 鍋滄鎵€鏈夋湇鍔�
+# 閸嬫粍顒涢幍鈧張澶嬫箛閸旓拷
 docker-compose down
 ```
 
-## 鎴戠殑 NAS 閰嶇疆鍒嗕韩
+## 閹存垹娈� NAS 闁板秶鐤嗛崚鍡曢煩
 
-杩欐槸鎴戠洰鍓嶅湪鐢ㄧ殑閮ㄥ垎閰嶇疆锛�
+鏉╂瑦妲搁幋鎴犳窗閸撳秴婀悽銊ф畱闁劌鍨庨柊宥囩枂閿涳拷
 
 ```yaml
 services:
@@ -144,9 +144,9 @@ services:
       - ./nginx/ssl:/etc/nginx/ssl:ro
 ```
 
-## 鎬荤粨
+## 閹崵绮�
 
-Docker Compose 鐪熺殑鏄敤浜嗗氨鍥炰笉鍘汇€傞厤缃竴娆★紝涓嬫寮€鏈轰竴閿惎鍔ㄦ墍鏈夋湇鍔°€傚缓璁ぇ瀹堕兘鑺辨椂闂村涓€涓嬶紝鐪熺殑鑳界渷寰堝鍔熷か銆�
+Docker Compose 閻喓娈戦弰顖滄暏娴滃棗姘ㄩ崶鐐扮瑝閸樻眹鈧倿鍘ょ純顔荤濞嗏槄绱濇稉瀣偧瀵偓閺堣桨绔撮柨顔兼儙閸斻劍澧嶉張澶嬫箛閸斅扳偓鍌氱紦鐠侇喖銇囩€瑰爼鍏橀懞杈ㄦ闂傛潙顒熸稉鈧稉瀣剁礉閻喓娈戦懗鐣屾阜瀵板牆顦块崝鐔枫亱閵嗭拷
 
 ---
-*娴嬭瘯鐜锛氱兢鏅� DS920+ Docker 24.0*
+*濞村鐦悳顖氼暔閿涙氨鍏㈤弲锟� DS920+ Docker 24.0*

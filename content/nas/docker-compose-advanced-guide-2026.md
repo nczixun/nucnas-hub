@@ -1,5 +1,5 @@
 ---
-title: "Docker 杩涢樁锛氫娇鐢� Docker Compose 缂栨帓澶氫釜瀹瑰櫒"
+title: "Docker 鏉╂盯妯侀敍姘▏閻拷 Docker Compose 缂傛牗甯撴径姘嚋鐎圭懓娅�"
 date: 2026-03-07
 categories: ["nas"]
 brand: "Docker"
@@ -7,19 +7,19 @@ model: "Docker Compose"
 slug: "docker-compose-advanced-guide-2026"
 ---
 
-# Docker 杩涢樁锛氫娇鐢� Docker Compose 缂栨帓澶氫釜瀹瑰櫒
+# Docker 鏉╂盯妯侀敍姘▏閻拷 Docker Compose 缂傛牗甯撴径姘嚋鐎圭懓娅�
 
-鍗曠嫭杩愯瀹瑰櫒楹荤儲锛熺敤 **Docker Compose** 涓€娆＄鐞嗘墍鏈夋湇鍔°€�
+閸楁洜瀚潻鎰攽鐎圭懓娅掓ス鑽ゅ劜閿涚喓鏁� **Docker Compose** 娑撯偓濞嗭紕顓搁悶鍡樺閺堝婀囬崝掳鈧拷
 
-**瀹夎 Docker Compose锛�**
+**鐎瑰顥� Docker Compose閿涳拷**
 
 ```bash
-# 缇ゆ櫀/椋炵墰OS
+# 缂囥倖娅€/妞嬬偟澧癘S
 sudo apt update
 sudo apt install docker-compose
 ```
 
-**缂栧啓 docker-compose.yml锛�**
+**缂傛牕鍟� docker-compose.yml閿涳拷**
 
 ```yaml
 version: '3.8'
@@ -35,11 +35,11 @@ services:
       - TZ=Asia/Shanghai
 ```
 
-**甯哥敤鍛戒护锛�**
+**鐢摜鏁ら崨鎴掓姢閿涳拷**
 
-- `docker-compose up -d`锛氬惎鍔ㄦ墍鏈夋湇鍔�
-- `docker-compose down`锛氬仠姝㈡墍鏈夋湇鍔�
-- `docker-compose restart`锛氶噸鍚墍鏈夋湇鍔�
-- `docker-compose logs -f`锛氭煡鐪嬫棩蹇�
+- `docker-compose up -d`閿涙艾鎯庨崝銊﹀閺堝婀囬崝锟�
+- `docker-compose down`閿涙艾浠犲銏″閺堝婀囬崝锟�
+- `docker-compose restart`閿涙岸鍣搁崥顖涘閺堝婀囬崝锟�
+- `docker-compose logs -f`閿涙碍鐓￠惇瀣）韫囷拷
 
-杩欑鏂瑰紡閮ㄧ讲 **Jellyfin銆丵Bittorrent銆丯extcloud** 缁勫悎鐗瑰埆鏂逛究锛屼竴涓懡浠ゅ叏鎼炲畾銆�
+鏉╂瑧顫掗弬鐟扮础闁劎璁� **Jellyfin閵嗕傅Bittorrent閵嗕腐extcloud** 缂佸嫬鎮庨悧鐟板焼閺傞€涚┒閿涘奔绔存稉顏勬嚒娴犮倕鍙忛幖鐐茬暰閵嗭拷

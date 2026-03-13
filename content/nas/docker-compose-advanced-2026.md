@@ -1,41 +1,41 @@
 ---
-title: "Docker Compose 杩涢樁鏁欑▼锛歂AS 涓婃墜 docker-compose.yml 鍐欐硶"
+title: "Docker Compose 鏉╂盯妯侀弫娆戔柤閿涙瓊AS 娑撳﹥澧� docker-compose.yml 閸愭瑦纭�"
 date: 2026-03-08
 categories: ["nas"]
 brand: "Docker"
 model: "Docker Compose"
 platform: "docker"
 slug: "docker-compose-advanced-guide-2026"
-tags: ["Docker Compose", "NAS", "Docker", "瀹瑰櫒", "杩涢樁鏁欑▼"]
+tags: ["Docker Compose", "NAS", "Docker", "鐎圭懓娅�", "鏉╂盯妯侀弫娆戔柤"]
 ---
 
-# Docker Compose 杩涢樁鏁欑▼锛歂AS 涓婃墜 docker-compose.yml 鍐欐硶
+# Docker Compose 鏉╂盯妯侀弫娆戔柤閿涙瓊AS 娑撳﹥澧� docker-compose.yml 閸愭瑦纭�
 
-浼氱敤 Docker 浣嗕笉浜嗚В Docker Compose锛熻繖绡囨枃绔犳墜鎶婃墜鏁欎綘鐢� docker-compose 绠＄悊 NAS 涓婄殑鏈嶅姟銆�
+娴兼氨鏁� Docker 娴ｅ棔绗夋禍鍡毿� Docker Compose閿涚喕绻栫弧鍥ㄦ瀮缁旂姵澧滈幎濠冨閺佹瑤缍橀悽锟� docker-compose 缁狅紕鎮� NAS 娑撳﹦娈戦張宥呭閵嗭拷
 
-## 浠€涔堟槸 Docker Compose锛�
+## 娴犫偓娑斿牊妲� Docker Compose閿涳拷
 
-Docker Compose 鏄� Docker 瀹樻柟鎻愪緵鐨勫鍣ㄧ紪鎺掑伐鍏凤紝閫氳繃涓€涓� `docker-compose.yml` 鏂囦欢瀹氫箟澶氫釜瀹瑰櫒锛屼竴閿惎鍔ㄣ€佸仠姝€€佸浠姐€�
+Docker Compose 閺勶拷 Docker 鐎规ɑ鏌熼幓鎰返閻ㄥ嫬顔愰崳銊х椽閹烘帒浼愰崗鍑ょ礉闁俺绻冩稉鈧稉锟� `docker-compose.yml` 閺傚洣娆㈢€规矮绠熸径姘嚋鐎圭懓娅掗敍灞肩闁款喖鎯庨崝銊ｂ偓浣镐粻濮濃偓鈧礁顦禒濮愨偓锟�
 
-**瀵规瘮浼犵粺 Docker 鍛戒护锛�**
-- 浼犵粺锛氫竴涓鍣ㄤ竴鏉″懡浠わ紝澶嶆潅
-- Compose锛氫竴涓枃浠剁鎵€鏈夛紝绠€鍗�
+**鐎佃鐦导鐘电埠 Docker 閸涙垝鎶ら敍锟�**
+- 娴肩姷绮洪敍姘娑擃亜顔愰崳銊ょ閺夆€虫嚒娴犮倧绱濇径宥嗘絽
+- Compose閿涙矮绔存稉顏呮瀮娴犲墎顓搁幍鈧張澶涚礉缁犫偓閸楋拷
 
-## 蹇€熷紑濮�
+## 韫囶偊鈧喎绱戞慨锟�
 
-### 1. 瀹夎 Docker Compose
+### 1. 鐎瑰顥� Docker Compose
 
 ```bash
-# Docker Desktop 鑷甫
-# 缇ゆ櫀锛氬浠朵腑蹇冨畨瑁� Docker
-# 缁胯仈/鏋佺┖闂达細搴旂敤涓績涓€閿畨瑁�
-# 楠岃瘉瀹夎
+# Docker Desktop 閼奉亜鐢�
+# 缂囥倖娅€閿涙艾顨滄禒鏈佃厬韫囧啫鐣ㄧ憗锟� Docker
+# 缂佽儻浠�/閺嬩胶鈹栭梻杈剧窗鎼存梻鏁ゆ稉顓炵妇娑撯偓闁款喖鐣ㄧ憗锟�
+# 妤犲矁鐦夌€瑰顥�
 docker compose version
 ```
 
-### 2. 鍒涘缓 docker-compose.yml
+### 2. 閸掓稑缂� docker-compose.yml
 
-鍦� NAS 涓婃柊寤烘枃浠跺す锛屼緥濡� `/docker/jellyfin`锛屾柊寤� `docker-compose.yml`锛�
+閸︼拷 NAS 娑撳﹥鏌婂鐑樻瀮娴犺泛銇欓敍灞肩伐婵★拷 `/docker/jellyfin`閿涘本鏌婂锟� `docker-compose.yml`閿涳拷
 
 ```yaml
 version: '3.8'
@@ -57,27 +57,27 @@ services:
       - JELLYFIN_PublishedServerUrl=http://your-nas-ip:8096
 ```
 
-### 3. 鍚姩鏈嶅姟
+### 3. 閸氼垰濮╅張宥呭
 
 ```bash
-# 杩涘叆鐩綍
+# 鏉╂稑鍙嗛惄顔肩秿
 cd /docker/jellyfin
 
-# 鍚姩鎵€鏈夋湇鍔�
+# 閸氼垰濮╅幍鈧張澶嬫箛閸旓拷
 docker compose up -d
 
-# 鏌ョ湅鐘舵€�
+# 閺屻儳婀呴悩鑸碘偓锟�
 docker compose ps
 
-# 鏌ョ湅鏃ュ織
+# 閺屻儳婀呴弮銉ョ箶
 docker compose logs -f
 ```
 
-## 杩涢樁閰嶇疆
+## 鏉╂盯妯侀柊宥囩枂
 
-### 澶氬鍣ㄧ紪鎺�
+### 婢舵艾顔愰崳銊х椽閹猴拷
 
-涓€涓枃浠剁鐞嗗涓湇鍔★細
+娑撯偓娑擃亝鏋冩禒鍓侇吀閻炲棗顦挎稉顏呮箛閸斺槄绱�
 
 ```yaml
 version: '3.8'
@@ -105,9 +105,9 @@ services:
       - TZ=Asia/Shanghai
 ```
 
-### 鐜鍙橀噺鏂囦欢
+### 閻滎垰顣ㄩ崣姗€鍣洪弬鍥︽
 
-鏂板缓 `.env` 鏂囦欢锛�
+閺傛澘缂� `.env` 閺傚洣娆㈤敍锟�
 
 ```
 TZ=Asia/Shanghai
@@ -115,7 +115,7 @@ PUID=1000
 PGID=1000
 ```
 
-鍦� compose 涓紩鐢細
+閸︼拷 compose 娑擃厼绱╅悽顭掔窗
 
 ```yaml
 environment:
@@ -123,7 +123,7 @@ environment:
   - PUID=${PUID}
 ```
 
-### 缃戠粶閰嶇疆
+### 缂冩垹绮堕柊宥囩枂
 
 ```yaml
 networks:
@@ -139,7 +139,7 @@ services:
       - nas_network
 ```
 
-### 鍋ュ悍妫€鏌�
+### 閸嬨儱鎮嶅Λ鈧弻锟�
 
 ```yaml
 services:
@@ -153,7 +153,7 @@ services:
       start_period: 60s
 ```
 
-### 璧勬簮闄愬埗
+### 鐠у嫭绨梽鎰煑
 
 ```yaml
 services:
@@ -169,55 +169,55 @@ services:
           memory: 512M
 ```
 
-## 甯哥敤鍛戒护
+## 鐢摜鏁ら崨鎴掓姢
 
-| 鍛戒护 | 璇存槑 |
+| 閸涙垝鎶� | 鐠囧瓨妲� |
 | :--- | :--- |
-| `docker compose up -d` | 鍚庡彴鍚姩 |
-| `docker compose down` | 鍋滄骞跺垹闄� |
-| `docker compose restart` | 閲嶅惎 |
-| `docker compose logs -f` | 鏌ョ湅鏃ュ織 |
-| `docker compose pull` | 鏇存柊闀滃儚 |
-| `docker compose up -d --force-recreate` | 寮哄埗閲嶅缓 |
-| `docker compose config` | 楠岃瘉閰嶇疆 |
+| `docker compose up -d` | 閸氬骸褰撮崥顖氬З |
+| `docker compose down` | 閸嬫粍顒涢獮璺哄灩闂勶拷 |
+| `docker compose restart` | 闁插秴鎯� |
+| `docker compose logs -f` | 閺屻儳婀呴弮銉ョ箶 |
+| `docker compose pull` | 閺囧瓨鏌婇梹婊冨剼 |
+| `docker compose up -d --force-recreate` | 瀵搫鍩楅柌宥呯紦 |
+| `docker compose config` | 妤犲矁鐦夐柊宥囩枂 |
 
-## 澶囦唤涓庤縼绉�
+## 婢跺洣鍞ゆ稉搴ょ讣缁夛拷
 
-### 澶囦唤
+### 婢跺洣鍞�
 
 ```bash
-# 澶囦唤閰嶇疆鏂囦欢
+# 婢跺洣鍞ら柊宥囩枂閺傚洣娆�
 tar -czvf backup.tar.gz ./config .env docker-compose.yml
 ```
 
-### 杩佺Щ
+### 鏉╀胶些
 
 ```bash
-# 澶嶅埗鏁翠釜鏂囦欢澶瑰埌鏂拌澶�
-# 閲嶆柊鍚姩
+# 婢跺秴鍩楅弫缈犻嚋閺傚洣娆㈡径鐟板煂閺傛媽顔曟径锟�
+# 闁插秵鏌婇崥顖氬З
 docker compose up -d
 ```
 
-## 甯歌闂
+## 鐢瓕顫嗛梻顕€顣�
 
-**Q锛氱鍙ｅ啿绐佹€庝箞鍔烇紵**
-A锛氫慨鏀� ports 閮ㄥ垎鐨勪笉鍚岀鍙ｆ槧灏勩€�
+**Q閿涙氨顏崣锝呭暱缁愪焦鈧簼绠為崝鐑囩吹**
+A閿涙矮鎱ㄩ弨锟� ports 闁劌鍨庨惃鍕瑝閸氬瞼顏崣锝嗘Ё鐏忓嫨鈧拷
 
-**Q锛氬浣曟洿鏂板鍣紵**
-A锛歚docker compose pull` 鐒跺悗 `docker compose up -d`銆�
+**Q閿涙艾顩ф担鏇熸纯閺傛澘顔愰崳顭掔吹**
+A閿涙瓪docker compose pull` 閻掕泛鎮� `docker compose up -d`閵嗭拷
 
-**Q锛氭暟鎹浣曟寔涔呭寲锛�**
-A锛氫娇鐢� volumes 鎸傝浇瀹夸富鏈虹洰褰曘€�
+**Q閿涙碍鏆熼幑顔碱洤娴ｆ洘瀵旀稊鍛閿涳拷**
+A閿涙矮濞囬悽锟� volumes 閹稿倽娴囩€瑰じ瀵岄張铏规窗瑜版洏鈧拷
 
-**Q锛氬鍣ㄥ惎鍔ㄥけ璐ワ紵**
-A锛歚docker compose logs` 鏌ョ湅閿欒淇℃伅銆�
+**Q閿涙艾顔愰崳銊ユ儙閸斻劌銇戠拹銉吹**
+A閿涙瓪docker compose logs` 閺屻儳婀呴柨娆掝嚖娣団剝浼呴妴锟�
 
-## 鎺ㄨ崘缁勫悎
+## 閹恒劏宕樼紒鍕値
 
-- **褰遍煶涓績**锛欽ellyfin + QBittorrent + Alist
-- **涓嬭浇鏈�**锛歈Bittorrent + Transmission + Alist
-- **HomeLab**锛欰dGuard + Nginx Proxy Manager + Portainer
+- **瑜伴亶鐓舵稉顓炵妇**閿涙ellyfin + QBittorrent + Alist
+- **娑撳娴囬張锟�**閿涙瓐Bittorrent + Transmission + Alist
+- **HomeLab**閿涙dGuard + Nginx Proxy Manager + Portainer
 
-## 鎬荤粨
+## 閹崵绮�
 
-Docker Compose 鏄鐞� NAS 瀹瑰櫒鐨勭鍣ㄣ€備竴涓枃浠剁鎵€鏈夛紝鍐嶄篃涓嶆€曞鍣ㄤ贡璺戙€傛帉鎻¤繖浜涙妧宸э紝浣犵殑 NAS 杩愮淮鑳藉姏浼氭彁鍗囦竴涓。娆°€�
+Docker Compose 閺勵垳顓搁悶锟� NAS 鐎圭懓娅掗惃鍕殻閸ｃ劊鈧倷绔存稉顏呮瀮娴犲墎顓搁幍鈧張澶涚礉閸愬秳绡冩稉宥嗏偓鏇烆啇閸ｃ劋璐＄捄鎴欌偓鍌涘笁閹宦ょ箹娴滄稒濡у褝绱濇担鐘垫畱 NAS 鏉╂劗娣懗钘夊娴兼碍褰侀崡鍥︾娑擃亝銆傚▎掳鈧拷
