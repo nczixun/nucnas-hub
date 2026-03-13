@@ -1,30 +1,30 @@
 ---
-title: "Áã¿Ì GTR8 ÆÀ²â£ºAMD 8845HS ¶¥¼¶Æì½¢"
+title: "é›¶åˆ» GTR8 è¯„æµ‹ï¼šAMD 8845HS é¡¶çº§æ——èˆ°"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "Áã¿Ì"
+brand: "é›¶åˆ»"
 model: "GTR8"
 platform: "amd"
 slug: "gtr8"
 ---
 
-# Áã¿Ì GTR8 ÆÀ²â
+# é›¶åˆ» GTR8 è¯„æµ‹
 
 
-<a href="/review/gtr8/" target="_blank">Áã¿Ì GTR8</a> ÊÇÒ»¿î AMD 8845HS ¶¥¼¶Æì½¢<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
+<a href="/review/gtr8/" target="_blank">é›¶åˆ» GTR8</a> æ˜¯ä¸€æ¬¾ AMD 8845HS é¡¶çº§æ——èˆ°<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
 
-## Ö÷ÒªÌØµã
+## ä¸»è¦ç‰¹ç‚¹
 
-- AMD 8845HS ÐÔÄÜ¶¥¼¶
-- ½Ó¿Ú·á¸»
-- É¢ÈÈÓÅÐã
+- AMD 8845HS æ€§èƒ½é¡¶çº§
+- æŽ¥å£ä¸°å¯Œ
+- æ•£çƒ­ä¼˜ç§€
 
 ---
 
-*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼þÆµµÀ](/review/)¡£*
+*æ›´å¤š<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/review/)ã€‚*
 
 <div class="page-nav">
-  <a href="/review/gtr7-7940hs/" rel="prev">ÉÏÒ»Ò³£ºÁã¿Ì GTR7 ÆÀ²â</a>
+  <a href="/review/gtr7-7940hs/" rel="prev">ä¸Šä¸€é¡µï¼šé›¶åˆ» GTR7 è¯„æµ‹</a>
 </div>
 
-*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*
+*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*

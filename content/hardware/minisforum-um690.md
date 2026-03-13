@@ -1,5 +1,5 @@
 ---
-title: "Minisforum UM690 ÆÀ²â£ºAMD 6900H Æì½¢ÃÔÄãÖ÷»ú"
+title: "Minisforum UM690 è¯„æµ‹ï¼šAMD 6900H æ——èˆ°è¿·ä½ ä¸»æœº"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
@@ -8,23 +8,23 @@ platform: "amd"
 slug: "minisforum-um690"
 ---
 
-# Minisforum UM690 ÆÀ²â
+# Minisforum UM690 è¯„æµ‹
 
 
-<a href="/review/minisforum-um690/" target="_blank">Minisforum UM690</a> ÊÇÒ»¿î AMD 6900H Æì½¢¼¶<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
+<a href="/review/minisforum-um690/" target="_blank">Minisforum UM690</a> æ˜¯ä¸€æ¬¾ AMD 6900H æ——èˆ°çº§<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
 
-## Ö÷ÒªÌØµã
+## ä¸»è¦ç‰¹ç‚¹
 
-- AMD 6900H ĞÔÄÜÆì½¢
-- ½Ó¿Ú·á¸»
-- É¢ÈÈÓÅĞã
+- AMD 6900H æ€§èƒ½æ——èˆ°
+- æ¥å£ä¸°å¯Œ
+- æ•£çƒ­ä¼˜ç§€
 
 ---
 
-*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
+*æ›´å¤š<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/review/)ã€‚*
 
 <div class="page-nav">
-  <a href="/review/minisforum-um590/" rel="prev">ÉÏÒ»Ò³£ºMinisforum UM590 ÆÀ²â</a>
+  <a href="/review/minisforum-um590/" rel="prev">ä¸Šä¸€é¡µï¼šMinisforum UM590 è¯„æµ‹</a>
 </div>
 
-*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*
+*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*

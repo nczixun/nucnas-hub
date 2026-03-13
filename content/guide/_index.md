@@ -1,32 +1,32 @@
 ---
-title: "NAS 教程"
-description: "NAS 搭建、使用教程与选购指南"
+title: "NAS 鏁欑▼"
+description: "NAS 鎼缓銆佷娇鐢ㄦ暀绋嬩笌閫夎喘鎸囧崡"
 ---
 
-# NAS 教程
+# NAS 鏁欑▼
 
-NAS 从入门到进阶教程。
+NAS 浠庡叆闂ㄥ埌杩涢樁鏁欑▼銆�
 
-## 热门教程
+## 鐑棬鏁欑▼
 
-- [NAS 选购指南 2026](/guide/nas-buying-guide-2026/)
-- [All in One 方案](/tools/nas-configurator/)
-- [NAS 配置器](/tools/nas-configurator/)
+- [NAS 閫夎喘鎸囧崡 2026](/guide/nas-buying-guide-2026/)
+- [All in One 鏂规](/tools/nas-configurator/)
+- [NAS 閰嶇疆鍣╙(/tools/nas-configurator/)
 
-## 教程分类
+## 鏁欑▼鍒嗙被
 
-### 入门指南
-- 什么是 NAS
-- NAS 选购指南
-- 首次配置
+### 鍏ラ棬鎸囧崡
+- 浠€涔堟槸 NAS
+- NAS 閫夎喘鎸囧崡
+- 棣栨閰嶇疆
 
-### 进阶玩法
-- Docker 使用
-- 影音服务器搭建
-- 远程访问
+### 杩涢樁鐜╂硶
+- Docker 浣跨敤
+- 褰遍煶鏈嶅姟鍣ㄦ惌寤�
+- 杩滅▼璁块棶
 
-### 品牌教程
-- 群晖教程
-- 威联通教程
-- 绿联教程
-- 自组 NAS
+### 鍝佺墝鏁欑▼
+- 缇ゆ櫀鏁欑▼
+- 濞佽仈閫氭暀绋�
+- 缁胯仈鏁欑▼
+- 鑷粍 NAS

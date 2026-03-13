@@ -1,30 +1,30 @@
 ---
-title: "Áã¿Ì GT-R ÆÀ²â£ºIntel i9-12900HK Æì½¢ÃÔÄãÖ÷»ú"
+title: "é›¶åˆ» GT-R è¯„æµ‹ï¼šIntel i9-12900HK æ——èˆ°è¿·ä½ ä¸»æœº"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "Áã¿Ì"
+brand: "é›¶åˆ»"
 model: "GT-R"
 platform: "intel"
 slug: "gtr"
 ---
 
-# Áã¿Ì GT-R ÆÀ²â
+# é›¶åˆ» GT-R è¯„æµ‹
 
 
-<a href="/review/gtr/" target="_blank">Áã¿Ì GT-R</a> ÊÇÒ»¿î Intel i9-12900HK Æì½¢¼¶<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
+<a href="/review/gtr/" target="_blank">é›¶åˆ» GT-R</a> æ˜¯ä¸€æ¬¾ Intel i9-12900HK æ——èˆ°çº§<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
 
-## Ö÷ÒªÌØµã
+## ä¸»è¦ç‰¹ç‚¹
 
-- Intel i9-12900HK ÐÔÄÜÆì½¢
-- ½Ó¿Ú·á¸»
-- É¢ÈÈÓÅÐã
+- Intel i9-12900HK æ€§èƒ½æ——èˆ°
+- æŽ¥å£ä¸°å¯Œ
+- æ•£çƒ­ä¼˜ç§€
 
 ---
 
-*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼þÆµµÀ](/review/)¡£*
+*æ›´å¤š<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/review/)ã€‚*
 
 <div class="page-nav">
-  <a href="/review/eq12/" rel="prev">ÉÏÒ»Ò³£ºÁã¿Ì EQ12 ÆÀ²â</a>
+  <a href="/review/eq12/" rel="prev">ä¸Šä¸€é¡µï¼šé›¶åˆ» EQ12 è¯„æµ‹</a>
 </div>
 
-*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*
+*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*

@@ -1,37 +1,37 @@
 ---
-title: "Docker Compose 进阶：多容器编排实战指南"
+title: "Docker Compose 杩涢樁锛氬瀹瑰櫒缂栨帓瀹炴垬鎸囧崡"
 date: 2026-03-08
 categories: ["nas"]
-brand: "通用"
+brand: "閫氱敤"
 model: "Docker"
 platform: "nas"
 slug: "docker-compose-advanced-multi-container-2026"
-tags: ["Docker Compose", "NAS", "容器编排", "Docker 教程", "家庭影院"]
+tags: ["Docker Compose", "NAS", "瀹瑰櫒缂栨帓", "Docker 鏁欑▼", "瀹跺涵褰遍櫌"]
 ---
 
-# Docker Compose 进阶：多容器编排实战指南
+# Docker Compose 杩涢樁锛氬瀹瑰櫒缂栨帓瀹炴垬鎸囧崡
 
-很多玩家在 NAS 上部署单个容器很简单，但面对多容器联动就犯了难。今天讲讲 Docker Compose 进阶玩法，让你轻松实现复杂服务架构。
+寰堝鐜╁鍦� NAS 涓婇儴缃插崟涓鍣ㄥ緢绠€鍗曪紝浣嗛潰瀵瑰瀹瑰櫒鑱斿姩灏辩姱浜嗛毦銆備粖澶╄璁� Docker Compose 杩涢樁鐜╂硶锛岃浣犺交鏉惧疄鐜板鏉傛湇鍔℃灦鏋勩€�
 
-## 为什么要用 Docker Compose
+## 涓轰粈涔堣鐢� Docker Compose
 
-手动管理多个容器时，你可能遇到这些问题：
-- 容器启动顺序混乱，导致服务不可用
-- 环境变量容易设错
-- 更新版本要一个个改
-- 端口冲突找不到原因
+鎵嬪姩绠＄悊澶氫釜瀹瑰櫒鏃讹紝浣犲彲鑳介亣鍒拌繖浜涢棶棰橈細
+- 瀹瑰櫒鍚姩椤哄簭娣蜂贡锛屽鑷存湇鍔′笉鍙敤
+- 鐜鍙橀噺瀹规槗璁鹃敊
+- 鏇存柊鐗堟湰瑕佷竴涓釜鏀�
+- 绔彛鍐茬獊鎵句笉鍒板師鍥�
 
-Docker Compose 通过 YAML 文件统一管理，一次启动全部搞定。
+Docker Compose 閫氳繃 YAML 鏂囦欢缁熶竴绠＄悊锛屼竴娆″惎鍔ㄥ叏閮ㄦ悶瀹氥€�
 
-## 经典场景：家庭影院全家桶
+## 缁忓吀鍦烘櫙锛氬搴奖闄㈠叏瀹舵《
 
-这是一个典型的多容器架构：
+杩欐槸涓€涓吀鍨嬬殑澶氬鍣ㄦ灦鏋勶細
 
 ```yaml
 version: '3.8'
 
 services:
-  # 视频管理
+  # 瑙嗛绠＄悊
   jellyfin:
     image: jellyfin/jellyfin:latest
     container_name: jellyfin
@@ -44,7 +44,7 @@ services:
       - TZ=Asia/Shanghai
     restart: unless-stopped
 
-  # 影片刮削
+  # 褰辩墖鍒墛
   jellyseerr:
     image: fallenbagel/jellyseerr:latest
     container_name: jellyseerr
@@ -59,7 +59,7 @@ services:
       - jellyfin
     restart: unless-stopped
 
-  # 下载工具
+  # 涓嬭浇宸ュ叿
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
     container_name: qbittorrent
@@ -75,7 +75,7 @@ services:
       - TZ=Asia/Shanghai
     restart: unless-stopped
 
-  # 媒体整理
+  # 濯掍綋鏁寸悊
   radarr:
     image: lscr.io/linuxserver/radarr:latest
     container_name: radarr
@@ -95,30 +95,30 @@ networks:
     name: media_network
 ```
 
-## 关键配置解析
+## 鍏抽敭閰嶇疆瑙ｆ瀽
 
-### depends_on：控制启动顺序
-Jellyseerr 依赖 Jellyfin，后者在前面先启动。不过要注意，这只是"启动顺序"，不是"就绪顺序"。生产环境建议用健康检查。
+### depends_on锛氭帶鍒跺惎鍔ㄩ『搴�
+Jellyseerr 渚濊禆 Jellyfin锛屽悗鑰呭湪鍓嶉潰鍏堝惎鍔ㄣ€備笉杩囪娉ㄦ剰锛岃繖鍙槸"鍚姩椤哄簭"锛屼笉鏄�"灏辩华椤哄簭"銆傜敓浜х幆澧冨缓璁敤鍋ュ悍妫€鏌ャ€�
 
 ### network_mode: host vs bridge
-Jellyfin 用 host 模式是为了获取准确的海报墙。qbittorrent 和 radarr 用 bridge 模式，端口隔离更安全。
+Jellyfin 鐢� host 妯″紡鏄负浜嗚幏鍙栧噯纭殑娴锋姤澧欍€俼bittorrent 鍜� radarr 鐢� bridge 妯″紡锛岀鍙ｉ殧绂绘洿瀹夊叏銆�
 
-### PUID/PGID：权限问题
-NAS 上的容器经常遇到权限问题。通过 PUID=1000（你的用户ID）和 PGID=1000 确保文件读写正常。
+### PUID/PGID锛氭潈闄愰棶棰�
+NAS 涓婄殑瀹瑰櫒缁忓父閬囧埌鏉冮檺闂銆傞€氳繃 PUID=1000锛堜綘鐨勭敤鎴稩D锛夊拰 PGID=1000 纭繚鏂囦欢璇诲啓姝ｅ父銆�
 
-## 进阶技巧
+## 杩涢樁鎶€宸�
 
-### 1. 使用 .env 文件管理变量
-创建 .env 文件：
+### 1. 浣跨敤 .env 鏂囦欢绠＄悊鍙橀噺
+鍒涘缓 .env 鏂囦欢锛�
 ```
 TZ=Asia/Shanghai
 PUID=1000
 PGID=1000
 ```
 
-然后在 compose 中引用：`${PUID}`
+鐒跺悗鍦� compose 涓紩鐢細`${PUID}`
 
-### 2. 健康检查配置
+### 2. 鍋ュ悍妫€鏌ラ厤缃�
 ```yaml
 services:
   jellyfin:
@@ -129,26 +129,26 @@ services:
       retries: 3
 ```
 
-### 3. 重启策略
-- `no`：不自动重启
-- `on-failure`：失败时重启
-- `unless-stopped`：除非手动停止，否则一直重启
-- `always`：总是重启（推荐用于 NAS）
+### 3. 閲嶅惎绛栫暐
+- `no`锛氫笉鑷姩閲嶅惎
+- `on-failure`锛氬け璐ユ椂閲嶅惎
+- `unless-stopped`锛氶櫎闈炴墜鍔ㄥ仠姝紝鍚﹀垯涓€鐩撮噸鍚�
+- `always`锛氭€绘槸閲嶅惎锛堟帹鑽愮敤浜� NAS锛�
 
-## 一键启动命令
+## 涓€閿惎鍔ㄥ懡浠�
 
 ```bash
-# 启动所有服务
+# 鍚姩鎵€鏈夋湇鍔�
 docker compose up -d
 
-# 查看日志
+# 鏌ョ湅鏃ュ織
 docker compose logs -f jellyfin
 
-# 更新所有镜像
+# 鏇存柊鎵€鏈夐暅鍍�
 docker compose pull && docker compose up -d
 
-# 停止所有服务
+# 鍋滄鎵€鏈夋湇鍔�
 docker compose down
 ```
 
-掌握 Docker Compose 后，你可以轻松搭建 PLEX + Sonarr + Radarr + QBittorrent 的下载刮削一条龙，或者 Home Assistant + Node-RED + InfluxDB 的智能家居平台。复杂服务，一次部署，长期受益。
+鎺屾彙 Docker Compose 鍚庯紝浣犲彲浠ヨ交鏉炬惌寤� PLEX + Sonarr + Radarr + QBittorrent 鐨勪笅杞藉埉鍓婁竴鏉￠緳锛屾垨鑰� Home Assistant + Node-RED + InfluxDB 鐨勬櫤鑳藉灞呭钩鍙般€傚鏉傛湇鍔★紝涓€娆￠儴缃诧紝闀挎湡鍙楃泭銆�

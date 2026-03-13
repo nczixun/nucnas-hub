@@ -1,30 +1,30 @@
 ---
-title: "Áã¿Ì SER5 Pro ÆÀ²â£ºAMD 5800H Éý¼¶°æ"
+title: "é›¶åˆ» SER5 Pro è¯„æµ‹ï¼šAMD 5800H å‡çº§ç‰ˆ"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "Áã¿Ì"
+brand: "é›¶åˆ»"
 model: "SER5 Pro"
 platform: "amd"
 slug: "ser5-pro"
 ---
 
-# Áã¿Ì SER5 Pro ÆÀ²â
+# é›¶åˆ» SER5 Pro è¯„æµ‹
 
 
-<a href="/review/ser5-pro/" target="_blank">Áã¿Ì SER5 Pro</a> ÊÇÒ»¿î AMD 5800H Éý¼¶°æ<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
+<a href="/review/ser5-pro/" target="_blank">é›¶åˆ» SER5 Pro</a> æ˜¯ä¸€æ¬¾ AMD 5800H å‡çº§ç‰ˆ<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
 
-## Ö÷ÒªÌØµã
+## ä¸»è¦ç‰¹ç‚¹
 
-- AMD 5800H ÐÔÄÜ×ã¹»
-- Éý¼¶ÅäÖÃ
-- ½Ó¿Ú·á¸»
+- AMD 5800H æ€§èƒ½è¶³å¤Ÿ
+- å‡çº§é…ç½®
+- æŽ¥å£ä¸°å¯Œ
 
 ---
 
-*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼þÆµµÀ](/review/)¡£*
+*æ›´å¤š<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/review/)ã€‚*
 
 <div class="page-nav">
-  <a href="/review/ser6/" rel="prev">ÉÏÒ»Ò³£ºÁã¿Ì SER6 ÆÀ²â</a>
+  <a href="/review/ser6/" rel="prev">ä¸Šä¸€é¡µï¼šé›¶åˆ» SER6 è¯„æµ‹</a>
 </div>
 
-*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*
+*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*

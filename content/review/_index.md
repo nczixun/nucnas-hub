@@ -1,31 +1,31 @@
 ---
-title: "硬件测评"
-description: "迷你主机、Mini PC 测评与选购指南"
+title: "纭欢娴嬭瘎"
+description: "杩蜂綘涓绘満銆丮ini PC 娴嬭瘎涓庨€夎喘鎸囧崡"
 ---
 
-# 硬件测评
+# 纭欢娴嬭瘎
 
-精选迷你主机、Mini PC 测评文章。
+绮鹃€夎糠浣犱富鏈恒€丮ini PC 娴嬭瘎鏂囩珷銆�
 
-## 热门测评
+## 鐑棬娴嬭瘎
 
-- [Intel N 系列对比](/review/intel-n150-n100-n305-comparison-2026/)
-- [AMD Ryzen AI 300 系列](/review/amd-ryzen-ai-300-2026/)
-- [NAS 选购指南](/guide/nas-buying-guide-2026/)
+- [Intel N 绯诲垪瀵规瘮](/review/intel-n150-n100-n305-comparison-2026/)
+- [AMD Ryzen AI 300 绯诲垪](/review/amd-ryzen-ai-300-2026/)
+- [NAS 閫夎喘鎸囧崡](/guide/nas-buying-guide-2026/)
 
-## 品牌分类
+## 鍝佺墝鍒嗙被
 
 ### Intel
-- NUC 系列
-- 赛扬/奔腾系列
+- NUC 绯诲垪
+- 璧涙壃/濂旇吘绯诲垪
 
 ### AMD
-- Ryzen 5000 系列
-- Ryzen 7000 系列
-- Ryzen AI 300 系列
+- Ryzen 5000 绯诲垪
+- Ryzen 7000 绯诲垪
+- Ryzen AI 300 绯诲垪
 
-### 其他
-- 零刻
-- 铭凡
-- 极摩客
-- 绿联
+### 鍏朵粬
+- 闆跺埢
+- 閾嚒
+- 鏋佹懇瀹�
+- 缁胯仈

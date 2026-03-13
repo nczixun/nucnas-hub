@@ -1,35 +1,35 @@
 ---
-title: "Intel NUC 13 Pro ÆÀ²â£º×îºóÒ»´ú´¿ÑªÍ³ NUC"
+title: "Intel NUC 13 Pro è¯„æµ‹ï¼šæœ€åä¸€ä»£çº¯è¡€ç»Ÿ NUC"
 date: 2026-02-27
 categories: ["hardware"]
 brand: "Intel"
 model: "NUC 13 Pro"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=Intel+NUC+13+Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=Intel+NUC+13+Pro+²âÆÀ"
+bilibili_url: "https://search.bilibili.com/all?keyword=Intel+NUC+13+Pro+æµ‹è¯„"
 youtube_url: "https://www.youtube.com/results?search_query=Intel+NUC+13+Pro+review"
-pros: "×ö¹¤¾«Á¼, ĞÔÄÜÎÈ¶¨, ½Ó¿Ú·á¸»"
-cons: "¸ºÔØ½Ï¸ßÊ±ÓĞ·çÉÈÉù, À©Õ¹Î»ÓĞÏŞ"
+pros: "åšå·¥ç²¾è‰¯, æ€§èƒ½ç¨³å®š, æ¥å£ä¸°å¯Œ"
+cons: "è´Ÿè½½è¾ƒé«˜æ—¶æœ‰é£æ‰‡å£°, æ‰©å±•ä½æœ‰é™"
 slug: "intel-nuc-13-pro"
 ---
 
-# Intel NUC 13 Pro ÆÀ²â
+# Intel NUC 13 Pro è¯„æµ‹
 
 
-<a href="/review/intel-nuc-13-pro/" target="_blank">Intel NUC 13 Pro</a> ÊÇ×îºóÒ»´ú´¿ÑªÍ³<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
+<a href="/review/intel-nuc-13-pro/" target="_blank">Intel NUC 13 Pro</a> æ˜¯æœ€åä¸€ä»£çº¯è¡€ç»Ÿ<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
 
-## Ö÷ÒªÌØµã
+## ä¸»è¦ç‰¹ç‚¹
 
-- 13 ´ú¿áî£´¦ÀíÆ÷
-- ½Ó¿Ú·á¸»
-- ¾­µäÉè¼Æ
+- 13 ä»£é…·ç¿å¤„ç†å™¨
+- æ¥å£ä¸°å¯Œ
+- ç»å…¸è®¾è®¡
 
 ---
 
-*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
+*æ›´å¤š<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/review/)ã€‚*
 
 <div class="page-nav">
-  <a href="/review/beelink-ser6/" rel="prev">ÉÏÒ»Ò³£ºBeelink SER6 ÆÀ²â</a>
+  <a href="/review/beelink-ser6/" rel="prev">ä¸Šä¸€é¡µï¼šBeelink SER6 è¯„æµ‹</a>
 </div>
 
-*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*
+*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*

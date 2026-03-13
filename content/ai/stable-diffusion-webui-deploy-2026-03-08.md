@@ -1,142 +1,142 @@
 ---
-title: "Stable Diffusion WebUI 本地部署教程：显卡配置指南"
+title: "Stable Diffusion WebUI 鏈湴閮ㄧ讲鏁欑▼锛氭樉鍗￠厤缃寚鍗�"
 date: 2026-03-08T15:03:00+08:00
 category: ["AI"]
-tags: ["Stable Diffusion", "WebUI", "本地部署", "AI 绘画", "显卡", "教程"]
+tags: ["Stable Diffusion", "WebUI", "鏈湴閮ㄧ讲", "AI 缁樼敾", "鏄惧崱", "鏁欑▼"]
 draft: false
 ---
 
-想用 Stable Diffusion 生成图片，但不想用在线服务？这篇教你本地部署 WebUI，画图更自由。
+鎯崇敤 Stable Diffusion 鐢熸垚鍥剧墖锛屼絾涓嶆兂鐢ㄥ湪绾挎湇鍔★紵杩欑瘒鏁欎綘鏈湴閮ㄧ讲 WebUI锛岀敾鍥炬洿鑷敱銆�
 
-## 硬件要求
+## 纭欢瑕佹眰
 
-最低配置：
-- 显存 6GB（勉强能跑）
-- 内存 16GB
-- 硬盘 50GB+（模型很大）
+鏈€浣庨厤缃細
+- 鏄惧瓨 6GB锛堝媺寮鸿兘璺戯級
+- 鍐呭瓨 16GB
+- 纭洏 50GB+锛堟ā鍨嬪緢澶э級
 
-推荐配置：
-- 显存 8GB+
-- 内存 32GB
-- SSD 存储
+鎺ㄨ崘閰嶇疆锛�
+- 鏄惧瓨 8GB+
+- 鍐呭瓨 32GB
+- SSD 瀛樺偍
 
-## 环境准备
+## 鐜鍑嗗
 
-### 1. 安装 Python
+### 1. 瀹夎 Python
 
-建议使用 Anaconda 或直接安装 Python 3.10+：
+寤鸿浣跨敤 Anaconda 鎴栫洿鎺ュ畨瑁� Python 3.10+锛�
 
 ```bash
-# 检查 Python 版本
+# 妫€鏌� Python 鐗堟湰
 python --version
 ```
 
-### 2. 安装 Git
+### 2. 瀹夎 Git
 
 ```bash
-# Windows 下安装 Git
+# Windows 涓嬪畨瑁� Git
 winget install Git.Git
 ```
 
-### 3. 克隆项目
+### 3. 鍏嬮殕椤圭洰
 
 ```bash
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 ```
 
-## 显卡驱动配置
+## 鏄惧崱椹卞姩閰嶇疆
 
-### NVIDIA 显卡
+### NVIDIA 鏄惧崱
 
-确保安装了最新驱动，然后安装 CUDA：
+纭繚瀹夎浜嗘渶鏂伴┍鍔紝鐒跺悗瀹夎 CUDA锛�
 
 ```bash
-# 检查驱动
+# 妫€鏌ラ┍鍔�
 nvidia-smi
 
-# 安装 CUDA Toolkit（如果没装）
+# 瀹夎 CUDA Toolkit锛堝鏋滄病瑁咃級
 winget install NVIDIA.CUDA Toolkit
 ```
 
-### AMD 显卡（Linux）
+### AMD 鏄惧崱锛圠inux锛�
 
-需要安装 ROCm：
+闇€瑕佸畨瑁� ROCm锛�
 
 ```bash
-# 添加 ROCm 仓库
+# 娣诲姞 ROCm 浠撳簱
 sudo apt update
 sudo apt install rocm-libs
 ```
 
-## 启动 WebUI
+## 鍚姩 WebUI
 
 ### Windows
 
-直接运行：
+鐩存帴杩愯锛�
 
 ```bash
 ./webui-user.bat
 ```
 
-首次启动会下载基础模型，需要一些时间。
+棣栨鍚姩浼氫笅杞藉熀纭€妯″瀷锛岄渶瑕佷竴浜涙椂闂淬€�
 
-### 自定义参数
+### 鑷畾涔夊弬鏁�
 
-修改 `webui-user.bat`：
+淇敼 `webui-user.bat`锛�
 
 ```bat
 set COMMANDLINE_ARGS=--xformers --medvram --opt-split-attention
 ```
 
-参数说明：
-- `--xformers`：使用 xformers 优化，显存更省
-- `--medvram`：中等显存优化
-- `--opt-split-attention`：优化注意力机制
+鍙傛暟璇存槑锛�
+- `--xformers`锛氫娇鐢� xformers 浼樺寲锛屾樉瀛樻洿鐪�
+- `--medvram`锛氫腑绛夋樉瀛樹紭鍖�
+- `--opt-split-attention`锛氫紭鍖栨敞鎰忓姏鏈哄埗
 
-## 显存优化技巧
+## 鏄惧瓨浼樺寲鎶€宸�
 
-### 1. 启用 xformers
+### 1. 鍚敤 xformers
 
 ```bash
 pip install xformers
 ```
 
-### 2. 降低生成分辨率
+### 2. 闄嶄綆鐢熸垚鍒嗚鲸鐜�
 
-首次生成建议用 512x512，熟悉后再调高。
+棣栨鐢熸垚寤鸿鐢� 512x512锛岀啛鎮夊悗鍐嶈皟楂樸€�
 
-### 3. 使用模型量化
+### 3. 浣跨敤妯″瀷閲忓寲
 
-选择量化后的模型（如 SD 1.5 4bit 量化版）。
+閫夋嫨閲忓寲鍚庣殑妯″瀷锛堝 SD 1.5 4bit 閲忓寲鐗堬級銆�
 
-## 常见问题
+## 甯歌闂
 
-**Q: 显存不够怎么办？**
-A: 使用 --lowvram 模式，或者升级显卡。
+**Q: 鏄惧瓨涓嶅鎬庝箞鍔烇紵**
+A: 浣跨敤 --lowvram 妯″紡锛屾垨鑰呭崌绾ф樉鍗°€�
 
-**Q: 生成很慢怎么办？**
-A: 确认显卡驱动和 CUDA 正确安装，启用 xformers。
+**Q: 鐢熸垚寰堟參鎬庝箞鍔烇紵**
+A: 纭鏄惧崱椹卞姩鍜� CUDA 姝ｇ‘瀹夎锛屽惎鐢� xformers銆�
 
-**Q: 模型下载到哪里？**
-A: `models/Stable-diffusion/` 目录。
+**Q: 妯″瀷涓嬭浇鍒板摢閲岋紵**
+A: `models/Stable-diffusion/` 鐩綍銆�
 
-## 推荐模型
+## 鎺ㄨ崘妯″瀷
 
-入门推荐：
-- Stable Diffusion 1.5（最成熟，生态最好）
-- DreamShaper（人物效果好）
-- Realistic Vision（写实风格）
+鍏ラ棬鎺ㄨ崘锛�
+- Stable Diffusion 1.5锛堟渶鎴愮啛锛岀敓鎬佹渶濂斤級
+- DreamShaper锛堜汉鐗╂晥鏋滃ソ锛�
+- Realistic Vision锛堝啓瀹為鏍硷級
 
-## 我的配置分享
+## 鎴戠殑閰嶇疆鍒嗕韩
 
-这是我的启动参数：
+杩欐槸鎴戠殑鍚姩鍙傛暟锛�
 
 ```bat
 set COMMANDLINE_ARGS=--xformers --medvram --api --listen
 ```
 
-配合 RTX 3060 12GB，基本能跑 1024x1024 分辨率。
+閰嶅悎 RTX 3060 12GB锛屽熀鏈兘璺� 1024x1024 鍒嗚鲸鐜囥€�
 
 ---
-*测试显卡：RTX 3060 12GB，驱动 535.154，Python 3.10.11*
+*娴嬭瘯鏄惧崱锛歊TX 3060 12GB锛岄┍鍔� 535.154锛孭ython 3.10.11*

@@ -1,5 +1,5 @@
 ---
-title: "Minisforum UM800 ÆÀ²â£ºAMD 8845HS ¶¥¼¶Æì½¢"
+title: "Minisforum UM800 è¯„æµ‹ï¼šAMD 8845HS é¡¶çº§æ——èˆ°"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
@@ -8,23 +8,23 @@ platform: "amd"
 slug: "minisforum-um800"
 ---
 
-# Minisforum UM800 ÆÀ²â
+# Minisforum UM800 è¯„æµ‹
 
 
-<a href="/review/minisforum-um800/" target="_blank">Minisforum UM800</a> ÊÇÒ»¿î AMD 8845HS ¶¥¼¶Æì½¢<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>¡£
+<a href="/review/minisforum-um800/" target="_blank">Minisforum UM800</a> æ˜¯ä¸€æ¬¾ AMD 8845HS é¡¶çº§æ——èˆ°<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>ã€‚
 
-## Ö÷ÒªÌØµã
+## ä¸»è¦ç‰¹ç‚¹
 
-- AMD 8845HS ĞÔÄÜ¶¥¼¶
-- ½Ó¿Ú·á¸»
-- É¢ÈÈÓÅĞã
+- AMD 8845HS æ€§èƒ½é¡¶çº§
+- æ¥å£ä¸°å¯Œ
+- æ•£çƒ­ä¼˜ç§€
 
 ---
 
-*¸ü¶à<a href="/review/" target="_blank">ÃÔÄãÖ÷»ú</a>²âÆÀÇë¹Ø×¢ [Ó²¼şÆµµÀ](/review/)¡£*
+*æ›´å¤š<a href="/review/" target="_blank">è¿·ä½ ä¸»æœº</a>æµ‹è¯„è¯·å…³æ³¨ [ç¡¬ä»¶é¢‘é“](/review/)ã€‚*
 
 <div class="page-nav">
-  <a href="/review/minisforum-um790/" rel="prev">ÉÏÒ»Ò³£ºMinisforum UM790 ÆÀ²â</a>
+  <a href="/review/minisforum-um790/" rel="prev">ä¸Šä¸€é¡µï¼šMinisforum UM790 è¯„æµ‹</a>
 </div>
 
-*±¾ÎÄÓÉ NUC NAS Hub ×Ô¶¯Éú³É*
+*æœ¬æ–‡ç”± NUC NAS Hub è‡ªåŠ¨ç”Ÿæˆ*

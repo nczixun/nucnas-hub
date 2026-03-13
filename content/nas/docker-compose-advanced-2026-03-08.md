@@ -1,18 +1,18 @@
 ---
-title: "Docker Compose 进阶：多容器编排实战指南"
+title: "Docker Compose 杩涢樁锛氬瀹瑰櫒缂栨帓瀹炴垬鎸囧崡"
 date: 2026-03-08T15:03:00+08:00
-category: ["NAS 学院"]
-tags: ["Docker", "Docker Compose", "NAS", "容器编排", "自动化", "教程"]
+category: ["NAS 瀛﹂櫌"]
+tags: ["Docker", "Docker Compose", "NAS", "瀹瑰櫒缂栨帓", "鑷姩鍖�", "鏁欑▼"]
 draft: false
 ---
 
-会用 Docker 但不熟悉 Compose？这篇带你进阶。学会 docker-compose，一键管理所有容器。
+浼氱敤 Docker 浣嗕笉鐔熸倝 Compose锛熻繖绡囧甫浣犺繘闃躲€傚浼� docker-compose锛屼竴閿鐞嗘墍鏈夊鍣ㄣ€�
 
-## 为什么用 Docker Compose？
+## 涓轰粈涔堢敤 Docker Compose锛�
 
-手动 docker run 每次都要敲一堆参数，容器多了根本记不住。Compose 用 YAML 文件定义服务，版本控制、迁移、备份都方便。
+鎵嬪姩 docker run 姣忔閮借鏁蹭竴鍫嗗弬鏁帮紝瀹瑰櫒澶氫簡鏍规湰璁颁笉浣忋€侰ompose 鐢� YAML 鏂囦欢瀹氫箟鏈嶅姟锛岀増鏈帶鍒躲€佽縼绉汇€佸浠介兘鏂逛究銆�
 
-## 基础结构
+## 鍩虹缁撴瀯
 
 ```yaml
 version: '3.8'
@@ -29,11 +29,11 @@ services:
       POSTGRES_PASSWORD: secret
 ```
 
-## 进阶技巧
+## 杩涢樁鎶€宸�
 
-### 1. 环境变量管理
+### 1. 鐜鍙橀噺绠＄悊
 
-创建 `.env` 文件：
+鍒涘缓 `.env` 鏂囦欢锛�
 
 ```bash
 # .env
@@ -41,7 +41,7 @@ POSTGRES_PASSWORD=your_secure_password
 DATA_PATH=/mnt/storage
 ```
 
-Compose 自动读取：
+Compose 鑷姩璇诲彇锛�
 
 ```yaml
 services:
@@ -53,7 +53,7 @@ services:
       - ${DATA_PATH}/postgres:/var/lib/postgresql/data
 ```
 
-### 2. 网络隔离
+### 2. 缃戠粶闅旂
 
 ```yaml
 services:
@@ -67,10 +67,10 @@ services:
 networks:
   frontend:
   backend:
-    internal: true  # 完全隔离
+    internal: true  # 瀹屽叏闅旂
 ```
 
-### 3. 健康检查
+### 3. 鍋ュ悍妫€鏌�
 
 ```yaml
 services:
@@ -83,7 +83,7 @@ services:
       retries: 3
 ```
 
-### 4. 依赖关系
+### 4. 渚濊禆鍏崇郴
 
 ```yaml
 services:
@@ -95,26 +95,26 @@ services:
         condition: service_started
 ```
 
-## 常用命令
+## 甯哥敤鍛戒护
 
 ```bash
-# 启动所有服务
+# 鍚姩鎵€鏈夋湇鍔�
 docker-compose up -d
 
-# 查看日志
+# 鏌ョ湅鏃ュ織
 docker-compose logs -f
 
-# 更新镜像
+# 鏇存柊闀滃儚
 docker-compose pull
 docker-compose up -d
 
-# 停止所有服务
+# 鍋滄鎵€鏈夋湇鍔�
 docker-compose down
 ```
 
-## 我的 NAS 配置分享
+## 鎴戠殑 NAS 閰嶇疆鍒嗕韩
 
-这是我目前在用的部分配置：
+杩欐槸鎴戠洰鍓嶅湪鐢ㄧ殑閮ㄥ垎閰嶇疆锛�
 
 ```yaml
 services:
@@ -144,9 +144,9 @@ services:
       - ./nginx/ssl:/etc/nginx/ssl:ro
 ```
 
-## 总结
+## 鎬荤粨
 
-Docker Compose 真的是用了就回不去。配置一次，下次开机一键启动所有服务。建议大家都花时间学一下，真的能省很多功夫。
+Docker Compose 鐪熺殑鏄敤浜嗗氨鍥炰笉鍘汇€傞厤缃竴娆★紝涓嬫寮€鏈轰竴閿惎鍔ㄦ墍鏈夋湇鍔°€傚缓璁ぇ瀹堕兘鑺辨椂闂村涓€涓嬶紝鐪熺殑鑳界渷寰堝鍔熷か銆�
 
 ---
-*测试环境：群晖 DS920+ Docker 24.0*
+*娴嬭瘯鐜锛氱兢鏅� DS920+ Docker 24.0*

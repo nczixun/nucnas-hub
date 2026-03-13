@@ -1,67 +1,67 @@
 ---
-title: "迷你主机跑本地大模型：Ollama部署Qwen2.5实测"
+title: "杩蜂綘涓绘満璺戞湰鍦板ぇ妯″瀷锛歄llama閮ㄧ讲Qwen2.5瀹炴祴"
 date: 2026-03-07
 categories: ["ai"]
-tags: ["Ollama", "本地大模型", "Qwen", "LLM部署"]
+tags: ["Ollama", "鏈湴澶фā鍨�", "Qwen", "LLM閮ㄧ讲"]
 slug: "ollama-qwen25-minipc-deploy-2026"
 ---
 
-# 迷你主机跑本地大模型：Ollama部署Qwen2.5实测
+# 杩蜂綘涓绘満璺戞湰鍦板ぇ妯″瀷锛歄llama閮ㄧ讲Qwen2.5瀹炴祴
 
-想用迷你主机跑本地大模型？没问题，今天手把手教你用 Ollama 部署 Qwen2.5，实测可用。
+鎯崇敤杩蜂綘涓绘満璺戞湰鍦板ぇ妯″瀷锛熸病闂锛屼粖澶╂墜鎶婃墜鏁欎綘鐢� Ollama 閮ㄧ讲 Qwen2.5锛屽疄娴嬪彲鐢ㄣ€�
 
-## 环境要求
+## 鐜瑕佹眰
 
-- 迷你主机（推荐 AMD 8845HS 或 Intel Ultra 7 以上）
-- 内存 32GB 以上（16GB 勉强跑 7B 模型）
-- 硬盘 50GB 以上空间
+- 杩蜂綘涓绘満锛堟帹鑽� AMD 8845HS 鎴� Intel Ultra 7 浠ヤ笂锛�
+- 鍐呭瓨 32GB 浠ヤ笂锛�16GB 鍕夊己璺� 7B 妯″瀷锛�
+- 纭洏 50GB 浠ヤ笂绌洪棿
 
-## 安装步骤
+## 瀹夎姝ラ
 
-### 1. 安装 Ollama
+### 1. 瀹夎 Ollama
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-Windows 用户直接去官网下载安装包。
+Windows 鐢ㄦ埛鐩存帴鍘诲畼缃戜笅杞藉畨瑁呭寘銆�
 
-### 2. 拉取模型
+### 2. 鎷夊彇妯″瀷
 
-根据内存选择模型大小：
+鏍规嵁鍐呭瓨閫夋嫨妯″瀷澶у皬锛�
 
 ```bash
-# 7B 模型（需要 16GB 内存）
+# 7B 妯″瀷锛堥渶瑕� 16GB 鍐呭瓨锛�
 ollama pull qwen2.5:7b
 
-# 14B 模型（需要 32GB 内存）
+# 14B 妯″瀷锛堥渶瑕� 32GB 鍐呭瓨锛�
 ollama pull qwen2.5:14b
 ```
 
-### 3. 启动服务
+### 3. 鍚姩鏈嶅姟
 
 ```bash
 ollama serve
 ```
 
-新开终端对话：
+鏂板紑缁堢瀵硅瘽锛�
 
 ```bash
 ollama run qwen2.5:7b
 ```
 
-## 实测数据
+## 瀹炴祴鏁版嵁
 
-**测试机型：** 零刻 SER8 8845HS + 32GB 内存
+**娴嬭瘯鏈哄瀷锛�** 闆跺埢 SER8 8845HS + 32GB 鍐呭瓨
 
-| 模型 | 首次加载 | 生成速度 | 内存占用 |
+| 妯″瀷 | 棣栨鍔犺浇 | 鐢熸垚閫熷害 | 鍐呭瓨鍗犵敤 |
 |------|----------|----------|----------|
-| Qwen2.5:7b | 15 秒 | 20 token/s | 14GB |
-| Qwen2.5:14b | 28 秒 | 12 token/s | 28GB |
+| Qwen2.5:7b | 15 绉� | 20 token/s | 14GB |
+| Qwen2.5:14b | 28 绉� | 12 token/s | 28GB |
 
-## 进阶：WebUI 界面
+## 杩涢樁锛歐ebUI 鐣岄潰
 
-推荐用 Open WebUI，界面美观：
+鎺ㄨ崘鐢� Open WebUI锛岀晫闈㈢編瑙傦細
 
 ```bash
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \
@@ -70,13 +70,13 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \
   ghcr.io/open-webui/open-webui:main
 ```
 
-访问 http://localhost:3000 即可。
+璁块棶 http://localhost:3000 鍗冲彲銆�
 
-## 适用场景
+## 閫傜敤鍦烘櫙
 
-- 本地知识库问答
-- 代码辅助编程
-- 文档总结写作
-- 离线 AI 助手
+- 鏈湴鐭ヨ瘑搴撻棶绛�
+- 浠ｇ爜杈呭姪缂栫▼
+- 鏂囨。鎬荤粨鍐欎綔
+- 绂荤嚎 AI 鍔╂墜
 
-相比云端 API，本地部署**隐私安全**，**无限畅聊**，**成本为零**。感兴趣的赶紧试试！
+鐩告瘮浜戠 API锛屾湰鍦伴儴缃�**闅愮瀹夊叏**锛�**鏃犻檺鐣呰亰**锛�**鎴愭湰涓洪浂**銆傛劅鍏磋叮鐨勮刀绱ц瘯璇曪紒
