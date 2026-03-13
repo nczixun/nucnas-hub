@@ -1,5 +1,6 @@
 ---
 title: "鍏充簬 NUCNAS.HUB"
+slug: "-nucnashub"
 date: 2024-01-01
 description: "鍏充簬 NUCNAS.HUB - 浣犵殑 Mini PC 鍜� NAS 缁堟瀬鎸囧崡"
 ---

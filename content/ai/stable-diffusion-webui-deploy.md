@@ -1,5 +1,6 @@
 ---
 title: "Stable Diffusion WebUI 闂備礁鎼悧婊堝礈濞嗗骏鑰块柟缁㈠枟閻掗箖鏌曟繛褍妫崬褰掓⒑鏉炴壆鍔嶉柣鐔濆洤鐓濆┑鍌氭啞閺咁剚鎱ㄥ鍡楀閻㈩垱濞婇幃褰掑箛椤掍浇纭€闂佽桨鐒﹂幑鍥嵁鐎ｎ喗鏅搁柨鐕傛嫹 AI 闂備焦鐪归崹濂割敊婵犲嫮绀婇柨鐕傛嫹"
+slug: "stable-diffusion-webui-ai-"
 date: 2026-03-08
 category: "AI"
 tags: ["Stable Diffusion", "闂備礁鎼悧婊堝礈濞嗗骏鑰块柟缁㈠枟閻掗箖鏌曟繛褍妫崬锟�", "AI 缂傚倸鍊烽悞锕傛晪濠电偠鎻幏锟�", "Docker"]

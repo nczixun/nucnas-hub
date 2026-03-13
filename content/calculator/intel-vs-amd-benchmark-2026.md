@@ -1,5 +1,6 @@
 閿橈拷---
 title: "鏉╄渹缍樻稉缁樻簚閹嗗厴鐎佃鐦敍娆糿tel Ultra vs AMD 闁挎劙绶�8000"
+slug: "tel-ultra-vs-amd-8000"
 date: 2026-03-06
 categories: ["calculator"]
 summary: "娑撱倖顑欐稉缁樼ウ婢跺嫮鎮婇崳銊ョ杽濞村绐囬崚鍡楊嚠濮ｏ拷"

@@ -1,5 +1,6 @@
 閿橈拷---
 title: "Beelink SER8 vs Minisforum MS-01閿涙岸鏀兼Λ锟�8000鏉╄渹缍樻稉缁樻簚濮濓綁娼伴崚锟�"
+slug: "beelink-ser8-vs-minisforum-ms-018000"
 date: 2026-03-06
 categories: ["hardware"]
 summary: "娑撱倖顑欓幖顓℃祰AMD Ryzen 8000缁鍨惃鍕碃娴ｇ姳瀵岄張鍝勵嚠濮ｆ柨鐤勫ù锟�"

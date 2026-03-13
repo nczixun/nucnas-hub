@@ -1,5 +1,6 @@
 ---
 title: "2026 Tech Trends Deep Dive: The AI Chip Three-Way Battle"
+slug: "2026-tech-trends-deep-dive-the-ai-chip-three-way-b"
 date: 2026-03-01
 categories: ["news"]
 summary: "AMD, Intel, and NVIDIA's AI chip war enters a white-hot phase. This article deeply analyzes each player's strategy, technological advantages, and fatal weaknesses, as well as the real story behind this chip battle."
