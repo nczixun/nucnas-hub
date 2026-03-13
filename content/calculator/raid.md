@@ -1,420 +1,172 @@
 ---
-title: "RAID 閻犱緤绱曢悾濠氬闯閿燂拷"
+title: "迷你主机 RAID 配置指南：数据安全必备"
+date: 2026-01-01
+categories: ["calculator"]
+summary: "RAID 配置指南，帮助选择最适合的 RAID 模式"
+tags: ["RAID", "NAS", "存储", "数据安全"]
 slug: "raid"
-description: "RAID 閻庣懓缍婇崳铏规媼閿涘嫮鏆柛锝庣厜缁辨繈寮ㄩ娑樼槷 RAID 0/1/5/6/10 閻庣懓缍婇崳铏规媼閿涘嫮鏆☉鎾抽椤旀劙鏌ㄥ▎蹇撶€婚柡瀣舵嫹"
-date: 2026-03-07
 ---
 
-# 妫ｅ啯宕� RAID 閻庣懓缍婇崳铏规媼閿涘嫮鏆柛锝忔嫹
+# 迷你主机 RAID 配置指南
 
-闂侇偄顦扮€氾拷 RAID 婵☆垪鈧磭纭€闁挎稑鐭佺欢顓㈠礂閵壯€鈧牠鎯勫Ο鍝勬闁轰礁搴滅槐婵堟媼閿涘嫮鏆柛娆樺灣閺併倗鈧懓缍婇崳鐑樼▔鎼粹槅鍟囬梺鎸庣懆閸忔﹢宕濆☉鏍ゅ亾閿燂拷
+## 什么是 RAID？
 
-<div x-data="raidCalculator()" class="raid-calculator">
-    
-    <!-- RAID 婵☆垪鈧磭纭€闂侇偄顦扮€氾拷 -->
-    <div class="raid-mode-select">
-        <label class="raid-label">闂侇偄顦扮€氾拷 RAID 婵☆垪鈧磭纭€</label>
-        <div class="raid-modes">
-            <template x-for="mode in raidModes" :key="mode.id">
-                <button 
-                    class="raid-mode-btn"
-                    :class="selectedMode === mode.id ? 'active' : ''"
-                    @click="selectMode(mode.id)"
-                    :title="mode.desc"
-                >
-                    <span class="mode-name" x-text="mode.name"></span>
-                    <span class="mode-desc" x-text="mode.desc"></span>
-                </button>
-            </template>
-        </div>
-    </div>
+RAID（独立磁盘冗余阵列）是一种将多个硬盘组合起来提高数据安全性和性能的技术。
 
-    <!-- 缁绢収鍓涘ú蹇涙煀瀹ュ洨鏋� -->
-    <div class="raid-config">
-        <div class="config-row">
-            <div class="config-item">
-                <label class="raid-label">缁绢収鍓涘ú蹇涘极娴兼潙娅�</label>
-                <input type="number" x-model="diskCount" min="2" max="24" class="raid-input" @input="calculate()">
-            </div>
-            <div class="config-item">
-                <label class="raid-label">闁告娲滃ú蹇曗偓鐟扮秺閸ｏ拷 (TB)</label>
-                <input type="number" x-model="diskSize" min="1" max="100" step="0.5" class="raid-input" @input="calculate()">
-            </div>
-        </div>
-    </div>
+## RAID 级别对比
 
-    <!-- 閻犱緤绱曢悾鑽ょ磼閹惧浜� -->
-    <div class="raid-result" x-show="diskCount >= 2">
-        <div class="result-grid">
-            <div class="result-card">
-                <div class="result-icon">妫ｅ啯宕�</div>
-                <div class="result-label">闁告瑯鍨抽弫銈団偓鐟扮秺閸ｏ拷</div>
-                <div class="result-value" x-text="result.usableCapacity"></div>
-                <div class="result-sub" x-text="'闁告ḿ鍠庨～鎰偓鐟扮秺閸ｏ拷: ' + result.rawCapacity + ' TB'"></div>
-            </div>
-            <div class="result-card">
-                <div class="result-icon">妫ｅ啯绀夐柨鏃撴嫹</div>
-                <div class="result-label">閻庣懓缍婇弫濠囨嚄閽樺顫�</div>
-                <div class="result-value" 
-                     :class="result.faultTolerance > 0 ? 'text-green' : 'text-red'"
-                     x-text="result.faultTolerance + ' 闁秆勵殘閳ユ牠鎯勯敓锟�'"></div>
-                <div class="result-sub" x-text="result.faultTolerance > 0 ? '闁告瑯鍨伴幃鎾诲籍閼稿灚娅婇梻鍛矋閺嗙喖鏌岄敓锟�' : '闁哄啰濮撮鎰版煥閿燂拷'"></div>
-            </div>
-            <div class="result-card">
-                <div class="result-icon">妫ｅ啯鎯�</div>
-                <div class="result-label">閻庢稒锚閸嬪秹寮崼銏犺姵</div>
-                <div class="result-value" x-text="result.efficiency + '%'"></div>
-                <div class="result-sub" x-text="result.waste + ' TB 闁告劖銇炵紞锟�'"></div>
-            </div>
-        </div>
-    </div>
+| RAID 级别 | 最少硬盘 | 可用容量 | 性能 | 安全性 | 推荐场景 |
+|-----------|----------|----------|------|--------|----------|
+| RAID 0 | 2 | 100% | 最快 | 无 | 游戏临时存储 |
+| RAID 1 | 2 | 50% | 正常 | 高 | 重要数据备份 |
+| RAID 5 | 3 | n-1 | 较快 | 中高 | 小型 NAS |
+| RAID 6 | 4 | n-2 | 中等 | 高 | 企业级存储 |
+| RAID 10 | 4 | 50% | 最快 | 极高 | 数据库/虚拟化 |
 
-    <!-- 閻犫偓閿曗偓閹诧繝骞撻幇顔轰粵 -->
-    <div class="raid-warning" x-show="warning" x-text="warning" style="display: none;"></div>
+## 详细说明
 
-    <!-- RAID 婵☆垪鈧磭纭€閻犲洤鐡ㄥΣ锟� -->
-    <div class="raid-info">
-        <h3>妫ｅ啯鎯� RAID 婵☆垪鈧磭纭€閻庝絻顫夐惁锟�</h3>
-        <table class="raid-table">
-            <thead>
-                <tr>
-                    <th>婵☆垪鈧磭纭€</th>
-                    <th>闁哄牃鍋撻悘蹇撶箳濞插繘寮敓锟�</th>
-                    <th>閻庣懓缍婇弫锟�</th>
-                    <th>闁轰礁鐗忓锟�</th>
-                    <th>闁绘婀遍崑锟�</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>RAID 0</strong></td>
-                    <td>2</td>
-                    <td>闁村偊鎷� 闁哄喛鎷�</td>
-                    <td>100%</td>
-                    <td>闁诡儸鍡楀幋闁哄牃鍋撳ù锝囶劜缁辨繈寮悩宸晣闂佸尅鎷�</td>
-                </tr>
-                <tr>
-                    <td><strong>RAID 1</strong></td>
-                    <td>2</td>
-                    <td>闁翠緤鎷� N-1</td>
-                    <td>50%</td>
-                    <td>闂傗偓濠婂啫鍓煎璺烘矗閸炪倝鏁嶇仦鐣屾殧闁稿繈鍔嶉埀顑洨褰�</td>
-                </tr>
-                <tr>
-                    <td><strong>RAID 5</strong></td>
-                    <td>3</td>
-                    <td>闁翠緤鎷� 1</td>
-                    <td>67%-94%</td>
-                    <td>妤犵偛鐤囬妴鈧柟顑棗鍘村☉鎾抽閻ｃ劑宕楅敓锟�</td>
-                </tr>
-                <tr>
-                    <td><strong>RAID 6</strong></td>
-                    <td>4</td>
-                    <td>闁翠緤鎷� 2</td>
-                    <td>50%-92%</td>
-                    <td>闁告瑥鐭傞崳鎼佸冀閿熺姷宕ｉ柨娑樻湰閻庮剛绮╅姘辨殧闁稿骏鎷�</td>
-                </tr>
-                <tr>
-                    <td><strong>RAID 10</strong></td>
-                    <td>4</td>
-                    <td>闁翠緤鎷� 1/2</td>
-                    <td>50%</td>
-                    <td>闂傗偓濠婂啫鍓�+闁哄鈧磭鏁ㄩ柨娑樻湰閳ь儸鍡楀幋閻庣懓顦崣蹇涘礂婵傛悶鈧拷</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+### RAID 0：速度至上
 
-</div>
+**原理**：数据分散写入所有硬盘
 
-<script>
-function raidCalculator() {
-    return {
-        diskCount: 4,
-        diskSize: 8,
-        selectedMode: '5',
-        warning: '',
-        raidModes: [
-            { id: '0', name: 'RAID 0', desc: '闁诡儸鍡楀幋濞村吋锚閸橈拷' },
-            { id: '1', name: 'RAID 1', desc: '闂傗偓濠婂啫鍓煎璺烘矗閸烇拷' },
-            { id: '5', name: 'RAID 5', desc: '闁秆冩穿閵嗏偓濞戞柨顑夐埀顒婃嫹' },
-            { id: '6', name: 'RAID 6', desc: '闁告瑥鐭傞崳鍝モ偓鐟扮秺閺侊拷' },
-            { id: '10', name: 'RAID 10', desc: '濞撮棿妞掔粭鐔虹棯閿燂拷' }
-        ],
-        result: {
-            usableCapacity: '0 TB',
-            rawCapacity: '0',
-            faultTolerance: 0,
-            efficiency: 0,
-            waste: 0
-        },
-        selectMode(mode) {
-            this.selectedMode = mode;
-            this.calculate();
-        },
-        calculate() {
-            const count = parseInt(this.diskCount) || 0;
-            const size = parseFloat(this.diskSize) || 0;
-            this.warning = '';
-            
-            if (count < 2 || size <= 0) {
-                this.result = { usableCapacity: '0 TB', rawCapacity: '0', faultTolerance: 0, efficiency: 0, waste: 0 };
-                return;
-            }
-            
-            const raw = count * size;
-            let usable = 0;
-            let faultTolerance = 0;
-            
-            switch(this.selectedMode) {
-                case '0':
-                    usable = raw;
-                    faultTolerance = 0;
-                    if (count < 2) this.warning = 'RAID 0 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 2 闁秆勵殘閳ユ牠鎯勯敓锟�';
-                    break;
-                case '1':
-                    usable = size;
-                    faultTolerance = count - 1;
-                    if (count < 2) this.warning = 'RAID 1 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 2 闁秆勵殘閳ユ牠鎯勯敓锟�';
-                    break;
-                case '5':
-                    usable = (count - 1) * size;
-                    faultTolerance = 1;
-                    if (count < 3) this.warning = 'RAID 5 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 3 闁秆勵殘閳ユ牠鎯勯敓锟�';
-                    break;
-                case '6':
-                    usable = (count - 2) * size;
-                    faultTolerance = 2;
-                    if (count < 4) this.warning = 'RAID 6 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 4 闁秆勵殘閳ユ牠鎯勯敓锟�';
-                    break;
-                case '10':
-                    const mirrorPairs = Math.floor(count / 2);
-                    usable = mirrorPairs * size;
-                    faultTolerance = Math.floor(count / 2) - 1;
-                    if (count < 4) this.warning = 'RAID 10 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 4 闁秆勵殘閳ユ牠鎯勯敓锟�';
-                    break;
-            }
-            
-            const efficiency = raw > 0 ? Math.round((usable / raw) * 100) : 0;
-            const waste = raw - usable;
-            
-            this.result = {
-                usableCapacity: usable.toFixed(1) + ' TB',
-                rawCapacity: raw.toFixed(1),
-                faultTolerance: faultTolerance,
-                efficiency: efficiency,
-                waste: waste.toFixed(1)
-            };
-        }
-    }
-}
-</script>
+**优点**：
+- 速度最快
+- 容量利用率 100%
 
-<style>
-.raid-calculator {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 32px;
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-    border-radius: 20px;
-    color: white;
-    font-family: 'Noto Sans SC', sans-serif;
-}
+**缺点**：
+- 无数据保护
+- 一块硬盘损坏 = 所有数据丢失
 
-.raid-label {
-    display: block;
-    font-size: 14px;
-    font-weight: 600;
-    color: #a0a0ff;
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
+**适用**：游戏、对速度要求高的临时存储
 
-.raid-modes {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    margin-bottom: 32px;
-}
+### RAID 1：镜像备份
 
-@media (max-width: 600px) {
-    .raid-modes {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+**原理**：数据同时写入两块硬盘
 
-.raid-mode-btn {
-    background: rgba(255,255,255,0.05);
-    border: 2px solid rgba(255,255,255,0.1);
-    border-radius: 12px;
-    padding: 16px 8px;
-    cursor: pointer;
-    transition: all 0.3s;
-    text-align: center;
-}
+**优点**：
+- 数据绝对安全
+- 读取速度翻倍
 
-.raid-mode-btn:hover {
-    background: rgba(255,255,255,0.1);
-    border-color: rgba(255,255,255,0.3);
-}
+**缺点**：
+- 容量利用率只有 50%
 
-.raid-mode-btn.active {
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    border-color: #667eea;
-    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
-}
+**适用**：重要文件备份、家庭照片
 
-.mode-name {
-    display: block;
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 4px;
-}
+### RAID 5：均衡之选
 
-.mode-desc {
-    display: block;
-    font-size: 11px;
-    color: rgba(255,255,255,0.6);
-}
+**原理**：分布式奇偶校验
 
-.raid-config {
-    background: rgba(255,255,255,0.05);
-    border-radius: 16px;
-    padding: 24px;
-    margin-bottom: 24px;
-}
+**优点**：
+- 容量利用率高 (n-1)
+- 读取速度快
 
-.config-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
+**缺点**：
+- 写入速度较慢
+- 只能容忍 1 块硬盘损坏
 
-.raid-input {
-    width: 100%;
-    padding: 14px 18px;
-    background: rgba(0,0,0,0.3);
-    border: 2px solid rgba(255,255,255,0.15);
-    border-radius: 10px;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    transition: all 0.3s;
-}
+**适用**：小型 NAS、个人云存储
 
-.raid-input:focus {
-    outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
-}
+### RAID 6：双重保护
 
-.result-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    margin-bottom: 24px;
-}
+**原理**：双重奇偶校验
 
-@media (max-width: 600px) {
-    .result-grid {
-        grid-template-columns: 1fr;
-    }
-}
+**优点**：
+- 可容忍 2 块硬盘损坏
+- 安全性极高
 
-.result-card {
-    background: rgba(255,255,255,0.08);
-    border-radius: 16px;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid rgba(255,255,255,0.1);
-}
+**缺点**：
+- 容量利用率 (n-2)
+- 写入速度慢
 
-.result-icon {
-    font-size: 32px;
-    margin-bottom: 8px;
-}
+**适用**：企业存储、关键业务
 
-.result-label {
-    font-size: 12px;
-    color: rgba(255,255,255,0.6);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 8px;
-}
+### RAID 10：性能与安全
 
-.result-value {
-    font-size: 28px;
-    font-weight: 800;
-    color: #667eea;
-    margin-bottom: 4px;
-}
+**原理**：RAID 1 + RAID 0
 
-.result-value.text-green {
-    color: #34C759;
-}
+**优点**：
+- 读取速度极快
+- 可容忍多块硬盘损坏
 
-.result-value.text-red {
-    color: #FF3B30;
-}
+**缺点**：
+- 容量利用率 50%
+- 需要至少 4 块硬盘
 
-.result-sub {
-    font-size: 12px;
-    color: rgba(255,255,255,0.5);
-}
+**适用**：数据库、虚拟机、关键应用
 
-.raid-warning {
-    background: rgba(255, 59, 48, 0.2);
-    border: 1px solid #FF3B30;
-    border-radius: 10px;
-    padding: 12px 16px;
-    color: #FF3B30;
-    font-size: 14px;
-    margin-bottom: 24px;
-}
+## 容量计算
 
-.raid-info {
-    background: rgba(255,255,255,0.05);
-    border-radius: 16px;
-    padding: 24px;
-}
+### 计算公式
 
-.raid-info h3 {
-    font-size: 18px;
-    margin-bottom: 16px;
-    color: white;
-}
+```
+RAID 0: 容量 = 硬盘容量 × 数量
+RAID 1: 容量 = 硬盘容量 × 数量 ÷ 2
+RAID 5: 容量 = 硬盘容量 × (数量 - 1)
+RAID 6: 容量 = 硬盘容量 × (数量 - 2)
+RAID 10: 容量 = 硬盘容量 × 数量 ÷ 2
+```
 
-.raid-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
-}
+### 示例
 
-.raid-table th,
-.raid-table td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-}
+| 配置 | 硬盘 | 可用容量 |
+|------|------|----------|
+| RAID 0 | 4×8TB | 32TB |
+| RAID 1 | 2×8TB | 8TB |
+| RAID 5 | 4×8TB | 24TB |
+| RAID 6 | 4×8TB | 16TB |
+| RAID 10 | 4×8TB | 16TB |
 
-.raid-table th {
-    color: #a0a0ff;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
-}
+## 迷你主机推荐
 
-.raid-table td {
-    color: rgba(255,255,255,0.8);
-}
+### 2 盘位
 
-.raid-table tr:hover td {
-    background: rgba(255,255,255,0.05);
-}
-</style>
+| 方案 | RAID 1 |
+|------|--------|
+| 容量 | 8TB (2×8TB) |
+| 安全性 | 高 |
 
-<!-- Alpine.js -->
-<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+### 4 盘位
+
+| 方案 | RAID 5 | RAID 6 |
+|------|--------|--------|
+| 容量 | 24TB | 16TB |
+| 安全性 | 中高 | 极高 |
+
+### 6+ 盘位
+
+| 方案 | RAID 6 | RAID 10 |
+|------|--------|---------|
+| 容量 | 32TB | 24TB |
+| 安全性 | 极高 | 极高 |
+
+## 注意事项
+
+### ⚠️ 不要使用
+
+- 混合不同容量硬盘
+- 混合不同品牌硬盘
+- 忽视硬盘健康
+
+### ✅ 正确做法
+
+- 使用同型号硬盘
+- 定期检查硬盘健康
+- 定期备份到其他位置
+- 建立 3-2-1 备份原则
+
+## 3-2-1 备份原则
+
+> 3 份副本
+> 2 种不同存储介质
+> 1 份异地存储
+
+## 总结
+
+| 使用场景 | 推荐 RAID |
+|----------|-----------|
+| 预算有限 | RAID 1 |
+| 家庭 NAS | RAID 5 |
+| 重要数据 | RAID 6 |
+| 极致性能 | RAID 10 |
+
+**建议**：对于大多数用户，RAID 5 或 RAID 6 是最佳选择。
