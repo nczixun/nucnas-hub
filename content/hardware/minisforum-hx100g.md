@@ -1,31 +1,31 @@
 ---
 slug: "minisforum-hx100g"
-title: "Minisforum HX100G 评测：首批搭载 Intel Ultra 的迷你主机"
+title: "Minisforum HX100G 璇勬祴锛氶鎵规惌杞� Intel Ultra 鐨勮糠浣犱富鏈�"
 date: 2026-02-27
-summary: "Minisforum HX100G review: RX6650M,独显,液金散热"
+summary: "Minisforum HX100G review: RX6650M,鐙樉,娑查噾鏁ｇ儹"
 categories: ["hardware"]
 tags: ["Minisforum", "HX100G", "amd"]
 ---
 
-# Minisforum HX100G 评测
+# Minisforum HX100G 璇勬祴
 
 
-## 概述
+## 姒傝堪
 
-<a href="/review/minisforum-hx100g/" target="_blank">Minisforum HX100G</a> 是首批搭载 Intel Ultra 的<a href="/review/" target="_blank">迷你主机</a>，配备RX6650M独立显卡和液金散热。
+<a href="/review/minisforum-hx100g/" target="_blank">Minisforum HX100G</a> 鏄鎵规惌杞� Intel Ultra 鐨�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>锛岄厤澶嘡X6650M鐙珛鏄惧崱鍜屾恫閲戞暎鐑€�
 
-## 主要特点
+## 涓昏鐗圭偣
 
-- 独立显卡：RX6650M
-- 散热：液金散热
-- 性能：强劲
+- 鐙珛鏄惧崱锛歊X6650M
+- 鏁ｇ儹锛氭恫閲戞暎鐑�
+- 鎬ц兘锛氬己鍔�
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/review/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/nas-docker-apps-recommend-2026-v2/" rel="prev">上一页：NAS必装Docker应用推荐 V2</a>
+  <a href="/guide/nas-docker-apps-recommend-2026-v2/" rel="prev">涓婁竴椤碉細NAS蹇呰Docker搴旂敤鎺ㄨ崘 V2</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

@@ -1,42 +1,42 @@
 ---
-title: "Day 7: 飞牛OS数据备份与同步 —— 守护你的数据安全"
+title: "Day 7: 椋炵墰OS鏁版嵁澶囦唤涓庡悓姝� 鈥斺€� 瀹堟姢浣犵殑鏁版嵁瀹夊叏"
 date: 2026-03-13
-summary: "学习飞牛OS的数据备份策略，保护重要数据不丢失。"
+summary: "瀛︿範椋炵墰OS鐨勬暟鎹浠界瓥鐣ワ紝淇濇姢閲嶈鏁版嵁涓嶄涪澶便€�"
 categories: ["nas"]
 slug: "fnos-day7-backup"
-tags: ["飞牛OS", "备份", "同步", "数据安全"]
+tags: ["椋炵墰OS", "澶囦唤", "鍚屾", "鏁版嵁瀹夊叏"]
 ---
 
-# Day 7: 飞牛OS数据备份与同步
+# Day 7: 椋炵墰OS鏁版嵁澶囦唤涓庡悓姝�
 
 
-## 为什么需要备份？
+## 涓轰粈涔堥渶瑕佸浠斤紵
 
-- ?? 硬盘会坏
-- ?? 系统会崩
-- ?? 误删文件
-- ?? 勒索病毒
+- ?? 纭洏浼氬潖
+- ?? 绯荤粺浼氬穿
+- ?? 璇垹鏂囦欢
+- ?? 鍕掔储鐥呮瘨
 
-## 备份策略
+## 澶囦唤绛栫暐
 
-### 3-2-1 原则
-- 3份数据副本
-- 2种不同存储介质
-- 1份异地存储
+### 3-2-1 鍘熷垯
+- 3浠芥暟鎹壇鏈�
+- 2绉嶄笉鍚屽瓨鍌ㄤ粙璐�
+- 1浠藉紓鍦板瓨鍌�
 
-## 本地备份
+## 鏈湴澶囦唤
 
-### 使用rsync
+### 浣跨敤rsync
 
 ```bash
-# 备份到另一个硬盘
+# 澶囦唤鍒板彟涓€涓‖鐩�
 rsync -avz /source /backup
 
-# 增量备份
+# 澧為噺澶囦唤
 rsync -avz --delete /source /backup
 ```
 
-### 使用<a href="/guide/docker-best-practice/" target="_blank">Docker</a>容器
+### 浣跨敤<a href="/guide/docker-best-practice/" target="_blank">Docker</a>瀹瑰櫒
 
 ```yaml
 version: '3'
@@ -53,22 +53,22 @@ services:
     restart: unless-stopped
 ```
 
-## 云端同步
+## 浜戠鍚屾
 
-### 1. Rclone配置
+### 1. Rclone閰嶇疆
 
 ```bash
-# 安装Rclone
+# 瀹夎Rclone
 curl https://rclone.org/install.sh | sudo bash
 
-# 配置
+# 閰嶇疆
 rclone config
 ```
 
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day6-docker/" rel="prev">上一页：Day 6：飞牛OS Docker应用</a>
+  <a href="/guide/fnos-day6-docker/" rel="prev">涓婁竴椤碉細Day 6锛氶鐗汷S Docker搴旂敤</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

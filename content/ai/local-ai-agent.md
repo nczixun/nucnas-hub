@@ -1,59 +1,59 @@
 ---
 slug: "local-ai-agent"
-title: "本地 AI Agent 完全指南"
+title: "鏈湴 AI Agent 瀹屽叏鎸囧崡"
 date: 2026-02-15
 categories: ["ai"]
-summary: "从零开始搭建本地 AI Agent，实现自动化任务处理。"
-tags: ["AI Agent", "自动化", "教程"]
+summary: "浠庨浂寮€濮嬫惌寤烘湰鍦� AI Agent锛屽疄鐜拌嚜鍔ㄥ寲浠诲姟澶勭悊銆�"
+tags: ["AI Agent", "鑷姩鍖�", "鏁欑▼"]
 ---
 
-# 本地 AI Agent 完全指南
+# 鏈湴 AI Agent 瀹屽叏鎸囧崡
 
 
-AI Agent（AI 智能体）是当前 <a href="/ai/" target="_blank">AI</a> 领域的热门话题，它可以自主完成复杂任务。本文教你如何搭建本地 AI Agent。
+AI Agent锛圓I 鏅鸿兘浣擄級鏄綋鍓� <a href="/ai/" target="_blank">AI</a> 棰嗗煙鐨勭儹闂ㄨ瘽棰橈紝瀹冨彲浠ヨ嚜涓诲畬鎴愬鏉備换鍔°€傛湰鏂囨暀浣犲浣曟惌寤烘湰鍦� AI Agent銆�
 
-## 什么是 AI Agent？
+## 浠€涔堟槸 AI Agent锛�
 
-AI Agent 是能够自主理解、规划并执行任务的 AI 系统。与普通聊天机器人不同，Agent 可以：
-- 自主规划任务步骤
-- 调用工具执行操作
-- 根据反馈调整策略
+AI Agent 鏄兘澶熻嚜涓荤悊瑙ｃ€佽鍒掑苟鎵ц浠诲姟鐨� AI 绯荤粺銆備笌鏅€氳亰澶╂満鍣ㄤ汉涓嶅悓锛孉gent 鍙互锛�
+- 鑷富瑙勫垝浠诲姟姝ラ
+- 璋冪敤宸ュ叿鎵ц鎿嶄綔
+- 鏍规嵁鍙嶉璋冩暣绛栫暐
 
-## 本地 Agent 方案
+## 鏈湴 Agent 鏂规
 
-### 使用 OpenClaw
+### 浣跨敤 OpenClaw
 
-OpenClaw 是一个强大的本地 AI Agent 平台，支持：
-- 多平台接入（Telegram、Discord 等）
-- 工具调用能力
-- 记忆系统
-- 心跳机制
+OpenClaw 鏄竴涓己澶х殑鏈湴 AI Agent 骞冲彴锛屾敮鎸侊細
+- 澶氬钩鍙版帴鍏ワ紙Telegram銆丏iscord 绛夛級
+- 宸ュ叿璋冪敤鑳藉姏
+- 璁板繂绯荤粺
+- 蹇冭烦鏈哄埗
 
-### 安装 OpenClaw
+### 瀹夎 OpenClaw
 
 ```bash
-# 克隆项目
+# 鍏嬮殕椤圭洰
 git clone https://github.com/openclaw/openclaw.git
 
-# 进入目录
+# 杩涘叆鐩綍
 cd openclaw
 
-# 启动服务
+# 鍚姩鏈嶅姟
 docker-compose up -d
 ```
 
-## 应用场景
+## 搴旂敤鍦烘櫙
 
-- **自动化办公**：自动回复邮件、整理文档
-- **数据分析**：定期抓取数据并分析
-- **监控系统**：监控网站/服务状态
+- **鑷姩鍖栧姙鍏�**锛氳嚜鍔ㄥ洖澶嶉偖浠躲€佹暣鐞嗘枃妗�
+- **鏁版嵁鍒嗘瀽**锛氬畾鏈熸姄鍙栨暟鎹苟鍒嗘瀽
+- **鐩戞帶绯荤粺**锛氱洃鎺х綉绔�/鏈嶅姟鐘舵€�
 
 ---
 
-*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/ai/ollama-beginner-guide-2026/" rel="prev">上一页：本地大模型部署入门指南：Ollama使用教程</a>
+  <a href="/ai/ollama-beginner-guide-2026/" rel="prev">涓婁竴椤碉細鏈湴澶фā鍨嬮儴缃插叆闂ㄦ寚鍗楋細Ollama浣跨敤鏁欑▼</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

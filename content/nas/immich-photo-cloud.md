@@ -1,51 +1,51 @@
 ---
 slug: "immich-photo-cloud"
-title: "Immich：替代 Google Photos 的私有照片方案"
+title: "Immich锛氭浛浠� Google Photos 鐨勭鏈夌収鐗囨柟妗�"
 date: 2026-02-12
-summary: "像原厂 App 一样流畅，支持 AI 人脸识别。"
+summary: "鍍忓師鍘� App 涓€鏍锋祦鐣咃紝鏀寔 AI 浜鸿劯璇嗗埆銆�"
 categories: ["nas"]
 ---
 
-# Immich：替代 Google Photos 的私有照片方案
+# Immich锛氭浛浠� Google Photos 鐨勭鏈夌収鐗囨柟妗�
 
 
-在这个手机摄影爆炸的时代，每个家庭的照片数量都在飞速增长。宝宝成长的点滴、旅行中的风景、日常生活的小确幸——这些定格的瞬间承载着无可替代的记忆。然而，将照片完全托付给Google Photos或iCloud存在隐私风险，云存储的容量焦虑也时刻困扰着我们。部署一套私有照片管理方案，成为越来越多家庭用户的需求。
+鍦ㄨ繖涓墜鏈烘憚褰辩垎鐐哥殑鏃朵唬锛屾瘡涓搴殑鐓х墖鏁伴噺閮藉湪椋為€熷闀裤€傚疂瀹濇垚闀跨殑鐐规淮銆佹梾琛屼腑鐨勯鏅€佹棩甯哥敓娲荤殑灏忕‘骞糕€斺€旇繖浜涘畾鏍肩殑鐬棿鎵胯浇鐫€鏃犲彲鏇夸唬鐨勮蹇嗐€傜劧鑰岋紝灏嗙収鐗囧畬鍏ㄦ墭浠樼粰Google Photos鎴杋Cloud瀛樺湪闅愮椋庨櫓锛屼簯瀛樺偍鐨勫閲忕劍铏戜篃鏃跺埢鍥版壈鐫€鎴戜滑銆傞儴缃蹭竴濂楃鏈夌収鐗囩鐞嗘柟妗堬紝鎴愪负瓒婃潵瓒婂瀹跺涵鐢ㄦ埛鐨勯渶姹傘€�
 
-<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>正是为解决这个痛点而生的开源项目。它旨在提供与Google Photos相似的使用体验——流畅的浏览、智能的分类、便捷的分享——同时保证所有数据都存储在自己的<a href="/guide/" target="_blank">NAS</a>上。本文将详细介绍<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的功能特性、<a href="/guide/docker-best-practice/" target="_blank">Docker</a>部署步骤以及最佳实践，帮助你搭建属于自己的私有云相册。
+<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>姝ｆ槸涓鸿В鍐宠繖涓棝鐐硅€岀敓鐨勫紑婧愰」鐩€傚畠鏃ㄥ湪鎻愪緵涓嶨oogle Photos鐩镐技鐨勪娇鐢ㄤ綋楠屸€斺€旀祦鐣呯殑娴忚銆佹櫤鑳界殑鍒嗙被銆佷究鎹风殑鍒嗕韩鈥斺€斿悓鏃朵繚璇佹墍鏈夋暟鎹兘瀛樺偍鍦ㄨ嚜宸辩殑<a href="/guide/" target="_blank">NAS</a>涓娿€傛湰鏂囧皢璇︾粏浠嬬粛<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勫姛鑳界壒鎬с€�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>閮ㄧ讲姝ラ浠ュ強鏈€浣冲疄璺碉紝甯姪浣犳惌寤哄睘浜庤嚜宸辩殑绉佹湁浜戠浉鍐屻€�
 
-## 为什么选择<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>
+## 涓轰粈涔堥€夋嫨<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>
 
-在<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>之前，PhotoStation（群晖）、Piwigo、Nextcloud Photos等方案已经存在。但它们要么依赖特定的<a href="/guide/" target="_blank">NAS</a>系统，要么体验与Google Photos相差甚远。<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的出现改变了这个格局。
+鍦�<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>涔嬪墠锛孭hotoStation锛堢兢鏅栵級銆丳iwigo銆丯extcloud Photos绛夋柟妗堝凡缁忓瓨鍦ㄣ€備絾瀹冧滑瑕佷箞渚濊禆鐗瑰畾鐨�<a href="/guide/" target="_blank">NAS</a>绯荤粺锛岃涔堜綋楠屼笌Google Photos鐩稿樊鐢氳繙銆�<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勫嚭鐜版敼鍙樹簡杩欎釜鏍煎眬銆�
 
-首先，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>采用了与Google Photos高度相似的设计语言。底部导航栏、时间轴浏览、缩略图网格、右滑切换——这些交互细节都让人感到无比熟悉。对于从Google Photos迁移过来的用户，学习成本几乎为零。
+棣栧厛锛�<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>閲囩敤浜嗕笌Google Photos楂樺害鐩镐技鐨勮璁¤瑷€銆傚簳閮ㄥ鑸爮銆佹椂闂磋酱娴忚銆佺缉鐣ュ浘缃戞牸銆佸彸婊戝垏鎹⑩€斺€旇繖浜涗氦浜掔粏鑺傞兘璁╀汉鎰熷埌鏃犳瘮鐔熸倝銆傚浜庝粠Google Photos杩佺Щ杩囨潵鐨勭敤鎴凤紝瀛︿範鎴愭湰鍑犱箮涓洪浂銆�
 
-其次，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的核心功能完全免费且开源。你不需要购买群晖昂贵的Drive套件，也不用担心云服务商涨价或服务变更。所有功能都开放给你，可以自建、可以fork、可以私有化部署。
+鍏舵锛�<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勬牳蹇冨姛鑳藉畬鍏ㄥ厤璐逛笖寮€婧愩€備綘涓嶉渶瑕佽喘涔扮兢鏅栨槀璐电殑Drive濂椾欢锛屼篃涓嶇敤鎷呭績浜戞湇鍔″晢娑ㄤ环鎴栨湇鍔″彉鏇淬€傛墍鏈夊姛鑳介兘寮€鏀剧粰浣狅紝鍙互鑷缓銆佸彲浠ork銆佸彲浠ョ鏈夊寲閮ㄧ讲銆�
 
-第三，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的性能非常出色。相比Nextcloud相册的加载缓慢，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的缩略图生成和图片浏览可以用"丝滑"来形容。即使是上万张照片的图库，滑动浏览也几乎感受不到卡顿。这得益于它采用了现代化的技术栈和高效的缩略图缓存策略。
+绗笁锛�<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勬€ц兘闈炲父鍑鸿壊銆傜浉姣擭extcloud鐩稿唽鐨勫姞杞界紦鎱紝<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勭缉鐣ュ浘鐢熸垚鍜屽浘鐗囨祻瑙堝彲浠ョ敤"涓濇粦"鏉ュ舰瀹广€傚嵆浣挎槸涓婁竾寮犵収鐗囩殑鍥惧簱锛屾粦鍔ㄦ祻瑙堜篃鍑犱箮鎰熷彈涓嶅埌鍗￠】銆傝繖寰楃泭浜庡畠閲囩敤浜嗙幇浠ｅ寲鐨勬妧鏈爤鍜岄珮鏁堢殑缂╃暐鍥剧紦瀛樼瓥鐣ャ€�
 
-最后，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的移动端体验同样优秀。官方提供iOS和Android客户端，支持后台自动备份手机相册。即使你同时使用iPhone和Android手机，也可以统一备份到一个<a href="/guide/" target="_blank">NAS</a>账号。
+鏈€鍚庯紝<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勭Щ鍔ㄧ浣撻獙鍚屾牱浼樼銆傚畼鏂规彁渚沬OS鍜孉ndroid瀹㈡埛绔紝鏀寔鍚庡彴鑷姩澶囦唤鎵嬫満鐩稿唽銆傚嵆浣夸綘鍚屾椂浣跨敤iPhone鍜孉ndroid鎵嬫満锛屼篃鍙互缁熶竴澶囦唤鍒颁竴涓�<a href="/guide/" target="_blank">NAS</a>璐﹀彿銆�
 
-## 核心功能一览
+## 鏍稿績鍔熻兘涓€瑙�
 
-<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的功能可以分为以下几个模块：
+<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勫姛鑳藉彲浠ュ垎涓轰互涓嬪嚑涓ā鍧楋細
 
-**照片浏览**：支持按时间轴、设备、相册等多种方式浏览。时间轴模式自动按拍摄日期排列，设备模式可以查看不同手机拍摄的照片，相册模式则支持用户自定义相册和收藏夹。缩略图采用渐进式加载，原图按需下载，节省流量和加载时间。
+**鐓х墖娴忚**锛氭敮鎸佹寜鏃堕棿杞淬€佽澶囥€佺浉鍐岀瓑澶氱鏂瑰紡娴忚銆傛椂闂磋酱妯″紡鑷姩鎸夋媿鎽勬棩鏈熸帓鍒楋紝璁惧妯″紡鍙互鏌ョ湅涓嶅悓鎵嬫満鎷嶆憚鐨勭収鐗囷紝鐩稿唽妯″紡鍒欐敮鎸佺敤鎴疯嚜瀹氫箟鐩稿唽鍜屾敹钘忓す銆傜缉鐣ュ浘閲囩敤娓愯繘寮忓姞杞斤紝鍘熷浘鎸夐渶涓嬭浇锛岃妭鐪佹祦閲忓拰鍔犺浇鏃堕棿銆�
 
-**AI功能**：<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>内置了机器学习引擎，支持人脸识别、物体识别、场景分类和地理地点识别。人脸识别可以自动将同一人物的照片聚合，方便快速找到某人的所有照片；物体识别可以识别照片中的物体、宠物、食物等；地理地点识别则会在地图上标注照片的拍摄位置。
+**AI鍔熻兘**锛�<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鍐呯疆浜嗘満鍣ㄥ涔犲紩鎿庯紝鏀寔浜鸿劯璇嗗埆銆佺墿浣撹瘑鍒€佸満鏅垎绫诲拰鍦扮悊鍦扮偣璇嗗埆銆備汉鑴歌瘑鍒彲浠ヨ嚜鍔ㄥ皢鍚屼竴浜虹墿鐨勭収鐗囪仛鍚堬紝鏂逛究蹇€熸壘鍒版煇浜虹殑鎵€鏈夌収鐗囷紱鐗╀綋璇嗗埆鍙互璇嗗埆鐓х墖涓殑鐗╀綋銆佸疇鐗┿€侀鐗╃瓑锛涘湴鐞嗗湴鐐硅瘑鍒垯浼氬湪鍦板浘涓婃爣娉ㄧ収鐗囩殑鎷嶆憚浣嶇疆銆�
 
-**备份同步**：移动端App支持后台自动备份新拍摄的照片。可以选择仅在WiFi环境下备份，也可以设置仅备份特定相册。备份进度清晰可见，支持断点续传。
+**澶囦唤鍚屾**锛氱Щ鍔ㄧApp鏀寔鍚庡彴鑷姩澶囦唤鏂版媿鎽勭殑鐓х墖銆傚彲浠ラ€夋嫨浠呭湪WiFi鐜涓嬪浠斤紝涔熷彲浠ヨ缃粎澶囦唤鐗瑰畾鐩稿唽銆傚浠借繘搴︽竻鏅板彲瑙侊紝鏀寔鏂偣缁紶銆�
 
-**分享协作**：可以创建公开链接分享照片，也可以邀请家庭成员加入成为"家庭成员"，共享照片库的同时保留各自的隐私空间。分享功能还支持设置密码和过期时间。
+**鍒嗕韩鍗忎綔**锛氬彲浠ュ垱寤哄叕寮€閾炬帴鍒嗕韩鐓х墖锛屼篃鍙互閭€璇峰搴垚鍛樺姞鍏ユ垚涓�"瀹跺涵鎴愬憳"锛屽叡浜収鐗囧簱鐨勫悓鏃朵繚鐣欏悇鑷殑闅愮绌洪棿銆傚垎浜姛鑳借繕鏀寔璁剧疆瀵嗙爜鍜岃繃鏈熸椂闂淬€�
 
-**管理后台**：管理员可以管理用户账户、存储空间、服务器设置等。可以看到每个用户的存储使用量，支持批量操作。
+**绠＄悊鍚庡彴**锛氱鐞嗗憳鍙互绠＄悊鐢ㄦ埛璐︽埛銆佸瓨鍌ㄧ┖闂淬€佹湇鍔″櫒璁剧疆绛夈€傚彲浠ョ湅鍒版瘡涓敤鎴风殑瀛樺偍浣跨敤閲忥紝鏀寔鎵归噺鎿嶄綔銆�
 
-## <a href="/guide/docker-best-practice/" target="_blank">Docker</a>部署详细教程
+## <a href="/guide/docker-best-practice/" target="_blank">Docker</a>閮ㄧ讲璇︾粏鏁欑▼
 
-<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>官方推荐使用<a href="/guide/docker-best-practice/" target="_blank">Docker Compose</a>部署，这是在<a href="/guide/" target="_blank">NAS</a>上运行的最佳方式。以下是完整的部署步骤：
+<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>瀹樻柟鎺ㄨ崘浣跨敤<a href="/guide/docker-best-practice/" target="_blank">Docker Compose</a>閮ㄧ讲锛岃繖鏄湪<a href="/guide/" target="_blank">NAS</a>涓婅繍琛岀殑鏈€浣虫柟寮忋€備互涓嬫槸瀹屾暣鐨勯儴缃叉楠わ細
 
-第一步，创建部署目录。在<a href="/guide/" target="_blank">NAS</a>上创建一个文件夹用于存放<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的配置和数据，例如`/docker/immich`。
+绗竴姝ワ紝鍒涘缓閮ㄧ讲鐩綍銆傚湪<a href="/guide/" target="_blank">NAS</a>涓婂垱寤轰竴涓枃浠跺す鐢ㄤ簬瀛樻斁<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勯厤缃拰鏁版嵁锛屼緥濡俙/docker/immich`銆�
 
-第二步，创建docker-compose.yml文件。内容如下：
+绗簩姝ワ紝鍒涘缓docker-compose.yml鏂囦欢銆傚唴瀹瑰涓嬶細
 
 ```yaml
 version: '3.8'
@@ -112,33 +112,33 @@ volumes:
   model-cache:
 ```
 
-这个配置文件定义了5个服务：主服务器、微服务（负责AI任务）、机器学习（负责人脸识别等）、数据库（PostgreSQL）和Redis缓存。其中机器学习服务对硬件要求较高，如果你的NUC没有GPU，可以跳过这一步，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>仍能正常运行，只是AI功能会受限。
+杩欎釜閰嶇疆鏂囦欢瀹氫箟浜�5涓湇鍔★細涓绘湇鍔″櫒銆佸井鏈嶅姟锛堣礋璐I浠诲姟锛夈€佹満鍣ㄥ涔狅紙璐熻矗浜鸿劯璇嗗埆绛夛級銆佹暟鎹簱锛圥ostgreSQL锛夊拰Redis缂撳瓨銆傚叾涓満鍣ㄥ涔犳湇鍔″纭欢瑕佹眰杈冮珮锛屽鏋滀綘鐨凬UC娌℃湁GPU锛屽彲浠ヨ烦杩囪繖涓€姝ワ紝<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>浠嶈兘姝ｅ父杩愯锛屽彧鏄疉I鍔熻兘浼氬彈闄愩€�
 
-第三步，启动服务。在存放docker-compose.yml的目录执行：
+绗笁姝ワ紝鍚姩鏈嶅姟銆傚湪瀛樻斁docker-compose.yml鐨勭洰褰曟墽琛岋細
 
 ```bash
 docker-compose up -d
 ```
 
-首次启动会拉取镜像并初始化数据库，需要等待3-5分钟。
+棣栨鍚姩浼氭媺鍙栭暅鍍忓苟鍒濆鍖栨暟鎹簱锛岄渶瑕佺瓑寰�3-5鍒嗛挓銆�
 
-第四步，访问<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>。打开浏览器输入`http://NAS-IP:2283`，使用默认管理员账户`admin@immich.app`登录（首次登录后建议立即修改密码）。
+绗洓姝ワ紝璁块棶<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>銆傛墦寮€娴忚鍣ㄨ緭鍏http://NAS-IP:2283`锛屼娇鐢ㄩ粯璁ょ鐞嗗憳璐︽埛`admin@immich.app`鐧诲綍锛堥娆＄櫥褰曞悗寤鸿绔嬪嵆淇敼瀵嗙爜锛夈€�
 
-## 移动端配置与自动备份
+## 绉诲姩绔厤缃笌鑷姩澶囦唤
 
-<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的移动端App可以从GitHub Releases页面下载（iOS需要TestFlight或自签名）。安装完成后，按照以下步骤配置：
+<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨勭Щ鍔ㄧApp鍙互浠嶨itHub Releases椤甸潰涓嬭浇锛坕OS闇€瑕乀estFlight鎴栬嚜绛惧悕锛夈€傚畨瑁呭畬鎴愬悗锛屾寜鐓т互涓嬫楠ら厤缃細
 
-打开App，点击"Login to Server"，输入你的<a href="/guide/" target="_blank">NAS</a>地址（如果启用了HTTPS则输入https://地址），然后使用管理员账户登录。首次登录会要求绑定设备，可以选择设置为管理员账户。
+鎵撳紑App锛岀偣鍑�"Login to Server"锛岃緭鍏ヤ綘鐨�<a href="/guide/" target="_blank">NAS</a>鍦板潃锛堝鏋滃惎鐢ㄤ簡HTTPS鍒欒緭鍏ttps://鍦板潃锛夛紝鐒跺悗浣跨敤绠＄悊鍛樿处鎴风櫥褰曘€傞娆＄櫥褰曚細瑕佹眰缁戝畾璁惧锛屽彲浠ラ€夋嫨璁剧疆涓虹鐞嗗憳璐︽埛銆�
 
-备份设置中，可以开启"Auto Backup"并选择需要备份的相册。建议设置为仅在WiFi环境下备份，避免消耗手机流量。备份目标可以选择上传到管理员账户或创建个人账户供自己使用。
+澶囦唤璁剧疆涓紝鍙互寮€鍚�"Auto Backup"骞堕€夋嫨闇€瑕佸浠界殑鐩稿唽銆傚缓璁缃负浠呭湪WiFi鐜涓嬪浠斤紝閬垮厤娑堣€楁墜鏈烘祦閲忋€傚浠界洰鏍囧彲浠ラ€夋嫨涓婁紶鍒扮鐞嗗憳璐︽埛鎴栧垱寤轰釜浜鸿处鎴蜂緵鑷繁浣跨敤銆�
 
-现在，每次拍摄新照片后，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>会在后台自动同步到你的<a href="/guide/" target="_blank">NAS</a>。你不再需要担心手机存储空间不足，也不用担心照片泄露。
+鐜板湪锛屾瘡娆℃媿鎽勬柊鐓х墖鍚庯紝<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>浼氬湪鍚庡彴鑷姩鍚屾鍒颁綘鐨�<a href="/guide/" target="_blank">NAS</a>銆備綘涓嶅啀闇€瑕佹媴蹇冩墜鏈哄瓨鍌ㄧ┖闂翠笉瓒筹紝涔熶笉鐢ㄦ媴蹇冪収鐗囨硠闇层€�
 
-## AI功能配置与优化
+## AI鍔熻兘閰嶇疆涓庝紭鍖�
 
-<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>的AI功能是其核心竞争力之一。默认配置下，人脸识别、物体识别等服务会自动运行，但你可以通过环境变量进行优化。
+<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鐨凙I鍔熻兘鏄叾鏍稿績绔炰簤鍔涗箣涓€銆傞粯璁ら厤缃笅锛屼汉鑴歌瘑鍒€佺墿浣撹瘑鍒瓑鏈嶅姟浼氳嚜鍔ㄨ繍琛岋紝浣嗕綘鍙互閫氳繃鐜鍙橀噺杩涜浼樺寲銆�
 
-如果你的NUC有NVIDIA显卡（消费级GTX/RTX系列即可），可以启用GPU加速，大幅提升AI处理速度。在docker-compose.yml中添加：
+濡傛灉浣犵殑NUC鏈塏VIDIA鏄惧崱锛堟秷璐圭骇GTX/RTX绯诲垪鍗冲彲锛夛紝鍙互鍚敤GPU鍔犻€燂紝澶у箙鎻愬崌AI澶勭悊閫熷害銆傚湪docker-compose.yml涓坊鍔狅細
 
 ```yaml
 environment:
@@ -152,25 +152,25 @@ deploy:
           capabilities: [gpu]
 ```
 
-对于仅使用CPU的用户，AI处理速度会较慢，首次导入大量照片时可能需要等待数小时。可以调整微服务的并发数来提升效率，但要注意不要把CPU跑满导致<a href="/guide/" target="_blank">NAS</a>其他服务卡顿。
+瀵逛簬浠呬娇鐢–PU鐨勭敤鎴凤紝AI澶勭悊閫熷害浼氳緝鎱紝棣栨瀵煎叆澶ч噺鐓х墖鏃跺彲鑳介渶瑕佺瓑寰呮暟灏忔椂銆傚彲浠ヨ皟鏁村井鏈嶅姟鐨勫苟鍙戞暟鏉ユ彁鍗囨晥鐜囷紝浣嗚娉ㄦ剰涓嶈鎶奀PU璺戞弧瀵艰嚧<a href="/guide/" target="_blank">NAS</a>鍏朵粬鏈嶅姟鍗￠】銆�
 
-## 数据迁移与备份
+## 鏁版嵁杩佺Щ涓庡浠�
 
-如果你之前使用Google Photos，可以通过Google Takeout导出全部照片，然后在<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>中使用"原图导入"功能批量上传。上传完成后，AI识别会自动运行，重新整理照片。
+濡傛灉浣犱箣鍓嶄娇鐢℅oogle Photos锛屽彲浠ラ€氳繃Google Takeout瀵煎嚭鍏ㄩ儴鐓х墖锛岀劧鍚庡湪<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>涓娇鐢�"鍘熷浘瀵煎叆"鍔熻兘鎵归噺涓婁紶銆備笂浼犲畬鎴愬悗锛孉I璇嗗埆浼氳嚜鍔ㄨ繍琛岋紝閲嶆柊鏁寸悊鐓х墖銆�
 
-对于<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>本身的数据备份，推荐使用<a href="/guide/" target="_blank">NAS</a>的Hyper Backup或rsync定期备份`/docker/immich`目录。其中最重要的是`upload`文件夹（存放所有照片原图）和`pgdata`文件夹（存放数据库）。如果<a href="/guide/" target="_blank">NAS</a>系统崩溃，只需将这两个文件夹恢复到新设备，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>就能完全恢复运行。
+瀵逛簬<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鏈韩鐨勬暟鎹浠斤紝鎺ㄨ崘浣跨敤<a href="/guide/" target="_blank">NAS</a>鐨凥yper Backup鎴杛sync瀹氭湡澶囦唤`/docker/immich`鐩綍銆傚叾涓渶閲嶈鐨勬槸`upload`鏂囦欢澶癸紙瀛樻斁鎵€鏈夌収鐗囧師鍥撅級鍜宍pgdata`鏂囦欢澶癸紙瀛樻斁鏁版嵁搴擄級銆傚鏋�<a href="/guide/" target="_blank">NAS</a>绯荤粺宕╂簝锛屽彧闇€灏嗚繖涓や釜鏂囦欢澶规仮澶嶅埌鏂拌澶囷紝<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>灏辫兘瀹屽叏鎭㈠杩愯銆�
 
-## 总结
+## 鎬荤粨
 
-<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>是目前<a href="/guide/" target="_blank">NAS</a>上最接近Google Photos体验的私有照片管理方案。它既有现代化的界面设计，又有强大的AI识别能力，还支持多平台同步和分享。对于注重隐私、不满云相册限制、想要完全掌控自己数据的用户来说，<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>无疑是最值得部署的应用。
+<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鏄洰鍓�<a href="/guide/" target="_blank">NAS</a>涓婃渶鎺ヨ繎Google Photos浣撻獙鐨勭鏈夌収鐗囩鐞嗘柟妗堛€傚畠鏃㈡湁鐜颁唬鍖栫殑鐣岄潰璁捐锛屽張鏈夊己澶х殑AI璇嗗埆鑳藉姏锛岃繕鏀寔澶氬钩鍙板悓姝ュ拰鍒嗕韩銆傚浜庢敞閲嶉殣绉併€佷笉婊′簯鐩稿唽闄愬埗銆佹兂瑕佸畬鍏ㄦ帉鎺ц嚜宸辨暟鎹殑鐢ㄦ埛鏉ヨ锛�<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>鏃犵枒鏄渶鍊煎緱閮ㄧ讲鐨勫簲鐢ㄣ€�
 
 ---
 
-*更多<a href="/guide/" target="_blank">NAS</a>教程请关注 [NAS学院](/guide/)。*
+*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/tailscale-remote-access/" rel="prev">上一页：Tailscale：无需公网IP，实现内网穿透</a>
-  <a href="/guide/home-assistant-nuc/" rel="next">下一页：用NUC跑Home Assistant：打造最强智能家居中枢</a>
+  <a href="/guide/tailscale-remote-access/" rel="prev">涓婁竴椤碉細Tailscale锛氭棤闇€鍏綉IP锛屽疄鐜板唴缃戠┛閫�</a>
+  <a href="/guide/home-assistant-nuc/" rel="next">涓嬩竴椤碉細鐢∟UC璺慔ome Assistant锛氭墦閫犳渶寮烘櫤鑳藉灞呬腑鏋�</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

@@ -1,96 +1,96 @@
 ---
 slug: "home-assistant-nuc"
-title: "用 NUC 跑 Home Assistant：打造最强智能家居中枢"
+title: "鐢� NUC 璺� Home Assistant锛氭墦閫犳渶寮烘櫤鑳藉灞呬腑鏋�"
 date: 2026-02-12
-summary: "接入米家、HomeKit，实现全屋自动化联动。"
+summary: "鎺ュ叆绫冲銆丠omeKit锛屽疄鐜板叏灞嬭嚜鍔ㄥ寲鑱斿姩銆�"
 categories: ["nas"]
 ---
 
-# 用 NUC 跑 Home Assistant：打造最强智能家居中枢
+# 鐢� NUC 璺� Home Assistant锛氭墦閫犳渶寮烘櫤鑳藉灞呬腑鏋�
 
 
-智能家居的概念已经炒作了多年，但真正让用户体验到"智能化"的，并非那些单纯的语音助手或手机遥控，而是能够**自动化运行、无需人工干预**的整体系统。<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>（以下简称HA）正是这样一款开源的智能家居平台，它可以统一管理来自不同品牌的设备——小米米家、苹果HomeKit、Yeelight、涂鸦、MQTT设备——并通过自动化规则将它们串联起来，实现"人走灯灭"、"离家模式"、"温度自动调节"等真正的智能场景。
+鏅鸿兘瀹跺眳鐨勬蹇靛凡缁忕倰浣滀簡澶氬勾锛屼絾鐪熸璁╃敤鎴蜂綋楠屽埌"鏅鸿兘鍖�"鐨勶紝骞堕潪閭ｄ簺鍗曠函鐨勮闊冲姪鎵嬫垨鎵嬫満閬ユ帶锛岃€屾槸鑳藉**鑷姩鍖栬繍琛屻€佹棤闇€浜哄伐骞查**鐨勬暣浣撶郴缁熴€�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>锛堜互涓嬬畝绉癏A锛夋鏄繖鏍蜂竴娆惧紑婧愮殑鏅鸿兘瀹跺眳骞冲彴锛屽畠鍙互缁熶竴绠＄悊鏉ヨ嚜涓嶅悓鍝佺墝鐨勮澶団€斺€斿皬绫崇背瀹躲€佽嫻鏋淗omeKit銆乊eelight銆佹秱楦︺€丮QTT璁惧鈥斺€斿苟閫氳繃鑷姩鍖栬鍒欏皢瀹冧滑涓茶仈璧锋潵锛屽疄鐜�"浜鸿蛋鐏伃"銆�"绂诲妯″紡"銆�"娓╁害鑷姩璋冭妭"绛夌湡姝ｇ殑鏅鸿兘鍦烘櫙銆�
 
-将<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>运行在NUC上，是目前最推荐的部署方案。相比树莓派，NUC的性能更强，可以轻松处理大量设备的实时状态更新和复杂的自动化逻辑；相比<a href="/guide/" target="_blank">NAS</a>上的<a href="/guide/docker-best-practice/" target="_blank">Docker</a>，独立的NUC更加稳定，即使<a href="/guide/" target="_blank">NAS</a>重启也不会影响智能家居的正常运行。本文将详细介绍如何在NUC上部署<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>，并分享从零到有的完整配置过程。
+灏�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>杩愯鍦∟UC涓婏紝鏄洰鍓嶆渶鎺ㄨ崘鐨勯儴缃叉柟妗堛€傜浉姣旀爲鑾撴淳锛孨UC鐨勬€ц兘鏇村己锛屽彲浠ヨ交鏉惧鐞嗗ぇ閲忚澶囩殑瀹炴椂鐘舵€佹洿鏂板拰澶嶆潅鐨勮嚜鍔ㄥ寲閫昏緫锛涚浉姣�<a href="/guide/" target="_blank">NAS</a>涓婄殑<a href="/guide/docker-best-practice/" target="_blank">Docker</a>锛岀嫭绔嬬殑NUC鏇村姞绋冲畾锛屽嵆浣�<a href="/guide/" target="_blank">NAS</a>閲嶅惎涔熶笉浼氬奖鍝嶆櫤鑳藉灞呯殑姝ｅ父杩愯銆傛湰鏂囧皢璇︾粏浠嬬粛濡備綍鍦∟UC涓婇儴缃�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>锛屽苟鍒嗕韩浠庨浂鍒版湁鐨勫畬鏁撮厤缃繃绋嬨€�
 
-## 为什么选择NUC运行<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>
+## 涓轰粈涔堥€夋嫨NUC杩愯<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>
 
-在讨论具体部署之前，我们先来回答一个关键问题：为什么要在NUC上运行<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>，而不是其他方案？
+鍦ㄨ璁哄叿浣撻儴缃蹭箣鍓嶏紝鎴戜滑鍏堟潵鍥炵瓟涓€涓叧閿棶棰橈細涓轰粈涔堣鍦∟UC涓婅繍琛�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>锛岃€屼笉鏄叾浠栨柟妗堬紵
 
-常见的<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>运行方式有三种：树莓派、<a href="/guide/" target="_blank">NAS</a> <a href="/guide/docker-best-practice/" target="_blank">Docker</a>、独立NUC。树莓派是最经济的选择，四五百元就能入手，但受限于SD卡读写速度和ARM架构，当设备数量超过50个时会出现明显卡顿，MQTT转码等操作也会占用大量CPU资源。<a href="/guide/" target="_blank">NAS</a> <a href="/guide/docker-best-practice/" target="_blank">Docker</a>方案胜在节省硬件成本，但需要<a href="/guide/" target="_blank">NAS</a> 24小时开机，而且部分设备驱动（如Zigbee USB适配器）的直通配置较为繁琐。
+甯歌鐨�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>杩愯鏂瑰紡鏈変笁绉嶏細鏍戣帗娲俱€�<a href="/guide/" target="_blank">NAS</a> <a href="/guide/docker-best-practice/" target="_blank">Docker</a>銆佺嫭绔婲UC銆傛爲鑾撴淳鏄渶缁忔祹鐨勯€夋嫨锛屽洓浜旂櫨鍏冨氨鑳藉叆鎵嬶紝浣嗗彈闄愪簬SD鍗¤鍐欓€熷害鍜孉RM鏋舵瀯锛屽綋璁惧鏁伴噺瓒呰繃50涓椂浼氬嚭鐜版槑鏄惧崱椤匡紝MQTT杞爜绛夋搷浣滀篃浼氬崰鐢ㄥぇ閲廋PU璧勬簮銆�<a href="/guide/" target="_blank">NAS</a> <a href="/guide/docker-best-practice/" target="_blank">Docker</a>鏂规鑳滃湪鑺傜渷纭欢鎴愭湰锛屼絾闇€瑕�<a href="/guide/" target="_blank">NAS</a> 24灏忔椂寮€鏈猴紝鑰屼笖閮ㄥ垎璁惧椹卞姩锛堝Zigbee USB閫傞厤鍣級鐨勭洿閫氶厤缃緝涓虹箒鐞愩€�
 
-NUC方案则兼具了性能和便利性。Intel NUC的x86架构性能强劲，SSD存储确保系统响应飞快，硬件级直通可以让USB Zigbee适配器稳定工作，而且NUC体积小巧、功耗低廉，非常适合7×24小时运行。一台千元级的入门NUC（如NUC8或NUC10）就足以支撑上百个智能设备的日常运行。
+NUC鏂规鍒欏吋鍏蜂簡鎬ц兘鍜屼究鍒╂€с€侷ntel NUC鐨剎86鏋舵瀯鎬ц兘寮哄姴锛孲SD瀛樺偍纭繚绯荤粺鍝嶅簲椋炲揩锛岀‖浠剁骇鐩撮€氬彲浠ヨUSB Zigbee閫傞厤鍣ㄧǔ瀹氬伐浣滐紝鑰屼笖NUC浣撶Н灏忓阀銆佸姛鑰椾綆寤夛紝闈炲父閫傚悎7脳24灏忔椂杩愯銆備竴鍙板崈鍏冪骇鐨勫叆闂∟UC锛堝NUC8鎴朜UC10锛夊氨瓒充互鏀拺涓婄櫨涓櫤鑳借澶囩殑鏃ュ父杩愯銆�
 
-## 硬件准备与环境规划
+## 纭欢鍑嗗涓庣幆澧冭鍒�
 
-部署<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>之前，需要准备好以下硬件：
+閮ㄧ讲<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>涔嬪墠锛岄渶瑕佸噯澶囧ソ浠ヤ笅纭欢锛�
 
-一台Intel NUC（建议NUC8以上，酷睿i3或i5处理器，8GB内存，128GB以上SSD）、一个Zigbee USB适配器（推荐小米多模网关或Conbee II，用于连接Zigbee设备）、一个Z-Wave USB适配器（可选，如果需要支持Z-Wave设备）、以及稳定的网络环境（建议有线连接）。
+涓€鍙癐ntel NUC锛堝缓璁甆UC8浠ヤ笂锛岄叿鐫縤3鎴杋5澶勭悊鍣紝8GB鍐呭瓨锛�128GB浠ヤ笂SSD锛夈€佷竴涓猌igbee USB閫傞厤鍣紙鎺ㄨ崘灏忕背澶氭ā缃戝叧鎴朇onbee II锛岀敤浜庤繛鎺igbee璁惧锛夈€佷竴涓猌-Wave USB閫傞厤鍣紙鍙€夛紝濡傛灉闇€瑕佹敮鎸乑-Wave璁惧锛夈€佷互鍙婄ǔ瀹氱殑缃戠粶鐜锛堝缓璁湁绾胯繛鎺ワ級銆�
 
-在系统选择上，官方推荐的Home Assistant OS（HAOS）是最佳方案。这是一个专为HA优化的Linux发行版，预装了所有必要组件，安装配置极其简单。不需要手动安装<a href="/guide/docker-best-practice/" target="_blank">Docker</a>或配置Python环境，官方镜像直接启动即可。
+鍦ㄧ郴缁熼€夋嫨涓婏紝瀹樻柟鎺ㄨ崘鐨凥ome Assistant OS锛圚AOS锛夋槸鏈€浣虫柟妗堛€傝繖鏄竴涓笓涓篐A浼樺寲鐨凩inux鍙戣鐗堬紝棰勮浜嗘墍鏈夊繀瑕佺粍浠讹紝瀹夎閰嶇疆鏋佸叾绠€鍗曘€備笉闇€瑕佹墜鍔ㄥ畨瑁�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鎴栭厤缃甈ython鐜锛屽畼鏂归暅鍍忕洿鎺ュ惎鍔ㄥ嵆鍙€�
 
-如果你的NUC已经在运行TrueNAS或PVE虚拟化平台，也可以通过虚拟机方式安装HAOS，性能和功能完全一致。
+濡傛灉浣犵殑NUC宸茬粡鍦ㄨ繍琛孴rueNAS鎴朠VE铏氭嫙鍖栧钩鍙帮紝涔熷彲浠ラ€氳繃铏氭嫙鏈烘柟寮忓畨瑁匟AOS锛屾€ц兘鍜屽姛鑳藉畬鍏ㄤ竴鑷淬€�
 
-## 安装步骤：从零开始的保姆级教程
+## 瀹夎姝ラ锛氫粠闆跺紑濮嬬殑淇濆绾ф暀绋�
 
-第一步，下载Home Assistant OS镜像。访问官方下载地址，选择适合你硬件架构的镜像文件（x86_64对应Intel/AMD处理器）。下载完成后，使用Rufus或BalenaEtcher将镜像写入U盘。
+绗竴姝ワ紝涓嬭浇Home Assistant OS闀滃儚銆傝闂畼鏂逛笅杞藉湴鍧€锛岄€夋嫨閫傚悎浣犵‖浠舵灦鏋勭殑闀滃儚鏂囦欢锛坸86_64瀵瑰簲Intel/AMD澶勭悊鍣級銆備笅杞藉畬鎴愬悗锛屼娇鐢≧ufus鎴朆alenaEtcher灏嗛暅鍍忓啓鍏鐩樸€�
 
-第二步，设置NUC从U盘启动。开机按F2进入BIOS设置，将启动顺序调整为首先从U盘启动，保存设置后重启。
+绗簩姝ワ紝璁剧疆NUC浠嶶鐩樺惎鍔ㄣ€傚紑鏈烘寜F2杩涘叆BIOS璁剧疆锛屽皢鍚姩椤哄簭璋冩暣涓洪鍏堜粠U鐩樺惎鍔紝淇濆瓨璁剧疆鍚庨噸鍚€�
 
-第三步，等待系统初始化。启动后，HAOS会自动进行初始配置，这个过程大约需要5-10分钟。可以通过连接显示器查看进度，也可以直接尝试访问Web界面。
+绗笁姝ワ紝绛夊緟绯荤粺鍒濆鍖栥€傚惎鍔ㄥ悗锛孒AOS浼氳嚜鍔ㄨ繘琛屽垵濮嬮厤缃紝杩欎釜杩囩▼澶х害闇€瑕�5-10鍒嗛挓銆傚彲浠ラ€氳繃杩炴帴鏄剧ず鍣ㄦ煡鐪嬭繘搴︼紝涔熷彲浠ョ洿鎺ュ皾璇曡闂甒eb鐣岄潰銆�
 
-第四步，配置<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>。系统就绪后，在同一网络的电脑上打开浏览器，输入`http://homeassistant.local:8123`即可访问HA管理界面。如果是首次访问，会进入初始化向导，按照提示设置用户名、时区（选择Asia/Shanghai）、单位制式即可。
+绗洓姝ワ紝閰嶇疆<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>銆傜郴缁熷氨缁悗锛屽湪鍚屼竴缃戠粶鐨勭數鑴戜笂鎵撳紑娴忚鍣紝杈撳叆`http://homeassistant.local:8123`鍗冲彲璁块棶HA绠＄悊鐣岄潰銆傚鏋滄槸棣栨璁块棶锛屼細杩涘叆鍒濆鍖栧悜瀵硷紝鎸夌収鎻愮ず璁剧疆鐢ㄦ埛鍚嶃€佹椂鍖猴紙閫夋嫨Asia/Shanghai锛夈€佸崟浣嶅埗寮忓嵆鍙€�
 
-整个安装过程非常顺畅，即使是完全没有Linux基础的用户也能独立完成。
+鏁翠釜瀹夎杩囩▼闈炲父椤虹晠锛屽嵆浣挎槸瀹屽叏娌℃湁Linux鍩虹鐨勭敤鎴蜂篃鑳界嫭绔嬪畬鎴愩€�
 
-## 接入米家设备：打破生态壁垒
+## 鎺ュ叆绫冲璁惧锛氭墦鐮寸敓鎬佸鍨�
 
-<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>最大的魅力在于可以打通不同品牌的智能设备。对于国内用户来说，最常见的需求是接入米家设备。目前主流的接入方式有两种：米家集成和HA集成。
+<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>鏈€澶х殑榄呭姏鍦ㄤ簬鍙互鎵撻€氫笉鍚屽搧鐗岀殑鏅鸿兘璁惧銆傚浜庡浗鍐呯敤鎴锋潵璇达紝鏈€甯歌鐨勯渶姹傛槸鎺ュ叆绫冲璁惧銆傜洰鍓嶄富娴佺殑鎺ュ叆鏂瑰紡鏈変袱绉嶏細绫冲闆嗘垚鍜孒A闆嗘垚銆�
 
-米家集成是官方提供的方案，通过小米云API获取设备状态。配置方法如下：进入Configuration页面，选择Devices & Services，点击Add Integration，搜索"Xiaomi"，选择Mi Home并登录小米账号。登录成功后，所有绑定在该账号下的米家设备会自动出现在HA中。
+绫冲闆嗘垚鏄畼鏂规彁渚涚殑鏂规锛岄€氳繃灏忕背浜慉PI鑾峰彇璁惧鐘舵€併€傞厤缃柟娉曞涓嬶細杩涘叆Configuration椤甸潰锛岄€夋嫨Devices & Services锛岀偣鍑籄dd Integration锛屾悳绱�"Xiaomi"锛岄€夋嫨Mi Home骞剁櫥褰曞皬绫宠处鍙枫€傜櫥褰曟垚鍔熷悗锛屾墍鏈夌粦瀹氬湪璇ヨ处鍙蜂笅鐨勭背瀹惰澶囦細鑷姩鍑虹幇鍦℉A涓€�
 
-不过，米家集成有个局限性——它只能读取设备状态，无法直接控制（某些设备支持双向交互，但延迟较高）。对于需要实时控制的场景，推荐使用HACS（Home Assistant Community Store）中的Xiaomi Gateway 3集成。这个第三方插件支持本地局域网控制，响应速度更快，而且可以开启Telnet功能解锁更多高级特性。
+涓嶈繃锛岀背瀹堕泦鎴愭湁涓眬闄愭€р€斺€斿畠鍙兘璇诲彇璁惧鐘舵€侊紝鏃犳硶鐩存帴鎺у埗锛堟煇浜涜澶囨敮鎸佸弻鍚戜氦浜掞紝浣嗗欢杩熻緝楂橈級銆傚浜庨渶瑕佸疄鏃舵帶鍒剁殑鍦烘櫙锛屾帹鑽愪娇鐢℉ACS锛圚ome Assistant Community Store锛変腑鐨刋iaomi Gateway 3闆嗘垚銆傝繖涓涓夋柟鎻掍欢鏀寔鏈湴灞€鍩熺綉鎺у埗锛屽搷搴旈€熷害鏇村揩锛岃€屼笖鍙互寮€鍚疶elnet鍔熻兘瑙ｉ攣鏇村楂樼骇鐗规€с€�
 
-另一种方案是使用Zigbee适配器直接接入米家Zigbee设备（如Aqara传感器、空调伴侣等）。这样做的好处是即使WiFi中断，Zigbee设备仍能正常工作，而且所有通信都在本地完成，隐私性更好。
+鍙︿竴绉嶆柟妗堟槸浣跨敤Zigbee閫傞厤鍣ㄧ洿鎺ユ帴鍏ョ背瀹禯igbee璁惧锛堝Aqara浼犳劅鍣ㄣ€佺┖璋冧即渚ｇ瓑锛夈€傝繖鏍峰仛鐨勫ソ澶勬槸鍗充娇WiFi涓柇锛孼igbee璁惧浠嶈兘姝ｅ父宸ヤ綔锛岃€屼笖鎵€鏈夐€氫俊閮藉湪鏈湴瀹屾垚锛岄殣绉佹€ф洿濂姐€�
 
-## 自动化配置：让家真的"智能"起来
+## 鑷姩鍖栭厤缃細璁╁鐪熺殑"鏅鸿兘"璧锋潵
 
-设备接入只是第一步，真正的价值在于自动化。以下是几个实用的自动化场景示例：
+璁惧鎺ュ叆鍙槸绗竴姝ワ紝鐪熸鐨勪环鍊煎湪浜庤嚜鍔ㄥ寲銆備互涓嬫槸鍑犱釜瀹炵敤鐨勮嚜鍔ㄥ寲鍦烘櫙绀轰緥锛�
 
-**离家模式**：创建一个人体传感器检测到无人状态后延迟5分钟执行的自动化，触发条件是所有人体传感器均未检测到移动。执行动作包括关闭所有灯光、调低空调温度、开启安防摄像头。这个场景特别适合上班族，白天家里没人时自动节能。
+**绂诲妯″紡**锛氬垱寤轰竴涓汉浣撲紶鎰熷櫒妫€娴嬪埌鏃犱汉鐘舵€佸悗寤惰繜5鍒嗛挓鎵ц鐨勮嚜鍔ㄥ寲锛岃Е鍙戞潯浠舵槸鎵€鏈変汉浣撲紶鎰熷櫒鍧囨湭妫€娴嬪埌绉诲姩銆傛墽琛屽姩浣滃寘鎷叧闂墍鏈夌伅鍏夈€佽皟浣庣┖璋冩俯搴︺€佸紑鍚畨闃叉憚鍍忓ご銆傝繖涓満鏅壒鍒€傚悎涓婄彮鏃忥紝鐧藉ぉ瀹堕噷娌′汉鏃惰嚜鍔ㄨ妭鑳姐€�
 
-**回家欢迎**：检测到家人手机连接到家庭WiFi时，自动打开客厅灯光、启动空气净化器、播放轻音乐。配合iPhone的"快捷指令"或HA的设备追踪功能，可以实现无感知的自动触发。
+**鍥炲娆㈣繋**锛氭娴嬪埌瀹朵汉鎵嬫満杩炴帴鍒板搴璚iFi鏃讹紝鑷姩鎵撳紑瀹㈠巺鐏厜銆佸惎鍔ㄧ┖姘斿噣鍖栧櫒銆佹挱鏀捐交闊充箰銆傞厤鍚坕Phone鐨�"蹇嵎鎸囦护"鎴朒A鐨勮澶囪拷韪姛鑳斤紝鍙互瀹炵幇鏃犳劅鐭ョ殑鑷姩瑙﹀彂銆�
 
-**温湿度联动**：当室内温度超过28°C时自动开启空调，温度低于22°C时关闭；湿度高于70%时开启除湿机。这些自动化可以让你完全"忘记"空调遥控器的存在。
+**娓╂箍搴﹁仈鍔�**锛氬綋瀹ゅ唴娓╁害瓒呰繃28掳C鏃惰嚜鍔ㄥ紑鍚┖璋冿紝娓╁害浣庝簬22掳C鏃跺叧闂紱婀垮害楂樹簬70%鏃跺紑鍚櫎婀挎満銆傝繖浜涜嚜鍔ㄥ寲鍙互璁╀綘瀹屽叏"蹇樿"绌鸿皟閬ユ帶鍣ㄧ殑瀛樺湪銆�
 
-**晨起场景**：工作日早上7点，卧室灯光缓慢亮起（模拟日出），窗帘自动拉开，咖啡机开始制作咖啡。配合睡眠追踪设备，还可以根据睡眠周期在最合适的时刻唤醒你。
+**鏅ㄨ捣鍦烘櫙**锛氬伐浣滄棩鏃╀笂7鐐癸紝鍗у鐏厜缂撴參浜捣锛堟ā鎷熸棩鍑猴級锛岀獥甯樿嚜鍔ㄦ媺寮€锛屽挅鍟℃満寮€濮嬪埗浣滃挅鍟°€傞厤鍚堢潯鐪犺拷韪澶囷紝杩樺彲浠ユ牴鎹潯鐪犲懆鏈熷湪鏈€鍚堥€傜殑鏃跺埢鍞ら啋浣犮€�
 
-自动化是<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>的精髓所在。刚开始可以设置简单的规则，随着对系统的熟悉，再逐步添加复杂的条件判断和多设备联动。
+鑷姩鍖栨槸<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>鐨勭簿楂撴墍鍦ㄣ€傚垰寮€濮嬪彲浠ヨ缃畝鍗曠殑瑙勫垯锛岄殢鐫€瀵圭郴缁熺殑鐔熸倝锛屽啀閫愭娣诲姞澶嶆潅鐨勬潯浠跺垽鏂拰澶氳澶囪仈鍔ㄣ€�
 
-## 与HomeKit联动：一个都不能少
+## 涓嶩omeKit鑱斿姩锛氫竴涓兘涓嶈兘灏�
 
-对于苹果用户来说，HomeKit是另一块割舍不下的生态。<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>提供了HomeKit Controller集成，可以将HA中已接入的设备双向同步到苹果Home应用。
+瀵逛簬鑻规灉鐢ㄦ埛鏉ヨ锛孒omeKit鏄彟涓€鍧楀壊鑸嶄笉涓嬬殑鐢熸€併€�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>鎻愪緵浜咹omeKit Controller闆嗘垚锛屽彲浠ュ皢HA涓凡鎺ュ叆鐨勮澶囧弻鍚戝悓姝ュ埌鑻规灉Home搴旂敤銆�
 
-配置方法很简单：在HACS中安装HomeKit Controller插件，然后在Configuration > Devices & Services中添加HomeKit Controller，选择需要同步的设备即可。同步后，你可以在iPhone的Home应用或Siri中控制这些设备，同时也能享受HomeKit原生的自动化和场景功能。
+閰嶇疆鏂规硶寰堢畝鍗曪細鍦℉ACS涓畨瑁匟omeKit Controller鎻掍欢锛岀劧鍚庡湪Configuration > Devices & Services涓坊鍔燞omeKit Controller锛岄€夋嫨闇€瑕佸悓姝ョ殑璁惧鍗冲彲銆傚悓姝ュ悗锛屼綘鍙互鍦╥Phone鐨凥ome搴旂敤鎴朣iri涓帶鍒惰繖浜涜澶囷紝鍚屾椂涔熻兘浜彈HomeKit鍘熺敓鐨勮嚜鍔ㄥ寲鍜屽満鏅姛鑳姐€�
 
-这样一来，你可以在<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>中统一管理米家、Yeelight、涂鸦等非苹果生态的设备，同时通过HomeKit无缝控制，兼顾了生态丰富度和使用体验。
+杩欐牱涓€鏉ワ紝浣犲彲浠ュ湪<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>涓粺涓€绠＄悊绫冲銆乊eelight銆佹秱楦︾瓑闈炶嫻鏋滅敓鎬佺殑璁惧锛屽悓鏃堕€氳繃HomeKit鏃犵紳鎺у埗锛屽吋椤句簡鐢熸€佷赴瀵屽害鍜屼娇鐢ㄤ綋楠屻€�
 
-## 进阶配置：仪表板与能源监控
+## 杩涢樁閰嶇疆锛氫华琛ㄦ澘涓庤兘婧愮洃鎺�
 
-<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a> 2024版本引入了强大的仪表板（Dashboards）功能，可以通过拖拽组件自定义个性化的控制界面。你可以创建"客厅"面板，放置灯光、空调、窗帘的开关和滑块；创建"安防"面板，显示摄像头画面、门窗传感器状态；创建"能源"面板，统计每日每月的用电量。
+<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a> 2024鐗堟湰寮曞叆浜嗗己澶х殑浠〃鏉匡紙Dashboards锛夊姛鑳斤紝鍙互閫氳繃鎷栨嫿缁勪欢鑷畾涔変釜鎬у寲鐨勬帶鍒剁晫闈€€備綘鍙互鍒涘缓"瀹㈠巺"闈㈡澘锛屾斁缃伅鍏夈€佺┖璋冦€佺獥甯樼殑寮€鍏冲拰婊戝潡锛涘垱寤�"瀹夐槻"闈㈡澘锛屾樉绀烘憚鍍忓ご鐢婚潰銆侀棬绐椾紶鎰熷櫒鐘舵€侊紱鍒涘缓"鑳芥簮"闈㈡澘锛岀粺璁℃瘡鏃ユ瘡鏈堢殑鐢ㄧ數閲忋€�
 
-对于有太阳能发电或储能系统的用户，<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>的能源仪表板可以实时展示发电量、用电量和电池状态，帮助你优化用电策略，实现真正的绿色生活。
+瀵逛簬鏈夊お闃宠兘鍙戠數鎴栧偍鑳界郴缁熺殑鐢ㄦ埛锛�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>鐨勮兘婧愪华琛ㄦ澘鍙互瀹炴椂灞曠ず鍙戠數閲忋€佺敤鐢甸噺鍜岀數姹犵姸鎬侊紝甯姪浣犱紭鍖栫敤鐢电瓥鐣ワ紝瀹炵幇鐪熸鐨勭豢鑹茬敓娲汇€�
 
-## 总结
+## 鎬荤粨
 
-用NUC运行<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>，打造全屋智能的最优解之一。它既有足够的性能支撑复杂自动化，又有本地化运行的稳定性和隐私保护。从米家到HomeKit，从灯光到暖通，从安防到能源，<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>像一个"超级大脑"，将所有智能设备有机整合，让你的家真正开始"思考"。
+鐢∟UC杩愯<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>锛屾墦閫犲叏灞嬫櫤鑳界殑鏈€浼樿В涔嬩竴銆傚畠鏃㈡湁瓒冲鐨勬€ц兘鏀拺澶嶆潅鑷姩鍖栵紝鍙堟湁鏈湴鍖栬繍琛岀殑绋冲畾鎬у拰闅愮淇濇姢銆備粠绫冲鍒癏omeKit锛屼粠鐏厜鍒版殩閫氾紝浠庡畨闃插埌鑳芥簮锛�<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>鍍忎竴涓�"瓒呯骇澶ц剳"锛屽皢鎵€鏈夋櫤鑳借澶囨湁鏈烘暣鍚堬紝璁╀綘鐨勫鐪熸寮€濮�"鎬濊€�"銆�
 
 ---
 
-*更多<a href="/guide/" target="_blank">NAS</a>教程请关注 [NAS学院](/guide/)。*
+*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/immich-photo-cloud/" rel="prev">上一页：Immich：替代Google Photos的私有照片方案</a>
+  <a href="/guide/immich-photo-cloud/" rel="prev">涓婁竴椤碉細Immich锛氭浛浠oogle Photos鐨勭鏈夌収鐗囨柟妗�</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

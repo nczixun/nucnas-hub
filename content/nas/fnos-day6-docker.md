@@ -1,36 +1,36 @@
 ---
-title: "Day 6: 飞牛OS Docker入门 —— 打造万能NAS"
+title: "Day 6: 椋炵墰OS Docker鍏ラ棬 鈥斺€� 鎵撻€犱竾鑳絅AS"
 date: 2026-03-12
-summary: "学习Docker基础，在飞牛OS上部署各种应用。"
+summary: "瀛︿範Docker鍩虹锛屽湪椋炵墰OS涓婇儴缃插悇绉嶅簲鐢ㄣ€�"
 categories: ["nas"]
 slug: "fnos-day6-docker"
-tags: ["飞牛OS", "Docker", "容器", "应用"]
+tags: ["椋炵墰OS", "Docker", "瀹瑰櫒", "搴旂敤"]
 ---
 
-# Day 6: 飞牛OS Docker入门
+# Day 6: 椋炵墰OS Docker鍏ラ棬
 
 
-## 什么是<a href="/guide/docker-best-practice/" target="_blank">Docker</a>？
+## 浠€涔堟槸<a href="/guide/docker-best-practice/" target="_blank">Docker</a>锛�
 
-<a href="/guide/docker-best-practice/" target="_blank">Docker</a>是一个容器平台，让应用在任何环境都能运行。
+<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鏄竴涓鍣ㄥ钩鍙帮紝璁╁簲鐢ㄥ湪浠讳綍鐜閮借兘杩愯銆�
 
-## 为什么用<a href="/guide/docker-best-practice/" target="_blank">Docker</a>？
+## 涓轰粈涔堢敤<a href="/guide/docker-best-practice/" target="_blank">Docker</a>锛�
 
-- ?? 一次配置，到处运行
-- ?? 轻松更新
-- ?? 干净卸载
-- ?? 生态丰富
+- ?? 涓€娆￠厤缃紝鍒板杩愯
+- ?? 杞绘澗鏇存柊
+- ?? 骞插噣鍗歌浇
+- ?? 鐢熸€佷赴瀵�
 
-## 安装<a href="/guide/docker-best-practice/" target="_blank">Docker</a>
+## 瀹夎<a href="/guide/docker-best-practice/" target="_blank">Docker</a>
 
-飞牛OS Web界面直接支持：
+椋炵墰OS Web鐣岄潰鐩存帴鏀寔锛�
 ```
-应用中心 → Docker → 安装
+搴旂敤涓績 鈫� Docker 鈫� 瀹夎
 ```
 
-## 常用<a href="/guide/docker-best-practice/" target="_blank">Docker</a>应用
+## 甯哥敤<a href="/guide/docker-best-practice/" target="_blank">Docker</a>搴旂敤
 
-### 1. 部署QBittorrent
+### 1. 閮ㄧ讲QBittorrent
 
 ```yaml
 version: '3'
@@ -51,7 +51,7 @@ services:
     restart: unless-stopped
 ```
 
-### 2. 部署 <a href="/guide/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> 媒体服务器
+### 2. 閮ㄧ讲 <a href="/guide/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> 濯掍綋鏈嶅姟鍣�
 
 ```yaml
 services:
@@ -63,8 +63,8 @@ services:
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day5-remote/" rel="prev">上一页：Day 5：飞牛OS远程访问</a>
-  <a href="/guide/fnos-day7-backup/" rel="next">下一页：Day 7：飞牛OS数据备份</a>
+  <a href="/guide/fnos-day5-remote/" rel="prev">涓婁竴椤碉細Day 5锛氶鐗汷S杩滅▼璁块棶</a>
+  <a href="/guide/fnos-day7-backup/" rel="next">涓嬩竴椤碉細Day 7锛氶鐗汷S鏁版嵁澶囦唤</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

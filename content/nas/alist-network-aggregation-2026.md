@@ -1,10 +1,10 @@
 ---
-title: "Alist网盘聚合神器：一键挂载20+网盘"
+title: "Alist缃戠洏鑱氬悎绁炲櫒锛氫竴閿寕杞�20+缃戠洏"
 date: 2026-03-05
 draft: false
-description: "Alist是一款开源的网盘聚合程序，支持20+主流网盘，一个入口统一管理所有文件"
-tags: ["Alist", "网盘", "聚合", "NAS", "Docker", "开源"]
-categories: ["NAS软件"]
+description: "Alist鏄竴娆惧紑婧愮殑缃戠洏鑱氬悎绋嬪簭锛屾敮鎸�20+涓绘祦缃戠洏锛屼竴涓叆鍙ｇ粺涓€绠＄悊鎵€鏈夋枃浠�"
+tags: ["Alist", "缃戠洏", "鑱氬悎", "NAS", "Docker", "寮€婧�"]
+categories: ["NAS杞欢"]
 featured_image: ""
 sticky: false
 unversioned: false
@@ -12,91 +12,91 @@ author: "NUCNAS"
 slug: "alist-network-aggregation-2026"
 ---
 
-# Alist网盘聚合神器：一键挂载20+网盘
+# Alist缃戠洏鑱氬悎绁炲櫒锛氫竴閿寕杞�20+缃戠洏
 
 
-## 前言
+## 鍓嶈█
 
-你是否有过这样的困扰？
+浣犳槸鍚︽湁杩囪繖鏍风殑鍥版壈锛�
 
-- ?? 网盘太多，文件分散在各个平台
-- ?? 每次找文件要在不同APP之间切换
-- ?? 开通了多个会员却只用其中一个
-- ?? 想把文件从一个网盘转到另一个却找不到简便方法
+- ?? 缃戠洏澶锛屾枃浠跺垎鏁ｅ湪鍚勪釜骞冲彴
+- ?? 姣忔鎵炬枃浠惰鍦ㄤ笉鍚孉PP涔嬮棿鍒囨崲
+- ?? 寮€閫氫簡澶氫釜浼氬憳鍗村彧鐢ㄥ叾涓竴涓�
+- ?? 鎯虫妸鏂囦欢浠庝竴涓綉鐩樿浆鍒板彟涓€涓嵈鎵句笉鍒扮畝渚挎柟娉�
 
-**<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>** 正是为解决这些问题而生的神器！
+**<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>** 姝ｆ槸涓鸿В鍐宠繖浜涢棶棰樿€岀敓鐨勭鍣紒
 
 ---
 
-## 一、<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>是什么？
+## 涓€銆�<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>鏄粈涔堬紵
 
-**<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>** 是一款开源的网盘聚合程序，由国内开发者开源维护。它的核心功能是：
+**<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>** 鏄竴娆惧紑婧愮殑缃戠洏鑱氬悎绋嬪簭锛岀敱鍥藉唴寮€鍙戣€呭紑婧愮淮鎶ゃ€傚畠鐨勬牳蹇冨姛鑳芥槸锛�
 
-> **一个入口，统一管理所有网盘**
+> **涓€涓叆鍙ｏ紝缁熶竴绠＄悊鎵€鏈夌綉鐩�**
 
-### 支持的网盘（部分）
+### 鏀寔鐨勭綉鐩橈紙閮ㄥ垎锛�
 
-| 网盘类型 | 支持情况 |
+| 缃戠洏绫诲瀷 | 鏀寔鎯呭喌 |
 |---------|---------|
-| 阿里云盘 | ? 完全支持 |
-| 百度网盘 | ? 完全支持 |
-| OneDrive | ? 完全支持 |
-| Google Drive | ? 完全支持 |
-| Dropbox | ? 完全支持 |
-| 天翼云 | ? 完全支持 |
-| 夸克网盘 | ? 完全支持 |
-| 115网盘 | ? 完全支持 |
-| 蓝光云盘 | ? 完全支持 |
-| 阿里云盘国际版 | ? 完全支持 |
+| 闃块噷浜戠洏 | ? 瀹屽叏鏀寔 |
+| 鐧惧害缃戠洏 | ? 瀹屽叏鏀寔 |
+| OneDrive | ? 瀹屽叏鏀寔 |
+| Google Drive | ? 瀹屽叏鏀寔 |
+| Dropbox | ? 瀹屽叏鏀寔 |
+| 澶╃考浜� | ? 瀹屽叏鏀寔 |
+| 澶稿厠缃戠洏 | ? 瀹屽叏鏀寔 |
+| 115缃戠洏 | ? 瀹屽叏鏀寔 |
+| 钃濆厜浜戠洏 | ? 瀹屽叏鏀寔 |
+| 闃块噷浜戠洏鍥介檯鐗� | ? 瀹屽叏鏀寔 |
 | ... | ... |
 
-**累计支持20+主流网盘**，基本覆盖了国内用户常用的所有网盘服务。
+**绱鏀寔20+涓绘祦缃戠洏**锛屽熀鏈鐩栦簡鍥藉唴鐢ㄦ埛甯哥敤鐨勬墍鏈夌綉鐩樻湇鍔°€�
 
 ---
 
-## 二、为什么用<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>？
+## 浜屻€佷负浠€涔堢敤<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>锛�
 
-### 2.1 统一管理
+### 2.1 缁熶竴绠＄悊
 
-只需要记住一个地址，就能访问所有网盘的文件。不再需要在各个APP之间来回切换。
+鍙渶瑕佽浣忎竴涓湴鍧€锛屽氨鑳借闂墍鏈夌綉鐩樼殑鏂囦欢銆備笉鍐嶉渶瑕佸湪鍚勪釜APP涔嬮棿鏉ュ洖鍒囨崲銆�
 
-### 2.2 突破限速
+### 2.2 绐佺牬闄愰€�
 
-通过<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>访问网盘，可以一定程度绕过部分网盘的限速机制（尤其是阿里云盘、百度网盘等）。
+閫氳繃<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>璁块棶缃戠洏锛屽彲浠ヤ竴瀹氱▼搴︾粫杩囬儴鍒嗙綉鐩樼殑闄愰€熸満鍒讹紙灏ゅ叾鏄樋閲屼簯鐩樸€佺櫨搴︾綉鐩樼瓑锛夈€�
 
-### 2.3 跨网盘复制
+### 2.3 璺ㄧ綉鐩樺鍒�
 
-支持网盘之间的文件互传，比如从百度网盘转到阿里云盘，一键搞定！
+鏀寔缃戠洏涔嬮棿鐨勬枃浠朵簰浼狅紝姣斿浠庣櫨搴︾綉鐩樿浆鍒伴樋閲屼簯鐩橈紝涓€閿悶瀹氾紒
 
-### 2.4 多种访问方式
+### 2.4 澶氱璁块棶鏂瑰紡
 
-- ?? Web网页版
-- ?? iOS/Android客户端
-- ?? Windows/Mac/Linux客户端
-- ?? <a href="/guide/alist-network-aggregation-2026/" target="_blank">WebDAV</a>协议
-- ?? 直接挂载为本地磁盘
+- ?? Web缃戦〉鐗�
+- ?? iOS/Android瀹㈡埛绔�
+- ?? Windows/Mac/Linux瀹㈡埛绔�
+- ?? <a href="/guide/alist-network-aggregation-2026/" target="_blank">WebDAV</a>鍗忚
+- ?? 鐩存帴鎸傝浇涓烘湰鍦扮鐩�
 
-### 2.5 免费开源
+### 2.5 鍏嶈垂寮€婧�
 
-完全免费开源，你可以自己部署，也可以使用官方提供的公共版本。
+瀹屽叏鍏嶈垂寮€婧愶紝浣犲彲浠ヨ嚜宸遍儴缃诧紝涔熷彲浠ヤ娇鐢ㄥ畼鏂规彁渚涚殑鍏叡鐗堟湰銆�
 
 ---
 
-## 三、本地部署教程
+## 涓夈€佹湰鍦伴儴缃叉暀绋�
 
-### 3.1 环境要求
+### 3.1 鐜瑕佹眰
 
-- <a href="/guide/" target="_blank">NAS</a>设备（群晖、威联通、绿联、极空间等）
-- 或者任何支持<a href="/guide/docker-best-practice/" target="_blank">Docker</a>的Linux服务器
-- 小主机/NUC也可以完美运行
+- <a href="/guide/" target="_blank">NAS</a>璁惧锛堢兢鏅栥€佸▉鑱旈€氥€佺豢鑱斻€佹瀬绌洪棿绛夛級
+- 鎴栬€呬换浣曟敮鎸�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鐨凩inux鏈嶅姟鍣�
+- 灏忎富鏈�/NUC涔熷彲浠ュ畬缇庤繍琛�
 
-### 3.2 <a href="/guide/docker-best-practice/" target="_blank">Docker</a>安装（推荐）
+### 3.2 <a href="/guide/docker-best-practice/" target="_blank">Docker</a>瀹夎锛堟帹鑽愶級
 
 ```bash
-# 创建配置文件目录
+# 鍒涘缓閰嶇疆鏂囦欢鐩綍
 mkdir -p /opt/alist/data
 
-# 启动容器
+# 鍚姩瀹瑰櫒
 docker run -d \
   --restart=always \
   -v /opt/alist/data:/opt/alist/data \
@@ -105,74 +105,74 @@ docker run -d \
   alistv3/alist:latest
 ```
 
-### 3.3 初始化配置
+### 3.3 鍒濆鍖栭厤缃�
 
-1. 浏览器访问 `http://你的IP:5244`
-2. 默认管理员账号：`admin`
-3. 默认密码：`alist`
-4. **首次登录后务必修改密码！**
+1. 娴忚鍣ㄨ闂� `http://浣犵殑IP:5244`
+2. 榛樿绠＄悊鍛樿处鍙凤細`admin`
+3. 榛樿瀵嗙爜锛歚alist`
+4. **棣栨鐧诲綍鍚庡姟蹇呬慨鏀瑰瘑鐮侊紒**
 
-### 3.4 添加网盘
+### 3.4 娣诲姞缃戠洏
 
-1. 登录管理后台
-2. 点击「存储」→ 「添加」
-3. 选择你要添加的网盘类型
-4. 根据提示填写对应的Token/Refresh Token
-5. 保存即可
+1. 鐧诲綍绠＄悊鍚庡彴
+2. 鐐瑰嚮銆屽瓨鍌ㄣ€嶁啋 銆屾坊鍔犮€�
+3. 閫夋嫨浣犺娣诲姞鐨勭綉鐩樼被鍨�
+4. 鏍规嵁鎻愮ず濉啓瀵瑰簲鐨凾oken/Refresh Token
+5. 淇濆瓨鍗冲彲
 
-> **提示**：不同网盘的获取Token方式不同，建议查阅<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>官方文档获取最新教程。
-
----
-
-## 四、常用场景
-
-### 4.1 作为私人影库
-
-将多个网盘的影视资源聚合到一个页面，配合<a href="/guide/" target="_blank">Jellyfin</a>/Emby打造私人影院。
-
-### 4.2 文件统一搜索引擎
-
-所有网盘文件统一索引，支持搜索查找。
-
-### 4.3 跨网盘资源整理
-
-将散落在各个网盘的资源整理到一处，甚至可以跨网盘整理。
-
-### 4.4 分享文件
-
-生成分享链接，可以直接分享网盘文件给他人（需挂载可写入的存储）。
+> **鎻愮ず**锛氫笉鍚岀綉鐩樼殑鑾峰彇Token鏂瑰紡涓嶅悓锛屽缓璁煡闃�<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>瀹樻柟鏂囨。鑾峰彇鏈€鏂版暀绋嬨€�
 
 ---
 
-## 五、常见问题
+## 鍥涖€佸父鐢ㄥ満鏅�
 
-### Q1: <a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>安全吗？
-A：<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>本身是开源的，代码可查。部署在本地<a href="/guide/" target="_blank">NAS</a>上，所有数据都在自己手里，非常安全。
+### 4.1 浣滀负绉佷汉褰卞簱
 
-### Q2: 会封号吗？
-A：<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>只是调用网盘的官方API，理论上存在风控风险。建议使用小号或者非主力号进行操作。
+灏嗗涓綉鐩樼殑褰辫璧勬簮鑱氬悎鍒颁竴涓〉闈紝閰嶅悎<a href="/guide/" target="_blank">Jellyfin</a>/Emby鎵撻€犵浜哄奖闄€€�
 
-### Q3: 速度怎么样？
-A：速度取决于你的网络环境和网盘的官方限速，<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>本身不提供加速服务。
+### 4.2 鏂囦欢缁熶竴鎼滅储寮曟搸
 
-### Q4: 手机上怎么用？
-A：iOS和Android都有官方客户端，可以直接在应用商店搜索「Alist」下载。
+鎵€鏈夌綉鐩樻枃浠剁粺涓€绱㈠紩锛屾敮鎸佹悳绱㈡煡鎵俱€�
 
----
+### 4.3 璺ㄧ綉鐩樿祫婧愭暣鐞�
 
-## 六、总结
+灏嗘暎钀藉湪鍚勪釜缃戠洏鐨勮祫婧愭暣鐞嗗埌涓€澶勶紝鐢氳嚦鍙互璺ㄧ綉鐩樻暣鐞嗐€�
 
-<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>是每个<a href="/guide/" target="_blank">NAS</a>用户都应该安装的神器。它让分散的文件变得井井有条，让多网盘用户彻底解脱。
+### 4.4 鍒嗕韩鏂囦欢
 
-**一句话总结**：一个入口，管理所有网盘！
+鐢熸垚鍒嗕韩閾炬帴锛屽彲浠ョ洿鎺ュ垎浜綉鐩樻枃浠剁粰浠栦汉锛堥渶鎸傝浇鍙啓鍏ョ殑瀛樺偍锛夈€�
 
 ---
 
-*更多<a href="/guide/" target="_blank">NAS</a>教程请关注 [NAS学院](/guide/)。*
+## 浜斻€佸父瑙侀棶棰�
+
+### Q1: <a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>瀹夊叏鍚楋紵
+A锛�<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>鏈韩鏄紑婧愮殑锛屼唬鐮佸彲鏌ャ€傞儴缃插湪鏈湴<a href="/guide/" target="_blank">NAS</a>涓婏紝鎵€鏈夋暟鎹兘鍦ㄨ嚜宸辨墜閲岋紝闈炲父瀹夊叏銆�
+
+### Q2: 浼氬皝鍙峰悧锛�
+A锛�<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>鍙槸璋冪敤缃戠洏鐨勫畼鏂笰PI锛岀悊璁轰笂瀛樺湪椋庢帶椋庨櫓銆傚缓璁娇鐢ㄥ皬鍙锋垨鑰呴潪涓诲姏鍙疯繘琛屾搷浣溿€�
+
+### Q3: 閫熷害鎬庝箞鏍凤紵
+A锛氶€熷害鍙栧喅浜庝綘鐨勭綉缁滅幆澧冨拰缃戠洏鐨勫畼鏂归檺閫燂紝<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>鏈韩涓嶆彁渚涘姞閫熸湇鍔°€�
+
+### Q4: 鎵嬫満涓婃€庝箞鐢紵
+A锛歩OS鍜孉ndroid閮芥湁瀹樻柟瀹㈡埛绔紝鍙互鐩存帴鍦ㄥ簲鐢ㄥ晢搴楁悳绱€€孉list銆嶄笅杞姐€�
+
+---
+
+## 鍏€佹€荤粨
+
+<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>鏄瘡涓�<a href="/guide/" target="_blank">NAS</a>鐢ㄦ埛閮藉簲璇ュ畨瑁呯殑绁炲櫒銆傚畠璁╁垎鏁ｇ殑鏂囦欢鍙樺緱浜曚簳鏈夋潯锛岃澶氱綉鐩樼敤鎴峰交搴曡В鑴便€�
+
+**涓€鍙ヨ瘽鎬荤粨**锛氫竴涓叆鍙ｏ紝绠＄悊鎵€鏈夌綉鐩橈紒
+
+---
+
+*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/nas-docker-apps-recommend-2026-v3/" rel="prev">上一页：2026年NAS必装Docker应用推荐：提升私有云生产力</a>
-  <a href="/guide/tailscale-remote-access/" rel="next">下一页：Tailscale：无需公网IP，实现内网穿透</a>
+  <a href="/guide/nas-docker-apps-recommend-2026-v3/" rel="prev">涓婁竴椤碉細2026骞碞AS蹇呰Docker搴旂敤鎺ㄨ崘锛氭彁鍗囩鏈変簯鐢熶骇鍔�</a>
+  <a href="/guide/tailscale-remote-access/" rel="next">涓嬩竴椤碉細Tailscale锛氭棤闇€鍏綉IP锛屽疄鐜板唴缃戠┛閫�</a>
 </div>
 
-*本文由 NUCNAS Hub 原创编写*
+*鏈枃鐢� NUCNAS Hub 鍘熷垱缂栧啓*

@@ -1,47 +1,47 @@
 ---
-title: "AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代"
+title: "AMD Ryzen AI 300 棣栧彂娴嬭瘎锛氳糠浣犱富鏈鸿繘鍏� AI 鏃朵唬"
 date: 2026-03-03
 categories: ["hardware"]
-summary: "AMD 全新 Ryzen AI 300 系列处理器专为 AI PC 设计，集成 XDNA 2 架构 NPU，提供 50TOPS 算力。本文首发测评告诉你这款处理器在迷你主机上的实际表现。"
+summary: "AMD 鍏ㄦ柊 Ryzen AI 300 绯诲垪澶勭悊鍣ㄤ笓涓� AI PC 璁捐锛岄泦鎴� XDNA 2 鏋舵瀯 NPU锛屾彁渚� 50TOPS 绠楀姏銆傛湰鏂囬鍙戞祴璇勫憡璇変綘杩欐澶勭悊鍣ㄥ湪杩蜂綘涓绘満涓婄殑瀹為檯琛ㄧ幇銆�"
 slug: "amd-ryzen-ai-300-review"
 ---
 
-# AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代
+# AMD Ryzen AI 300 棣栧彂娴嬭瘎锛氳糠浣犱富鏈鸿繘鍏� AI 鏃朵唬
 
 
-AMD 这次真没开玩笑。全新 Ryzen AI 300 系列来了，50TOPS 的 NPU 算力，直接把 Intel 按在地上摩擦。
+AMD 杩欐鐪熸病寮€鐜╃瑧銆傚叏鏂� Ryzen AI 300 绯诲垪鏉ヤ簡锛�50TOPS 鐨� NPU 绠楀姏锛岀洿鎺ユ妸 Intel 鎸夊湪鍦颁笂鎽╂摝銆�
 
-首批面向消费级<a href="/review/" target="_blank">迷你主机</a>的 AI PC 处理器，Zen 5 架构 + XDNA 2 NPU + RDNA 3.5 核显，全家桶配齐。实际表现怎么样？往下看。
+棣栨壒闈㈠悜娑堣垂绾�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>鐨� AI PC 澶勭悊鍣紝Zen 5 鏋舵瀯 + XDNA 2 NPU + RDNA 3.5 鏍告樉锛屽叏瀹舵《閰嶉綈銆傚疄闄呰〃鐜版€庝箞鏍凤紵寰€涓嬬湅銆�
 
-## 规格参数
+## 瑙勬牸鍙傛暟
 
-| 型号 | 核心/线程 | 频率 | NPU | 核显 | 功耗 |
+| 鍨嬪彿 | 鏍稿績/绾跨▼ | 棰戠巼 | NPU | 鏍告樉 | 鍔熻€� |
 |------|-----------|------|-----|------|------|
 | Ryzen AI 9 HX 370 | 12C/24T | 2.0-5.1GHz | 50TOPS | Radeon 890M | 28W |
 | Ryzen AI 9 365 | 10C/20T | 2.0-5.0GHz | 50TOPS | Radeon 880M | 28W |
 
-### Zen 5 到底强在哪？
+### Zen 5 鍒板簳寮哄湪鍝紵
 
-- 单核性能比 Zen 4 提升 16%
-- 4nm 制程，功耗控制更好
-- L3 缓存最大 24MB
+- 鍗曟牳鎬ц兘姣� Zen 4 鎻愬崌 16%
+- 4nm 鍒剁▼锛屽姛鑰楁帶鍒舵洿濂�
+- L3 缂撳瓨鏈€澶� 24MB
 
 ### XDNA 2 NPU
 
-这才是重点。50TOPS 算力，什么概念？
+杩欐墠鏄噸鐐广€�50TOPS 绠楀姏锛屼粈涔堟蹇碉紵
 
-Intel Meteor Lake 只有 11TOPS，差距快 5 倍了。Windows Studio Effects 流畅跑，Adobe AI 加速也能用。
+Intel Meteor Lake 鍙湁 11TOPS锛屽樊璺濆揩 5 鍊嶄簡銆俉indows Studio Effects 娴佺晠璺戯紝Adobe AI 鍔犻€熶篃鑳界敤銆�
 
-### 核显 RDNA 3.5
+### 鏍告樉 RDNA 3.5
 
-Radeon 890M，16 个计算单元，频率 2.9GHz。1080p 游戏没问题，偶尔打打 3A 也行。
+Radeon 890M锛�16 涓绠楀崟鍏冿紝棰戠巼 2.9GHz銆�1080p 娓告垙娌￠棶棰橈紝鍋跺皵鎵撴墦 3A 涔熻銆�
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评和<a href="/ai/" target="_blank">AI</a>内容请关注 [硬件频道](/review/) 和 [AI频道](/ai/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎鍜�<a href="/ai/" target="_blank">AI</a>鍐呭璇峰叧娉� [纭欢棰戦亾](/review/) 鍜� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/nas-docker-knowledge-base-2026/" rel="prev">上一页：群晖NAS进阶教程：利用Docker搭建个人知识库系统</a>
+  <a href="/guide/nas-docker-knowledge-base-2026/" rel="prev">涓婁竴椤碉細缇ゆ櫀NAS杩涢樁鏁欑▼锛氬埄鐢―ocker鎼缓涓汉鐭ヨ瘑搴撶郴缁�</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

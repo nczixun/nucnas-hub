@@ -1,23 +1,23 @@
 ---
-title: "Day 6：进阶技巧 - 浏览器控制与文件操作"
+title: "Day 6锛氳繘闃舵妧宸� - 娴忚鍣ㄦ帶鍒朵笌鏂囦欢鎿嶄綔"
 date: 2026-03-05
 categories: ["ai"]
 slug: "openclaw-day6-advanced-browser-file"
-summary: "OpenClaw进阶教程：浏览器自动化控制、文件操作、填表单、抓数据，让AI帮你操作电脑。"
-tags: ["OpenClaw", "浏览器控制", "文件操作", "自动化", "RPA"]
+summary: "OpenClaw杩涢樁鏁欑▼锛氭祻瑙堝櫒鑷姩鍖栨帶鍒躲€佹枃浠舵搷浣溿€佸～琛ㄥ崟銆佹姄鏁版嵁锛岃AI甯綘鎿嶄綔鐢佃剳銆�"
+tags: ["OpenClaw", "娴忚鍣ㄦ帶鍒�", "鏂囦欢鎿嶄綔", "鑷姩鍖�", "RPA"]
 ---
 
-# Day 6：进阶技巧 - 浏览器控制与文件操作
+# Day 6锛氳繘闃舵妧宸� - 娴忚鍣ㄦ帶鍒朵笌鏂囦欢鎿嶄綔
 
 
-<a href="/ai/" target="_blank">OpenClaw</a>进阶教程：浏览器自动化控制、文件操作。
+<a href="/ai/" target="_blank">OpenClaw</a>杩涢樁鏁欑▼锛氭祻瑙堝櫒鑷姩鍖栨帶鍒躲€佹枃浠舵搷浣溿€�
 
 ---
 
-*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/ai/openclaw-day5/" rel="prev">上一页：Day 5：自动化任务与心跳机制</a>
+  <a href="/ai/openclaw-day5/" rel="prev">涓婁竴椤碉細Day 5锛氳嚜鍔ㄥ寲浠诲姟涓庡績璺虫満鍒�</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

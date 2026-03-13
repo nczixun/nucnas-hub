@@ -1,33 +1,33 @@
-﻿---
-title: "Day 7：Docker与应用中心 - 拓展无限可能"
+锘�---
+title: "Day 7锛欴ocker涓庡簲鐢ㄤ腑蹇� - 鎷撳睍鏃犻檺鍙兘"
 date: 2026-03-06
 categories: ["nas"]
 slug: "geakos-day7-docker-apps"
-summary: "GEAKOS Docker教程：应用中心介绍、第三方服务部署、Docker Compose使用，拓展NAS玩法。"
-tags: ["GEAKOS", "Docker", "NAS", "应用中心"]
+summary: "GEAKOS Docker鏁欑▼锛氬簲鐢ㄤ腑蹇冧粙缁嶃€佺涓夋柟鏈嶅姟閮ㄧ讲銆丏ocker Compose浣跨敤锛屾嫇灞昇AS鐜╂硶銆�"
+tags: ["GEAKOS", "Docker", "NAS", "搴旂敤涓績"]
 ---
 
-# Day 7：Docker与应用中心
+# Day 7锛欴ocker涓庡簲鐢ㄤ腑蹇�
 
 
 
-## 应用中心
+## 搴旂敤涓績
 
-GEAKOS 提供丰富的第三方应用，用户可通过 Docker 部署自己需要的应用和服务。
+GEAKOS 鎻愪緵涓板瘜鐨勭涓夋柟搴旂敤锛岀敤鎴峰彲閫氳繃 Docker 閮ㄧ讲鑷繁闇€瑕佺殑搴旂敤鍜屾湇鍔°€�
 
-### 常用应用
+### 甯哥敤搴旂敤
 
-- Home Assistant（智能家居）
-- AdGuard（广告拦截）
-- Nginx Proxy Manager（反向代理）
-- Bitwarden（密码管理）
+- Home Assistant锛堟櫤鑳藉灞咃級
+- AdGuard锛堝箍鍛婃嫤鎴級
+- Nginx Proxy Manager锛堝弽鍚戜唬鐞嗭級
+- Bitwarden锛堝瘑鐮佺鐞嗭級
 
-## Docker 部署
+## Docker 閮ㄧ讲
 
-### 基本步骤
+### 鍩烘湰姝ラ
 
 ```bash
-# 通过 Docker 安装应用
+# 閫氳繃 Docker 瀹夎搴旂敤
 docker run -d --name=your-app ...
 ```
 
@@ -44,28 +44,28 @@ services:
       - "8080:8080"
 ```
 
-## 7天学习总结
+## 7澶╁涔犳€荤粨
 
-| 天数 | 内容 | 掌握程度 |
+| 澶╂暟 | 鍐呭 | 鎺屾彙绋嬪害 |
 |------|------|----------|
-| Day 1 | GEAKOS介绍/对比 | ⭐⭐⭐⭐⭐ |
-| Day 2 | 安装部署 | ⭐⭐⭐⭐⭐ |
-| Day 3 | AI智能相册 | ⭐⭐⭐⭐ |
-| Day 4 | 影视中心 | ⭐⭐⭐⭐ |
-| Day 5 | 远程访问 | ⭐⭐⭐⭐ |
-| Day 6 | 数据安全 | ⭐⭐⭐⭐ |
-| Day 7 | Docker应用 | ⭐⭐⭐ |
+| Day 1 | GEAKOS浠嬬粛/瀵规瘮 | 猸愨瓙猸愨瓙猸� |
+| Day 2 | 瀹夎閮ㄧ讲 | 猸愨瓙猸愨瓙猸� |
+| Day 3 | AI鏅鸿兘鐩稿唽 | 猸愨瓙猸愨瓙 |
+| Day 4 | 褰辫涓績 | 猸愨瓙猸愨瓙 |
+| Day 5 | 杩滅▼璁块棶 | 猸愨瓙猸愨瓙 |
+| Day 6 | 鏁版嵁瀹夊叏 | 猸愨瓙猸愨瓙 |
+| Day 7 | Docker搴旂敤 | 猸愨瓙猸� |
 
-## 下一步
+## 涓嬩竴姝�
 
-- 🏠 动手实践：在电脑上安装 GEAKOS
-- 📚 深入学习：访问官方文档
-- 💬 交流讨论：加入用户社群
-
----
-
-**恭喜完成 GEAKOS 7天学习之旅！** 🎉
+- 馃彔 鍔ㄦ墜瀹炶返锛氬湪鐢佃剳涓婂畨瑁� GEAKOS
+- 馃摎 娣卞叆瀛︿範锛氳闂畼鏂规枃妗�
+- 馃挰 浜ゆ祦璁ㄨ锛氬姞鍏ョ敤鎴风ぞ缇�
 
 ---
 
-*本文由 NUC NAS Hub 自动生成*
+**鎭枩瀹屾垚 GEAKOS 7澶╁涔犱箣鏃咃紒** 馃帀
+
+---
+
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

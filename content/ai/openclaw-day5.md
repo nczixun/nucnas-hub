@@ -1,23 +1,23 @@
 ---
-title: "Day 5：自动化任务与心跳机制 - AI主动为你工作"
+title: "Day 5锛氳嚜鍔ㄥ寲浠诲姟涓庡績璺虫満鍒� - AI涓诲姩涓轰綘宸ヤ綔"
 date: 2026-03-04
 categories: ["ai"]
 slug: "openclaw-day5-automation-heartbeat"
-summary: "OpenClaw心跳机制详解，定时任务自动执行，让AI主动为你检查邮件、天气、新闻等。"
-tags: ["OpenClaw", "心跳", "自动化", "Cron", "定时任务"]
+summary: "OpenClaw蹇冭烦鏈哄埗璇﹁В锛屽畾鏃朵换鍔¤嚜鍔ㄦ墽琛岋紝璁〢I涓诲姩涓轰綘妫€鏌ラ偖浠躲€佸ぉ姘斻€佹柊闂荤瓑銆�"
+tags: ["OpenClaw", "蹇冭烦", "鑷姩鍖�", "Cron", "瀹氭椂浠诲姟"]
 ---
 
-# Day 5：自动化任务与心跳机制
+# Day 5锛氳嚜鍔ㄥ寲浠诲姟涓庡績璺虫満鍒�
 
 
-<a href="/ai/" target="_blank">OpenClaw</a>心跳机制让AI主动为你工作。
+<a href="/ai/" target="_blank">OpenClaw</a>蹇冭烦鏈哄埗璁〢I涓诲姩涓轰綘宸ヤ綔銆�
 
 ---
 
-*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/fnos-full-guide/" rel="prev">上一页：飞牛OS深度体验</a>
+  <a href="/guide/fnos-full-guide/" rel="prev">涓婁竴椤碉細椋炵墰OS娣卞害浣撻獙</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

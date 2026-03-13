@@ -1,48 +1,48 @@
 ---
-title: "2026年3月GitHub热门AI项目盘点：AI伴侣、本地大模型、Agent工具"
+title: "2026骞�3鏈圙itHub鐑棬AI椤圭洰鐩樼偣锛欰I浼翠荆銆佹湰鍦板ぇ妯″瀷銆丄gent宸ュ叿"
 date: 2026-03-03
 categories: ["ai"]
-summary: "盘点2026年3月GitHub最火的AI项目，包括AIRI AI伴侣、ruflo Agent编排平台、OpenSandbox等，提供详细安装教程。"
-tags: ["GitHub", "AI", "工具", "教程"]
+summary: "鐩樼偣2026骞�3鏈圙itHub鏈€鐏殑AI椤圭洰锛屽寘鎷珹IRI AI浼翠荆銆乺uflo Agent缂栨帓骞冲彴銆丱penSandbox绛夛紝鎻愪緵璇︾粏瀹夎鏁欑▼銆�"
+tags: ["GitHub", "AI", "宸ュ叿", "鏁欑▼"]
 slug: "github-trending-2026-03"
 ---
 
-# 2026年3月GitHub热门AI项目盘点
+# 2026骞�3鏈圙itHub鐑棬AI椤圭洰鐩樼偣
 
 
-今天GitHub trending发布了最新热门项目，让我们一起来看看有哪些值得关注的<a href="/ai/" target="_blank">AI</a>开源项目！
+浠婂ぉGitHub trending鍙戝竷浜嗘渶鏂扮儹闂ㄩ」鐩紝璁╂垜浠竴璧锋潵鐪嬬湅鏈夊摢浜涘€煎緱鍏虫敞鐨�<a href="/ai/" target="_blank">AI</a>寮€婧愰」鐩紒
 
-## ?? 本期热门项目一览
+## ?? 鏈湡鐑棬椤圭洰涓€瑙�
 
-| 项目 | Stars | 今日新增 | 描述 |
+| 椤圭洰 | Stars | 浠婃棩鏂板 | 鎻忚堪 |
 |------|-------|----------|------|
-| airi | 21,210 | 1,425 | 自托管AI伴侣 |
-| wifi-densepose | 20,699 | 5,080 | WiFi姿态估计 |
-| ruflo | 17,825 | 821 | Claude Agent编排平台 |
-| OpenSandbox | 3,937 | 982 | 阿里AI沙箱 |
+| airi | 21,210 | 1,425 | 鑷墭绠I浼翠荆 |
+| wifi-densepose | 20,699 | 5,080 | WiFi濮挎€佷及璁� |
+| ruflo | 17,825 | 821 | Claude Agent缂栨帓骞冲彴 |
+| OpenSandbox | 3,937 | 982 | 闃块噷AI娌欑 |
 
 ---
 
-## 1?? AIRI - 自托管AI伴侣 ?21,210
+## 1?? AIRI - 鑷墭绠I浼翠荆 ?21,210
 
-**项目地址**：https://github.com/moeru-ai/airi
+**椤圭洰鍦板潃**锛歨ttps://github.com/moeru-ai/airi
 
-AIRI是一个开源的<a href="/ai/" target="_blank">AI</a> VTuber项目，旨在复现Neuro-sama，让每个用户都能拥有自己的虚拟<a href="/ai/" target="_blank">AI</a>伴侣。
+AIRI鏄竴涓紑婧愮殑<a href="/ai/" target="_blank">AI</a> VTuber椤圭洰锛屾棬鍦ㄥ鐜癗euro-sama锛岃姣忎釜鐢ㄦ埛閮借兘鎷ユ湁鑷繁鐨勮櫄鎷�<a href="/ai/" target="_blank">AI</a>浼翠荆銆�
 
-### ?? 核心功能
+### ?? 鏍稿績鍔熻兘
 
-- ?? 支持实时语音对话
-- ?? 能玩Minecraft、Factorio等游戏
-- ?? 支持Discord、Telegram集成
-- ?? 支持VRM/Live2D虚拟形象
-- ?? 支持Web/桌面/移动端
+- ?? 鏀寔瀹炴椂璇煶瀵硅瘽
+- ?? 鑳界帺Minecraft銆丗actorio绛夋父鎴�
+- ?? 鏀寔Discord銆乀elegram闆嗘垚
+- ?? 鏀寔VRM/Live2D铏氭嫙褰㈣薄
+- ?? 鏀寔Web/妗岄潰/绉诲姩绔�
 
 ---
 
-*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/ai/deepseek-r1-deploy/" rel="prev">上一页：DeepSeek R1 本地部署指南</a>
+  <a href="/ai/deepseek-r1-deploy/" rel="prev">涓婁竴椤碉細DeepSeek R1 鏈湴閮ㄧ讲鎸囧崡</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

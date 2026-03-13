@@ -1,35 +1,35 @@
 ---
-title: "Aoostar W11 评测：AMD 5825U 高性价比迷你主机"
+title: "Aoostar W11 璇勬祴锛欰MD 5825U 楂樻€т环姣旇糠浣犱富鏈�"
 date: 2026-02-14
 categories: ["hardware"]
 brand: "Aoostar"
 model: "W11"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Aoostar+W11"
-bilibili_url: "https://search.bilibili.com/all?keyword=Aoostar+W11+测评"
+bilibili_url: "https://search.bilibili.com/all?keyword=Aoostar+W11+娴嬭瘎"
 youtube_url: "https://www.youtube.com/results?search_query=Aoostar+W11+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
+cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
 slug: "aoostar-w11"
 ---
 
-# Aoostar W11 评测
+# Aoostar W11 璇勬祴
 
 
-<a href="/review/aoostar-w11/" target="_blank">Aoostar W11</a> 搭载 AMD 5825U 处理器，是一款高性价比<a href="/review/" target="_blank">迷你主机</a>。
+<a href="/review/aoostar-w11/" target="_blank">Aoostar W11</a> 鎼浇 AMD 5825U 澶勭悊鍣紝鏄竴娆鹃珮鎬т环姣�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
 
-## 主要特点
+## 涓昏鐗圭偣
 
-- AMD 5825U 性能足够
-- 价格实惠
-- 接口丰富
+- AMD 5825U 鎬ц兘瓒冲
+- 浠锋牸瀹炴儬
+- 鎺ュ彛涓板瘜
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/review/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
 
 <div class="page-nav">
-  <a href="/review/gmktec-k5-plus/" rel="prev">上一页：GMKTEC K5 Plus 评测</a>
+  <a href="/review/gmktec-k5-plus/" rel="prev">涓婁竴椤碉細GMKTEC K5 Plus 璇勬祴</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

@@ -1,91 +1,91 @@
 ---
-title: "Day 3: 飞牛OS安装教程 —— 多种方式任你选"
+title: "Day 3: 椋炵墰OS瀹夎鏁欑▼ 鈥斺€� 澶氱鏂瑰紡浠讳綘閫�"
 date: 2026-03-09
-summary: "详细介绍飞牛OS的多种安装方式：U盘启动、硬盘挂载、虚拟机。"
+summary: "璇︾粏浠嬬粛椋炵墰OS鐨勫绉嶅畨瑁呮柟寮忥細U鐩樺惎鍔ㄣ€佺‖鐩樻寕杞姐€佽櫄鎷熸満銆�"
 categories: ["nas"]
 slug: "fnos-day3-install"
-tags: ["飞牛OS", "安装", "教程", "U盘启动"]
+tags: ["椋炵墰OS", "瀹夎", "鏁欑▼", "U鐩樺惎鍔�"]
 ---
 
-# Day 3: 飞牛OS安装教程
+# Day 3: 椋炵墰OS瀹夎鏁欑▼
 
 
-## 安装方式一览
+## 瀹夎鏂瑰紡涓€瑙�
 
-| 方式 | 难度 | 适用场景 |
+| 鏂瑰紡 | 闅惧害 | 閫傜敤鍦烘櫙 |
 |------|------|----------|
-| U盘启动 | ? | 体验/测试 |
-| 硬盘安装 | ?? | 主流用户 |
-| 虚拟机 | ??? | 学习/测试 |
+| U鐩樺惎鍔� | ? | 浣撻獙/娴嬭瘯 |
+| 纭洏瀹夎 | ?? | 涓绘祦鐢ㄦ埛 |
+| 铏氭嫙鏈� | ??? | 瀛︿範/娴嬭瘯 |
 
-## 方式一：U盘启动安装
+## 鏂瑰紡涓€锛歎鐩樺惎鍔ㄥ畨瑁�
 
-### 步骤1：下载镜像
+### 姝ラ1锛氫笅杞介暅鍍�
 
-访问飞牛OS官网下载最新镜像（.img.gz格式）
+璁块棶椋炵墰OS瀹樼綉涓嬭浇鏈€鏂伴暅鍍忥紙.img.gz鏍煎紡锛�
 
-### 步骤2：制作启动盘
+### 姝ラ2锛氬埗浣滃惎鍔ㄧ洏
 
 ```bash
-# Windows (使用Rufus)
-# 1. 插入U盘
-# 2. 打开Rufus，选择镜像
-# 3. 点击开始
+# Windows (浣跨敤Rufus)
+# 1. 鎻掑叆U鐩�
+# 2. 鎵撳紑Rufus锛岄€夋嫨闀滃儚
+# 3. 鐐瑰嚮寮€濮�
 
 # Linux
 sudo apt install gzip dd
 sudo dd if=fnos.img of=/dev/sdX bs=4M status=progress
 ```
 
-### 步骤3：设置启动
+### 姝ラ3锛氳缃惎鍔�
 
-1. 进入BIOS设置U盘启动
-2. 保存并重启
-3. 按照屏幕提示完成安装
+1. 杩涘叆BIOS璁剧疆U鐩樺惎鍔�
+2. 淇濆瓨骞堕噸鍚�
+3. 鎸夌収灞忓箷鎻愮ず瀹屾垚瀹夎
 
-## 方式二：硬盘直装
+## 鏂瑰紡浜岋細纭洏鐩磋
 
-### 步骤1：准备硬盘
+### 姝ラ1锛氬噯澶囩‖鐩�
 
-建议使用SSD作为系统盘（至少16GB）
+寤鸿浣跨敤SSD浣滀负绯荤粺鐩橈紙鑷冲皯16GB锛�
 
-### 步骤2：使用Ventoy
+### 姝ラ2锛氫娇鐢╒entoy
 
-1. 制作Ventoy启动盘
-2. 放入飞牛OS镜像
-3. 从Ventoy启动选择镜像
+1. 鍒朵綔Ventoy鍚姩鐩�
+2. 鏀惧叆椋炵墰OS闀滃儚
+3. 浠嶸entoy鍚姩閫夋嫨闀滃儚
 
-### 步骤3：安装到硬盘
+### 姝ラ3锛氬畨瑁呭埌纭洏
 
 ```
-选择目标磁盘 → 确认安装 → 等待完成
+閫夋嫨鐩爣纾佺洏 鈫� 纭瀹夎 鈫� 绛夊緟瀹屾垚
 ```
 
-## 方式三：虚拟机安装
+## 鏂瑰紡涓夛細铏氭嫙鏈哄畨瑁�
 
-### 使用Proxmox
+### 浣跨敤Proxmox
 
 ```yaml
-# 创建虚拟机
+# 鍒涘缓铏氭嫙鏈�
 qm create 100 \
   --name fnos \
   --cores 4 \
   --memory 8192 \
   --net0 virtio,bridge=vmbr0
 
-# 导入镜像
+# 瀵煎叆闀滃儚
 qm importdisk 100 fnos.qcow2 vmbr0 --format qcow2
 ```
 
-### 使用ESXi
+### 浣跨敤ESXi
 
-类似Proxmox步骤，创建虚拟机后导入镜像即可。
+绫讳技Proxmox姝ラ锛屽垱寤鸿櫄鎷熸満鍚庡鍏ラ暅鍍忓嵆鍙€�
 
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day2-hardware/" rel="prev">上一页：Day 2：飞牛OS硬件选购指南</a>
-  <a href="/guide/fnos-day4-network/" rel="next">下一页：Day 4：飞牛OS网络设置</a>
+  <a href="/guide/fnos-day2-hardware/" rel="prev">涓婁竴椤碉細Day 2锛氶鐗汷S纭欢閫夎喘鎸囧崡</a>
+  <a href="/guide/fnos-day4-network/" rel="next">涓嬩竴椤碉細Day 4锛氶鐗汷S缃戠粶璁剧疆</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

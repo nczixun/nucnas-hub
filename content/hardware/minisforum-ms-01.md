@@ -1,38 +1,38 @@
 ---
-title: "Minisforum MS-01 评测：工作站在掌心，史上最强迷你主机？"
+title: "Minisforum MS-01 璇勬祴锛氬伐浣滅珯鍦ㄦ帉蹇冿紝鍙蹭笂鏈€寮鸿糠浣犱富鏈猴紵"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "MS-01"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+MS-01"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+MS-01+测评"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+MS-01+娴嬭瘎"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+MS-01+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
+cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
 slug: "minisforum-ms-01"
 ---
 
-# Minisforum MS-01 评测：史上最强迷你工作站
+# Minisforum MS-01 璇勬祴锛氬彶涓婃渶寮鸿糠浣犲伐浣滅珯
 
 
-## 一、前言
+## 涓€銆佸墠瑷€
 
-在<a href="/review/" target="_blank">迷你主机</a>的江湖里，铭凡（Minisforum）一直以"敢想敢做"著称。如果说之前的UM系列是为了满足桌面娱乐，那么今天这台**MS-01**，则是冲着**技术极客、Homelab玩家和企业级用户**的命门去的。
+鍦�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>鐨勬睙婀栭噷锛岄摥鍑★紙Minisforum锛変竴鐩翠互"鏁㈡兂鏁㈠仛"钁楃О銆傚鏋滆涔嬪墠鐨刄M绯诲垪鏄负浜嗘弧瓒虫闈㈠ū涔愶紝閭ｄ箞浠婂ぉ杩欏彴**MS-01**锛屽垯鏄啿鐫€**鎶€鏈瀬瀹€€丠omelab鐜╁鍜屼紒涓氱骇鐢ㄦ埛**鐨勫懡闂ㄥ幓鐨勩€�
 
-它不再仅仅追求体积的极致小巧，而是在约**2.5升**的机身内，集成了**双10G SFP+光口、双2.5G电口、两个USB4，以及一条物理PCIe x16插槽**（实际速率x8）。这种配置在<a href="/review/" target="_blank">迷你主机</a>领域堪称"异类"，甚至被玩家戏称为"先天All in One圣体"。
+瀹冧笉鍐嶄粎浠呰拷姹備綋绉殑鏋佽嚧灏忓阀锛岃€屾槸鍦ㄧ害**2.5鍗�**鐨勬満韬唴锛岄泦鎴愪簡**鍙�10G SFP+鍏夊彛銆佸弻2.5G鐢靛彛銆佷袱涓猆SB4锛屼互鍙婁竴鏉＄墿鐞哖CIe x16鎻掓Ы**锛堝疄闄呴€熺巼x8锛夈€傝繖绉嶉厤缃湪<a href="/review/" target="_blank">杩蜂綘涓绘満</a>棰嗗煙鍫О"寮傜被"锛岀敋鑷宠鐜╁鎴忕О涓�"鍏堝ぉAll in One鍦ｄ綋"銆�
 
-## 二、外观与接口
+## 浜屻€佸瑙備笌鎺ュ彛
 
-**体积与设计**
-MS-01的机身尺寸为196×189×48mm，体积约**2.5升**，重量**1.5公斤**，比我们常见的0.8L<a href="/review/" target="_blank">迷你主机</a>大了一圈，但依然远小于传统ITX机箱。外壳以金属为主，辅以塑料面板，整体风格硬朗，更像一台专业工作站而非家用小可爱。
+**浣撶Н涓庤璁�**
+MS-01鐨勬満韬昂瀵镐负196脳189脳48mm锛屼綋绉害**2.5鍗�**锛岄噸閲�**1.5鍏枻**锛屾瘮鎴戜滑甯歌鐨�0.8L<a href="/review/" target="_blank">杩蜂綘涓绘満</a>澶т簡涓€鍦堬紝浣嗕緷鐒惰繙灏忎簬浼犵粺ITX鏈虹銆傚澹充互閲戝睘涓轰富锛岃緟浠ュ鏂欓潰鏉匡紝鏁翠綋椋庢牸纭湕锛屾洿鍍忎竴鍙颁笓涓氬伐浣滅珯鑰岄潪瀹剁敤灏忓彲鐖便€�
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/review/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/nas-rag-system-2026/" rel="prev">上一页：NAS作为家庭AI知识库：构建私有RAG系统</a>
+  <a href="/guide/nas-rag-system-2026/" rel="prev">涓婁竴椤碉細NAS浣滀负瀹跺涵AI鐭ヨ瘑搴擄細鏋勫缓绉佹湁RAG绯荤粺</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

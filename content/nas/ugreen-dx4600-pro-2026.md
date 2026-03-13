@@ -1,35 +1,35 @@
 ---
-title: "绿联NAS DX4600 Pro深度评测：老牌外设厂商的NAS首秀能否成功？"
+title: "缁胯仈NAS DX4600 Pro娣卞害璇勬祴锛氳€佺墝澶栬鍘傚晢鐨凬AS棣栫鑳藉惁鎴愬姛锛�"
 date: 2026-03-03
 categories: ["nas"]
-brand: "绿联"
+brand: "缁胯仈"
 model: "DX4600 Pro"
 platform: "docker"
 official_url: "https://www.ugREEN.com"
-bilibili_url: "https://search.bilibili.com/all?keyword=绿联NAS+DX4600+测评"
-youtube_url: "https://www.youtube.com/results?search_query=绿联DX4600+review"
+bilibili_url: "https://search.bilibili.com/all?keyword=缁胯仈NAS+DX4600+娴嬭瘎"
+youtube_url: "https://www.youtube.com/results?search_query=缁胯仈DX4600+review"
 pros: 
-  - "Intel N6005性能出色"
-  - "价格亲民"
-  - "接口丰富"
-  - "系统迭代快速"
+  - "Intel N6005鎬ц兘鍑鸿壊"
+  - "浠锋牸浜叉皯"
+  - "鎺ュ彛涓板瘜"
+  - "绯荤粺杩唬蹇€�"
 cons: 
-  - "Docker功能较新"
-  - "生态不如群晖"
-  - "虚拟机功能有限"
+  - "Docker鍔熻兘杈冩柊"
+  - "鐢熸€佷笉濡傜兢鏅�"
+  - "铏氭嫙鏈哄姛鑳芥湁闄�"
 slug: "ugreen-dx4600-pro-2026"
 score: 8.0
 tags: 
-  - "评测"
-  - "新品"
-summary: "Intel N6005+8GB内存，性价比之选"
-audience: "追求性价比的家庭用户"
+  - "璇勬祴"
+  - "鏂板搧"
+summary: "Intel N6005+8GB鍐呭瓨锛屾€т环姣斾箣閫�"
+audience: "杩芥眰鎬т环姣旂殑瀹跺涵鐢ㄦ埛"
 price: "2299"
 hw_specs:
   cpu: "Intel N6005"
   ram: "8GB DDR4"
-  storage: "4×3.5\" + 2×M.2"
-  lan: "2.5G双网口"
+  storage: "4脳3.5\" + 2脳M.2"
+  lan: "2.5G鍙岀綉鍙�"
   usb: "USB3.2+Type-C"
   hdmi: "HDMI 2.0"
 radar:
@@ -40,43 +40,43 @@ radar:
   price: 9
 ---
 
-# 绿联NAS DX4600 Pro深度评测
+# 缁胯仈NAS DX4600 Pro娣卞害璇勬祴
 
 
-## 一、前言
+## 涓€銆佸墠瑷€
 
-绿联作为老牌外设厂商，其NAS首秀表现如何？<a href="/guide/ugreen-dx4600-pro-2026/" target="_blank">DX4600 Pro</a>搭载Intel N6005处理器，是一款面向家庭用户的<a href="/guide/" target="_blank">NAS</a>设备。
+缁胯仈浣滀负鑰佺墝澶栬鍘傚晢锛屽叾NAS棣栫琛ㄧ幇濡備綍锛�<a href="/guide/ugreen-dx4600-pro-2026/" target="_blank">DX4600 Pro</a>鎼浇Intel N6005澶勭悊鍣紝鏄竴娆鹃潰鍚戝搴敤鎴风殑<a href="/guide/" target="_blank">NAS</a>璁惧銆�
 
-## 主要配置
+## 涓昏閰嶇疆
 
-| 规格 | 参数 |
+| 瑙勬牸 | 鍙傛暟 |
 |------|------|
-| 处理器 | Intel N6005 |
-| 内存 | 8GB DDR4 |
-| 存储 | 4×3.5" + 2×M.2 |
-| 网口 | 2.5G双网口 |
+| 澶勭悊鍣� | Intel N6005 |
+| 鍐呭瓨 | 8GB DDR4 |
+| 瀛樺偍 | 4脳3.5" + 2脳M.2 |
+| 缃戝彛 | 2.5G鍙岀綉鍙� |
 | USB | USB3.2+Type-C |
 | HDMI | HDMI 2.0 |
 
-## 优点
+## 浼樼偣
 
-- 性能出色
-- 价格亲民
-- 接口丰富
-- 系统迭代快速
+- 鎬ц兘鍑鸿壊
+- 浠锋牸浜叉皯
+- 鎺ュ彛涓板瘜
+- 绯荤粺杩唬蹇€�
 
-## 缺点
+## 缂虹偣
 
-- <a href="/guide/docker-best-practice/" target="_blank">Docker</a>功能较新
-- 生态不如群晖
-- 虚拟机功能有限
+- <a href="/guide/docker-best-practice/" target="_blank">Docker</a>鍔熻兘杈冩柊
+- 鐢熸€佷笉濡傜兢鏅�
+- 铏氭嫙鏈哄姛鑳芥湁闄�
 
 ---
 
-*更多<a href="/guide/" target="_blank">NAS</a>教程请关注 [NAS学院](/guide/)。*
+*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
 
 <div class="page-nav">
-  <a href="/review/minisforum-um790-pro/" rel="prev">上一页：Minisforum UM790 Pro 评测</a>
+  <a href="/review/minisforum-um790-pro/" rel="prev">涓婁竴椤碉細Minisforum UM790 Pro 璇勬祴</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

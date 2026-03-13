@@ -1,19 +1,19 @@
 ---
-title: "RAID 鐠侊紕鐣婚崳锟�"
+title: "RAID 閻犱緤绱曢悾濠氬闯閿燂拷"
 slug: "raid"
-description: "RAID 鐎瑰綊鍣虹拋锛勭暬閸ｎ煉绱濋弨顖涘瘮 RAID 0/1/5/6/10 鐎瑰綊鍣虹拋锛勭暬娑撳骸顔愰柨娆忓瀻閺嬶拷"
+description: "RAID 閻庣懓缍婇崳铏规媼閿涘嫮鏆柛锝庣厜缁辨繈寮ㄩ娑樼槷 RAID 0/1/5/6/10 閻庣懓缍婇崳铏规媼閿涘嫮鏆☉鎾抽椤旀劙鏌ㄥ▎蹇撶€婚柡瀣舵嫹"
 date: 2026-03-07
 ---
 
-# 棣冩崙 RAID 鐎瑰綊鍣虹拋锛勭暬閸ｏ拷
+# 妫ｅ啯宕� RAID 閻庣懓缍婇崳铏规媼閿涘嫮鏆柛锝忔嫹
 
-闁瀚� RAID 濡€崇础閿涘矁绶崗銉р€栭惄妯哄棘閺佸府绱濈拋锛勭暬閸欘垳鏁ょ€瑰綊鍣烘稉搴☆啇闁挎瑨鍏橀崝娑栤偓锟�
+闂侇偄顦扮€氾拷 RAID 婵☆垪鈧磭纭€闁挎稑鐭佺欢顓㈠礂閵壯€鈧牠鎯勫Ο鍝勬闁轰礁搴滅槐婵堟媼閿涘嫮鏆柛娆樺灣閺併倗鈧懓缍婇崳鐑樼▔鎼粹槅鍟囬梺鎸庣懆閸忔﹢宕濆☉鏍ゅ亾閿燂拷
 
 <div x-data="raidCalculator()" class="raid-calculator">
     
-    <!-- RAID 濡€崇础闁瀚� -->
+    <!-- RAID 婵☆垪鈧磭纭€闂侇偄顦扮€氾拷 -->
     <div class="raid-mode-select">
-        <label class="raid-label">闁瀚� RAID 濡€崇础</label>
+        <label class="raid-label">闂侇偄顦扮€氾拷 RAID 婵☆垪鈧磭纭€</label>
         <div class="raid-modes">
             <template x-for="mode in raidModes" :key="mode.id">
                 <button 
@@ -29,97 +29,97 @@ date: 2026-03-07
         </div>
     </div>
 
-    <!-- 绾剛娲忛柊宥囩枂 -->
+    <!-- 缁绢収鍓涘ú蹇涙煀瀹ュ洨鏋� -->
     <div class="raid-config">
         <div class="config-row">
             <div class="config-item">
-                <label class="raid-label">绾剛娲忛弫浼村櫤</label>
+                <label class="raid-label">缁绢収鍓涘ú蹇涘极娴兼潙娅�</label>
                 <input type="number" x-model="diskCount" min="2" max="24" class="raid-input" @input="calculate()">
             </div>
             <div class="config-item">
-                <label class="raid-label">閸楁洜娲忕€瑰綊鍣� (TB)</label>
+                <label class="raid-label">闁告娲滃ú蹇曗偓鐟扮秺閸ｏ拷 (TB)</label>
                 <input type="number" x-model="diskSize" min="1" max="100" step="0.5" class="raid-input" @input="calculate()">
             </div>
         </div>
     </div>
 
-    <!-- 鐠侊紕鐣荤紒鎾寸亯 -->
+    <!-- 閻犱緤绱曢悾鑽ょ磼閹惧浜� -->
     <div class="raid-result" x-show="diskCount >= 2">
         <div class="result-grid">
             <div class="result-card">
-                <div class="result-icon">棣冩崐</div>
-                <div class="result-label">閸欘垳鏁ょ€瑰綊鍣�</div>
+                <div class="result-icon">妫ｅ啯宕�</div>
+                <div class="result-label">闁告瑯鍨抽弫銈団偓鐟扮秺閸ｏ拷</div>
                 <div class="result-value" x-text="result.usableCapacity"></div>
-                <div class="result-sub" x-text="'閸樼喎顫愮€瑰綊鍣�: ' + result.rawCapacity + ' TB'"></div>
+                <div class="result-sub" x-text="'闁告ḿ鍠庨～鎰偓鐟扮秺閸ｏ拷: ' + result.rawCapacity + ' TB'"></div>
             </div>
             <div class="result-card">
-                <div class="result-icon">棣冩礉閿旓拷</div>
-                <div class="result-label">鐎瑰綊鏁婇懗钘夊</div>
+                <div class="result-icon">妫ｅ啯绀夐柨鏃撴嫹</div>
+                <div class="result-label">閻庣懓缍婇弫濠囨嚄閽樺顫�</div>
                 <div class="result-value" 
                      :class="result.faultTolerance > 0 ? 'text-green' : 'text-red'"
-                     x-text="result.faultTolerance + ' 閸ф鈥栭惄锟�'"></div>
-                <div class="result-sub" x-text="result.faultTolerance > 0 ? '閸欘垰鎮撻弮鑸垫櫊闂呮粍鏆熼柌锟�' : '閺冪姴顔愰柨锟�'"></div>
+                     x-text="result.faultTolerance + ' 闁秆勵殘閳ユ牠鎯勯敓锟�'"></div>
+                <div class="result-sub" x-text="result.faultTolerance > 0 ? '闁告瑯鍨伴幃鎾诲籍閼稿灚娅婇梻鍛矋閺嗙喖鏌岄敓锟�' : '闁哄啰濮撮鎰版煥閿燂拷'"></div>
             </div>
             <div class="result-card">
-                <div class="result-icon">棣冩惓</div>
-                <div class="result-label">鐎涙ê鍋嶉弫鍫㈠芳</div>
+                <div class="result-icon">妫ｅ啯鎯�</div>
+                <div class="result-label">閻庢稒锚閸嬪秹寮崼銏犺姵</div>
                 <div class="result-value" x-text="result.efficiency + '%'"></div>
-                <div class="result-sub" x-text="result.waste + ' TB 閸愭ぞ缍�'"></div>
+                <div class="result-sub" x-text="result.waste + ' TB 闁告劖銇炵紞锟�'"></div>
             </div>
         </div>
     </div>
 
-    <!-- 鐠€锕€鎲￠幓鎰仛 -->
+    <!-- 閻犫偓閿曗偓閹诧繝骞撻幇顔轰粵 -->
     <div class="raid-warning" x-show="warning" x-text="warning" style="display: none;"></div>
 
-    <!-- RAID 濡€崇础鐠囧瓨妲� -->
+    <!-- RAID 婵☆垪鈧磭纭€閻犲洤鐡ㄥΣ锟� -->
     <div class="raid-info">
-        <h3>棣冩惖 RAID 濡€崇础鐎佃鐦�</h3>
+        <h3>妫ｅ啯鎯� RAID 婵☆垪鈧磭纭€閻庝絻顫夐惁锟�</h3>
         <table class="raid-table">
             <thead>
                 <tr>
-                    <th>濡€崇础</th>
-                    <th>閺堚偓鐏忓繒娲忛弫锟�</th>
-                    <th>鐎瑰綊鏁�</th>
-                    <th>閺佸牏宸�</th>
-                    <th>閻楀湱鍋�</th>
+                    <th>婵☆垪鈧磭纭€</th>
+                    <th>闁哄牃鍋撻悘蹇撶箳濞插繘寮敓锟�</th>
+                    <th>閻庣懓缍婇弫锟�</th>
+                    <th>闁轰礁鐗忓锟�</th>
+                    <th>闁绘婀遍崑锟�</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td><strong>RAID 0</strong></td>
                     <td>2</td>
-                    <td>閴傦拷 閺冿拷</td>
+                    <td>闁村偊鎷� 闁哄喛鎷�</td>
                     <td>100%</td>
-                    <td>閹嗗厴閺堚偓娴ｇ绱濋弮鐘差啇闁匡拷</td>
+                    <td>闁诡儸鍡楀幋闁哄牃鍋撳ù锝囶劜缁辨繈寮悩宸晣闂佸尅鎷�</td>
                 </tr>
                 <tr>
                     <td><strong>RAID 1</strong></td>
                     <td>2</td>
-                    <td>閴侊拷 N-1</td>
+                    <td>闁翠緤鎷� N-1</td>
                     <td>50%</td>
-                    <td>闂€婊冨剼婢跺洣鍞ら敍灞界暔閸忋劍鈧囩彯</td>
+                    <td>闂傗偓濠婂啫鍓煎璺烘矗閸炪倝鏁嶇仦鐣屾殧闁稿繈鍔嶉埀顑洨褰�</td>
                 </tr>
                 <tr>
                     <td><strong>RAID 5</strong></td>
                     <td>3</td>
-                    <td>閴侊拷 1</td>
+                    <td>闁翠緤鎷� 1</td>
                     <td>67%-94%</td>
-                    <td>楠炲疇銆€閹嗗厴娑撳骸鐣ㄩ崗锟�</td>
+                    <td>妤犵偛鐤囬妴鈧柟顑棗鍘村☉鎾抽閻ｃ劑宕楅敓锟�</td>
                 </tr>
                 <tr>
                     <td><strong>RAID 6</strong></td>
                     <td>4</td>
-                    <td>閴侊拷 2</td>
+                    <td>闁翠緤鎷� 2</td>
                     <td>50%-92%</td>
-                    <td>閸欏矂鍣搁弽锟犵崣閿涘本鐎粩顖氱暔閸忥拷</td>
+                    <td>闁告瑥鐭傞崳鎼佸冀閿熺姷宕ｉ柨娑樻湰閻庮剛绮╅姘辨殧闁稿骏鎷�</td>
                 </tr>
                 <tr>
                     <td><strong>RAID 10</strong></td>
                     <td>4</td>
-                    <td>閴侊拷 1/2</td>
+                    <td>闁翠緤鎷� 1/2</td>
                     <td>50%</td>
-                    <td>闂€婊冨剼+閺夆€崇敨閿涘本鈧嗗厴鐎瑰鍙忛崗濂搞€�</td>
+                    <td>闂傗偓濠婂啫鍓�+闁哄鈧磭鏁ㄩ柨娑樻湰閳ь儸鍡楀幋閻庣懓顦崣蹇涘礂婵傛悶鈧拷</td>
                 </tr>
             </tbody>
         </table>
@@ -135,11 +135,11 @@ function raidCalculator() {
         selectedMode: '5',
         warning: '',
         raidModes: [
-            { id: '0', name: 'RAID 0', desc: '閹嗗厴娴兼ê鍘�' },
-            { id: '1', name: 'RAID 1', desc: '闂€婊冨剼婢跺洣鍞�' },
-            { id: '5', name: 'RAID 5', desc: '閸у洩銆€娑斿鈧拷' },
-            { id: '6', name: 'RAID 6', desc: '閸欏矂鍣哥€瑰綊鏁�' },
-            { id: '10', name: 'RAID 10', desc: '娴间椒绗熺痪锟�' }
+            { id: '0', name: 'RAID 0', desc: '闁诡儸鍡楀幋濞村吋锚閸橈拷' },
+            { id: '1', name: 'RAID 1', desc: '闂傗偓濠婂啫鍓煎璺烘矗閸烇拷' },
+            { id: '5', name: 'RAID 5', desc: '闁秆冩穿閵嗏偓濞戞柨顑夐埀顒婃嫹' },
+            { id: '6', name: 'RAID 6', desc: '闁告瑥鐭傞崳鍝モ偓鐟扮秺閺侊拷' },
+            { id: '10', name: 'RAID 10', desc: '濞撮棿妞掔粭鐔虹棯閿燂拷' }
         ],
         result: {
             usableCapacity: '0 TB',
@@ -170,28 +170,28 @@ function raidCalculator() {
                 case '0':
                     usable = raw;
                     faultTolerance = 0;
-                    if (count < 2) this.warning = 'RAID 0 閼峰啿鐨棁鈧憰锟� 2 閸ф鈥栭惄锟�';
+                    if (count < 2) this.warning = 'RAID 0 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 2 闁秆勵殘閳ユ牠鎯勯敓锟�';
                     break;
                 case '1':
                     usable = size;
                     faultTolerance = count - 1;
-                    if (count < 2) this.warning = 'RAID 1 閼峰啿鐨棁鈧憰锟� 2 閸ф鈥栭惄锟�';
+                    if (count < 2) this.warning = 'RAID 1 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 2 闁秆勵殘閳ユ牠鎯勯敓锟�';
                     break;
                 case '5':
                     usable = (count - 1) * size;
                     faultTolerance = 1;
-                    if (count < 3) this.warning = 'RAID 5 閼峰啿鐨棁鈧憰锟� 3 閸ф鈥栭惄锟�';
+                    if (count < 3) this.warning = 'RAID 5 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 3 闁秆勵殘閳ユ牠鎯勯敓锟�';
                     break;
                 case '6':
                     usable = (count - 2) * size;
                     faultTolerance = 2;
-                    if (count < 4) this.warning = 'RAID 6 閼峰啿鐨棁鈧憰锟� 4 閸ф鈥栭惄锟�';
+                    if (count < 4) this.warning = 'RAID 6 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 4 闁秆勵殘閳ユ牠鎯勯敓锟�';
                     break;
                 case '10':
                     const mirrorPairs = Math.floor(count / 2);
                     usable = mirrorPairs * size;
                     faultTolerance = Math.floor(count / 2) - 1;
-                    if (count < 4) this.warning = 'RAID 10 閼峰啿鐨棁鈧憰锟� 4 閸ф鈥栭惄锟�';
+                    if (count < 4) this.warning = 'RAID 10 闁煎嘲鍟块惃顖炴閳ь剛鎲伴敓锟� 4 闁秆勵殘閳ユ牠鎯勯敓锟�';
                     break;
             }
             

@@ -1,27 +1,27 @@
 ---
-title: "极空间Z4 Pro安装Docker可视化面板全攻略"
+title: "鏋佺┖闂碯4 Pro瀹夎Docker鍙鍖栭潰鏉垮叏鏀荤暐"
 date: 2026-03-06
 categories: ["nas"]
-summary: "手把手教你在极空间Z4 Pro上安装Portainer，实现Docker容器可视化管理"
-tags: ["极空间", "Z4 Pro", "Docker", "Portainer", "教程"]
+summary: "鎵嬫妸鎵嬫暀浣犲湪鏋佺┖闂碯4 Pro涓婂畨瑁匬ortainer锛屽疄鐜癉ocker瀹瑰櫒鍙鍖栫鐞�"
+tags: ["鏋佺┖闂�", "Z4 Pro", "Docker", "Portainer", "鏁欑▼"]
 slug: "z4pro-portainer-install-guide-2026"
 ---
 
-# 极空间Z4 Pro安装Docker可视化面板全攻略
+# 鏋佺┖闂碯4 Pro瀹夎Docker鍙鍖栭潰鏉垮叏鏀荤暐
 
 
-很多新手<a href="/guide/" target="_blank">NAS</a>用户对<a href="/guide/docker-best-practice/" target="_blank">Docker</a>命令望而却步，今天手把手教你在极空间Z4 Pro上安装Portainer，轻松实现容器可视化管理。
+寰堝鏂版墜<a href="/guide/" target="_blank">NAS</a>鐢ㄦ埛瀵�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>鍛戒护鏈涜€屽嵈姝ワ紝浠婂ぉ鎵嬫妸鎵嬫暀浣犲湪鏋佺┖闂碯4 Pro涓婂畨瑁匬ortainer锛岃交鏉惧疄鐜板鍣ㄥ彲瑙嗗寲绠＄悊銆�
 
-## 什么是Portainer
+## 浠€涔堟槸Portainer
 
-<a href="/guide/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>是一个可视化的Docker管理面板。
+<a href="/guide/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>鏄竴涓彲瑙嗗寲鐨凞ocker绠＄悊闈㈡澘銆�
 
 ---
 
-*更多<a href="/guide/" target="_blank">NAS</a>教程请关注 [NAS学院](/guide/)。*
+*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/nas-docker-apps-recommend-2026/" rel="prev">上一页：NAS Docker应用推荐</a>
+  <a href="/guide/nas-docker-apps-recommend-2026/" rel="prev">涓婁竴椤碉細NAS Docker搴旂敤鎺ㄨ崘</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

@@ -1,25 +1,25 @@
 ---
-title: "TrueNAS vs Unraid vs DSM：2026年NAS系统全面对比"
+title: "TrueNAS vs Unraid vs DSM锛�2026骞碞AS绯荤粺鍏ㄩ潰瀵规瘮"
 date: 2026-03-05
 categories: ["nas"]
-tags: ["NAS", "TrueNAS", "Unraid", "群晖", "系统对比"]
+tags: ["NAS", "TrueNAS", "Unraid", "缇ゆ櫀", "绯荤粺瀵规瘮"]
 platform: "nas"
 slug: "truenas-unraid-dsm-2026"
 ---
 
-# TrueNAS vs Unraid vs DSM：2026年NAS系统全面对比
+# TrueNAS vs Unraid vs DSM锛�2026骞碞AS绯荤粺鍏ㄩ潰瀵规瘮
 
 
-## 一、前言
+## 涓€銆佸墠瑷€
 
-<a href="/guide/" target="_blank">NAS</a>系统三大巨头对比。
+<a href="/guide/" target="_blank">NAS</a>绯荤粺涓夊ぇ宸ㄥご瀵规瘮銆�
 
 ---
 
-*更多<a href="/guide/" target="_blank">NAS</a>教程请关注 [NAS学院](/guide/)。*
+*鏇村<a href="/guide/" target="_blank">NAS</a>鏁欑▼璇峰叧娉� [NAS瀛﹂櫌](/guide/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/nas-setup-guide/" rel="prev">上一页：NAS搭建全攻略</a>
+  <a href="/guide/nas-setup-guide/" rel="prev">涓婁竴椤碉細NAS鎼缓鍏ㄦ敾鐣�</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

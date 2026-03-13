@@ -1,54 +1,54 @@
-﻿---
-title: "AI 算力测试"
+锘�---
+title: "AI 绠楀姏娴嬭瘯"
 slug: "ai-benchmark"
-description: "测试本地设备的AI推理性能"
+description: "娴嬭瘯鏈湴璁惧鐨凙I鎺ㄧ悊鎬ц兘"
 date: 2026-03-01
 ---
 
-# 🤖 AI 算力测试
+# 馃 AI 绠楀姏娴嬭瘯
 
-在浏览器中运行简单的 AI 推理测试，评估设备性能。
+鍦ㄦ祻瑙堝櫒涓繍琛岀畝鍗曠殑 AI 鎺ㄧ悊娴嬭瘯锛岃瘎浼拌澶囨€ц兘銆�
 
 <div class="benchmark-container">
   <div class="benchmark-info">
-    <p>此测试通过运行多个矩阵运算来评估 CPU/GPU 的 AI 推理性能。</p>
+    <p>姝ゆ祴璇曢€氳繃杩愯澶氫釜鐭╅樀杩愮畻鏉ヨ瘎浼� CPU/GPU 鐨� AI 鎺ㄧ悊鎬ц兘銆�</p>
   </div>
   
   <div class="benchmark-controls">
-    <label>测试次数</label>
+    <label>娴嬭瘯娆℃暟</label>
     <select id="iterations">
-      <option value="100">100 次 (快速)</option>
-      <option value="1000" selected>1000 次 (标准)</option>
-      <option value="5000">5000 次 (深度)</option>
+      <option value="100">100 娆� (蹇€�)</option>
+      <option value="1000" selected>1000 娆� (鏍囧噯)</option>
+      <option value="5000">5000 娆� (娣卞害)</option>
     </select>
     
-    <button onclick="runBenchmark()" class="benchmark-btn">开始测试</button>
+    <button onclick="runBenchmark()" class="benchmark-btn">寮€濮嬫祴璇�</button>
   </div>
   
   <div class="benchmark-progress" id="progress" style="display:none;">
     <div class="progress-bar">
       <div class="progress-fill" id="progress-fill"></div>
     </div>
-    <p id="progress-text">测试中...</p>
+    <p id="progress-text">娴嬭瘯涓�...</p>
   </div>
   
   <div class="benchmark-result" id="result" style="display:none;">
-    <h3>测试结果</h3>
+    <h3>娴嬭瘯缁撴灉</h3>
     <div class="result-grid">
       <div class="result-item">
-        <span>总耗时</span>
+        <span>鎬昏€楁椂</span>
         <strong id="total-time">0 ms</strong>
       </div>
       <div class="result-item">
-        <span>平均耗时</span>
-        <strong id="avg-time">0 ms/次</strong>
+        <span>骞冲潎鑰楁椂</span>
+        <strong id="avg-time">0 ms/娆�</strong>
       </div>
       <div class="result-item">
-        <span>运算速度</span>
-        <strong id="ops-per-sec">0 次/秒</strong>
+        <span>杩愮畻閫熷害</span>
+        <strong id="ops-per-sec">0 娆�/绉�</strong>
       </div>
       <div class="result-item">
-        <span>性能评级</span>
+        <span>鎬ц兘璇勭骇</span>
         <strong id="rating">-</strong>
       </div>
     </div>
@@ -65,10 +65,10 @@ function runBenchmark() {
   setTimeout(() => {
     const startTime = performance.now();
     
-    // 模拟矩阵运算测试
+    // 妯℃嫙鐭╅樀杩愮畻娴嬭瘯
     let result = 0;
     for (let i = 0; i < iterations; i++) {
-      // 矩阵乘法模拟
+      // 鐭╅樀涔樻硶妯℃嫙
       const a = Array(100).fill(0).map(() => Math.random());
       const b = Array(100).fill(0).map(() => Math.random());
       for (let j = 0; j < 100; j++) {
@@ -77,11 +77,11 @@ function runBenchmark() {
         }
       }
       
-      // 更新进度
+      // 鏇存柊杩涘害
       if (i % 100 === 0) {
         const progress = (i / iterations) * 100;
         document.getElementById('progress-fill').style.width = progress + '%';
-        document.getElementById('progress-text').textContent = `测试中... ${Math.round(progress)}%`;
+        document.getElementById('progress-text').textContent = `娴嬭瘯涓�... ${Math.round(progress)}%`;
       }
     }
     
@@ -90,18 +90,18 @@ function runBenchmark() {
     const avgTime = totalTime / iterations;
     const opsPerSec = 10000 / (totalTime / 1000);
     
-    // 计算评级
+    // 璁＄畻璇勭骇
     let rating;
-    if (avgTime < 0.1) rating = '🔥 顶级 (RTX 4090+)';
-    else if (avgTime < 0.5) rating = '⭐ 优秀 (RTX 4070+)';
-    else if (avgTime < 1) rating = '👍 良好 (RTX 3060+)';
-    else if (avgTime < 3) rating = '💪 一般 (GTX 1660+)';
-    else if (avgTime < 10) rating = '⚠️ 入门 (集显)';
-    else rating = '🐢 较弱';
+    if (avgTime < 0.1) rating = '馃敟 椤剁骇 (RTX 4090+)';
+    else if (avgTime < 0.5) rating = '猸� 浼樼 (RTX 4070+)';
+    else if (avgTime < 1) rating = '馃憤 鑹ソ (RTX 3060+)';
+    else if (avgTime < 3) rating = '馃挭 涓€鑸� (GTX 1660+)';
+    else if (avgTime < 10) rating = '鈿狅笍 鍏ラ棬 (闆嗘樉)';
+    else rating = '馃悽 杈冨急';
     
     document.getElementById('total-time').textContent = totalTime.toFixed(0) + ' ms';
-    document.getElementById('avg-time').textContent = avgTime.toFixed(2) + ' ms/次';
-    document.getElementById('ops-per-sec').textContent = opsPerSec.toFixed(0) + ' 次/秒';
+    document.getElementById('avg-time').textContent = avgTime.toFixed(2) + ' ms/娆�';
+    document.getElementById('ops-per-sec').textContent = opsPerSec.toFixed(0) + ' 娆�/绉�';
     document.getElementById('rating').textContent = rating;
     
     document.getElementById('progress').style.display = 'none';

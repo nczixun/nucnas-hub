@@ -1,35 +1,35 @@
 ---
-title: "Minisforum EM780 评测：AMD 7840U 超小体积旗舰"
+title: "Minisforum EM780 璇勬祴锛欰MD 7840U 瓒呭皬浣撶Н鏃楄埌"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "EM780"
 platform: "amd"
 official_url: "https://search.jd.com/Search?keyword=Minisforum+EM780"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+EM780+测评"
+bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+EM780+娴嬭瘎"
 youtube_url: "https://www.youtube.com/results?search_query=Minisforum+EM780+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
+cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
 slug: "minisforum-em780"
 ---
 
-# Minisforum EM780 评测
+# Minisforum EM780 璇勬祴
 
 
-<a href="/review/minisforum-em780/" target="_blank">Minisforum EM780</a> 是一款超小体积的 AMD 7840U<a href="/review/" target="_blank">迷你主机</a>。
+<a href="/review/minisforum-em780/" target="_blank">Minisforum EM780</a> 鏄竴娆捐秴灏忎綋绉殑 AMD 7840U<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
 
-## 主要特点
+## 涓昏鐗圭偣
 
-- AMD 7840U 性能旗舰
-- 体积小巧
-- 接口丰富
+- AMD 7840U 鎬ц兘鏃楄埌
+- 浣撶Н灏忓阀
+- 鎺ュ彛涓板瘜
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/review/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
 
 <div class="page-nav">
-  <a href="/review/minisforum-em680/" rel="prev">上一页：Minisforum EM680 评测</a>
+  <a href="/review/minisforum-em680/" rel="prev">涓婁竴椤碉細Minisforum EM680 璇勬祴</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

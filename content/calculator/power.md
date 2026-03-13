@@ -1,13 +1,13 @@
-﻿---
-title: "功耗计算器"
+锘�---
+title: "鍔熻€楄绠楀櫒"
 slug: "power"
-description: "根据CPU/GPU TDP计算整机功耗，估算电费"
+description: "鏍规嵁CPU/GPU TDP璁＄畻鏁存満鍔熻€楋紝浼扮畻鐢佃垂"
 date: 2026-03-01
 ---
 
-# ⚡ 功耗计算器
+# 鈿� 鍔熻€楄绠楀櫒
 
-根据硬件 TDP 计算整机功耗和年度电费。
+鏍规嵁纭欢 TDP 璁＄畻鏁存満鍔熻€楀拰骞村害鐢佃垂銆�
 
 <div class="calculator">
   <div class="calc-input">
@@ -21,38 +21,38 @@ date: 2026-03-01
   </div>
   
   <div class="calc-input">
-    <label>其他配件 (W)</label>
+    <label>鍏朵粬閰嶄欢 (W)</label>
     <input type="number" id="other-tdp" value="50" min="0" max="200">
   </div>
   
   <div class="calc-input">
-    <label>每日使用时长 (小时)</label>
+    <label>姣忔棩浣跨敤鏃堕暱 (灏忔椂)</label>
     <input type="number" id="hours" value="8" min="0" max="24">
   </div>
   
   <div class="calc-input">
-    <label>电费 (元/度)</label>
+    <label>鐢佃垂 (鍏�/搴�)</label>
     <input type="number" id="electricity" value="0.6" step="0.1" min="0" max="2">
   </div>
   
-  <button onclick="calculatePower()" class="calc-btn">计算功耗</button>
+  <button onclick="calculatePower()" class="calc-btn">璁＄畻鍔熻€�</button>
   
   <div class="result" id="result" style="display:none;">
     <div class="result-item">
-      <span>整机功耗</span>
+      <span>鏁存満鍔熻€�</span>
       <strong id="total-power">0 W</strong>
     </div>
     <div class="result-item">
-      <span>每日耗电</span>
-      <strong id="daily-power">0 度</strong>
+      <span>姣忔棩鑰楃數</span>
+      <strong id="daily-power">0 搴�</strong>
     </div>
     <div class="result-item">
-      <span>每月电费</span>
-      <strong id="monthly-cost">0 元</strong>
+      <span>姣忔湀鐢佃垂</span>
+      <strong id="monthly-cost">0 鍏�</strong>
     </div>
     <div class="result-item">
-      <span>年度电费</span>
-      <strong id="yearly-cost">0 元</strong>
+      <span>骞村害鐢佃垂</span>
+      <strong id="yearly-cost">0 鍏�</strong>
     </div>
   </div>
 </div>
@@ -71,9 +71,9 @@ function calculatePower() {
   const yearly = daily * 365 * electricity;
   
   document.getElementById('total-power').textContent = total + ' W';
-  document.getElementById('daily-power').textContent = daily.toFixed(2) + ' 度';
-  document.getElementById('monthly-cost').textContent = monthly.toFixed(2) + ' 元';
-  document.getElementById('yearly-cost').textContent = yearly.toFixed(2) + ' 元';
+  document.getElementById('daily-power').textContent = daily.toFixed(2) + ' 搴�';
+  document.getElementById('monthly-cost').textContent = monthly.toFixed(2) + ' 鍏�';
+  document.getElementById('yearly-cost').textContent = yearly.toFixed(2) + ' 鍏�';
   
   document.getElementById('result').style.display = 'block';
 }

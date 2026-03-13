@@ -1,31 +1,31 @@
 ---
 slug: "apple-mac-mini-m4"
-title: "Apple Mac mini M4 深度评测：小体积大能量，M4芯片有多强？"
+title: "Apple Mac mini M4 娣卞害璇勬祴锛氬皬浣撶Н澶ц兘閲忥紝M4鑺墖鏈夊寮猴紵"
 date: 2026-02-27
-summary: "Apple Mac mini M4 review: M4芯片,静音,雷电5"
+summary: "Apple Mac mini M4 review: M4鑺墖,闈欓煶,闆风數5"
 categories: ["hardware"]
 tags: ["Apple", "Mac mini M4", "apple"]
 ---
 
-# Apple Mac mini M4 深度评测
+# Apple Mac mini M4 娣卞害璇勬祴
 
 
-## 概述
+## 姒傝堪
 
-<a href="/review/apple-mac-mini-m4/" target="_blank">Apple Mac mini M4</a> 搭载M4芯片，是一款小体积大能量的<a href="/review/" target="_blank">迷你主机</a>。
+<a href="/review/apple-mac-mini-m4/" target="_blank">Apple Mac mini M4</a> 鎼浇M4鑺墖锛屾槸涓€娆惧皬浣撶Н澶ц兘閲忕殑<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
 
-## 主要特点
+## 涓昏鐗圭偣
 
-- M4芯片性能强劲
-- 静音设计
-- 雷电5接口
+- M4鑺墖鎬ц兘寮哄姴
+- 闈欓煶璁捐
+- 闆风數5鎺ュ彛
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/review/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
 
 <div class="page-nav">
-  <a href="/review/mini-pc-beginner-guide-2026/" rel="prev">上一页：迷你主机新手入门指南</a>
+  <a href="/review/mini-pc-beginner-guide-2026/" rel="prev">涓婁竴椤碉細杩蜂綘涓绘満鏂版墜鍏ラ棬鎸囧崡</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

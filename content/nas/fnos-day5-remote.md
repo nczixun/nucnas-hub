@@ -1,57 +1,57 @@
 ---
-title: "Day 5: 飞牛OS远程访问 —— Tailscale/FRP完美方案"
+title: "Day 5: 椋炵墰OS杩滅▼璁块棶 鈥斺€� Tailscale/FRP瀹岀編鏂规"
 date: 2026-03-11
-summary: "通过Tailscale或FRP实现外网安全访问飞牛OS。"
+summary: "閫氳繃Tailscale鎴朏RP瀹炵幇澶栫綉瀹夊叏璁块棶椋炵墰OS銆�"
 categories: ["nas"]
 slug: "fnos-day5-remote"
-tags: ["飞牛OS", "远程访问", "Tailscale", "FRP"]
+tags: ["椋炵墰OS", "杩滅▼璁块棶", "Tailscale", "FRP"]
 ---
 
-# Day 5: 飞牛OS远程访问
+# Day 5: 椋炵墰OS杩滅▼璁块棶
 
 
-## 为什么需要远程访问？
+## 涓轰粈涔堥渶瑕佽繙绋嬭闂紵
 
-不在家时也能：
-- ?? 访问文件
-- ?? 观看影片
-- ?? 管理设置
+涓嶅湪瀹舵椂涔熻兘锛�
+- ?? 璁块棶鏂囦欢
+- ?? 瑙傜湅褰辩墖
+- ?? 绠＄悊璁剧疆
 
-## 方案一：<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>（推荐）
+## 鏂规涓€锛�<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>锛堟帹鑽愶級
 
-### 什么是Tailscale？
+### 浠€涔堟槸Tailscale锛�
 
-基于WireGuard的异地组网工具，简单安全。
+鍩轰簬WireGuard鐨勫紓鍦扮粍缃戝伐鍏凤紝绠€鍗曞畨鍏ㄣ€�
 
-### 安装步骤
+### 瀹夎姝ラ
 
-1. 在飞牛OS中安装<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>
-2. 登录账号获取设备密钥
-3. 记录设备节点
+1. 鍦ㄩ鐗汷S涓畨瑁�<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>
+2. 鐧诲綍璐﹀彿鑾峰彇璁惧瀵嗛挜
+3. 璁板綍璁惧鑺傜偣
 
-### 配置
+### 閰嶇疆
 
 ```bash
-# 启动Tailscale
+# 鍚姩Tailscale
 tailscale up --accept-routes
 
-# 查看状态
+# 鏌ョ湅鐘舵€�
 tailscale status
 ```
 
-### 优点
-- ? 免费
-- ? 加密安全
-- ? 简单易用
-- ? 支持所有设备
+### 浼樼偣
+- ? 鍏嶈垂
+- ? 鍔犲瘑瀹夊叏
+- ? 绠€鍗曟槗鐢�
+- ? 鏀寔鎵€鏈夎澶�
 
-## 方案二：FRP内网穿透
+## 鏂规浜岋細FRP鍐呯綉绌块€�
 
-### 什么是FRP？
+### 浠€涔堟槸FRP锛�
 
-通过中转服务器实现内网穿透。
+閫氳繃涓浆鏈嶅姟鍣ㄥ疄鐜板唴缃戠┛閫忋€�
 
-### 服务端配置
+### 鏈嶅姟绔厤缃�
 
 ```yaml
 # frps.ini
@@ -63,8 +63,8 @@ token = your_token
 ---
 
 <div class="page-nav">
-  <a href="/guide/fnos-day4-network/" rel="prev">上一页：Day 4：飞牛OS网络配置</a>
-  <a href="/guide/fnos-day6-docker/" rel="next">下一页：Day 6：飞牛OS Docker应用</a>
+  <a href="/guide/fnos-day4-network/" rel="prev">涓婁竴椤碉細Day 4锛氶鐗汷S缃戠粶閰嶇疆</a>
+  <a href="/guide/fnos-day6-docker/" rel="next">涓嬩竴椤碉細Day 6锛氶鐗汷S Docker搴旂敤</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

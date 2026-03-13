@@ -1,30 +1,30 @@
 ---
-title: "零刻 GT-R 评测：Intel i9-12900HK 旗舰迷你主机"
+title: "闆跺埢 GT-R 璇勬祴锛欼ntel i9-12900HK 鏃楄埌杩蜂綘涓绘満"
 date: 2026-02-18
 categories: ["hardware"]
-brand: "零刻"
+brand: "闆跺埢"
 model: "GT-R"
 platform: "intel"
 slug: "gtr"
 ---
 
-# 零刻 GT-R 评测
+# 闆跺埢 GT-R 璇勬祴
 
 
-<a href="/review/gtr/" target="_blank">零刻 GT-R</a> 是一款 Intel i9-12900HK 旗舰级<a href="/review/" target="_blank">迷你主机</a>。
+<a href="/review/gtr/" target="_blank">闆跺埢 GT-R</a> 鏄竴娆� Intel i9-12900HK 鏃楄埌绾�<a href="/review/" target="_blank">杩蜂綘涓绘満</a>銆�
 
-## 主要特点
+## 涓昏鐗圭偣
 
-- Intel i9-12900HK 性能旗舰
-- 接口丰富
-- 散热优秀
+- Intel i9-12900HK 鎬ц兘鏃楄埌
+- 鎺ュ彛涓板瘜
+- 鏁ｇ儹浼樼
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/review/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
 
 <div class="page-nav">
-  <a href="/review/eq12/" rel="prev">上一页：零刻 EQ12 评测</a>
+  <a href="/review/eq12/" rel="prev">涓婁竴椤碉細闆跺埢 EQ12 璇勬祴</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

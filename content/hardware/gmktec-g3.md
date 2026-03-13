@@ -1,23 +1,23 @@
-﻿---
-title: "GMKTEC G3 评测：Intel N100 入门级迷你主机值不值？"
+锘�---
+title: "GMKTEC G3 璇勬祴锛欼ntel N100 鍏ラ棬绾ц糠浣犱富鏈哄€间笉鍊硷紵"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "GMKtec"
 model: "G3"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=GMKtec+G3"
-bilibili_url: "https://search.bilibili.com/all?keyword=GMKtec+G3+测评"
+bilibili_url: "https://search.bilibili.com/all?keyword=GMKtec+G3+娴嬭瘎"
 youtube_url: "https://www.youtube.com/results?search_query=GMKtec+G3+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
+cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
 slug: "gmktec-g3"
 ---
 
-## 设计。
-GMKtec G3 采用了极简主义的设计语言，能够完美融入任何桌面环境。
+## 璁捐銆�
+GMKtec G3 閲囩敤浜嗘瀬绠€涓讳箟鐨勮璁¤瑷€锛岃兘澶熷畬缇庤瀺鍏ヤ换浣曟闈㈢幆澧冦€�
 
-## 性能。
-核心算力的大幅提升，让多任务处理和 AI 推理变得游刃有余。
+## 鎬ц兘銆�
+鏍稿績绠楀姏鐨勫ぇ骞呮彁鍗囷紝璁╁浠诲姟澶勭悊鍜� AI 鎺ㄧ悊鍙樺緱娓稿垉鏈変綑銆�
 
-## 结论。
-如果您正在寻找性能与体积的黄金平衡点，这是一款不容错过的机型。
+## 缁撹銆�
+濡傛灉鎮ㄦ鍦ㄥ鎵炬€ц兘涓庝綋绉殑榛勯噾骞宠　鐐癸紝杩欐槸涓€娆句笉瀹归敊杩囩殑鏈哄瀷銆�

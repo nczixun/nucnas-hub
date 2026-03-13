@@ -1,48 +1,48 @@
 ---
-title: "Llama 3.2 vs Qwen2.5：本地大模型真实对比"
+title: "Llama 3.2 vs Qwen2.5锛氭湰鍦板ぇ妯″瀷鐪熷疄瀵规瘮"
 date: 2026-03-06
 categories: ["ai"]
-summary: "两款热门本地大模型实测对比，看看哪个更好用"
+summary: "涓ゆ鐑棬鏈湴澶фā鍨嬪疄娴嬪姣旓紝鐪嬬湅鍝釜鏇村ソ鐢�"
 tags: ["Llama 3.2", "Qwen2.5", "benchmark"]
 slug: "llama-vs-qwen-benchmark-2026"
 ---
 
-# Llama 3.2 vs Qwen2.5：本地大模型真实对比
+# Llama 3.2 vs Qwen2.5锛氭湰鍦板ぇ妯″瀷鐪熷疄瀵规瘮
 
 
-两款最火的本地模型，实际表现如何？
+涓ゆ鏈€鐏殑鏈湴妯″瀷锛屽疄闄呰〃鐜板浣曪紵
 
-## 测试环境
+## 娴嬭瘯鐜
 
-- 设备：MacBook Pro M3 Max
-- 内存：64GB
-- 模型：4bit量化版
+- 璁惧锛歁acBook Pro M3 Max
+- 鍐呭瓨锛�64GB
+- 妯″瀷锛�4bit閲忓寲鐗�
 
-## 基础跑分
+## 鍩虹璺戝垎
 
-| 模型 | 7B参数 | 14B参数 |
+| 妯″瀷 | 7B鍙傛暟 | 14B鍙傛暟 |
 |------|--------|---------|
 | Llama 3.2 | 68 | 72 |
 | Qwen2.5 | 70 | 75 |
 
-分数仅供参考，实际体验更重要。
+鍒嗘暟浠呬緵鍙傝€冿紝瀹為檯浣撻獙鏇撮噸瑕併€�
 
-## 实际测试
+## 瀹為檯娴嬭瘯
 
-### 中文对话
-- Llama 3.2：中文有点生硬，偶尔会蹦英文
-- Qwen2.5：中文流畅，本土化更好
+### 涓枃瀵硅瘽
+- Llama 3.2锛氫腑鏂囨湁鐐圭敓纭紝鍋跺皵浼氳功鑻辨枃
+- Qwen2.5锛氫腑鏂囨祦鐣咃紝鏈湡鍖栨洿濂�
 
-### 代码能力
-- Llama 3.2：Python写得不错
-- Qwen2.5：代码能力强，略逊Llama
+### 浠ｇ爜鑳藉姏
+- Llama 3.2锛歅ython鍐欏緱涓嶉敊
+- Qwen2.5锛氫唬鐮佽兘鍔涘己锛岀暐閫奓lama
 
 ---
 
-*更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
+*鏇村<a href="/ai/" target="_blank">AI</a>鏁欑▼璇峰叧娉� [AI棰戦亾](/ai/)銆�*
 
 <div class="page-nav">
-  <a href="/review/asus-nuc-14-pro-plus/" rel="prev">上一页：NUC 14 Pro+ 评测</a>
+  <a href="/review/asus-nuc-14-pro-plus/" rel="prev">涓婁竴椤碉細NUC 14 Pro+ 璇勬祴</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*

@@ -1,45 +1,45 @@
 ---
-title: "ROG NUC 评测：游戏玩家的终极迷你主机，RTX 4070 性能炸裂"
+title: "ROG NUC 璇勬祴锛氭父鎴忕帺瀹剁殑缁堟瀬杩蜂綘涓绘満锛孯TX 4070 鎬ц兘鐐歌"
 date: 2026-02-16
 categories: ["hardware"]
 brand: "ASUS"
 model: "ROG NUC"
 platform: "intel"
 official_url: "https://search.jd.com/Search?keyword=ASUS+ROG NUC"
-bilibili_url: "https://search.bilibili.com/all?keyword=ASUS+ROG+NUC+测评"
+bilibili_url: "https://search.bilibili.com/all?keyword=ASUS+ROG+NUC+娴嬭瘎"
 youtube_url: "https://www.youtube.com/results?search_query=ASUS+ROG+NUC+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+pros: "鍋氬伐绮捐壇, 鎬ц兘绋冲畾, 鎺ュ彛涓板瘜"
+cons: "璐熻浇杈冮珮鏃舵湁椋庢墖澹�, 鎵╁睍浣嶆湁闄�"
 slug: "asus-rog-nuc"
 ---
 
-# ROG NUC 评测：游戏玩家的终极迷你主机
+# ROG NUC 璇勬祴锛氭父鎴忕帺瀹剁殑缁堟瀬杩蜂綘涓绘満
 
 
-## 一、前言
+## 涓€銆佸墠瑷€
 
-随着Intel将NUC产品线交接给华硕，ROG的血液终于注入了这个<a href="/review/" target="_blank">迷你主机</a>家族。ROG NUC作为华硕接手后的首款游戏向产品，在仅**2.5升**的体积内，塞进了酷睿Ultra 9处理器和RTX 4070移动显卡。
+闅忕潃Intel灏哊UC浜у搧绾夸氦鎺ョ粰鍗庣锛孯OG鐨勮娑茬粓浜庢敞鍏ヤ簡杩欎釜<a href="/review/" target="_blank">杩蜂綘涓绘満</a>瀹舵棌銆俁OG NUC浣滀负鍗庣鎺ユ墜鍚庣殑棣栨娓告垙鍚戜骇鍝侊紝鍦ㄤ粎**2.5鍗�**鐨勪綋绉唴锛屽杩涗簡閰风澘Ultra 9澶勭悊鍣ㄥ拰RTX 4070绉诲姩鏄惧崱銆�
 
-这台被称为"性能怪兽"的小主机，究竟能否成为客厅游戏的最佳选择？让我们一探究竟。
+杩欏彴琚О涓�"鎬ц兘鎬吔"鐨勫皬涓绘満锛岀┒绔熻兘鍚︽垚涓哄鍘呮父鎴忕殑鏈€浣抽€夋嫨锛熻鎴戜滑涓€鎺㈢┒绔熴€�
 
-## 二、外观与接口
+## 浜屻€佸瑙備笌鎺ュ彛
 
-**体积与设计**
-ROG NUC的机身尺寸极为紧凑，仅**2.5升**体积，约等于四罐叠放的可乐高度。搭配直立支架，可像书本一样立在书桌上。机身侧面ROG Logo不点亮时低调隐藏，开机后信仰值拉满。
+**浣撶Н涓庤璁�**
+ROG NUC鐨勬満韬昂瀵告瀬涓虹揣鍑戯紝浠�**2.5鍗�**浣撶Н锛岀害绛変簬鍥涚綈鍙犳斁鐨勫彲涔愰珮搴︺€傛惌閰嶇洿绔嬫敮鏋讹紝鍙儚涔︽湰涓€鏍风珛鍦ㄤ功妗屼笂銆傛満韬晶闈OG Logo涓嶇偣浜椂浣庤皟闅愯棌锛屽紑鏈哄悗淇′话鍊兼媺婊°€�
 
-**接口配置**
+**鎺ュ彛閰嶇疆**
 
-| 位置 | 接口类型 | 数量/规格 |
+| 浣嶇疆 | 鎺ュ彛绫诲瀷 | 鏁伴噺/瑙勬牸 |
 | :--- | :--- | :--- |
-| **前置** | USB 3.2 Gen2、SD读卡器、3.5mm音频、电源键 | 满足日常便捷连接 |
-| **后置** | 雷电4（支持DP 2.1）、HDMI 2.1、2×DP 1.4、2×USB 3.2 Gen2、2×USB 2.0、2.5G网口 | 支持**四屏4K输出** |
+| **鍓嶇疆** | USB 3.2 Gen2銆丼D璇诲崱鍣ㄣ€�3.5mm闊抽銆佺數婧愰敭 | 婊¤冻鏃ュ父渚挎嵎杩炴帴 |
+| **鍚庣疆** | 闆风數4锛堟敮鎸丏P 2.1锛夈€丠DMI 2.1銆�2脳DP 1.4銆�2脳USB 3.2 Gen2銆�2脳USB 2.0銆�2.5G缃戝彛 | 鏀寔**鍥涘睆4K杈撳嚭** |
 
 ---
 
-*更多<a href="/review/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/review/)。*
+*鏇村<a href="/review/" target="_blank">杩蜂綘涓绘満</a>娴嬭瘎璇峰叧娉� [纭欢棰戦亾](/review/)銆�*
 
 <div class="page-nav">
-  <a href="/guide/data-321-backup/" rel="prev">上一页：数据无价：3-2-1备份策略</a>
+  <a href="/guide/data-321-backup/" rel="prev">涓婁竴椤碉細鏁版嵁鏃犱环锛�3-2-1澶囦唤绛栫暐</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*鏈枃鐢� NUC NAS Hub 鑷姩鐢熸垚*
