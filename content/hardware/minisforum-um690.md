@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum UM690 评测：AMD 6900H 旗舰迷你主机"
 date: 2026-02-20
 categories: ["hardware"]

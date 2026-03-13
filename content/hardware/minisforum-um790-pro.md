@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum UM790 Pro 评测：AMD 7940HS 旗舰迷你主机"
 date: 2026-02-20
 categories: ["hardware"]

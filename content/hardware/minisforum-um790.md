@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum UM790 评测：AMD 7940H 顶级迷你主机"
 date: 2026-02-20
 categories: ["hardware"]

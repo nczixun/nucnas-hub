@@ -1,4 +1,4 @@
-﻿---
+---
 title: "GMKTEC K6 评测：AMD 6900HX 高性价比之选"
 date: 2026-02-18
 categories: ["hardware"]

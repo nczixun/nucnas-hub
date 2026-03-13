@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Synology DS923+ 评测：中小企业NAS首选，性能升级"
 date: 2026-02-20
 categories: ["hardware"]

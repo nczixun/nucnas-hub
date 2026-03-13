@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum UM780 XTX 评测：核显性能天花板"
 date: 2026-02-20
 categories: ["hardware"]

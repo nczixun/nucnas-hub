@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Khadas Mind 评测：模块化设计内置电池，移动工作站新物种"
 date: 2026-03-01
 categories: ["hardware"]

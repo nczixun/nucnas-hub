@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Beelink SER5 评测：AMD 5800H 性价比之选"
 date: 2026-02-18
 categories: ["hardware"]

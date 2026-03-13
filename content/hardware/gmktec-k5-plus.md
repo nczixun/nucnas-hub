@@ -1,4 +1,4 @@
-﻿---
+---
 title: "GMKTEC K5 Plus 评测：AMD 5800H 入门首选"
 date: 2026-02-18
 categories: ["hardware"]

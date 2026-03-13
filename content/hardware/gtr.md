@@ -1,4 +1,4 @@
-﻿---
+---
 title: "零刻 GT-R 评测：Intel i9-12900HK 旗舰迷你主机"
 date: 2026-02-18
 categories: ["hardware"]

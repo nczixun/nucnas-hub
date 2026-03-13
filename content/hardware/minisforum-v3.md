@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum V3 评测：AMD 8840U 三合一平板"
 date: 2026-02-20
 categories: ["hardware"]

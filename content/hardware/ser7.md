@@ -1,4 +1,4 @@
-﻿---
+---
 title: "零刻 SER7 评测：AMD 7840HS 高性能迷你主机"
 date: 2026-02-18
 categories: ["hardware"]

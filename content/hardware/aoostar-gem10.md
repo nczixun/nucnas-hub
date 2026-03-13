@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Aoostar GEM10 评测：AMD 6800H 中端之选"
 date: 2026-02-14
 categories: ["hardware"]

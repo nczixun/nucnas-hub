@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum EM780 评测：AMD 7840U 超小体积旗舰"
 date: 2026-02-20
 categories: ["hardware"]

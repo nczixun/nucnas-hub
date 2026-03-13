@@ -1,4 +1,4 @@
-﻿---
+---
 title: "零刻 SER6 评测：AMD 6600H 入门级"
 date: 2026-02-18
 categories: ["hardware"]

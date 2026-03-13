@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Beelink SER7 评测：AMD 7840HS 性能怪兽来了"
 date: 2026-02-18
 categories: ["hardware"]

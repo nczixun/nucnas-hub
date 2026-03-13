@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum UM590 评测：AMD 5900H 高性能迷你主机"
 date: 2026-02-20
 categories: ["hardware"]

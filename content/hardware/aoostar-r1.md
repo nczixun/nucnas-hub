@@ -1,4 +1,4 @@
-﻿---
+---
 slug: "aoostar-r1"
 title: "Aoostar R1"
 date: 2026-02-27

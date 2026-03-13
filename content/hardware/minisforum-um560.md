@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum UM560 评测：AMD 5600H 入门级迷你主机"
 date: 2026-02-20
 categories: ["hardware"]

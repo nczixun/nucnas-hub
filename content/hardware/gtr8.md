@@ -1,4 +1,4 @@
-﻿---
+---
 title: "零刻 GTR8 评测：AMD 8845HS 顶级旗舰"
 date: 2026-02-18
 categories: ["hardware"]

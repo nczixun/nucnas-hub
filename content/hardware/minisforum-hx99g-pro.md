@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Minisforum HX99G Pro 评测：AMD 6900HX + RX 6650M 旗舰版"
 date: 2026-02-20
 categories: ["hardware"]
