@@ -16,6 +16,20 @@ slug: "asus-nuc-14-pro"
 # ASUS NUC 14 Pro 评测：Intel Ultra 9 185H 迷你主机性能实测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 一、前言
 
 作为华硕接手Intel NUC产品线后的首批标准机型，<a href="/hardware/" target="_blank">NUC</a> 14 Pro承载着传承经典4x4英寸设计的使命。相比同门带"AI"后缀的Lunar Lake版本，这款标准Pro系列采用第一代酷睿Ultra处理器（Meteor Lake），主打**稳定可靠、扩展性强**的商用市场。

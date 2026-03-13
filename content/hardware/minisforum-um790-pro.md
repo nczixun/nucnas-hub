@@ -16,6 +16,20 @@ slug: "minisforum-um790-pro"
 # Minisforum UM790 Pro 评测：AMD 7940HS 旗舰迷你主机
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 一、前言
 
 在<a href="/hardware/" target="_blank">迷你主机</a>市场，性能与体积的平衡一直是各家厂商追逐的目标。今天来到测评室的，是来自**Minisforum铭凡**的**UM790 Pro**——一款搭载**AMD锐龙9 7940HS处理器**和**Radeon 780M核显**的旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。

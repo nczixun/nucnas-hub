@@ -23,6 +23,20 @@ slug: "asus-nuc-15-pro-2026"
 # ASUS NUC 15 Pro 深度评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 概述
 
 <a href="/hardware/asus-nuc-15-pro-2026/" target="_blank">ASUS NUC 15 Pro</a> 搭载Intel Ultra 200U处理器，是一款商务级<a href="/hardware/" target="_blank">迷你主机</a>。

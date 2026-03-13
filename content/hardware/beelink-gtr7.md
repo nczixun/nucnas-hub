@@ -10,6 +10,20 @@ tags: ["Beelink", "GTR7", "amd"]
 # Beelink GTR7 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/beelink-gtr7/" target="_blank">Beelink GTR7</a> 搭载 AMD 7940HS 处理器，是性能党的最爱。
 
 ## 主要特点

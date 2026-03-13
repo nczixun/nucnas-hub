@@ -9,6 +9,20 @@ slug: "amd-ryzen-ai-300-review"
 # AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 AMD 这次真没开玩笑。全新 Ryzen AI 300 系列来了，50TOPS 的 NPU 算力，直接把 Intel 按在地上摩擦。
 
 首批面向消费级<a href="/hardware/" target="_blank">迷你主机</a>的 AI PC 处理器，Zen 5 架构 + XDNA 2 NPU + RDNA 3.5 核显，全家桶配齐。实际表现怎么样？往下看。

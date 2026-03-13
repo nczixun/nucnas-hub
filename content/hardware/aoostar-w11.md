@@ -16,6 +16,20 @@ slug: "aoostar-w11"
 # Aoostar W11 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/aoostar-w11/" target="_blank">Aoostar W11</a> 搭载 AMD 5825U 处理器，是一款高性价比<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点

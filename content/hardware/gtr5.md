@@ -11,6 +11,20 @@ slug: "gtr5"
 # 零刻 GTR5 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/gtr5/" target="_blank">零刻 GTR5</a> 是一款 AMD 5900HX 旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点

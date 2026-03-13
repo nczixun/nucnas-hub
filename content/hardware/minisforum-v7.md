@@ -16,6 +16,20 @@ slug: "minisforum-v7"
 # Minisforum V7 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/minisforum-v7/" target="_blank">Minisforum V7</a> 是一款 AMD 8845HS 旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点

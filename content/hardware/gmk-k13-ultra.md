@@ -12,6 +12,20 @@ slug: "gmk-k13-ultra-256v"
 
 # 极摩客 K13 Ultra 深度测评：Intel Core Ultra 7 256V 核显性能实测
 
+
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
 ![K13 Ultra](https://images.pexels.com/photos/159888/photo-1598887142487-3c854d53d27b.jpeg "极摩客 K13 Ultra")
 
 极摩客 K13 Ultra 是 2026 年推出的全新旗舰级<a href="/hardware/" target="_blank">迷你主机</a>，搭载 Intel Core Ultra 7 256V 处理器，采用Xe2架构核显，标志着迷你主机性能进入新纪元。

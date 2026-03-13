@@ -15,6 +15,20 @@ slug: "gmktec-k8"
 
 # 均衡的“AI性能小钢炮”——极摩客 GMKtec K8 开箱测评：当8845HS遇上双2.5G网口
 
+
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
 **测评日期：** 2026年2月19日  
 **测评型号：** 极摩客 GMKtec NucBox K8（AMD Ryzen 7 8845HS / 32GB+1TB版）
 
@@ -165,3 +179,8 @@ TechRadar评价：“The raw power of this system puts even the Intel 5 Ultra sy
 <div style='margin-top: 30px; text-align: center;'>
     <a href='https://search.jd.com/Search?keyword=GMKtec+K8' target='_blank' class='btn-apple' style='background: #E1251B; color:white; border-radius: 99px; padding: 10px 25px; display: inline-block; text-decoration:none;'>去京东查看价格 &rarr;</a>
 </div>
+
+
+---
+
+*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

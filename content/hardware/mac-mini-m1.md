@@ -11,6 +11,20 @@ slug: "mac-mini-m1"
 # M1 苹果迷你主机 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/mac-mini-m1/" target="_blank">Apple M1 Mac mini</a> 是一款搭载 Apple M1 芯片的<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点

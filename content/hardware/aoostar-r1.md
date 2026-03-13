@@ -12,6 +12,20 @@ keywords: ["N100", "双盘位", "NAS主机", "nas"]
 # Aoostar R1 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 概述
 
 <a href="/hardware/aoostar-r1/" target="_blank">Aoostar R1</a> 是一款基于 N100 处理器的双盘位 <a href="/nas/" target="_blank">NAS</a> 主机，专为家庭存储设计。

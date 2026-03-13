@@ -16,6 +16,20 @@ slug: "minisforum-ms-a1"
 # Minisforum MS-A1 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 一、前言
 
 <a href="/hardware/minisforum-ms-a1/" target="_blank">Minisforum MS-A1</a> 是一款创新的<a href="/hardware/" target="_blank">迷你主机</a>，采用AM5插槽设计，可更换CPU。

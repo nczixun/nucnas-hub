@@ -12,6 +12,20 @@ keywords: ["N100", "极小体积", "随身携带", "hardware"]
 # Morefine M9 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 概述
 
 <a href="/hardware/morefine-m9/" target="_blank">Morefine M9</a> 是一款超小体积的<a href="/hardware/" target="_blank">迷你主机</a>，便携性强，适合移动办公。

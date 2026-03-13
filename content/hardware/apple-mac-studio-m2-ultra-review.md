@@ -9,6 +9,20 @@ tags: ["测评", "迷你主机", "Apple", "Mac Studio", "M2 Ultra", "苹果"]
 
 # Apple Mac Studio M2 Ultra 测评：桌面性能怪兽
 
+
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
 ## 一、产品概述
 
 Mac Studio 是苹果桌面工作站级别产品，搭载 M2 Ultra 芯片，是目前性能最强的 Apple Silicon。

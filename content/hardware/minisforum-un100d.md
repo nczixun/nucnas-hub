@@ -12,6 +12,20 @@ keywords: ["N100", "双2.5G", "PD供电", "hardware"]
 # Minisforum UN100D 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 概述
 
 <a href="/hardware/minisforum-un100d/" target="_blank">Minisforum UN100D</a> 是一款基于 Intel N100 处理器的入门级<a href="/hardware/" target="_blank">迷你主机</a>，支持双2.5G网口和PD供电。

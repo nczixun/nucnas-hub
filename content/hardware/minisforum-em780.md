@@ -16,6 +16,20 @@ slug: "minisforum-em780"
 # Minisforum EM780 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/minisforum-em780/" target="_blank">Minisforum EM780</a> 是一款超小体积的 AMD 7840U<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点

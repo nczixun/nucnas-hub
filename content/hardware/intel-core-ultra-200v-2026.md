@@ -42,6 +42,20 @@ radar:
 
 # Intel Core Ultra 200V系列深度解析：Xe2核显+120TOPS AI，这才是真正的AI PC？
 
+
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
 **发布日期：** 2026年3月
 
 ## 一、 前言
@@ -143,3 +157,8 @@ Xe2核显性能强劲, AI算力达120TOPS, 功耗控制优秀, Wi-Fi 7支持
         <div><div style='font-weight: 700;'>Bilibili 测评</div><div style='font-size: 12px; color: #86868B;'>国内实测</div></div>
     </a>
 </div>
+
+
+---
+
+*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

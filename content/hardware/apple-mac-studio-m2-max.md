@@ -15,6 +15,20 @@ slug: "apple-mac-studio-m2-max"
 
 # 专业创作领域的“沉默巨匠”——苹果 Mac Studio (M2 Max) 开箱测评：小尺寸，大能量
 
+
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
 **测评日期：** 2026年2月15日  
 **测评型号：** 苹果 Apple Mac Studio（M2 Max芯片 / 12核CPU + 38核GPU / 32GB+1TB版）
 
@@ -172,3 +186,8 @@ Ad Hoc News评价：“Mac Studio delivers something rare: desktop performance t
 | **无线** | Wi-Fi 6E + 蓝牙5.3 |
 | **散热** | 双离心风扇 + 大尺寸散热片，安静稳定 |
 | **系统** | macOS（已为Apple芯片优化） |
+
+
+---
+
+*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

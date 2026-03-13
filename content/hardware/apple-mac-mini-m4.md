@@ -10,6 +10,20 @@ tags: ["Apple", "Mac mini M4", "apple"]
 # Apple Mac mini M4 深度评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 概述
 
 <a href="/hardware/apple-mac-mini-m4/" target="_blank">Apple Mac mini M4</a> 搭载M4芯片，是一款小体积大能量的<a href="/hardware/" target="_blank">迷你主机</a>。

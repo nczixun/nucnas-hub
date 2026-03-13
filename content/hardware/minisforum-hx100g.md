@@ -10,6 +10,20 @@ tags: ["Minisforum", "HX100G", "amd"]
 # Minisforum HX100G 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 ## 概述
 
 <a href="/hardware/minisforum-hx100g/" target="_blank">Minisforum HX100G</a> 是首批搭载 Intel Ultra 的<a href="/hardware/" target="_blank">迷你主机</a>，配备RX6650M独立显卡和液金散热。

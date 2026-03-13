@@ -16,6 +16,20 @@ slug: "beelink-ser5"
 # Beelink SER5 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/beelink-ser5/" target="_blank">Beelink SER5</a> 搭载 AMD 5800H 处理器，是一款性价比极高的<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点

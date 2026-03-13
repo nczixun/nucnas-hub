@@ -11,6 +11,20 @@ slug: "eq12-pro"
 # 零刻 EQ12 Pro 评测
 
 
+
+> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
+---
+
+## 📊 视频来源
+
+| 序号 | 视频标题 | 博主 |
+|------|----------|------|
+| 1 | 待补充 | 待补充 |
+
+
+
+
 <a href="/hardware/eq12-pro/" target="_blank">零刻 EQ12 Pro</a> 是一款 Intel N100 高性价比<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
