@@ -1,0 +1,11 @@
+name = "nucnas-hub"
+build_command = "hugo --minify"
+build_dir = "public"
+
+[environment]
+  HUGO_ENABLEGITINFO = "true"
+  HUGO_HASJCKLANGUAGE = "true"
+
+[site]
+  charset = "utf-8"
+  language = "zh-CN"
