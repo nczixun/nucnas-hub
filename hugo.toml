@@ -42,6 +42,9 @@ hasCJKLanguage = true
   filename = "sitemap.xml"
   priority = 0.5
 
+[params]
+  description = "NUC NAS Hub - 专注迷你主机、NAS私有云与本地AI部署的专业测评网站。提供最详细的硬件评测、NAS系统教程、本地AI部署方案。"
+
 [permalinks]
   posts = "/post/:slug/"
   hardware = "/review/:slug/"
