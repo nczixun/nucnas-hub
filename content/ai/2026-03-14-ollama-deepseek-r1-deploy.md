@@ -95,3 +95,9 @@ docker run -d -p 8080:8080 --gpus all -v open-webui:/app/backend/data --name ope
 Ollama 0.5大幅优化了DeepSeek R1的运行效率，7B版本仅需6GB显存即可流畅运行。强烈推荐所有对本地AI感兴趣的用户部署体验。
 
 **推荐配置**：RTX 3060 12GB + R1 14B Q4，性价比最高
+
+## 相关推荐
+
+- [本地AI知识库搭建教程：RAG实战](/ai/local-ai-agent/)
+- [迷你主机AI部署：零刻、铭凡、极摩客GPU方案](/hardware/2026-03-14-mingfan-ms01-review/)
+- [AI PC选购指南：Intel Ultra vs AMD Ryzen AI](/ai/ai-pc-buying-guide-2026/)
