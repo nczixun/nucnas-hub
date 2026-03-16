@@ -5,6 +5,7 @@ categories: ["nas"]
 summary: "OpenWrt旁路由系统安装与配置教程，包括LAN/WAN口设置、PassWall插件安装、v2ray配置，一篇搞定"
 tags: ["OpenWrt", "旁路由", "科学上网", "PassWall", "软路由"]
 slug: "openwrt-router-setup-guide"
+description: "OpenWrt旁路由配置完整教程：LAN/WAN设置、PassWall插件、v2ray配置、DHCP下沉，小白也能学会的科学上网指南。"
 ---
 
 # OpenWrt 旁路由配置教程：手把手教你搭建科学上网环境
