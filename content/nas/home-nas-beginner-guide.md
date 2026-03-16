@@ -2,9 +2,10 @@
 title: "小白入门：5分钟学会搭建家庭私有云，告别网盘限速！"
 date: 2026-03-13
 categories: ["nas"]
-summary: "手把手教你搭建家庭私有云，告别网盘限速，随时随地访问文件"
+summary: "手把手教你搭建家庭私有云，告别网盘限速，随时随地访问文件。详解Nextcloud、CasaOS等开源NAS系统，提供从硬件选型到Docker部署的完整教程。"
 slug: "home-nas-beginner-guide"
 tags: ["NAS", "私有云", "家庭存储", "Nextcloud", "教程"]
+description: "最全面的家庭NAS私有云搭建教程，涵盖硬件推荐、Nextcloud安装、Docker部署、远程访问等完整流程。告别网盘限速，拥有自己的私有云存储。"
 ---
 
 # 小白入门：5分钟学会搭建家庭私有云，告别网盘限速！

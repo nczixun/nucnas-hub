@@ -5,6 +5,7 @@ categories: ["ai"]
 summary: "Ollama 模型量化实测，Q4_K_M 和 Q5_K_S 哪个更适合你的显卡？"
 tags: ["Ollama", "模型量化", "LLM", "本地部署", "AI", "教程"]
 slug: "ollama-model-quantization-guide"
+description: "详细讲解Ollama模型量化原理，实测Q4_K_M、Q5_K_S、Q8_0等量化级别在RTX 3060/4060/4090上的性能表现，4GB显存也能跑70B大模型。"
 ---
 
 # Ollama 模型量化指南：教你用 4GB 显存跑 70B 大模型

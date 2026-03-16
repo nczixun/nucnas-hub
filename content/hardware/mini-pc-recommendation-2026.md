@@ -7,6 +7,7 @@ slug: "mini-pc-recommendation-2026"
 tags: ["迷你主机推荐", "迷你电脑", "mini pc", "2026"]
 brand: "汇总"
 model: "推荐榜单"
+description: "2026年最值得购买的迷你主机推荐榜单，涵盖Intel N150、AMD 8845HS等处理器，从入门到高端全面对比，附京东购买链接。"
 ---
 
 # 2026年迷你主机推荐：最值得购买的10款
