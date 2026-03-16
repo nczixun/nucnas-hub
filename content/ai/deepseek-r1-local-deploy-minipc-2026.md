@@ -5,6 +5,8 @@ categories: ["ai"]
 tags: ["AI", "大模型", "DeepSeek", "Ollama", "本地部署", "教程"]
 platform: "ai"
 slug: "deepseek-r1-local-deploy-minipc-2026"
+summary: "在迷你主机上本地部署DeepSeek R1模型的完整指南，使用Ollama实现"
+description: "迷你主机本地部署DeepSeek R1完整指南：Ollama/Docker两种部署方式，7B/14B/70B模型性能测试，Intel NUC/零刻/铭凡运行效果对比。"
 ---
 
 # 2026年本地大模型部署：迷你主机运行DeepSeek R1完整指南
