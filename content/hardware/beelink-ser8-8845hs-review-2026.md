@@ -6,6 +6,8 @@ brand: "Beelink"
 model: "SER8"
 platform: "amd"
 slug: "beelink-ser8-8845hs-review"
+summary: "Beelink SER8 8845HS 详细评测：AMD 8核处理器、极致静音表现、金属机身质感，适合家庭影院和办公场景。"
+description: "Beelink SER8 8845HS详细评测：AMD Ryzen 7 8845HS处理器、极致静音设计、金属机身，散热和性能全面测试。迷你主机评测。"
 ---
 
 # Beelink SER8 8845HS 实测：金属机身 + 极致静音

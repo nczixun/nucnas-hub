@@ -4,6 +4,7 @@ title: "Unraid 还是 TrueNAS？选出最适合你的存储方案"
 date: 2026-02-12
 summary: "深度对比两者的文件系统、扩展性及硬件要求。"
 categories: ["nas"]
+description: "Unraid vs TrueNAS全面对比：文件系统ZFS vs Btrfs、扩展性、硬件要求、Docker支持等。那个更适合家庭用户？一篇看懂选择。"
 ---
 
 # Unraid还是TrueNAS？

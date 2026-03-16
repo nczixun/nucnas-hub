@@ -5,6 +5,7 @@ date: 2026-02-18
 categories: ["ai"]
 summary: "使用 Ollama + OpenWebUI 搭建一个美观易用的本地 AI 聊天界面，支持多模型切换。"
 tags: ["Ollama", "OpenWebUI", "教程"]
+description: "手把手教你用Ollama+OpenWebUI搭建本地AI聊天界面，支持ChatGPT风格界面、多模型切换、Docker一键部署，在迷你主机上运行。"
 ---
 
 # Ollama + OpenWebUI 搭建本地 AI 聊天界面

@@ -4,6 +4,7 @@ title: "Jellyfin 硬解全攻略：开启 Intel 核显 4K 压榨"
 date: 2026-02-12
 summary: "解决播放卡顿，让 NUC 轻松同时转发 5 路 4K 视频。"
 categories: ["nas"]
+description: "Jellyfin硬解配置完整指南：Intel核显(QSV)加速、TrueNAS Scale安装、驱动配置、容器设置，NUC上实现多路4K流畅播放。"
 ---
 
 # Jellyfin 硬解全攻略：开启 Intel 核显 4K 压榨
