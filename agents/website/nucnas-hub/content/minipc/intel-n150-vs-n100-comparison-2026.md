@@ -40,12 +40,15 @@ author: "NUC NAS Hub"
 
 | 测试项目 | N100 | N150 | 提升幅度 |
 |----------|------|------|----------|
-| Cinebench R23 单核 | ~900 | ~1000 | **+11%** |
-| Cinebench R23 多核 | ~2800 | ~3000 | **+7%** |
-| Geekbench 6 单核 | ~1200 | ~1350 | **+12%** |
-| Geekbench 6 多核 | ~3200 | ~3500 | **+9%** |
+| Cinebench R23 单核 | 940 | 950 | **+1%** |
+| Cinebench R23 多核 | 2940 | 3415 | **+16%** |
+| Cinebench 2024 单核 | 60 | 61 | **+2%** |
+| Cinebench 2024 多核 | 195 | 219 | **+12%** |
+| Geekbench 6 单核 | 1200 | 1350 | **+12%** |
+| Geekbench 6 多核 | 3200 | 3500 | **+9%** |
+| PassMark CPU | 5342 | 5392 | **+1%** |
 
-> 来源：CPU Benchmark [1]
+> 实测数据来源：NotebookCheck、NanoReview、CPU-Monkey
 
 ### GPU 性能
 
