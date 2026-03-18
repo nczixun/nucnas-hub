@@ -4,6 +4,7 @@ date: 2026-03-07
 categories: ["ai"]
 slug: "deepseek-r1-minipc-deploy-2026"
 tags: ["本地部署", "DeepSeek", "Ollama", "AI大模型"]
+draft: true
 ---
 
 # 零刻迷你主机部署 DeepSeek R1：本地大模型实测

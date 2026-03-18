@@ -1,70 +1,49 @@
 {{ define "main" }}
-<!-- Hero Section - 炫酷渐变背景 -->
-<div class="hero-section" style="background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); padding: 100px 40px; border-radius: 28px; margin-bottom: 80px; text-align: center; position: relative; overflow: hidden;">
-    <div style="position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(88,86,214,0.15)0%,transparent50%);animation:rotate 20s linear infinite;"></div>
-    <div style="position:absolute;bottom:-30%;right:-20%;width:100%;height:100%;background:radial-gradient(circle,rgba(175,82,222,0.1)0%,transparent50%);"></div>
-    
-    <div style="position:relative;z-index:1;">
-        <h1 class="hero-title" style="font-size:56px;font-weight:800;color:white;margin-bottom:24px;line-height:1.2;">
-            发现你的<br>
-            <span class="hero-title-accent" style="background:linear-gradient(90deg,#667eea,#764ba2,#f093fb);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">下一台设备</span>
-        </h1>
-        <p class="hero-subtitle" style="font-size:20px;color:rgba(255,255,255,0.8);margin-bottom:40px;max-width:600px;margin-left:auto;margin-right:auto;line-height:1.7;">
-            从 Intel NUC 到 AMD Ryzen，再到 Apple Mac mini，<br>
-            探索 Mini PC 的极致性能，感受家庭NAS与AI的魅力。
-        </p>
-        <div style="display:flex;gap:16px;justify-content:center;margin-bottom:48px;">
-            <a href="/hardware/" style="background:linear-gradient(90deg,#667eea,#764ba2);color:white;padding:16px 36px;border-radius:50px;font-size:18px;font-weight:600;text-decoration:none;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(102,126,234,0.4)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">硬件测评</a>
-            <a href="/nas/" style="background:rgba(255,255,255,0.15);color:white;padding:16px 36px;border-radius:50px;font-size:18px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.3);transition:background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">NAS 指南</a>
-        </div>
-        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;align-items:center;">
-            <span style="color:rgba(255,255,255,0.6);font-size:14px;">热门搜索：</span>
-            <a href="/search?q=Ryzen 8845HS" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">Ryzen 8845HS</a>
-            <a href="/search?q=Mac mini M4" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">Mac mini M4</a>
-            <a href="/search?q=All-in-One" style="background:rgba(255,255,255,0.1);color:white;padding:8px 16px;border-radius:20px;font-size:14px;text-decoration:none;transition:background 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">All-in-One</a>
-        </div>
-    </div>
-</div>
-
-<!-- 四大栏目卡片 -->
-<section style="margin-bottom:80px;">
-    <h2 class="section-title" style="font-size:36px;font-weight:700;margin-bottom:32px;">探索栏目</h2>
+<!-- 四大任务入口 -->
+<section style="margin-bottom:60px;">
+    <h2 class="section-title" style="font-size:36px;font-weight:700;margin-bottom:32px;">🎯 开始你的项目</h2>
     <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
-        <a href="/hardware/" style="background:linear-gradient(135deg,#667eea,#764ba2);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(102,126,234,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
-            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-            </div>
-            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">硬件测评</h3>
-            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">Mini PC 横向评测</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>12+ 文章</span><span>→</span></div>
-        </a>
         
-        <a href="/nas/" style="background:linear-gradient(135deg,#5856D6,#AF52DE);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(88,86,214,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
-            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="4" width="20" height="8" rx="2"/><rect x="2" y="12" width="20" height="8" rx="2"/></svg>
-            </div>
-            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">NAS 学院</h3>
-            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">私有云构建指南</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>20+ 教程</span><span>→</span></div>
-        </a>
-        
-        <a href="/calculator/" style="background:linear-gradient(135deg,#34C759,#30D158);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(52,199,89,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+        <!-- 新手入门 -->
+        <a href="/guide/nas-beginner-guide-2026/" style="background:linear-gradient(135deg,#007AFF,#5856D6);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(0,122,255,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
             <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
             </div>
-            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">本地大模型</h3>
-            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">DeepSeek 部署指南</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>15+ 篇</span><span>→</span></div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">新手入门</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">第一次玩NAS？从这里开始</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>5步上手</span><span>→</span></div>
         </a>
         
-        <a href="/calculator/" style="background:linear-gradient(135deg,#FF9500,#FF3B30);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(255,149,0,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+        <!-- 选购推荐 -->
+        <a href="/hardware/" style="background:linear-gradient(135deg,#FF9500,#FF3B30);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(255,149,0,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
             <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/></svg>
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
             </div>
-            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">计算器</h3>
-            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">性能功耗对比</p>
-            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>5+ 工具</span><span>→</span></div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">选购推荐</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">Mini PC & NAS 怎么选？</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>140+ 评测</span><span>→</span></div>
         </a>
+        
+        <!-- 安装教程 -->
+        <a href="/nas/" style="background:linear-gradient(135deg,#34C759,#30D158);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(52,199,89,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">安装教程</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">系统安装、Docker、远程访问</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>90+ 教程</span><span>→</span></div>
+        </a>
+        
+        <!-- 工具配置器 -->
+        <a href="/calculator/" style="background:linear-gradient(135deg,#5856D6,#AF52DE);border-radius:24px;padding:32px;text-decoration:none;color:white;transition:transform 0.3s,box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-8px)';this.style.boxShadow='0 20px 40px rgba(88,86,214,0.3)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='none'">
+            <div style="background:rgba(255,255,255,0.2);width:64px;height:64px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>
+            </div>
+            <h3 style="font-size:22px;font-weight:600;margin-bottom:10px;">工具配置器</h3>
+            <p style="opacity:0.85;font-size:15px;margin-bottom:20px;">性能对比、功耗计算</p>
+            <div style="display:flex;justify-content:space-between;opacity:0.75;font-size:14px;"><span>待开发</span><span>→</span></div>
+        </a>
+        
     </div>
 </section>
 

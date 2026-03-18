@@ -2,17 +2,15 @@
 title: "Intel N150迷你主机全面横评：2026年入门级性能之王"
 date: 2026-03-14
 categories: ["hardware"]
-tags: ["Intel N150", "迷你主机", "Mini PC", "评测", "零刻", "极摩客"]
-description: "Intel N150处理器迷你主机横评，零刻EQ13、极摩客M5对比，2026年入门级Mini PC首选"
+tags: ["Intel N150", "迷你主机", "Mini PC", "评测", "零刻", "极摩卡"]
+description: "Intel N150处理器迷你主机横评，零刻EQ13、极摩客M5对比：2026年入门级Mini PC首选"
 keywords: ["Intel N150", "迷你主机", "Mini PC评测", "零刻EQ13", "极摩客M5"]
 ---
 
-# Intel N150迷你主机全面横评：2026年入门级性能之王
+# Intel N150迷你主机全面横评�?026年入门级性能之王
 
-## N150处理器解析
-
-Intel N150是Alder Lake-N架构入门处理器，6核心6线程，基础频率1.1GHz，睿频3.6GHz。核显为24EU UHD Graphics，支持4K@60Hz输出。TDP仅6W，功耗控制出色。
-
+## N150处理器解�?
+Intel N150是Alder Lake-N架构入门处理器，6核心6线程，基础频率1.1GHz，睿�?.6GHz。核显为24EU UHD Graphics，支�?K@60Hz输出。TDP�?W，功耗控制出色�?
 ## 参测机型
 
 - 零刻EQ13（准系统899元）
@@ -31,18 +29,16 @@ Intel N150是Alder Lake-N架构入门处理器，6核心6线程，基础频率1.
 ## 使用场景实测
 
 - **办公**：Office三件套流畅，多标签浏览无压力
-- **视频**：4K@60Hz解码流畅，PotPlayer硬解正常
-- **轻度游戏**：LOL 1080P中高画质60fps，Dota2低画质30fps
-- **软路由**：可跑满2.5G带宽，OpenWrt运行稳定
+- **视频**�?K@60Hz解码流畅，PotPlayer硬解正常
+- **轻度游戏**：LOL 1080P中高画质60fps，Dota2低画�?0fps
+- **软路�?*：可跑满2.5G带宽，OpenWrt运行稳定
 
 ## 功耗与散热
 
-AIDA64 FPU烤机30分钟，零刻EQ13温度稳定在65℃，极摩客M5约70℃。满载功耗约18W，待机功耗仅3W。
-
-> N150处理器也适合软路由场景，搭配NAS可实现All in One，详见：[DIY NAS硬盘选购指南](/nas/diy-nas-hard-disk-guide/)
+AIDA64 FPU烤机30分钟，零刻EQ13温度稳定�?5℃，极摩客M5�?0℃。满载功耗约18W，待机功耗仅3W�?
+> N150处理器也适合软路由场景，搭配NAS可实现All in One，详见：[DIY NAS硬盘选购指南](/guide/diy-nas-hard-disk-guide/)
 
 ## 总结
 
-Intel N150是2026年入门级迷你主机最优选，相比N100有20%以上性能提升，功耗控制同样出色。
-
+Intel N150�?026年入门级迷你主机最优选，相比N100�?0%以上性能提升，功耗控制同样出色�?
 **推荐**：预算敏感选极摩客M5，追求做工选零刻EQ13

@@ -5,6 +5,7 @@ categories: ["nas"]
 summary: "Docker Compose配置文件怎么写，从基础到进阶，手把手教你用docker-compose.yml管理多容器"
 tags: ["Docker Compose", "Docker", "容器管理", "NAS", "进阶教程"]
 slug: "docker-compose-advanced-guide"
+aliases: ["/guide/docker-compose-advanced-2026/"]
 ---
 
 # Docker Compose 进阶：如何用配置文件管理复杂容器环境

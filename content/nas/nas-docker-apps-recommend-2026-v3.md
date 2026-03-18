@@ -1,24 +1,24 @@
-﻿---
-title: "2026年NAS必装Docker应用推荐：提升私有云生产力"
+---
+title: "2026��NAS��װDockerӦ���Ƽ�������˽����������"
 date: 2026-03-05
 categories: ["nas"]
-tags: ["NAS", "Docker", "私有云", "应用推荐", "Docker Compose"]
+tags: ["NAS", "Docker", "˽����", "Ӧ���Ƽ�", "Docker Compose"]
 platform: "nas"
 slug: "nas-docker-apps-recommend-2026-v3"
 ---
 
-# 2026年NAS必装Docker应用：这20个应用让你的私有云更强大
+# 2026��NAS��װDockerӦ�ã���20��Ӧ�������˽���Ƹ�ǿ��
 
 
-**更新日期：** 2026年3月5日
+**�������ڣ�** 2026��3��5��
 
-## 一、前言
+## һ��ǰ��
 
-<a href="/nas/docker-best-practice/" target="_blank">Docker</a>是<a href="/nas/" target="_blank">NAS</a>进阶玩法的核心。借助<a href="/nas/docker-best-practice/" target="_blank">Docker</a>，你可以在<a href="/nas/" target="_blank">NAS</a>上运行各种服务，从文件管理到智能家居，从影音娱乐到AI应用。本文精选20个必备<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用，让你的<a href="/nas/" target="_blank">NAS</a>物超所值。
+<a href="/nas/docker-best-practice/" target="_blank">Docker</a>��<a href="/nas/" target="_blank">NAS</a>�����淨�ĺ��ġ�����<a href="/nas/docker-best-practice/" target="_blank">Docker</a>���������<a href="/nas/" target="_blank">NAS</a>�����и��ַ��񣬴��ļ���������ܼҾӣ���Ӱ�����ֵ�AIӦ�á����ľ�ѡ20���ر�<a href="/nas/docker-best-practice/" target="_blank">Docker</a>Ӧ�ã������<a href="/nas/" target="_blank">NAS</a>�ﳬ��ֵ��
 
-## 二、必备工具类
+## �����ر�������
 
-### 2.1 <a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>（容器管理）
+### 2.1 <a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>�����������
 
 ```yaml
 version: '3'
@@ -34,29 +34,29 @@ services:
       - portainer_data:/data
 ```
 
-**功能**：图形化<a href="/nas/docker-best-practice/" target="_blank">Docker</a>管理面板，可视化容器、镜像、网络管理
+**����**��ͼ�λ�<a href="/nas/docker-best-practice/" target="_blank">Docker</a>������壬���ӻ������������������
 
-**推荐理由**：必装！管理<a href="/nas/docker-best-practice/" target="_blank">Docker</a>更直观
+**�Ƽ�����**����װ������<a href="/nas/docker-best-practice/" target="_blank">Docker</a>��ֱ��
 
-### 2.2 FileBrowser（文件管理）
+### 2.2 FileBrowser���ļ������
 
-**功能**：网页版文件管理器，支持拖拽上传、在线预览、权限管理
+**����**����ҳ���ļ���������֧����ק�ϴ�������Ԥ����Ȩ�޹���
 
-**替代方案**：<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>（网盘聚合）
+**�������**��<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>�����̾ۺϣ�
 
-### 2.3 Nginx Proxy Manager（反向代理）
+### 2.3 Nginx Proxy Manager����������
 
-**功能**：图形化配置反向代理，支持Let's Encrypt自动SSL证书
+**����**��ͼ�λ����÷�������֧��Let's Encrypt�Զ�SSL֤��
 
-**推荐理由**：内网穿透、域名访问必备
+**�Ƽ�����**��������͸���������ʱر�
 
-## 三、影音娱乐类
+## ����Ӱ��������
 
-### 3.1 Jellyfin（媒体服务器）
+### 3.1 Jellyfin��ý���������
 
-**功能**：自建影视库，支持海报墙、硬件转码、远程访问
+**����**���Խ�Ӱ�ӿ⣬֧�ֺ���ǽ��Ӳ��ת�롢Զ�̷���
 
-**推荐配置**：
+**�Ƽ�����**��
 ```yaml
 jellyfin:
   image: jellyfin/jellyfin:latest
@@ -73,154 +73,154 @@ jellyfin:
     - "8920:8920"
 ```
 
-### 3.2 Bazarr（字幕下载）
+### 3.2 Bazarr����Ļ���أ�
 
-**功能**：自动下载电影/剧集字幕，支持多语言
+**����**���Զ����ص�Ӱ/�缯��Ļ��֧�ֶ�����
 
-**配合**：Jellyfin/Plex
+**���**��Jellyfin/Plex
 
-### 3.3 qBittorrent（下载）
+### 3.3 qBittorrent�����أ�
 
-**功能**：BT/PT下载，支持自动RSS订阅
+**����**��BT/PT���أ�֧���Զ�RSS����
 
-**推荐搭配**：Jackett（索引）
+**�Ƽ�����**��Jackett��������
 
-## 四、照片管理类
+## �ġ���Ƭ������
 
-### 4.1 <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>（AI相册）
+### 4.1 <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>��AI��ᣩ
 
-**功能**：Google Photos开源替代，AI人脸识别、地图视图、备份同步
+**����**��Google Photos��Դ�����AI����ʶ�𡢵�ͼ��ͼ������ͬ��
 
-**亮点**：
-- 移动端App支持
-- AI人脸识别
-- 地理位置展示
-- 自动备份手机照片
+**����**��
+- �ƶ���App֧��
+- AI����ʶ��
+- ����λ��չʾ
+- �Զ������ֻ���Ƭ
 
-### 4.2 PhotoPrism（AI相册）
+### 4.2 PhotoPrism��AI��ᣩ
 
-**功能**：另一款强大的AI相册，支持物体识别、地名识别
+**����**����һ��ǿ���AI��ᣬ֧������ʶ�𡢵���ʶ��
 
-**对比**：<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>更注重移动端体验，PhotoPrism网页功能更丰富
+**�Ա�**��<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>��ע���ƶ������飬PhotoPrism��ҳ���ܸ��ḻ
 
-## 五、智能家居类
+## �塢���ܼҾ���
 
 ### 5.1 <a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>
 
-**功能**：开源智能家居平台，支持数千种设备
+**����**����Դ���ܼҾ�ƽ̨��֧����ǧ���豸
 
-**推荐配置**：使用OS版本通过KVM/Proxmox运行，性能更好
+**�Ƽ�����**��ʹ��OS�汾ͨ��KVM/Proxmox���У����ܸ���
 
-**必装插件**：
-- HACS（社区插件商店）
-- ESPHome（DIY设备）
-- Node-RED（自动化）
+**��װ���**��
+- HACS����������̵꣩
+- ESPHome��DIY�豸��
+- Node-RED���Զ�����
 
-### 5.2 AdGuard Home（广告过滤）
+### 5.2 AdGuard Home�������ˣ�
 
-**功能**：全网广告拦截，DNS过滤，保护家人上网
+**����**��ȫ��������أ�DNS���ˣ�������������
 
-**推荐理由**：比路由器广告过滤更强大
+**�Ƽ�����**����·���������˸�ǿ��
 
-## 六、效率工具类
+## ����Ч�ʹ�����
 
-### 6.1 Syncthing（文件同步）
+### 6.1 Syncthing���ļ�ͬ����
 
-**功能**：多设备文件同步，替代百度网盘/OneDrive
+**����**�����豸�ļ�ͬ��������ٶ�����/OneDrive
 
-**优势**：点对点加密传输，不走第三方服务器
+**����**����Ե���ܴ��䣬���ߵ�����������
 
-### 6.2 Wallabag（稍后阅读）
+### 6.2 Wallabag���Ժ��Ķ���
 
-**功能**：开源稍后阅读，收藏文章离线查看
+**����**����Դ�Ժ��Ķ����ղ��������߲鿴
 
-### 6.3 LinkStack（个人导航页）
+### 6.3 LinkStack�����˵���ҳ��
 
-**功能**：自建网址导航，类似Linktree
+**����**���Խ���ַ����������Linktree
 
-### 6.4 Uptime Kuma（监控）
+### 6.4 Uptime Kuma����أ�
 
-**功能**：自建网站/服务监控，支持告警通知
+**����**���Խ���վ/�����أ�֧�ָ澯֪ͨ
 
-## 七、AI/开发类
+## �ߡ�AI/������
 
-### 7.1 <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>（本地大模型）
+### 7.1 <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>�����ش�ģ�ͣ�
 
-**功能**：在<a href="/nas/" target="_blank">NAS</a>上运行Llama 2、DeepSeek等大语言模型
+**����**����<a href="/nas/" target="_blank">NAS</a>������Llama 2��DeepSeek�ȴ�����ģ��
 
-**推荐配置**：需要16GB+内存，建议N5105以上CPU
+**�Ƽ�����**����Ҫ16GB+�ڴ棬����N5105����CPU
 
-### 7.2 OpenWebUI（对话界面）
+### 7.2 OpenWebUI���Ի����棩
 
-**功能**：ChatGPT风格界面，连接<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>或其他API
+**����**��ChatGPT�����棬����<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>������API
 
-### 7.3 Stable Diffusion WebUI（AI绘画）
+### 7.3 Stable Diffusion WebUI��AI�滭��
 
-**功能**：本地AI绘图，需显卡支持
+**����**������AI��ͼ�����Կ�֧��
 
-**推荐配置**：RTX 3060以上显卡
+**�Ƽ�����**��RTX 3060�����Կ�
 
-## 八、学习/工具类
+## �ˡ�ѧϰ/������
 
-### 8.1 CodeServer（云端IDE）
+### 8.1 CodeServer���ƶ�IDE��
 
-**功能**：浏览器中编程，支持VS Code
+**����**��������б�̣�֧��VS Code
 
-### 8.2 PiKVM（IPKVM替代）
+### 8.2 PiKVM��IPKVM�����
 
-**功能**：远程KVM over IP，硬件维护利器
+**����**��Զ��KVM over IP��Ӳ��ά������
 
-### 8.3 WikiJS（知识库）
+### 8.3 WikiJS��֪ʶ�⣩
 
-**功能**：自建个人/团队知识库
+**����**���Խ�����/�Ŷ�֪ʶ��
 
-## 九、安装建议
+## �š���װ����
 
-### 9.1 <a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>模板
+### 9.1 <a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>ģ��
 
-推荐使用<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>的"Stacks"功能或<a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>管理
+�Ƽ�ʹ��<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>��"Stacks"���ܻ�<a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>����
 
-### 9.2 资源分配
+### 9.2 ��Դ����
 
-| 应用 | CPU | 内存 |
+| Ӧ�� | CPU | �ڴ� |
 | :--- | :--- | :--- |
-| Jellyfin | 2核+ | 4GB+ |
-| Home Assistant | 1核 | 2GB |
-| <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a> | 2核 | 4GB+ |
-| <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a> | 4核 | 16GB+ |
+| Jellyfin | 2��+ | 4GB+ |
+| Home Assistant | 1�� | 2GB |
+| <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a> | 2�� | 4GB+ |
+| <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a> | 4�� | 16GB+ |
 
-### 9.3 数据持久化
+### 9.3 ���ݳ־û�
 
-重要数据使用volume映射，容器重装不丢失：
+��Ҫ����ʹ��volumeӳ�䣬������װ����ʧ��
 ```yaml
 volumes:
   - ./data:/app/data
   - /mnt/storage:/storage
 ```
 
-## 十、总结
+## ʮ���ܽ�
 
-这20款<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用涵盖了<a href="/nas/" target="_blank">NAS</a>的方方面面：
+��20��<a href="/nas/docker-best-practice/" target="_blank">Docker</a>Ӧ�ú�����<a href="/nas/" target="_blank">NAS</a>�ķ������棺
 
-- **工具类**：<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>、Nginx PM、FileBrowser
-- **影音类**：Jellyfin、Bazarr、qBittorrent
-- **相册类**：<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>、PhotoPrism
-- **家居类**：<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>、AdGuard
-- **效率类**：Syncthing、Wallabag
-- **AI类**：<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>、OpenWebUI
+- **������**��<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>��Nginx PM��FileBrowser
+- **Ӱ����**��Jellyfin��Bazarr��qBittorrent
+- **�����**��<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>��PhotoPrism
+- **�Ҿ���**��<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>��AdGuard
+- **Ч����**��Syncthing��Wallabag
+- **AI��**��<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>��OpenWebUI
 
-**安装建议**：从简单应用开始，逐步深入。<a href="/nas/docker-best-practice/" target="_blank">Docker</a>让<a href="/nas/" target="_blank">NAS</a>真正成为生产力工具！
+**��װ����**���Ӽ�Ӧ�ÿ�ʼ�������롣<a href="/nas/docker-best-practice/" target="_blank">Docker</a>��<a href="/nas/" target="_blank">NAS</a>������Ϊ���������ߣ�
 
-**相关教程**：
-- [<a href="/nas/docker-best-practice/" target="_blank">NAS Docker入门指南</a>](/nas/docker-best-practice/)
-- [<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant安装配置</a>](/nas/home-assistant-nuc/)
+**��ؽ̳�**��
+- [<a href="/nas/docker-best-practice/" target="_blank">NAS Docker����ָ��</a>](/guide/docker-best-practice/)
+- [<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant��װ����</a>](/guide/home-assistant-nuc/)
 
 ---
 
-*更多内容请关注 [NAS学院](/nas/)。*
+*�����������ע [NASѧԺ](/nas/)��*
 
 <div class="page-nav">
-  <a href="/nas/nas-beginner-guide-2026/" rel="prev">上一页：NAS新手完全指南：2026年从零开始构建你的私有云</a>
+  <a href="/nas/nas-beginner-guide-2026/" rel="prev">��һҳ��NAS������ȫָ�ϣ�2026����㿪ʼ�������˽����</a>
 </div>
 
-*本文由 NUC NAS Hub 自动生成*
+*������ NUC NAS Hub �Զ�����*

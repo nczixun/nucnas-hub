@@ -6,6 +6,7 @@ brand: "深度求索"
 model: "DeepSeek R1"
 slug: "deepseek-r1-local-deploy"
 tags: ["DeepSeek", "本地大模型", "开源", "Ollama", "LLM"]
+aliases: ["/ai/deepseek-r1-local-deploy-guide/"]
 ---
 
 # DeepSeek R1 本地部署教程：免费开源 + 满血版 671B 模型，性能对标 GPT-4

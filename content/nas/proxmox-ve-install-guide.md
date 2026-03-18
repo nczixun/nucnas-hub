@@ -1,9 +1,10 @@
 ---
 title: "Proxmox VE 安装指南：虚拟机管理平台搭建教程"
 date: 2026-03-08
-category: ["NAS 进阶教程"]
+categories: ["NAS 进阶教程"]
 tags: ["PVE", "虚拟机安装教程", "Proxmox 安装", "NAS"]
 description: "Proxmox VE 安装教程：从 U 盘启动到虚拟机配置，手把手教你搭建家庭虚拟化环境"
+draft: true
 ---
 
 # Proxmox VE 安装指南：虚拟机管理平台搭建教程

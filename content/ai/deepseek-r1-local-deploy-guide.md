@@ -4,6 +4,7 @@ date: 2026-03-03
 categories: ["ai"]
 summary: "DeepSeek R1 以仅 1/20 的成本实现了与 GPT-4o 相当的性能。本文详解如何在迷你主机或 NAS 上本地部署 DeepSeek R1，实现完全免费的 AI 助手。"
 slug: "deepseek-r1-local-deploy-guide"
+draft: true
 ---
 
 # 本地部署 DeepSeek R1 完整指南

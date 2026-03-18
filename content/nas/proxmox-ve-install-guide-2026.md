@@ -7,6 +7,7 @@ model: "PVE 8"
 platform: "virtualization"
 slug: "proxmox-ve-install-guide"
 tags: ["PVE", "虚拟机", "虚拟化", "NUC", "教程"]
+aliases: ["/guide/proxmox-ve-install-guide-2026/"]
 ---
 
 # Proxmox VE 8 安装教程：手把手教你用 NUC 搭建虚拟化平台
