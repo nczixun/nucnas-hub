@@ -11,9 +11,9 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 {{ if .Params.image }}
-<meta property="og:image" content="{{ .Params.image }}">
+<meta property="og:image" content="{{ .Params.image | absURL }}">
 {{ else }}
-<meta property="og:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
+<meta property="og:image" content="{{ "images/og-image.jpg" | absURL }}">
 {{ end }}
 {{ if eq .Site.Language.Lang "en" }}
 <meta property="og:locale" content="en_US">
@@ -26,9 +26,9 @@
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 {{ if .Params.image }}
-<meta name="twitter:image" content="{{ .Params.image }}">
+<meta name="twitter:image" content="{{ .Params.image | absURL }}">
 {{ else }}
-<meta name="twitter:image" content="{{ .Site.BaseURL }}images/og-image.jpg">
+<meta name="twitter:image" content="{{ "images/og-image.jpg" | absURL }}">
 {{ end }}
 
 <!-- Canonical URL -->
@@ -41,33 +41,92 @@
 {{ end }}
 {{ end }}
 
-<!-- JSON-LD Structured Data -->
+<!-- JSON-LD Structured Data - Enhanced -->
 {{ if .IsPage }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "{{ .Title }}",
-  "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | truncate 160 }}{{ end }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ .Site.Params.author | default "NUCNAS.HUB" }}"
-  },
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-  "image": {{ if .Params.image }}{{ .Params.image | jsonify }}{{ else }}"{{ .Site.BaseURL }}images/og-image.jpg"{{ end }},
+  "description": "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}",
+  "image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ "images/og-image.jpg" | absURL | jsonify }}{{ end }},
   "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
   "publisher": {
     "@type": "Organization",
     "name": "{{ .Site.Title }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ .Site.BaseURL }}images/logo.png"
+      "url": {{ if fileExists "static/images/logo.png" }}{{ "images/logo.png" | absURL | jsonify }}{{ else }}{{ "images/og-image.jpg" | absURL | jsonify }}{{ end }}
     }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
+  },
+  "articleSection": "{{ with .Section }}{{ . }}{{ end }}",
+  "wordCount": {{ .WordCount }},
+  "inLanguage": "zh-CN",
+  {{ with .Params.tags }}"keywords": "{{ delimit . ", " }}",{{ end }}
+  "isAccessibleForFree": "True",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["article", ".article-content", ".article-title"]
+  }
+}
+</script>
+{{ end }}
+
+<!-- BreadcrumbList Structured Data -->
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "{{ .Site.BaseURL }}"
+    }
+    {{ with .Section }},{
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ if eq . "hardware" }}"硬件测评"{{ else if eq . "nas" }}"NAS学院"{{ else if eq . "ai" }}"AI"{{ else if eq . "calculator" }}"工具"{{ else }}"{{ . }}"{{ end }},
+      "item": "{{ $.Site.BaseURL }}{{ . }}/"
+    }{{ end }},{
+      "@type": "ListItem",
+      "position": {{ with .Section }}3{{ else }}2{{ end }},
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+{{ end }}
+
+<!-- HowTo Structured Data for Tutorial Pages -->
+{{ if and .IsPage (or (in .Params.tags "教程") (in .Params.tags "指南") (in .Params.categories "教程") (in .Params.categories "指南")) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ .Title }}",
+  "description": "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}",
+  "image": {{ if .Params.image }}{{ .Params.image | absURL | jsonify }}{{ else }}{{ "images/og-image.jpg" | absURL | jsonify }}{{ end }},
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}"
   }
 }
 </script>
