@@ -17,6 +17,15 @@
     </p>
 </div>
 
+{{ if .Content }}
+<!-- 工具面板（来自 content/calculator/_index.md） -->
+<section style="max-width:1000px;margin:0 auto;padding:0 20px 40px;">
+    <div class="article-content" style="font-size:16px;line-height:1.8;color:#333;">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
+
 <!-- 文章列表 - 无图片 -->
 <div class="article-list" style="max-width:800px;margin:0 auto;padding:0 20px 60px;">
     {{ range .Paginator.Pages }}
