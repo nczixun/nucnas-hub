@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main style="max-w-4xl mx-auto px-4 py-20;text-align:center;">
+    <!-- 404 图形 -->
+    <div style="font-size:120px;margin-bottom:20px;">🔍</div>
+    
+    <h1 style="font-size:48px;font-weight:700;color:#1d1d1f;margin-bottom:16px;">404</h1>
+    <p style="font-size:20px;color:#666;margin-bottom:40px;">抱歉，您访问的页面不存在</p>
+    
+    <!-- 搜索框 -->
+    <form action="/search" method="get" style="max-width:500px;margin:0 auto 40px;">
+        <div style="display:flex;gap:12px;">
+            <input type="text" name="q" placeholder="搜索文章、设备、教程..." required style="flex:1;padding:16px 24px;border:2px solid #e5e5e5;border-radius:50px;font-size:16px;outline:none;transition:border-color 0.3s;" onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e5e5e5'">
+            <button type="submit" style="background:linear-gradient(135deg,#667eea,#764ba2);color:white;border:none;padding:16px 32px;border-radius:50px;font-size:16px;font-weight:600;cursor:pointer;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">搜索</button>
+        </div>
+    </form>
+    
+    <!-- 快速链接 -->
+    <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+        <a href="/" style="background:#f5f5f7;color:#333;padding:12px 24px;border-radius:50px;text-decoration:none;font-weight:500;transition:background 0.2s;" onmouseover="this.style.background='#e8e8ed'" onmouseout="this.style.background='#f5f5f7'">🏠 首页</a>
+        <a href="/hardware/" style="background:#f5f5f7;color:#333;padding:12px 24px;border-radius:50px;text-decoration:none;font-weight:500;transition:background 0.2s;" onmouseover="this.style.background='#e8e8ed'" onmouseout="this.style.background='#f5f5f7'">🖥️ 硬件测评</a>
+        <a href="/nas/" style="background:#f5f5f7;color:#333;padding:12px 24px;border-radius:50px;text-decoration:none;font-weight:500;transition:background 0.2s;" onmouseover="this.style.background='#e8e8ed'" onmouseout="this.style.background='#f5f5f7'">💾 NAS学院</a>
+        <a href="/ai/" style="background:#f5f5f7;color:#333;padding:12px 24px;border-radius:50px;text-decoration:none;font-weight:500;transition:background 0.2s;" onmouseover="this.style.background='#e8e8ed'" onmouseout="this.style.background='#f5f5f7'">🤖 AI</a>
+        <a href="/calculator/" style="background:#f5f5f7;color:#333;padding:12px 24px;border-radius:50px;text-decoration:none;font-weight:500;transition:background 0.2s;" onmouseover="this.style.background='#e8e8ed'" onmouseout="this.style.background='#f5f5f7'">🧮 计算器</a>
+    </div>
+    
+    <!-- 热门文章 -->
+    <div style="margin-top:60px;text-align:left;max-width:600px;margin-left:auto;margin-right:auto;">
+        <h3 style="font-size:20px;font-weight:700;margin-bottom:20px;">热门文章</h3>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+            {{ range first 5 (where .Site.RegularPages "Section" "hardware") }}
+            <a href="{{ .RelPermalink }}" style="display:block;padding:16px;background:white;border-radius:12px;text-decoration:none;color:inherit;box-shadow:0 2px 8px rgba(0,0,0,0.05);transition:transform 0.2s;" onmouseover="this.style.transform='translateX(4px)'" onmouseout="this.style.transform='translateX(0)'">
+                <span style="font-weight:600;">{{ .Title }}</span>
+                <span style="float:right;color:#86868b;font-size:14px;">{{ .Date.Format "2006-01-02" }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</main>
+
+<!-- SEO - 404页面也需要 -->
+<title>404 - 页面未找到 | {{ .Site.Title }}</title>
+<meta name="robots" content="noindex, follow">
+{{ end }}

@@ -1,9 +1,16 @@
 User-agent: *
+
+# Allow all
 Allow: /
 
 # Sitemap
 Sitemap: https://www.nucnas.top/sitemap.xml
 
-# Disallow
+# Disallow unnecessary
 Disallow: /tags/
 Disallow: /categories/
+Disallow: /search?
+Disallow: /404.html
+
+# Crawl-delay (optional, for polite crawling)
+Crawl-delay: 1
