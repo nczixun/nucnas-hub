@@ -67,10 +67,22 @@
         {{ if and (gt .WordCount 600) (findRE "<li>" $toc) }}
         <details class="article-toc" open style="background:#f5f5f7;border-radius:16px;padding:18px 20px;margin:0 0 32px;">
             <summary style="cursor:pointer;font-weight:700;color:#1d1d1f;list-style:none;">📌 目录</summary>
-            <div style="margin-top:12px;font-size:14px;line-height:1.7;">
+            <div class="toc-content" style="margin-top:12px;font-size:14px;line-height:1.7;">
                 {{ $toc }}
             </div>
         </details>
+        <style>
+        .toc-content ul { margin: 0; padding-left: 16px; list-style: none; }
+        .toc-content li { margin: 4px 0; }
+        .toc-content li > ul { margin-top: 4px; margin-bottom: 4px; }
+        .toc-content a { color: #555; text-decoration: none; }
+        .toc-content a:hover { color: #667eea; }
+        @media (max-width: 640px) {
+            .toc-content ul { padding-left: 12px; }
+            .toc-content li > ul { display: block; margin: 8px 0; }
+            .toc-content { line-height: 2; }
+        }
+        </style>
         {{ end }}
 
         <!-- 文章内容 - 柔和排版 -->
