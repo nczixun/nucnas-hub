@@ -127,12 +127,19 @@
             <a href="/" class="logo">
                 <span class="highlight">NUC</span>NAS<span>.HUB</span>
             </a>
+
+            {{/* Nav active state should work for permalinked pages like /review/:slug/ and /guide/:slug/ */}}
+            {{ $rp := $.RelPermalink }}
+            {{ $isHardware := or (eq $.Section "hardware") (hasPrefix $rp "/hardware/") (hasPrefix $rp "/review/") }}
+            {{ $isNas := or (eq $.Section "nas") (hasPrefix $rp "/nas/") (hasPrefix $rp "/guide/") }}
+            {{ $isAi := or (eq $.Section "ai") (hasPrefix $rp "/ai/") }}
+            {{ $isCalc := or (eq $.Section "calculator") (hasPrefix $rp "/calculator/") }}
             
             <ul class="nav-links">
-                <li><a href="/hardware/"{{ if eq $.RelPermalink "/hardware/" }} class="active"{{ end }}>硬件测评</a></li>
-                <li><a href="/nas/"{{ if eq $.RelPermalink "/nas/" }} class="active"{{ end }}>NAS学院</a></li>
-                <li><a href="/ai/"{{ if eq $.RelPermalink "/ai/" }} class="active"{{ end }}>AI</a></li>
-                <li><a href="/calculator/"{{ if eq $.RelPermalink "/calculator/" }} class="active"{{ end }}>计算器</a></li>
+                <li><a href="/hardware/"{{ if $isHardware }} class="active"{{ end }}>硬件测评</a></li>
+                <li><a href="/nas/"{{ if $isNas }} class="active"{{ end }}>NAS学院</a></li>
+                <li><a href="/ai/"{{ if $isAi }} class="active"{{ end }}>AI</a></li>
+                <li><a href="/calculator/"{{ if $isCalc }} class="active"{{ end }}>计算器</a></li>
             </ul>
             
             <!-- Search -->

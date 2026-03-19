@@ -1,34 +1,4 @@
 {{ define "main" }}
-<!-- SEO Schema Markup -->
-{{ if .Title }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ .Title }}",
-  "description": "{{ with .Summary }}{{ . | plainify }}{{ else }}{{ .Title }}{{ end }}",
-  "image": {{ with .Params.image }}"{{ . }}"{{ else }}null{{ end }},
-  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-  "author": {
-    "@type": "Organization",
-    "name": "NUC NAS Hub"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "NUC NAS Hub",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.nucnas.top/logo.png"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ .Permalink }}"
-  }
-}
-</script>
-{{ end }}
 <!-- 内容页 - 白色柔和风格 -->
 <main class="article-page">
     <!-- 面包屑 -->
@@ -61,6 +31,10 @@
             
             <div class="article-meta" style="display:flex;justify-content:center;gap:20px;color:#86868b;font-size:14px;">
                 <span>🕐 {{ .Date.Format "2006-01-02" }}</span>
+                {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+                <span>🛠️ 更新 {{ .Lastmod.Format "2006-01-02" }}</span>
+                {{ end }}
+                <span>⏱️ {{ .ReadingTime }} 分钟</span>
                 {{ with .Params.categories }}
                 <span style="background:#f5f5f7;padding:4px 12px;border-radius:12px;">{{ index . 0 }}</span>
                 {{ end }}
@@ -69,8 +43,8 @@
 
         <!-- 文章特色图 -->
         {{ with .Params.image }}
-        <figure class="article-featured-image" style="display:none;" style="margin:0 0 40px;border-radius:16px;overflow:hidden;">
-            <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:auto;display:block;">
+        <figure class="article-featured-image" style="margin:0 0 40px;border-radius:16px;overflow:hidden;">
+            <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" style="width:100%;height:auto;display:block;">
             {{ with $.Params.imageCredit }}
             <figcaption style="text-align:right;font-size:12px;color:#86868b;margin-top:8px;">📷 {{ . }}</figcaption>
             {{ end }}
@@ -78,10 +52,25 @@
         {{ end }}
 
         <!-- 文章摘要 -->
-        {{ with .Summary }}
-        <div class="article-summary" style="background:linear-gradient(135deg,#f8f9fa,#fff);padding:24px;border-radius:16px;margin-bottom:40px;border-left:4px solid #667eea;">
-            {{ . }}
+        {{ $summary := "" }}
+        {{ with .Description }}{{ $summary = . }}{{ end }}
+        {{ with .Params.summary }}{{ $summary = . }}{{ end }}
+        {{ if eq $summary "" }}{{ $summary = (.Summary | plainify | truncate 180) }}{{ end }}
+        {{ if ne $summary "" }}
+        <div class="article-summary" style="background:linear-gradient(135deg,#f8f9fa,#fff);padding:24px;border-radius:16px;margin-bottom:32px;border-left:4px solid #667eea;">
+            {{ $summary }}
         </div>
+        {{ end }}
+
+        <!-- 目录（长文才展示） -->
+        {{ $toc := .TableOfContents }}
+        {{ if and (gt .WordCount 600) (findRE "<li>" $toc) }}
+        <details class="article-toc" open style="background:#f5f5f7;border-radius:16px;padding:18px 20px;margin:0 0 32px;">
+            <summary style="cursor:pointer;font-weight:700;color:#1d1d1f;list-style:none;">📌 目录</summary>
+            <div style="margin-top:12px;font-size:14px;line-height:1.7;">
+                {{ $toc }}
+            </div>
+        </details>
         {{ end }}
 
         <!-- 文章内容 - 柔和排版 -->

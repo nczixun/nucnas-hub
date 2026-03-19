@@ -22,15 +22,24 @@
     </div>
 </div>
 
+{{ $pages := .Pages }}
+{{ if eq (len $pages) 0 }}
+<div style="text-align: center; padding: 60px 0; color: var(--mm-text-muted);">
+    <div style="font-size: 48px; margin-bottom: 16px;">📭</div>
+    <div style="font-size: 16px;">暂无内容</div>
+</div>
+{{ else }}
+
+{{ $pag := .Paginate $pages 12 }}
 <div class="article-list">
-    {{ range .Pages }}
+    {{ range $pag.Pages }}
     <a href="{{ .RelPermalink }}" class="article-item">
         <div class="article-image" style="background: linear-gradient(135deg, var(--mm-hover), var(--mm-card));"></div>
         
         <div class="article-content">
             <h4 class="article-title">{{ .Title }}</h4>
             <p class="article-summary" style="color: var(--mm-text-secondary); font-size: 14px; margin-bottom: 10px; line-height: 1.6;">
-                {{ .Summary }}...
+                {{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }}
             </p>
             <div class="article-meta">
                 <span>📅 {{ .Date.Format "2006-01-02" }}</span>
@@ -47,18 +56,9 @@
         </div>
     </a>
     {{ end }}
-    
-    {{/* 如果没有内容 */}}
-    {{ if eq (len .Pages) 0 }}
-    <div style="text-align: center; padding: 60px 0; color: var(--mm-text-muted);">
-        <div style="font-size: 48px; margin-bottom: 16px;">📭</div>
-        <div style="font-size: 16px;">暂无内容</div>
-    </div>
-    {{ end }}
 </div>
 
 <!-- 分页 -->
-{{ $pag := .Paginate .Pages 12 }}
 {{ if gt $pag.TotalPages 1 }}
 <div class="pagination">
     {{ if $pag.HasPrev }}
@@ -81,6 +81,8 @@
     <span class="disabled">下一页 →</span>
     {{ end }}
 </div>
+{{ end }}
+
 {{ end }}
 {{ end }}
 
