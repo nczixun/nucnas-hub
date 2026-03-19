@@ -52,9 +52,10 @@ hasCJKLanguage = true
   ai = "/ai/:slug/"
   page = "/:slug/"
 
-[minify]
-  disableXML = true
-  minifyOutput = true
+# minify disabled due to Chinese encoding issues
+# [minify]
+#   disableXML = true
+#   minifyOutput = true
 
 [markup]
   [markup.goldmark.renderer]
