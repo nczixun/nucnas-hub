@@ -6,8 +6,8 @@
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description | plainify | truncate 160 }}{{ else if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
-    <!-- IndexNow for fast indexing -->
-    <meta name="indexnow" content="https://www.bing.com/indexnow?url={{ .Permalink }}&key=nucnas2026">
+    {{/* IndexNow - 正确配置方式是通过API触发，这里移除错误的meta标签 */}}
+    {{/* 正确做法：在发布新内容时通过API向Bing提交URL */}}
 
     <!-- Open Graph -->
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
