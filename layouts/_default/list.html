@@ -39,7 +39,7 @@
         <div class="article-content">
             <h4 class="article-title">{{ .Title }}</h4>
             <p class="article-summary" style="color: var(--mm-text-secondary); font-size: 14px; margin-bottom: 10px; line-height: 1.6;">
-                {{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }}
+                {{ with .Description }}{{ . | plainify | truncate 140 }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }}
             </p>
             <div class="article-meta">
                 <span>📅 {{ .Date.Format "2006-01-02" }}</span>
