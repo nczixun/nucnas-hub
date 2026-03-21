@@ -57,7 +57,8 @@
         {{ with .Params.summary }}{{ $summary = (. | plainify) }}{{ end }}
         {{ if eq $summary "" }}{{ $summary = (.Summary | plainify | truncate 180) }}{{ end }}
 
-        <!-- 目录（长文才展示） -->
+        <!-- 目录（已禁用，避免重复渲染） -->
+        {{/*
         {{ $toc := .TableOfContents }}
         {{ if and (gt .WordCount 600) (findRE "<li>" $toc) }}
         <details class="article-toc" open style="background:#f5f5f7;border-radius:16px;padding:18px 20px;margin:0 0 32px;">
@@ -79,6 +80,7 @@
         }
         </style>
         {{ end }}
+        */}}
 
         <!-- 文章内容 - 柔和排版 -->
         <div class="article-content" style="font-size:17px;line-height:1.8;color:#333;">
