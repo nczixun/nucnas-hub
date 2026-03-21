@@ -1,5 +1,5 @@
 {
-  "host": "www.nucnas.top",
-  "key": "nucnas-indexnow-key.txt",
-  "keyLocation": "https://www.nucnas.top/nucnas-indexnow-key.txt"
+    "url": "https://www.nucnas.top/",
+    "key": "nucnas-indexnow-key",
+    "keyLocation": "https://www.nucnas.top/nucnas-indexnow-key.txt"
 }
