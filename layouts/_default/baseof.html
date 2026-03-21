@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} - {{ .Site.Title }}</title>
-    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="description" content="{{ if .Description }}{{ .Description | plainify | truncate 160 }}{{ else if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+    <!-- IndexNow for fast indexing -->
+    <meta name="indexnow" content="https://www.bing.com/indexnow?url={{ .Permalink }}&key=nucnas2026">
 
     <!-- Open Graph -->
     <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
-    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:description" content="{{ if .Description }}{{ .Description | plainify | truncate 160 }}{{ else if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     {{ with .Params.image }}
@@ -20,7 +23,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}">
-    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description | plainify | truncate 160 }}{{ else if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     {{ with .Params.image }}
     <meta name="twitter:image" content="{{ . }}">
     {{ end }}
@@ -101,7 +104,7 @@
     "@type": "Organization",
     "name": "NUC NAS Hub"
   },
-  "description": {{ with .Description }}"{{ . }}"{{ else }}"{{ .Summary | plainify | truncate 160 }}"{{ end }}
+  "description": {{ with .Description }}"{{ . | plainify | truncate 160 }}"{{ else }}"{{ .Summary | plainify | truncate 160 }}"{{ end }}
 }
 </script>
 {{- else if .IsHome }}
