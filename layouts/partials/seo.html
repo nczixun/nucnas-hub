@@ -1,12 +1,12 @@
 <!-- SEO 优化 -->
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="description" content="{{ if .Description }}{{ .Description | plainify | truncate 160 }}{{ else if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta name="keywords" content="{{ if .Keywords }}{{ .Keywords }}{{ else }}NUC, NAS, 群晖, TrueNAS, Unraid, 本地AI, 开源大模型, 硬件测评, Mini PC, AI, Hardware Review{{ end }}">
 <meta name="author" content="{{ .Site.Params.author | default "NUCNAS.HUB" }}">
 <meta name="robots" content="index, follow">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description | plainify | truncate 160 }}{{ else if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -24,7 +24,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description | plainify | truncate 160 }}{{ else if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 {{ if .Params.image }}
 <meta name="twitter:image" content="{{ .Params.image | absURL }}">
 {{ else }}
