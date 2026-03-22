@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="home">
+    <h1>🎯 开始你的项目</h1>
+    
+    <div class="categories">
+        <a href="/nas/">
+            <h3>新手入门</h3>
+            <p>第一次玩NAS？从这里开始</p>
+            <span>5步上手 →</span>
+        </a>
+        <a href="/hardware/">
+            <h3>选购推荐</h3>
+            <p>Mini PC & NAS 怎么选？</p>
+            <span>140+ 评测 →</span>
+        </a>
+        <a href="/nas/">
+            <h3>安装教程</h3>
+            <p>系统安装、Docker、远程访问</p>
+            <span>90+ 教程 →</span>
+        </a>
+        <a href="/calculator/">
+            <h3>工具配置器</h3>
+            <p>性能对比、功耗计算</p>
+            <span>12+ 设备 →</span>
+        </a>
+    </div>
+    
+    <section class="latest">
+        <h2>最新文章</h2>
+        <ul>
+        {{ range first 10 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+            <li>
+                <a href="{{ .RelPermalink }}">
+                    <h3>{{ .Title }}</h3>
+                    <span>{{ .Date.Format "2006-01-02" }}</span>
+                </a>
+            </li>
+        {{ end }}
+        </ul>
+    </section>
+</section>
+{{ end }}

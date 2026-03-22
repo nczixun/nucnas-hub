@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article>
+    <header>
+        <h1>{{ .Title }}</h1>
+        <div class="meta">
+            {{ if .Date }}🕐 {{ .Date.Format "2006-01-02" }}{{ end }}
+            {{ with .Params.categories }} {{ range . }} {{ . }}{{ end }}{{ end }}
+        </div>
+    </header>
+    
+    <div class="content">
+        {{ .Content }}
+    </div>
+    
+    <footer>
+        {{ with .Params.tags }}
+        <div class="tags">
+            🏷️ 标签：
+            {{ range . }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        </div>
+        {{ end }}
+        
+        {{ $related := .Site.RegularPages.Related . | first 3 }}
+        {{ if $related }}
+        <section class="related">
+            <h3>相关文章</h3>
+            <ul>
+            {{ range $related }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+            </ul>
+        </section>
+        {{ end }}
+    </footer>
+</article>
+{{ end }}

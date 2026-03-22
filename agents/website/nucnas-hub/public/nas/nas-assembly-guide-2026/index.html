@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年NAS组装完全指南：从零构建你的私有云 - NUC NAS Hub - 迷你主机与私有云指南</title>
+    <meta name="description" content="2026年NAS组装完全指南：硬件选购、配件清单、组装步骤、系统安装全流程。">
+    
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="/">NUCNAS.HUB</a>
+        <ul>
+            <li><a href="/hardware/">硬件测评</a></li>
+            <li><a href="/nas/">NAS学院</a></li>
+            <li><a href="/ai/">AI</a></li>
+            <li><a href="/calculator/">计算器</a></li>
+        </ul>
+        <form action="/search/" method="get">
+            <input type="text" name="q" placeholder="搜索...">
+        </form>
+    </nav>
+</header>
+
+    <main>
+        
+<article>
+    <header>
+        <h1>2026年NAS组装完全指南：从零构建你的私有云</h1>
+        <div class="meta">
+            🕐 2026-03-17
+              NAS 教程
+        </div>
+    </header>
+    
+    <div class="content">
+        <h1 id="2026年nas组装完全指南从零构建你的私有云">2026年NAS组装完全指南：从零构建你的私有云</h1>
+<blockquote>
+<p>还在纠结买成品NAS还是自己组装？这篇文章帮你做出最适合的选择。</p>
+</blockquote>
+<hr>
+<h2 id="为什么选择组装nas">为什么选择组装NAS？</h2>
+<h3 id="成品nas-vs-组装nas">成品NAS vs 组装NAS</h3>
+<table>
+  <thead>
+      <tr>
+          <th>对比项</th>
+          <th>成品NAS</th>
+          <th>组装NAS</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>价格</td>
+          <td>较高</td>
+          <td>更低</td>
+      </tr>
+      <tr>
+          <td>性能</td>
+          <td>受限</td>
+          <td>灵活</td>
+      </tr>
+      <tr>
+          <td>扩展性</td>
+          <td>有限</td>
+          <td>强</td>
+      </tr>
+      <tr>
+          <td>功耗</td>
+          <td>优化好</td>
+          <td>需调优</td>
+      </tr>
+      <tr>
+          <td>维护</td>
+          <td>简单</td>
+          <td>需要基础</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>组装NAS适合：</strong></p>
+<ul>
+<li>预算有限但想要高性能</li>
+<li>需要特定功能（如特定Docker容器）</li>
+<li>喜欢折腾的技术爱好者</li>
+<li>已有闲置硬件</li>
+</ul>
+<hr>
+<h2 id="硬件选购指南">硬件选购指南</h2>
+<h3 id="1-机箱选择">1. 机箱选择</h3>
+<table>
+  <thead>
+      <tr>
+          <th>类型</th>
+          <th>适合</th>
+          <th>价格</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ITX机箱</td>
+          <td>入门，1-2盘位</td>
+          <td>¥200-400</td>
+      </tr>
+      <tr>
+          <td>M-ATX机箱</td>
+          <td>中端，4-6盘位</td>
+          <td>¥300-600</td>
+      </tr>
+      <tr>
+          <td>ATX机箱</td>
+          <td>高端，8+盘位</td>
+          <td>¥500-1000</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>推荐品牌：</strong></p>
+<ul>
+<li>乔思纳 (Jonsplus)</li>
+<li>银欣 (SilverStone)</li>
+<li>分形工艺 (Fractal)</li>
+</ul>
+<h3 id="2-主板选择">2. 主板选择</h3>
+<table>
+  <thead>
+      <tr>
+          <th>芯片组</th>
+          <th>特点</th>
+          <th>推荐场景</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>H610</td>
+          <td>入门，便宜</td>
+          <td>轻度存储</td>
+      </tr>
+      <tr>
+          <td>B660/B760</td>
+          <td>主流，扩展性好</td>
+          <td>4-6盘位</td>
+      </tr>
+      <tr>
+          <td>Z790</td>
+          <td>高端，M.2多</td>
+          <td>All-in-One</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>推荐型号：</strong></p>
+<ul>
+<li>华擎 (ASRock) B660M Pro RS</li>
+<li>华硕 (ASUS) Prime B760M-A</li>
+<li>微星 (MSI) MAG B760M Mortar</li>
+</ul>
+<h3 id="3-cpu选择">3. CPU选择</h3>
+<table>
+  <thead>
+      <tr>
+          <th>级别</th>
+          <th>型号</th>
+          <th>适合场景</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>入门</td>
+          <td>Intel N100/N150</td>
+          <td>纯存储，功耗极低</td>
+      </tr>
+      <tr>
+          <td>主流</td>
+          <td>i3-12100 / i5-12400</td>
+          <td>4-6盘位，需Docker</td>
+      </tr>
+      <tr>
+          <td>高端</td>
+          <td>i5-13400 / i7-13700</td>
+          <td>8+盘位，视频转码</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>N100 vs i5 对比：</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>规格</th>
+          <th>N100</th>
+          <th>i5-12400</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>核心</td>
+          <td>4核4线程</td>
+          <td>6核12线程</td>
+      </tr>
+      <tr>
+          <td>功耗</td>
+          <td>6W</td>
+          <td>65W</td>
+      </tr>
+      <tr>
+          <td>解码</td>
+          <td>HEVC only</td>
+          <td>AV1+</td>
+      </tr>
+      <tr>
+          <td>价格</td>
+          <td>¥200</td>
+          <td>¥700</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="4-内存">4. 内存</h3>
+<table>
+  <thead>
+      <tr>
+          <th>容量</th>
+          <th>适合场景</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>8GB</td>
+          <td>纯存储</td>
+      </tr>
+      <tr>
+          <td>16GB</td>
+          <td>Docker/虚拟机</td>
+      </tr>
+      <tr>
+          <td>32GB+</td>
+          <td>大型容器阵列</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>推荐：</strong></p>
+<ul>
+<li>威刚 (ADATA) DDR4 16GB ¥200</li>
+<li>金士顿 (Kingston) DDR4 32GB ¥350</li>
+</ul>
+<h3 id="5-存储设备">5. 存储设备</h3>
+<h4 id="机械硬盘">机械硬盘</h4>
+<table>
+  <thead>
+      <tr>
+          <th>型号</th>
+          <th>容量</th>
+          <th>特点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>希捷酷狼</td>
+          <td>4-18TB</td>
+          <td>NAS专用</td>
+      </tr>
+      <tr>
+          <td>WD Red Plus</td>
+          <td>4-14TB</td>
+          <td>CMR技术</td>
+      </tr>
+      <tr>
+          <td>WD Red Pro</td>
+          <td>4-22TB</td>
+          <td>企业级</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="ssd缓存">SSD缓存</h4>
+<table>
+  <thead>
+      <tr>
+          <th>型号</th>
+          <th>容量</th>
+          <th>用途</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>三星 980</td>
+          <td>500GB</td>
+          <td>缓存</td>
+      </tr>
+      <tr>
+          <td>西部数据 SN770</td>
+          <td>1TB</td>
+          <td>缓存/系统</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="6-网络">6. 网络</h3>
+<table>
+  <thead>
+      <tr>
+          <th>类型</th>
+          <th>速度</th>
+          <th>用途</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>千兆</td>
+          <td>1Gbps</td>
+          <td>入门</td>
+      </tr>
+      <tr>
+          <td>2.5千兆</td>
+          <td>2.5Gbps</td>
+          <td>主流</td>
+      </tr>
+      <tr>
+          <td>万兆</td>
+          <td>10Gbps</td>
+          <td>工作室/企业</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>推荐网卡：</strong></p>
+<ul>
+<li>Intel I225-V (2.5G)</li>
+<li>Intel X550-T (10G)</li>
+</ul>
+<hr>
+<h2 id="配件清单">配件清单</h2>
+<h3 id="入门方案1500">入门方案（¥1500）</h3>
+<table>
+  <thead>
+      <tr>
+          <th>配件</th>
+          <th>型号</th>
+          <th>价格</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>机箱</td>
+          <td>乔思纳 C6</td>
+          <td>¥250</td>
+      </tr>
+      <tr>
+          <td>主板</td>
+          <td>华擎 H610M-HVS</td>
+          <td>¥350</td>
+      </tr>
+      <tr>
+          <td>CPU</td>
+          <td>Intel N100</td>
+          <td>¥200</td>
+      </tr>
+      <tr>
+          <td>内存</td>
+          <td>威刚 8GB DDR4</td>
+          <td>¥120</td>
+      </tr>
+      <tr>
+          <td>电源</td>
+          <td>长城 300W</td>
+          <td>¥150</td>
+      </tr>
+      <tr>
+          <td>硬盘</td>
+          <td>希捷酷狼 4TB</td>
+          <td>¥600</td>
+      </tr>
+      <tr>
+          <td><strong>合计</strong></td>
+          <td></td>
+          <td><strong>¥1670</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="主流方案3500">主流方案（¥3500）</h3>
+<table>
+  <thead>
+      <tr>
+          <th>配件</th>
+          <th>型号</th>
+          <th>价格</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>机箱</td>
+          <td>乔思纳 N5</td>
+          <td>¥450</td>
+      </tr>
+      <tr>
+          <td>主板</td>
+          <td>华硕 B760M-A</td>
+          <td>¥850</td>
+      </tr>
+      <tr>
+          <td>CPU</td>
+          <td>Intel i5-12400</td>
+          <td>¥700</td>
+      </tr>
+      <tr>
+          <td>内存</td>
+          <td>金士顿 16GB DDR4</td>
+          <td>¥250</td>
+      </tr>
+      <tr>
+          <td>电源</td>
+          <td>海韵 GX650</td>
+          <td>¥550</td>
+      </tr>
+      <tr>
+          <td>系统盘</td>
+          <td>三星 980 500GB</td>
+          <td>¥300</td>
+      </tr>
+      <tr>
+          <td>硬盘</td>
+          <td>WD Red Plus 8TB x2</td>
+          <td>¥1600</td>
+      </tr>
+      <tr>
+          <td>网卡</td>
+          <td>Intel I225-V</td>
+          <td>¥150</td>
+      </tr>
+      <tr>
+          <td><strong>合计</strong></td>
+          <td></td>
+          <td><strong>¥4850</strong></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="组装步骤">组装步骤</h2>
+<h3 id="步骤1安装cpu和内存">步骤1：安装CPU和内存</h3>
+<ol>
+<li>打开CPU插槽，处理器三角对应放置</li>
+<li>扣紧扣具</li>
+<li>插入内存条，听到&quot;咔嗒&quot;声</li>
+</ol>
+<h3 id="步骤2安装主板">步骤2：安装主板</h3>
+<ol>
+<li>放入机箱</li>
+<li>装入主板螺丝（通常6颗）</li>
+<li>连接前置面板线</li>
+</ol>
+<h3 id="步骤3安装存储">步骤3：安装存储</h3>
+<ol>
+<li>装入硬盘笼</li>
+<li>插入硬盘，对齐螺丝孔</li>
+<li>固定硬盘</li>
+</ol>
+<h3 id="步骤4安装网卡">步骤4：安装网卡</h3>
+<ol>
+<li>插入PCIe插槽</li>
+<li>固定挡板螺丝</li>
+</ol>
+<h3 id="步骤5接线">步骤5：接线</h3>
+<ol>
+<li>连接电源线（24pin + CPU 8pin）</li>
+<li>连接SATA数据线</li>
+<li>连接前置USB/音频线</li>
+</ol>
+<hr>
+<h2 id="系统安装">系统安装</h2>
+<h3 id="推荐系统">推荐系统</h3>
+<table>
+  <thead>
+      <tr>
+          <th>系统</th>
+          <th>特点</th>
+          <th>适合</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>TrueNAS Scale</td>
+          <td>功能强大，免费</td>
+          <td>专业用户</td>
+      </tr>
+      <tr>
+          <td>Unraid</td>
+          <td>灵活，插件多</td>
+          <td>中级用户</td>
+      </tr>
+      <tr>
+          <td>飞牛 (fnOS)</td>
+          <td>国产，易用</td>
+          <td>新手</td>
+      </tr>
+      <tr>
+          <td>OpenWrt</td>
+          <td>软路由+NAS</td>
+          <td>All-in-One</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="truenas-scale-安装">TrueNAS Scale 安装</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. 下载镜像</span>
+</span></span><span class="line"><span class="cl">https://www.truenas.com/truenas-scale/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 制作启动盘</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用 Rufus 或 Ventoy</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 设置BIOS启动顺序</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># USB启动优先</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 安装向导</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 按提示设置存储池</span>
+</span></span></code></pre></div><h3 id="飞牛-fnos-安装">飞牛 (fnOS) 安装</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. 下载镜像</span>
+</span></span><span class="line"><span class="cl">https://www.fnnas.com/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 制作启动盘</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用官方工具</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 安装</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 图形界面，按提示操作</span>
+</span></span></code></pre></div><hr>
+<h2 id="网络设置">网络设置</h2>
+<h3 id="开启smb共享">开启SMB共享</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># TrueNAS Scale</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 控制台 -&gt; 共享 -&gt; Windows SMB -&gt; 添加</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置共享路径和权限</span>
+</span></span></code></pre></div><h3 id="外网访问">外网访问</h3>
+<table>
+  <thead>
+      <tr>
+          <th>方式</th>
+          <th>优点</th>
+          <th>缺点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>公网IP+DDNS</td>
+          <td>速度最快</td>
+          <td>需要配置</td>
+      </tr>
+      <tr>
+          <td>VPN</td>
+          <td>安全</td>
+          <td>需要搭建</td>
+      </tr>
+      <tr>
+          <td>蒲公英</td>
+          <td>简单</td>
+          <td>免费版慢</td>
+      </tr>
+      <tr>
+          <td>Tailscale</td>
+          <td>免费/安全</td>
+          <td>需要学习</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="常见问题">常见问题</h2>
+<h3 id="q1nas需要多大功率电源">Q1：NAS需要多大功率电源？</h3>
+<p><strong>答：</strong> 根据硬盘数量计算：</p>
+<ul>
+<li>1-2块硬盘：300W足够</li>
+<li>4-6块硬盘：450-550W</li>
+<li>8+块硬盘：650W以上</li>
+</ul>
+<h3 id="q2机械硬盘噪音大吗">Q2：机械硬盘噪音大吗？</h3>
+<p><strong>答：</strong> 有一定噪音，建议：</p>
+<ul>
+<li>购买NAS专用硬盘（酷狼/Red）</li>
+<li>使用减震垫</li>
+<li>放在远离卧室的地方</li>
+</ul>
+<h3 id="q3ups有必要吗">Q3：UPS有必要吗？</h3>
+<p><strong>答：</strong> 强烈建议！作用：</p>
+<ul>
+<li>防止断电导致数据损坏</li>
+<li>平稳关机</li>
+<li>品牌：APC、山特</li>
+</ul>
+<hr>
+<h2 id="总结">总结</h2>
+<p>组装NAS需要：</p>
+<ol>
+<li><strong>明确需求</strong> - 存储/媒体/Docker</li>
+<li><strong>合理预算</strong> - ¥1500入门，¥5000主流</li>
+<li><strong>选对系统</strong> - 新手选飞牛，专业选TrueNAS</li>
+</ol>
+<p>有任何问题欢迎评论区讨论！</p>
+<hr>
+<p><em>本文持续更新中&hellip;</em></p>
+
+    </div>
+    
+    <footer>
+        
+        <div class="tags">
+            🏷️ 标签：
+            
+            <a href="/tags/nas">NAS</a>
+            
+            <a href="/tags/%E7%BB%84%E8%A3%85">组装</a>
+            
+            <a href="/tags/%E7%A7%81%E6%9C%89%E4%BA%91">私有云</a>
+            
+            <a href="/tags/diy">DIY</a>
+            
+            <a href="/tags/%E6%95%99%E7%A8%8B">教程</a>
+            
+            <a href="/tags/2026">2026</a>
+            
+        </div>
+        
+        
+        
+        
+        <section class="related">
+            <h3>相关文章</h3>
+            <ul>
+            
+                <li><a href="/nas/nas-beginner-guide-2026/">NAS新手完全指南：2026年从零开始构建你的私有云</a></li>
+            
+                <li><a href="/resources/nas-hardware-recommendation-2026/">NAS硬件推荐 - 2026年选购指南</a></li>
+            
+                <li><a href="/ai/2026-03-12-ai-agent-nas/">AI Agent 爆发：如何用多智能体自动管理你的 NAS</a></li>
+            
+            </ul>
+        </section>
+        
+    </footer>
+</article>
+
+    </main>
+    <footer>
+    <p>&copy; 2026 NUCNAS.HUB. All rights reserved.</p>
+    <ul>
+        <li><a href="/hardware/">硬件测评</a></li>
+        <li><a href="/nas/">NAS学院</a></li>
+        <li><a href="/ai/">AI</a></li>
+        <li><a href="/calculator/">计算器</a></li>
+        <li><a href="/about/">关于</a></li>
+        <li><a href="/sitemap.xml">网站地图</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

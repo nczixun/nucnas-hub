@@ -1,7 +1,8 @@
 baseURL = 'https://www.nucnas.top/'
 languageCode = 'zh-cn'
 title = 'NUC NAS Hub - 迷你主机与私有云指南'
-theme = ''
+theme = 'nucnas-theme'
+
 defaultContentLanguage = 'zh-cn'
 
 [params]
@@ -15,3 +16,7 @@ defaultContentLanguage = 'zh-cn'
 [markup]
   [markup.highlight]
     noClasses = false
+
+[permalinks]
+  post = '/:year-:month-:day-:slug/'
+  page = '/:slug/'
