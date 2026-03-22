@@ -1,0 +1,10 @@
+# Robots.txt for NUC NAS Hub
+User-agent: *
+Allow: /
+
+# Disallow admin/private
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://www.nucnas.top/sitemap.xml
