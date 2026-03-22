@@ -20,3 +20,4 @@ defaultContentLanguage = 'zh-cn'
 [permalinks]
   post = '/:year-:month-:day-:slug/'
   page = '/:slug/'
+  review = '/review/:slug/'

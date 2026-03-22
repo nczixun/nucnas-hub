@@ -1,0 +1,2 @@
+# Redirect old review URLs to new hardware URLs
+/review/*  /hardware/:splat  301
