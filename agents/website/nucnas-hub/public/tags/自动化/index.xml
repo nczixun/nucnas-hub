@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自动化 on NUC NAS Hub - 迷你主机与私有云指南</title>
+    <link>https://www.nucnas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+    <description>Recent content in 自动化 on NUC NAS Hub - 迷你主机与私有云指南</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nucnas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Agent 爆发：如何用多智能体自动管理你的 NAS</title>
+      <link>https://www.nucnas.top/ai/2026-03-12-ai-agent-nas/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/2026-03-12-ai-agent-nas/</guid>
+      <description>从 GitHub 6000+ 星的 agency-agents 到 MiroFish 群体智能，AI Agent 框架正在改变 NAS 运维方式。本文教你如何用多智能体自动管理 NAS。</description>
+    </item>
+  </channel>
+</rss>

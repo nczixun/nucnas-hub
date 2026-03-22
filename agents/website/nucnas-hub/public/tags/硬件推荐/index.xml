@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>硬件推荐 on NUC NAS Hub - 迷你主机与私有云指南</title>
+    <link>https://www.nucnas.top/tags/%E7%A1%AC%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+    <description>Recent content in 硬件推荐 on NUC NAS Hub - 迷你主机与私有云指南</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nucnas.top/tags/%E7%A1%AC%E4%BB%B6%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NAS硬件推荐 - 2026年选购指南</title>
+      <link>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</guid>
+      <description>NAS玩家必备硬件推荐：机箱、主板、CPU、硬盘、网卡，一文搞定所有配件选购。</description>
+    </item>
+  </channel>
+</rss>

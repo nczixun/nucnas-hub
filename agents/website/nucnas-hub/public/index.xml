@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NUC NAS Hub - 迷你主机与私有云指南</title>
+    <link>https://www.nucnas.top/</link>
+    <description>Recent content on NUC NAS Hub - 迷你主机与私有云指南</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nucnas.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年NAS组装完全指南：从零构建你的私有云</title>
+      <link>https://www.nucnas.top/nas/nas-assembly-guide-2026/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-assembly-guide-2026/</guid>
+      <description>手把手教你组装NAS：从硬件选购、配件清单到系统安装，一文搞定。2026年最全NAS组装教程。</description>
+    </item>
+    <item>
+      <title>Intel CPU 全面短缺：消费级与企业级即将涨价</title>
+      <link>https://www.nucnas.top/ai/intel-cpu-shortage-2026/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/intel-cpu-shortage-2026/</guid>
+      <description>英特尔全球渠道主管发出警告：消费级与企业级CPU全面短缺，老款Xeon和Raptor Lake需求激增，价格即将上涨。</description>
+    </item>
+    <item>
+      <title>Intel N150 vs N100 迷你主机深度对比：谁是2026年性价比之王？</title>
+      <link>https://www.nucnas.top/minipc/intel-n150-vs-n100-mini-pc-comparison-2026/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/minipc/intel-n150-vs-n100-mini-pc-comparison-2026/</guid>
+      <description>基于多平台深度评测：N150 vs N100 性能差距、功耗、选购建议。同品牌对比：零刻、铭凡、极摩客、GMKtec等热门机型全面解析。</description>
+    </item>
+    <item>
+      <title>NAS硬件推荐 - 2026年选购指南</title>
+      <link>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</guid>
+      <description>NAS玩家必备硬件推荐：机箱、主板、CPU、硬盘、网卡，一文搞定所有配件选购。</description>
+    </item>
+    <item>
+      <title>NVIDIA GTC 2026 深度解读：黄仁勋会带来怎样的AI算力革命？</title>
+      <link>https://www.nucnas.top/ai/nvidia-gtc-2026-preview/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/nvidia-gtc-2026-preview/</guid>
+      <description>2026年GTC大会前瞻：Vera Rubin架构、推理爆发、OpenClaw企业级Agent平台，一文看懂NVIDIA的最新布局。</description>
+    </item>
+    <item>
+      <title>NVIDIA Vera Rubin 深度解析：AI算力新王者的诞生</title>
+      <link>https://www.nucnas.top/ai/nvidia-vera-rubin-deep-analysis/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/nvidia-vera-rubin-deep-analysis/</guid>
+      <description>NVIDIA Vera Rubin正式发布：50倍性能提升、液冷革新、Groq整合，一文看懂下一代AI计算平台。</description>
+    </item>
+    <item>
+      <title>AI Agent 爆发：如何用多智能体自动管理你的 NAS</title>
+      <link>https://www.nucnas.top/ai/2026-03-12-ai-agent-nas/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/2026-03-12-ai-agent-nas/</guid>
+      <description>从 GitHub 6000+ 星的 agency-agents 到 MiroFish 群体智能，AI Agent 框架正在改变 NAS 运维方式。本文教你如何用多智能体自动管理 NAS。</description>
+    </item>
+    <item>
+      <title>NAS 工具导航 - 极客必备的神器合集</title>
+      <link>https://www.nucnas.top/resources/tools-nav/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/resources/tools-nav/</guid>
+      <description>聚合 NAS/迷你主机玩家必备的工具、软件、资源，持续更新</description>
+    </item>
+    <item>
+      <title>NAS 配置器 - 30 秒生成你的专属方案</title>
+      <link>https://www.nucnas.top/tools/nas-configurator/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/tools/nas-configurator/</guid>
+      <description>在线交互式 NAS 配置工具，根据你的预算和需求，自动生成最优硬件方案</description>
+    </item>
+    <item>
+      <title>NAS新手完全指南：2026年从零开始构建你的私有云</title>
+      <link>https://www.nucnas.top/nas/nas-beginner-guide-2026/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-beginner-guide-2026/</guid>
+      <description>&lt;h1 id=&#34;nas新手完全指南2026年从零开始构建你的私有云&#34;&gt;NAS新手完全指南：2026年从零开始构建你的私有云&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;你是否有过这些困扰？&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;?? 手机照片太多，存储空间总是不够&lt;/li&gt;&#xA;&lt;li&gt;?? 想在手机和电脑之间快速传文件，却找不到好方法&lt;/li&gt;&#xA;&lt;li&gt;?? 想在家里的电视上观看下载的电影，却不知道怎么做&lt;/li&gt;&#xA;&lt;li&gt;?? 想在外也能访问家里电脑的文件&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;如果你有以上任何一个需求，那么**&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;（网络附加存储）**就是为你准备的解决方案！&lt;/p&gt;&#xA;&lt;p&gt;这篇文章是&lt;strong&gt;专为零基础小白写的&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;入门指南&lt;/strong&gt;，手把手教你从零开始构建自己的私有云。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一什么是nas&#34;&gt;一、什么是&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;？&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-nas的定义&#34;&gt;1.1 &lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;的定义&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt; = Network Attached Storage（网络附加存储）&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;简单来说，&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;就是一台&lt;strong&gt;连接在家庭网络上的专用存储设备&lt;/strong&gt;。它就像一个24小时开机的私人云服务器，可以：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on NUC NAS Hub - 迷你主机与私有云指南</title>
+    <link>https://www.nucnas.top/categories/ai/</link>
+    <description>Recent content in Ai on NUC NAS Hub - 迷你主机与私有云指南</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nucnas.top/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA GTC 2026 深度解读：黄仁勋会带来怎样的AI算力革命？</title>
+      <link>https://www.nucnas.top/ai/nvidia-gtc-2026-preview/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/nvidia-gtc-2026-preview/</guid>
+      <description>2026年GTC大会前瞻：Vera Rubin架构、推理爆发、OpenClaw企业级Agent平台，一文看懂NVIDIA的最新布局。</description>
+    </item>
+    <item>
+      <title>NVIDIA Vera Rubin 深度解析：AI算力新王者的诞生</title>
+      <link>https://www.nucnas.top/ai/nvidia-vera-rubin-deep-analysis/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/nvidia-vera-rubin-deep-analysis/</guid>
+      <description>NVIDIA Vera Rubin正式发布：50倍性能提升、液冷革新、Groq整合，一文看懂下一代AI计算平台。</description>
+    </item>
+    <item>
+      <title>AI Agent 爆发：如何用多智能体自动管理你的 NAS</title>
+      <link>https://www.nucnas.top/ai/2026-03-12-ai-agent-nas/</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/ai/2026-03-12-ai-agent-nas/</guid>
+      <description>从 GitHub 6000+ 星的 agency-agents 到 MiroFish 群体智能，AI Agent 框架正在改变 NAS 运维方式。本文教你如何用多智能体自动管理 NAS。</description>
+    </item>
+  </channel>
+</rss>
