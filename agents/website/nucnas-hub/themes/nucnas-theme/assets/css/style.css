@@ -1,0 +1,50 @@
+/* 面包屑导航样式 */
+.breadcrumb {
+    padding: 12px 0;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.breadcrumb a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.breadcrumb span {
+    margin: 0 8px;
+    color: #999;
+}
+
+/* 文章基础样式 */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+article h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+article .meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+article .content {
+    line-height: 1.8;
+}
+article .tags {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+article .tags a {
+    margin-right: 10px;
+    color: #0066cc;
+}
+article .related {
+    margin-top: 40px;
+}

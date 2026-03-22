@@ -1,5 +1,25 @@
 {{ define "main" }}
 <article>
+    {{/* 面包屑导航 */}}
+    <nav class="breadcrumb">
+        <a href="/">首页</a>
+        {{ with .Section }}
+        {{ $section := . }}
+        {{/* 根据栏目设置显示名称 */}}
+        {{ $sectionName := $section }}
+        {{ if eq $section "hardware" }}{{ $sectionName = "硬件测评" }}{{ end }}
+        {{ if eq $section "nas" }}{{ $sectionName = "NAS学院" }}{{ end }}
+        {{ if eq $section "ai" }}{{ $sectionName = "AI" }}{{ end }}
+        {{ if eq $section "review" }}{{ $sectionName = "硬件测评" }}{{ end }}
+        {{ if eq $section "guide" }}{{ $sectionName = "NAS学院" }}{{ end }}
+        {{ if eq $section "tools" }}{{ $sectionName = "工具" }}{{ end }}
+        {{ if eq $section "resources" }}{{ $sectionName = "资源" }}{{ end }}
+        <span>/</span>
+        <a href="{{ "/" | relLangURL }}{{ $section | urlize }}/">{{ $sectionName }}</a>
+        <span>/</span>
+        <span>{{ $.Title }}</span>
+    </nav>
+    
     <header>
         <h1>{{ .Title }}</h1>
         <div class="meta">
