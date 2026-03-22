@@ -1,30 +1,26 @@
 {{ define "main" }}
 <article>
-    {{/* 面包屑导航 */}}
     <nav class="breadcrumb">
         <a href="/">首页</a>
+        <span>/</span>
         {{ with .Section }}
         {{ $section := . }}
-        {{/* 根据栏目设置显示名称 */}}
-        {{ $sectionName := $section }}
-        {{ if eq $section "hardware" }}{{ $sectionName = "硬件测评" }}{{ end }}
-        {{ if eq $section "nas" }}{{ $sectionName = "NAS学院" }}{{ end }}
-        {{ if eq $section "ai" }}{{ $sectionName = "AI" }}{{ end }}
-        {{ if eq $section "review" }}{{ $sectionName = "硬件测评" }}{{ end }}
-        {{ if eq $section "guide" }}{{ $sectionName = "NAS学院" }}{{ end }}
-        {{ if eq $section "tools" }}{{ $sectionName = "工具" }}{{ end }}
-        {{ if eq $section "resources" }}{{ $sectionName = "资源" }}{{ end }}
-        <span>/</span>
-        <a href="{{ "/" | relLangURL }}{{ $section | urlize }}/">{{ $sectionName }}</a>
+        {{ if eq $section "hardware" }}<a href="/hardware/">硬件测评</a>{{ end }}
+        {{ if eq $section "nas" }}<a href="/nas/">NAS学院</a>{{ end }}
+        {{ if eq $section "ai" }}<a href="/ai/">AI</a>{{ end }}
+        {{ if eq $section "review" }}<a href="/hardware/">硬件测评</a>{{ end }}
+        {{ if eq $section "guide" }}<a href="/nas/">NAS学院</a>{{ end }}
+        {{ if eq $section "tools" }}<a href="/tools/">工具</a>{{ end }}
+        {{ if eq $section "resources" }}<a href="/resources/">资源</a>{{ end }}
         <span>/</span>
         <span>{{ $.Title }}</span>
+        {{ end }}
     </nav>
     
     <header>
         <h1>{{ .Title }}</h1>
         <div class="meta">
             {{ if .Date }}🕐 {{ .Date.Format "2006-01-02" }}{{ end }}
-            {{ with .Params.categories }} {{ range . }} {{ . }}{{ end }}{{ end }}
         </div>
     </header>
     
@@ -36,22 +32,8 @@
         {{ with .Params.tags }}
         <div class="tags">
             🏷️ 标签：
-            {{ range . }}
-            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
+            {{ range . }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
         </div>
-        {{ end }}
-        
-        {{ $related := .Site.RegularPages.Related . | first 3 }}
-        {{ if $related }}
-        <section class="related">
-            <h3>相关文章</h3>
-            <ul>
-            {{ range $related }}
-                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{ end }}
-            </ul>
-        </section>
         {{ end }}
     </footer>
 </article>

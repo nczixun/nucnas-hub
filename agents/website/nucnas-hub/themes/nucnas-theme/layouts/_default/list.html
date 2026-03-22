@@ -2,7 +2,6 @@
 <section>
     <h1>{{ .Title }}</h1>
     <p>{{ .Description }}</p>
-    
     <ul class="article-list">
     {{ range .Paginator.Pages }}
         <li>
@@ -11,13 +10,10 @@
                 <p>{{ with .Summary }}{{ . }}{{ else }}{{ .Description }}{{ end }}</p>
                 <span class="meta">
                     {{ if .Date }}🕐 {{ .Date.Format "2006-01-02" }}{{ end }}
-                    {{ with .Params.tags }} 🏷️ {{ first 1 . }}{{ end }}
                 </span>
             </a>
         </li>
     {{ end }}
     </ul>
-    
-    {{ template "_internal/pagination.html" . }}
 </section>
 {{ end }}

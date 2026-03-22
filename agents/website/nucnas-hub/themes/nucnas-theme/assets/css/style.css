@@ -1,50 +1,40 @@
-/* 面包屑导航样式 */
-.breadcrumb {
-    padding: 12px 0;
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-}
-.breadcrumb a {
-    color: #0066cc;
-    text-decoration: none;
-}
-.breadcrumb a:hover {
-    text-decoration: underline;
-}
-.breadcrumb span {
-    margin: 0 8px;
-    color: #999;
-}
+/* 基础样式 */
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+main { max-width: 1200px; margin: 0 auto; padding: 20px; }
+a { color: #0066cc; text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-/* 文章基础样式 */
-article {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-article h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-article .meta {
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-article .content {
-    line-height: 1.8;
-}
-article .tags {
-    margin-top: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-}
-article .tags a {
-    margin-right: 10px;
-    color: #0066cc;
-}
-article .related {
-    margin-top: 40px;
-}
+/* 面包屑 */
+.breadcrumb { padding: 12px 0; font-size: 14px; color: #666; margin-bottom: 20px; border-bottom: 1px solid #eee; }
+.breadcrumb a { color: #0066cc; }
+.breadcrumb span { margin: 0 8px; color: #999; }
+
+/* 文章 */
+article { max-width: 800px; margin: 0 auto; }
+article h1 { font-size: 28px; margin-bottom: 10px; }
+article .meta { color: #666; font-size: 14px; margin-bottom: 20px; }
+article .content { line-height: 1.8; }
+article .tags { margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; }
+article .tags a { margin-right: 10px; }
+
+/* 首页 */
+.home h1 { text-align: center; padding: 40px 0; }
+.categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px 0; }
+.categories a { display: block; padding: 20px; border: 1px solid #eee; border-radius: 8px; transition: box-shadow 0.3s; }
+.categories a:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-decoration: none; }
+.categories h3 { margin: 0 0 10px; }
+.categories p { margin: 0; color: #666; }
+
+/* 列表 */
+.article-list { list-style: none; padding: 0; }
+.article-list li { padding: 15px 0; border-bottom: 1px solid #eee; }
+.article-list h3 { margin: 0 0 8px; }
+
+/* 导航 */
+header nav { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background: #fff; border-bottom: 1px solid #eee; }
+header nav ul { display: flex; list-style: none; margin: 0; padding: 0; gap: 20px; }
+header nav a { color: #333; font-weight: 500; }
+
+/* 页脚 */
+footer { padding: 30px 20px; text-align: center; color: #666; border-top: 1px solid #eee; margin-top: 40px; }
+footer ul { display: flex; justify-content: center; gap: 20px; list-style: none; padding: 0; }

@@ -173,3 +173,10 @@ author: "NUC NAS Hub"
 3. GMKtec G3 Plus 评测: [Intel N150 50% Faster Than The N100?](https://www.youtube.com/watch?v=9moL1Qxbe8o)
 4. Reddit 讨论: [r/MiniPCs](https://www.reddit.com/r/MiniPCs)
 5. 功耗指南: [bishalkshah.com.np](https://bishalkshah.com.np)
+
+## 相关文章
+
+- [NAS新手完全指南](/nas/nas-beginner-guide-2026/)
+- [4TB NAS硬盘深度评测](/nas/nas-4tb-hdd-deep-review-2026/)
+- [8TB NAS硬盘全面横评](/nas/nas-8tb-hdd-deep-review-2026/)
+- [NAS硬盘选购指南：西数/希捷/东芝全对比](/guide/2026年nas硬盘选购完全指南西数-希捷-东芝全对比/)
