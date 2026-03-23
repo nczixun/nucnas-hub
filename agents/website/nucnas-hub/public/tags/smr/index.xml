@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMR on NUC NAS Hub - 迷你主机与私有云指南</title>
+    <link>https://www.nucnas.top/tags/smr/</link>
+    <description>Recent content in SMR on NUC NAS Hub - 迷你主机与私有云指南</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nucnas.top/tags/smr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NAS硬盘必看：CMR和SMR到底有什么区别？深度对比分析</title>
+      <link>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</guid>
+      <description>CMR vs SMR硬盘有什么区别？为什么NAS不推荐SMR？本文深度解析两种记录技术的优缺点，帮助你选购正确的NAS硬盘。</description>
+    </item>
+  </channel>
+</rss>

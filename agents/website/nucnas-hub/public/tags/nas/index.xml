@@ -6,8 +6,22 @@
     <description>Recent content in NAS on NUC NAS Hub - 迷你主机与私有云指南</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.nucnas.top/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年NAS硬盘容量怎么选？4TB/8TB/12TB/16TB选购指南</title>
+      <link>https://www.nucnas.top/nas/nas-hdd-capacity-guide-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-hdd-capacity-guide-2026/</guid>
+      <description>NAS硬盘容量怎么选？本文详细分析4TB到16TB各容量的适用场景，帮助你找到最适合的NAS存储方案。</description>
+    </item>
+    <item>
+      <title>NAS硬盘必看：CMR和SMR到底有什么区别？深度对比分析</title>
+      <link>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</guid>
+      <description>CMR vs SMR硬盘有什么区别？为什么NAS不推荐SMR？本文深度解析两种记录技术的优缺点，帮助你选购正确的NAS硬盘。</description>
+    </item>
     <item>
       <title>2026年NAS 4TB硬盘深度评测：希捷酷狼 vs 西数红盘Plus vs 东芝N300</title>
       <link>https://www.nucnas.top/nas/nas-4tb-hdd-deep-review-2026/</link>

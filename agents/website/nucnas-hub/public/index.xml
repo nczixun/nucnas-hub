@@ -6,8 +6,43 @@
     <description>Recent content on NUC NAS Hub - 迷你主机与私有云指南</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.nucnas.top/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年NAS硬盘容量怎么选？4TB/8TB/12TB/16TB选购指南</title>
+      <link>https://www.nucnas.top/nas/nas-hdd-capacity-guide-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-hdd-capacity-guide-2026/</guid>
+      <description>NAS硬盘容量怎么选？本文详细分析4TB到16TB各容量的适用场景，帮助你找到最适合的NAS存储方案。</description>
+    </item>
+    <item>
+      <title>2026年学生党迷你主机推荐：从1k到5k，如何选出最适合你的那一款？</title>
+      <link>https://www.nucnas.top/hardware/mini-pc-student-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/hardware/mini-pc-student-2026/</guid>
+      <description>学生党预算有限但又需要一台性能足够的电脑？2026年从1000元到5000元的迷你主机选购指南，帮你找到最适合学生场景的高性价比方案。</description>
+    </item>
+    <item>
+      <title>NAS硬盘必看：CMR和SMR到底有什么区别？深度对比分析</title>
+      <link>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</guid>
+      <description>CMR vs SMR硬盘有什么区别？为什么NAS不推荐SMR？本文深度解析两种记录技术的优缺点，帮助你选购正确的NAS硬盘。</description>
+    </item>
+    <item>
+      <title>ROG NUC 2代评测：全球最小RTX 5080主机，值得买吗？</title>
+      <link>https://www.nucnas.top/hardware/rog-nuc-2-review-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/hardware/rog-nuc-2-review-2026/</guid>
+      <description>ROG NUC 2代搭载RTX 5080显卡，体积仅3L，是目前最小的5080主机。本文深度评测告诉你这款性能怪兽是否值得购买。</description>
+    </item>
+    <item>
+      <title>千元迷你主机真的能用吗？实测对比告诉你答案</title>
+      <link>https://www.nucnas.top/hardware/mini-pc-budget-test-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/hardware/mini-pc-budget-test-2026/</guid>
+      <description>1000元的迷你主机到底能不能用？本文通过实测对比告诉你答案，从日常办公到轻度娱乐，全面测试千元机的真实表现。</description>
+    </item>
     <item>
       <title>2026年NAS 4TB硬盘深度评测：希捷酷狼 vs 西数红盘Plus vs 东芝N300</title>
       <link>https://www.nucnas.top/nas/nas-4tb-hdd-deep-review-2026/</link>

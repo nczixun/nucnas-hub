@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROG NUC on NUC NAS Hub - 迷你主机与私有云指南</title>
+    <link>https://www.nucnas.top/tags/rog-nuc/</link>
+    <description>Recent content in ROG NUC on NUC NAS Hub - 迷你主机与私有云指南</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nucnas.top/tags/rog-nuc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROG NUC 2代评测：全球最小RTX 5080主机，值得买吗？</title>
+      <link>https://www.nucnas.top/hardware/rog-nuc-2-review-2026/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/hardware/rog-nuc-2-review-2026/</guid>
+      <description>ROG NUC 2代搭载RTX 5080显卡，体积仅3L，是目前最小的5080主机。本文深度评测告诉你这款性能怪兽是否值得购买。</description>
+    </item>
+  </channel>
+</rss>
