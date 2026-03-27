@@ -1,5 +1,5 @@
 ---
-title: "NAS硬盘温度实测：西数红盘Plus vs 希捷酷狼Pro 谁更"冷静"？"
+title: "NAS硬盘温度实测：西数红盘Plus vs 希捷酷狼Pro 谁更冷静"
 date: 2026-03-26T20:30:00+08:00
 draft: false
 tags: ["NAS", "硬盘", "温度", "西数", "希捷", "散热"]

@@ -200,3 +200,4 @@ Red Plus最实惠
 ---
 
 *关注NUC NAS Hub，下期教你如何组建高性价比的NAS存储方案。*
+\n\n## 相关推荐\n\n- [Nas hdd capacity guide 2026 03 26](/nas/nas-hdd-capacity-guide-2026-03-26/)\n- [Nas hdd wd vs seagate 2026 03 26](/nas/nas-hdd-wd-vs-seagate-2026-03-26/)\n

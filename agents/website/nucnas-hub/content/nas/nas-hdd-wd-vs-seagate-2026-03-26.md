@@ -181,3 +181,4 @@ author: "NUC NAS Hub"
 ---
 
 *关注NUC NAS Hub，获取更多NAS硬盘选购指南。*
+\n\n## 相关推荐\n\n- [Nas hdd capacity guide 2026 03 26](/nas/nas-hdd-capacity-guide-2026-03-26/)\n- [Nas hdd cmr vs smr 2026 03 26](/nas/nas-hdd-cmr-vs-smr-2026-03-26/)\n

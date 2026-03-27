@@ -1,19 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>CMR on NUC NAS Hub - 迷你主机与私有云指南</title>
-    <link>https://www.nucnas.top/tags/cmr/</link>
-    <description>Recent content in CMR on NUC NAS Hub - 迷你主机与私有云指南</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.nucnas.top/tags/cmr/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>NAS硬盘必看：CMR和SMR到底有什么区别？深度对比分析</title>
-      <link>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</guid>
-      <description>CMR vs SMR硬盘有什么区别？为什么NAS不推荐SMR？本文深度解析两种记录技术的优缺点，帮助你选购正确的NAS硬盘。</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CMR on NUC NAS Hub - 迷你主机与私有云指南</title><link>https://www.nucnas.top/tags/cmr/</link><description>Recent content in CMR on NUC NAS Hub - 迷你主机与私有云指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 26 Mar 2026 08:21:00 +0800</lastBuildDate><atom:link href="https://www.nucnas.top/tags/cmr/index.xml" rel="self" type="application/rss+xml"/><item><title>CMR vs SMR：NAS硬盘选购必懂的坑</title><link>https://www.nucnas.top/nas/nas-hdd-cmr-vs-smr-2026-03-26/</link><pubDate>Thu, 26 Mar 2026 08:21:00 +0800</pubDate><guid>https://www.nucnas.top/nas/nas-hdd-cmr-vs-smr-2026-03-26/</guid><description>&lt;h1 id="cmr-vs-smrnas硬盘选购必懂的坑"&gt;CMR vs SMR：NAS硬盘选购必懂的坑&lt;/h1&gt;
+&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;买NAS硬盘，你一定听说过CMR和SMR这两个术语。它们直接关系到硬盘的性能和寿命，但很多新手用户并不了解其中的区别。本文将用最通俗的语言，帮你彻底搞懂这个NAS硬盘选购中最大的&amp;quot;坑&amp;quot;。&lt;/p&gt;
+&lt;h2 id="一什么是cmr"&gt;一、什么是CMR？&lt;/h2&gt;
+&lt;h3 id="11-cmr技术原理"&gt;1.1 CMR技术原理&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;CMR（Conventional Magnetic Recording，传统磁记录）&lt;/strong&gt;，也称为&lt;strong&gt;垂直记录（PMR）&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;写入数据时，磁头在盘片上创建独立的磁轨&lt;/li&gt;
+&lt;li&gt;磁轨之间有明确的间隙，互不干扰&lt;/li&gt;
+&lt;li&gt;数据可以随时重写，不影响相邻磁轨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="12-cmr的特点"&gt;1.2 CMR的特点&lt;/h3&gt;
+&lt;p&gt;✅ &lt;strong&gt;优点&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;随机写入性能优秀&lt;/li&gt;
+&lt;li&gt;长时间使用性能稳定&lt;/li&gt;
+&lt;li&gt;适合NAS/RAID环境&lt;/li&gt;
+&lt;li&gt;寿命更长&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;❌ &lt;strong&gt;缺点&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;存储密度相对较低&lt;/li&gt;
+&lt;li&gt;单位容量成本较高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="二什么是smr"&gt;二、什么是SMR？&lt;/h2&gt;
+&lt;h3 id="21-smr技术原理"&gt;2.1 SMR技术原理&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;SMR（Shingled Magnetic Recording，叠瓦式磁记录）&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;磁轨像屋顶瓦片一样重叠排列&lt;/li&gt;
+&lt;li&gt;写入新数据时，可能需要重写相邻磁轨&lt;/li&gt;
+&lt;li&gt;提高了存储密度，降低了成本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="22-smr的特点"&gt;2.2 SMR的特点&lt;/h3&gt;
+&lt;p&gt;✅ &lt;strong&gt;优点&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;存储密度高&lt;/li&gt;
+&lt;li&gt;单位容量成本低&lt;/li&gt;
+&lt;li&gt;适合纯存储场景&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;❌ &lt;strong&gt;缺点&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;随机写入性能差&lt;/li&gt;
+&lt;li&gt;长时间使用性能下降明显&lt;/li&gt;
+&lt;li&gt;不适合NAS/RAID环境&lt;/li&gt;
+&lt;li&gt;故障风险较高&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="三cmr-vs-smr-性能对比"&gt;三、CMR vs SMR 性能对比&lt;/h2&gt;
+&lt;h3 id="31-理论性能差异"&gt;3.1 理论性能差异&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;指标&lt;/th&gt;
+ &lt;th&gt;CMR&lt;/th&gt;
+ &lt;th&gt;SMR&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;顺序读取&lt;/td&gt;
+ &lt;td&gt;180-210 MB/s&lt;/td&gt;
+ &lt;td&gt;170-200 MB/s&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;随机写入&lt;/td&gt;
+ &lt;td&gt;优秀&lt;/td&gt;
+ &lt;td&gt;较差&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;持续写入稳定性&lt;/td&gt;
+ &lt;td&gt;稳定&lt;/td&gt;
+ &lt;td&gt;明显下降&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="32-实际测试数据"&gt;3.2 实际测试数据&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;测试场景&lt;/strong&gt;：NAS中持续写入100GB小文件（模拟日常使用）&lt;/p&gt;</description></item><item><title>NAS硬盘必看：CMR和SMR到底有什么区别？深度对比分析</title><link>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.nucnas.top/nas/nas-cmr-vs-smr-2026/</guid><description>CMR vs SMR硬盘有什么区别？为什么NAS不推荐SMR？本文深度解析两种记录技术的优缺点，帮助你选购正确的NAS硬盘。</description></item></channel></rss>

@@ -1,5 +1,5 @@
 ---
-title: "NAS硬盘寿命实测：西数红盘Plus vs 希捷酷狼Pro 谁更能"扛"？"
+title: "NAS硬盘寿命实测：西数红盘Plus vs 希捷酷狼Pro 谁更能扛"
 date: 2026-03-26T21:00:00+08:00
 draft: false
 tags: ["NAS", "硬盘", "寿命", "可靠性", "西数", "希捷", "MTBF"]

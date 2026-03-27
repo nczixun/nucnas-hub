@@ -1,33 +1,91 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>私有云 on NUC NAS Hub - 迷你主机与私有云指南</title>
-    <link>https://www.nucnas.top/tags/%E7%A7%81%E6%9C%89%E4%BA%91/</link>
-    <description>Recent content in 私有云 on NUC NAS Hub - 迷你主机与私有云指南</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.nucnas.top/tags/%E7%A7%81%E6%9C%89%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2026年NAS组装完全指南：从零构建你的私有云</title>
-      <link>https://www.nucnas.top/nas/nas-assembly-guide-2026/</link>
-      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.nucnas.top/nas/nas-assembly-guide-2026/</guid>
-      <description>手把手教你组装NAS：从硬件选购、配件清单到系统安装，一文搞定。2026年最全NAS组装教程。</description>
-    </item>
-    <item>
-      <title>NAS硬件推荐 - 2026年选购指南</title>
-      <link>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</link>
-      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</guid>
-      <description>NAS玩家必备硬件推荐：机箱、主板、CPU、硬盘、网卡，一文搞定所有配件选购。</description>
-    </item>
-    <item>
-      <title>NAS新手完全指南：2026年从零开始构建你的私有云</title>
-      <link>https://www.nucnas.top/nas/nas-beginner-guide-2026/</link>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.nucnas.top/nas/nas-beginner-guide-2026/</guid>
-      <description>&lt;h1 id=&#34;nas新手完全指南2026年从零开始构建你的私有云&#34;&gt;NAS新手完全指南：2026年从零开始构建你的私有云&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;你是否有过这些困扰？&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;?? 手机照片太多，存储空间总是不够&lt;/li&gt;&#xA;&lt;li&gt;?? 想在手机和电脑之间快速传文件，却找不到好方法&lt;/li&gt;&#xA;&lt;li&gt;?? 想在家里的电视上观看下载的电影，却不知道怎么做&lt;/li&gt;&#xA;&lt;li&gt;?? 想在外也能访问家里电脑的文件&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;如果你有以上任何一个需求，那么**&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;（网络附加存储）**就是为你准备的解决方案！&lt;/p&gt;&#xA;&lt;p&gt;这篇文章是&lt;strong&gt;专为零基础小白写的&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;入门指南&lt;/strong&gt;，手把手教你从零开始构建自己的私有云。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一什么是nas&#34;&gt;一、什么是&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;？&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-nas的定义&#34;&gt;1.1 &lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;的定义&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt; = Network Attached Storage（网络附加存储）&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;简单来说，&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;就是一台&lt;strong&gt;连接在家庭网络上的专用存储设备&lt;/strong&gt;。它就像一个24小时开机的私人云服务器，可以：&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>私有云 on NUC NAS Hub - 迷你主机与私有云指南</title><link>https://www.nucnas.top/tags/%E7%A7%81%E6%9C%89%E4%BA%91/</link><description>Recent content in 私有云 on NUC NAS Hub - 迷你主机与私有云指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nucnas.top/tags/%E7%A7%81%E6%9C%89%E4%BA%91/index.xml" rel="self" type="application/rss+xml"/><item><title>绿联DXP4800深度测评：新手入门NAS的首选？</title><link>https://www.nucnas.top/nas/greenunion-dxp4800-review-2026/</link><pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.nucnas.top/nas/greenunion-dxp4800-review-2026/</guid><description>&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;对于普通用户而言，NAS（网络附加存储）往往给人“专业门槛高、设置复杂”的印象。传统NAS厂商的产品虽然功能强大，但学习成本确实让不少新手望而却步。绿联作为国内消费电子领域的头部品牌，近年来在NAS市场的布局日趋深入，&lt;strong&gt;DXP4800&lt;/strong&gt;正是其面向中端家用市场推出的力作。&lt;/p&gt;
+&lt;p&gt;这篇文章，我们从普通用户的视角，全面剖析这款产品是否真的适合NAS新手。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="一产品定位与市场背景"&gt;一、产品定位与市场背景&lt;/h2&gt;
+&lt;p&gt;绿联DXP4800发布于2024年，是绿联私有云产品线的&lt;strong&gt;中端旗舰&lt;/strong&gt;。它的定位很明确：&lt;strong&gt;面向家庭用户和NAS新手，提供易上手、功能齐全的私有云解决方案&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;与群晖、威联通等传统NAS厂商相比，绿联的核心优势在于：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;更友好的交互体验&lt;/strong&gt;（UGOS Pro系统）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更低的入手门槛&lt;/strong&gt;（价格相对亲民）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更本土化的生态适配&lt;/strong&gt;（国产应用生态）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DXP4800也是绿联首批搭载全新 &lt;strong&gt;UGOS Pro&lt;/strong&gt; 系统的机型之一，这套系统基于Debian深度定制，在易用性和可玩性之间找到了不错的平衡点。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="二硬件规格详解"&gt;二、硬件规格详解&lt;/h2&gt;
+&lt;h3 id="21-外观与做工"&gt;2.1 外观与做工&lt;/h3&gt;
+&lt;p&gt;DXP4800采用&lt;strong&gt;深灰色金属机身&lt;/strong&gt;，整体设计简洁大气，线条硬朗，质感优于同价位竞品。机身尺寸为 &lt;strong&gt;227×170×166mm&lt;/strong&gt;，在四盘位NAS中属于紧凑型选手，放置在桌面或弱电箱都不占地。&lt;/p&gt;
+&lt;p&gt;正面采用磁吸式防尘盖设计，打开后可看到四个硬盘仓位。硬盘托架支持&lt;strong&gt;免螺丝安装&lt;/strong&gt;，3.5英寸硬盘直接滑入即可，对新手非常友好。&lt;/p&gt;
+&lt;h3 id="22-核心配置"&gt;2.2 核心配置&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;规格项&lt;/th&gt;
+ &lt;th&gt;参数&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;CPU&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Intel N100（四核四线程，睿频3.4GHz）&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;内存&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;8GB DDR5（可扩展至16GB）&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;存储&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;4×3.5&amp;quot; HDD + 2×M.2 NVMe SSD&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;网口&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;2×2.5GbE RJ45&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;USB&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;USB 3.2 Gen2 ×2 + USB 2.0 ×1&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;HDMI&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;HDMI 2.0（4K@60Hz输出）&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;功耗&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;待机约10W，满载约40W&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Intel N100&lt;/strong&gt; 是这款机器的核心亮点。作为一枚面向移动平台的低功耗处理器，N100在保持极低功耗的同时，提供了足够家庭使用的算力。它支持&lt;strong&gt;硬件解码&lt;/strong&gt;，可流畅播放4K视频，同时也能应付Docker容器、照片管理等轻量级应用场景。&lt;/p&gt;
+&lt;h3 id="23-扩展性"&gt;2.3 扩展性&lt;/h3&gt;
+&lt;p&gt;DXP4800的存储扩展性在同价位产品中表现出色：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;4个HDD仓位&lt;/strong&gt;：支持最大4×20TB（总计80TB）机械硬盘&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2个M.2插槽&lt;/strong&gt;：支持NVMe SSD，可作为高速缓存或独立存储池&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内存可升级&lt;/strong&gt;：默认8GB，最高可扩展至16GB，满足Docker用户需求&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="三系统体验ugos-pro深度解析"&gt;三、系统体验：UGOS Pro深度解析&lt;/h2&gt;
+&lt;h3 id="31-初始化与交互"&gt;3.1 初始化与交互&lt;/h3&gt;
+&lt;p&gt;第一次开机初始化非常“傻瓜式”：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下载「绿联云」App或访问Web端&lt;/li&gt;
+&lt;li&gt;扫描机身二维码绑定设备&lt;/li&gt;
+&lt;li&gt;创建存储池和存储空间（向导式流程）&lt;/li&gt;
+&lt;li&gt;完成设置，全程约15分钟&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这比传统NAS动辄一小时的配置过程要友好得多。&lt;strong&gt;UGOS Pro的桌面式交互&lt;/strong&gt;（类「我的电脑」界面）降低了用户的认知门槛，这是它区别于群晖、威联通的最大特点。&lt;/p&gt;</description></item><item><title>2026年NAS组装完全指南：从零构建你的私有云</title><link>https://www.nucnas.top/nas/nas-assembly-guide-2026/</link><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.nucnas.top/nas/nas-assembly-guide-2026/</guid><description>手把手教你组装NAS：从硬件选购、配件清单到系统安装，一文搞定。2026年最全NAS组装教程。</description></item><item><title>NAS硬件推荐 - 2026年选购指南</title><link>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</link><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.nucnas.top/resources/nas-hardware-recommendation-2026/</guid><description>NAS玩家必备硬件推荐：机箱、主板、CPU、硬盘、网卡，一文搞定所有配件选购。</description></item><item><title>NAS新手完全指南：2026年从零开始构建你的私有云</title><link>https://www.nucnas.top/nas/nas-beginner-guide-2026/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.nucnas.top/nas/nas-beginner-guide-2026/</guid><description>&lt;h1 id="nas新手完全指南2026年从零开始构建你的私有云"&gt;NAS新手完全指南：2026年从零开始构建你的私有云&lt;/h1&gt;
+&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;你是否有过这些困扰？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;?? 手机照片太多，存储空间总是不够&lt;/li&gt;
+&lt;li&gt;?? 想在手机和电脑之间快速传文件，却找不到好方法&lt;/li&gt;
+&lt;li&gt;?? 想在家里的电视上观看下载的电影，却不知道怎么做&lt;/li&gt;
+&lt;li&gt;?? 想在外也能访问家里电脑的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你有以上任何一个需求，那么**&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;（网络附加存储）**就是为你准备的解决方案！&lt;/p&gt;
+&lt;p&gt;这篇文章是&lt;strong&gt;专为零基础小白写的&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;入门指南&lt;/strong&gt;，手把手教你从零开始构建自己的私有云。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="一什么是nas"&gt;一、什么是&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;？&lt;/h2&gt;
+&lt;h3 id="11-nas的定义"&gt;1.1 &lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;的定义&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt; = Network Attached Storage（网络附加存储）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;简单来说，&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;就是一台&lt;strong&gt;连接在家庭网络上的专用存储设备&lt;/strong&gt;。它就像一个24小时开机的私人云服务器，可以：&lt;/p&gt;</description></item></channel></rss>

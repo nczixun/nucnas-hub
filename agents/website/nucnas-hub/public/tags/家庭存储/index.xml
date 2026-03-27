@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>家庭存储 on NUC NAS Hub - 迷你主机与私有云指南</title>
-    <link>https://www.nucnas.top/tags/%E5%AE%B6%E5%BA%AD%E5%AD%98%E5%82%A8/</link>
-    <description>Recent content in 家庭存储 on NUC NAS Hub - 迷你主机与私有云指南</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.nucnas.top/tags/%E5%AE%B6%E5%BA%AD%E5%AD%98%E5%82%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>NAS新手完全指南：2026年从零开始构建你的私有云</title>
-      <link>https://www.nucnas.top/nas/nas-beginner-guide-2026/</link>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.nucnas.top/nas/nas-beginner-guide-2026/</guid>
-      <description>&lt;h1 id=&#34;nas新手完全指南2026年从零开始构建你的私有云&#34;&gt;NAS新手完全指南：2026年从零开始构建你的私有云&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;你是否有过这些困扰？&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;?? 手机照片太多，存储空间总是不够&lt;/li&gt;&#xA;&lt;li&gt;?? 想在手机和电脑之间快速传文件，却找不到好方法&lt;/li&gt;&#xA;&lt;li&gt;?? 想在家里的电视上观看下载的电影，却不知道怎么做&lt;/li&gt;&#xA;&lt;li&gt;?? 想在外也能访问家里电脑的文件&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;如果你有以上任何一个需求，那么**&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;（网络附加存储）**就是为你准备的解决方案！&lt;/p&gt;&#xA;&lt;p&gt;这篇文章是&lt;strong&gt;专为零基础小白写的&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;入门指南&lt;/strong&gt;，手把手教你从零开始构建自己的私有云。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一什么是nas&#34;&gt;一、什么是&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;？&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-nas的定义&#34;&gt;1.1 &lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;的定义&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt; = Network Attached Storage（网络附加存储）&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;简单来说，&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;就是一台&lt;strong&gt;连接在家庭网络上的专用存储设备&lt;/strong&gt;。它就像一个24小时开机的私人云服务器，可以：&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>家庭存储 on NUC NAS Hub - 迷你主机与私有云指南</title><link>https://www.nucnas.top/tags/%E5%AE%B6%E5%BA%AD%E5%AD%98%E5%82%A8/</link><description>Recent content in 家庭存储 on NUC NAS Hub - 迷你主机与私有云指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nucnas.top/tags/%E5%AE%B6%E5%BA%AD%E5%AD%98%E5%82%A8/index.xml" rel="self" type="application/rss+xml"/><item><title>NAS新手完全指南：2026年从零开始构建你的私有云</title><link>https://www.nucnas.top/nas/nas-beginner-guide-2026/</link><pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.nucnas.top/nas/nas-beginner-guide-2026/</guid><description>&lt;h1 id="nas新手完全指南2026年从零开始构建你的私有云"&gt;NAS新手完全指南：2026年从零开始构建你的私有云&lt;/h1&gt;
+&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;你是否有过这些困扰？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;?? 手机照片太多，存储空间总是不够&lt;/li&gt;
+&lt;li&gt;?? 想在手机和电脑之间快速传文件，却找不到好方法&lt;/li&gt;
+&lt;li&gt;?? 想在家里的电视上观看下载的电影，却不知道怎么做&lt;/li&gt;
+&lt;li&gt;?? 想在外也能访问家里电脑的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你有以上任何一个需求，那么**&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;（网络附加存储）**就是为你准备的解决方案！&lt;/p&gt;
+&lt;p&gt;这篇文章是&lt;strong&gt;专为零基础小白写的&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;入门指南&lt;/strong&gt;，手把手教你从零开始构建自己的私有云。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="一什么是nas"&gt;一、什么是&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;？&lt;/h2&gt;
+&lt;h3 id="11-nas的定义"&gt;1.1 &lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;的定义&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt; = Network Attached Storage（网络附加存储）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;简单来说，&lt;!-- raw HTML omitted --&gt;NAS&lt;!-- raw HTML omitted --&gt;就是一台&lt;strong&gt;连接在家庭网络上的专用存储设备&lt;/strong&gt;。它就像一个24小时开机的私人云服务器，可以：&lt;/p&gt;</description></item></channel></rss>

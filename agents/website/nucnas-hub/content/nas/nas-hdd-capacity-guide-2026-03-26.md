@@ -140,3 +140,4 @@ author: "NUC NAS Hub"
 ---
 
 *更多NAS硬盘横评，关注NUC NAS Hub，持续更新。*
+\n\n## 相关推荐\n\n- [Nas hdd cmr vs smr 2026 03 26](/nas/nas-hdd-cmr-vs-smr-2026-03-26/)\n- [Nas hdd wd vs seagate 2026 03 26](/nas/nas-hdd-wd-vs-seagate-2026-03-26/)\n
