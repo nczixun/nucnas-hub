@@ -1,105 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>横评 on NUC NAS Hub - 迷你主机与私有云指南</title><link>https://www.nucnas.top/tags/%E6%A8%AA%E8%AF%84/</link><description>Recent content in 横评 on NUC NAS Hub - 迷你主机与私有云指南</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.nucnas.top/tags/%E6%A8%AA%E8%AF%84/index.xml" rel="self" type="application/rss+xml"/><item><title>2026年NAS 8TB硬盘终极对决：希捷酷狼Pro vs 西数红盘Pro vs 东芝N300</title><link>https://www.nucnas.top/nas/nas-8tb-hdd-deep-review-2026/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate><guid>https://www.nucnas.top/nas/nas-8tb-hdd-deep-review-2026/</guid><description>&lt;h1 id="2026年nas-8tb硬盘终极对决三大旗舰全面横评"&gt;2026年NAS 8TB硬盘终极对决：三大旗舰全面横评&lt;/h1&gt;
-&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
-&lt;p&gt;当你的NAS存储需求超过4TB，8TB就成为了下一个“甜蜜点”。相比4TB，8TB可以存储更多的4K电影、更多的家庭照片、更大的Docker镜像，以及更充裕的数据备份空间。&lt;/p&gt;
-&lt;p&gt;但8TB硬盘的价格跨度很大，从1100元到1600元不等。一步选错，就是500元的差价和可能的数据风险。&lt;/p&gt;
-&lt;p&gt;今天，我们对三款主流8TB NAS硬盘进行深度评测：希捷酷狼Pro 8TB、西数红盘Pro 8TB、东芝N300 8TB。从技术原理到实际性能，从功耗噪音到质保政策，给你一个不留遗憾的答案。&lt;/p&gt;
-&lt;h2 id="8tb为什么是进阶用户的首选"&gt;8TB为什么是进阶用户的首选？&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;单TB成本最优&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;容量&lt;/th&gt;
- &lt;th&gt;参考价格&lt;/th&gt;
- &lt;th&gt;单TB成本&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;4TB&lt;/td&gt;
- &lt;td&gt;¥600-850&lt;/td&gt;
- &lt;td&gt;¥150-212&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;8TB&lt;/td&gt;
- &lt;td&gt;¥1100-1600&lt;/td&gt;
- &lt;td&gt;¥137-200&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;12TB&lt;/td&gt;
- &lt;td&gt;¥1800-2200&lt;/td&gt;
- &lt;td&gt;¥150-183&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;16TB&lt;/td&gt;
- &lt;td&gt;¥2500-3000&lt;/td&gt;
- &lt;td&gt;¥156-187&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;8TB的单TB成本已经接近16TB，但初始投入只有16TB的一半左右。对于大多数用户来说，这是一个性价比最高的选择。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;容量与性能的平衡&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;8TB硬盘通常采用7200RPM转速（部分为5400RPM），性能比4TB更强。同时，8TB硬盘的工作负载能力也更高，适合更繁重的数据访问任务。&lt;/p&gt;
-&lt;h2 id="三款8tb-nas硬盘核心参数对比"&gt;三款8TB NAS硬盘核心参数对比&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;参数&lt;/th&gt;
- &lt;th&gt;希捷酷狼Pro 8TB&lt;/th&gt;
- &lt;th&gt;西数红盘Pro 8TB&lt;/th&gt;
- &lt;th&gt;东芝N300 8TB&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;型号&lt;/td&gt;
- &lt;td&gt;ST8000VN0004&lt;/td&gt;
- &lt;td&gt;WD80EFZZ&lt;/td&gt;
- &lt;td&gt;HDWG480&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;容量&lt;/td&gt;
- &lt;td&gt;8TB&lt;/td&gt;
- &lt;td&gt;8TB&lt;/td&gt;
- &lt;td&gt;8TB&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;技术&lt;/td&gt;
- &lt;td&gt;CMR&lt;/td&gt;
- &lt;td&gt;SMR&lt;/td&gt;
- &lt;td&gt;CMR&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;转速&lt;/td&gt;
- &lt;td&gt;7200RPM&lt;/td&gt;
- &lt;td&gt;5400RPM&lt;/td&gt;
- &lt;td&gt;7200RPM&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;缓存&lt;/td&gt;
- &lt;td&gt;256MB&lt;/td&gt;
- &lt;td&gt;256MB&lt;/td&gt;
- &lt;td&gt;256MB&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;年工作负载&lt;/td&gt;
- &lt;td&gt;300TB&lt;/td&gt;
- &lt;td&gt;180TB&lt;/td&gt;
- &lt;td&gt;180TB&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;质保&lt;/td&gt;
- &lt;td&gt;5年&lt;/td&gt;
- &lt;td&gt;3年&lt;/td&gt;
- &lt;td&gt;3年&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;参考价格&lt;/td&gt;
- &lt;td&gt;¥1400-1600&lt;/td&gt;
- &lt;td&gt;¥1200-1400&lt;/td&gt;
- &lt;td&gt;¥1100-1300&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="技术解析cmr-vs-smr7200rpm-vs-5400rpm"&gt;技术解析：CMR vs SMR，7200RPM vs 5400RPM&lt;/h2&gt;
-&lt;h3 id="cmr-vs-smr写入技术的本质差异"&gt;CMR vs SMR：写入技术的本质差异&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;CMR（传统磁记录）&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>横评 on NUC NAS Hub - 迷你主机与私有云指南</title>
+    <link>https://www.nucnas.top/tags/%E6%A8%AA%E8%AF%84/</link>
+    <description>Recent content in 横评 on NUC NAS Hub - 迷你主机与私有云指南</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nucnas.top/tags/%E6%A8%AA%E8%AF%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026年Q1迷你主机横评：Intel N150 vs AMD 8000系列谁更值？</title>
+      <link>https://www.nucnas.top/hardware/mini-pc-n150-vs-amd8000-2026/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/hardware/mini-pc-n150-vs-amd8000-2026/</guid>
+      <description>&lt;p&gt;2026年Q1，迷你主机市场最大的看点是两个平台的碰撞：Intel N150和AMD 8000系列。&lt;/p&gt;&#xA;&lt;p&gt;前者是Intel 2025年底推出的入门级移动处理器，主打低功耗和性价比；后者是AMD的旗舰移动APU，在性能上领先明显，但价格也更高。&lt;/p&gt;&#xA;&lt;p&gt;这篇文章，我们用数据说话。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一核心参数对比&#34;&gt;一、核心参数对比&lt;/h2&gt;&#xA;&lt;p&gt;先看纸面参数：&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;参数&lt;/th&gt;&#xA;          &lt;th&gt;Intel N150&lt;/th&gt;&#xA;          &lt;th&gt;AMD R5 8640U&lt;/th&gt;&#xA;          &lt;th&gt;AMD R7 8840U&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;核心/线程&lt;/td&gt;&#xA;          &lt;td&gt;4C/4T&lt;/td&gt;&#xA;          &lt;td&gt;6C/12T&lt;/td&gt;&#xA;          &lt;td&gt;8C/16T&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;基准频率&lt;/td&gt;&#xA;          &lt;td&gt;1.7GHz&lt;/td&gt;&#xA;          &lt;td&gt;3.5GHz&lt;/td&gt;&#xA;          &lt;td&gt;3.3GHz&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;睿频&lt;/td&gt;&#xA;          &lt;td&gt;3.6GHz&lt;/td&gt;&#xA;          &lt;td&gt;4.9GHz&lt;/td&gt;&#xA;          &lt;td&gt;5.1GHz&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;缓存&lt;/td&gt;&#xA;          &lt;td&gt;6MB&lt;/td&gt;&#xA;          &lt;td&gt;16MB&lt;/td&gt;&#xA;          &lt;td&gt;16MB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;核显&lt;/td&gt;&#xA;          &lt;td&gt;Intel UHD&lt;/td&gt;&#xA;          &lt;td&gt;Radeon 760M&lt;/td&gt;&#xA;          &lt;td&gt;Radeon 780M&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;TDP&lt;/td&gt;&#xA;          &lt;td&gt;6W&lt;/td&gt;&#xA;          &lt;td&gt;28W&lt;/td&gt;&#xA;          &lt;td&gt;28W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;制程&lt;/td&gt;&#xA;          &lt;td&gt;Intel 7&lt;/td&gt;&#xA;          &lt;td&gt;TSMC 4nm&lt;/td&gt;&#xA;          &lt;td&gt;TSMC 4nm&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;内存支持&lt;/td&gt;&#xA;          &lt;td&gt;DDR5-4800&lt;/td&gt;&#xA;          &lt;td&gt;DDR5-5600&lt;/td&gt;&#xA;          &lt;td&gt;DDR5-5600&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;官方定价&lt;/td&gt;&#xA;          &lt;td&gt;$107&lt;/td&gt;&#xA;          &lt;td&gt;$309&lt;/td&gt;&#xA;          &lt;td&gt;$499&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;：Intel N150的定位是低功耗入门级，AMD 8000系列是高性能主流级，两者不在同一赛道。但因为价格差距大，很多人会在&amp;quot;够用就行&amp;quot;和&amp;quot;性能余量&amp;quot;之间纠结。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;二cpu性能测试&#34;&gt;二、CPU性能测试&lt;/h2&gt;&#xA;&lt;p&gt;测试平台：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Intel N150（零刻EQ14，16GB DDR5）&lt;/li&gt;&#xA;&lt;li&gt;AMD R5 8640U（铭凡NAD9，32GB DDR5）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cinebench-r23多核&#34;&gt;Cinebench R23（多核）&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;处理器&lt;/th&gt;&#xA;          &lt;th&gt;分数&lt;/th&gt;&#xA;          &lt;th&gt;功耗&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Intel N150&lt;/td&gt;&#xA;          &lt;td&gt;2156&lt;/td&gt;&#xA;          &lt;td&gt;15W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;AMD R5 8640U&lt;/td&gt;&#xA;          &lt;td&gt;9865&lt;/td&gt;&#xA;          &lt;td&gt;28W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;AMD R7 8840U&lt;/td&gt;&#xA;          &lt;td&gt;12430&lt;/td&gt;&#xA;          &lt;td&gt;30W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;结论&lt;/strong&gt;：AMD R5的多核性能是N150的4.5倍，差距相当明显。但这是否意味着N150不够用？往下看。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2026年NAS 8TB硬盘终极对决：希捷酷狼Pro vs 西数红盘Pro vs 东芝N300</title>
+      <link>https://www.nucnas.top/nas/nas-8tb-hdd-deep-review-2026/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.nucnas.top/nas/nas-8tb-hdd-deep-review-2026/</guid>
+      <description>&lt;h1 id=&#34;2026年nas-8tb硬盘终极对决三大旗舰全面横评&#34;&gt;2026年NAS 8TB硬盘终极对决：三大旗舰全面横评&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;当你的NAS存储需求超过4TB，8TB就成为了下一个“甜蜜点”。相比4TB，8TB可以存储更多的4K电影、更多的家庭照片、更大的Docker镜像，以及更充裕的数据备份空间。&lt;/p&gt;&#xA;&lt;p&gt;但8TB硬盘的价格跨度很大，从1100元到1600元不等。一步选错，就是500元的差价和可能的数据风险。&lt;/p&gt;&#xA;&lt;p&gt;今天，我们对三款主流8TB NAS硬盘进行深度评测：希捷酷狼Pro 8TB、西数红盘Pro 8TB、东芝N300 8TB。从技术原理到实际性能，从功耗噪音到质保政策，给你一个不留遗憾的答案。&lt;/p&gt;&#xA;&lt;h2 id=&#34;8tb为什么是进阶用户的首选&#34;&gt;8TB为什么是进阶用户的首选？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;单TB成本最优&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;容量&lt;/th&gt;&#xA;          &lt;th&gt;参考价格&lt;/th&gt;&#xA;          &lt;th&gt;单TB成本&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4TB&lt;/td&gt;&#xA;          &lt;td&gt;¥600-850&lt;/td&gt;&#xA;          &lt;td&gt;¥150-212&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;8TB&lt;/td&gt;&#xA;          &lt;td&gt;¥1100-1600&lt;/td&gt;&#xA;          &lt;td&gt;¥137-200&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;12TB&lt;/td&gt;&#xA;          &lt;td&gt;¥1800-2200&lt;/td&gt;&#xA;          &lt;td&gt;¥150-183&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;16TB&lt;/td&gt;&#xA;          &lt;td&gt;¥2500-3000&lt;/td&gt;&#xA;          &lt;td&gt;¥156-187&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;8TB的单TB成本已经接近16TB，但初始投入只有16TB的一半左右。对于大多数用户来说，这是一个性价比最高的选择。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;容量与性能的平衡&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;8TB硬盘通常采用7200RPM转速（部分为5400RPM），性能比4TB更强。同时，8TB硬盘的工作负载能力也更高，适合更繁重的数据访问任务。&lt;/p&gt;&#xA;&lt;h2 id=&#34;三款8tb-nas硬盘核心参数对比&#34;&gt;三款8TB NAS硬盘核心参数对比&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;参数&lt;/th&gt;&#xA;          &lt;th&gt;希捷酷狼Pro 8TB&lt;/th&gt;&#xA;          &lt;th&gt;西数红盘Pro 8TB&lt;/th&gt;&#xA;          &lt;th&gt;东芝N300 8TB&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;型号&lt;/td&gt;&#xA;          &lt;td&gt;ST8000VN0004&lt;/td&gt;&#xA;          &lt;td&gt;WD80EFZZ&lt;/td&gt;&#xA;          &lt;td&gt;HDWG480&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;容量&lt;/td&gt;&#xA;          &lt;td&gt;8TB&lt;/td&gt;&#xA;          &lt;td&gt;8TB&lt;/td&gt;&#xA;          &lt;td&gt;8TB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;技术&lt;/td&gt;&#xA;          &lt;td&gt;CMR&lt;/td&gt;&#xA;          &lt;td&gt;SMR&lt;/td&gt;&#xA;          &lt;td&gt;CMR&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;转速&lt;/td&gt;&#xA;          &lt;td&gt;7200RPM&lt;/td&gt;&#xA;          &lt;td&gt;5400RPM&lt;/td&gt;&#xA;          &lt;td&gt;7200RPM&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;缓存&lt;/td&gt;&#xA;          &lt;td&gt;256MB&lt;/td&gt;&#xA;          &lt;td&gt;256MB&lt;/td&gt;&#xA;          &lt;td&gt;256MB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;年工作负载&lt;/td&gt;&#xA;          &lt;td&gt;300TB&lt;/td&gt;&#xA;          &lt;td&gt;180TB&lt;/td&gt;&#xA;          &lt;td&gt;180TB&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;质保&lt;/td&gt;&#xA;          &lt;td&gt;5年&lt;/td&gt;&#xA;          &lt;td&gt;3年&lt;/td&gt;&#xA;          &lt;td&gt;3年&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;参考价格&lt;/td&gt;&#xA;          &lt;td&gt;¥1400-1600&lt;/td&gt;&#xA;          &lt;td&gt;¥1200-1400&lt;/td&gt;&#xA;          &lt;td&gt;¥1100-1300&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;技术解析cmr-vs-smr7200rpm-vs-5400rpm&#34;&gt;技术解析：CMR vs SMR，7200RPM vs 5400RPM&lt;/h2&gt;&#xA;&lt;h3 id=&#34;cmr-vs-smr写入技术的本质差异&#34;&gt;CMR vs SMR：写入技术的本质差异&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;CMR（传统磁记录）&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

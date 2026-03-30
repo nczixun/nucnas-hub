@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>私有云 - NUC NAS Hub - 迷你主机与私有云指南</title>
+    <title>大模型 - NUC NAS Hub - 迷你主机与私有云指南</title>
     <meta name="description" content="专注迷你主机、NAS与本地化AI部署">
     <link rel="stylesheet" href="/css/style.css">
     
@@ -24,7 +24,7 @@
     <main>
         
 <section>
-    <h1>私有云</h1>
+    <h1>大模型</h1>
     <p></p>
     <ul class="article-list">
     
@@ -126,136 +126,6 @@
 </span></span></span></code></pre></div><p><strong>注意</strong>：如果你的NAS没有独立GPU，Ollama会自动使用CPU推理，性能会低一些。</p></p>
                 <span class="meta">
                     🕐 2026-03-30
-                </span>
-            </a>
-        </li>
-    
-        <li>
-            <a href="/nas/greenunion-dxp4800-review-2026/">
-                <h3>绿联DXP4800深度测评：新手入门NAS的首选？</h3>
-                <p><h2 id="前言">前言</h2>
-<p>对于普通用户而言，NAS（网络附加存储）往往给人“专业门槛高、设置复杂”的印象。传统NAS厂商的产品虽然功能强大，但学习成本确实让不少新手望而却步。绿联作为国内消费电子领域的头部品牌，近年来在NAS市场的布局日趋深入，<strong>DXP4800</strong>正是其面向中端家用市场推出的力作。</p>
-<p>这篇文章，我们从普通用户的视角，全面剖析这款产品是否真的适合NAS新手。</p>
-<hr>
-<h2 id="一产品定位与市场背景">一、产品定位与市场背景</h2>
-<p>绿联DXP4800发布于2024年，是绿联私有云产品线的<strong>中端旗舰</strong>。它的定位很明确：<strong>面向家庭用户和NAS新手，提供易上手、功能齐全的私有云解决方案</strong>。</p>
-<p>与群晖、威联通等传统NAS厂商相比，绿联的核心优势在于：</p>
-<ul>
-<li><strong>更友好的交互体验</strong>（UGOS Pro系统）</li>
-<li><strong>更低的入手门槛</strong>（价格相对亲民）</li>
-<li><strong>更本土化的生态适配</strong>（国产应用生态）</li>
-</ul>
-<p>DXP4800也是绿联首批搭载全新 <strong>UGOS Pro</strong> 系统的机型之一，这套系统基于Debian深度定制，在易用性和可玩性之间找到了不错的平衡点。</p>
-<hr>
-<h2 id="二硬件规格详解">二、硬件规格详解</h2>
-<h3 id="21-外观与做工">2.1 外观与做工</h3>
-<p>DXP4800采用<strong>深灰色金属机身</strong>，整体设计简洁大气，线条硬朗，质感优于同价位竞品。机身尺寸为 <strong>227×170×166mm</strong>，在四盘位NAS中属于紧凑型选手，放置在桌面或弱电箱都不占地。</p>
-<p>正面采用磁吸式防尘盖设计，打开后可看到四个硬盘仓位。硬盘托架支持<strong>免螺丝安装</strong>，3.5英寸硬盘直接滑入即可，对新手非常友好。</p>
-<h3 id="22-核心配置">2.2 核心配置</h3>
-<table>
-  <thead>
-      <tr>
-          <th>规格项</th>
-          <th>参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>CPU</strong></td>
-          <td>Intel N100（四核四线程，睿频3.4GHz）</td>
-      </tr>
-      <tr>
-          <td><strong>内存</strong></td>
-          <td>8GB DDR5（可扩展至16GB）</td>
-      </tr>
-      <tr>
-          <td><strong>存储</strong></td>
-          <td>4×3.5&quot; HDD + 2×M.2 NVMe SSD</td>
-      </tr>
-      <tr>
-          <td><strong>网口</strong></td>
-          <td>2×2.5GbE RJ45</td>
-      </tr>
-      <tr>
-          <td><strong>USB</strong></td>
-          <td>USB 3.2 Gen2 ×2 + USB 2.0 ×1</td>
-      </tr>
-      <tr>
-          <td><strong>HDMI</strong></td>
-          <td>HDMI 2.0（4K@60Hz输出）</td>
-      </tr>
-      <tr>
-          <td><strong>功耗</strong></td>
-          <td>待机约10W，满载约40W</td>
-      </tr>
-  </tbody>
-</table>
-<p><strong>Intel N100</strong> 是这款机器的核心亮点。作为一枚面向移动平台的低功耗处理器，N100在保持极低功耗的同时，提供了足够家庭使用的算力。它支持<strong>硬件解码</strong>，可流畅播放4K视频，同时也能应付Docker容器、照片管理等轻量级应用场景。</p>
-<h3 id="23-扩展性">2.3 扩展性</h3>
-<p>DXP4800的存储扩展性在同价位产品中表现出色：</p>
-<ul>
-<li><strong>4个HDD仓位</strong>：支持最大4×20TB（总计80TB）机械硬盘</li>
-<li><strong>2个M.2插槽</strong>：支持NVMe SSD，可作为高速缓存或独立存储池</li>
-<li><strong>内存可升级</strong>：默认8GB，最高可扩展至16GB，满足Docker用户需求</li>
-</ul>
-<hr>
-<h2 id="三系统体验ugos-pro深度解析">三、系统体验：UGOS Pro深度解析</h2>
-<h3 id="31-初始化与交互">3.1 初始化与交互</h3>
-<p>第一次开机初始化非常“傻瓜式”：</p>
-<ol>
-<li>下载「绿联云」App或访问Web端</li>
-<li>扫描机身二维码绑定设备</li>
-<li>创建存储池和存储空间（向导式流程）</li>
-<li>完成设置，全程约15分钟</li>
-</ol>
-<p>这比传统NAS动辄一小时的配置过程要友好得多。<strong>UGOS Pro的桌面式交互</strong>（类「我的电脑」界面）降低了用户的认知门槛，这是它区别于群晖、威联通的最大特点。</p></p>
-                <span class="meta">
-                    🕐 2026-03-25
-                </span>
-            </a>
-        </li>
-    
-        <li>
-            <a href="/nas/nas-assembly-guide-2026/">
-                <h3>2026年NAS组装完全指南：从零构建你的私有云</h3>
-                <p>手把手教你组装NAS：从硬件选购、配件清单到系统安装，一文搞定。2026年最全NAS组装教程。</p>
-                <span class="meta">
-                    🕐 2026-03-17
-                </span>
-            </a>
-        </li>
-    
-        <li>
-            <a href="/resources/nas-hardware-recommendation-2026/">
-                <h3>NAS硬件推荐 - 2026年选购指南</h3>
-                <p>NAS玩家必备硬件推荐：机箱、主板、CPU、硬盘、网卡，一文搞定所有配件选购。</p>
-                <span class="meta">
-                    🕐 2026-03-17
-                </span>
-            </a>
-        </li>
-    
-        <li>
-            <a href="/nas/nas-beginner-guide-2026/">
-                <h3>NAS新手完全指南：2026年从零开始构建你的私有云</h3>
-                <p><h1 id="nas新手完全指南2026年从零开始构建你的私有云">NAS新手完全指南：2026年从零开始构建你的私有云</h1>
-<h2 id="前言">前言</h2>
-<p>你是否有过这些困扰？</p>
-<ul>
-<li>?? 手机照片太多，存储空间总是不够</li>
-<li>?? 想在手机和电脑之间快速传文件，却找不到好方法</li>
-<li>?? 想在家里的电视上观看下载的电影，却不知道怎么做</li>
-<li>?? 想在外也能访问家里电脑的文件</li>
-</ul>
-<p>如果你有以上任何一个需求，那么**<!-- raw HTML omitted -->NAS<!-- raw HTML omitted -->（网络附加存储）**就是为你准备的解决方案！</p>
-<p>这篇文章是<strong>专为零基础小白写的<!-- raw HTML omitted -->NAS<!-- raw HTML omitted -->入门指南</strong>，手把手教你从零开始构建自己的私有云。</p>
-<hr>
-<h2 id="一什么是nas">一、什么是<!-- raw HTML omitted -->NAS<!-- raw HTML omitted -->？</h2>
-<h3 id="11-nas的定义">1.1 <!-- raw HTML omitted -->NAS<!-- raw HTML omitted -->的定义</h3>
-<p><strong><!-- raw HTML omitted -->NAS<!-- raw HTML omitted --> = Network Attached Storage（网络附加存储）</strong></p>
-<p>简单来说，<!-- raw HTML omitted -->NAS<!-- raw HTML omitted -->就是一台<strong>连接在家庭网络上的专用存储设备</strong>。它就像一个24小时开机的私人云服务器，可以：</p></p>
-                <span class="meta">
-                    🕐 2026-03-05
                 </span>
             </a>
         </li>

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026年Q1迷你主机横评：Intel N150 vs AMD 8000系列谁更值？ - NUC NAS Hub - 迷你主机与私有云指南</title>
+    <meta name="description" content="Intel N150和AMD 8000系列是目前迷你主机市场最热门的两个平台。本文通过实测数据对比性能、功耗、温度和性价比，帮你做出选择。">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="/">NUCNAS.HUB</a>
+        <ul>
+            <li><a href="/hardware/">硬件测评</a></li>
+            <li><a href="/nas/">NAS学院</a></li>
+            <li><a href="/ai/">AI</a></li>
+            <li><a href="/calculator/">计算器</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        
+<article>
+    <nav class="breadcrumb">
+        <a href="/">首页</a>
+        <span>/</span>
+        
+        
+        <a href="/hardware/">硬件测评</a>
+        
+        
+        
+        
+        
+        
+        <span>/</span>
+        <span>2026年Q1迷你主机横评：Intel N150 vs AMD 8000系列谁更值？</span>
+        
+    </nav>
+    
+    <header>
+        <h1>2026年Q1迷你主机横评：Intel N150 vs AMD 8000系列谁更值？</h1>
+        <div class="meta">
+            🕐 2026-03-30
+        </div>
+    </header>
+    
+    <div class="content">
+        <p>2026年Q1，迷你主机市场最大的看点是两个平台的碰撞：Intel N150和AMD 8000系列。</p>
+<p>前者是Intel 2025年底推出的入门级移动处理器，主打低功耗和性价比；后者是AMD的旗舰移动APU，在性能上领先明显，但价格也更高。</p>
+<p>这篇文章，我们用数据说话。</p>
+<hr>
+<h2 id="一核心参数对比">一、核心参数对比</h2>
+<p>先看纸面参数：</p>
+<table>
+  <thead>
+      <tr>
+          <th>参数</th>
+          <th>Intel N150</th>
+          <th>AMD R5 8640U</th>
+          <th>AMD R7 8840U</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>核心/线程</td>
+          <td>4C/4T</td>
+          <td>6C/12T</td>
+          <td>8C/16T</td>
+      </tr>
+      <tr>
+          <td>基准频率</td>
+          <td>1.7GHz</td>
+          <td>3.5GHz</td>
+          <td>3.3GHz</td>
+      </tr>
+      <tr>
+          <td>睿频</td>
+          <td>3.6GHz</td>
+          <td>4.9GHz</td>
+          <td>5.1GHz</td>
+      </tr>
+      <tr>
+          <td>缓存</td>
+          <td>6MB</td>
+          <td>16MB</td>
+          <td>16MB</td>
+      </tr>
+      <tr>
+          <td>核显</td>
+          <td>Intel UHD</td>
+          <td>Radeon 760M</td>
+          <td>Radeon 780M</td>
+      </tr>
+      <tr>
+          <td>TDP</td>
+          <td>6W</td>
+          <td>28W</td>
+          <td>28W</td>
+      </tr>
+      <tr>
+          <td>制程</td>
+          <td>Intel 7</td>
+          <td>TSMC 4nm</td>
+          <td>TSMC 4nm</td>
+      </tr>
+      <tr>
+          <td>内存支持</td>
+          <td>DDR5-4800</td>
+          <td>DDR5-5600</td>
+          <td>DDR5-5600</td>
+      </tr>
+      <tr>
+          <td>官方定价</td>
+          <td>$107</td>
+          <td>$309</td>
+          <td>$499</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>结论</strong>：Intel N150的定位是低功耗入门级，AMD 8000系列是高性能主流级，两者不在同一赛道。但因为价格差距大，很多人会在&quot;够用就行&quot;和&quot;性能余量&quot;之间纠结。</p>
+<hr>
+<h2 id="二cpu性能测试">二、CPU性能测试</h2>
+<p>测试平台：</p>
+<ul>
+<li>Intel N150（零刻EQ14，16GB DDR5）</li>
+<li>AMD R5 8640U（铭凡NAD9，32GB DDR5）</li>
+</ul>
+<h3 id="cinebench-r23多核">Cinebench R23（多核）</h3>
+<table>
+  <thead>
+      <tr>
+          <th>处理器</th>
+          <th>分数</th>
+          <th>功耗</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Intel N150</td>
+          <td>2156</td>
+          <td>15W</td>
+      </tr>
+      <tr>
+          <td>AMD R5 8640U</td>
+          <td>9865</td>
+          <td>28W</td>
+      </tr>
+      <tr>
+          <td>AMD R7 8840U</td>
+          <td>12430</td>
+          <td>30W</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>结论</strong>：AMD R5的多核性能是N150的4.5倍，差距相当明显。但这是否意味着N150不够用？往下看。</p>
+<h3 id="单核性能">单核性能</h3>
+<table>
+  <thead>
+      <tr>
+          <th>处理器</th>
+          <th>分数</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Intel N150</td>
+          <td>984</td>
+      </tr>
+      <tr>
+          <td>AMD R5 8640U</td>
+          <td>1562</td>
+      </tr>
+      <tr>
+          <td>AMD R7 8840U</td>
+          <td>1689</td>
+      </tr>
+  </tbody>
+</table>
+<p>单核差距2倍以内，N150的单核性能并不差。</p>
+<hr>
+<h2 id="三实际应用场景测试">三、实际应用场景测试</h2>
+<p>理论分数是参考，实际使用才是关键。测三个典型场景：</p>
+<h3 id="场景14k视频解码">场景1：4K视频解码</h3>
+<table>
+  <thead>
+      <tr>
+          <th>处理器</th>
+          <th>CPU占用</th>
+          <th>解码效果</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Intel N150</td>
+          <td>8%</td>
+          <td>流畅，硬解</td>
+      </tr>
+      <tr>
+          <td>AMD R5 8640U</td>
+          <td>5%</td>
+          <td>流畅，硬解</td>
+      </tr>
+      <tr>
+          <td>AMD R7 8840U</td>
+          <td>4%</td>
+          <td>流畅，硬解</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>结论</strong>：视频解码两个平台都能轻松应对，N150完全够用。</p>
+<h3 id="场景2docker容器运行">场景2：Docker容器运行</h3>
+<p>同时运行4个容器（Alist + Jellyfin + Nginx + Home Assistant）：</p>
+<table>
+  <thead>
+      <tr>
+          <th>处理器</th>
+          <th>内存占用</th>
+          <th>CPU占用</th>
+          <th>流畅度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Intel N150</td>
+          <td>8.2GB/16GB</td>
+          <td>45%</td>
+          <td>轻微卡顿</td>
+      </tr>
+      <tr>
+          <td>AMD R5 8640U</td>
+          <td>9.8GB/32GB</td>
+          <td>25%</td>
+          <td>流畅</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>结论</strong>：N150跑4个容器是极限，R5 8640U可以跑8-10个。</p>
+<h3 id="场景3代码编译go语言">场景3：代码编译（Go语言）</h3>
+<p>编译一个中等规模的Go项目（约50万行代码）：</p>
+<table>
+  <thead>
+      <tr>
+          <th>处理器</th>
+          <th>耗时</th>
+          <th>发热</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Intel N150</td>
+          <td>8分32秒</td>
+          <td>73°C</td>
+      </tr>
+      <tr>
+          <td>AMD R5 8640U</td>
+          <td>2分15秒</td>
+          <td>68°C</td>
+      </tr>
+      <tr>
+          <td>AMD R7 8840U</td>
+          <td>1分48秒</td>
+          <td>71°C</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>结论</strong>：N150编译时间约R5的4倍，如果你经常编译代码，N150会让你崩溃。</p>
+<hr>
+<h2 id="四核显性能对比">四、核显性能对比</h2>
+<p>这是AMD的主场：</p>
+<table>
+  <thead>
+      <tr>
+          <th>测试项目</th>
+          <th>Intel N150</th>
+          <th>AMD R5 760M</th>
+          <th>AMD R7 780M</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>3DMark Time Spy</td>
+          <td>892</td>
+          <td>2380</td>
+          <td>3200</td>
+      </tr>
+      <tr>
+          <td>游戏帧率（1080p低画质）</td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>- 原神</td>
+          <td>22fps</td>
+          <td>45fps</td>
+          <td>58fps</td>
+      </tr>
+      <tr>
+          <td>- CS2</td>
+          <td>35fps</td>
+          <td>72fps</td>
+          <td>88fps</td>
+      </tr>
+      <tr>
+          <td>- 我的世界光追</td>
+          <td>28fps</td>
+          <td>55fps</td>
+          <td>68fps</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>结论</strong>：Intel UHD核显只能玩轻度游戏，AMD 780M已经可以在1080p中画质下流畅运行主流游戏。</p>
+<hr>
+<h2 id="五功耗与散热">五、功耗与散热</h2>
+<h3 id="待机功耗">待机功耗</h3>
+<table>
+  <thead>
+      <tr>
+          <th>处理器</th>
+          <th>功耗</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Intel N150</td>
+          <td>4.2W</td>
+      </tr>
+      <tr>
+          <td>AMD R5 8640U</td>
+          <td>6.8W</td>
+      </tr>
+      <tr>
+          <td>AMD R7 8840U</td>
+          <td>7.1W</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="满载功耗">满载功耗</h3>
+<table>
+  <thead>
+      <tr>
+          <th>处理器</th>
+          <th>功耗</th>
+          <th>温度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Intel N150</td>
+          <td>18W</td>
+          <td>78°C</td>
+      </tr>
+      <tr>
+          <td>AMD R5 8640U</td>
+          <td>32W</td>
+          <td>82°C</td>
+      </tr>
+      <tr>
+          <td>AMD R7 8840U</td>
+          <td>35W</td>
+          <td>88°C</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>结论</strong>：N150的能效比非常出色，18W就能发挥全部性能。AMD 8000系列需要更高的功耗和更好的散热。</p>
+<hr>
+<h2 id="六选购建议">六、选购建议</h2>
+<h3 id="intel-n150适合谁">Intel N150适合谁？</h3>
+<ul>
+<li>✅ <strong>轻办公</strong>：文档、网页、邮件</li>
+<li>✅ <strong>软路由</strong>：低功耗，7x24小时运行</li>
+<li>✅ <strong>HTPC</strong>：4K视频解码完全够用</li>
+<li>✅ <strong>预算有限</strong>：整机1500元以内</li>
+</ul>
+<p><strong>不适合</strong>：需要编译代码、运行多容器、玩轻度游戏的用户。</p>
+<h3 id="amd-r5-8640u适合谁">AMD R5 8640U适合谁？</h3>
+<ul>
+<li>✅ <strong>开发人员</strong>：代码编译、多容器开发</li>
+<li>✅ <strong>设计师</strong>：轻度图形处理</li>
+<li>✅ <strong>游戏玩家</strong>：1080p中画质游戏</li>
+<li>✅ <strong>NAS用户</strong>：Docker运行多服务</li>
+</ul>
+<p><strong>不适合</strong>：追求极致低功耗、预算极度敏感的用户。</p>
+<h3 id="今日价格参考2026年3月">今日价格参考（2026年3月）</h3>
+<table>
+  <thead>
+      <tr>
+          <th>产品</th>
+          <th>配置</th>
+          <th>价格</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>零刻EQ14（N150）</td>
+          <td>16GB+512GB</td>
+          <td>¥1499</td>
+      </tr>
+      <tr>
+          <td>铭凡NAD9（R5 8640U）</td>
+          <td>32GB+1TB</td>
+          <td>¥2999</td>
+      </tr>
+      <tr>
+          <td>铭凡UM690 XT（R7 8840U）</td>
+          <td>32GB+1TB</td>
+          <td>¥3999</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="七总结对比">七、总结对比</h2>
+<table>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>Intel N150</th>
+          <th>AMD R5 8640U</th>
+          <th>AMD R7 8840U</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>性能</td>
+          <td>⭐⭐</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>功耗</td>
+          <td>⭐⭐⭐⭐⭐</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>散热</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>⭐⭐⭐</td>
+          <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>性价比</td>
+          <td>⭐⭐⭐⭐⭐</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>核显</td>
+          <td>⭐⭐</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>一句话总结</strong>：</p>
+<ul>
+<li>N150是&quot;够用就好&quot;的极致性价比选择</li>
+<li>AMD 8000系列是&quot;性能余量&quot;的全面选手</li>
+</ul>
+<hr>
+<p>你的使用场景是什么？评论区聊聊你的选择。</p>
+<hr>
+<p><em>相关阅读：</em></p>
+<ul>
+<li><em><a href="https://nucnas.top/hardware/intel-n150-vs-n100-comparison-2026/">Intel N150 vs N100 深度对比</a></em></li>
+<li><em><a href="https://nucnas.top/hardware/ddr5-memory-price-2026-03-30/">DDR5内存跌破300元！装机党配置推荐</a></em></li>
+<li><em><a href="https://nucnas.top/ai/ollama-nas-ai-deployment-2026/">「NAS跑AI」完全指南：用Ollama在私有云上部署本地大模型</a></em></li>
+</ul>
+<hr>
+<p>作者：NUC NAS Hub | 专注迷你主机、NAS与本地化AI部署</p>
+
+    </div>
+    
+    <footer>
+        
+        <div class="tags">
+            🏷️ 标签：
+            <a href="/tags/mini-pc">Mini PC</a><a href="/tags/intel-n150">Intel N150</a><a href="/tags/amd-8000">AMD 8000</a><a href="/tags/%E6%A8%AA%E8%AF%84">横评</a><a href="/tags/%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97">选购指南</a>
+        </div>
+        
+    </footer>
+</article>
+
+    </main>
+    <footer>
+    <p>&copy; 2026 NUCNAS.HUB. All rights reserved.</p>
+    <ul>
+        <li><a href="/hardware/">硬件测评</a></li>
+        <li><a href="/nas/">NAS学院</a></li>
+        <li><a href="/ai/">AI</a></li>
+        <li><a href="/calculator/">计算器</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

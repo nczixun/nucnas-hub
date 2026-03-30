@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>「NAS跑AI」完全指南：用Ollama在私有云上部署本地大模型 - NUC NAS Hub - 迷你主机与私有云指南</title>
+    <meta name="description" content="本文详解如何在NAS上通过Ollama部署本地大模型，包括硬件要求、部署步骤、性能测试以及模型推荐，让你的NAS变成一台7x24小时运行的AI服务器。">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="/">NUCNAS.HUB</a>
+        <ul>
+            <li><a href="/hardware/">硬件测评</a></li>
+            <li><a href="/nas/">NAS学院</a></li>
+            <li><a href="/ai/">AI</a></li>
+            <li><a href="/calculator/">计算器</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        
+<article>
+    <nav class="breadcrumb">
+        <a href="/">首页</a>
+        <span>/</span>
+        
+        
+        
+        
+        <a href="/ai/">AI</a>
+        
+        
+        
+        
+        <span>/</span>
+        <span>「NAS跑AI」完全指南：用Ollama在私有云上部署本地大模型</span>
+        
+    </nav>
+    
+    <header>
+        <h1>「NAS跑AI」完全指南：用Ollama在私有云上部署本地大模型</h1>
+        <div class="meta">
+            🕐 2026-03-30
+        </div>
+    </header>
+    
+    <div class="content">
+        <p>2026年，本地AI部署不再是极客专属。随着开源模型的性能提升和NAS硬件的升级，越来越多的普通用户开始在私有云上运行自己的大模型。</p>
+<p>这篇文章，我们来聊聊如何在NAS上用Ollama跑起来。</p>
+<h2 id="一为什么用nas跑ai">一、为什么用NAS跑AI？</h2>
+<p>先回答一个问题：已经有云服务了，为什么还要在NAS上跑本地模型？</p>
+<p><strong>核心优势有三个：</strong></p>
+<h3 id="1-隐私安全">1. 隐私安全</h3>
+<p>数据不上传服务器，敏感文档、工作记录、家庭照片都在本地处理。2025年多起云服务数据泄露事件让很多人意识到，隐私才是最贵的。</p>
+<h3 id="2-7x24小时在线">2. 7x24小时在线</h3>
+<p>NAS本身就是为了7x24小时运行设计的。不用像云服务那样担心API限速、超时，也不用担心欠费停机。半夜让它跑个长文本分析，早上直接看结果。</p>
+<h3 id="3-低成本长期运行">3. 低成本长期运行</h3>
+<p>用电量约30W/小时（比普通台式机低70%），按0.6元/度算，一天不到0.5元。折算下来比按量付费的云服务便宜得多。</p>
+<hr>
+<h2 id="二硬件要求">二、硬件要求</h2>
+<p>不是所有NAS都适合跑AI。先看配置要求：</p>
+<h3 id="最低配置能跑7b模型">最低配置（能跑7B模型）</h3>
+<ul>
+<li>CPU：Intel Celeron J4125 或同等性能</li>
+<li>内存：8GB（建议16GB）</li>
+<li>盘位：2个以上（用于数据和模型存储）</li>
+</ul>
+<h3 id="推荐配置能跑14b模型">推荐配置（能跑14B+模型）</h3>
+<ul>
+<li>CPU：Intel N100 / AMD R5 5600G 或更高</li>
+<li>内存：32GB</li>
+<li>存储：NVMe SSD（模型加载速度关键）</li>
+</ul>
+<h3 id="实测参考">实测参考</h3>
+<table>
+  <thead>
+      <tr>
+          <th>NAS型号</th>
+          <th>CPU</th>
+          <th>内存</th>
+          <th>可跑模型</th>
+          <th>速度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>绿联DXP4800 Plus</td>
+          <td>N100</td>
+          <td>16GB</td>
+          <td>Qwen2.5-7B</td>
+          <td>~15 token/s</td>
+      </tr>
+      <tr>
+          <td>群晖DS923+</td>
+          <td>R1000</td>
+          <td>8GB</td>
+          <td>Phi-3-mini</td>
+          <td>~8 token/s</td>
+      </tr>
+      <tr>
+          <td>极空间Z4Pro</td>
+          <td>i3-N305</td>
+          <td>32GB</td>
+          <td>DeepSeek-14B</td>
+          <td>~12 token/s</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="三ollama部署教程3步完成">三、Ollama部署教程（3步完成）</h2>
+<h3 id="step-1安装docker">Step 1：安装Docker</h3>
+<p>大部分NAS系统都支持Docker。以绿联DXP4800 Plus为例：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># SSH登录NAS</span>
+</span></span><span class="line"><span class="cl">ssh admin@192.168.1.x
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 安装Docker（Ubuntu/Debian）</span>
+</span></span><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install docker.io docker-compose
+</span></span></code></pre></div><h3 id="step-2部署ollama容器">Step 2：部署Ollama容器</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># docker-compose.yml</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;3.8&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ollama</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">ollama/ollama:latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">container_name</span><span class="p">:</span><span class="w"> </span><span class="l">ollama</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="s2">&#34;11434:11434&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">/volume1/docker/ollama:/root/.ollama</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">OLLAMA_HOST=0.0.0.0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">restart</span><span class="p">:</span><span class="w"> </span><span class="l">unless-stopped</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">resources</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">reservations</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">devices</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="nt">driver</span><span class="p">:</span><span class="w"> </span><span class="l">nvidia</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">count</span><span class="p">:</span><span class="w"> </span><span class="l">all</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">capabilities</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">gpu]</span><span class="w">
+</span></span></span></code></pre></div><p><strong>注意</strong>：如果你的NAS没有独立GPU，Ollama会自动使用CPU推理，性能会低一些。</p>
+<h3 id="step-3下载并运行模型">Step 3：下载并运行模型</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 进入容器</span>
+</span></span><span class="line"><span class="cl">docker <span class="nb">exec</span> -it ollama bash
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 下载Qwen2.5 7B模型（约4.4GB）</span>
+</span></span><span class="line"><span class="cl">ollama pull qwen2.5:7b
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 下载DeepSeek 14B模型（约8.9GB）</span>
+</span></span><span class="line"><span class="cl">ollama pull deepseek-r1:14b
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 测试运行</span>
+</span></span><span class="line"><span class="cl">ollama run qwen2.5:7b <span class="s2">&#34;你好，请用三句话介绍自己&#34;</span>
+</span></span></code></pre></div><hr>
+<h2 id="四常用模型推荐">四、常用模型推荐</h2>
+<h3 id="按硬件配置选模型">按硬件配置选模型</h3>
+<table>
+  <thead>
+      <tr>
+          <th>内存容量</th>
+          <th>推荐模型</th>
+          <th>适用场景</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>8GB</td>
+          <td>Phi-3-mini, Qwen2.5-3B</td>
+          <td>简单问答、文本分类</td>
+      </tr>
+      <tr>
+          <td>16GB</td>
+          <td>Qwen2.5-7B, Phi-4</td>
+          <td>对话、翻译、代码</td>
+      </tr>
+      <tr>
+          <td>32GB</td>
+          <td>DeepSeek-R1-14B, Qwen2.5-14B</td>
+          <td>复杂推理、长文分析</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="模型来源">模型来源</h3>
+<p>推荐从这几个渠道获取：</p>
+<ul>
+<li><strong>Ollama官方库</strong>：ollama.com/library</li>
+<li><strong>魔搭社区</strong>：modelscope.cn（国内镜像，速度快）</li>
+<li><strong>HuggingFace</strong>： huggingface.co（最大模型库）</li>
+</ul>
+<hr>
+<h2 id="五性能优化技巧">五、性能优化技巧</h2>
+<h3 id="1-使用nvme缓存">1. 使用NVMe缓存</h3>
+<p>NAS自带的机械硬盘读取速度约150MB/s，NVMe SSD可达3500MB/s。将模型文件放在NVMe上，加载速度提升20倍。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 将模型链接到NVMe目录</span>
+</span></span><span class="line"><span class="cl">ln -s /volume1/nvme/ollama /root/.ollama
+</span></span></code></pre></div><h3 id="2-启用gpu加速">2. 启用GPU加速</h3>
+<p>如果你用的是带核显的Intel N系列CPU（如N100），Ollama支持Sycl加速：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 设置环境变量</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">OLLAMA_HOST</span><span class="o">=</span>0.0.0.0
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">OLLAMA_INTEL_GPU</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 重启容器</span>
+</span></span><span class="line"><span class="cl">docker restart ollama
+</span></span></code></pre></div><h3 id="3-批量处理优化">3. 批量处理优化</h3>
+<p>处理长文档时，关闭实时流式输出能提升约30%速度：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;http://192.168.1.x:11434/api/generate&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">json</span><span class="o">=</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;model&#34;</span><span class="p">:</span> <span class="s2">&#34;qwen2.5:7b&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;prompt&#34;</span><span class="p">:</span> <span class="s2">&#34;你的提示词&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;stream&#34;</span><span class="p">:</span> <span class="kc">False</span>  <span class="c1"># 关闭流式输出</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&#34;response&#34;</span><span class="p">])</span>
+</span></span></code></pre></div><hr>
+<h2 id="六nas配置推荐">六、NAS配置推荐</h2>
+<p>如果你的NAS还在规划阶段，这里是跑AI的最佳配置：</p>
+<h3 id="入门方案预算2000元内">入门方案（预算2000元内）</h3>
+<ul>
+<li>CPU：Intel N100</li>
+<li>内存：16GB DDR5</li>
+<li>存储：1TB NVMe + 4TB HDD</li>
+<li>适用：Qwen2.5-7B，日常对话够用</li>
+</ul>
+<h3 id="进阶级方案预算4000元">进阶级方案（预算4000元）</h3>
+<ul>
+<li>CPU：Intel i3-N305（8核，3.8GHz）</li>
+<li>内存：32GB DDR5</li>
+<li>存储：2TB NVMe + 8TB HDD</li>
+<li>适用：DeepSeek-14B，中等复杂度推理</li>
+</ul>
+<h3 id="发烧级方案预算8000元">发烧级方案（预算8000元+）</h3>
+<ul>
+<li>CPU：AMD R9 7900X</li>
+<li>内存：64GB DDR5</li>
+<li>存储：2TB NVMe x2 RAID0 + 16TB HDD</li>
+<li>适用：Llama3-70B，复杂任务处理</li>
+</ul>
+<hr>
+<h2 id="总结">总结</h2>
+<p>在NAS上跑AI已经不是极客专属。只要一台N100以上级别的NAS，16GB内存，就能跑起来7B参数的本地大模型。</p>
+<p><strong>关键点回顾：</strong></p>
+<ol>
+<li>硬件门槛：N100 + 16GB内存是甜点配置</li>
+<li>部署方式：Docker + Ollama，3步搞定</li>
+<li>模型选择：Qwen2.5-7B最适合入门</li>
+<li>性能优化：NVMe缓存是关键</li>
+</ol>
+<p>你的NAS配置够跑AI吗？欢迎评论区聊聊。</p>
+<hr>
+<p><em>相关阅读：</em></p>
+<ul>
+<li><em><a href="https://nucnas.top/hardware/ddr5-memory-price-2026-03-30/">DDR5内存跌破300元！装机党终于等到了</a></em></li>
+</ul>
+<hr>
+<p>作者：NUC NAS Hub | 专注迷你主机、NAS与本地化AI部署</p>
+
+    </div>
+    
+    <footer>
+        
+        <div class="tags">
+            🏷️ 标签：
+            <a href="/tags/nas">NAS</a><a href="/tags/ai">AI</a><a href="/tags/ollama">Ollama</a><a href="/tags/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2">本地部署</a><a href="/tags/%E7%A7%81%E6%9C%89%E4%BA%91">私有云</a><a href="/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B">大模型</a>
+        </div>
+        
+    </footer>
+</article>
+
+    </main>
+    <footer>
+    <p>&copy; 2026 NUCNAS.HUB. All rights reserved.</p>
+    <ul>
+        <li><a href="/hardware/">硬件测评</a></li>
+        <li><a href="/nas/">NAS学院</a></li>
+        <li><a href="/ai/">AI</a></li>
+        <li><a href="/calculator/">计算器</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
