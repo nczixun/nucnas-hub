@@ -1,0 +1,7 @@
+{{ define "main" }}
+<header class="list-header"><h1>全部文章</h1><p>硬件测评、NAS 教程与本地 AI 指南</p></header>
+{{ $pages := where .Site.RegularPages "Section" "in" (slice "hardware" "nas" "ai" "openclaw") }}
+{{ $pager := .Paginate $pages.ByDate.Reverse }}
+<div class="search-results">{{ range $pager.Pages }}<article class="search-result"><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Summary | plainify | truncate 140 }}</p><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></article>{{ end }}</div>
+<nav class="pagination" aria-label="文章分页">{{ if $pager.HasPrev }}<a href="{{ $pager.Prev.URL }}">上一页</a>{{ end }}<span>第 {{ $pager.PageNumber }} / {{ $pager.TotalPages }} 页</span>{{ if $pager.HasNext }}<a href="{{ $pager.Next.URL }}">下一页</a>{{ end }}</nav>
+{{ end }}

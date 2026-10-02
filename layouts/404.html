@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main style="max-w-4xl mx-auto px-4 py-20;text-align:center;">
+<div style="max-w-4xl mx-auto px-4 py-20;text-align:center;">
     <!-- 404 图形 -->
     <div style="font-size:120px;margin-bottom:20px;">🔍</div>
     
@@ -9,7 +9,7 @@
     <!-- 搜索框 -->
     <form action="/search" method="get" style="max-width:500px;margin:0 auto 40px;">
         <div style="display:flex;gap:12px;">
-            <input type="text" name="q" placeholder="搜索文章、设备、教程..." required style="flex:1;padding:16px 24px;border:2px solid #e5e5e5;border-radius:50px;font-size:16px;outline:none;transition:border-color 0.3s;" onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e5e5e5'">
+            <input type="search" aria-label="搜索文章" name="q" placeholder="搜索文章、设备、教程..." required style="flex:1;min-width:0;padding:16px 24px;border:2px solid #e5e5e5;border-radius:50px;font-size:16px;outline:none;transition:border-color 0.3s;" onfocus="this.style.borderColor='#667eea'" onblur="this.style.borderColor='#e5e5e5'">
             <button type="submit" style="background:linear-gradient(135deg,#667eea,#764ba2);color:white;border:none;padding:16px 32px;border-radius:50px;font-size:16px;font-weight:600;cursor:pointer;transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">搜索</button>
         </div>
     </form>
@@ -35,7 +35,7 @@
             {{ end }}
         </div>
     </div>
-</main>
+</div>
 
 <!-- SEO - 404页面也需要 -->
 <title>404 - 页面未找到 | {{ .Site.Title }}</title>

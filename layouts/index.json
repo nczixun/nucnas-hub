@@ -1,0 +1,7 @@
+{{- $pages := slice -}}
+{{- range where .Site.RegularPages "Section" "in" (slice "hardware" "nas" "ai" "openclaw" "calculator") -}}
+{{- if not .Params.noindex -}}
+{{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "summary" (.Summary | plainify | truncate 180) "text" (.Plain | truncate 12000) "section" .Section) -}}
+{{- end -}}
+{{- end -}}
+{{- $pages | jsonify -}}

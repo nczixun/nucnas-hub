@@ -1,4 +1,4 @@
-﻿{{ define "main" }}
+{{ define "main" }}
 <a href="/hardware" class="back-link">← 返回设备库</a>
 
 <article class="hw-article">
@@ -7,7 +7,7 @@
         <div class="hw-hero-grid">
             <div class="hw-hero-image">
                 {{ with .Params.image }}
-                <img src="{{ . }}" alt="{{ $.Title }}">
+                <img src="{{ . }}" alt="{{ $.Title }}" width="640" height="400" fetchpriority="high">
                 {{ else }}
                 <div class="hw-hero-placeholder">📷</div>
                 {{ end }}
@@ -48,8 +48,7 @@
                 {{/* 评分与价格 */}}
                 <div class="hw-hero-score">
                     <div class="hw-score-box">
-                        <span class="hw-score-value">{{ with .Params.score }}{{ . }}{{ else }}8.5{{ end }}</span>
-                        <span class="hw-score-max">/10</span>
+                        {{ with .Params.score }}<span class="hw-score-value">{{ . }}</span><span class="hw-score-max">/10</span>{{ else }}<span class="hw-score-value">暂未评分</span>{{ end }}
                         <span class="hw-score-label">综合评分</span>
                     </div>
                     

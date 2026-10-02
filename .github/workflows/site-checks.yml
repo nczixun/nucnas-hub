@@ -1,0 +1,23 @@
+name: Site checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install production Hugo version
+        run: |
+          curl --fail --location --retry 3 https://github.com/gohugoio/hugo/releases/download/v0.147.7/hugo_0.147.7_linux-amd64.tar.gz -o /tmp/hugo.tar.gz
+          echo "7aec6feaadc9cce9f633cd4fd46e021fbd7213dc3a2b4ea3cee3e01109625609  /tmp/hugo.tar.gz" | sha256sum --check
+          tar -xzf /tmp/hugo.tar.gz -C /tmp hugo
+      - name: Build and verify generated pages
+        run: |
+          /tmp/hugo --minify
+          python3 scripts/verify_site.py

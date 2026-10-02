@@ -4,7 +4,7 @@
     <p>点击下方链接购买，我将获得佣金支持：</p>
     <div class="affiliate-links">
         {{ range .Params.affiliate }}
-        <a href="{{ .url }}" target="_blank" class="affiliate-btn">
+        <a href="{{ .url }}" target="_blank" rel="sponsored noopener" class="affiliate-btn">
             <span class="affiliate-name">{{ .name }}</span>
             <span class="affiliate-price">{{ .price }}</span>
         </a>

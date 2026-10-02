@@ -30,7 +30,7 @@ hasCJKLanguage = true
   pagerSize = 12
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
   page = ["HTML"]
 
 [taxonomies]
