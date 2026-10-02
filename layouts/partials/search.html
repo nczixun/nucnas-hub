@@ -1,0 +1,8 @@
+<section class="search-page">
+<h1>搜索文章</h1><form action="/search/" role="search" class="search-form" id="article-search">
+<label for="query">关键词</label><div class="search-controls"><input id="query" name="q" type="search" placeholder="例如：NAS、Ollama、迷你主机"><button type="submit">搜索</button></div></form>
+<p id="search-status" role="status" aria-live="polite">输入关键词，搜索本站教程和测评。</p>
+<div id="search-results" class="search-results"></div>
+<noscript><p>站内搜索需要 JavaScript。你也可以<a href="/posts/">浏览全部文章</a>。</p></noscript>
+</section>
+{{ $script := resources.Get "js/search.js" | minify | fingerprint }}<script src="{{ $script.RelPermalink }}" defer></script>

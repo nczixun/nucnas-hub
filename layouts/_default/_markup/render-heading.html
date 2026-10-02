@@ -1,0 +1,8 @@
+{{- $title := .Text | plainify -}}
+{{- if and (eq .Level 1) (eq $title .Page.Title) -}}
+<span id="{{ .Anchor | safeURL }}"></span>
+{{- else -}}
+{{- $level := .Level -}}
+{{- if and .Page.IsPage (eq $level 1) -}}{{- $level = 2 -}}{{- end -}}
+<h{{ $level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}</h{{ $level }}>
+{{- end -}}

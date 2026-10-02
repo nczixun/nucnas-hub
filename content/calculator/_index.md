@@ -3,7 +3,7 @@ title: "计算器"
 description: "硬件性能对比、AI算力测试、功耗计算工具"
 ---
 
-# 实用工具
+## 实用工具
 
 <div class="tools-grid">
   <!-- 功耗计算器 -->

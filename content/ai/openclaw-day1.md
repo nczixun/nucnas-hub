@@ -3,6 +3,7 @@ title: "Day 1：什么是 OpenClaw？5分钟快速入门（2026完全指南）"
 date: 2026-02-28
 categories: ["ai"]
 slug: "openclaw-day1-intro"
+aliases: ["/openclaw/openclaw-day1-intro/"]
 summary: "OpenClaw开源AI助手平台完全指南，24/7在线私人AI助手，支持飞书/Telegram/Discord，1000+技能插件，一键详细安装与配置"
 tags: ["OpenClaw", "AI助手", "入门", "教程", "树莓派", "自动化"]
 ---
