@@ -1,4 +1,6 @@
 ---
+draft: true
+# Duplicate retained for history; published version lives in content/ai.
 title: "Day 7：部署上线与安全设置 - 打造安全的AI助手"
 date: 2026-03-06
 lastmod: 2026-10-06

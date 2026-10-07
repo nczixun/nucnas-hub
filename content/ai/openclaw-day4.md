@@ -44,8 +44,6 @@ clawhub list
 ---
 
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
-<div class="page-nav">
-  <a href="/review/asus-nuc-15-pro-2026/" rel="prev">上一页：ASUS NUC 15 Pro 评测</a>
-</div>
+
 
 *本文由 NUC NAS Hub 自动生成*

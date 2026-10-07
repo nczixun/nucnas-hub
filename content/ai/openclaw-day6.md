@@ -62,8 +62,6 @@ form.submit()
 ---
 
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
-<div class="page-nav">
-  <a href="/ai/openclaw-day5/" rel="prev">上一页：Day 5：自动化任务与心跳机制</a>
-</div>
+
 
 *本文由 NUC NAS Hub 自动生成*

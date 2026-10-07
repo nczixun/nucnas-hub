@@ -1,4 +1,6 @@
 ---
+draft: true
+# Duplicate retained for history; published version lives in content/ai.
 title: "Day 3：核心概念 AGENTS.md / SOUL.md / MEMORY.md 深入理解"
 date: 2026-03-02
 lastmod: 2026-10-06

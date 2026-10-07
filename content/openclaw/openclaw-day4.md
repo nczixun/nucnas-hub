@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Day 4：Skills 技能系统 - 让AI能力翻倍"
 date: 2026-03-03
 categories: ["ai"]
@@ -16,8 +16,6 @@ tags: ["OpenClaw", "Skills", "技能系统", "ClawHub", "插件"]
 
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
-<div class="page-nav">
-  <a href="/hardware/asus-nuc-15-pro-2026/" rel="prev">上一页：ASUS NUC 15 Pro 评测</a>
-</div>
+
 
 *本文由 NUC NAS Hub 自动生成*

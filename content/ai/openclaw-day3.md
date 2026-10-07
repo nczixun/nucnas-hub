@@ -3,6 +3,7 @@ title: "Day 3：核心概念 AGENTS.md / SOUL.md / MEMORY.md 深入理解"
 date: 2026-03-02
 lastmod: 2026-10-06
 categories: ["ai"]
+aliases: ["/openclaw/openclaw-day3-core-concepts/"]
 slug: "openclaw-day3-core-concepts"
 summary: "找到实际工作区，区分行为规则、人格、用户偏好与长期记忆，并验证加载、备份和隐私边界。"
 tags: ["OpenClaw", "AGENTS.md", "SOUL.md", "MEMORY.md", "AI人格", "提示工程"]
