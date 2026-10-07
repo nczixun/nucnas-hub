@@ -3,6 +3,7 @@ title: "Day 5：自动化任务与心跳机制 - AI主动为你工作"
 date: 2026-03-04
 lastmod: 2026-10-06
 categories: ["ai"]
+aliases: ["/openclaw/openclaw-day5-automation-heartbeat/"]
 slug: "openclaw-day5-automation-heartbeat"
 summary: "区分心跳与独立定时任务，使用官方automations命令创建、验收、暂停任务，检查时区和投递结果。"
 tags: ["OpenClaw", "心跳", "自动化", "Cron", "定时任务"]

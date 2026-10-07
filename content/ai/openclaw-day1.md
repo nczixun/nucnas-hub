@@ -25,9 +25,6 @@ tags: ["OpenClaw", "AI助手", "入门", "教程", "树莓派", "自动化"]
 ---
 
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
-<div class="page-nav">
-  <a href="/ai/ollama-openwebui/" rel="prev">上一页：Ollama + OpenWebUI 搭建</a>
-  <a href="/ai/openclaw-day2-platform-integration/" rel="next">下一页：Day 2：接入飞书/Telegram/Discord</a>
-</div>
+
 
 *本文由 NUC NAS Hub 自动生成*

@@ -1,4 +1,6 @@
 ---
+draft: true
+# Duplicate retained for history; published version lives in content/ai.
 title: "Day 5：自动化任务与心跳机制 - AI主动为你工作"
 date: 2026-03-04
 lastmod: 2026-10-06

@@ -3,6 +3,7 @@ title: "Day 7：部署上线与安全设置 - 打造安全的AI助手"
 date: 2026-03-06
 lastmod: 2026-10-06
 categories: ["ai"]
+aliases: ["/openclaw/openclaw-day7-deployment-security/"]
 slug: "openclaw-day7-deployment-security"
 summary: "按官方Docker流程部署OpenClaw，核对端口、认证、持久化、访问范围，并完成安全审计与恢复验收。"
 tags: ["OpenClaw", "部署", "Docker", "Nginx", "SSL", "安全"]

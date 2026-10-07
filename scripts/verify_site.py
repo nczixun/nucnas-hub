@@ -36,7 +36,7 @@ def exists(url):
     file=root/path
     return file.is_file() or (file/"index.html").is_file()
 
-required=["index.html","search/index.html","posts/index.html","hardware/index.html","nas/index.html","ai/index.html","calculator/index.html","404.html"]
+required=["index.html","search/index.html","posts/index.html","hardware/index.html","nas/index.html","ai/index.html","calculator/index.html","404.html","start/index.html","openclaw/index.html"]
 for path in required:
     text=(root/path).read_text(encoding="utf-8")
     page=Page(text)
@@ -56,6 +56,14 @@ assert len(pages)>100, ("search index unexpectedly small",len(pages))
 assert all(exists(page["url"]) for page in pages), "search result points to a missing page"
 assert any("ollama" in page["title"].lower() for page in pages)
 assert any("NAS" in page["title"] for page in pages)
+redirects=(root/"_redirects").read_text(encoding="utf-8")
+for slug in ("openclaw-day2-platform-integration", "openclaw-day3-core-concepts", "openclaw-day5-automation-heartbeat", "openclaw-day7-deployment-security"):
+    old=f"/openclaw/{slug}/"; target=f"/ai/{slug}/"
+    assert f"{old} {target} 301" in redirects
+    assert not any(p["url"]==old for p in pages), (old,"duplicate search result")
+    assert sum(p["url"]==target for p in pages)==1, (target,"missing canonical search result")
+    alias=(root/old.strip("/")/"index.html").read_text(encoding="utf-8")
+    assert "https://www.nucnas.top"+target in alias, (old,"missing alias fallback")
 for file in root.rglob("*.html"):
     Page(file.read_text(encoding="utf-8")) # JSON-LD must be valid on every page.
 sitemap=ET.parse(root/"sitemap.xml")
@@ -64,6 +72,7 @@ for url in sitemap.findall("s:url",ns):
     location=url.findtext("s:loc",namespaces=ns)
     assert "/search/" not in location, "search page included in sitemap"
     assert "/tags/" not in location and "/categories/" not in location
+    assert not any(location.endswith(f"/openclaw/{s}/") for s in ("openclaw-day2-platform-integration", "openclaw-day3-core-concepts", "openclaw-day5-automation-heartbeat", "openclaw-day7-deployment-security")), "duplicate sitemap entry"
     modified=url.findtext("s:lastmod",namespaces=ns)
     if modified: datetime.fromisoformat(modified.replace("Z","+00:00"))
 print(f"PASS: {len(required)} critical routes, {len(pages)} search records, all JSON-LD and sitemap dates")

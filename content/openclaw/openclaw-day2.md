@@ -1,4 +1,6 @@
 ---
+draft: true
+# Duplicate retained for history; published version lives in content/ai.
 title: "Day 2：接入飞书/Telegram/Discord，打造你的专属AI助手"
 date: 2026-03-01
 lastmod: 2026-10-05

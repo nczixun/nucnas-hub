@@ -3,6 +3,7 @@ title: "Day 2：接入飞书/Telegram/Discord，打造你的专属AI助手"
 date: 2026-03-01
 lastmod: 2026-10-05
 categories: ["ai"]
+aliases: ["/openclaw/openclaw-day2-platform-integration/"]
 slug: "openclaw-day2-platform-integration"
 summary: "按官方资料配置飞书、Telegram 与 Discord：包含版本前提、私聊配对、接入验证和故障排查。"
 tags: ["OpenClaw", "飞书机器人", "Telegram Bot", "Discord Bot", "AI助手配置"]
