@@ -13,7 +13,7 @@ keywords: ["极空间NAS", "Z4 Pro评测", "家庭私有云", "NAS推荐"]
 ## 性能配置
 
 处理器升级为Intel N100�?核心4线程，睿频可�?.4GHz，相比上代N5105提升�?0%性能。标�?GB DDR5内存（可扩展�?6GB），支持Docker和虚拟机，满足进阶用户需求�?
-> 搭配高性能NAS硬盘效果更佳，详见：[DIY NAS硬盘选购指南2026](/guide/diy-nas-hard-disk-guide/)
+> 搭配高性能NAS硬盘效果更佳，详见：[DIY NAS硬盘选购指南2026](/guide/diy-nas%E7%A1%AC%E7%9B%98%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%972026%E8%A5%BF%E6%95%B0%E5%B8%8C%E6%8D%B7%E4%B8%9C%E8%8A%9D%E5%85%A8%E5%AF%B9%E6%AF%94/)
 
 ## 系统体验
 

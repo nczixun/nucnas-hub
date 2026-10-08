@@ -17,7 +17,7 @@ tags: ["飞牛OS", "远程访问", "Tailscale", "FRP"]
 - 🎬 观看影片
 - ⚙️ 管理设置
 
-## 方案一：<a href="/nas/tailscale-remote-access/" target="_blank">Tailscale</a>（推荐）
+## 方案一：<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>（推荐）
 
 ### 什么是Tailscale？
 
@@ -25,7 +25,7 @@ tags: ["飞牛OS", "远程访问", "Tailscale", "FRP"]
 
 ### 安装步骤
 
-1. 在飞牛OS中安装<a href="/nas/tailscale-remote-access/" target="_blank">Tailscale</a>
+1. 在飞牛OS中安装<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>
 2. 登录账号获取设备密钥
 3. 记录设备节点
 
@@ -63,8 +63,8 @@ token = your_token
 ---
 
 <div class="page-nav">
-  <a href="/nas/fnos-day4-network/" rel="prev">上一页：Day 4：飞牛OS网络配置</a>
-  <a href="/nas/fnos-day6-docker/" rel="next">下一页：Day 6：飞牛OS Docker应用</a>
+  <a href="/guide/fnos-day4-network/" rel="prev">上一页：Day 4：飞牛OS网络配置</a>
+  <a href="/guide/fnos-day6-docker/" rel="next">下一页：Day 6：飞牛OS Docker应用</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

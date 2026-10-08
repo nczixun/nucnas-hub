@@ -21,7 +21,7 @@ TrueNAS采用ZFS文件系统，以安全可靠著称。Unraid则以灵活性和�
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/truenas-unraid-dsm-2026/" rel="prev">上一页：TrueNAS vs Unraid vs DSM</a>
+  <a href="/guide/truenas-unraid-dsm-2026/" rel="prev">上一页：TrueNAS vs Unraid vs DSM</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

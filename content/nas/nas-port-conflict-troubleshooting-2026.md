@@ -24,9 +24,9 @@ slug: "nas-port-conflict-troubleshooting-2026"
 | 8443 | 备用HTTPS |
 | 22 | SSH远程 |
 | 21 | FTP |
-| 9000 | <a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a> |
+| 9000 | <a href="/guide/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a> |
 | 9090 | Prometheus |
-| 3000 | Grafana/<a href="/nas/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> |
+| 3000 | Grafana/<a href="/guide/jellyfin-hw-transcode/" target="_blank">Jellyfin</a> |
 | 32400 | Plex |
 | 8920 | Sonarr |
 | 8989 | Sonarr |
@@ -35,7 +35,7 @@ slug: "nas-port-conflict-troubleshooting-2026"
 
 ## 排查方法
 
-### 方法一：查看<a href="/nas/docker-best-practice/" target="_blank">Docker</a>日志
+### 方法一：查看<a href="/guide/docker-best-practice/" target="_blank">Docker</a>日志
 
 当容器启动失败时，查看日志是最直接的方式：
 

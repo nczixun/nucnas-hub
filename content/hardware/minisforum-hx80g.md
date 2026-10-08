@@ -30,7 +30,7 @@ slug: "minisforum-hx80g"
 
 
 
-<a href="/hardware/minisforum-hx80g/" target="_blank">Minisforum HX80G</a> 是一款 AMD 6900HX + RX 6600M 独显<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/minisforum-hx80g/" target="_blank">Minisforum HX80G</a> 是一款 AMD 6900HX + RX 6600M 独显<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "minisforum-hx80g"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-hx200/" rel="prev">上一页：Minisforum HX200 评测</a>
+  <a href="/review/minisforum-hx200/" rel="prev">上一页：Minisforum HX200 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -61,6 +61,6 @@ Intel N150作为入门级迷你主机处理器，在保持低功耗的同时提�
 
 ## 相关推荐
 
-- [Intel N150 vs N100：入门迷你主机怎么选？](/hardware/2026-03-15-intel-n150-vs-n100-comparison/)
+- [Intel N150 vs N100：入门迷你主机怎么选？](/review/intel-n150-vs-n100%E6%B7%B1%E5%BA%A6%E5%AF%B9%E6%AF%94%E8%AF%84%E6%B5%8B2026%E5%B9%B4%E5%85%A5%E9%97%A8%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%80%8E%E4%B9%88%E9%80%89/)
 - [2026年入门迷你主机推荐](/hardware/2026-03-16-entry-level-minipc-2026/)
-- [AMD 8845HS迷你主机推荐](/hardware/2026-03-15-amd-8845hs-minipc-recommend/)
+- [AMD 8845HS迷你主机推荐](/review/2026%E5%B9%B4amd-8845hs%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%8E%A8%E8%8D%90%E9%AB%98%E6%80%A7%E8%83%BDmini-pc%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/)

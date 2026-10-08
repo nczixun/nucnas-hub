@@ -23,7 +23,7 @@ slug: "ollama-local-llm-guide-2026"
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
 <div class="page-nav">
-  <a href="/hardware/amd-ryzen-ai-300-mini-pc-preview/" rel="prev">上一页：AMD Ryzen AI 300系列迷你主机前瞻</a>
+  <a href="/review/amd-ryzen-ai-300-mini-pc-preview/" rel="prev">上一页：AMD Ryzen AI 300系列迷你主机前瞻</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

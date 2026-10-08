@@ -45,7 +45,7 @@ radar:
 
 ## 一、前言
 
-绿联作为老牌外设厂商，其NAS首秀表现如何？<a href="/nas/ugreen-dx4600-pro-2026/" target="_blank">DX4600 Pro</a>搭载Intel N6005处理器，是一款面向家庭用户的<a href="/nas/" target="_blank">NAS</a>设备。
+绿联作为老牌外设厂商，其NAS首秀表现如何？<a href="/guide/ugreen-dx4600-pro-2026/" target="_blank">DX4600 Pro</a>搭载Intel N6005处理器，是一款面向家庭用户的<a href="/nas/" target="_blank">NAS</a>设备。
 
 ## 主要配置
 
@@ -67,7 +67,7 @@ radar:
 
 ## 缺点
 
-- <a href="/nas/docker-best-practice/" target="_blank">Docker</a>功能较新
+- <a href="/guide/docker-best-practice/" target="_blank">Docker</a>功能较新
 - 生态不如群晖
 - 虚拟机功能有限
 
@@ -76,7 +76,7 @@ radar:
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-um790-pro/" rel="prev">上一页：Minisforum UM790 Pro 评测</a>
+  <a href="/review/minisforum-um790-pro/" rel="prev">上一页：Minisforum UM790 Pro 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

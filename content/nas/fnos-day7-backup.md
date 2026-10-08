@@ -36,7 +36,7 @@ rsync -avz /source /backup
 rsync -avz --delete /source /backup
 ```
 
-### 使用<a href="/nas/docker-best-practice/" target="_blank">Docker</a>容器
+### 使用<a href="/guide/docker-best-practice/" target="_blank">Docker</a>容器
 
 ```yaml
 version: '3'
@@ -68,7 +68,7 @@ rclone config
 ---
 
 <div class="page-nav">
-  <a href="/nas/fnos-day6-docker/" rel="prev">上一页：Day 6：飞牛OS Docker应用</a>
+  <a href="/guide/fnos-day6-docker/" rel="prev">上一页：Day 6：飞牛OS Docker应用</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

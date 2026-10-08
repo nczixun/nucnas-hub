@@ -25,7 +25,7 @@ slug: "minisforum-um590"
 
 
 
-<a href="/hardware/minisforum-um590/" target="_blank">Minisforum UM590</a> 是一款 AMD 5900H 高性能<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/minisforum-um590/" target="_blank">Minisforum UM590</a> 是一款 AMD 5900H 高性能<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -38,7 +38,7 @@ slug: "minisforum-um590"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-um560/" rel="prev">上一页：Minisforum UM560 评测</a>
+  <a href="/review/minisforum-um560/" rel="prev">上一页：Minisforum UM560 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

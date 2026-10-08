@@ -25,7 +25,7 @@ slug: "eq59-pro"
 
 
 
-<a href="/hardware/eq59-pro/" target="_blank">零刻 EQ59 Pro</a> 是一款 Intel N5105 办公神器<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/eq59-pro/" target="_blank">零刻 EQ59 Pro</a> 是一款 Intel N5105 办公神器<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -38,7 +38,7 @@ slug: "eq59-pro"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/ser5-pro/" rel="prev">上一页：零刻 SER5 Pro 评测</a>
+  <a href="/review/ser5-pro/" rel="prev">上一页：零刻 SER5 Pro 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

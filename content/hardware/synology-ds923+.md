@@ -41,7 +41,7 @@ slug: "synology-ds923+"
 *更多<a href="/nas/" target="_blank">NAS</a>产品测评请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/qnap-ts-464/" rel="prev">上一页：QNAP TS-464 评测</a>
+  <a href="/review/qnap-ts-464/" rel="prev">上一页：QNAP TS-464 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -92,5 +92,5 @@ Ollama 0.5大幅优化了DeepSeek R1的运行效率，7B版本仅需6GB显存即
 ## 相关推荐
 
 - [本地AI知识库搭建教程：RAG实战](/ai/local-ai-agent/)
-- [迷你主机AI部署：零刻、铭凡、极摩客GPU方案](/review/2026-03-14-mingfan-ms01-review/)
+- [迷你主机AI部署：零刻、铭凡、极摩客GPU方案](/review/%E9%93%AD%E5%87%A1ms-01%E8%AF%84%E6%B5%8B12700h%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BA%A7%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%B7%A5%E4%BD%9C%E7%AB%99%E6%96%B0%E9%80%89%E6%8B%A9/)
 - [AI PC选购指南：Intel Ultra vs AMD Ryzen AI](/ai/ai-pc-buying-guide-2026/)

@@ -156,7 +156,7 @@ Docker 安装	通过应用商店（最简洁）
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-docker-apps-recommend-2026/" rel="prev">上一页：NAS Docker应用推荐</a>
+  <a href="/guide/nas-docker-apps-recommend-2026/" rel="prev">上一页：NAS Docker应用推荐</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

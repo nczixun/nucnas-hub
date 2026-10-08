@@ -21,7 +21,7 @@ description: "飞牛OS(FnOS)全面测评：对比群晖/威联通/绿联，详�
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/fnos-guide/" rel="prev">上一页：飞牛 OS 极速上手指南</a>
+  <a href="/guide/fnos-guide/" rel="prev">上一页：飞牛 OS 极速上手指南</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

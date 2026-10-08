@@ -30,7 +30,7 @@ slug: "gmktec-k5-plus"
 
 
 
-<a href="/hardware/gmktec-k5-plus/" target="_blank">GMKTEC K5 Plus</a> 搭载 AMD 5800H 处理器，是一款入门级<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/gmktec-k5-plus/" target="_blank">GMKTEC K5 Plus</a> 搭载 AMD 5800H 处理器，是一款入门级<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "gmktec-k5-plus"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/gmktec-k6/" rel="prev">上一页：GMKTEC K6 评测</a>
+  <a href="/review/gmktec-k6/" rel="prev">上一页：GMKTEC K6 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -25,7 +25,7 @@ slug: "ser5-pro"
 
 
 
-<a href="/hardware/ser5-pro/" target="_blank">零刻 SER5 Pro</a> 是一款 AMD 5800H 升级版<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/ser5-pro/" target="_blank">零刻 SER5 Pro</a> 是一款 AMD 5800H 升级版<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -38,7 +38,7 @@ slug: "ser5-pro"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/ser6/" rel="prev">上一页：零刻 SER6 评测</a>
+  <a href="/review/ser6/" rel="prev">上一页：零刻 SER6 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

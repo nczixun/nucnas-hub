@@ -30,7 +30,7 @@ slug: "aoostar-gem10"
 
 
 
-<a href="/hardware/aoostar-gem10/" target="_blank">Aoostar GEM10</a> 搭载 AMD 6800H 处理器，是一款中端<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/aoostar-gem10/" target="_blank">Aoostar GEM10</a> 搭载 AMD 6800H 处理器，是一款中端<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "aoostar-gem10"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/aoostar-w11/" rel="prev">上一页：Aoostar W11 评测</a>
+  <a href="/review/aoostar-w11/" rel="prev">上一页：Aoostar W11 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

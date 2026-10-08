@@ -135,6 +135,6 @@ Beelink SER8将AMD 8845HS的性能发挥到极致，是迷你主机市场的性�
 
 ## 相关推荐
 
-- [AMD 8845HS vs Intel N150：迷你主机处理器对比](/hardware/2026-03-21-8845hs-vs-n150-comparison/)
-- [零刻SER8 8845HS完整评测](/hardware/2026-03-23-beelink-ser8-8845hs-full-review/)
-- [2026年迷你主机横评：零刻 vs 小米 vs 联想](/hardware/2026-03-29-minipc-comparison/)
+- [AMD 8845HS vs Intel N150：迷你主机处理器对比](/review/8845hs-vs-n150-%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E5%AF%B9%E6%AF%94%E5%B7%AE%E4%BB%B7800%E5%85%83%E9%80%89%E5%93%AA%E4%B8%AA/)
+- [零刻SER8 8845HS完整评测](/review/beelink-ser8-8845hs-%E6%B7%B1%E5%BA%A6%E8%AF%84%E6%B5%8Bamd%E6%9C%80%E5%BC%BA%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E8%A1%A8%E7%8E%B0%E5%A6%82%E4%BD%95/)
+- [2026年迷你主机横评：零刻 vs 小米 vs 联想](/review/2026%E5%B9%B4%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%A8%AA%E8%AF%84%E9%9B%B6%E5%88%BB-vs-%E5%B0%8F%E7%B1%B3-vs-%E8%81%94%E6%83%B3-%E8%B0%81%E6%9B%B4%E5%80%BC%E5%BE%97%E4%B9%B0/)

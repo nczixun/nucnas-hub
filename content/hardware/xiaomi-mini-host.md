@@ -39,7 +39,7 @@ slug: "xiaomi-mini-host"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/synology-ds923+/" rel="prev">上一页：Synology DS923+ 评测</a>
+  <a href="/review/synology-ds923-/" rel="prev">上一页：Synology DS923+ 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

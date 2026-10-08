@@ -41,7 +41,7 @@ slug: "ugreen-dx4600"
 *更多<a href="/nas/" target="_blank">NAS</a>产品测评请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-hx99g/" rel="prev">上一页：Minisforum HX99G 评测</a>
+  <a href="/review/minisforum-hx99g/" rel="prev">上一页：Minisforum HX99G 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -190,5 +190,5 @@ RAID只能防止**硬盘损坏**，无法防止：
 - �?至少3份数据副�?- �?存储�?种不同介�?- �?1份异地保�?
 RAID不是备份，快照不是备份，**能恢复的备份才是真正的备�?*�?
 **相关阅读**�?- [NAS硬盘健康监控](/guide/nas-disk-health-monitoring)
-- [DIY NAS配置推荐](/guide/diy-nas-config-recommend)
+- [DIY NAS配置推荐](/guide/diy-nas%E9%85%8D%E7%BD%AE%E6%8E%A8%E8%8D%902026%E4%B8%8D%E5%90%8C%E9%A2%84%E7%AE%97%E7%9A%84%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/)
 - [NAS远程访问方案对比](/guide/nas-remote-access-comparison)

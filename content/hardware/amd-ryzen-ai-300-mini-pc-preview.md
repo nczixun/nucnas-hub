@@ -41,7 +41,7 @@ AMD Ryzen AI 300系列为<a href="/hardware/" target="_blank">迷你主机</a>�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/amd-ryzen-ai-300-2026/" rel="prev">上一页：AMD Ryzen AI 300系列强势来袭</a>
+  <a href="/review/amd-ryzen-ai-300-2026/" rel="prev">上一页：AMD Ryzen AI 300系列强势来袭</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

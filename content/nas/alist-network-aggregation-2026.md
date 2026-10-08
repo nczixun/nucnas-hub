@@ -24,13 +24,13 @@ slug: "alist-network-aggregation-2026"
 - 💾 开通了多个会员却只用其中一个
 - 📤 想把文件从一个网盘转到另一个却找不到简便方法
 
-**<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>** 正是为解决这些问题而生的神器！
+**<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>** 正是为解决这些问题而生的神器！
 
 ---
 
-## 一、<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>是什么？
+## 一、<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>是什么？
 
-**<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>** 是一款开源的网盘聚合程序，由国内开发者开源维护。它的核心功能是：
+**<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>** 是一款开源的网盘聚合程序，由国内开发者开源维护。它的核心功能是：
 
 > **一个入口，统一管理所有网盘**
 
@@ -54,7 +54,7 @@ slug: "alist-network-aggregation-2026"
 
 ---
 
-## 二、为什么用<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>？
+## 二、为什么用<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>？
 
 ### 2.1 统一管理
 
@@ -62,7 +62,7 @@ slug: "alist-network-aggregation-2026"
 
 ### 2.2 突破限速
 
-通过<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>访问网盘，可以一定程度绕过部分网盘的限速机制（尤其是阿里云盘、百度网盘等）。
+通过<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>访问网盘，可以一定程度绕过部分网盘的限速机制（尤其是阿里云盘、百度网盘等）。
 
 ### 2.3 跨网盘复制
 
@@ -73,7 +73,7 @@ slug: "alist-network-aggregation-2026"
 - 🌐 Web网页版
 - 📱 iOS/Android客户端
 - 💻 Windows/Mac/Linux客户端
-- 📂 <a href="/nas/alist-network-aggregation-2026/" target="_blank">WebDAV</a>协议
+- 📂 <a href="/guide/alist-network-aggregation-2026/" target="_blank">WebDAV</a>协议
 - 🔗 直接挂载为本地磁盘
 
 ### 2.5 免费开源
@@ -87,10 +87,10 @@ slug: "alist-network-aggregation-2026"
 ### 3.1 环境要求
 
 - <a href="/nas/" target="_blank">NAS</a>设备（群晖、威联通、绿联、极空间等）
-- 或者任何支持<a href="/nas/docker-best-practice/" target="_blank">Docker</a>的Linux服务器
+- 或者任何支持<a href="/guide/docker-best-practice/" target="_blank">Docker</a>的Linux服务器
 - 小主机/NUC也可以完美运行
 
-### 3.2 <a href="/nas/docker-best-practice/" target="_blank">Docker</a>安装（推荐）
+### 3.2 <a href="/guide/docker-best-practice/" target="_blank">Docker</a>安装（推荐）
 
 ```bash
 # 创建配置文件目录
@@ -120,7 +120,7 @@ docker run -d \
 4. 根据提示填写对应的Token/Refresh Token
 5. 保存即可
 
-> **提示**：不同网盘的获取Token方式不同，建议查阅<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>官方文档获取最新教程。
+> **提示**：不同网盘的获取Token方式不同，建议查阅<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>官方文档获取最新教程。
 
 ---
 
@@ -146,14 +146,14 @@ docker run -d \
 
 ## 五、常见问题
 
-### Q1: <a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>安全吗？
-A：<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>本身是开源的，代码可查。部署在本地<a href="/nas/" target="_blank">NAS</a>上，所有数据都在自己手里，非常安全。
+### Q1: <a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>安全吗？
+A：<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>本身是开源的，代码可查。部署在本地<a href="/nas/" target="_blank">NAS</a>上，所有数据都在自己手里，非常安全。
 
 ### Q2: 会封号吗？
-A：<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>只是调用网盘的官方API，理论上存在风控风险。建议使用小号或者非主力号进行操作。
+A：<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>只是调用网盘的官方API，理论上存在风控风险。建议使用小号或者非主力号进行操作。
 
 ### Q3: 速度怎么样？
-A：速度取决于你的网络环境和网盘的官方限速，<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>本身不提供加速服务。
+A：速度取决于你的网络环境和网盘的官方限速，<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>本身不提供加速服务。
 
 ### Q4: 手机上怎么用？
 A：iOS和Android都有官方客户端，可以直接在应用商店搜索「Alist」下载。
@@ -162,7 +162,7 @@ A：iOS和Android都有官方客户端，可以直接在应用商店搜索「Ali
 
 ## 六、总结
 
-<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>是每个<a href="/nas/" target="_blank">NAS</a>用户都应该安装的神器。它让分散的文件变得井井有条，让多网盘用户彻底解脱。
+<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>是每个<a href="/nas/" target="_blank">NAS</a>用户都应该安装的神器。它让分散的文件变得井井有条，让多网盘用户彻底解脱。
 
 **一句话总结**：一个入口，管理所有网盘！
 
@@ -171,8 +171,8 @@ A：iOS和Android都有官方客户端，可以直接在应用商店搜索「Ali
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-docker-apps-recommend-2026-v3/" rel="prev">上一页：2026年NAS必装Docker应用推荐：提升私有云生产力</a>
-  <a href="/nas/tailscale-remote-access/" rel="next">下一页：Tailscale：无需公网IP，实现内网穿透</a>
+  <a href="/guide/nas-docker-apps-recommend-2026-v3/" rel="prev">上一页：2026年NAS必装Docker应用推荐：提升私有云生产力</a>
+  <a href="/guide/tailscale-remote-access/" rel="next">下一页：Tailscale：无需公网IP，实现内网穿透</a>
 </div>
 
 *本文由 NUCNAS Hub 原创编写*

@@ -51,7 +51,7 @@ UM790 Pro的包装盒采用橙黑配色，设计简约，体积比前代产品�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-un100d/" rel="prev">上一页：Minisforum UN100D 评测</a>
+  <a href="/review/minisforum-un100d/" rel="prev">上一页：Minisforum UN100D 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

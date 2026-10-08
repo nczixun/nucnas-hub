@@ -162,5 +162,5 @@ Mini PC通常7×24小时开机，功耗直接关系到�?- **电费支出**：�
 - **性能优先**：AMD 8845HS
 - **平衡之�?*：AMD 5600U
 
-**相关文章**�?- [N150 vs N100对比](/review/n150-vs-n100-nas-comparison)
-- [8845HS性能实测](/review/8845hs-llm-benchmark)
+**相关文章**�?- [N150 vs N100对比](/review/n150-vs-n1002026%E5%B9%B4%E5%85%A5%E9%97%A8%E7%BA%A7nas%E5%A4%84%E7%90%86%E5%99%A8%E5%AF%B9%E6%AF%94/)
+- [8845HS性能实测](/review/8845hs%E6%80%A7%E8%83%BD%E5%AE%9E%E6%B5%8B%E8%83%BD%E8%B7%91%E5%A4%9A%E5%A4%A7%E6%9C%AC%E5%9C%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B/)

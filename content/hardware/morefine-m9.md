@@ -28,7 +28,7 @@ keywords: ["N100", "极小体积", "随身携带", "hardware"]
 
 ## 概述
 
-<a href="/hardware/morefine-m9/" target="_blank">Morefine M9</a> 是一款超小体积的<a href="/hardware/" target="_blank">迷你主机</a>，便携性强，适合移动办公。
+<a href="/review/morefine-m9/" target="_blank">Morefine M9</a> 是一款超小体积的<a href="/hardware/" target="_blank">迷你主机</a>，便携性强，适合移动办公。
 
 ## 主要特点
 

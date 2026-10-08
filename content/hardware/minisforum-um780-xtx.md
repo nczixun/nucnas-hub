@@ -32,14 +32,14 @@ slug: "minisforum-um780-xtx"
 
 ## 一、前言
 
-<a href="/hardware/minisforum-um780-xtx/" target="_blank">Minisforum UM780 XTX</a> 是核显性能天花的<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/minisforum-um780-xtx/" target="_blank">Minisforum UM780 XTX</a> 是核显性能天花的<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ---
 
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-ms-a1/" rel="prev">上一页：Minisforum MS-A1 评测</a>
+  <a href="/review/minisforum-ms-a1/" rel="prev">上一页：Minisforum MS-A1 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

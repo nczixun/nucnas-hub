@@ -76,7 +76,7 @@ Minisforum V3是一款创新性的三合一设备，融合了<a href="/hardware/
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/beelink-eq13/" rel="prev">上一页：Beelink EQ13 评测</a>
+  <a href="/review/beelink-eq13/" rel="prev">上一页：Beelink EQ13 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

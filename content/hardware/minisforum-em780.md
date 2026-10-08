@@ -30,7 +30,7 @@ slug: "minisforum-em780"
 
 
 
-<a href="/hardware/minisforum-em780/" target="_blank">Minisforum EM780</a> 是一款超小体积的 AMD 7840U<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/minisforum-em780/" target="_blank">Minisforum EM780</a> 是一款超小体积的 AMD 7840U<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "minisforum-em780"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-em680/" rel="prev">上一页：Minisforum EM680 评测</a>
+  <a href="/review/minisforum-em680/" rel="prev">上一页：Minisforum EM680 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

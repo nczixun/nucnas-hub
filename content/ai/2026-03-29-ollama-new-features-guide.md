@@ -117,6 +117,6 @@ Ollama的更新让本地大模型部署门槛进一步降低。无论是迷你�
 
 ## 相关推荐
 
-- [DeepSeek R1 本地部署完全指南](/ai/2026-03-24-ollama-deepseek-r1-guide/)
-- [本地知识库搭建：Ollama + AnythingLLM](/ai/2026-03-23-local-ai-knowledge-base-ollama-anythingllm/)
-- [Intel N150迷你主机本地AI性能测试](/hardware/2026-03-29-intel-n150-review/)
+- [DeepSeek R1 本地部署完全指南](/ai/ollama-deepseek-r1%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%E9%9B%B6%E5%9F%BA%E7%A1%80%E4%B9%9F%E8%83%BD%E5%AD%A6%E4%BC%9A/)
+- [本地知识库搭建：Ollama + AnythingLLM](/ai/%E6%9C%AC%E5%9C%B0ai%E7%9F%A5%E8%AF%86%E5%BA%93%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8Bollama-anythingllm-%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/)
+- [Intel N150迷你主机本地AI性能测试](/review/intel-n150%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%84%E5%85%A5%E9%97%A8%E7%BA%A7%E6%96%B0%E6%A0%87%E6%9D%86/)

@@ -91,6 +91,6 @@ NAS硬盘选购核心要点：
 
 ## 相关推荐
 
-- [NAS硬盘品牌对比：西数/希捷/东芝](/nas/2026-03-22-nas-hard-drive-brand-comparison/)
-- [CMR vs SMR：NAS硬盘技术解析](/nas/2026-03-20-cmr-vs-smr-nas/)
-- [NAS硬盘选购避坑指南](/nas/2026-03-22-nas-hard-drive-avoid-traps/)
+- [NAS硬盘品牌对比：西数/希捷/东芝](/guide/nas%E7%A1%AC%E7%9B%98%E6%80%8E%E4%B9%88%E9%80%89%E8%A5%BF%E6%95%B0/%E5%B8%8C%E6%8D%B7/%E4%B8%9C%E8%8A%9D%E4%B8%89%E5%A4%A7%E5%93%81%E7%89%8C%E6%A8%AA%E8%AF%842026%E7%89%88/)
+- [CMR vs SMR：NAS硬盘技术解析](/guide/nas%E7%A1%AC%E7%9B%98cmr%E5%92%8Csmr%E5%8C%BA%E5%88%AB%E9%80%89%E8%B4%AD%E5%BF%85%E7%9C%8B%E5%A4%AA%E5%A4%9A%E4%BA%BA%E8%B8%A9%E5%9D%91%E4%BA%86/)
+- [NAS硬盘选购避坑指南](/guide/nas%E7%A1%AC%E7%9B%98%E9%80%89%E8%B4%AD%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97%E8%BF%998%E4%B8%AA%E5%9D%91%E5%8D%83%E4%B8%87%E5%88%AB%E8%B8%A9/)

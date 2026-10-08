@@ -42,7 +42,7 @@ slug: "nas-buying-guide-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>教程和产品推荐请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/morefine-m9/" rel="prev">上一页：Morefine M9 评测</a>
+  <a href="/review/morefine-m9/" rel="prev">上一页：Morefine M9 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

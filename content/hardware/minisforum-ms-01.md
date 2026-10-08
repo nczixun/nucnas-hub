@@ -46,7 +46,7 @@ MS-01的机身尺寸为196×189×48mm，体积约**2.5升**，重量**1.5公斤*
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-rag-system-2026/" rel="prev">上一页：NAS作为家庭AI知识库：构建私有RAG系统</a>
+  <a href="/guide/nas-rag-system-2026/" rel="prev">上一页：NAS作为家庭AI知识库：构建私有RAG系统</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

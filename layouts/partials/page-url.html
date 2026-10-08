@@ -1,0 +1,9 @@
+{{- $url := .Permalink -}}
+{{- if eq .Section "posts" -}}
+  {{- $pages := where .Site.RegularPages "Section" "in" (slice "hardware" "nas" "ai" "openclaw") -}}
+  {{- $pager := .Paginate $pages.ByDate.Reverse -}}
+  {{- $url = $pager.URL | absURL -}}
+{{- else if and .IsSection (in (slice "hardware" "nas" "ai" "calculator") .Section) -}}
+  {{- $url = .Paginator.URL | absURL -}}
+{{- end -}}
+{{- return $url -}}

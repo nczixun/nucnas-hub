@@ -53,7 +53,7 @@ ROG NUC的机身尺寸极为紧凑，仅**2.5升**体积，约等于四罐叠放
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/nas/data-321-backup/" rel="prev">上一页：数据无价：3-2-1备份策略</a>
+  <a href="/guide/data-321-backup/" rel="prev">上一页：数据无价：3-2-1备份策略</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

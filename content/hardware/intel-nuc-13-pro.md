@@ -30,7 +30,7 @@ slug: "intel-nuc-13-pro"
 
 
 
-<a href="/hardware/intel-nuc-13-pro/" target="_blank">Intel NUC 13 Pro</a> 是最后一代纯血统<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/intel-nuc-13-pro/" target="_blank">Intel NUC 13 Pro</a> 是最后一代纯血统<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "intel-nuc-13-pro"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/beelink-ser6/" rel="prev">上一页：Beelink SER6 评测</a>
+  <a href="/review/beelink-ser6/" rel="prev">上一页：Beelink SER6 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

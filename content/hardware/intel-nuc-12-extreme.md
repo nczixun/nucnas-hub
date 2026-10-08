@@ -30,7 +30,7 @@ slug: "intel-nuc-12-extreme"
 
 
 
-<a href="/hardware/intel-nuc-12-extreme/" target="_blank">Intel NUC 12 Extreme</a> 是独显加持的性能怪兽级<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/intel-nuc-12-extreme/" target="_blank">Intel NUC 12 Extreme</a> 是独显加持的性能怪兽级<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "intel-nuc-12-extreme"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/intel-nuc-13-pro/" rel="prev">上一页：Intel NUC 13 Pro 评测</a>
+  <a href="/review/intel-nuc-13-pro/" rel="prev">上一页：Intel NUC 13 Pro 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

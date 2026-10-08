@@ -145,7 +145,7 @@ RAID5：适合需要较高数据安全性，同时又需要合理存储空间的
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-port-conflict-troubleshooting-2026/" rel="prev">上一页：NAS常用服务端口冲突排查与解决</a>
+  <a href="/guide/nas-port-conflict-troubleshooting-2026/" rel="prev">上一页：NAS常用服务端口冲突排查与解决</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

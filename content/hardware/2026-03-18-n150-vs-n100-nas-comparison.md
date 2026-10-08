@@ -137,4 +137,4 @@ author: "NUC NAS Hub"
 
 N150比N100贵约100元，但性能提升30%左右。对�?026年新入手NAS的用户，**推荐N150**——这100元的投资能带来明显的性能提升和更长的使用周期�?
 **相关文章**�?- [DIY NAS配置推荐](/guide/diy-nas-config-recommend-2026)
-- [入门级Mini PC推荐](/review/entry-level-minipc-2026)
+- [入门级Mini PC推荐](/review/2026%E5%85%A5%E9%97%A8%E7%BA%A7mini-pc%E6%8E%A8%E8%8D%901500%E5%85%83%E4%BB%A5%E5%86%85%E8%BF%99%E4%BA%9B%E5%9E%8B%E5%8F%B7%E5%80%BC%E5%BE%97%E4%B9%B0/)

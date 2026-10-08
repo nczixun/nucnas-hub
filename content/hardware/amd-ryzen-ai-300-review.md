@@ -55,7 +55,7 @@ Radeon 890M，16 个计算单元，频率 2.9GHz。1080p 游戏没问题，偶�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评和<a href="/ai/" target="_blank">AI</a>内容请关注 [硬件频道](/hardware/) 和 [AI频道](/ai/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-docker-knowledge-base-2026/" rel="prev">上一页：群晖NAS进阶教程：利用Docker搭建个人知识库系统</a>
+  <a href="/guide/nas-docker-knowledge-base-2026/" rel="prev">上一页：群晖NAS进阶教程：利用Docker搭建个人知识库系统</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

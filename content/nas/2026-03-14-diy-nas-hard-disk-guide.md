@@ -53,4 +53,4 @@ DIY NAS硬盘投入占总成本的大头，建议选择正规渠道购买，保�
 
 - [NAS系统对比：群晖、威联通、极空间、绿联哪家强？](/guide/nas-system-comparison-2026/)
 - [DIY NAS完整配置单：PVE虚拟机方案](/guide/pve-installation-tutorial/)
-- [迷你主机做NAS：零刻、铭凡、极摩客方案](/review/2026-03-14-intel-n150-minipc-comparison/)
+- [迷你主机做NAS：零刻、铭凡、极摩客方案](/review/intel-n150%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E5%85%A8%E9%9D%A2%E6%A8%AA%E8%AF%842026%E5%B9%B4%E5%85%A5%E9%97%A8%E7%BA%A7%E6%80%A7%E8%83%BD%E4%B9%8B%E7%8E%8B/)

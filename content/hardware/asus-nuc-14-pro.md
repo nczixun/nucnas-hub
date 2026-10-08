@@ -39,7 +39,7 @@ slug: "asus-nuc-14-pro"
 ## 二、外观与接口：经典尺寸，接口大满贯
 
 **体积与设计**
-<a href="/hardware/asus-nuc-14-pro/" target="_blank">NUC</a> 14 Pro延续了经典的4x4英寸设计，机身尺寸117×112×37mm（薄款）/54mm（高款），体积约**0.5-0.6升**，重量**470-600克**。全黑色磨砂机身，顶盖带有ASUS Logo，低调务实。
+<a href="/review/asus-nuc-14-pro/" target="_blank">NUC</a> 14 Pro延续了经典的4x4英寸设计，机身尺寸117×112×37mm（薄款）/54mm（高款），体积约**0.5-0.6升**，重量**470-600克**。全黑色磨砂机身，顶盖带有ASUS Logo，低调务实。
 
 **接口配置** 
 
@@ -72,7 +72,7 @@ slug: "asus-nuc-14-pro"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/nas/fnos-day7-backup/" rel="prev">上一页：Day 7：飞牛OS数据备份与同步</a>
+  <a href="/guide/fnos-day7-backup/" rel="prev">上一页：Day 7：飞牛OS数据备份与同步</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

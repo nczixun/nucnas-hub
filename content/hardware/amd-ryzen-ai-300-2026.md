@@ -37,7 +37,7 @@ Ryzen AI 300系列最大的亮点是集成了AMD XDNA 2架构的NPU（神经网�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/ai/openclaw-day3/" rel="prev">上一页：Day 3：核心概念</a>
+  <a href="/ai/openclaw-day3-core-concepts/" rel="prev">上一页：Day 3：核心概念</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

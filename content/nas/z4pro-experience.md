@@ -24,7 +24,7 @@ slug: "z4pro-experience"
 *更多<a href="/nas/" target="_blank">NAS</a>产品测评请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/mini-pc-accessories-2026/" rel="prev">上一页：迷你主机配件推荐</a>
+  <a href="/review/mini-pc-accessories-2026/" rel="prev">上一页：迷你主机配件推荐</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

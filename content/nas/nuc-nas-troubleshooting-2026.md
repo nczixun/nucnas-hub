@@ -45,7 +45,7 @@ slug: "nuc-nas-troubleshooting-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/synology-dsm-beginner-guide-2026/" rel="prev">上一页：群晖DSM 7.2新手入门</a>
+  <a href="/guide/synology-dsm-beginner-guide-2026/" rel="prev">上一页：群晖DSM 7.2新手入门</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -25,7 +25,7 @@ slug: "mac-mini-m2"
 
 
 
-<a href="/hardware/mac-mini-m2/" target="_blank">Apple M2 Mac mini</a> 是一款搭载 Apple M2 芯片的升级版<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/mac-mini-m2/" target="_blank">Apple M2 Mac mini</a> 是一款搭载 Apple M2 芯片的升级版<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -38,7 +38,7 @@ slug: "mac-mini-m2"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/mac-mini-m1/" rel="prev">上一页：M1 苹果迷你主机评测</a>
+  <a href="/review/mac-mini-m1/" rel="prev">上一页：M1 苹果迷你主机评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

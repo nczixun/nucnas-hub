@@ -32,7 +32,7 @@ slug: "minisforum-ms-a1"
 
 ## 一、前言
 
-<a href="/hardware/minisforum-ms-a1/" target="_blank">Minisforum MS-A1</a> 是一款创新的<a href="/hardware/" target="_blank">迷你主机</a>，采用AM5插槽设计，可更换CPU。
+<a href="/review/minisforum-ms-a1/" target="_blank">Minisforum MS-A1</a> 是一款创新的<a href="/hardware/" target="_blank">迷你主机</a>，采用AM5插槽设计，可更换CPU。
 
 ## 主要特点
 

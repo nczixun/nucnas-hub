@@ -68,7 +68,7 @@ Intel NUC 14 Pro+ 是目前最强的<a href="/hardware/" target="_blank">迷你�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/amd-ryzen-ai-300-review/" rel="prev">上一页：AMD Ryzen AI 300 首发测评</a>
+  <a href="/review/amd-ryzen-ai-300-review/" rel="prev">上一页：AMD Ryzen AI 300 首发测评</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

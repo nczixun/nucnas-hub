@@ -16,14 +16,14 @@ slug: "nas-docker-apps-recommend-2026"
 # NAS Docker应用推荐
 
 
-<a href="/nas/docker-best-practice/" target="_blank">Docker</a>是<a href="/nas/" target="_blank">NAS</a>的灵魂，这10个容器让你的NAS更好用。
+<a href="/guide/docker-best-practice/" target="_blank">Docker</a>是<a href="/nas/" target="_blank">NAS</a>的灵魂，这10个容器让你的NAS更好用。
 
 ---
 
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-must-have-docker-containers-2026/" rel="prev">上一页：NAS必装Docker容器推荐</a>
+  <a href="/guide/nas-must-have-docker-containers-2026/" rel="prev">上一页：NAS必装Docker容器推荐</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

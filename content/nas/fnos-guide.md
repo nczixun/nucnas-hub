@@ -24,7 +24,7 @@ CasaOS是一个极简的开源家庭云系统，能让你像用手机App一样�
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/ai/openclaw-day4/" rel="prev">上一页：Day 4：Skills技能系统</a>
+  <a href="/ai/openclaw-day4-skills-system/" rel="prev">上一页：Day 4：Skills技能系统</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

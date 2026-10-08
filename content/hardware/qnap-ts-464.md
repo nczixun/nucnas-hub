@@ -43,7 +43,7 @@ slug: "qnap-ts-464"
 *更多<a href="/nas/" target="_blank">NAS</a>产品测评请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/nas-buying-guide-2026/" rel="prev">上一页：2026年最值得购买的NAS推荐</a>
+  <a href="/review/nas-buying-guide-2026/" rel="prev">上一页：2026年最值得购买的NAS推荐</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

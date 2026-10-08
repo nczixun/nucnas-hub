@@ -19,7 +19,7 @@ slug: "truenas-unraid-dsm-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-setup-guide/" rel="prev">上一页：NAS搭建全攻略</a>
+  <a href="/guide/nas-setup-guide/" rel="prev">上一页：NAS搭建全攻略</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

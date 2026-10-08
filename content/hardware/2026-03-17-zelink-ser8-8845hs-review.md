@@ -142,4 +142,4 @@ keywords: ["零刻SER8", "8845HS评测", "迷你主机"]
 **推荐指数：⭐⭐⭐⭐☆**
 
 **相关阅读**�?- [N150 vs 8845HS对比](/review/n150-vs-8845hs-comparison)
-- [2026入门级Mini PC推荐](/review/entry-level-minipc-2026)
+- [2026入门级Mini PC推荐](/review/2026%E5%85%A5%E9%97%A8%E7%BA%A7mini-pc%E6%8E%A8%E8%8D%901500%E5%85%83%E4%BB%A5%E5%86%85%E8%BF%99%E4%BA%9B%E5%9E%8B%E5%8F%B7%E5%80%BC%E5%BE%97%E4%B9%B0/)

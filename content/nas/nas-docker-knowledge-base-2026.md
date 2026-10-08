@@ -36,11 +36,11 @@ tags:
 - 笔记软件太分散？
 - 想要一个统一的个人知识库？
 
-今天教你在群晖<a href="/nas/" target="_blank">NAS</a>上利用<a href="/nas/docker-best-practice/" target="_blank">Docker</a>搭建**Silicon Flow**+** AnythingLLM** 组合的本地知识库系统。
+今天教你在群晖<a href="/nas/" target="_blank">NAS</a>上利用<a href="/guide/docker-best-practice/" target="_blank">Docker</a>搭建**Silicon Flow**+** AnythingLLM** 组合的本地知识库系统。
 
 ## 二、准备工作
 
-需要安装以下<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用：
+需要安装以下<a href="/guide/docker-best-practice/" target="_blank">Docker</a>应用：
 - AnythingLLM
 - Silican Flow（API服务）
 
@@ -49,7 +49,7 @@ tags:
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-backup-strategy-2026/" rel="prev">上一页：NAS数据备份策略</a>
+  <a href="/guide/nas-backup-strategy-2026/" rel="prev">上一页：NAS数据备份策略</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -26,7 +26,7 @@ tags: ["Apple", "Mac mini M4", "apple"]
 
 ## 概述
 
-<a href="/hardware/apple-mac-mini-m4/" target="_blank">Apple Mac mini M4</a> 搭载M4芯片，是一款小体积大能量的<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/apple-mac-mini-m4/" target="_blank">Apple Mac mini M4</a> 搭载M4芯片，是一款小体积大能量的<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 

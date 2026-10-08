@@ -39,7 +39,7 @@ slug: "asus-nuc-15-pro-2026"
 
 ## 概述
 
-<a href="/hardware/asus-nuc-15-pro-2026/" target="_blank">ASUS NUC 15 Pro</a> 搭载Intel Ultra 200U处理器，是一款商务级<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/asus-nuc-15-pro-2026/" target="_blank">ASUS NUC 15 Pro</a> 搭载Intel Ultra 200U处理器，是一款商务级<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -53,7 +53,7 @@ slug: "asus-nuc-15-pro-2026"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/apple-mac-mini-m4/" rel="prev">上一页：Apple Mac mini M4 评测</a>
+  <a href="/review/apple-mac-mini-m4/" rel="prev">上一页：Apple Mac mini M4 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

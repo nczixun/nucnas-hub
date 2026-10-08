@@ -162,5 +162,5 @@ NAS领域的老牌劲旅，系统成熟稳定，生态完善，但界面相对�
 ## 相关推荐
 
 - [飞牛fnOS完全指南：30+避坑要点](/nas/2026-03-13-fnos-complete-guide/)
-- [绿联DXP4800 Plus深度测评](/nas/2026-03-24-jinglingzhi-z4pro-ai-2026/)
-- [群晖 vs 绿联：2026年NAS怎么选](/nas/2026-03-21-synology-vs-qnap-2026/)
+- [绿联DXP4800 Plus深度测评](/guide/%E6%9E%81%E7%A9%BA%E9%97%B4z4pro-ai%E7%89%88%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A%E5%9B%BD%E4%BA%A7nas%E7%9A%84ai%E5%8C%96%E4%B9%8B%E8%B7%AF/)
+- [群晖 vs 绿联：2026年NAS怎么选](/guide/%E7%BE%A4%E6%99%96vs%E5%A8%81%E8%81%94%E9%80%9A2026%E9%80%89%E5%93%AA%E4%B8%AA%E5%85%A8%E9%9D%A2%E5%AF%B9%E6%AF%94%E5%91%8A%E8%AF%89%E4%BD%A0%E7%AD%94%E6%A1%88/)

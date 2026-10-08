@@ -17,7 +17,7 @@ categories: ["nas"]
 
 功耗优化从硬件选购阶段就已经开始。不同的硬件组合，基础功耗差异可能高达数倍。
 
-**处理器选择**：Intel处理器后缀带"T"的为低功耗版本（TDP通常在35W以内)，而标准版功耗动辄65W以上。以i5-12400和i5-12400T为例，后者基础功耗低了将近一半。如果你的<a href="/nas/" target="_blank">NAS</a>主要用于存储和轻度<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用，选择低功耗CPU完全够用，<a href="/hardware/" target="_blank">NUC</a>系列更是专为低功耗设计，TDP通常在15W-28W之间。
+**处理器选择**：Intel处理器后缀带"T"的为低功耗版本（TDP通常在35W以内)，而标准版功耗动辄65W以上。以i5-12400和i5-12400T为例，后者基础功耗低了将近一半。如果你的<a href="/nas/" target="_blank">NAS</a>主要用于存储和轻度<a href="/guide/docker-best-practice/" target="_blank">Docker</a>应用，选择低功耗CPU完全够用，<a href="/hardware/" target="_blank">NUC</a>系列更是专为低功耗设计，TDP通常在15W-28W之间。
 
 **存储介质**：机械硬盘（HDD）的功耗约为5-10瓦，而固态硬盘（SSD）仅需2-5瓦。如果你的<a href="/nas/" target="_blank">NAS</a>主要用途不是大容量存储（媒体库、PT下载），使用SSD作为系统盘不仅更快，还能显著降低待机功耗。另外，不建议使用外接USB硬盘作为长期存储方案，因为USB供电不稳定且功耗管理较差。
 
@@ -38,7 +38,7 @@ categories: ["nas"]
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-ms-01/" rel="prev">上一页：Minisforum MS-01 评测</a>
+  <a href="/review/minisforum-ms-01/" rel="prev">上一页：Minisforum MS-01 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*
