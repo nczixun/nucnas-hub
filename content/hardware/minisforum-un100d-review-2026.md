@@ -35,7 +35,7 @@ slug: "minisforum-un100d-review-2026"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/nas/z4pro-portainer-install-guide-2026/" rel="prev">上一页：极空间Z4 Pro安装Portainer</a>
+  <a href="/guide/z4pro-portainer-install-guide-2026/" rel="prev">上一页：极空间Z4 Pro安装Portainer</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

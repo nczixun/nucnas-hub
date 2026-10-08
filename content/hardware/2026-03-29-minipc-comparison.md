@@ -101,6 +101,6 @@ draft: false
 
 ## 相关推荐
 
-- [Intel N150 vs AMD 8845HS：处理器对比](/hardware/2026-03-16-intel-n150-vs-amd-8845hs/)
-- [零刻SER8 8845HS测评](/hardware/2026-03-17-zelink-ser8-8845hs-review/)
+- [Intel N150 vs AMD 8845HS：处理器对比](/review/intel-n150-vs-amd-8845hs2026%E5%B9%B4mini-pc%E5%A4%84%E7%90%86%E5%99%A8%E5%AF%B9%E6%AF%94%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/)
+- [零刻SER8 8845HS测评](/review/%E9%9B%B6%E5%88%BBser8-8845hs%E6%B7%B1%E5%BA%A6%E8%AF%84%E6%B5%8B026%E5%B9%B4%E6%9C%80%E5%BC%BA%E6%A0%B8%E6%98%BE%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA/)
 - [入门迷你主机选购指南](/hardware/2026-03-16-entry-level-minipc-2026/)

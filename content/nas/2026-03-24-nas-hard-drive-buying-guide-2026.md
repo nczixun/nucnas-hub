@@ -104,5 +104,5 @@ SMR（Shingled Magnetic Recording，叠瓦式磁记录）将磁道像瓦片一�
 
 **相关阅读**：
 - [NAS存储容量选择指南](/nas/nas-capacity-guide/)
-- [NAS备份策略：3-2-1原则](/nas/nas-backup-3-2-1-upgrade/)
-- [极空间Z4Pro AI版体验报告](/nas/jinglingzhi-z4pro-ai-2026/)
+- [NAS备份策略：3-2-1原则](/guide/nas%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD3-2-1%E5%8E%9F%E5%88%99%E5%8D%87%E7%BA%A7%E7%89%882026%E6%9C%80%E6%96%B0%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/)
+- [极空间Z4Pro AI版体验报告](/guide/%E6%9E%81%E7%A9%BA%E9%97%B4z4pro-ai%E7%89%88%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A%E5%9B%BD%E4%BA%A7nas%E7%9A%84ai%E5%8C%96%E4%B9%8B%E8%B7%AF/)

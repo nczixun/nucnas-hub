@@ -40,7 +40,7 @@ price: "999起"
 
 ## 二、入门级：1000-2000元
 
-这个价位推荐Intel N100/<a href="/hardware/n100-minipc-recommend-2026/" target="_blank">N200</a>迷你主机：
+这个价位推荐Intel N100/<a href="/review/n100-minipc-recommend-2026/" target="_blank">N200</a>迷你主机：
 
 - 适合运行<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>小型模型
 - 功耗极低（6W TDP）
@@ -51,7 +51,7 @@ price: "999起"
 *更多<a href="/ai/" target="_blank">AI</a>教程和<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [AI频道](/ai/) 和 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-v3-2026/" rel="prev">上一页：Minisforum V3三合一平板</a>
+  <a href="/review/minisforum-v3-2026/" rel="prev">上一页：Minisforum V3三合一平板</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -23,7 +23,7 @@ slug: "nas-all-in-one-guide-2026"
 - 🎬 播放4K电影（私人影院）
 - 📥 下载PT/BT（下载机）
 - 🌐 拨号上网（软路由）
-- 🤖 运行各种<a href="/nas/docker-best-practice/" target="_blank">Docker</a>应用
+- 🤖 运行各种<a href="/guide/docker-best-practice/" target="_blank">Docker</a>应用
 - 🏠 控制智能家居
 
 这就是**All-in-One（AIO）**的魅力所在！
@@ -46,7 +46,7 @@ slug: "nas-all-in-one-guide-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/n100-minipc-recommend-2026/" rel="prev">上一页：2026年N100迷你主机推荐：百元级性能小钢炮</a>
+  <a href="/review/n100-minipc-recommend-2026/" rel="prev">上一页：2026年N100迷你主机推荐：百元级性能小钢炮</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

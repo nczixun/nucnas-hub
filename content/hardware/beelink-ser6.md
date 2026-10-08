@@ -30,7 +30,7 @@ slug: "beelink-ser6"
 
 
 
-<a href="/hardware/beelink-ser6/" target="_blank">Beelink SER6</a> 搭载 AMD 6900HX 处理器，是 SER5 的升级款<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/beelink-ser6/" target="_blank">Beelink SER6</a> 搭载 AMD 6900HX 处理器，是 SER5 的升级款<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "beelink-ser6"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/beelink-ser5/" rel="prev">上一页：Beelink SER5 评测</a>
+  <a href="/review/beelink-ser5/" rel="prev">上一页：Beelink SER5 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

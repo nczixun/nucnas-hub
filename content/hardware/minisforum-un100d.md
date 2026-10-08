@@ -28,7 +28,7 @@ keywords: ["N100", "双2.5G", "PD供电", "hardware"]
 
 ## 概述
 
-<a href="/hardware/minisforum-un100d/" target="_blank">Minisforum UN100D</a> 是一款基于 Intel N100 处理器的入门级<a href="/hardware/" target="_blank">迷你主机</a>，支持双2.5G网口和PD供电。
+<a href="/review/minisforum-un100d/" target="_blank">Minisforum UN100D</a> 是一款基于 Intel N100 处理器的入门级<a href="/hardware/" target="_blank">迷你主机</a>，支持双2.5G网口和PD供电。
 
 ## 主要特点
 
@@ -49,7 +49,7 @@ keywords: ["N100", "双2.5G", "PD供电", "hardware"]
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/aoostar-r1/" rel="prev">上一页：Aoostar R1 评测</a>
+  <a href="/review/aoostar-r1/" rel="prev">上一页：Aoostar R1 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

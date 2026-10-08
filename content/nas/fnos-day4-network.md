@@ -62,8 +62,8 @@ http://192.168.x.x
 ---
 
 <div class="page-nav">
-  <a href="/nas/fnos-day3-install/" rel="prev">上一页：Day 3：飞牛OS安装教程</a>
-  <a href="/nas/fnos-day5-remote/" rel="next">下一页：Day 5：飞牛OS远程访问</a>
+  <a href="/guide/fnos-day3-install/" rel="prev">上一页：Day 3：飞牛OS安装教程</a>
+  <a href="/guide/fnos-day5-remote/" rel="next">下一页：Day 5：飞牛OS远程访问</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

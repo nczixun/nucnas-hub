@@ -28,7 +28,7 @@ keywords: ["N100", "双盘位", "NAS主机", "nas"]
 
 ## 概述
 
-<a href="/hardware/aoostar-r1/" target="_blank">Aoostar R1</a> 是一款基于 N100 处理器的双盘位 <a href="/nas/" target="_blank">NAS</a> 主机，专为家庭存储设计。
+<a href="/review/aoostar-r1/" target="_blank">Aoostar R1</a> 是一款基于 N100 处理器的双盘位 <a href="/nas/" target="_blank">NAS</a> 主机，专为家庭存储设计。
 
 ## 主要特点
 
@@ -48,7 +48,7 @@ keywords: ["N100", "双盘位", "NAS主机", "nas"]
 *更多<a href="/hardware/" target="_blank">迷你主机</a>和<a href="/nas/" target="_blank">NAS</a>教程请关注 [硬件频道](/hardware/) 和 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-storage-solution-guide-2026/" rel="prev">上一页：NAS存储方案怎么选</a>
+  <a href="/guide/nas-storage-solution-guide-2026/" rel="prev">上一页：NAS存储方案怎么选</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

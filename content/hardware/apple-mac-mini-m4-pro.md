@@ -50,7 +50,7 @@ Mac mini M4 Pro机身尺寸仅**12.7×12.7×5cm**（5×5×2英寸），比前代
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/aoostar-gem12/" rel="prev">上一页：Aoostar GEM12 评测</a>
+  <a href="/review/aoostar-gem12/" rel="prev">上一页：Aoostar GEM12 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

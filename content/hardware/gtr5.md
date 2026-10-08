@@ -25,7 +25,7 @@ slug: "gtr5"
 
 
 
-<a href="/hardware/gtr5/" target="_blank">零刻 GTR5</a> 是一款 AMD 5900HX 旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/gtr5/" target="_blank">零刻 GTR5</a> 是一款 AMD 5900HX 旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -38,7 +38,7 @@ slug: "gtr5"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/gtr/" rel="prev">上一页：零刻 GT-R 评测</a>
+  <a href="/review/gtr/" rel="prev">上一页：零刻 GT-R 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

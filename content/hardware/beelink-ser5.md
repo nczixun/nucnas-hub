@@ -30,7 +30,7 @@ slug: "beelink-ser5"
 
 
 
-<a href="/hardware/beelink-ser5/" target="_blank">Beelink SER5</a> 搭载 AMD 5800H 处理器，是一款性价比极高的<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/beelink-ser5/" target="_blank">Beelink SER5</a> 搭载 AMD 5800H 处理器，是一款性价比极高的<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "beelink-ser5"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/ai/openclaw-day7/" rel="prev">上一页：Day 7：部署上线与安全设置</a>
+  <a href="/ai/openclaw-day7-deployment-security/" rel="prev">上一页：Day 7：部署上线与安全设置</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

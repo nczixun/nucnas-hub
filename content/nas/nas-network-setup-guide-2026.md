@@ -27,9 +27,9 @@ slug: "nas-network-setup-guide-2026"
 - 优点：配置简单，不用设置路由器
 - 缺点：速度慢，看视频会卡
 
-### 方式2：<a href="/nas/tailscale-remote-access/" target="_blank">Tailscale</a>（推荐）
+### 方式2：<a href="/guide/tailscale-remote-access/" target="_blank">Tailscale</a>（推荐）
 - 优点：免费、快速、安全
-- 安装：<a href="/nas/docker-best-practice/" target="_blank">Docker</a>一键部署
+- 安装：<a href="/guide/docker-best-practice/" target="_blank">Docker</a>一键部署
 - 实测速度：取决于双方带宽
 
 ### 方式3：Frp内网穿透
@@ -41,7 +41,7 @@ slug: "nas-network-setup-guide-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/beelink-sei14/" rel="prev">上一页：Beelink SEI14 评测</a>
+  <a href="/review/beelink-sei14/" rel="prev">上一页：Beelink SEI14 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

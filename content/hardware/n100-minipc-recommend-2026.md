@@ -62,7 +62,7 @@ N100的性能对于日常办公和轻度<a href="/nas/" target="_blank">NAS</a>�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-power-save/" rel="prev">上一页：24/7运行也不心疼电费：小主机功耗优化策略</a>
+  <a href="/guide/nas-power-save/" rel="prev">上一页：24/7运行也不心疼电费：小主机功耗优化策略</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

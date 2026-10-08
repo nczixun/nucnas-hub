@@ -35,7 +35,7 @@ slug: "minisforum-un100d-nas-review-2026"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-un100d-review-2026/" rel="prev">上一页：Minisforum UN100D使用体验</a>
+  <a href="/review/minisforum-un100d-review-2026/" rel="prev">上一页：Minisforum UN100D使用体验</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

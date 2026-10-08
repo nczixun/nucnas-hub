@@ -120,5 +120,5 @@ ingress:
 ## 总结
 
 Tailscale是我最推荐的方案——安装简单、安全性高、速度接近满速。如果需要分享NAS给朋友，Cloudflare Tunnel是更好的选择�?
-**相关文章**�?- [NAS远程访问VPN对比](/guide/nas-remote-access-vpn-comparison)
+**相关文章**�?- [NAS远程访问VPN对比](/guide/nas%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E6%96%B9%E6%A1%88%E5%AF%B9%E6%AF%942026tailscale-vs-%E8%92%B2%E5%85%AC%E8%8B%B1-vs-zerotier/)
 - [DIY NAS配置推荐](/guide/diy-nas-config-recommend-2026)

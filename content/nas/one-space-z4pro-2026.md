@@ -25,12 +25,12 @@ slug: "one-space-z4pro-2026"
 
 ## 一、前言
 
-<a href="/nas/one-space-z4pro-2026/" target="_blank">极空间Z4Pro</a> 是新一代<a href="/nas/" target="_blank">NAS</a>旗舰，搭载Intel N305处理器。
+<a href="/guide/one-space-z4pro-2026/" target="_blank">极空间Z4Pro</a> 是新一代<a href="/nas/" target="_blank">NAS</a>旗舰，搭载Intel N305处理器。
 
 ## 主要特点
 
 - Intel N305性能强劲
-- 内置<a href="/nas/docker-best-practice/" target="_blank">Docker</a>/虚拟机
+- 内置<a href="/guide/docker-best-practice/" target="_blank">Docker</a>/虚拟机
 - AI相册功能强大
 - 影视墙体验优秀
 

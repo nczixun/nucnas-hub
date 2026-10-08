@@ -42,7 +42,7 @@ slug: "deploy-llm-mini-pc-2026"
 *更多<a href="/ai/" target="_blank">AI</a>教程和<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [AI频道](/ai/) 和 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/apple-mac-mini-m4-pro/" rel="prev">上一页：Mac mini M4 Pro 评测</a>
+  <a href="/review/apple-mac-mini-m4-pro/" rel="prev">上一页：Mac mini M4 Pro 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

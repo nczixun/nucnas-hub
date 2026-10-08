@@ -14,11 +14,11 @@ slug: "nas-docker-apps-recommend-2026-v3"
 
 ## һ��ǰ��
 
-<a href="/nas/docker-best-practice/" target="_blank">Docker</a>��<a href="/nas/" target="_blank">NAS</a>�����淨�ĺ��ġ�����<a href="/nas/docker-best-practice/" target="_blank">Docker</a>���������<a href="/nas/" target="_blank">NAS</a>�����и��ַ��񣬴��ļ���������ܼҾӣ���Ӱ�����ֵ�AIӦ�á����ľ�ѡ20���ر�<a href="/nas/docker-best-practice/" target="_blank">Docker</a>Ӧ�ã������<a href="/nas/" target="_blank">NAS</a>�ﳬ��ֵ��
+<a href="/guide/docker-best-practice/" target="_blank">Docker</a>��<a href="/nas/" target="_blank">NAS</a>�����淨�ĺ��ġ�����<a href="/guide/docker-best-practice/" target="_blank">Docker</a>���������<a href="/nas/" target="_blank">NAS</a>�����и��ַ��񣬴��ļ���������ܼҾӣ���Ӱ�����ֵ�AIӦ�á����ľ�ѡ20���ر�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>Ӧ�ã������<a href="/nas/" target="_blank">NAS</a>�ﳬ��ֵ��
 
 ## �����ر�������
 
-### 2.1 <a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>�����������
+### 2.1 <a href="/guide/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>�����������
 
 ```yaml
 version: '3'
@@ -34,15 +34,15 @@ services:
       - portainer_data:/data
 ```
 
-**����**��ͼ�λ�<a href="/nas/docker-best-practice/" target="_blank">Docker</a>������壬���ӻ������������������
+**����**��ͼ�λ�<a href="/guide/docker-best-practice/" target="_blank">Docker</a>������壬���ӻ������������������
 
-**�Ƽ�����**����װ������<a href="/nas/docker-best-practice/" target="_blank">Docker</a>��ֱ��
+**�Ƽ�����**����װ������<a href="/guide/docker-best-practice/" target="_blank">Docker</a>��ֱ��
 
 ### 2.2 FileBrowser���ļ������
 
 **����**����ҳ���ļ���������֧����ק�ϴ�������Ԥ����Ȩ�޹���
 
-**�������**��<a href="/nas/alist-network-aggregation-2026/" target="_blank">Alist</a>�����̾ۺϣ�
+**�������**��<a href="/guide/alist-network-aggregation-2026/" target="_blank">Alist</a>�����̾ۺϣ�
 
 ### 2.3 Nginx Proxy Manager����������
 
@@ -87,7 +87,7 @@ jellyfin:
 
 ## �ġ���Ƭ������
 
-### 4.1 <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>��AI��ᣩ
+### 4.1 <a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>��AI��ᣩ
 
 **����**��Google Photos��Դ�����AI����ʶ�𡢵�ͼ��ͼ������ͬ��
 
@@ -101,11 +101,11 @@ jellyfin:
 
 **����**����һ��ǿ���AI��ᣬ֧������ʶ�𡢵���ʶ��
 
-**�Ա�**��<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>��ע���ƶ������飬PhotoPrism��ҳ���ܸ��ḻ
+**�Ա�**��<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>��ע���ƶ������飬PhotoPrism��ҳ���ܸ��ḻ
 
 ## �塢���ܼҾ���
 
-### 5.1 <a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>
+### 5.1 <a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>
 
 **����**����Դ���ܼҾ�ƽ̨��֧����ǧ���豸
 
@@ -176,9 +176,9 @@ jellyfin:
 
 ## �š���װ����
 
-### 9.1 <a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>ģ��
+### 9.1 <a href="/guide/docker-best-practice/" target="_blank">Docker Compose</a>ģ��
 
-�Ƽ�ʹ��<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>��"Stacks"���ܻ�<a href="/nas/docker-best-practice/" target="_blank">Docker Compose</a>����
+�Ƽ�ʹ��<a href="/guide/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>��"Stacks"���ܻ�<a href="/guide/docker-best-practice/" target="_blank">Docker Compose</a>����
 
 ### 9.2 ��Դ����
 
@@ -186,7 +186,7 @@ jellyfin:
 | :--- | :--- | :--- |
 | Jellyfin | 2��+ | 4GB+ |
 | Home Assistant | 1�� | 2GB |
-| <a href="/nas/immich-photo-cloud/" target="_blank">Immich</a> | 2�� | 4GB+ |
+| <a href="/guide/immich-photo-cloud/" target="_blank">Immich</a> | 2�� | 4GB+ |
 | <a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a> | 4�� | 16GB+ |
 
 ### 9.3 ���ݳ־û�
@@ -200,27 +200,27 @@ volumes:
 
 ## ʮ���ܽ�
 
-��20��<a href="/nas/docker-best-practice/" target="_blank">Docker</a>Ӧ�ú�����<a href="/nas/" target="_blank">NAS</a>�ķ������棺
+��20��<a href="/guide/docker-best-practice/" target="_blank">Docker</a>Ӧ�ú�����<a href="/nas/" target="_blank">NAS</a>�ķ������棺
 
-- **������**��<a href="/nas/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>��Nginx PM��FileBrowser
+- **������**��<a href="/guide/nas-docker-apps-recommend-2026-v3/" target="_blank">Portainer</a>��Nginx PM��FileBrowser
 - **Ӱ����**��Jellyfin��Bazarr��qBittorrent
-- **�����**��<a href="/nas/immich-photo-cloud/" target="_blank">Immich</a>��PhotoPrism
-- **�Ҿ���**��<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant</a>��AdGuard
+- **�����**��<a href="/guide/immich-photo-cloud/" target="_blank">Immich</a>��PhotoPrism
+- **�Ҿ���**��<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant</a>��AdGuard
 - **Ч����**��Syncthing��Wallabag
 - **AI��**��<a href="/ai/ollama-beginner-guide-2026/" target="_blank">Ollama</a>��OpenWebUI
 
-**��װ����**���Ӽ�Ӧ�ÿ�ʼ�������롣<a href="/nas/docker-best-practice/" target="_blank">Docker</a>��<a href="/nas/" target="_blank">NAS</a>������Ϊ���������ߣ�
+**��װ����**���Ӽ�Ӧ�ÿ�ʼ�������롣<a href="/guide/docker-best-practice/" target="_blank">Docker</a>��<a href="/nas/" target="_blank">NAS</a>������Ϊ���������ߣ�
 
 **��ؽ̳�**��
-- [<a href="/nas/docker-best-practice/" target="_blank">NAS Docker����ָ��</a>](/guide/docker-best-practice/)
-- [<a href="/nas/home-assistant-nuc/" target="_blank">Home Assistant��װ����</a>](/guide/home-assistant-nuc/)
+- [<a href="/guide/docker-best-practice/" target="_blank">NAS Docker����ָ��</a>](/guide/docker-best-practice/)
+- [<a href="/guide/home-assistant-nuc/" target="_blank">Home Assistant��װ����</a>](/guide/home-assistant-nuc/)
 
 ---
 
 *�����������ע [NASѧԺ](/nas/)��*
 
 <div class="page-nav">
-  <a href="/nas/nas-beginner-guide-2026/" rel="prev">��һҳ��NAS������ȫָ�ϣ�2026����㿪ʼ�������˽����</a>
+  <a href="/guide/nas-beginner-guide-2026/" rel="prev">��һҳ��NAS������ȫָ�ϣ�2026����㿪ʼ�������˽����</a>
 </div>
 
 *������ NUC NAS Hub �Զ�����*

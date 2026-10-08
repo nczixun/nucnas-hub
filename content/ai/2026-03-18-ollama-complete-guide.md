@@ -324,5 +324,5 @@ Ollama让本地大模型部署变得简单。推荐配置：
 - 尝试不同模型找到最适合自己的
 
 **相关文章**：
-- [8845HS大模型实测](/review/8845hs-llm-benchmark)
+- [8845HS大模型实测](/review/8845hs%E6%80%A7%E8%83%BD%E5%AE%9E%E6%B5%8B%E8%83%BD%E8%B7%91%E5%A4%9A%E5%A4%A7%E6%9C%AC%E5%9C%B0%E5%A4%A7%E6%A8%A1%E5%9E%8B/)
 - [本地AI部署方案对比](/ai/local-ai-deployment-comparison)

@@ -37,7 +37,7 @@ description: "家庭NAS数据备份3-2-1原则详解：3份副本、2种介质�
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/nas-all-in-one-guide-2026/" rel="prev">上一页：NAS All-in-One完全指南</a>
+  <a href="/guide/nas-all-in-one-guide-2026/" rel="prev">上一页：NAS All-in-One完全指南</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

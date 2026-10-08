@@ -165,7 +165,7 @@ Docker让NAS的可能性无限扩展。根据自己的需求选择合适的应�
 
 <div class="page-nav">
   <a href="/hardware/x-host/" rel="iaomi-miniprev">上一页：小米迷你主机评测</a>
-  <a href="/nas/nas-docker-apps-recommend-2026-v3/" rel="next">下一页：NAS必装Docker应用推荐 V3</a>
+  <a href="/guide/nas-docker-apps-recommend-2026-v3/" rel="next">下一页：NAS必装Docker应用推荐 V3</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

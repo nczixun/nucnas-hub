@@ -84,8 +84,8 @@ qm importdisk 100 fnos.qcow2 vmbr0 --format qcow2
 ---
 
 <div class="page-nav">
-  <a href="/nas/fnos-day2-hardware/" rel="prev">上一页：Day 2：飞牛OS硬件选购指南</a>
-  <a href="/nas/fnos-day4-network/" rel="next">下一页：Day 4：飞牛OS网络设置</a>
+  <a href="/guide/fnos-day2-hardware/" rel="prev">上一页：Day 2：飞牛OS硬件选购指南</a>
+  <a href="/guide/fnos-day4-network/" rel="next">下一页：Day 4：飞牛OS网络设置</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

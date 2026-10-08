@@ -377,8 +377,8 @@ GEAKOS 作为一�?*新晋国产 NAS 系统**，虽然目前功能还不完善�
 **建议**：重要数据一定要有备份，NAS 虽好，但数据安全永远是第一位的�?
 ---
 
-> 📚 **相关文章推荐**�?> - [飞牛 fnOS 深度指南](/guide/2026-03-12-fnos-ultimate-guide/)
-> - [GEAKOS 7天入门教程](/guide/geakos-day1/)
+> 📚 **相关文章推荐**�?> - [飞牛 fnOS 深度指南](/guide/%E9%A3%9E%E7%89%9B-fnos-%E6%B7%B1%E5%BA%A6%E6%8C%87%E5%8D%97%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%89%93%E9%80%A0%E7%A7%81%E6%9C%89%E4%BA%91%E5%90%AB-30-%E9%81%BF%E5%9D%91%E5%A4%A7%E5%85%A8/)
+> - [GEAKOS 7天入门教程](/guide/geakos-7-%E5%A4%A9%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E7%AC%AC-1-%E5%A4%A9-%E5%88%9D%E8%AF%86-geakos-%E4%B8%8E%E7%A1%AC%E4%BB%B6%E5%87%86%E5%A4%87/)
 > - [NAS Docker应用推荐](/guide/nas-docker-apps-recommend-2026/)
 > - [NAS入门完全指南](/guide/nas-beginner-guide-2026/)
 

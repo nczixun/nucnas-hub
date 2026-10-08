@@ -221,7 +221,7 @@ Intel Core Ultra 7 256V 处理器特性：
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/gmktec-k9/" rel="prev">上一页：GMKTEC K9 评测</a>
+  <a href="/review/gmktec-k9/" rel="prev">上一页：GMKTEC K9 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

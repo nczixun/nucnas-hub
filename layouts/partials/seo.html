@@ -1,3 +1,4 @@
+{{- $pageURL := partial "page-url.html" . -}}
 {{- $description := .Description | default (.Summary | plainify | truncate 160) | default .Site.Params.description -}}
 {{- $isArticle := and .IsPage (in (slice "hardware" "nas" "ai" "openclaw") .Section) -}}
 {{- $noindex := or .Params.noindex (eq .Kind "404") (in (slice "taxonomy" "term") .Kind) -}}
@@ -6,11 +7,11 @@
 <meta name="description" content="{{ $description }}">
 <meta name="author" content="{{ .Site.Params.author | default .Site.Title }}">
 <meta name="robots" content="{{ if $noindex }}noindex, follow{{ else }}index, follow{{ end }}">
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ $pageURL }}">
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:type" content="{{ if $isArticle }}article{{ else }}website{{ end }}">
-<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:url" content="{{ $pageURL }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}">
@@ -21,17 +22,17 @@
 <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
 {{ $organization := dict "@type" "Organization" "name" .Site.Title "url" .Site.BaseURL }}
-{{ $schema := dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" $description "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" $organization "publisher" $organization "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink) "wordCount" .WordCount "inLanguage" "zh-CN" "isAccessibleForFree" true }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" $description "url" $pageURL "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" $organization "publisher" $organization "mainEntityOfPage" (dict "@type" "WebPage" "@id" $pageURL) "wordCount" .WordCount "inLanguage" "zh-CN" "isAccessibleForFree" true }}
 {{ with $image }}{{ $schema = merge $schema (dict "image" .) }}{{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 {{ else if not $noindex }}
-{{ $schema := dict "@context" "https://schema.org" "@type" "WebPage" "name" .Title "description" $description "url" .Permalink "inLanguage" "zh-CN" }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "WebPage" "name" .Title "description" $description "url" $pageURL "inLanguage" "zh-CN" }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 {{ end }}
 {{ if and .IsPage (not $noindex) }}
 {{ $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "首页" "item" .Site.BaseURL) }}
 {{ with .CurrentSection }}{{ if not .IsHome }}{{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink) }}{{ end }}{{ end }}
-{{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add (len $crumbs) 1) "name" .Title "item" .Permalink) }}
+{{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add (len $crumbs) 1) "name" .Title "item" $pageURL) }}
 <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs | jsonify | safeJS }}</script>
 {{ end }}
 

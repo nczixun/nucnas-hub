@@ -97,6 +97,6 @@ Intel N150是2026年入门级迷你主机的**最佳选择**。相比N100有15-1
 ---
 
 **相关阅读**：
-- [DIY NAS配置推荐2026](/nas/diy-nas-config-2026/)
-- [NAS硬盘选购指南](/nas/nas-hard-drive-buying-guide-2026/)
-- [低功耗NAS装机方案](/nas/low-power-nas-buying-guide/)
+- [DIY NAS配置推荐2026](/guide/diy-nas%E9%85%8D%E7%BD%AE%E6%8E%A8%E8%8D%902026%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E4%BC%81%E4%B8%9A%E7%BA%A7%E6%80%BB%E6%9C%89%E4%B8%80%E6%AC%BE%E9%80%82%E5%90%88%E4%BD%A0/)
+- [NAS硬盘选购指南](/guide/nas-hard-drive-buying-guide-2026/)
+- [低功耗NAS装机方案](/guide/%E4%BD%8E%E5%8A%9F%E8%80%97nas%E5%80%BC%E5%BE%97%E4%B9%B0%E5%90%972026%E5%AE%B6%E5%BA%AD%E5%AD%98%E5%82%A8%E6%96%B9%E6%A1%88%E5%AF%B9%E6%AF%94/)

@@ -137,4 +137,4 @@ author: "NUC NAS Hub"
 
 核显性能AMD全面领先，Intel在解码和低功耗方面有优势。根据自己需求选择，切勿盲目追求性能�?
 **相关文章**�?- [N150 vs N100对比](/review/intel-n150-vs-n100-comparison)
-- [8845HS性能实测](/review/amd-8845hs-minipc-recommend)
+- [8845HS性能实测](/review/2026%E5%B9%B4amd-8845hs%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%8E%A8%E8%8D%90%E9%AB%98%E6%80%A7%E8%83%BDmini-pc%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/)

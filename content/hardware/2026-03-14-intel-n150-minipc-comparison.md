@@ -36,7 +36,7 @@ Intel N150是Alder Lake-N架构入门处理器，6核心6线程，基础频率1.
 ## 功耗与散热
 
 AIDA64 FPU烤机30分钟，零刻EQ13温度稳定�?5℃，极摩客M5�?0℃。满载功耗约18W，待机功耗仅3W�?
-> N150处理器也适合软路由场景，搭配NAS可实现All in One，详见：[DIY NAS硬盘选购指南](/guide/diy-nas-hard-disk-guide/)
+> N150处理器也适合软路由场景，搭配NAS可实现All in One，详见：[DIY NAS硬盘选购指南](/guide/diy-nas%E7%A1%AC%E7%9B%98%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%972026%E8%A5%BF%E6%95%B0%E5%B8%8C%E6%8D%B7%E4%B8%9C%E8%8A%9D%E5%85%A8%E5%AF%B9%E6%AF%94/)
 
 ## 总结
 

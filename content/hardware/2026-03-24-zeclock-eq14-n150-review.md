@@ -131,5 +131,5 @@ N150集成的UHD Graphics（24EU）在解码方面表现出色：
 ## 相关推荐
 
 - [Intel N150 vs AMD 8845HS 迷你主机对比](https://nucnas.top/hardware/2026-03-24-n150-vs-8845hs-minipc-comparison/)
-- [2026年入门级迷你主机推荐](https://nucnas.top/hardware/2026-03-20-entry-level-minipc-recommend/)
-- [零刻EQ14 N150迷你主机评测](https://nucnas.top/hardware/2026-03-24-intel-n150-minipc-review/)
+- [2026年入门级迷你主机推荐](https://nucnas.top/review/2026%E5%85%A5%E9%97%A8%E7%BA%A7%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%8E%A8%E8%8D%90n100/n150%E5%A4%84%E7%90%86%E5%99%A8%E6%9C%BA%E5%9E%8B%E7%9B%98%E7%82%B9/)
+- [零刻EQ14 N150迷你主机评测](https://nucnas.top/review/intel-n150-%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%B7%B1%E5%BA%A6%E8%AF%84%E6%B5%8B2026%E5%B9%B4%E5%85%A5%E9%97%A8%E7%BA%A7%E7%A5%9Eu/)

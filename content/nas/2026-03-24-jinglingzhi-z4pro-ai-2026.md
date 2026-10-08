@@ -119,6 +119,6 @@ Z4Pro AI版支持本地部署轻量级大模型：
 ---
 
 **相关阅读**：
-- [NAS硬盘选购指南](/nas/nas-hard-drive-buying-guide-2026/)
-- [Synology vs QNAP 2026对比](/nas/synology-vs-qnap-2026/)
-- [DIY NAS配置推荐2026](/nas/diy-nas-config-2026/)
+- [NAS硬盘选购指南](/guide/nas-hard-drive-buying-guide-2026/)
+- [Synology vs QNAP 2026对比](/guide/%E7%BE%A4%E6%99%96vs%E5%A8%81%E8%81%94%E9%80%9A2026%E9%80%89%E5%93%AA%E4%B8%AA%E5%85%A8%E9%9D%A2%E5%AF%B9%E6%AF%94%E5%91%8A%E8%AF%89%E4%BD%A0%E7%AD%94%E6%A1%88/)
+- [DIY NAS配置推荐2026](/guide/diy-nas%E9%85%8D%E7%BD%AE%E6%8E%A8%E8%8D%902026%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E4%BC%81%E4%B8%9A%E7%BA%A7%E6%80%BB%E6%9C%89%E4%B8%80%E6%AC%BE%E9%80%82%E5%90%88%E4%BD%A0/)

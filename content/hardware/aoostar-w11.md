@@ -30,7 +30,7 @@ slug: "aoostar-w11"
 
 
 
-<a href="/hardware/aoostar-w11/" target="_blank">Aoostar W11</a> 搭载 AMD 5825U 处理器，是一款高性价比<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/aoostar-w11/" target="_blank">Aoostar W11</a> 搭载 AMD 5825U 处理器，是一款高性价比<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "aoostar-w11"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/gmktec-k5-plus/" rel="prev">上一页：GMKTEC K5 Plus 评测</a>
+  <a href="/review/gmktec-k5-plus/" rel="prev">上一页：GMKTEC K5 Plus 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

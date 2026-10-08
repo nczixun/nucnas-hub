@@ -171,4 +171,4 @@ fi
 2. 每周检查一次SMART状�?3. 关注Reallocated_Sector_Ct和Temperature
 4. 准备备用硬盘，发现问题及时更�?
 **相关文章**�?- [NAS备份最佳实践](/guide/nas-backup-best-practice-2026)
-- [NAS硬盘选购指南](/guide/nas-hard-drive-selection-guide)
+- [NAS硬盘选购指南](/guide/nas%E5%AD%98%E5%82%A8%E6%89%A9%E5%B1%95%E6%8C%87%E5%8D%97%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%90%88%E9%80%82%E7%9A%84%E7%A1%AC%E7%9B%98/)

@@ -35,7 +35,7 @@ slug: "nas-hard-drive-buying-guide-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/ai/openclaw-day1/" rel="prev">上一页：Day 1：OpenClaw 快速入门</a>
+  <a href="/ai/openclaw-day1-intro/" rel="prev">上一页：Day 1：OpenClaw 快速入门</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

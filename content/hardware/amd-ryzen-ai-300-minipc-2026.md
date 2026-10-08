@@ -64,14 +64,14 @@ Ryzen AI 300系列采用全新的**Zen 5架构**，配备**XDNA 2 NPU**，AI算�
 
 **适合人群**：专业AI应用、重度办公
 
-**推荐机型**：<a href="/hardware/minisforum-v3-2026/" target="_blank">Minisforum V3</a>、<a href="/hardware/asus-rog-nuc/" target="_blank">ASUS ROG NUC</a>
+**推荐机型**：<a href="/review/minisforum-v3-2026/" target="_blank">Minisforum V3</a>、<a href="/review/asus-rog-nuc/" target="_blank">ASUS ROG NUC</a>
 
 ---
 
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评和<a href="/ai/" target="_blank">AI</a>相关内容请关注 [硬件频道](/hardware/) 和 [AI频道](/ai/)。*
 
 <div class="page-nav">
-  <a href="/hardware/beelink-ser8/" rel="prev">上一页：Beelink SER8 深度评测</a>
+  <a href="/review/beelink-ser8/" rel="prev">上一页：Beelink SER8 深度评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

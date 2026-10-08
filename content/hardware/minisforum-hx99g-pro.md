@@ -25,7 +25,7 @@ slug: "minisforum-hx99g-pro"
 
 
 
-<a href="/hardware/minisforum-hx99g-pro/" target="_blank">Minisforum HX99G Pro</a> 是一款 AMD 6900HX + RX 6650M 旗舰版<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/minisforum-hx99g-pro/" target="_blank">Minisforum HX99G Pro</a> 是一款 AMD 6900HX + RX 6650M 旗舰版<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -38,7 +38,7 @@ slug: "minisforum-hx99g-pro"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-hx350g/" rel="prev">上一页：Minisforum HX350G 评测</a>
+  <a href="/review/minisforum-hx350g/" rel="prev">上一页：Minisforum HX350G 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

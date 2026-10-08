@@ -23,7 +23,7 @@ description: "手把手教你用Ollama+OpenWebUI搭建本地AI聊天界面，支
 
 ## 安装步骤
 
-通过 <a href="/nas/docker-best-practice/" target="_blank">Docker</a> 一键部署：
+通过 <a href="/guide/docker-best-practice/" target="_blank">Docker</a> 一键部署：
 
 ```bash
 docker run -d -p 3000:8080 -v ollama:/root/.ollama - --name openwebui openwebui/openwebui:main
@@ -34,7 +34,7 @@ docker run -d -p 3000:8080 -v ollama:/root/.ollama - --name openwebui openwebui/
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
 <div class="page-nav">
-  <a href="/hardware/ugreen-dx4600/" rel="prev">上一页：绿联 DX4600 评测</a>
+  <a href="/review/ugreen-dx4600/" rel="prev">上一页：绿联 DX4600 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

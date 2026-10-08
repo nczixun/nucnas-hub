@@ -42,7 +42,7 @@ slug: "llama-vs-qwen-benchmark-2026"
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
 <div class="page-nav">
-  <a href="/hardware/asus-nuc-14-pro-plus/" rel="prev">上一页：NUC 14 Pro+ 评测</a>
+  <a href="/review/asus-nuc-14-pro-plus/" rel="prev">上一页：NUC 14 Pro+ 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

@@ -136,5 +136,5 @@ keywords: ["Mini PC软路由", "OpenWrt", "软路由安装"]
 ## 总结
 
 Mini PC刷软路由�?花小钱办大事"的典型案例�?000元预算就能获得企业级路由体验，同时还能跑Docker兼顾其他需求�?
-**相关阅读**�?- [DIY NAS配置推荐](/guide/diy-nas-config-recommend)
+**相关阅读**�?- [DIY NAS配置推荐](/guide/diy-nas%E9%85%8D%E7%BD%AE%E6%8E%A8%E8%8D%902026%E4%B8%8D%E5%90%8C%E9%A2%84%E7%AE%97%E7%9A%84%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/)
 - [NAS Docker应用推荐](/guide/nas-docker-apps-recommend-2026)

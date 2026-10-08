@@ -249,7 +249,7 @@ fnOS 作为一�?*免费开�?*的国�?NAS 系统，界面友好、功能丰
 **建议**：重要数据一定要有备份，NAS 虽好，但数据安全永远是第一位的�?
 ---
 
-> 📚 **相关文章推荐**�?> - [GEAKOS 7天入门教程](/guide/geakos-day1/)
+> 📚 **相关文章推荐**�?> - [GEAKOS 7天入门教程](/guide/geakos-7-%E5%A4%A9%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E7%AC%AC-1-%E5%A4%A9-%E5%88%9D%E8%AF%86-geakos-%E4%B8%8E%E7%A1%AC%E4%BB%B6%E5%87%86%E5%A4%87/)
 > - [NAS Docker应用推荐](/guide/nas-docker-apps-recommend-2026/)
 > - [NAS入门完全指南](/guide/nas-beginner-guide-2026/)
 

@@ -30,7 +30,7 @@ slug: "minisforum-nad9-pro"
 
 
 
-<a href="/hardware/minisforum-nad9-pro/" target="_blank">Minisforum NAD9 Pro</a> 是一款 Intel N100 升级版<a href="/hardware/" target="_blank">迷你主机</a>。
+<a href="/review/minisforum-nad9-pro/" target="_blank">Minisforum NAD9 Pro</a> 是一款 Intel N100 升级版<a href="/hardware/" target="_blank">迷你主机</a>。
 
 ## 主要特点
 
@@ -43,7 +43,7 @@ slug: "minisforum-nad9-pro"
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/minisforum-nad9/" rel="prev">上一页：Minisforum NAD9 评测</a>
+  <a href="/review/minisforum-nad9/" rel="prev">上一页：Minisforum NAD9 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

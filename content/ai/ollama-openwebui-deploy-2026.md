@@ -220,7 +220,7 @@ curl http://localhost:11434/api/tags
 *更多<a href="/ai/" target="_blank">AI</a>部署教程和<a href="/hardware/" target="_blank">硬件测评</a>请关注 [NUC NAS Hub](/)。*
 
 <div class="page-nav">
-  <a href="/ai/deepseek-r1-local-deploy-2026/" rel="prev">上一页：DeepSeek R1 本地部署教程</a>
+  <a href="/ai/deepseek-r1-local-deploy/" rel="prev">上一页：DeepSeek R1 本地部署教程</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成，基于 nucnas.top 实测数据*

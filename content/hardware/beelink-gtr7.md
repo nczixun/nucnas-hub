@@ -24,7 +24,7 @@ tags: ["Beelink", "GTR7", "amd"]
 
 
 
-<a href="/hardware/beelink-gtr7/" target="_blank">Beelink GTR7</a> 搭载 AMD 7940HS 处理器，是性能党的最爱。
+<a href="/review/beelink-gtr7/" target="_blank">Beelink GTR7</a> 搭载 AMD 7940HS 处理器，是性能党的最爱。
 
 ## 主要特点
 
@@ -37,7 +37,7 @@ tags: ["Beelink", "GTR7", "amd"]
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/nas/zfs-on-nuc/" rel="prev">上一页：NUC挂载外部磁阵：ZFS文件系统进阶玩法</a>
+  <a href="/guide/zfs-on-nuc/" rel="prev">上一页：NUC挂载外部磁阵：ZFS文件系统进阶玩法</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

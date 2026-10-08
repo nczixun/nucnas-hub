@@ -64,7 +64,7 @@ slug: "nas-system-comparison-2026"
 
 ### 虚拟化支持
 
-| 系统 | <a href="/nas/docker-best-practice/" target="_blank">Docker</a> | 虚拟机 | 官方支持 |
+| 系统 | <a href="/guide/docker-best-practice/" target="_blank">Docker</a> | 虚拟机 | 官方支持 |
 |------|--------|--------|----------|
 | DSM | 支持 | 支持（Virtual Station） | 是 |
 | TrueNAS | 支持 | 支持（KVM） | 是 |
@@ -78,14 +78,14 @@ slug: "nas-system-comparison-2026"
 - 移动端App完善
 
 **TrueNAS**:
-- 通过<a href="/nas/docker-best-practice/" target="_blank">Docker</a>运行应用
+- 通过<a href="/guide/docker-best-practice/" target="_blank">Docker</a>运行应用
 - 无官方应用中心
 - 企业用户较多，社区应用丰富
 
 **Unraid**:
-- 通过<a href="/nas/docker-best-practice/" target="_blank">Docker</a>和VM运行应用
+- 通过<a href="/guide/docker-best-practice/" target="_blank">Docker</a>和VM运行应用
 - 拥有LibreELEC树莓派系统
-- 社区活跃，<a href="/nas/docker-best-practice/" target="_blank">Docker</a>模板丰富
+- 社区活跃，<a href="/guide/docker-best-practice/" target="_blank">Docker</a>模板丰富
 
 ## 性能对比
 
@@ -115,13 +115,13 @@ slug: "nas-system-comparison-2026"
 **推荐**: TrueNAS Scale
 - 无限快照，数据保护强
 - 免费开源
-- 支持<a href="/nas/docker-best-practice/" target="_blank">Docker</a>和KVM虚拟机
+- 支持<a href="/guide/docker-best-practice/" target="_blank">Docker</a>和KVM虚拟机
 
 ### 影视玩家/多硬盘用户
 
 **推荐**: Unraid
 - 混合硬盘支持
-- <a href="/nas/docker-best-practice/" target="_blank">Docker</a>运行效率高
+- <a href="/guide/docker-best-practice/" target="_blank">Docker</a>运行效率高
 - 支持多解玛（阵列+奇偶校验）
 
 ## 价格对比
@@ -136,7 +136,7 @@ slug: "nas-system-comparison-2026"
 
 1. **DSM 7.2+**: 继续深化AI应用集成
 2. **TrueNAS Scale 24.x**: 完善企业级功能
-3. **Unraid 7.x**: 提升性能，优化<a href="/nas/docker-best-practice/" target="_blank">Docker</a>
+3. **Unraid 7.x**: 提升性能，优化<a href="/guide/docker-best-practice/" target="_blank">Docker</a>
 
 ## 总结
 
@@ -147,7 +147,7 @@ slug: "nas-system-comparison-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/home-assistant-nuc/" rel="prev">上一页：用NUC跑Home Assistant：打造最强智能家居中枢</a>
+  <a href="/guide/home-assistant-nuc/" rel="prev">上一页：用NUC跑Home Assistant：打造最强智能家居中枢</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

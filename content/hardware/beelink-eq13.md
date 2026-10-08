@@ -47,7 +47,7 @@ EQ13将电源适配器集成在机身内部，只需一根"8"字头电源线即�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/asus-rog-nuc/" rel="prev">上一页：ROG NUC 评测</a>
+  <a href="/review/asus-rog-nuc/" rel="prev">上一页：ROG NUC 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

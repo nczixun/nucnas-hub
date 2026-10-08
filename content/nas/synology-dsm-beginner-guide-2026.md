@@ -36,14 +36,14 @@ slug: "synology-dsm-beginner-guide-2026"
 - Drive：文件同步
 - Photo Photos：照片备份
 - Download Station：下载工具
-- <a href="/nas/docker-best-practice/" target="_blank">Docker</a>：跑各种容器
+- <a href="/guide/docker-best-practice/" target="_blank">Docker</a>：跑各种容器
 
 ---
 
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/ugreen-dx4600-pro-2026/" rel="prev">上一页：绿联NAS DX4600 Pro深度评测</a>
+  <a href="/guide/ugreen-dx4600-pro-2026/" rel="prev">上一页：绿联NAS DX4600 Pro深度评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*
