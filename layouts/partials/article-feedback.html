@@ -1,0 +1,9 @@
+{{ if and .IsPage (in (slice "hardware" "nas" "ai" "openclaw") .Section) }}
+{{ $body := printf "## 文章地址\n%s\n\n## 问题位置与原文\n\n## 实际情况与建议修正\n\n## 软件版本、设备与复现步骤（如适用）\n\n## 官方参考资料（如有）\n\n请勿提交密码、API密钥、个人文件或未经脱敏的日志。此Issue将公开可见。" .Permalink }}
+{{ $url := printf "https://github.com/nczixun/nucnas-hub/issues/new?%s" (querify "title" (printf "文章纠错：%s" .Title) "body" $body) }}
+<aside class="article-feedback" aria-label="文章纠错" style="margin-top:32px;padding:20px;border:1px solid #d2d2d7;border-radius:12px;line-height:1.7;overflow-wrap:anywhere;">
+  <strong>发现内容有误？</strong>
+  <p><a href="{{ $url }}">报告本文问题（GitHub）</a> · <a href="/corrections/">查看纠错说明</a></p>
+  <p style="font-size:14px;color:#595959;">需要登录 GitHub；文章地址会预填，提交前可修改。问题公开可见，请先删除密码、密钥和个人信息。</p>
+</aside>
+{{ end }}
