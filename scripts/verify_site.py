@@ -1,7 +1,7 @@
 """Verify generated search, metadata and critical navigation using only Python stdlib."""
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import urlsplit, unquote
+from urllib.parse import urlsplit, unquote, parse_qs
 from datetime import datetime
 import json
 import sys
@@ -36,7 +36,7 @@ def exists(url):
     file=root/path
     return file.is_file() or (file/"index.html").is_file()
 
-required=["index.html","search/index.html","posts/index.html","hardware/index.html","nas/index.html","ai/index.html","calculator/index.html","404.html","start/index.html","openclaw/index.html","nas-roadmap/index.html","local-ai-roadmap/index.html"]
+required=["index.html","search/index.html","posts/index.html","hardware/index.html","nas/index.html","ai/index.html","calculator/index.html","404.html","start/index.html","openclaw/index.html","nas-roadmap/index.html","local-ai-roadmap/index.html","corrections/index.html"]
 for path in required:
     text=(root/path).read_text(encoding="utf-8")
     page=Page(text)
@@ -75,7 +75,14 @@ for slug in ("openclaw-day2-platform-integration", "openclaw-day3-core-concepts"
     alias=(root/old.strip("/")/"index.html").read_text(encoding="utf-8")
     assert "https://www.nucnas.top"+target in alias, (old,"missing alias fallback")
 for file in root.rglob("*.html"):
-    Page(file.read_text(encoding="utf-8")) # JSON-LD must be valid on every page.
+    page=Page(file.read_text(encoding="utf-8")) # JSON-LD must be valid on every page.
+    if any(s.get("@type")=="Article" for s in page.jsonld):
+        feedback=[u for u in page.links if u.startswith("https://github.com/nczixun/nucnas-hub/issues/new?")]
+        assert len(feedback)==1, (file, "missing/duplicate feedback link")
+        query=parse_qs(urlsplit(feedback[0]).query)
+        assert page.canonicals[0] in query.get("body", [""])[0], (file, "incorrect feedback article URL")
+        assert query.get("title", [""])[0].startswith("文章纠错："), (file, "feedback title")
+        assert "/corrections/" in page.links, (file, "missing correction instructions")
 sitemap=ET.parse(root/"sitemap.xml")
 ns={"s":"http://www.sitemaps.org/schemas/sitemap/0.9"}
 for url in sitemap.findall("s:url",ns):
