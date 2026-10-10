@@ -37,6 +37,8 @@ def exists(url):
     return file.is_file() or (file/"index.html").is_file()
 
 required=["index.html","search/index.html","posts/index.html","hardware/index.html","nas/index.html","ai/index.html","calculator/index.html","404.html","start/index.html","openclaw/index.html","nas-roadmap/index.html","local-ai-roadmap/index.html","corrections/index.html"]
+required += [f"guide/{slug}/index.html" for slug in ("nas-beginner-guide-2026", "data-321-backup", "docker-best-practice")]
+required += [f"ai/{slug}/index.html" for slug in ("ollama-beginner-guide-2026", "ollama-openwebui", "local-ai-knowledge-base-guide")]
 for path in required:
     text=(root/path).read_text(encoding="utf-8")
     page=Page(text)

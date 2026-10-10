@@ -2,135 +2,76 @@
 title: "本地AI知识库搭建教程：RAG系统实战指南"
 date: 2026-03-08
 categories: ["ai"]
-summary: "手把手教你用Ollama + LangChain搭建本地RAG知识库，支持PDF/Word/txt文档，隐私安全又免费"
-tags: ["AI知识库", "RAG", "LangChain", "Ollama", "本地部署", "向量化"]
+summary: "以Python标准库和本机Ollama演示小型文本RAG，显示检索证据，提供失败验收与明确限制。"
+tags: ["AI知识库", "RAG", "Ollama", "本地部署", "向量化"]
 slug: "local-ai-knowledge-base-guide"
+lastmod: 2026-10-10
+description: "本地知识库学习样例：Ollama嵌入与聊天API、UTF-8文本检索、原文核对及失败测试，不含未经实测的性能承诺。"
 ---
 
-# 本地AI知识库搭建教程：RAG系统实战指南
+资料核对：**2026-10-10**。这里提供一个只处理少量 UTF-8 文本的 RAG 学习样例：用同一个嵌入模型对资料和问题编码，选取相关片段，再让聊天模型参考片段回答。它不训练模型，也不保证回答正确。
 
-很多粉丝问我怎么在本地搭建一个属于自己的AI知识库。今天安排上，用Ollama + LangChain + Chroma，纯本地运行，隐私有保障。
+本次检查了脚本语法和模拟 API 测试，**没有下载或运行真实模型，没有测量响应速度、准确率或 N100 性能**。旧文中缺少依赖的 LangChain 代码和无可核验证据的速度表已移除。
 
-## 什么是RAG？
+## 前置条件
 
-RAG = 检索增强生成。简单说就是：
-1. 把你的文档 Embedding 成向量
-2. 存到向量数据库
-3. 问问题时先检索相关段落
-4. 把检索结果喂给大模型生成答案
+先完成 [Ollama 入门](/ai/ollama-beginner-guide-2026/)，让原生 Ollama 在这台电脑的 `127.0.0.1:11434` 提供服务，并安装 Python 3.10 或更新版本。本样例只使用 Python 标准库，不需 LangChain、Chroma 或 API 密钥。
 
-这样就不需要把隐私文档上传到云端了。
+[Open WebUI 内置容器方案](/ai/ollama-openwebui/)没有向宿主机发布此端口，因此不能直接当作本教程的服务。不要为了复用它把端口开放到公网；先用原生 Ollama 完成本例即可。
 
-## 环境准备
-
-### 硬件要求
-
-- 显存：至少16GB（跑大模型用）
-- 内存：32GB以上
-- 硬盘：至少100GB SSD
-
-### 软件环境
-
-- Ubuntu 22.04 或 Windows WSL2
-- Ollama
-- Python 3.10+
-- LangChain
-- Chroma 向量数据库
-
-## 搭建步骤
-
-### 第一步：安装Ollama
-
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
+```sh
+python --version
+ollama --version
+ollama pull qwen3:0.6b
+ollama pull embeddinggemma
+ollama list
 ```
 
-拉取模型：
-```bash
-ollama pull qwen2.5:7b
+聊天模型示例为 [qwen3:0.6b](https://ollama.com/library/qwen3:0.6b)，嵌入模型为 [embeddinggemma](https://ollama.com/library/embeddinggemma)。嵌入模型不是用于聊天的模型；如提示软件版本过旧，按模型页要求升级。两者都会消耗资源，小型示例不能代表大文档集合的硬件需求。
+
+## 准备可核对的测试资料
+
+新建工作目录，在其中建立 `docs` 文件夹。用文本编辑器以 UTF-8 保存 `docs/demo.txt`，内容如下。这是特意编写的测试数据，不是实际服务承诺：
+
+```text
+测试资料：蓝盒项目的备份窗口为每周六 02:30。
+测试资料：恢复演练需在独立目录中进行，并由小林核对文件数量。
 ```
 
-7B模型16GB显存够用，想要更强效果可以用14B或32B。
+先只放这一个文件，不上传私密合同或密码。PDF、扫描图片、Word 需要另做提取/OCR并逐页校对，本例不直接读取这些格式。文本提取成功也不表示表格或页码保持完整。
 
-### 第二步：安装Python依赖
+## 运行示例
 
-```bash
-pip install langchain langchain-community langchain-chroma
-pip install pypdf python-docx
-pip install sentence-transformers
+下载本站 [local_rag.py 示例源文件](/examples/local_rag.py)，阅读后保存到工作目录，与 `docs` 并列。脚本只访问固定回环 API 地址，显式绕过系统代理；它不会调用云模型或外部搜索。先核对 Ollama 服务本身的本地/云设置。
+
+```sh
+python local_rag.py "蓝盒项目什么时候备份？请指出依据。"
 ```
 
-### 第三步：准备知识库文档
+脚本分批调用官方 [`/api/embed`](https://docs.ollama.com/api/embed)，检查向量数量和维度，以余弦相似度选取最多三段证据，并打印文件名、片段号和原文；然后用 [`/api/chat`](https://docs.ollama.com/api/chat)的非流式响应生成回答。对问题和资料使用不同嵌入模型会破坏可比性。
 
-支持格式：PDF、Word、TXT、Markdown
+为限制初次实验规模，本例只读 `docs` 顶层 `.txt` 文件，每个小于等于 100 KB、总计不超过 100 个片段；每片最多 800 字符，步长 650。分片依据字符而非句义或 token，可能切断一句话；这些数值是演示上限，不是优化结论。请求超时为 300 秒，超时是失败信号，不是完成时长承诺。
 
-我测试用的是PDF文档，把文件放到 `docs/` 目录下。
+## 用三道题验收，而不是只看有没有回答
 
-### 第四步：编写代码
+| 检查 | 应核对什么 |
+| --- | --- |
+| “什么时候备份？” | 打印的证据是否含“每周六 02:30”，答案是否与原文一致 |
+| “由谁核对文件数量？” | 是否检索到“小林”，文件名与片段号能否对应原件 |
+| “蓝盒项目的采购预算是多少？” | 资料没有预算，回答应承认资料不足；若编造则记录失败 |
 
-核心代码很简单，分三部分：
+脚本总会取最相近的片段，没有经过校准的相关性阈值，因此**高排名不代表确有答案**。提示词也不能保证拒答或阻止文档中的恶意指令；本例不接工具，不应让回答直接执行操作。小聊天模型可能连上述测试都不通过，这应作为结果记录，不应隐藏。
 
-```python
-# 1. 文档加载
-from langchain_community.document_loaders import PyPDFLoader
-loader = PyPDFLoader("docs/yourfile.pdf")
-docs = loader.load()
+修改测试资料中的备份时间后重新运行，确认新证据被读取。再用空目录尝试一次，应看到清楚的停止提示。回答中看似完整的“引用”仍需人工与打印的原文比对。
 
-# 2. 文本分割
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-splitter = RecursiveCharacterTextSplitter(chunk_size=500)
-splits = splitter.split_documents(docs)
+## 排错、数据与限制
 
-# 3. 向量化存储
-from langchain_chroma import Chroma
-from langchain_ollama import OllamaEmbeddings
-embedding = OllamaEmbeddings(model="nomic-embed-text")
-vectorstore = Chroma.from_documents(splits, embedding)
+- 无法连接：确认原生 Ollama 正在运行；不要把容器里的 localhost 与宿主机混用。
+- 模型不存在：核对 `ollama list` 与脚本顶部两个标签；不要把聊天模型填作嵌入模型。
+- 编码错误、没有文本：先只用 UTF-8 的 `demo.txt`，检查当前目录及扩展名。
+- 输入过长、内存不足或超时：缩小资料、检查服务日志与资源；脚本不静默截断超长嵌入输入。
+- 检索不对：查看实际片段，调整资料表述与分片后重新验收；不要只修改提示词掩盖证据缺失。
 
-# 4. 问答
-from langchain_ollama import ChatOllama
-llm = ChatOllama(model="qwen2.5:7b")
-qa = RetrievalQA.from_chain_type(llm, retriever=vectorstore.as_retriever())
-answer = qa.invoke("你的问题")
-```
+该样例每次启动重新生成向量，不把索引写盘，没有访问权限管理、增量更新、向量数据库或 Web 界面。备份原始资料、脚本、模型标签与测试记录即可重建实验；不要称其为生产知识库。今后换嵌入模型、分片规则或文件时，应重建所有向量并重新测试。扩大规模之前还需补权限隔离、索引版本、删除同步与恢复演练。
 
-### 第五步：运行测试
-
-```bash
-python rag.py
-```
-
-问一些文档相关的问题，比如："这份文档的核心观点是什么？"
-
-## 性能测试
-
-我用N100 + 32GB内存实测：
-
-| 模型 | 首次响应时间 | 内存占用 |
-|------|-------------|----------|
-| qwen2.5:7b | 3-5秒 | 8GB |
-| qwen2.5:14b | 6-8秒 | 16GB |
-| deepseek-r1:14b | 8-10秒 | 18GB |
-
-文档越多，检索时间会相应增加，但一般不会超过2秒。
-
-## 常见问题
-
-### 回答质量差
-
-- 调大chunk_size
-- 调整分割overlap
-- 换更强的embedding模型
-
-### 显存不够
-
-- 用4bit量化模型
-- 减少同时加载的文档量
-
-## 总结
-
-本地RAG知识库是个好东西，不用交会员费，不用担心隐私泄露。N100小主机就能跑，适合个人或小团队使用。
-
-有问题的评论区见！记得一键三连！
-
----
+[返回本地 AI 阅读路线](/local-ai-roadmap/) · [AI 文章目录](/ai/)
