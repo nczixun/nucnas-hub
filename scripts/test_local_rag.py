@@ -4,11 +4,14 @@ import importlib.util
 import io
 import json
 import tempfile
+import sys
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 
 path = Path(__file__).resolve().parents[1] / 'static/examples/local_rag.py'
+# Keep Python bytecode out of Hugo's downloadable static assets.
+sys.dont_write_bytecode = True
 spec = importlib.util.spec_from_file_location('local_rag', path)
 rag = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(rag)
