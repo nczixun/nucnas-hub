@@ -117,6 +117,16 @@
                 menu.focus();
             }
         });
+        // Allow keyboard users to reach and horizontally scroll code and tables.
+        document.querySelectorAll('.article-content pre, .article-content table, .hw-content pre, .hw-content table').forEach(element => {
+            element.tabIndex = 0;
+            if (element.tagName === 'PRE') {
+                element.setAttribute('role', 'region');
+                element.setAttribute('aria-label', '代码示例，可用方向键滚动');
+            } else {
+                element.setAttribute('aria-label', element.getAttribute('aria-label') || '文章表格，可用方向键滚动');
+            }
+        });
         
         document.querySelectorAll('.favorite-btn').forEach(function(btn) {
             btn.addEventListener('click', function() {

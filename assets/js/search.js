@@ -16,13 +16,16 @@
       indexPromise ||= fetch('/index.json').then(response => {
         if (!response.ok) throw new Error('index unavailable');
         return response.json();
-      }).catch(error => { indexPromise = null; throw error; });
+      }).then(pages => pages.map(page => ({
+        page,
+        title: normalize(page.title),
+        haystack: normalize(page.title + ' ' + page.summary + ' ' + page.text)
+      })))
+      .catch(error => { indexPromise = null; throw error; });
       const pages = await indexPromise;
       if (id !== request) return;
       const terms = normalize(query).split(/\s+/).filter(Boolean);
-      const matches = pages.map(page => {
-        const title = normalize(page.title);
-        const haystack = normalize(page.title + ' ' + page.summary + ' ' + page.text);
+      const matches = pages.map(({page, title, haystack}) => {
         return {page, score: terms.every(term => haystack.includes(term)) ? terms.reduce((sum, term) => sum + (title.includes(term) ? 10 : 1), 0) : 0};
       }).filter(item => item.score > 0).sort((a,b) => b.score-a.score);
       status.textContent = matches.length ? `找到 ${matches.length} 篇相关文章${matches.length > 50 ? '，显示前 50 篇，请增加关键词缩小范围' : ''}。` : '没有找到相关文章，请尝试其他关键词。';
