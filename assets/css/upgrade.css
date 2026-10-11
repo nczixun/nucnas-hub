@@ -12,8 +12,14 @@
 :root { --border-color: #d2d2d7; --accent: #0066cc; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
 main { min-width: 0; }
+.article-page > .article-container { max-width: 800px; margin: 0 auto; background: white; border-radius: 24px; box-shadow: 0 2px 20px rgba(0,0,0,.06); padding: 48px; }
+.article-container > .article-header { text-align: center; margin-bottom: 40px; padding-bottom: 32px; border-bottom: 1px solid #f0f0f0; }
+.article-header > .article-title { color: #1d1d1f; margin-bottom: 20px; overflow-wrap: anywhere; }
+.article-header > .article-meta { justify-content: center; flex-wrap: wrap; gap: 10px 20px; color: #595959; }
+.article-header > .article-meta > span { white-space: nowrap; }
 img { max-width: 100%; }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #005fcc; outline-offset: 4px; }
+[tabindex="0"]:focus-visible, summary:focus-visible { outline: 3px solid #005fcc; outline-offset: 4px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .skip-link { position: fixed; top: 8px; left: 8px; z-index: 1000; background: white; padding: 12px; transform: translateY(-150%); }
 .skip-link:focus { transform: translateY(0); }
@@ -59,6 +65,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .hw-content td, .hw-content th { padding: 10px; border: 1px solid #ddd; }
 @media (max-width: 1024px) { .home-card-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media (max-width: 768px) {
+  .article-page > .article-container { padding: 28px 20px; border-radius: 16px; }
+  .article-container > .article-header { text-align: left; margin-bottom: 24px; padding-bottom: 20px; }
+  .article-header > .article-meta { justify-content: flex-start; gap: 8px 14px; }
   .nav-container { flex-wrap: wrap; gap: 14px; }
   .menu-toggle:not([hidden]) { display: block; margin-left: auto; }
   .nav-links { display: flex; flex-wrap: wrap; order: 4; width: 100%; gap: 8px 20px; padding: 8px 0; }
