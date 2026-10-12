@@ -55,6 +55,7 @@ for path in required:
 
 pages=json.loads((root/"index.json").read_text(encoding="utf-8"))
 assert len(pages)>100, ("search index unexpectedly small",len(pages))
+assert len({unquote(page['url']) for page in pages}) == len(pages), 'duplicate search result URL'
 assert all(exists(page["url"]) for page in pages), "search result points to a missing page"
 assert any("ollama" in page["title"].lower() for page in pages)
 assert any("NAS" in page["title"] for page in pages)

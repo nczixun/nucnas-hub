@@ -19,7 +19,9 @@ jobs:
           tar -xzf /tmp/hugo.tar.gz -C /tmp hugo
       - name: Build and verify generated pages
         run: |
+          python3 scripts/verify_routes.py /tmp/hugo
           /tmp/hugo --minify
           python3 scripts/verify_site.py
           python3 scripts/test_local_rag.py
           python3 scripts/audit_links.py public
+          node scripts/test_browser_arithmetic.cjs

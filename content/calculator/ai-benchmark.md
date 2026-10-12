@@ -1,116 +1,42 @@
-﻿---
-title: "AI 算力测试"
+---
+title: "浏览器 JavaScript 运算测试"
 slug: "ai-benchmark"
-description: "测试本地设备的AI推理性能"
+description: "固定输入的JavaScript运算计时，展示耗时与乘加组数，不测量GPU或模型推理。"
 date: 2026-03-01
+lastmod: 2026-10-12
+tool: "browser-arithmetic"
 ---
 
-# 🤖 AI 算力测试
+本工具测量固定输入下的浏览器 JavaScript 运算耗时，没有加载AI模型或调用GPU。结果不能换算成显卡型号、FLOPS或模型生成速度。原网址保留，工具名称与说明已纠正。
 
-在浏览器中运行简单的 AI 推理测试，评估设备性能。
+每次执行100×100组“乘法后累加”，输入固定。先预热，再分段计时；预热与分段之间的页面等待不计入计算耗时。吞吐量按实际次数×10,000组÷累计计算时间计算。浏览器版本、电源模式、后台任务和计时精度会影响结果，不宜跨设备直接排名。
 
 <div class="benchmark-container">
-  <div class="benchmark-info">
-    <p>此测试通过运行多个矩阵运算来评估 CPU/GPU 的 AI 推理性能。</p>
-  </div>
-  
-  <div class="benchmark-controls">
-    <label>测试次数</label>
-    <select id="iterations">
-      <option value="100">100 次 (快速)</option>
-      <option value="1000" selected>1000 次 (标准)</option>
-      <option value="5000">5000 次 (深度)</option>
-    </select>
-    
-    <button onclick="runBenchmark()" class="benchmark-btn">开始测试</button>
-  </div>
-  
-  <div class="benchmark-progress" id="progress" style="display:none;">
-    <div class="progress-bar">
-      <div class="progress-fill" id="progress-fill"></div>
-    </div>
-    <p id="progress-text">测试中...</p>
-  </div>
-  
-  <div class="benchmark-result" id="result" style="display:none;">
-    <h3>测试结果</h3>
-    <div class="result-grid">
-      <div class="result-item">
-        <span>总耗时</span>
-        <strong id="total-time">0 ms</strong>
-      </div>
-      <div class="result-item">
-        <span>平均耗时</span>
-        <strong id="avg-time">0 ms/次</strong>
-      </div>
-      <div class="result-item">
-        <span>运算速度</span>
-        <strong id="ops-per-sec">0 次/秒</strong>
-      </div>
-      <div class="result-item">
-        <span>性能评级</span>
-        <strong id="rating">-</strong>
-      </div>
-    </div>
-  </div>
+<div class="benchmark-controls">
+<label for="iterations">测试次数</label>
+<select id="iterations"><option value="100">100次（快速）</option><option value="1000" selected>1000次（标准）</option><option value="5000">5000次（较长）</option></select>
+<button type="button" id="benchmark-start" class="benchmark-btn">开始测试</button>
+</div>
+<div class="benchmark-progress" id="progress" hidden>
+<div class="progress-bar" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+</div>
+<p id="progress-text" role="status" aria-live="polite">请选择次数后开始，运行时保持页面在前台。</p>
+<div class="benchmark-result" id="result" hidden>
+<h2>本次结果</h2><div class="result-grid">
+<div class="result-item"><span>累计计算耗时（不含等待）</span><strong id="total-time">—</strong></div>
+<div class="result-item"><span>每次计算平均耗时</span><strong id="avg-time">—</strong></div>
+<div class="result-item"><span>乘法后累加吞吐量</span><strong id="ops-per-sec">—</strong></div>
+<div class="result-item"><span>结果校验和</span><strong id="checksum">—</strong></div>
+</div></div>
+<noscript><p>此测试需要JavaScript；仍可阅读上方的计算方法与限制。</p></noscript>
 </div>
 
-<script>
-function runBenchmark() {
-  const iterations = parseInt(document.getElementById('iterations').value);
-  
-  document.getElementById('progress').style.display = 'block';
-  document.getElementById('result').style.display = 'none';
-  
-  setTimeout(() => {
-    const startTime = performance.now();
-    
-    // 模拟矩阵运算测试
-    let result = 0;
-    for (let i = 0; i < iterations; i++) {
-      // 矩阵乘法模拟
-      const a = Array(100).fill(0).map(() => Math.random());
-      const b = Array(100).fill(0).map(() => Math.random());
-      for (let j = 0; j < 100; j++) {
-        for (let k = 0; k < 100; k++) {
-          result += a[j] * b[k];
-        }
-      }
-      
-      // 更新进度
-      if (i % 100 === 0) {
-        const progress = (i / iterations) * 100;
-        document.getElementById('progress-fill').style.width = progress + '%';
-        document.getElementById('progress-text').textContent = `测试中... ${Math.round(progress)}%`;
-      }
-    }
-    
-    const endTime = performance.now();
-    const totalTime = endTime - startTime;
-    const avgTime = totalTime / iterations;
-    const opsPerSec = 10000 / (totalTime / 1000);
-    
-    // 计算评级
-    let rating;
-    if (avgTime < 0.1) rating = '🔥 顶级 (RTX 4090+)';
-    else if (avgTime < 0.5) rating = '⭐ 优秀 (RTX 4070+)';
-    else if (avgTime < 1) rating = '👍 良好 (RTX 3060+)';
-    else if (avgTime < 3) rating = '💪 一般 (GTX 1660+)';
-    else if (avgTime < 10) rating = '⚠️ 入门 (集显)';
-    else rating = '🐢 较弱';
-    
-    document.getElementById('total-time').textContent = totalTime.toFixed(0) + ' ms';
-    document.getElementById('avg-time').textContent = avgTime.toFixed(2) + ' ms/次';
-    document.getElementById('ops-per-sec').textContent = opsPerSec.toFixed(0) + ' 次/秒';
-    document.getElementById('rating').textContent = rating;
-    
-    document.getElementById('progress').style.display = 'none';
-    document.getElementById('result').style.display = 'block';
-  }, 100);
-}
-</script>
+需要验证模型运行？沿 [本地AI阅读路线](/local-ai-roadmap/) 在自己的设备上记录实际模型、配置和结果。
 
 <style>
+.benchmark-container [hidden] { display:none; }
+.benchmark-btn:disabled { opacity:.6; cursor:wait; }
+@media(max-width:540px) { .benchmark-controls { flex-wrap:wrap; } .benchmark-container { padding:16px; } .result-item strong { overflow-wrap:anywhere; } }
 .benchmark-container {
   background: white;
   border-radius: 16px;
