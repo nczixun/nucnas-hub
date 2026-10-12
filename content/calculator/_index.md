@@ -1,6 +1,6 @@
 ---
 title: "计算器"
-description: "硬件性能对比、AI算力测试、功耗计算工具"
+description: "硬件性能对比、JavaScript运算测试、功耗计算工具"
 ---
 
 ## 实用工具
@@ -13,11 +13,11 @@ description: "硬件性能对比、AI算力测试、功耗计算工具"
     <p>根据 CPU/GPU TDP 计算整机功耗，估算电费</p>
   </a>
 
-  <!-- AI 算力测试 -->
+  <!-- JavaScript 运算测试 -->
   <a href="/calculator/ai-benchmark/" class="tool-card">
     <div class="tool-icon">🤖</div>
-    <h3>AI 算力测试</h3>
-    <p>测试本地设备的 AI 推理性能</p>
+    <h3>JavaScript 运算测试</h3>
+    <p>固定输入的浏览器运算计时与吞吐量</p>
   </a>
 
   <!-- 浏览器性能测试 -->

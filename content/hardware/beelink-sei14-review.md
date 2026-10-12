@@ -4,7 +4,9 @@ date: 2026-03-08
 categories: ["hardware"]
 summary: "Beelink SEI14 迷你主机实测：CPU性能、功耗表现、扩展性全面拆解，帮你判断这款机器是否适合你的使用场景"
 tags: ["Beelink", "SEI14", "迷你主机", "Intel N150", "测评"]
-slug: "beelink-sei14-review"
+slug: "beelink-sei14-review-legacy"
+draft: true
+# 保留旧稿供复审；统一公开入口为 /review/beelink-sei14-review/。
 ---
 
 # Beelink SEI14 深度测评：迷你主机性能实测数据告诉你是否值得买

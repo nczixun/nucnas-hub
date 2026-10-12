@@ -37,6 +37,10 @@
     {{ end }}
     
     {{ block "extra_head" . }}{{ end }}
+    {{ if eq .Params.tool "browser-arithmetic" }}
+    {{ $benchmark := resources.Get "js/browser-arithmetic.js" | minify | fingerprint }}
+    <script src="{{ $benchmark.RelPermalink }}" defer></script>
+    {{ end }}
 
 
 {{/* Canonical is in partials/seo.html */}}
