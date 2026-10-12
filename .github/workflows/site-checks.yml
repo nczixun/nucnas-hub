@@ -22,3 +22,4 @@ jobs:
           /tmp/hugo --minify
           python3 scripts/verify_site.py
           python3 scripts/test_local_rag.py
+          python3 scripts/audit_links.py public

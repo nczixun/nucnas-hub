@@ -46,3 +46,7 @@ report = {"pages": len(pages), "missing": {k: sorted(v) for k, v in sorted(missi
 if len(sys.argv) > 2:
     Path(sys.argv[2]).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
 print(f"Audited {len(pages)} HTML pages: {len(missing)} missing destinations, {len(fragments)} missing fragments")
+
+# A missing build or broken destination must fail CI, not silently pass.
+if not pages or missing or fragments:
+    sys.exit(1)

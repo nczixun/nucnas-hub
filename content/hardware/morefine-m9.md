@@ -48,7 +48,7 @@ keywords: ["N100", "极小体积", "随身携带", "hardware"]
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/ai/deepseek-r1-minipc-deploy-2026/" rel="prev">上一页：本地部署DeepSeek-R1</a>
+  <a href="/ai/ollama-beginner-guide-2026/">相关阅读：Ollama 本地模型入门</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

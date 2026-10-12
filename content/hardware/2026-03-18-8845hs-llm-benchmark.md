@@ -157,4 +157,4 @@ ollama pull qwen2.5:7b-instruct-q5_K_M
 **下一步建�?*�?- 搭配16GB内存（双通道�?- 使用Qwen2.5-7B模型
 - 配合OpenWebUI获得更好的交互体�?
 **相关文章**�?- [Mini PC处理器天梯图](/review/2026%E5%B9%B4mini-pc%E5%A4%84%E7%90%86%E5%99%A8%E5%A4%A9%E6%A2%AF%E5%9B%BEintel/amd%E5%85%A8%E5%AF%B9%E6%AF%94/)
-- [Ollama本地部署指南](/ai/ollama-local-deploy-guide)
+- [Ollama 本地模型入门](/ai/ollama-beginner-guide-2026/)

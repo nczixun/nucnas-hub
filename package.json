@@ -5,12 +5,5 @@
   "scripts": {
     "start": "hugo server --disableFastRender",
     "build": "hugo --minify"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10",
-    "autoprefixer": "^10.4.24",
-    "postcss": "^8.5.6",
-    "postcss-cli": "^11.0.1",
-    "tailwindcss": "^3.4.19"
   }
 }

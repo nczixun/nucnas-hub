@@ -45,7 +45,7 @@ slug: "chatgpt-prompt-tips-2026"
 *更多<a href="/ai/" target="_blank">AI</a>教程请关注 [AI频道](/ai/)。*
 
 <div class="page-nav">
-  <a href="/hardware/mini-pc-nas-ai-2026/" rel="prev">上一页：迷你主机 + NAS + AI本地部署</a>
+  <a href="/local-ai-roadmap/">相关阅读：本地 AI 阅读路线</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*
