@@ -23,7 +23,7 @@ model: "搭建指南"
 *更多<a href="/nas/" target="_blank">NAS</a>教程请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/nas/home-nas-beginner-guide/" rel="prev">上一页：小白入门家庭私有云</a>
+  <a href="/guide/nas-beginner-guide-2026/">相关阅读：NAS 新手入门与权限验证</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

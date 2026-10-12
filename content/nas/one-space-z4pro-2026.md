@@ -39,7 +39,7 @@ slug: "one-space-z4pro-2026"
 *更多<a href="/nas/" target="_blank">NAS</a>产品测评请关注 [NAS学院](/nas/)。*
 
 <div class="page-nav">
-  <a href="/hardware/mini-pc-platform-comparison-2026/" rel="prev">上一页：2026年迷你主机三大平台对比</a>
+  <a href="/hardware/">相关阅读：迷你主机硬件文章目录</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

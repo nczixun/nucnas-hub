@@ -361,7 +361,7 @@ author: "NUCNAS"
 
 - [2026年高性能迷你主机推荐：AMD Ryzen AI 300系列](/review/amd-ryzen-ai-300-2026/)
 - [Intel Core Ultra 200V系列发布：最强核显轻薄本来了？](/review/intel-core-ultra-200v-2026/)
-- [Mac mini M4深度评测：最强迷你主机？](/review/mac-mini-m4/)
+- [Mac mini（2024，M4 / M4 Pro）官方技术规格](https://support.apple.com/en-us/121555)
 
 ---
 

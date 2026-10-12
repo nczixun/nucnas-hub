@@ -65,7 +65,7 @@ radar:
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/mini-pc-buying-guide-2026-v2/" rel="prev">上一页：2026年迷你主机选购指南</a>
+  <a href="/hardware/">相关阅读：迷你主机硬件文章目录</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

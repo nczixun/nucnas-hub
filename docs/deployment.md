@@ -6,10 +6,9 @@
 
 - CI使用Hugo **0.147.7**，下载包有SHA-256校验；源码完整检出以支持Git更新时间。本机Hugo 0.152.2检查是补充，最终以生产版本CI为准。
 - 构建命令 `hugo --minify`，输出目录 `public`。`cloudflare.toml`仅为参考，不自动设置Pages；控制台中的生产分支、HUGO_VERSION和输出目录需与此核对。
-- 当前CSS/JS由Hugo资源管线处理，没有调用PostCSS/Tailwind。package.json及锁文件仍保留开发工具链，不是浏览器运行依赖。
-- 本日用 `npm audit fix --package-lock-only --ignore-scripts` 更新允许范围内的锁定版本，未使用force。审计从15项（11高、4中）降至9项（6高、3中），均为开发依赖树。`npm ci --ignore-scripts` 成功。
-- 剩余涉及Tailwind 3、PostCSS CLI及其选择器/文件匹配链。审计建议包含跨主版本升级或降级，后续应单独决定迁移，或确认不需要后移除。本轮未声称漏洞清零。
-- 定期运行 `npm audit --package-lock-only`，查阅告警安全公告并评估可触达性。未对所有Hugo和Actions版本完成安全认证，不把构建成功当成安全证明。
+- CSS/JS由Hugo资源管线处理，没有调用PostCSS/Tailwind。2026-10-12确认构建和模板均未引用后，移除了五个闲置开发依赖及两份配置；保留npm构建快捷命令和锁文件。
+- 清理前审计为9项，清理后以 `npm ci --ignore-scripts` 和 `npm audit --package-lock-only --json` 验证。npm依赖树已为空；这不代表Hugo、Actions或页面外部脚本的全面安全认证。RAID页面现有Alpine CDN脚本保留。
+- 恢复或新增npm工具时必须同时提交锁文件、核查安全公告，并运行构建及链接检查。
 
 ## 本地与PR验收
 
@@ -23,7 +22,7 @@ python scripts/audit_links.py public
 git diff --check
 ```
 
-链接审计仍有历史遗留，应比较缺失目标集合，新坏链先修复。当前检查19个关键入口、381条搜索索引、分页canonical、JSON-LD、robots/sitemap和文章纠错URL。数字随文章增减变化，不能为匹配旧数量删除新内容。
+链接审计现已纳入CI；没有生成HTML、缺失站内目标或片段都会使检查失败。当前检查19个关键入口、381条搜索索引、分页canonical、JSON-LD、robots/sitemap和文章纠错URL。数字随文章增减变化，不能为匹配旧数量删除新内容。
 
 先检查main和开放PR，在独立分支修改，不覆盖用户变更。创建PR，确认针对当前head SHA的build与Cloudflare检查通过。预览域需核实不被索引；生产站不能意外加noindex。无权限查控制台时记录限制，不宣称已核对其配置。
 

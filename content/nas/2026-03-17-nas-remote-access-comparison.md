@@ -87,5 +87,5 @@ docker run -d \
 获取API Key后，在后台完成授权即可�?
 ---
 
-**相关阅读**�?- [NAS数据迁移指南](/guide/nas-data-migration-guide)
-- [NAS硬盘健康监控](/guide/nas-disk-health-monitoring)
+**相关阅读**�?- [群晖 NAS 迁移方案与兼容性（官方）](https://www.synology.com/en-global/dsm/feature/migration)
+- [TrueNAS 硬盘健康管理（官方，按系统版本选择）](https://www.truenas.com/docs/scale/storage/disks/drivehealthmanagement/)

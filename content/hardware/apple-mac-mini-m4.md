@@ -39,7 +39,7 @@ tags: ["Apple", "Mac mini M4", "apple"]
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/mini-pc-beginner-guide-2026/" rel="prev">上一页：迷你主机新手入门指南</a>
+  <a href="/hardware/">相关阅读：迷你主机硬件文章目录</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*
