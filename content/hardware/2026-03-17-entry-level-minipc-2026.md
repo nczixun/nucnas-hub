@@ -97,5 +97,5 @@ AMD 8845HS > AMD 5600H > Intel N150 > Intel N100 > Intel N95 > Intel N5095
 ## 总结
 
 2026年入门Mini PC�?000-1500元预算首�?*零刻EQ12 N150**�?*极摩客K1 N150**。N150相比N100�?0%性能提升，多�?00元非常值得�?
-**相关阅读**�?- [Intel N150 vs AMD 8845HS对比](/review/n150-vs-8845hs-comparison)
+**相关阅读**�?- [Intel N150 vs AMD 8845HS对比](/review/intel-n150-vs-amd-8845hs2026%E5%B9%B4%E5%85%A5%E9%97%A8mini-pc%E6%80%8E%E4%B9%88%E9%80%89/)
 - [Mini PC软路由指南](/review/mini-pc%E8%BD%AF%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%972026%E4%B8%80%E5%8F%B0%E8%AE%BE%E5%A4%87%E6%90%9E%E5%AE%9A%E4%B8%8A%E7%BD%91%E5%92%8Cnas/)

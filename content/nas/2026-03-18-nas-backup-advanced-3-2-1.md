@@ -84,4 +84,4 @@ restic -r /backup/repo forget --keep-daily 7 --keep-weekly 4
 - 每周同步到公有云
 
 **相关文章**�?- [NAS硬盘健康监测](/guide/nas-disk-health-monitoring)
-- [DIY NAS配置推荐](/guide/diy-nas-config-recommend-2026)
+- [DIY NAS配置推荐](/guide/diy-nas%E9%85%8D%E7%BD%AE%E6%8E%A8%E8%8D%902026%E4%B8%8D%E5%90%8C%E9%A2%84%E7%AE%97%E7%9A%84%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/)

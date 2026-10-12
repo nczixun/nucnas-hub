@@ -268,6 +268,6 @@ docker run -d \
 **最终建�?*�?- 普通用户：蒲公英免费版先用
 - 进阶用户：Tailscale一步到�?- 技术玩家：ZeroTier+自建节点
 
-**相关阅读**�?- [NAS远程访问进阶教程](/guide/nas-remote-access-comparison)
+**相关阅读**�?- [NAS远程访问进阶教程](/guide/nas%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E6%96%B9%E6%A1%88%E6%A8%AA%E8%AF%842026tailscale-vs-zerotier-vs-ddns/)
 - [DIY NAS配置推荐](/guide/diy-nas%E9%85%8D%E7%BD%AE%E6%8E%A8%E8%8D%902026%E4%B8%8D%E5%90%8C%E9%A2%84%E7%AE%97%E7%9A%84%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/)
 - [NAS Docker应用推荐](/guide/nas-docker-apps-recommend-2026)
