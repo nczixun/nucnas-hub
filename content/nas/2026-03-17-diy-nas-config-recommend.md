@@ -124,4 +124,4 @@ author: "NUC NAS Hub"
 DIY NAS的核心优势在�?*性价�?*�?*可扩展�?*。千元预算就能满足家庭存储需求，五千元即可实现All in One�?026年，N100/N150/8845HS这些低功耗处理器的出现，让DIY NAS的门槛进一步降低�?
 **下一步建�?*�?- 新手先看[NAS新手入门指南](/guide/nas-beginner-guide-2026)
 - 进阶玩家参考[NAS Docker进阶玩法](/guide/docker-compose-advanced-2026)
-- 数据安全必读[NAS备份最佳实践](/guide/nas-backup-best-practice-2026)
+- 数据安全必读[NAS备份最佳实践](/guide/nas%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B520263-2-1%E5%8E%9F%E5%88%99%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/)

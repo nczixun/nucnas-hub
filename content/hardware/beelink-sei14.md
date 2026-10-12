@@ -43,7 +43,7 @@ SEi14的机身尺寸为135×135×44.7mm，体积约**0.8升**，重量适中，�
 *更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
 
 <div class="page-nav">
-  <a href="/hardware/beelink-gtrprev">上一页：7/" rel="Beelink GTR7 评测</a>
+  <a href="/review/beelink-gtr7/" rel="prev">上一页：Beelink GTR7 评测</a>
 </div>
 
 *本文由 NUC NAS Hub 自动生成*

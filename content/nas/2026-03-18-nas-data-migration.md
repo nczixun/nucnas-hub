@@ -152,5 +152,5 @@ rsync -avz --delete \
 ## 总结
 
 数据迁移的核心是**先备份再操作**。推荐硬盘直连方案，停机时间最短。如果需要跨系统迁移，rsync网络传输是最安全的选择�?
-**相关文章**�?- [DIY NAS配置推荐](/guide/diy-nas-config-recommend-2026)
-- [NAS备份最佳实践](/guide/nas-backup-best-practice-2026)
+**相关文章**�?- [DIY NAS配置推荐](/guide/diy-nas%E9%85%8D%E7%BD%AE%E6%8E%A8%E8%8D%902026%E4%B8%8D%E5%90%8C%E9%A2%84%E7%AE%97%E7%9A%84%E5%AE%8C%E7%BE%8E%E6%96%B9%E6%A1%88/)
+- [NAS备份最佳实践](/guide/nas%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B520263-2-1%E5%8E%9F%E5%88%99%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/)

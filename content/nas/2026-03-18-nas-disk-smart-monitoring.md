@@ -170,5 +170,5 @@ fi
 1. 新硬盘先做全面SMART测试
 2. 每周检查一次SMART状�?3. 关注Reallocated_Sector_Ct和Temperature
 4. 准备备用硬盘，发现问题及时更�?
-**相关文章**�?- [NAS备份最佳实践](/guide/nas-backup-best-practice-2026)
+**相关文章**�?- [NAS备份最佳实践](/guide/nas%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B520263-2-1%E5%8E%9F%E5%88%99%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/)
 - [NAS硬盘选购指南](/guide/nas%E5%AD%98%E5%82%A8%E6%89%A9%E5%B1%95%E6%8C%87%E5%8D%97%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%90%88%E9%80%82%E7%9A%84%E7%A1%AC%E7%9B%98/)

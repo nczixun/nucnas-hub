@@ -157,4 +157,4 @@ description: "解答NAS硬盘选购中最常见的10个问题，帮你避开所�
 
 ---
 
-*本文同步发布于 [NUC NAS Hub](nucnas.top)，你的NAS私有云专家。*
+*本文同步发布于 [NUC NAS Hub](https://www.nucnas.top/)，你的NAS私有云专家。*
