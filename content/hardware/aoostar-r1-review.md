@@ -1,5 +1,5 @@
 ---
-title: "Aoostar R1评测：N100双盘位NAS主机，一机两用超划算"
+title: "Aoostar R1评测：N100双盘位NAS主机，一机两用超划算（来源待核查）"
 date: 2026-03-11
 categories: ["hardware"]
 tags: ["NAS", "迷你主机", "Intel N100", "双盘位", "Aoostar"]
@@ -7,21 +7,28 @@ description: "既能做NAS又能当迷你主机用？Aoostar R1搭载N100处理�
 image: "https://images.pexels.com/photos/2886937/pexels-photo-2886937.jpeg?auto=compress&cs=tinysrgb&w=800"
 toc: true
 draft: false
+
+slug: "aoostar-r1评测n100双盘位nas主机一机两用超划算"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Aoostar R1评测：N100双盘位NAS主机，一机两用超划算
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 
@@ -109,5 +116,3 @@ R1本质上是一台N100迷你主机，接上显示器就能当电脑用。N100�
 
 
 ---
-
-*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

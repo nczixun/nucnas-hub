@@ -1,4 +1,6 @@
 ---
+draft: true
+# Duplicate introduction retained; published full lesson is in content/ai.
 title: "Day 4：Skills 技能系统 - 让AI能力翻倍"
 date: 2026-03-03
 categories: ["ai"]

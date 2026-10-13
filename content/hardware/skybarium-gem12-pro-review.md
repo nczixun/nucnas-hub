@@ -1,25 +1,31 @@
 ---
-title: "天钡 GEM12 Pro 测评：带副屏的创新设计"
+title: "天钡 GEM12 Pro 测评：带副屏的创新设计（来源待核查）"
 date: 2026-03-13
 categories: ["硬件测评"]
-summary: "天钡GEM12 Pro深度测评，创新性配备副屏设计，搭载AMD Ryzen处理器，适合追求创新的用户。"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
 tags: ["测评", "迷你主机", "天钡", "SkyBarium", "GEM12 Pro", "副屏"]
+
+slug: "天钡-gem12-pro-测评带副屏的创新设计"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # 天钡 GEM12 Pro 测评：带副屏的创新设计
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 

@@ -1,4 +1,6 @@
 ---
+reviewedAt: 2026-10-09
+contentStatus: reviewed
 title: "NAS新手入门完全指南：2026年从零开始玩转私有云"
 date: 2026-03-05
 draft: false

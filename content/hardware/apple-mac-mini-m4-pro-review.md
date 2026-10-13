@@ -1,25 +1,31 @@
 ---
-title: "Apple Mac mini M4 Pro 测评：专业创作者的高效工作站"
+title: "Apple Mac mini M4 Pro 测评：专业创作者的高效工作站（来源待核查）"
 date: 2026-03-13
 categories: ["硬件测评"]
-summary: "Mac mini M4 Pro深度测评，M4 Pro芯片性能解析，适合专业视频剪辑、3D渲染等高负载工作。"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
 tags: ["测评", "迷你主机", "Apple", "Mac mini", "M4 Pro", "苹果"]
+
+slug: "apple-mac-mini-m4-pro-测评专业创作者的高效工作站"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Apple Mac mini M4 Pro 测评：专业创作者的高效工作站
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 

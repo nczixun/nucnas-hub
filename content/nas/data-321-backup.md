@@ -1,4 +1,6 @@
 ---
+reviewedAt: 2026-10-09
+contentStatus: reviewed
 slug: "data-321-backup"
 title: "数据无价：3-2-1 备份策略在家庭环境的落地"
 date: 2026-02-12

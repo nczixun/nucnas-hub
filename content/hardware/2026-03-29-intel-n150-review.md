@@ -1,4 +1,5 @@
 ---
+homeFeatured: true
 title: "Intel N150迷你主机：规格核查与购买前验证"
 date: 2026-03-29
 categories: ["硬件", "迷你主机"]

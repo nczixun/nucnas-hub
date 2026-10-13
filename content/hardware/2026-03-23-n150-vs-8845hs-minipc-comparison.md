@@ -4,7 +4,12 @@ date: 2026-03-23
 categories: ["硬件", "迷你主机"]
 tags: ["Intel", "N150", "AMD", "8845HS", "迷你主机", "对比"]
 description: "Intel N150与AMD 8845HS迷你主机对比评测，帮你根据使用场景做出最佳选择"
+
+contentStatus: pending
+sourceAuditAt: 2026-10-13
 ---
+
+> **来源待核查**：下文保留旧版对比，历史跑分、价格和测试语气缺少完整原始记录，不能当作当前实测结论。先阅读 [已核对的选型入口](https://www.nucnas.top/review/intel-n150-vs-amd-8845hs-minipc/)，再按自己的完整配置验证。
 
 # Intel N150 vs AMD 8845HS 迷你主机对比：千元预算怎么选
 

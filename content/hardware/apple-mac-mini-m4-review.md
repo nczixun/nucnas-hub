@@ -1,29 +1,35 @@
 ---
-title: "Apple Mac mini M4 深度测评：苹果最具性价比的生产力工具"
+title: "Apple Mac mini M4 深度测评：苹果最具性价比的生产力工具（来源待核查）"
 date: 2026-03-13
 categories: ["硬件测评"]
-summary: "Mac mini M4深度测评，基于B站20+博主实测。分析性能提升、AI能力、功耗表现及购买建议。"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
 tags: ["测评", "迷你主机", "Apple", "Mac mini", "M4", "苹果"]
+
+slug: "apple-mac-mini-m4-深度测评苹果最具性价比的生产力工具"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Apple Mac mini M4 深度测评：苹果最具性价比的生产力工具
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 
-> 本篇文章基于 B站 20+ 位博主的真实评测视频内容聚合而成
+
 
 ---
 

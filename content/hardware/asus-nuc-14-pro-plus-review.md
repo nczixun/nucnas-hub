@@ -1,25 +1,31 @@
 ---
-title: "ASUS NUC 14 Pro+ 测评：商务级迷你主机标杆"
+title: "ASUS NUC 14 Pro+ 测评：商务级迷你主机标杆（来源待核查）"
 date: 2026-03-13
 categories: ["硬件测评"]
-summary: "ASUS NUC 14 Pro+深度测评，Intel Core Ultra处理器，稳定可靠，适合企业办公和商业应用。"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
 tags: ["测评", "迷你主机", "ASUS", "NUC", "Intel Core Ultra", "商务"]
+
+slug: "asus-nuc-14-pro-测评商务级迷你主机标杆"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # ASUS NUC 14 Pro+ 测评：商务级迷你主机标杆
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 

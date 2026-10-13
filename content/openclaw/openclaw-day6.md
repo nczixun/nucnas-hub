@@ -1,4 +1,6 @@
 ---
+draft: true
+# Duplicate introduction retained; published full lesson is in content/ai.
 title: "Day 6：进阶技巧 - 浏览器控制与文件操作"
 date: 2026-03-05
 categories: ["ai"]
