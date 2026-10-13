@@ -15,6 +15,7 @@
             
             <div class="hw-hero-info">
                 <h1 class="hw-hero-title">{{ .Title }}</h1>
+                {{ partial "content-status.html" . }}
                 
                 {{/* 摘要 */}}
                 {{ $summary := .Description }}
@@ -24,6 +25,7 @@
                 </div>
                 
                 {{/* 元信息 */}}
+                {{ if ne .Params.contentstatus "pending" }}
                 <div class="hw-hero-meta">
                     {{ with .Params.hw_specs.cpu }}
                     <div class="hw-meta-item">
@@ -59,11 +61,13 @@
                     </div>
                     {{ end }}
                 </div>
+                {{ end }}
             </div>
         </div>
     </section>
 
     {{/* B. 参数表格 */}}
+    {{ if ne .Params.contentstatus "pending" }}
     {{ with .Params.hw_specs }}
     <section class="hw-specs">
         <h2 class="hw-specs-title">📋 核心参数</h2>
@@ -110,6 +114,7 @@
     {{ end }}
 
     <hr style="border: none; border-top: 1px solid var(--border-color); margin: 32px 0;">
+    {{ end }}
 
     {{/* D. 详细内容 */}}
     <section class="hw-content">

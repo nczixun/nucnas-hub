@@ -56,6 +56,10 @@ for path in required:
 pages=json.loads((root/"index.json").read_text(encoding="utf-8"))
 assert len(pages)>100, ("search index unexpectedly small",len(pages))
 assert len({unquote(page['url']) for page in pages}) == len(pages), 'duplicate search result URL'
+assert all(isinstance(page.get('reviewed'), bool) for page in pages), 'missing review filter data'
+assert all(not page['reviewed'] for page in pages if page.get('contentStatus') == 'pending'), 'pending source marked reviewed'
+assert all(page.get('reviewedAt') for page in pages if page['reviewed']), 'review date missing'
+assert any(page['reviewed'] for page in pages), 'reviewed search filter would be empty'
 assert all(exists(page["url"]) for page in pages), "search result points to a missing page"
 assert any("ollama" in page["title"].lower() for page in pages)
 assert any("NAS" in page["title"] for page in pages)

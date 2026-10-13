@@ -1,7 +1,9 @@
 {{- $pages := slice -}}
 {{- range .Site.RegularPages -}}
 {{- if and (not .Params.noindex) (or .Params.searchable (in (slice "hardware" "nas" "ai" "openclaw" "calculator") .Section)) -}}
-{{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "summary" (.Summary | plainify | truncate 180) "text" (.Plain | truncate 12000) "section" .Section) -}}
+{{- $reviewed := and .Params.reviewedat (ne .Params.contentstatus "pending") -}}
+{{- $date := "" -}}{{- with .Params.reviewedat -}}{{- $date = time.Format "2006-01-02" . -}}{{- end -}}
+{{- $pages = $pages | append (dict "title" .Title "url" .RelPermalink "summary" (.Summary | plainify | truncate 180) "text" (.Plain | truncate 12000) "section" .Section "reviewed" (not (not $reviewed)) "reviewedAt" $date "contentStatus" (.Params.contentstatus | default "unreviewed")) -}}
 {{- end -}}
 {{- end -}}
 {{- $pages | jsonify -}}
