@@ -1,65 +1,40 @@
 ---
-title: "AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代（来源待核查）"
-date: 2026-03-03
-categories: ["hardware"]
+title: "AMD Ryzen AI 300 系列：配置与选型核对"
+date: "2026-03-03"
+draft: false
 slug: "amd-ryzen-ai-300-review"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "AMD Ryzen AI 300 系列：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "AMD Ryzen AI 300 系列：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"]
+url: "/review/amd-ryzen-ai-300-review/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 产品范围 | Ryzen AI 300 是处理器系列，不是一台固定配置的迷你主机 | [官方资料](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html) |
+| 架构 | AMD 资料介绍 Zen 5 CPU 与 RDNA 3.5 图形架构 | [官方资料](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html) |
 
+## 阅读与选型边界
 
+确认完整 CPU 型号后，再查整机内存配置和软件支持。不要将系列最高规格套到每款机器，也不要用 NPU 的 TOPS 推算大语言模型每秒输出字数。本文撤下没有原始记录的游戏帧率和 AI 推理速度。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-AMD 这次真没开玩笑。全新 Ryzen AI 300 系列来了，50TOPS 的 NPU 算力，直接把 Intel 按在地上摩擦。
-
-首批面向消费级<a href="/hardware/" target="_blank">迷你主机</a>的 AI PC 处理器，Zen 5 架构 + XDNA 2 NPU + RDNA 3.5 核显，全家桶配齐。实际表现怎么样？往下看。
-
-## 规格参数
-
-| 型号 | 核心/线程 | 频率 | NPU | 核显 | 功耗 |
-|------|-----------|------|-----|------|------|
-| Ryzen AI 9 HX 370 | 12C/24T | 2.0-5.1GHz | 50TOPS | Radeon 890M | 28W |
-| Ryzen AI 9 365 | 10C/20T | 2.0-5.0GHz | 50TOPS | Radeon 880M | 28W |
-
-### Zen 5 到底强在哪？
-
-- 单核性能比 Zen 4 提升 16%
-- 4nm 制程，功耗控制更好
-- L3 缓存最大 24MB
-
-### XDNA 2 NPU
-
-这才是重点。50TOPS 算力，什么概念？
-
-Intel Meteor Lake 只有 11TOPS，差距快 5 倍了。Windows Studio Effects 流畅跑，Adobe AI 加速也能用。
-
-### 核显 RDNA 3.5
-
-Radeon 890M，16 个计算单元，频率 2.9GHz。1080p 游戏没问题，偶尔打打 3A 也行。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评和<a href="/ai/" target="_blank">AI</a>内容请关注 [硬件频道](/hardware/) 和 [AI频道](/ai/)。*
-
-<div class="page-nav">
-  <a href="/guide/nas-docker-knowledge-base-2026/" rel="prev">上一页：群晖NAS进阶教程：利用Docker搭建个人知识库系统</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

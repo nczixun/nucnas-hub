@@ -1,52 +1,40 @@
 ---
-title: "AMD Ryzen AI 300系列迷你主机前瞻：Strix Point带来AI新体验（来源待核查）"
-date: 2026-03-02
-categories: ["hardware"]
-brand: "AMD"
-model: "Ryzen AI 300"
-platform: "amd"
-official_url: "https://search.jd.com/Search?keyword=Ryzen+AI+300+%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA"
-bilibili_url: "https://search.bilibili.com/all?keyword=Ryzen+AI+300+%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA+%E6%B5%8B%E8%AF%84"
-youtube_url: "https://www.youtube.com/results?search_query=Ryzen+AI+300+mini+pc+review"
-pros: "强劲AI算力, 核显性能出色, 支持PCIe 5.0"
-cons: "首发价格较高, 迷你主机产品较少"
+title: "AMD Ryzen AI 300 系列：配置与选型核对"
+date: "2026-03-02"
+draft: false
 slug: "amd-ryzen-ai-300-mini-pc-preview"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "AMD Ryzen AI 300 系列：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "AMD Ryzen AI 300 系列：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"]
+url: "/review/amd-ryzen-ai-300-mini-pc-preview/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# AMD Ryzen AI 300系列迷你主机前瞻：Strix Point带来AI新体验
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 产品范围 | Ryzen AI 300 是处理器系列，不是一台固定配置的迷你主机 | [官方资料](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html) |
+| 架构 | AMD 资料介绍 Zen 5 CPU 与 RDNA 3.5 图形架构 | [官方资料](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html) |
 
+## 阅读与选型边界
 
+确认完整 CPU 型号后，再查整机内存配置和软件支持。不要将系列最高规格套到每款机器，也不要用 NPU 的 TOPS 推算大语言模型每秒输出字数。本文撤下没有原始记录的游戏帧率和 AI 推理速度。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-**更新日期：** 2026年3月2日
-
-## 一、前言
-
-AMD Ryzen AI 300系列为<a href="/hardware/" target="_blank">迷你主机</a>带来强大的<a href="/ai/" target="_blank">AI</a>算力。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/amd-ryzen-ai-300-2026/" rel="prev">上一页：AMD Ryzen AI 300系列强势来袭</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

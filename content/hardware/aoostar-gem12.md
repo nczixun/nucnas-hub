@@ -1,63 +1,39 @@
 ---
-title: "Aoostar GEM12 评测：AMD 8845HS 迷你主机新选择（来源待核查）"
-date: 2026-02-14
-categories: ["hardware"]
-brand: "Aoostar"
-model: "GEM12"
-platform: "amd"
-official_url: "https://search.jd.com/Search?keyword=Aoostar+GEM12"
-bilibili_url: "https://search.bilibili.com/all?keyword=Aoostar+GEM12+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Aoostar+GEM12+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "AOOSTAR GEM12：版本与资料入口"
+date: "2026-02-14"
+draft: false
 slug: "aoostar-gem12"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "AOOSTAR GEM12：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "AOOSTAR GEM12：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://aoostar.com/zh/pages/drives-systems"]
+url: "/review/aoostar-gem12/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Aoostar GEM12 评测：AMD 8845HS 迷你主机新选择
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 官方版本 | 支持中心分别列 GEM12 6900HX、7840HS 与 8845HS | [官方资料](https://aoostar.com/zh/pages/drives-systems) |
 
+## 阅读与选型边界
 
+GEM12、GEM12 Pro 和 Pro MAX 的后缀有区分意义。先记录 CPU 与后缀，再选择对应固件和驱动；不要把屏幕、指纹或 OCuLink 配置从另一款变体移植过来。本文不将支持列表中的型号名称当作实际性能测量。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://aoostar.com/zh/pages/drives-systems)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-在<a href="/hardware/" target="_blank">迷你主机</a>市场卷出天际的2026年，单纯的高性能已经不足以让一款产品脱颖而出。天钡（AOOSTAR）显然深谙此道，其推出的GEM12 Pro不仅搭载了口碑极佳的AMD Ryzen 7 8845HS处理器和极具可玩性的OCuLink接口，更是创新性地加入了**前置副屏**与**指纹识别**模块。
-
-## 二、开箱与外观设计
-
-**包装与配件**
-GEM12 Pro的包装盒采用了黑色赛博风格设计，正面印有"GEM SERIES"字样，整体体积紧凑，仅为显示器大小的四分之一左右。开启包装，除了主机本体外，配件相当丰富：
-
-- 一个120W（19V 6.32A）的Type-C接口电源适配器，体积控制得当，且兼容笔记本充电；
-- 两副（共8个）橡胶增高脚垫，用于抬高机身增强散热；
-- 两副固态硬盘散热马甲；
-- 一个VESA挂装支架及配套螺丝。
-
-**工业设计**
-GEM12 Pro的机身外壳采用铝合金材质，通过CNC工艺打磨，手感细腻。最引人注目的无疑是机身正面左下角那块**可自定义的TFT屏幕**。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/ai/github-trending-2026-03/" rel="prev">上一页：2026年3月GitHub热门AI项目盘点</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

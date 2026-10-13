@@ -1,53 +1,41 @@
 ---
-title: "Minisforum MS-01 vs ASUS NUC 14 Pro Plus 对比横评（来源待核查）"
-date: 2026-03-07
-categories: ["hardware"]
-brand: "对比横评"
-model: "MS-01 vs NUC 14 Pro Plus"
-platform: "intel"
+title: "MS-01 与 NUC 14 Pro+：平台范围比较：版本与资料入口"
+date: "2026-03-07"
+draft: false
 slug: "ms-01-vs-nuc-14-pro-plus-comparison"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "MS-01 与 NUC 14 Pro+：平台范围比较：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "MS-01 与 NUC 14 Pro+：平台范围比较：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.minisforum.com/products/minisforum-ms-01", "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"]
+url: "/review/ms-01-vs-nuc-14-pro-plus-comparison/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Minisforum MS-01 vs ASUS NUC 14 Pro Plus 对比横评
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| MS-01 | 官方列 i5-12600H、i9-12900H、i9-13900H 与双 SFP+、双 2.5GbE | [官方资料](https://www.minisforum.com/products/minisforum-ms-01) |
+| NUC 14 Pro+ | ASUS 发布资料列 Core Ultra 9 / 7 / 5，见第二来源 | [ASUS 官方发布](https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/) |
 
+## 阅读与选型边界
 
+先按实际需要的网络和软件选平台，再确认具体销售 SKU。不能把最高配置与对方入门配置的价格或成绩作直接排名。旧稿中的 AI 推理、虚拟机数量和功耗胜负没有原始测试记录，本文只保留可核对的平台差别。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.minisforum.com/products/minisforum-ms-01)：支持上文注明的事实范围，不证明本站实测。
+- [官方资料入口 2](https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/)：支持上文注明的事实范围，不证明本站实测。
 
-
-两台都是**万元级工作站级迷你主机**，今天硬碰硬对比一下。
-
-**核心配置对比：**
-
-| 参数 | Minisforum MS-01 | ASUS NUC 14 Pro Plus |
-| :--- | :--- | :--- |
-| 处理器 | i9-13900H | Ultra 9 185H |
-| 内存 | 64GB DDR5 | 96GB DDR5 |
-| 存储 | 双 2.5G 网口 + 双万兆 | 2.5G 网口 |
-| 售价 | 8999 元 | 7499 元 |
-
-**实测性能：**
-
-- Geekbench 6 单核：MS-01 2800 分，NUC 14 Pro Plus 2600 分
-- 核显性能：NUC 14 Pro Plus 略强 15%
-- 扩展性：MS-01 多一个万兆网口
-
-**结论：**
-需要万兆网络、追求极致性能，选 **MS-01**。追求性价比、偏好 Intel 生态，选 **NUC 14 Pro Plus**。
-
-
----
+- [新手阅读入口](/start/)

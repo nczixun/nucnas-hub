@@ -1,132 +1,39 @@
 ---
-title: "Zotac Magnus ONE评测：RTX4070桌面级显卡+8L体积，性能怪兽来袭（来源待核查）"
-date: 2026-03-12
+title: "ZOTAC MAGNUS ONE ERP74070W：版本与资料入口"
+date: "2026-03-12"
+draft: false
+slug: "zotac-magnus-one评测rtx4070桌面级显卡-8l体积性能怪兽来袭"
 categories: ["hardware"]
 tags: ["迷你主机", "RTX4070", "桌面级", "游戏主机", "Zotac", "工作站"]
-description: "搭载RTX4070桌面级显卡，8L超小体积，Zotac Magnus ONE是否是最强的迷你游戏主机？"
-image: "https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=800"
-toc: true
-draft: false
-
-slug: "zotac-magnus-one评测rtx4070桌面级显卡-8l体积性能怪兽来袭"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+summary: "ZOTAC MAGNUS ONE ERP74070W：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "ZOTAC MAGNUS ONE ERP74070W：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.zotac.com/us/us-store/product/mini_pcs/magnus-one-ERP74070W-barebone"]
+url: "/review/zotac-magnus-one评测rtx4070桌面级显卡-8l体积性能怪兽来袭/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Zotac Magnus ONE评测：RTX4070桌面级显卡+8L体积，性能怪兽来袭
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 产品版本 | ERP74070W Barebone：第 13 代 Core i7 与 GeForce RTX 4070 | [官方资料](https://www.zotac.com/us/us-store/product/mini_pcs/magnus-one-ERP74070W-barebone) |
 
+## 阅读与选型边界
 
+MAGNUS ONE 是系列名称，本页限定 ERP74070W 裸机版本。不要将其他代际、显卡或预装机的配置直接混入。购买前确认需要自备的内存、SSD 与系统，再核对机箱空间和维护方法。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.zotac.com/us/us-store/product/mini_pcs/magnus-one-ERP74070W-barebone)：支持上文注明的事实范围，不证明本站实测。
 
-
-当提到"迷你主机 + RTX4070"，很多人会觉得不可能。但**Zotac Magnus ONE**做到了——8L体积内塞入了RTX4070桌面级显卡，这是目前最小的RTX4070主机之一。
-
-## 核心配置
-
-| 配置项 | 参数 |
-|--------|------|
-| 处理器 | Intel Core i7-13700HX (8P+8E, 20线程) |
-| 显卡 | NVIDIA GeForce RTX 4070 (桌面版) |
-| 内存 | DDR5 4800MHz (最大64GB) |
-| 存储 | M.2 2280 NVMe × 2 |
-| 网口 | 2.5G × 2 |
-| 电源 | 内置500W 80+ Gold |
-
-## 外观设计
-
-Magnus ONE的体积约为**8L**，三围约为 210 × 203 × 129mm。相比传统ATX机箱小了90%，但相比普通迷你主机还是大了不少。
-
-机身采用**黑色镜面+金属网**设计语言：
-- 前置RGB灯条 (支持手动调节)
-- 顶部散热出风口
-- 免工具拆装设计
-
-机身接口：
-- Thunderbolt 4 × 1
-- USB 3.2 Gen2 × 4
-- HDMI 2.1 × 2
-- 2.5G网口 × 2
-- SD卡槽
-- 音频接口
-
-## 性能实测
-
-### 处理器性能
-
-i7-13700HX是Intel移动端旗舰处理器：
-
-| 测试项目 | 分数 |
-|----------|------|
-| Cinebench R23 单核 | 1900+ |
-| Cinebench R23 多核 | 18000+ |
-| CPU-Z 单核 | 780+ |
-| CPU-Z 多核 | 9500+ |
-
-### 显卡性能
-
-RTX 4070桌面版性能强劲：
-
-| 测试项目 | 分数 |
-|----------|------|
-| 3DMark Time Spy | 18500+ |
-| 3DMark Fire Strike | 35000+ |
-| Port Royal (光追) | 12000+ |
-
-### 游戏实测 (4K)
-
-| 游戏 | 设置 | 帧率 |
-|------|------|------|
-| 赛博朋克2077 | 开启DLSS 3+光线追踪 | 60+ FPS |
-| 霍格沃茨之遗 | 高画质+光追 | 55+ FPS |
-| 艾尔登法环 | 高画质 | 80+ FPS |
-| 刺客信条维京 | 4K高画质 | 65+ FPS |
-| CS2 | 4K高画质 | 200+ FPS |
-
-### 内容创作
-
-| 场景 | 性能 |
-|------|------|
-| Premiere Pro 8K剪辑 | 流畅 |
-| DaVinci Resolve 调色 | 流畅 |
-| Blender 渲染 | 快 (RTX加速) |
-| Photoshop AI降噪 | 极速 |
-
-## 散热设计
-
-Magnus ONE采用**三风扇+VC均热板**散热：
-
-- 处理器：单风扇+热管
-- 显卡：单风扇+均热板
-- 电源：独立风扇
-
-满载时噪音约**45dB**，相比游戏本还是要安静不少。
-
-## 适合人群
-
-- ✅ 4K游戏玩家
-- ✅ 专业内容创作者
-- ✅ 想要高性能但不要大机箱
-- ✅ 需要CUDA加速 (AI/渲染)
-
-- ❌ 预算有限
-- ❌ 需要移动使用
-
-## 总结
-
-**Zotac Magnus ONE**是目前性能最强的迷你主机之一。RTX4070桌面级显卡+i7-13700HX的组合可以流畅运行4K游戏和专业创作软件。8L体积虽然不算极致迷你，但比传统PC小太多了。售价约为**13000元**，适合追求极致性能且对体积有要求的用户。
-
-
----
+- [新手阅读入口](/start/)

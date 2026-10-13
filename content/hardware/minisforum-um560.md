@@ -1,49 +1,39 @@
 ---
-title: "Minisforum UM560 评测：AMD 5600H 入门级迷你主机（来源待核查）"
-date: 2026-02-20
-categories: ["hardware"]
-brand: "Minisforum"
-model: "UM560"
-platform: "amd"
+title: "MINISFORUM UM560：版本与资料入口"
+date: "2026-02-20"
+draft: false
 slug: "minisforum-um560"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "MINISFORUM UM560：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "MINISFORUM UM560：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://refurbished.minisforum.com/products/minisforum-um560-refurbished"]
+url: "/review/minisforum-um560/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Minisforum UM560 评测
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| CPU | 官方翻新页列 Ryzen 5 5625U | [官方资料](https://refurbished.minisforum.com/products/minisforum-um560-refurbished) |
 
+## 阅读与选型边界
 
+厂商翻新页可用于核对 UM560 型号与 CPU，不能用其售价代表当前新机市场。UM560 与 UM560 XT 应分别核对；所含内存、SSD 与系统授权要以实际销售组合为准。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://refurbished.minisforum.com/products/minisforum-um560-refurbished)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-<a href="/review/minisforum-um560/" target="_blank">Minisforum UM560</a> 是一款 AMD 5600H 入门级<a href="/hardware/" target="_blank">迷你主机</a>。
-
-## 主要特点
-
-- AMD 5600H 性能足够
-- 价格实惠
-- 接口丰富
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/minisforum-hx99g-pro/" rel="prev">上一页：Minisforum HX99G Pro 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

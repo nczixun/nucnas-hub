@@ -1,54 +1,39 @@
 ---
-title: "Beelink SEI14 评测：商务办公迷你主机新选择（来源待核查）"
-date: 2026-02-17
-categories: ["hardware"]
-brand: "Beelink"
-model: "SEi14"
-platform: "intel"
-official_url: "https://search.jd.com/Search?keyword=Beelink+SEi14"
-bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SEi14+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Beelink+SEi14+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "Beelink SEi14：125H / 185H 版本核对：版本与资料入口"
+date: "2026-02-17"
+draft: false
 slug: "beelink-sei14"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "Beelink SEi14：125H / 185H 版本核对：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Beelink SEi14：125H / 185H 版本核对：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://doc.bee-link.com.cn/shelves"]
+url: "/review/beelink-sei14/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：SEi14 的版本区分；不将商品页跳转视为历史版本证据。 本站没有对应机器的独立实测记录。
 
-# Beelink SEI14 评测：商务办公迷你主机新选择
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 官方版本 | 文档目录列出 SEi14 125H 与 185H | [官方资料](https://doc.bee-link.com.cn/shelves) |
 
+## 阅读与选型边界
 
+SEi14 和 GTi14 不是同一产品名。旧的 125H 商品链接可能转到 185H 页面，不能用跳转后的规格证明旧机器配置。对照订单、铭牌与支持文档确认 CPU；本页不保留未验证的材质、尺寸、颜色或“首款”结论。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://doc.bee-link.com.cn/shelves)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-在<a href="/hardware/" target="_blank">迷你主机</a>市场，零刻的SEi系列一直是Intel平台的代表。随着英特尔酷睿Ultra处理器的发布，AI PC时代正式开启。SEi14作为零刻首款搭载酷睿Ultra的机型，不仅带来了更强的CPU和Arc核显，更首次集成了NPU AI加速单元。
-
-## 二、外观与设计
-
-SEi14的机身尺寸为135×135×44.7mm，体积约**0.8升**，重量适中，比一听可乐略大。外壳采用**一体式铝合金材质**，提供冰霜银和深空灰两种配色，圆角设计与苹果Mac mini颇为神似，质感出色。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/beelink-gtr7/" rel="prev">上一页：Beelink GTR7 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

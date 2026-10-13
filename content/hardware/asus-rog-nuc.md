@@ -1,64 +1,34 @@
 ---
-title: "ROG NUC 评测：游戏玩家的终极迷你主机，RTX 4070 性能炸裂（来源待核查）"
-date: 2026-02-16
-categories: ["hardware"]
-brand: "ASUS"
-model: "ROG NUC"
-platform: "intel"
-official_url: "https://search.jd.com/Search?keyword=ASUS+ROG NUC"
-bilibili_url: "https://search.bilibili.com/all?keyword=ASUS+ROG+NUC+测评"
-youtube_url: "https://www.youtube.com/results?search_query=ASUS+ROG+NUC+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "ROG NUC：来源核查与遗留问题"
+date: "2026-02-16"
+draft: false
 slug: "asus-rog-nuc"
-
+categories: ["hardware"]
+tags: []
+summary: "ROG NUC：记录已找到的资料、尚不能确认的型号或配置，不提供无依据的实测结论。"
+description: "ROG NUC：记录已找到的资料、尚不能确认的型号或配置，不提供无依据的实测结论。"
+contentType: "资料整理"
 contentStatus: "pending"
-
-contentType: "历史资料"
-
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://rog.asus.com/desktops/mini-pc/rog-nuc-2025/"]
+url: "/review/asus-rog-nuc/"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+> **来源待核查（2026-10-13）**：旧稿没有完整销售代码和年份，2025 页不能证明旧款 CPU、GPU 与售价。
 
-# ROG NUC 评测：游戏玩家的终极迷你主机
+## 本次核对结果
 
+本页保留原地址，改为记录资料缺口。旧稿中的测试语气、价格、性能保证和没有出处的参数已撤下，不能将本站的历史自动生成内容当作产品证据。原稿可在仓库历史中追溯。
 
+## 还需要哪些证据
 
+旧稿没有完整销售代码和年份，2025 页不能证明旧款 CPU、GPU 与售价。
 
+需要与具体型号或版本一致的产品规格、说明书或发布记录；若要恢复实测结论，还需原始作者、测试配置、软件版本和结果记录。相邻型号、搜索结果页或其他用户讨论不能代替这些资料。本页继续保留待核查状态，不标记完成核查日期。
 
----
+## 当前可用的资料入口
 
+- [官方资料入口 1](https://rog.asus.com/desktops/mini-pc/rog-nuc-2025/)：候选资料，仅支持已注明的部分或用于继续查找，不能证明旧稿全部结论。
 
-
-
-
-## 一、前言
-
-随着Intel将NUC产品线交接给华硕，ROG的血液终于注入了这个<a href="/hardware/" target="_blank">迷你主机</a>家族。ROG NUC作为华硕接手后的首款游戏向产品，在仅**2.5升**的体积内，塞进了酷睿Ultra 9处理器和RTX 4070移动显卡。
-
-这台被称为"性能怪兽"的小主机，究竟能否成为客厅游戏的最佳选择？让我们一探究竟。
-
-## 二、外观与接口
-
-**体积与设计**
-ROG NUC的机身尺寸极为紧凑，仅**2.5升**体积，约等于四罐叠放的可乐高度。搭配直立支架，可像书本一样立在书桌上。机身侧面ROG Logo不点亮时低调隐藏，开机后信仰值拉满。
-
-**接口配置**
-
-| 位置 | 接口类型 | 数量/规格 |
-| :--- | :--- | :--- |
-| **前置** | USB 3.2 Gen2、SD读卡器、3.5mm音频、电源键 | 满足日常便捷连接 |
-| **后置** | 雷电4（支持DP 2.1）、HDMI 2.1、2×DP 1.4、2×USB 3.2 Gen2、2×USB 2.0、2.5G网口 | 支持**四屏4K输出** |
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/guide/data-321-backup/" rel="prev">上一页：数据无价：3-2-1备份策略</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

@@ -1,0 +1,3055 @@
+[
+  {
+    "path": "content/hardware/2026-03-16-intel-n150-vs-amd-8845hs.md",
+    "url": "https://www.nucnas.top/review/intel-n150-vs-amd-8845hs2026%E5%B9%B4mini-pc%E5%A4%84%E7%90%86%E5%99%A8%E5%AF%B9%E6%AF%94%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150 vs AMD 8845HS：2026年Mini PC处理器对比选购指南",
+    "title": "N150 与 Ryzen 7 8845HS：任务需求",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150",
+        "claim": "4 核 4 线程，最高 3.6GHz；Intel 对照表",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "8845HS",
+        "claim": "SER8 官方产品页列为 Ryzen 7 8845HS，8 核 16 线程，最高 5.1GHz；见第二来源",
+        "source": "https://www.bee-link.com/products/beelink-ser8-8845hs"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html",
+      "https://www.bee-link.com/products/beelink-ser8-8845hs"
+    ],
+    "unresolved": null,
+    "originalSha256": "5f7bb4fc9c902511d194f5055866a56fda08880abadb7f781088e3cd2276b04e",
+    "newSha256": "18e28364400483fb6e8222010cd09b0c52e10262a842353514766fa54de5f6c9"
+  },
+  {
+    "path": "content/hardware/2026-03-20-n150-vs-8845hs-comparison.md",
+    "url": "https://www.nucnas.top/review/intel-n150-vs-amd-8845hs-%E6%B7%B1%E5%BA%A6%E6%A8%AA%E8%AF%842026%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E9%80%89%E5%93%AA%E4%B8%AA/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150 vs AMD 8845HS 深度横评：2026迷你主机选哪个？",
+    "title": "N150 与 Ryzen 7 8845HS：内存与扩展",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150",
+        "claim": "4 核 4 线程，最高 3.6GHz；Intel 对照表",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "8845HS",
+        "claim": "SER8 官方产品页列为 Ryzen 7 8845HS，8 核 16 线程，最高 5.1GHz；见第二来源",
+        "source": "https://www.bee-link.com/products/beelink-ser8-8845hs"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html",
+      "https://www.bee-link.com/products/beelink-ser8-8845hs"
+    ],
+    "unresolved": null,
+    "originalSha256": "47b25479b36f5f40c85ee47c3ba44a385a73c9073a18615de5f996270d1bf5c8",
+    "newSha256": "7c8dbeec7b5f53254a18f1c3754d235ddeea004f58b28492b9dc4ad8614cefb3"
+  },
+  {
+    "path": "content/hardware/2026-03-21-8845hs-vs-n150-comparison.md",
+    "url": "https://www.nucnas.top/review/8845hs-vs-n150-%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E5%AF%B9%E6%AF%94%E5%B7%AE%E4%BB%B7800%E5%85%83%E9%80%89%E5%93%AA%E4%B8%AA/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "8845HS vs N150 迷你主机对比：差价800元选哪个？",
+    "title": "N150 与 Ryzen 7 8845HS：验收方法",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150",
+        "claim": "4 核 4 线程，最高 3.6GHz；Intel 对照表",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "8845HS",
+        "claim": "SER8 官方产品页列为 Ryzen 7 8845HS，8 核 16 线程，最高 5.1GHz；见第二来源",
+        "source": "https://www.bee-link.com/products/beelink-ser8-8845hs"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html",
+      "https://www.bee-link.com/products/beelink-ser8-8845hs"
+    ],
+    "unresolved": null,
+    "originalSha256": "144abe2c9200046221878480a0d42b34fdb80656701dc678ff1eaded976c3a2d",
+    "newSha256": "0158dd3a37c9a2cff71b4f899b31234bb33bd0e4863c5fbaba36afc91e841ed8"
+  },
+  {
+    "path": "content/hardware/2026-03-23-n150-vs-8845hs-minipc-comparison.md",
+    "url": "https://www.nucnas.top/review/intel-n150-vs-amd-8845hs-%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E5%AF%B9%E6%AF%94%E5%8D%83%E5%85%83%E9%A2%84%E7%AE%97%E6%80%8E%E4%B9%88%E9%80%89/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150 vs AMD 8845HS 迷你主机对比：千元预算怎么选",
+    "title": "N150 与 Ryzen 7 8845HS：配置比较",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150",
+        "claim": "4 核 4 线程，最高 3.6GHz；Intel 对照表",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "8845HS",
+        "claim": "SER8 官方产品页列为 Ryzen 7 8845HS，8 核 16 线程，最高 5.1GHz；见第二来源",
+        "source": "https://www.bee-link.com/products/beelink-ser8-8845hs"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html",
+      "https://www.bee-link.com/products/beelink-ser8-8845hs"
+    ],
+    "unresolved": null,
+    "originalSha256": "2615b678a741752c9eb6ac1d42c46dea4b6e48094d329a41129a3b48c632c9ed",
+    "newSha256": "d80f728f03db9dc04033515a9c68c908993a335a6d6cf65cc95810209b8471ab"
+  },
+  {
+    "path": "content/hardware/amd-ryzen-ai-300-2026.md",
+    "url": "https://www.nucnas.top/review/amd-ryzen-ai-300-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "2026年高性能迷你主机推荐：AMD Ryzen AI 300系列强势来袭（来源待核查）",
+    "title": "AMD Ryzen AI 300 系列：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "产品范围",
+        "claim": "Ryzen AI 300 是处理器系列，不是一台固定配置的迷你主机",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      },
+      {
+        "field": "架构",
+        "claim": "AMD 资料介绍 Zen 5 CPU 与 RDNA 3.5 图形架构",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "f88b4631a4eb58390b1d46a1daac6a32f15a26a1656beda0e5769136b2c4608a",
+    "newSha256": "4b8190bf5a594441a1ad1c0a1fdadd5ca525a5d17f8df67faa0c1b85e535503b"
+  },
+  {
+    "path": "content/hardware/amd-ryzen-ai-300-mini-pc-preview.md",
+    "url": "https://www.nucnas.top/review/amd-ryzen-ai-300-mini-pc-preview/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "AMD Ryzen AI 300系列迷你主机前瞻：Strix Point带来AI新体验（来源待核查）",
+    "title": "AMD Ryzen AI 300 系列：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "产品范围",
+        "claim": "Ryzen AI 300 是处理器系列，不是一台固定配置的迷你主机",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      },
+      {
+        "field": "架构",
+        "claim": "AMD 资料介绍 Zen 5 CPU 与 RDNA 3.5 图形架构",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "bb4ceef53b6df1fb439614bfdf774290e52976d1369f57ca1ec96a39e6c1a94c",
+    "newSha256": "bf95e0a871fa9579ab9511812f495396381156e48c00f5150b9ff652dbbf3caf"
+  },
+  {
+    "path": "content/hardware/amd-ryzen-ai-300-minipc-2026.md",
+    "url": "https://www.nucnas.top/review/amd-ryzen-ai-300-minipc-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "2026年AMD Ryzen AI 300系列迷你主机选购指南：AI时代的高性能计算（来源待核查）",
+    "title": "AMD Ryzen AI 300 系列：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "产品范围",
+        "claim": "Ryzen AI 300 是处理器系列，不是一台固定配置的迷你主机",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      },
+      {
+        "field": "架构",
+        "claim": "AMD 资料介绍 Zen 5 CPU 与 RDNA 3.5 图形架构",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "02000998401c26603071444c6f8b3b348d63388d090de4862bceb6d9956b44d3",
+    "newSha256": "709d4719e5c359ce13fc812c65c2210ab3acbdea256fb1daa6952695a2610d99"
+  },
+  {
+    "path": "content/hardware/amd-ryzen-ai-300-review.md",
+    "url": "https://www.nucnas.top/review/amd-ryzen-ai-300-review/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "AMD Ryzen AI 300 首发测评：迷你主机进入 AI 时代（来源待核查）",
+    "title": "AMD Ryzen AI 300 系列：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "产品范围",
+        "claim": "Ryzen AI 300 是处理器系列，不是一台固定配置的迷你主机",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      },
+      {
+        "field": "架构",
+        "claim": "AMD 资料介绍 Zen 5 CPU 与 RDNA 3.5 图形架构",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "f04334259323641d9bf459fdc3c545156d6b5ac1150fc71fe73bcb6d4ea438be",
+    "newSha256": "6888c8dca6fc0577a0f8f6d47e45454bfd92b4d20e1fabf1e892f2c635a83232"
+  },
+  {
+    "path": "content/hardware/amd-ryzen-ai-300-vs-intel-ultra-200v-2026.md",
+    "url": "https://www.nucnas.top/review/amd-ryzen-ai-300-vs-intel-ultra-200v-comparison-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "AMD Ryzen AI 300 vs Intel Ultra 200V 巅峰对决：2026 年最强移动 AI 处理器横评（来源待核查）",
+    "title": "Ryzen AI 300 与 Core Ultra 200V：任务需求",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "AMD 平台",
+        "claim": "Ryzen AI 300：Zen 5 与 RDNA 3.5，见 AMD 系列说明",
+        "source": "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"
+      },
+      {
+        "field": "Intel 平台",
+        "claim": "Core Ultra 200V：Intel 官方的移动处理器系列，见第二来源",
+        "source": "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html",
+      "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "b24bf18be076dc82e94ec4241cc9cbda035355e201dc91a33c19a0675a3f6436",
+    "newSha256": "43ef7d3902f951ebfe1e432799ca1e390ab72965145ac4156b376be850fb5d53"
+  },
+  {
+    "path": "content/hardware/aoostar-gem10.md",
+    "url": "https://www.nucnas.top/review/aoostar-gem10/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Aoostar GEM10 评测：AMD 6800H 中端之选（来源待核查）",
+    "title": "AOOSTAR GEM10：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方版本",
+        "claim": "支持中心分别列 GEM10 6800H、7735H 与 7840HS",
+        "source": "https://aoostar.com/zh/pages/drives-systems"
+      }
+    ],
+    "sources": [
+      "https://aoostar.com/zh/pages/drives-systems"
+    ],
+    "unresolved": null,
+    "originalSha256": "823b169d981fdb5bd1a9362b1489ff63952b66ae8aba02748586c23e3fedacf6",
+    "newSha256": "f40ec5e47b4c98cc99fee817a8e442187a067cc5888fd23c175fe6850f4e2c34"
+  },
+  {
+    "path": "content/hardware/aoostar-gem12.md",
+    "url": "https://www.nucnas.top/review/aoostar-gem12/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Aoostar GEM12 评测：AMD 8845HS 迷你主机新选择（来源待核查）",
+    "title": "AOOSTAR GEM12：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方版本",
+        "claim": "支持中心分别列 GEM12 6900HX、7840HS 与 8845HS",
+        "source": "https://aoostar.com/zh/pages/drives-systems"
+      }
+    ],
+    "sources": [
+      "https://aoostar.com/zh/pages/drives-systems"
+    ],
+    "unresolved": null,
+    "originalSha256": "c7084283205aae399aa28607e9ac27f62c33df57677c29900e508bb582093556",
+    "newSha256": "a550733debe301742384fd6f5aa129ec77991c2345447bb5f2a9af118f6ce138"
+  },
+  {
+    "path": "content/hardware/aoostar-r1-review.md",
+    "url": "https://www.nucnas.top/review/aoostar-r1%E8%AF%84%E6%B5%8Bn100%E5%8F%8C%E7%9B%98%E4%BD%8Dnas%E4%B8%BB%E6%9C%BA%E4%B8%80%E6%9C%BA%E4%B8%A4%E7%94%A8%E8%B6%85%E5%88%92%E7%AE%97/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Aoostar R1评测：N100双盘位NAS主机，一机两用超划算（来源待核查）",
+    "title": "AOOSTAR R1：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方版本",
+        "claim": "支持中心分别列 R1 N100 与 R1 N150",
+        "source": "https://aoostar.com/zh/pages/drives-systems"
+      }
+    ],
+    "sources": [
+      "https://aoostar.com/zh/pages/drives-systems"
+    ],
+    "unresolved": null,
+    "originalSha256": "101541cc7b728895a994ca4a48c6f609d05ff386b5f68288244d6f568ab42cb7",
+    "newSha256": "bc0ebc3f5c6f542f1566fc73254c06274a0aec35c9e6d6df1b978304e8c0a76c"
+  },
+  {
+    "path": "content/hardware/aoostar-r1.md",
+    "url": "https://www.nucnas.top/review/aoostar-r1/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Aoostar R1（来源待核查）",
+    "title": "AOOSTAR R1：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方版本",
+        "claim": "支持中心分别列 R1 N100 与 R1 N150",
+        "source": "https://aoostar.com/zh/pages/drives-systems"
+      }
+    ],
+    "sources": [
+      "https://aoostar.com/zh/pages/drives-systems"
+    ],
+    "unresolved": null,
+    "originalSha256": "b26674421ddc7e468a975f93633d80075b71ed1549e19243cd93f3146db67648",
+    "newSha256": "90059ddaf4cf692dc73321678a456056250c51f3dfae83067cd27f403e37451d"
+  },
+  {
+    "path": "content/hardware/aoostar-w11.md",
+    "url": "https://www.nucnas.top/review/aoostar-w11/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Aoostar W11 评测：AMD 5825U 高性价比迷你主机（来源待核查）",
+    "title": "AOOSTAR W11：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://aoostar.com/zh/pages/drives-systems"
+    ],
+    "unresolved": "未找到与 W11 对应的正式产品或说明书，不能把 Windows 11 的缩写或 WTR MAX 当成该型号。",
+    "originalSha256": "2744a9dffa6c71e26a8481b169fb35d0253e579363408763261e837fce60fd5a",
+    "newSha256": "0f8a1e2af15f63dcefeaf41de79b1ca5c0fdc9b30472744a46ba9d80aeff5e97"
+  },
+  {
+    "path": "content/hardware/aoostar-wtr-pro.md",
+    "url": "https://www.nucnas.top/review/aoostar-wtr-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Aoostar WTR Pro 评测：5800U四盘位NAS主机，All-in-One全能选手（来源待核查）",
+    "title": "AOOSTAR WTR PRO：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方版本",
+        "claim": "支持中心列 WTRPRO N100、5825U 与 N150",
+        "source": "https://aoostar.com/zh/pages/drives-systems"
+      }
+    ],
+    "sources": [
+      "https://aoostar.com/zh/pages/drives-systems"
+    ],
+    "unresolved": null,
+    "originalSha256": "ae97bfde92897d933e3501e51152282fab91f4164c38f7730ab21ed4296169cf",
+    "newSha256": "5672180e4052d3d5addb348f9a4b991edb49b7f5fd6df35cedfc565aa7cbee64"
+  },
+  {
+    "path": "content/hardware/apple-mac-mini-m4-pro-review.md",
+    "url": "https://www.nucnas.top/review/apple-mac-mini-m4-pro-%E6%B5%8B%E8%AF%84%E4%B8%93%E4%B8%9A%E5%88%9B%E4%BD%9C%E8%80%85%E7%9A%84%E9%AB%98%E6%95%88%E5%B7%A5%E4%BD%9C%E7%AB%99/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Apple Mac mini M4 Pro 测评：专业创作者的高效工作站（来源待核查）",
+    "title": "Mac mini M4 Pro（2024）：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "基础芯片",
+        "claim": "M4 Pro：12 核 CPU、16 核 GPU；另有 14 / 20 核配置",
+        "source": "https://support.apple.com/en-us/121555"
+      },
+      {
+        "field": "内存与接口",
+        "claim": "基础统一内存 24GB；后部三个 Thunderbolt 5 接口",
+        "source": "https://support.apple.com/en-us/121555"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/121555"
+    ],
+    "unresolved": null,
+    "originalSha256": "9cfc89e55cefd0ee04a3efe7bfa3b94e1b07d75528e65b1f534eecf877733388",
+    "newSha256": "219419fe016e21ff6ee982adf633ab085425bce80619ea6874c8c3dd31b1e1d1"
+  },
+  {
+    "path": "content/hardware/apple-mac-mini-m4-pro.md",
+    "url": "https://www.nucnas.top/review/apple-mac-mini-m4-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Mac mini M4 Pro 评测：性能怪兽还是小钢炮？（来源待核查）",
+    "title": "Mac mini M4 Pro（2024）：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "基础芯片",
+        "claim": "M4 Pro：12 核 CPU、16 核 GPU；另有 14 / 20 核配置",
+        "source": "https://support.apple.com/en-us/121555"
+      },
+      {
+        "field": "内存与接口",
+        "claim": "基础统一内存 24GB；后部三个 Thunderbolt 5 接口",
+        "source": "https://support.apple.com/en-us/121555"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/121555"
+    ],
+    "unresolved": null,
+    "originalSha256": "af64044194d5a1c627efa8abec7e1af1cc8cfa9ce8df859af01d849ce304f518",
+    "newSha256": "bdebf9813c9f09f01ec8082c047f8d6a67ece9ddac5e0cc29a876b4b3b2a8a84"
+  },
+  {
+    "path": "content/hardware/apple-mac-mini-m4-review.md",
+    "url": "https://www.nucnas.top/review/apple-mac-mini-m4-%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%84%E8%8B%B9%E6%9E%9C%E6%9C%80%E5%85%B7%E6%80%A7%E4%BB%B7%E6%AF%94%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Apple Mac mini M4 深度测评：苹果最具性价比的生产力工具（来源待核查）",
+    "title": "Mac mini M4（2024）：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "基础芯片",
+        "claim": "M4：10 核 CPU、10 核 GPU",
+        "source": "https://support.apple.com/en-us/121555"
+      },
+      {
+        "field": "内存与接口",
+        "claim": "基础统一内存 16GB；后部三个 Thunderbolt 4 接口",
+        "source": "https://support.apple.com/en-us/121555"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/121555"
+    ],
+    "unresolved": null,
+    "originalSha256": "a4acf423612f415d322c9e938cf61b6c95c508e4eafc63edf846ec6de29978ab",
+    "newSha256": "7013f5268096023cabab4cf4a3bee7fe70b1a7a678d7b45b91ace22ea7988ea3"
+  },
+  {
+    "path": "content/hardware/apple-mac-mini-m4.md",
+    "url": "https://www.nucnas.top/review/apple-mac-mini-m4/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Apple Mac mini M4 深度评测：小体积大能量，M4芯片有多强？（来源待核查）",
+    "title": "Mac mini M4（2024）：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "基础芯片",
+        "claim": "M4：10 核 CPU、10 核 GPU",
+        "source": "https://support.apple.com/en-us/121555"
+      },
+      {
+        "field": "内存与接口",
+        "claim": "基础统一内存 16GB；后部三个 Thunderbolt 4 接口",
+        "source": "https://support.apple.com/en-us/121555"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/121555"
+    ],
+    "unresolved": null,
+    "originalSha256": "0b36aa28b03821be183c927af94dbe0a1450aef3fcbe454ab63fffbf95716b3b",
+    "newSha256": "b246874d84c542cbdc528bc13985dba3466dc092fc4758c127f6b35a467a16ef"
+  },
+  {
+    "path": "content/hardware/apple-mac-studio-m2-max.md",
+    "url": "https://www.nucnas.top/review/apple-mac-studio-m2-max/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Mac Studio M2 Max 评测：专业创作者的最佳选择（来源待核查）",
+    "title": "Mac Studio M2 Max（2023）：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "芯片",
+        "claim": "M2 Max：12 核 CPU，30 核 GPU，可选 38 核 GPU",
+        "source": "https://support.apple.com/en-us/111835"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/111835"
+    ],
+    "unresolved": null,
+    "originalSha256": "75ea945c2a36984b1cc8e8ffc156810bc8c1cc6ac5a46605387b890627d4db4b",
+    "newSha256": "623aafc8988bf30c0152d6e34e6a240b9d83ab12643c384fde7d42923653db71"
+  },
+  {
+    "path": "content/hardware/apple-mac-studio-m2-ultra-review.md",
+    "url": "https://www.nucnas.top/review/apple-mac-studio-m2-ultra-%E6%B5%8B%E8%AF%84%E6%A1%8C%E9%9D%A2%E6%80%A7%E8%83%BD%E6%80%AA%E5%85%BD/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Apple Mac Studio M2 Ultra 测评：桌面性能怪兽（来源待核查）",
+    "title": "Mac Studio M2 Ultra（2023）：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "芯片",
+        "claim": "M2 Ultra：24 核 CPU，60 核 GPU，可选 76 核 GPU",
+        "source": "https://support.apple.com/en-us/111835"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/111835"
+    ],
+    "unresolved": null,
+    "originalSha256": "452a0cabfb243b0301f0b34c382c8582a881f167b5c4fc366364b980fc1b941c",
+    "newSha256": "f280b45770955fb1db19cb2e662bc1682d576fce810d9a1551ab465a551ffd0a"
+  },
+  {
+    "path": "content/hardware/asus-nuc-14-pro+.md",
+    "url": "https://www.nucnas.top/review/asus-nuc-14-pro-/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel NUC 14 Pro+ 全面评测：Ultra 9 + RTX 4070 最强迷你主机？（来源待核查）",
+    "title": "ASUS NUC 14 Pro+：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "系列处理器",
+        "claim": "官方发布资料列 Core Ultra 9、7 与 5 选项",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      },
+      {
+        "field": "图形与 AI",
+        "claim": "官方说明包含 Arc 图形与集成 NPU",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      }
+    ],
+    "sources": [
+      "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+    ],
+    "unresolved": null,
+    "originalSha256": "8b0fb9958eb3d6711e74f3a626b6d063c64513b935c0698a86a5ef81e06a63a2",
+    "newSha256": "2d5344d722548baf684f083c84af5220ba0eca653558914b7651b0091fab02f0"
+  },
+  {
+    "path": "content/hardware/asus-nuc-14-pro-plus-review.md",
+    "url": "https://www.nucnas.top/review/asus-nuc-14-pro-%E6%B5%8B%E8%AF%84%E5%95%86%E5%8A%A1%E7%BA%A7%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%A0%87%E6%9D%86/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "ASUS NUC 14 Pro+ 测评：商务级迷你主机标杆（来源待核查）",
+    "title": "ASUS NUC 14 Pro+：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "系列处理器",
+        "claim": "官方发布资料列 Core Ultra 9、7 与 5 选项",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      },
+      {
+        "field": "图形与 AI",
+        "claim": "官方说明包含 Arc 图形与集成 NPU",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      }
+    ],
+    "sources": [
+      "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+    ],
+    "unresolved": null,
+    "originalSha256": "5ed647fdce7c7b7aca5670bfb5c0b09c05c7485170bb9c5f24234f2f480e4ac4",
+    "newSha256": "858646e32ff4092995232f0677a2fe8aee79a9e69c01425ea12a5e2e69257b49"
+  },
+  {
+    "path": "content/hardware/asus-nuc-14-pro-plus.md",
+    "url": "https://www.nucnas.top/review/asus-nuc-14-pro-plus/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "NUC 14 Pro+ 评测：RTX 4070 扩展坞加持，性能直接起飞（来源待核查）",
+    "title": "ASUS NUC 14 Pro+：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "系列处理器",
+        "claim": "官方发布资料列 Core Ultra 9、7 与 5 选项",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      },
+      {
+        "field": "图形与 AI",
+        "claim": "官方说明包含 Arc 图形与集成 NPU",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      }
+    ],
+    "sources": [
+      "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+    ],
+    "unresolved": null,
+    "originalSha256": "7f5a7be8f9e79b44721dacabd5455f211d7a98e4f0a3cb9d164d6cd78b7dfc4f",
+    "newSha256": "3e84062903ce8a98eb8ea3a4ef065468ab4fed59a98d173ae476941df85aa682"
+  },
+  {
+    "path": "content/hardware/asus-nuc-14-pro.md",
+    "url": "https://www.nucnas.top/review/asus-nuc-14-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "ASUS NUC 14 Pro 评测：Intel Ultra 9 185H 迷你主机性能实测（来源待核查）",
+    "title": "ASUS NUC 14 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "产品形态",
+        "claim": "技术文档区分主板、套件与预装整机",
+        "source": "https://dlcdnets.asus.com/pub/ASUS/NUC/TPS/NUC14_Pro_ProPlus_TPS_1.6_20250415.pdf?model=NUC14RVS"
+      },
+      {
+        "field": "CPU 示例",
+        "claim": "文档列 NUC 14 Pro 的 Core Ultra 7 155H 与 Ultra 5 125H 配置",
+        "source": "https://dlcdnets.asus.com/pub/ASUS/NUC/TPS/NUC14_Pro_ProPlus_TPS_1.6_20250415.pdf?model=NUC14RVS"
+      }
+    ],
+    "sources": [
+      "https://dlcdnets.asus.com/pub/ASUS/NUC/TPS/NUC14_Pro_ProPlus_TPS_1.6_20250415.pdf?model=NUC14RVS"
+    ],
+    "unresolved": null,
+    "originalSha256": "56704e7d0e71ef637b4a433539593a984483313b9154260f96b705950c9ce883",
+    "newSha256": "4703eb430368426c42229ad8c1ecdb55d1185acc430e8063f842bdfe25556c5d"
+  },
+  {
+    "path": "content/hardware/asus-nuc-15-pro-2026.md",
+    "url": "https://www.nucnas.top/review/asus-nuc-15-pro-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "ASUS NUC 15 Pro深度评测：Intel Ultra 200U能否重塑商务迷你主机标杆？（来源待核查）",
+    "title": "ASUS NUC 15 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "平台",
+        "claim": "官方页面标明 Intel Core Ultra 系列 2",
+        "source": "https://www.asus.com/jp/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-15-pro/"
+      },
+      {
+        "field": "产品区分",
+        "claim": "NUC 15 Pro 应与 NUC 15 Pro+ 分开核对",
+        "source": "https://www.asus.com/jp/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-15-pro/"
+      }
+    ],
+    "sources": [
+      "https://www.asus.com/jp/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-15-pro/"
+    ],
+    "unresolved": null,
+    "originalSha256": "6aa086f89dcbbce55ef6f2cdadabe3937e298f6798d505335606f99ab11304fa",
+    "newSha256": "fcca4a9919ced1c10d3a31b0842e26e3d0d09a937bd29444950e03ce201c025a"
+  },
+  {
+    "path": "content/hardware/asus-rog-nuc-2025-review.md",
+    "url": "https://www.nucnas.top/review/asus-rog-nuc-2025-%E6%B5%8B%E8%AF%84%E6%9C%80%E5%BC%BA%E6%B8%B8%E6%88%8F%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "ASUS ROG NUC 2025 测评：最强游戏迷你主机（来源待核查）",
+    "title": "ROG NUC（2025）：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "系列范围",
+        "claim": "官方页面标明 ROG NUC（2025）",
+        "source": "https://rog.asus.com/desktops/mini-pc/rog-nuc-2025/"
+      },
+      {
+        "field": "最高配置",
+        "claim": "官方介绍最高 Core Ultra 9 与 RTX 5080 Laptop GPU",
+        "source": "https://rog.asus.com/desktops/mini-pc/rog-nuc-2025/"
+      }
+    ],
+    "sources": [
+      "https://rog.asus.com/desktops/mini-pc/rog-nuc-2025/"
+    ],
+    "unresolved": null,
+    "originalSha256": "39a847016c5af1e2391cce3d898a5fa67938b973d701db1564b451c9c8f59e8d",
+    "newSha256": "86948f463a1f410f656c1360a42ef720c9628d61b421b8772d83a92eb7743d81"
+  },
+  {
+    "path": "content/hardware/asus-rog-nuc-2026.md",
+    "url": "https://www.nucnas.top/review/asus-rog-nuc-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "ROG NUC 评测：RTX4070 独显迷你主机，光追游戏性能实测（来源待核查）",
+    "title": "ROG NUC 2026：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://rog.asus.com/desktops/mini-pc/rog-nuc-2025/"
+    ],
+    "unresolved": "已找到 ROG NUC（2025）官方页面，但不能以该页面证明旧稿所称 2026 型号。",
+    "originalSha256": "cb1d6b292fe9930139676e4b9636ff33835a4f91d40c1f8da9e9c317d4648937",
+    "newSha256": "c575cd155aff926b8346424edc8e23b036a7cb236ad133e8b19572c0ff1b338b"
+  },
+  {
+    "path": "content/hardware/asus-rog-nuc.md",
+    "url": "https://www.nucnas.top/review/asus-rog-nuc/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "ROG NUC 评测：游戏玩家的终极迷你主机，RTX 4070 性能炸裂（来源待核查）",
+    "title": "ROG NUC：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://rog.asus.com/desktops/mini-pc/rog-nuc-2025/"
+    ],
+    "unresolved": "旧稿没有完整销售代码和年份，2025 页不能证明旧款 CPU、GPU 与售价。",
+    "originalSha256": "9d12858a3ce24eed7a318b2aa4127f1c631724b88e2c6524e5c114278b76f608",
+    "newSha256": "7d1cdc037debb9966799c8a165787f9aea34942398551e454a97d4f21c055b43"
+  },
+  {
+    "path": "content/hardware/beelink-eq13-review.md",
+    "url": "https://www.nucnas.top/review/beelink-eq13%E8%AF%84%E6%B5%8Bn200%E5%A4%84%E7%90%86%E5%99%A8%E5%86%85%E7%BD%AE%E7%94%B5%E6%BA%90%E7%9A%84%E5%8A%9E%E5%85%AC%E7%A5%9E%E5%99%A8/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink EQ13评测：N200处理器内置电源的办公神器（来源待核查）",
+    "title": "Beelink EQ13：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "EQ13 官方资料列有 N100 / N200 版本",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=129"
+    ],
+    "unresolved": null,
+    "originalSha256": "052f0ac094b2b6e27992ac10d5dfe498565a5927d32f08a12014ad0b7ae4302c",
+    "newSha256": "ee3fc0d016790b1fe34c925bd49bae8ef0c7aecacbff2c93ddf6eaa9147be07d"
+  },
+  {
+    "path": "content/hardware/beelink-eq13.md",
+    "url": "https://www.nucnas.top/review/beelink-eq13/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink EQ13 评测：入门级迷你主机，性价比之选（来源待核查）",
+    "title": "Beelink EQ13：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "EQ13 官方资料列有 N100 / N200 版本",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "6da78f245b045520b22a771e94736083ec8cf52c86091d304c43d13d2c1f4ec8",
+    "newSha256": "392a16ee8a9ff589d8ba9ba37d22930b8e3a68ecf2e37012419837b5fad33a90"
+  },
+  {
+    "path": "content/hardware/beelink-gtr7-review.md",
+    "url": "https://www.nucnas.top/review/beelink-gtr7%E6%B7%B1%E5%BA%A6%E8%AF%84%E6%B5%8B7840hs-%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB-%E7%A3%81%E5%90%B8%E7%94%B5%E6%BA%90%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E5%A4%A9%E8%8A%B1%E6%9D%BF/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink GTR7深度评测：7840HS+指纹识别+磁吸电源，迷你主机天花板（来源待核查）",
+    "title": "Beelink GTR7：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列为 GTR7 7840HS",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=117"
+    ],
+    "unresolved": null,
+    "originalSha256": "fb4a3aea7f2a1562c918eb576c4aed920934c58d149fb2d0be184b107f47f0d9",
+    "newSha256": "a8c88d7361ad09710463c606e8cd69aa4bb855d2a4f1db8d9bfb6e0bb6dcb1e8"
+  },
+  {
+    "path": "content/hardware/beelink-gtr7.md",
+    "url": "https://www.nucnas.top/review/beelink-gtr7/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink GTR7 评测：AMD 7940HS + 32GB内存，性能党的最爱（来源待核查）",
+    "title": "Beelink GTR7：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列为 GTR7 7840HS",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "63682e9316d419c78bfe891c554861b968ee4ec958e1c3ef35dfcd4e602c2fbb",
+    "newSha256": "bd8e9c3c0cae25b212f919c4026228946e0bfeb932ea86ffa16d0127f5147188"
+  },
+  {
+    "path": "content/hardware/beelink-sei14.md",
+    "url": "https://www.nucnas.top/review/beelink-sei14/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink SEI14 评测：商务办公迷你主机新选择（来源待核查）",
+    "title": "Beelink SEi14：125H / 185H 版本核对：版本与资料入口",
+    "status": "reviewed",
+    "scope": "SEi14 的版本区分；不将商品页跳转视为历史版本证据。",
+    "claims": [
+      {
+        "field": "官方版本",
+        "claim": "文档目录列出 SEi14 125H 与 185H",
+        "source": "https://doc.bee-link.com.cn/shelves"
+      }
+    ],
+    "sources": [
+      "https://doc.bee-link.com.cn/shelves"
+    ],
+    "unresolved": null,
+    "originalSha256": "5e8dda21adc6a7a0109897ab5f1879beb9afd34f07819e631009c4358defb4cd",
+    "newSha256": "01a1a13cf9a1b7d844cad992967aebf87daeeca9008429a607619a5e9cb8cb69"
+  },
+  {
+    "path": "content/hardware/beelink-ser5.md",
+    "url": "https://www.nucnas.top/review/beelink-ser5/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink SER5 评测：AMD 5800H 性价比之选（来源待核查）",
+    "title": "Beelink SER5：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录区分 SER5 5500U、5560U、5700U 与 5800H",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=116"
+    ],
+    "unresolved": null,
+    "originalSha256": "d6e475df2519be837a466ce4f9e96fbb5b08565c40972352844e9ba99a3812a3",
+    "newSha256": "ebd8d6db1e21e69be40eb6625f3cc9667018ee6e341d06700eccc8b31caa8d59"
+  },
+  {
+    "path": "content/hardware/beelink-ser6.md",
+    "url": "https://www.nucnas.top/review/beelink-ser6/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink SER6 评测：AMD 6900HX 升级款（来源待核查）",
+    "title": "Beelink SER6：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录区分 SER6 6600H 与 SER6 6900HX",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=99"
+    ],
+    "unresolved": null,
+    "originalSha256": "2ec6db148872cc4fa42f1a2fa48689b51f5fa8cc42beda12e67899b49495b4c2",
+    "newSha256": "d5de1920defa7744f5e6d4a65fd761768ab186af6ddb5eb58ee645315521f69a"
+  },
+  {
+    "path": "content/hardware/beelink-ser7.md",
+    "url": "https://www.nucnas.top/review/beelink-ser7/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink SER7 评测：AMD 7840HS 性能怪兽来了（来源待核查）",
+    "title": "Beelink SER7：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列为 SER7 7840HS",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=122"
+    ],
+    "unresolved": null,
+    "originalSha256": "a0fd67c18a0822b5354db669779bd46986df63773ad2ad570472bd19a7530bd5",
+    "newSha256": "ea0b42cfb4e07fb5148594eb37cd60ab82ded24827c8acc5a0f021f2eebd0073"
+  },
+  {
+    "path": "content/hardware/beelink-ser8-8845hs-review-2026.md",
+    "url": "https://www.nucnas.top/review/beelink-ser8-8845hs-review/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink SER8 8845HS 实测：金属机身 + 极致静音（来源待核查）",
+    "title": "Beelink SER8 8845HS：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录分别列出 SER8 8845HS 与 SER8 8745HS",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=127"
+    ],
+    "unresolved": null,
+    "originalSha256": "23516937cf04d138c819d2f5856960b00eb187a145f1535c993b2d8e296d9378",
+    "newSha256": "e48e49b8031749119c0097098af4d261010bb8de880727c21607670713141189"
+  },
+  {
+    "path": "content/hardware/beelink-ser8-vs-minisforum-ms01-2026.md",
+    "url": "https://www.nucnas.top/review/beelink-ser8-vs-minisforum-ms-01%E9%94%90%E9%BE%998000%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%AD%A3%E9%9D%A2%E5%88%9A/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink SER8 vs Minisforum MS-01：锐龙8000迷你主机正面刚（来源待核查）",
+    "title": "SER8 8845HS 与 MS-01：需求比较：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU 版本",
+        "claim": "官方选项列 i5-12600H、i9-12900H、i9-13900H",
+        "source": "https://www.minisforum.com/products/minisforum-ms-01"
+      },
+      {
+        "field": "网络",
+        "claim": "官方列两个 10Gbps SFP+ 与两个 2.5Gbps RJ45 网口",
+        "source": "https://www.minisforum.com/products/minisforum-ms-01"
+      },
+      {
+        "field": "SER8 CPU",
+        "claim": "SER8 8845HS 官方页列 Ryzen 7 8845HS，8 核 16 线程",
+        "source": "https://www.bee-link.com/products/beelink-ser8-8845hs"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/products/minisforum-ms-01",
+      "https://www.bee-link.com/products/beelink-ser8-8845hs"
+    ],
+    "unresolved": null,
+    "originalSha256": "9b7b8d5c43f2e82dd5486cdeb2043d42bae0104c0430255c01edcfd8736d3da1",
+    "newSha256": "5c13246e108b6a3cc4f57db498eb72433bdcd7651d976c848fb31aa930a5e1cb"
+  },
+  {
+    "path": "content/hardware/beelink-ser8.md",
+    "url": "https://www.nucnas.top/review/beelink-ser8/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Beelink SER8 深度评测：AMD Ryzen 8845HS 最强迷你主机？（来源待核查）",
+    "title": "Beelink SER8 8845HS：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录分别列出 SER8 8845HS 与 SER8 8745HS",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "6a5d4ecd914678b9417f3fc860c9ac1b0e76e716414dc9369e300b11677b412d",
+    "newSha256": "33ad630484e013d86263aa6f417050227fb86f2e254099dde487c6617ecea1a8"
+  },
+  {
+    "path": "content/hardware/beelink-ser9-review-2026.md",
+    "url": "https://www.nucnas.top/review/beelink-ser9-review-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 SER9 深度测评：AMD Ryzen AI 9 HX 370 性能数据实测报告（来源待核查）",
+    "title": "Beelink SER9：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列有 SER9 HX370 / AI365；另列 SER9 Pro255",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=137"
+    ],
+    "unresolved": null,
+    "originalSha256": "e356ef2bde594e08375c39b8a6c7453f1ed15abe1f2fcfa4905cf9ef0f5d98ae",
+    "newSha256": "3409d79d9bb5ae191416e91f866454c253f5254924e6e4b139988373074c3a1a"
+  },
+  {
+    "path": "content/hardware/changwang-soft-router-n100.md",
+    "url": "https://www.nucnas.top/review/changwang-soft-router-n100/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "软路由新选择：Changwang N100 评测（来源待核查）",
+    "title": "畅网 N100 软路由：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": "Soft Router N100 是用途与 CPU 描述，缺少具体主板或整机代码；不能核实网卡、端口和供电。",
+    "originalSha256": "5e4b61ec13abe4725b1eaf28e16687660f77ef0b714c1a95d6e06ad73c1251ed",
+    "newSha256": "91a0157a58175935228811de16630c9a843159d7d0380422bb64fafc42e34345"
+  },
+  {
+    "path": "content/hardware/eq12-pro.md",
+    "url": "https://www.nucnas.top/review/eq12-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 EQ12 Pro 评测：Intel N100 高性价比（来源待核查）",
+    "title": "Beelink EQ12 / EQ12 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录将 EQ12 与 EQ12 Pro 列在同一支持条目",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=114"
+    ],
+    "unresolved": null,
+    "originalSha256": "60209ccae3e18d0486842426d9ca5eb67df2989b6d598465eb47c2a9868005b6",
+    "newSha256": "c232ff09063cab963d550ecf7964b1c22d061d0688f66f15326ec9ae3c1bde8c"
+  },
+  {
+    "path": "content/hardware/eq12.md",
+    "url": "https://www.nucnas.top/review/eq12/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 EQ12 评测：Intel N100 入门级（来源待核查）",
+    "title": "Beelink EQ12 / EQ12 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录将 EQ12 与 EQ12 Pro 列在同一支持条目",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "c24023901628d8df1f37a947537c21fd6b151bb03aacaff35ae296b1e24cd761",
+    "newSha256": "1563074def5b92efb1a7324f451a70073860206a02dc6453686334fa2bb3f9da"
+  },
+  {
+    "path": "content/hardware/eq59-pro.md",
+    "url": "https://www.nucnas.top/review/eq59-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 EQ59 Pro 评测：Intel N5105 办公神器（来源待核查）",
+    "title": "Beelink EQ59 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录存在 EQ59 Pro 独立条目",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=108"
+    ],
+    "unresolved": null,
+    "originalSha256": "2d90345ffa50d61ec2cc2ad090a83af454934ee28f40af387dfc28348695a0d3",
+    "newSha256": "3941b27d25495e159011266eab754b0a715508554d9c6a0f5879e850142ebf87"
+  },
+  {
+    "path": "content/hardware/eqr5.md",
+    "url": "https://www.nucnas.top/review/eqr5/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 EQR5 评测：AMD 5800H 入门级（来源待核查）",
+    "title": "Beelink EQR5：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": "支持目录有 EQR5，但还缺少旧稿 CPU 与扩展配置的对应说明书。",
+    "originalSha256": "fdfc930a8c2196f5525da1aed75c94c2e3f60bc8d4ca4cd47783e1003801597a",
+    "newSha256": "d029459a43f99d41c3aefb736487a5f079d7ddce1c3e39b26982524014051268"
+  },
+  {
+    "path": "content/hardware/eqr6.md",
+    "url": "https://www.nucnas.top/review/eqr6/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 EQR6 评测：AMD 6600H 高性价比之选（来源待核查）",
+    "title": "Beelink EQR6：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "官方文档目录列为 EQR6 7735HS",
+        "source": "https://doc.bee-link.com.cn/shelves"
+      }
+    ],
+    "sources": [
+      "https://doc.bee-link.com.cn/shelves"
+    ],
+    "unresolved": null,
+    "originalSha256": "ec93b15806586130c26713f3e813902d66cc4285141cffd063d0211dd6e2044c",
+    "newSha256": "b282d19eb4a056fc2d742e00a2069199ffc958e70dd8ad45eda0649e03c4d498"
+  },
+  {
+    "path": "content/hardware/gmk-k13-ultra.md",
+    "url": "https://www.nucnas.top/review/gmk-k13-ultra-256v/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "极摩客 K13 Ultra 深度测评：Intel Core Ultra 7 256V 核显性能实测（来源待核查）",
+    "title": "GMKtec NucBox K13：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "Core Ultra 7 256V",
+        "source": "https://de.gmktec.com/products/gmktec-k13-intel%C2%AE-core%E2%84%A2-ultra-7-256v"
+      },
+      {
+        "field": "内存",
+        "claim": "官方欧区页面列 16GB 板载 LPDDR5X，不可扩展",
+        "source": "https://de.gmktec.com/products/gmktec-k13-intel%C2%AE-core%E2%84%A2-ultra-7-256v"
+      }
+    ],
+    "sources": [
+      "https://de.gmktec.com/products/gmktec-k13-intel%C2%AE-core%E2%84%A2-ultra-7-256v"
+    ],
+    "unresolved": null,
+    "originalSha256": "310d407976f7c6f518d95fa6f352cf112359659bfb2612c22cd3d6f7c91c031e",
+    "newSha256": "3289862704d9d1a2e7b4f5d674f035dc65115f5f9f7f67035ab011f3e62090b5"
+  },
+  {
+    "path": "content/hardware/gmktec-g3-review.md",
+    "url": "https://www.nucnas.top/review/gmktec-g3%E8%AF%84%E6%B5%8Bn100%E7%99%BE%E5%85%83%E7%A5%9E%E6%9C%BA%E6%80%A7%E4%BB%B7%E6%AF%94%E4%B9%8B%E7%8E%8B%E6%9D%A5%E4%BA%86/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "GMKtec G3评测：N100百元神机！性价比之王来了（来源待核查）",
+    "title": "GMKtec NucBox G3 N100：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU 版本",
+        "claim": "厂商欧区页面明确列 G3 Intel N100",
+        "source": "https://de.gmktec.com/en/products/gmktec-nucbox-g3-intel%C2%AE-alder-lake-n100"
+      },
+      {
+        "field": "版本区分",
+        "claim": "G3 Plus、G3S、G3 Pro 是不同销售名称",
+        "source": "https://de.gmktec.com/en/products/gmktec-nucbox-g3-intel%C2%AE-alder-lake-n100"
+      }
+    ],
+    "sources": [
+      "https://de.gmktec.com/en/products/gmktec-nucbox-g3-intel%C2%AE-alder-lake-n100"
+    ],
+    "unresolved": null,
+    "originalSha256": "acf36deb9a526193d80653d59eb2e2e25af1f8f1659f4b694db54cf0cabd3d10",
+    "newSha256": "4a2e12375d993f3bb5517a0740d539c1410411730b809406e36c6f200e976b82"
+  },
+  {
+    "path": "content/hardware/gmktec-k5-plus.md",
+    "url": "https://www.nucnas.top/review/gmktec-k5-plus/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "GMKTEC K5 Plus 评测：AMD 5800H 入门首选（来源待核查）",
+    "title": "GMKtec K5 Plus：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.gmktec.com/pages/drivers-and-software"
+    ],
+    "unresolved": "支持目录列 K5，尚未确认 K5 Plus 的独立型号与正式规格；不以 K5 资料代替。",
+    "originalSha256": "6e66eb19f717869386fd88f0ea10f8c923c1699900fd0f500c0ba78ed93d1d80",
+    "newSha256": "a60e94a95a59b676933482cacb9b7d99e96ce4aa715601729465ec784ce218ba"
+  },
+  {
+    "path": "content/hardware/gmktec-k6.md",
+    "url": "https://www.nucnas.top/review/gmktec-k6/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "GMKTEC K6 评测：AMD 6900HX 高性价比之选（来源待核查）",
+    "title": "GMKtec NucBox K6：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "官方产品页标明 Ryzen 7 7840HS",
+        "source": "https://www.gmktec.com/products/amd-ryzen-7-7840hs-mini-pc-nucbox-k6"
+      }
+    ],
+    "sources": [
+      "https://www.gmktec.com/products/amd-ryzen-7-7840hs-mini-pc-nucbox-k6"
+    ],
+    "unresolved": null,
+    "originalSha256": "1fa4cab9cb4eb65e33615326fbfc0e80c8c8c7ce7cb7ff38410a621560c77ae9",
+    "newSha256": "0f7a1c89396aa09e53399d374232261dfd6122b098005fe23bca127c7c81a28c"
+  },
+  {
+    "path": "content/hardware/gmktec-k8.md",
+    "url": "https://www.nucnas.top/review/gmktec-k8/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "GMKTEC K8 评测：AMD Ryzen 7 8845HS 迷你主机，性能与体积的完美平衡（来源待核查）",
+    "title": "GMKtec K8：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.gmktec.com/pages/drivers-and-software"
+    ],
+    "unresolved": "支持中心列 K8；当前 K8 Plus 商品资料不能证明旧 K8 的全部端口和配置。",
+    "originalSha256": "9718dbb1cf347ec0bb36c82146af2827995b3930938190d2064490eea826a4e9",
+    "newSha256": "a4f83827960044083c827341b07d85912b59e33dbf7cb428da756ecdbc65c0da"
+  },
+  {
+    "path": "content/hardware/gmktec-k9.md",
+    "url": "https://www.nucnas.top/review/gmktec-k9/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "GMKtec K9 评测：Ultra 125H双风扇强劲散热，雷电4全速连接（来源待核查）",
+    "title": "GMKtec NucBox K9：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "Core Ultra 5 125H，14 核 18 线程",
+        "source": "https://www.gmktec.com/products/intel-ultra-5-125h-mini-pc-nucbox-k9"
+      },
+      {
+        "field": "内存",
+        "claim": "官方页面列双 SO-DIMM DDR5-5600，最高 96GB",
+        "source": "https://www.gmktec.com/products/intel-ultra-5-125h-mini-pc-nucbox-k9"
+      }
+    ],
+    "sources": [
+      "https://www.gmktec.com/products/intel-ultra-5-125h-mini-pc-nucbox-k9"
+    ],
+    "unresolved": null,
+    "originalSha256": "f44fd0c4a16a4479b623a333869425cad4785d79879fc2aa2223215f122064ee",
+    "newSha256": "c895bed5cfbf3ada56b991e8a15b64280979518017fc3a20fed255c6b58eac70"
+  },
+  {
+    "path": "content/hardware/gmktec-nucbox-k8-review.md",
+    "url": "https://www.nucnas.top/review/%E6%9E%81%E6%91%A9%E5%AE%A2-nucbox-k8-%E6%B5%8B%E8%AF%84ryzen-7-8845hs-%E6%80%A7%E4%BB%B7%E6%AF%94%E4%B9%8B%E7%8E%8B/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "极摩客 Nucbox K8 测评：Ryzen 7 8845HS 性价比之王（来源待核查）",
+    "title": "GMKtec NucBox K8：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.gmktec.com/pages/drivers-and-software"
+    ],
+    "unresolved": "原稿型号与当前 K8 Plus 容易混用，缺少该旧款完整规格及原始评测记录。",
+    "originalSha256": "8c39be5976124d253a23e76d5db52a4017b01827e6bc9f8ad8cc4243e39d81a4",
+    "newSha256": "291eb174f30f38ac1c056fe0713e29f301ee577637c14ae3d8b9573b37b87b4e"
+  },
+  {
+    "path": "content/hardware/gtr.md",
+    "url": "https://www.nucnas.top/review/gtr/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 GT-R 评测：Intel i9-12900HK 旗舰迷你主机（来源待核查）",
+    "title": "Beelink GT-R：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列为 GTR 3750H，并另列 GTR Pro 3550H",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "a6b1899fefbc6835b1177d1d0bb7073542e57e6f2f19fc0f1f404e722197cb27",
+    "newSha256": "a58fbaba662ccee0033b53a282ec48952f6a0de6c73cb5a1c4101cf0c82d2ed0"
+  },
+  {
+    "path": "content/hardware/gtr5.md",
+    "url": "https://www.nucnas.top/review/gtr5/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 GTR5 评测：AMD 5900HX 旗舰迷你主机（来源待核查）",
+    "title": "Beelink GTR5：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列为 GTR5 5900HX",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=42"
+    ],
+    "unresolved": null,
+    "originalSha256": "59d68edd9c022c47d10fccfbcf4e9b0634aedf014e9e72e4aaaa1959b5fb2d97",
+    "newSha256": "c3efb6de1ee1eef66c389c93bbfc58f5def69bbf8a5bfb484161cd4bd2d7bfca"
+  },
+  {
+    "path": "content/hardware/gtr6.md",
+    "url": "https://www.nucnas.top/review/gtr6/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 GTR6 评测：AMD 6900HX 旗舰版（来源待核查）",
+    "title": "Beelink GTR6：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列为 GTR6 6900HX",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=93"
+    ],
+    "unresolved": null,
+    "originalSha256": "5964af3d26920c1955e79905583e7037f2a5aa4f91ca72d816105261fd9c8f3a",
+    "newSha256": "d88d63c6fd7526517ca51bfaef6fc83d6020b488103c395651acbb637d5135a4"
+  },
+  {
+    "path": "content/hardware/gtr7-7940hs.md",
+    "url": "https://www.nucnas.top/review/gtr7-7940hs/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 GTR7 评测：AMD 7940HS 顶级旗舰（来源待核查）",
+    "title": "Beelink GTR7 7940HS：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": "官方支持列表 GTR7 标为 7840HS；旧稿 7940HS 可能涉及不同 Pro 版本，尚缺直接证据。",
+    "originalSha256": "15a939be3419bb573bc10a290b09bffb0af80fae14cdc2d46c7fbf761551ec36",
+    "newSha256": "6b170136c41d6fc997284cf4a5d647ac70e8396f6b54dbfd15a402ad8b1554c0"
+  },
+  {
+    "path": "content/hardware/gtr8.md",
+    "url": "https://www.nucnas.top/review/gtr8/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 GTR8 评测：AMD 8845HS 顶级旗舰（来源待核查）",
+    "title": "Beelink GTR8：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": "当前产品与文档目录没有找到可对应旧稿的正式 GTR8 产品规格。型号出现在认证或讨论中不等于该配置已销售。",
+    "originalSha256": "3dcb3118598c4b48110f2ef769f2087e42d157e65ef3bde8c19f9fba95426b30",
+    "newSha256": "ad7ba0de8b63477b9950356bac813f9c8d5094f23a3a1fcff70259bf14fe6ed6"
+  },
+  {
+    "path": "content/hardware/intel-core-ultra-200v-2026.md",
+    "url": "https://www.nucnas.top/review/intel-core-ultra-200v-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel Core Ultra 200V系列发布：最强核显轻薄本来了？（来源待核查）",
+    "title": "Intel Core Ultra 200V：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "系列名称",
+        "claim": "Core Ultra 200V 是 Intel 的移动处理器系列",
+        "source": "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+      },
+      {
+        "field": "图形平台",
+        "claim": "Intel 系列资料列出 Arc 图形与 AI 功能",
+        "source": "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "8a2bf0340395eac04899df91701d6e80dcce9158fa64ae051b6f420749e8cc88",
+    "newSha256": "1ab86cadf08f12e6f5b21954909669e058e02faf3a33be28060266245b7af416"
+  },
+  {
+    "path": "content/hardware/intel-n150-hasee-review-2026.md",
+    "url": "https://www.nucnas.top/review/intel-n150%E6%9D%A5%E4%BA%86%E7%A5%9E%E8%88%9Fpc%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E5%85%A5%E9%97%A8%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%96%B0%E9%80%89%E6%8B%A9/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150来了！神舟PC新品发布，入门迷你主机新选择（来源待核查）",
+    "title": "神舟 N150 迷你主机：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": "原稿未给出完整神舟整机代码；Intel N150 规格无法证明神舟机器的端口、内存或待机功耗。",
+    "originalSha256": "f38b990205e347d5092d976bed3d9b182ef7d89dfe93f459064a39d25176f158",
+    "newSha256": "2233c06bb772fa8aa84f4370b9c902229e888b09a366fe86f8fbe535ed5012c5"
+  },
+  {
+    "path": "content/hardware/intel-n150-mini-pc-review.md",
+    "url": "https://www.nucnas.top/review/intel-n150-%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E8%AF%84%E6%B5%8B%E5%AF%B9%E6%AF%94-n100-%E5%85%A8%E9%9D%A2%E5%8D%87%E7%BA%A7%E6%80%A7%E8%83%BD%E6%8F%90%E5%8D%87%E6%98%BE%E8%91%97/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150 迷你主机评测：对比 N100 全面升级，性能提升显著（来源待核查）",
+    "title": "Intel N 系列选型：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150 / N100",
+        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "Core i3-N305 / N350",
+        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "2886ad292c8accb71aab9169c99fe655a2766c3a6c3a44c876296b9ecf18dcc2",
+    "newSha256": "d8b868fbc188453b527af8d8a9893a930eba88f2b46bf78d9505e7bf20fdafe9"
+  },
+  {
+    "path": "content/hardware/intel-n150-minipc-comparison-2026-03-08.md",
+    "url": "https://www.nucnas.top/review/intel-n150-minipc-comparison-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150 迷你主机对比：5 款热门机型实测，性价比之王是谁？（来源待核查）",
+    "title": "Intel N 系列选型：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150 / N100",
+        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "Core i3-N305 / N350",
+        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "127fbc58b5a47b524a14744dd4e2cfa5357853943d81cdbb2bcba5919dd13d0d",
+    "newSha256": "80716f30db2689a997dc8551a62b062b14e53039e1de9c8a9bbd422b433c2ee0"
+  },
+  {
+    "path": "content/hardware/intel-n150-n100-n305-comparison-2026.md",
+    "url": "https://www.nucnas.top/review/intel-n150-minipc-comparison/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150 迷你主机横评：N100/N150/N305 性能对比，选购指南（来源待核查）",
+    "title": "Intel N 系列选型：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150 / N100",
+        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "Core i3-N305 / N350",
+        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "2d889c38f2ba1438c4305beab526e7544d8786322ba11448e6dbd0a5309830e7",
+    "newSha256": "0491d2a4635cce6e3cb0625ebc15208d3784d1b4d266024f54334965f95a6557"
+  },
+  {
+    "path": "content/hardware/intel-n150-vs-n100-comparison.md",
+    "url": "https://www.nucnas.top/review/intel-n150-vs-n100-comparison/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150  vs N100 迷你主机性能对比：升级幅度有多大？（来源待核查）",
+    "title": "Intel N 系列选型：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150 / N100",
+        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "Core i3-N305 / N350",
+        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "1b7405ae7c55c9b8c27d85db1d38b1029cc5fc1918c02f858d22879d66b1b3cc",
+    "newSha256": "f9a810cb913c7c4f245620b294a7eec5b6ca544d7402491b71f7b06ff25e8015"
+  },
+  {
+    "path": "content/hardware/intel-n150-vs-n100-n305-2026.md",
+    "url": "https://www.nucnas.top/review/intel-n150-vs-n100-n305-comparison/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N150 vs N100 vs N305：2026年迷你主机处理器怎么选（来源待核查）",
+    "title": "Intel N 系列选型：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150 / N100",
+        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "Core i3-N305 / N350",
+        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "667315e53976eb068c1210cf9c58d6501aa9261cea27a0228fb1d1253ae359ef",
+    "newSha256": "bfe9e9105c7deedb4f0bdecf4aefc68a2be88361ad6efa0df8ae66bcdc4694f5"
+  },
+  {
+    "path": "content/hardware/intel-n350-release-2026.md",
+    "url": "https://www.nucnas.top/review/intel-n350%E5%A4%84%E7%90%86%E5%99%A8%E5%8F%91%E5%B8%83%E5%85%A5%E9%97%A8%E7%BA%A7%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%96%B0%E9%80%89%E6%8B%A9/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel N350处理器发布：入门级迷你主机新选择（来源待核查）",
+    "title": "Intel N350：核心数量与选型核对：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150 / N100",
+        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "Core i3-N305 / N350",
+        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "47017db41e2ce5a195c0cf32bd20f62fc889bdc1845af2d96e3eba0d1087f5a5",
+    "newSha256": "400c70c94a6c8689f4f2033bf8f9bdfacc18935e06965003e1b35a94882f628b"
+  },
+  {
+    "path": "content/hardware/intel-nuc-12-extreme.md",
+    "url": "https://www.nucnas.top/review/intel-nuc-12-extreme/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel NUC 12 Extreme 评测：独显加持的性能怪兽（来源待核查）",
+    "title": "NUC 12 Extreme：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU 版本",
+        "claim": "NUC12DCMi9：i9-12900；NUC12DCMi7：i7-12700",
+        "source": "https://www.asus.com/ea/displays-desktops/nucs/nuc-kits/nuc-12-extreme-kit/techspec/"
+      },
+      {
+        "field": "内存",
+        "claim": "官方规格列两个 DDR4 SO-DIMM 槽，最高 64GB",
+        "source": "https://www.asus.com/ea/displays-desktops/nucs/nuc-kits/nuc-12-extreme-kit/techspec/"
+      }
+    ],
+    "sources": [
+      "https://www.asus.com/ea/displays-desktops/nucs/nuc-kits/nuc-12-extreme-kit/techspec/"
+    ],
+    "unresolved": null,
+    "originalSha256": "5cb5f426e6b92021618c6df4b362dac9e9588fdcf97c0e800d278c577324e275",
+    "newSha256": "49233d5a9e2d792ab1882e994d9ddbf796f210e60d479b4d70afa76a65a13cfd"
+  },
+  {
+    "path": "content/hardware/intel-nuc-13-extreme.md",
+    "url": "https://www.nucnas.top/review/intel-nuc-13-extreme/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel NUC 13 Extreme 评测：13代i9 + RTX 4080 性能怪兽（来源待核查）",
+    "title": "NUC 13 Extreme：版本与资料入口",
+    "status": "reviewed",
+    "scope": "产品识别与选型方法；不提供未经核验的整机参数表。",
+    "claims": [
+      {
+        "field": "系列",
+        "claim": "ASUS 官方列出 NUC 13 Extreme Kit 独立产品",
+        "source": "https://www.asus.com/uk/displays-desktops/nucs/nuc-kits/nuc-13-extreme-kit/"
+      }
+    ],
+    "sources": [
+      "https://www.asus.com/uk/displays-desktops/nucs/nuc-kits/nuc-13-extreme-kit/"
+    ],
+    "unresolved": null,
+    "originalSha256": "706f591df0871a4280332185e12f6461a71806b1c258e3510e8bb42b3300b1a2",
+    "newSha256": "a1f8f2c233c2111a90084d7e650d78271f33dbe3dfdcc1db963654da993ed12e"
+  },
+  {
+    "path": "content/hardware/intel-nuc-13-pro.md",
+    "url": "https://www.nucnas.top/review/intel-nuc-13-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel NUC 13 Pro 评测：最后一代纯血统 NUC（来源待核查）",
+    "title": "ASUS NUC 13 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU 示例",
+        "claim": "官方规格列 i5-1340P 与 i7-1360P 等不同选项",
+        "source": "https://www.asus.com/ph/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-13-pro/techspec/"
+      },
+      {
+        "field": "系统范围",
+        "claim": "部分版本没有预装系统，官方单列支持系统",
+        "source": "https://www.asus.com/ph/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-13-pro/techspec/"
+      }
+    ],
+    "sources": [
+      "https://www.asus.com/ph/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-13-pro/techspec/"
+    ],
+    "unresolved": null,
+    "originalSha256": "9c47147efacdc5e1a348b4dc2329cdd8fbae135c72b825f64cef66023e172a61",
+    "newSha256": "a20892b490e6a75e1dce228e927b5d743e5dc7b51511c93c4aecf5449b031ffe"
+  },
+  {
+    "path": "content/hardware/intel-nuc-14-pro-plus-review-2026.md",
+    "url": "https://www.nucnas.top/review/intel-nuc-14-pro-plus-review/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel NUC 14 Pro+ 实测：迷你主机性能天花板？（来源待核查）",
+    "title": "ASUS NUC 14 Pro+：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "系列处理器",
+        "claim": "官方发布资料列 Core Ultra 9、7 与 5 选项",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      },
+      {
+        "field": "图形与 AI",
+        "claim": "官方说明包含 Arc 图形与集成 NPU",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      }
+    ],
+    "sources": [
+      "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+    ],
+    "unresolved": null,
+    "originalSha256": "cfb3199ce49dfe0323ce4eb537ae4f9fe694f60d797c6e4ec8d6925d4ef635ac",
+    "newSha256": "764e50ca370ceada779e36f59280fd96317cb964008b1c64c37201a156c6cdbc"
+  },
+  {
+    "path": "content/hardware/intel-ultra-200v-release-2026.md",
+    "url": "https://www.nucnas.top/review/intel-ultra-200v-release/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Intel Ultra 200V 系列发布：Lunar Lake 架构全面更新（来源待核查）",
+    "title": "Intel Core Ultra 200V：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "系列名称",
+        "claim": "Core Ultra 200V 是 Intel 的移动处理器系列",
+        "source": "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+      },
+      {
+        "field": "图形平台",
+        "claim": "Intel 系列资料列出 Arc 图形与 AI 功能",
+        "source": "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "28ff1942973c7f42a8b0c4f899db0618b70e1a8da14f6ee8313b348f60ce247c",
+    "newSha256": "c693fc348511d722eb72c95d9b6c8352510c8e3f1708451ff21d535f2d331dbf"
+  },
+  {
+    "path": "content/hardware/intel-vs-amd-benchmark-2026.md",
+    "url": "https://www.nucnas.top/review/%E4%BD%A0%E7%9A%84%E4%B8%BB%E6%9C%BA%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94intel-ultra-vs-amd-%E9%94%90%E9%BE%998000/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "你的主机性能对比：Intel Ultra vs AMD 锐龙8000（来源待核查）",
+    "title": "Intel 与 AMD：怎样比较基准测试：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "Intel 官方系列资料给出平台功能，不能证明两台整机的实测差距。",
+        "source": "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "5e8d8b55cf54b01575bb9aab5e4e8ee2e01bf2b50767023d503372ff05a4463b",
+    "newSha256": "bcc1e4b543ff84e7ca7061e5e34a189221e2ef41f6cce462e154dd0ffcee2124"
+  },
+  {
+    "path": "content/hardware/khadas-mind.md",
+    "url": "https://www.nucnas.top/review/khadas-mind/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Khadas Mind 评测：模块化设计内置电池，移动工作站新物种（来源待核查）",
+    "title": "Khadas Mind（初代）：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "版本",
+        "claim": "标准版 i5-1340P，Premium 版 i7-1360P",
+        "source": "https://www.khadas.com/product-page/mind"
+      }
+    ],
+    "sources": [
+      "https://www.khadas.com/product-page/mind"
+    ],
+    "unresolved": null,
+    "originalSha256": "9ffcf30cf773c4aa05d9452be6a3f7e5079cad3682a614614a47d3ff2d386f18",
+    "newSha256": "7677f620f5c07d439ef1fee78d17a39d221c7ade8fd578d7b346c7334f7a7729"
+  },
+  {
+    "path": "content/hardware/mac-mini-m1.md",
+    "url": "https://www.nucnas.top/review/mac-mini-m1/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "M1 苹果迷你主机 评测：Apple M1 芯片（来源待核查）",
+    "title": "Mac mini M1（2020）：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "芯片",
+        "claim": "M1：8 核 CPU、8 核 GPU",
+        "source": "https://support.apple.com/en-us/111894"
+      },
+      {
+        "field": "内存",
+        "claim": "统一内存 8GB，可配置 16GB",
+        "source": "https://support.apple.com/en-us/111894"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/111894"
+    ],
+    "unresolved": null,
+    "originalSha256": "45dd1f3031ab3da7191165aa8a4c8ab7fd1165f7deccd793b20822c259024fb6",
+    "newSha256": "ab0f6a307a7c11ed52502daa777f96c6555c2ed2a48be8ef9b502da2634d2bcd"
+  },
+  {
+    "path": "content/hardware/mac-mini-m2.md",
+    "url": "https://www.nucnas.top/review/mac-mini-m2/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "M2 苹果迷你主机 评测：Apple M2 芯片升级版（来源待核查）",
+    "title": "Mac mini M2（2023）：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "芯片",
+        "claim": "M2：8 核 CPU、10 核 GPU",
+        "source": "https://support.apple.com/en-us/111837"
+      },
+      {
+        "field": "版本边界",
+        "claim": "同代还有 M2 Pro，不能与普通 M2 混用配置",
+        "source": "https://support.apple.com/en-us/111837"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/111837"
+    ],
+    "unresolved": null,
+    "originalSha256": "607696429ddbc3003667f144161c7d9e82f1b926384f1dd2e60d3d3d5f2b40de",
+    "newSha256": "37582f1e2bcb6172bac6e63ca8847db2d179c066c09d922d5f4d2db509871a92"
+  },
+  {
+    "path": "content/hardware/machenike-creator-mini-review.md",
+    "url": "https://www.nucnas.top/review/%E6%9C%BA%E6%A2%B0%E5%B8%88-%E5%88%9B%E7%89%A9%E8%80%85-mini-%E6%B5%8B%E8%AF%84i7-13620h-%E9%AB%98%E6%80%A7%E8%83%BD%E5%95%86%E5%8A%A1%E4%B8%BB%E6%9C%BA/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "机械师 创物者 Mini 测评：i7-13620H 高性能商务主机（来源待核查）",
+    "title": "机械师 Creator Mini：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [],
+    "unresolved": "未取得对应 Creator Mini 的正式型号代码与官方规格文档。",
+    "originalSha256": "65a6acfd11ef4db8d6ecebe5f85abc4b0286255bcc8523aca4cb2634fd4b83c4",
+    "newSha256": "2317d5c3e70ef80c44ea1e1b80264b3087e026fb99369e16559ab02bf3a4a9a1"
+  },
+  {
+    "path": "content/hardware/mechrevo-imini-pro-review.md",
+    "url": "https://www.nucnas.top/review/%E6%9C%BA%E6%A2%B0%E9%9D%A9%E5%91%BDimini-pro%E8%AF%84%E6%B5%8Bultra-5-%E7%8E%BB%E7%92%83%E9%A1%B6%E7%9B%96%E6%B8%B8%E6%88%8F%E9%A3%8E%E6%A0%BC%E6%A1%8C%E9%9D%A2%E4%B8%BB%E6%9C%BA/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "机械革命imini Pro评测：Ultra 5+玻璃顶盖，游戏风格桌面主机（来源待核查）",
+    "title": "机械革命 imini Pro：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [],
+    "unresolved": "未取得对应 imini Pro 的正式型号代码与官方规格文档。",
+    "originalSha256": "4e8a7931f00b5785fb8e0cf3aa0cab21f470ea9f0ae114b2190343131adc49fc",
+    "newSha256": "640f9467ba4a4487203d51aca1ab2e6b1244d3e5b7023db613bb17a1cc43cfb0"
+  },
+  {
+    "path": "content/hardware/mini-pc-accessories-2026.md",
+    "url": "https://www.nucnas.top/review/mini-pc-accessories-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "迷你主机配件全解析：提升使用体验与性能的必备装备（来源待核查）",
+    "title": "迷你主机配件：按连接需求选型：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "小米官方说明其 Thunderbolt 4 支持显示、数据与对外供电，不支持主机受电。",
+        "source": "https://www.mi.com/computer-mini"
+      }
+    ],
+    "sources": [
+      "https://www.mi.com/computer-mini"
+    ],
+    "unresolved": null,
+    "originalSha256": "eb528f17e9e871f6416135f671be6c364273f2e7a57f128e918c105b6d740fd2",
+    "newSha256": "fd75d892195b1526b4aaca798b73ac8c375bed5601b0514e29ddc79a176ce0ce"
+  },
+  {
+    "path": "content/hardware/mini-pc-recommendation-2026.md",
+    "url": "https://www.nucnas.top/review/mini-pc-recommendation-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "2026年迷你主机推荐：最值得购买的10款（来源待核查）",
+    "title": "迷你主机选购：从需求到具体 SKU：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "Intel 对照表区分 N100、N150 与 N305 等型号，核心数和频率不能代表整机体验。",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "ff837e9d111a8422f018c3d00e42e504d3208d5e3b78be66cdb47a5b8cbbb37c",
+    "newSha256": "02a93c1a37cb63c500a0e6ac47b29972f23cf6123989173f3abfd93cbb3f9892"
+  },
+  {
+    "path": "content/hardware/minipc-accessories-recommend-2026.md",
+    "url": "https://www.nucnas.top/review/minipc-accessories-recommend-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "迷你主机配件推荐：2026年这些配件值得入手（来源待核查）",
+    "title": "迷你主机配件清单：先核对接口：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "小米迷你主机的 HDMI 2.1 为 TMDS，官方限定最高带宽 18Gbps。",
+        "source": "https://www.mi.com/computer-mini"
+      }
+    ],
+    "sources": [
+      "https://www.mi.com/computer-mini"
+    ],
+    "unresolved": null,
+    "originalSha256": "012cf5e2896dd2396b1ee49b6eaccb7d5c7214327c300b977da40a3f88fd7e32",
+    "newSha256": "9fbed536de932ca7d3bd1a1e542ec662747afce021717b3f45e6e90bfd347508"
+  },
+  {
+    "path": "content/hardware/minipc-buying-guide-2026-spring.md",
+    "url": "https://www.nucnas.top/review/minipc-buying-guide-2026-spring/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "2026年迷你主机选购指南：按需求对号入座（来源待核查）",
+    "title": "迷你主机选购：核对准系统和整机：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "Apple 的 2024 Mac mini 技术规格分别列 M4 与 M4 Pro 的配置选项。",
+        "source": "https://support.apple.com/en-us/121555"
+      }
+    ],
+    "sources": [
+      "https://support.apple.com/en-us/121555"
+    ],
+    "unresolved": null,
+    "originalSha256": "b826c6aa7ba9bd1058d551e47e8ca0ae29f6500146b9bea6a96e871fccbde9fd",
+    "newSha256": "6060ad144b097d842fcf6029b7238b8663d90eea68c3c47270db7d164e5364c1"
+  },
+  {
+    "path": "content/hardware/minipc-cooling-solution-2026.md",
+    "url": "https://www.nucnas.top/review/minipc-cooling-solution-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "迷你主机散热方案：如何让机器保持低温 2026（来源待核查）",
+    "title": "迷你主机散热：怎样验证持续负载：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "SER8 官方页面明确对应 8845HS 配置；规格不等于持续负载测量。",
+        "source": "https://www.bee-link.com/products/beelink-ser8-8845hs"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com/products/beelink-ser8-8845hs"
+    ],
+    "unresolved": null,
+    "originalSha256": "c9d8ac94069528b924703509e204821d618ebfcb26fcf60b5ecb649cf054ec46",
+    "newSha256": "8453db2467f88326b782b626fbb41daf45bd64961a5131c9240cc7788aa73987"
+  },
+  {
+    "path": "content/hardware/minipc-egpu-buying-guide-2026.md",
+    "url": "https://www.nucnas.top/review/minipc-egpu-buying-guide/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "迷你主机显卡坞选购指南：外接显卡到底值不值？实测数据对比告诉你（来源待核查）",
+    "title": "迷你主机外置显卡：兼容性核对：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "MINISFORUM 支持中心分别提供 DEG1、DEG2、MGA1 与 TB4-01 的文档入口。",
+        "source": "https://www.minisforum.com/pages/product-info"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": null,
+    "originalSha256": "aeaf35ae6402318ae9d9e868a3e33c9b54bb6c4298342af22628d589f21368b1",
+    "newSha256": "e8bfffb7bbc1fb9910d6decb6f867506d0b9aa4004fdef3e99aa78b4c6cfcd26"
+  },
+  {
+    "path": "content/hardware/minisforum-em680.md",
+    "url": "https://www.nucnas.top/review/minisforum-em680/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum EM680 评测：超小体积 AMD 6800U 迷你主机（来源待核查）",
+    "title": "MINISFORUM EM680：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info",
+      "https://refurbished.minisforum.com/de/collections/all-products"
+    ],
+    "unresolved": "支持中心有 EM680，但旧稿的 6800U 配置尚无可读的对应规格或手册。官方翻新目录的 EM680/EM780 条目显示 7735U，链接路径还含 V3 SE；这些相互冲突的信息不能证明旧款 6800U。",
+    "originalSha256": "f0d4b7d31bbb5c3e6046f92330ecb051ce891e5696177c531942176c37db0940",
+    "newSha256": "2b862be9e43bc7aeef88a1ee9b0f22c5fb01c9f740d8fbcb759d51527549be25"
+  },
+  {
+    "path": "content/hardware/minisforum-em780.md",
+    "url": "https://www.nucnas.top/review/minisforum-em780/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum EM780 评测：AMD 7840U 超小体积旗舰（来源待核查）",
+    "title": "MINISFORUM EM780：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "官方选项列 Ryzen 7 7840U",
+        "source": "https://www.minisforum.com/products/minisforum-em780"
+      },
+      {
+        "field": "销售组合",
+        "claim": "官方选项列 32GB 内存搭配 512GB 或 1TB SSD",
+        "source": "https://www.minisforum.com/products/minisforum-em780"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/products/minisforum-em780"
+    ],
+    "unresolved": null,
+    "originalSha256": "f1830154f8c0c19eea97e0ec8f9a5056c81ad73c8b49a5d9d0327be13ef5167c",
+    "newSha256": "6117b383c4e91b23c42babf46907e3ef75f25f0254a563d83248e97dad98c528"
+  },
+  {
+    "path": "content/hardware/minisforum-hx100g-review-2026.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx100g-review/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX100G 评测：RX6650M 独显 + 液金散热，游戏性能实测（来源待核查）",
+    "title": "MINISFORUM HX100G：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方配置",
+        "claim": "HX100G 选项列 AMD Ryzen 9 7840HS 与 Radeon RX 6600M",
+        "source": "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+    ],
+    "unresolved": null,
+    "originalSha256": "05aa2900e08850a0ef39f0130c40e02196b1108a120450082fb91885126afee0",
+    "newSha256": "d7ee98ee41201cd39b123e8de0b32dbdde3c924e5efccc3b13f2d6a9e59409b9"
+  },
+  {
+    "path": "content/hardware/minisforum-hx100g-review.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx100g%E8%AF%84%E6%B5%8Brx6650m%E7%8B%AC%E6%98%BE-%E6%B6%B2%E9%87%91%E6%95%A3%E7%83%AD%E6%B8%B8%E6%88%8F%E5%B0%8F%E9%92%A2%E7%82%AE%E6%9D%A5%E4%BA%86/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX100G评测：RX6650M独显+液金散热，游戏小钢炮来了（来源待核查）",
+    "title": "MINISFORUM HX100G：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方配置",
+        "claim": "HX100G 选项列 AMD Ryzen 9 7840HS 与 Radeon RX 6600M",
+        "source": "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+    ],
+    "unresolved": null,
+    "originalSha256": "acc76eae40d1a3d7bffea810d2e3a6ceb7fd95733462be21943696c3422733d0",
+    "newSha256": "9b07b639a4a20e3cd1beca34007d52161fcc9da28b9ef6f7417492d3331b8334"
+  },
+  {
+    "path": "content/hardware/minisforum-hx100g.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx100g/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX100G 评测：首批搭载 Intel Ultra 的迷你主机（来源待核查）",
+    "title": "MINISFORUM HX100G：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方配置",
+        "claim": "HX100G 选项列 AMD Ryzen 9 7840HS 与 Radeon RX 6600M",
+        "source": "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+    ],
+    "unresolved": null,
+    "originalSha256": "fdddf54c150c553cd607bb9adde99716570ce1e0ad06bacd64a479cd78bc6e69",
+    "newSha256": "342df3bea039e92eae02d21c2db37e8cd3af4c8b53ecbc92f138181d4f939499"
+  },
+  {
+    "path": "content/hardware/minisforum-hx200.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx200/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX200 评测：AMD 7940HS 高性能迷你主机（来源待核查）",
+    "title": "MINISFORUM HX200：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "支持目录中未找到能与旧稿对应的 HX200 正式规格。",
+    "originalSha256": "056f9966ee4a7a64fd4952e45aec204ed70f38b12c23546a9be4133e63606a8d",
+    "newSha256": "faf6ef03d6c9afafcd8fe0c8c5528ff6a6733777acc5b6d5d353cf66412eadfd"
+  },
+  {
+    "path": "content/hardware/minisforum-hx350g.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx350g/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX350G 评测：AMD 5900HX + RTX 3050 独显版（来源待核查）",
+    "title": "MINISFORUM HX350G：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "支持目录中未找到能与旧稿对应的 HX350G 正式规格。",
+    "originalSha256": "46cf86f089446135f5eb0009fa2356424c9ac3bc705be07314e8d83c159570cf",
+    "newSha256": "1f84cfe06c14ed3eeca6d2ed25caaa7f114a7a9413a82b2e7c34a3129b3efe70"
+  },
+  {
+    "path": "content/hardware/minisforum-hx80g.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx80g/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX80G 评测：AMD 6900HX + RX 6600M 独显（来源待核查）",
+    "title": "MINISFORUM HX80G：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "支持中心有 HX80G，尚需完整产品规格；HX99G 资料不能代替。",
+    "originalSha256": "4ceafae4d1aaf8d26a9a68c7780aad34f9354fa5f157bdb170ce0e34bd0ed15b",
+    "newSha256": "e33e230425c98da45b64b1e7c204d53eabaf40e990f562c7e0e63fb6b42bafab"
+  },
+  {
+    "path": "content/hardware/minisforum-hx99g-pro.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx99g-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX99G Pro 评测：AMD 6900HX + RX 6650M 旗舰版（来源待核查）",
+    "title": "MINISFORUM HX99G Pro：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "已确认 HX99G，但未确认 Pro 后缀独立规格，不能静默改成 HX99G。",
+    "originalSha256": "5c6e71a388a61b60c89de81a4a123def9f42c3f9ec4b571d5e8a80506d390381",
+    "newSha256": "ea5d216e6903aa6cf70354b75389e132bf03e19bf0a3fbe09507ca38a5e48a2c"
+  },
+  {
+    "path": "content/hardware/minisforum-hx99g.md",
+    "url": "https://www.nucnas.top/review/minisforum-hx99g/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum HX99G 评测：AMD 6900HX + RX 6600M 独显组合（来源待核查）",
+    "title": "MINISFORUM HX99G：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "官方配置",
+        "claim": "HX99G 选项列 AMD Ryzen 9 6900HX 与 Radeon RX 6600M",
+        "source": "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/zh/products/minisforum-hx99g-hx100g"
+    ],
+    "unresolved": null,
+    "originalSha256": "56566900b85b65cd2046d5e8318bf788d2ff2c0ca2a252010bb51e0189c1389e",
+    "newSha256": "4d23c0764b52ebc02b7ecfc40d048126e391b0e5fb7f678ed6c1e316a99eb05b"
+  },
+  {
+    "path": "content/hardware/minisforum-ms-01.md",
+    "url": "https://www.nucnas.top/review/minisforum-ms-01/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum MS-01 评测：工作站在掌心，史上最强迷你主机？（来源待核查）",
+    "title": "MINISFORUM MS-01 与版本辨认：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU 版本",
+        "claim": "官方选项列 i5-12600H、i9-12900H、i9-13900H",
+        "source": "https://www.minisforum.com/products/minisforum-ms-01"
+      },
+      {
+        "field": "网络",
+        "claim": "官方列两个 10Gbps SFP+ 与两个 2.5Gbps RJ45 网口",
+        "source": "https://www.minisforum.com/products/minisforum-ms-01"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/products/minisforum-ms-01"
+    ],
+    "unresolved": null,
+    "originalSha256": "fec0e71c5bf249ab67af7a887b2dbcea013c9c4867913472987617f308887b69",
+    "newSha256": "83710357db187e76f44c773db461afd273e24f38e74a9ca6a8e806a7983f06c4"
+  },
+  {
+    "path": "content/hardware/minisforum-ms-a1.md",
+    "url": "https://www.nucnas.top/review/minisforum-ms-a1/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum MS-A1 评测：AM5插槽可换CPU，8700G核显怪兽（来源待核查）",
+    "title": "MINISFORUM MS-A1：版本与资料入口",
+    "status": "reviewed",
+    "scope": "裸机销售范围与官方支持版本区分；不覆盖全部 CPU 兼容性或整机实测。",
+    "claims": [
+      {
+        "field": "销售形式",
+        "claim": "官方产品选项包含不带 CPU 的裸机配置",
+        "source": "https://www.minisforum.com/products/minisforum-ms-a1"
+      },
+      {
+        "field": "版本边界",
+        "claim": "支持中心分别列 7000/9000 与 8000G 的 Type-C 固件入口",
+        "source": "https://www.minisforum.com/pages/product-info"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/products/minisforum-ms-a1",
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": null,
+    "originalSha256": "f15914222471c18e1971a0ba1a426a0fa61c06265c4a62aea114c02991e3c7ab",
+    "newSha256": "c53a04f63b3d8e984073ca55c8eed9dbd4a455950fc10bb84ac322bcd4448c06"
+  },
+  {
+    "path": "content/hardware/minisforum-nad9-pro.md",
+    "url": "https://www.nucnas.top/review/minisforum-nad9-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum NAD9 Pro 评测：Intel N100 升级版（来源待核查）",
+    "title": "MINISFORUM NAD9 Pro：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "可检索 NAD9 资料，但缺少 NAD9 Pro 独立型号的官方证据。",
+    "originalSha256": "bb7a5a3f02f8f4630d68e44f3cedf848eb3d5ace27ef2d994328fbd9f8016751",
+    "newSha256": "b892b6d27587b868086d58479fcf22e1f7a07b53e446791323de852bd88cc25b"
+  },
+  {
+    "path": "content/hardware/minisforum-nad9.md",
+    "url": "https://www.nucnas.top/review/minisforum-nad9/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum NAD9 评测：Intel N95 入门级迷你主机（来源待核查）",
+    "title": "MINISFORUM NAD9：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "官方翻新页列 Core i9-12900H，14 核 20 线程",
+        "source": "https://refurbished.minisforum.com/products/pre-sale-minisforum-nad9"
+      },
+      {
+        "field": "内存",
+        "claim": "官方规格列两个 DDR4 SO-DIMM，最高 64GB",
+        "source": "https://refurbished.minisforum.com/products/pre-sale-minisforum-nad9"
+      }
+    ],
+    "sources": [
+      "https://refurbished.minisforum.com/products/pre-sale-minisforum-nad9"
+    ],
+    "unresolved": null,
+    "originalSha256": "debde36a8a883c5711a79286e63ab1aa6bf710d9c2184c306f0586482a5d2dd0",
+    "newSha256": "f35ab2cdb3d3c6adbf3888ad41eb82988011625e14ec45d82a448e8f0a0b2781"
+  },
+  {
+    "path": "content/hardware/minisforum-um560.md",
+    "url": "https://www.nucnas.top/review/minisforum-um560/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UM560 评测：AMD 5600H 入门级迷你主机（来源待核查）",
+    "title": "MINISFORUM UM560：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "官方翻新页列 Ryzen 5 5625U",
+        "source": "https://refurbished.minisforum.com/products/minisforum-um560-refurbished"
+      }
+    ],
+    "sources": [
+      "https://refurbished.minisforum.com/products/minisforum-um560-refurbished"
+    ],
+    "unresolved": null,
+    "originalSha256": "5c016e80e6464124fca7d50fa2b2a23b330b6ec3e432baf4673bf7517bd5d39b",
+    "newSha256": "393409ebc21c45f239322f3892c5c8094ed78b3685dbcac921e59f614a398abe"
+  },
+  {
+    "path": "content/hardware/minisforum-um590.md",
+    "url": "https://www.nucnas.top/review/minisforum-um590/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UM590 评测：AMD 5900H 高性能迷你主机（来源待核查）",
+    "title": "MINISFORUM UM590：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info",
+      "https://refurbished.minisforum.com/products/minisforum-um690-refurbished"
+    ],
+    "unresolved": "官方历史规格入口当前不可读；翻新页浏览器标题虽提 UM590，正文和当前选项却对应 UM690，不能据此验证 UM590 的 CPU 与配置。",
+    "originalSha256": "0d7722cca0f24e036959779d4d66c8ba91cae401b141d124521f4d5725291c2f",
+    "newSha256": "27de9115cee042af148e439dbd05cce865ff8aa91f7b78fdf4372ddc4010ccf9"
+  },
+  {
+    "path": "content/hardware/minisforum-um690.md",
+    "url": "https://www.nucnas.top/review/minisforum-um690/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UM690 评测：AMD 6900H 旗舰迷你主机（来源待核查）",
+    "title": "MINISFORUM UM690：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "页面正文与当前选项列 UM690 Ryzen 9 6900HX，8 核 16 线程",
+        "source": "https://refurbished.minisforum.com/products/minisforum-um690-refurbished"
+      },
+      {
+        "field": "内存 / 存储",
+        "claim": "UM690 规格段列双 DDR5 SO-DIMM 与 M.2 2280 PCIe 4.0 SSD",
+        "source": "https://refurbished.minisforum.com/products/minisforum-um690-refurbished"
+      }
+    ],
+    "sources": [
+      "https://refurbished.minisforum.com/products/minisforum-um690-refurbished"
+    ],
+    "unresolved": null,
+    "originalSha256": "17001357ff4dc2b14f9e9c0c64a7a22f916446972669e217d17c8c0f00ed4c3a",
+    "newSha256": "a966a420a3b7ada6ff5d8019b67df58f8fe8c720a110400df3cfc9aba75c1d7e"
+  },
+  {
+    "path": "content/hardware/minisforum-um780-xtx.md",
+    "url": "https://www.nucnas.top/review/minisforum-um780-xtx/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UM780 XTX 评测：核显性能天花板（来源待核查）",
+    "title": "MINISFORUM UM780 XTX：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "产品版本",
+        "claim": "官方页面对应 EliteMini UM780 XTX",
+        "source": "https://www.minisforum.com/products/elitemini-um780-xtx"
+      },
+      {
+        "field": "CPU",
+        "claim": "厂商发布资料标明 Ryzen 7 7840HS，见第二来源",
+        "source": "https://store.minisforum.com/blogs/blog/minisforum-reddot-award-2024"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/products/elitemini-um780-xtx",
+      "https://store.minisforum.com/blogs/blog/minisforum-reddot-award-2024"
+    ],
+    "unresolved": null,
+    "originalSha256": "f0f54a53b4568adb820603c0b3d28e1f0b64bbf5ca47319721f61ebe6836389c",
+    "newSha256": "e1f0230c6bf8b111e425ac60369fae9ca9d0092f620efb2164dfb3a17220d8db"
+  },
+  {
+    "path": "content/hardware/minisforum-um790-pro-review.md",
+    "url": "https://www.nucnas.top/review/%E9%93%AD%E5%87%A1-venus-um790-pro-%E6%B5%8B%E8%AF%84amd-ryzen-9-%E6%80%A7%E8%83%BD%E6%80%AA%E5%85%BD/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "铭凡 Venus UM790 Pro 测评：AMD Ryzen 9 性能怪兽（来源待核查）",
+    "title": "MINISFORUM UM790 Pro：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "处理器/图形",
+        "claim": "Ryzen 9 7940HS 与 Radeon 780M",
+        "source": "https://store.minisforum.com/products/minisforum-um790-pro-mini-pc"
+      },
+      {
+        "field": "内存/存储",
+        "claim": "官方规格列双 DDR5 SO-DIMM、双 M.2 2280 PCIe 4.0 SSD 槽",
+        "source": "https://store.minisforum.com/products/minisforum-um790-pro-mini-pc"
+      }
+    ],
+    "sources": [
+      "https://store.minisforum.com/products/minisforum-um790-pro-mini-pc"
+    ],
+    "unresolved": null,
+    "originalSha256": "ba2f41f912827dc815070c45e2e913c53774c560f3e66c98afcaf6723796c820",
+    "newSha256": "1159df16b5fb3f9f0c10b3e07efa9b5a9c626030ccb00900390c673e0e128152"
+  },
+  {
+    "path": "content/hardware/minisforum-um790-pro.md",
+    "url": "https://www.nucnas.top/review/minisforum-um790-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UM790 Pro 评测：AMD 7940HS 旗舰迷你主机（来源待核查）",
+    "title": "MINISFORUM UM790 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "处理器/图形",
+        "claim": "Ryzen 9 7940HS 与 Radeon 780M",
+        "source": "https://store.minisforum.com/products/minisforum-um790-pro-mini-pc"
+      },
+      {
+        "field": "内存/存储",
+        "claim": "官方规格列双 DDR5 SO-DIMM、双 M.2 2280 PCIe 4.0 SSD 槽",
+        "source": "https://store.minisforum.com/products/minisforum-um790-pro-mini-pc"
+      }
+    ],
+    "sources": [
+      "https://store.minisforum.com/products/minisforum-um790-pro-mini-pc"
+    ],
+    "unresolved": null,
+    "originalSha256": "7e63f1ad9f317682e46fe4c5aa3f315dc6cf8b578f126b633abaacaf09f68308",
+    "newSha256": "6741eda1da4489bb79231db0a05238ae50e26617baa3a2b980ac24116edc8a0e"
+  },
+  {
+    "path": "content/hardware/minisforum-um790.md",
+    "url": "https://www.nucnas.top/review/minisforum-um790/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UM790 评测：AMD 7940H 顶级迷你主机（来源待核查）",
+    "title": "MINISFORUM UM790：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "可确认 UM790 Pro，但未确定旧稿省略 Pro 是否指同一具体产品。",
+    "originalSha256": "bf393a1cb39107f522d1de820eb803e7d8754acaff36f82d36cc8dd0e0cafbcc",
+    "newSha256": "93e97cae59ab02857a07868b41e8636f81c5950729af93f7e915a513920c54d5"
+  },
+  {
+    "path": "content/hardware/minisforum-um800.md",
+    "url": "https://www.nucnas.top/review/minisforum-um800/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UM800 评测：AMD 8845HS 顶级旗舰（来源待核查）",
+    "title": "MINISFORUM UM800：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "未找到能与旧稿对应的 UM800 正式规格，不以 UM890 或 UM790 替代。",
+    "originalSha256": "6943dc09c97979122dac67aa701122335b867f341252ed08268b3ee94267275e",
+    "newSha256": "a29be84549a3164ecf11f8add50a0ef52a80c0eb082d093f98a42293e1e0102c"
+  },
+  {
+    "path": "content/hardware/minisforum-un100d-nas-review-2026.md",
+    "url": "https://www.nucnas.top/review/minisforum-un100d-nas-review-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "铭凡UN100D评测：Intel N100入门NAS神器还是鸡肋？（来源待核查）",
+    "title": "MINISFORUM UN100D：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "Intel N100，4 核 4 线程",
+        "source": "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+      },
+      {
+        "field": "内存与网络",
+        "claim": "官方翻新页列板载 LPDDR5、两个 2.5GbE 网口",
+        "source": "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+      }
+    ],
+    "sources": [
+      "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+    ],
+    "unresolved": null,
+    "originalSha256": "a7327385805052c94fa56ce075745611924d22157e70ff80e43e7b25a6700d7e",
+    "newSha256": "d0ce5dae26351f740638472f369cd8063366fbca5f4a0e41aea401e4fb0fbccd"
+  },
+  {
+    "path": "content/hardware/minisforum-un100d-review-2026.md",
+    "url": "https://www.nucnas.top/review/minisforum-un100d-review-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UN100D两周使用体验：办公神器还是鸡肋？（来源待核查）",
+    "title": "MINISFORUM UN100D：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "Intel N100，4 核 4 线程",
+        "source": "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+      },
+      {
+        "field": "内存与网络",
+        "claim": "官方翻新页列板载 LPDDR5、两个 2.5GbE 网口",
+        "source": "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+      }
+    ],
+    "sources": [
+      "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+    ],
+    "unresolved": null,
+    "originalSha256": "07ddc5f2e7e8062c11ff20c7e7ec55936b861a8db3b3f2b01401fc4a35f15b38",
+    "newSha256": "930f7a5b602a8ec12e789c057ec5a2644e7adf5e6b6345ffd78ae29cb0004de5"
+  },
+  {
+    "path": "content/hardware/minisforum-un100d.md",
+    "url": "https://www.nucnas.top/review/minisforum-un100d/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum UN100D 评测：Intel N100 入门首选（来源待核查）",
+    "title": "MINISFORUM UN100D：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "Intel N100，4 核 4 线程",
+        "source": "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+      },
+      {
+        "field": "内存与网络",
+        "claim": "官方翻新页列板载 LPDDR5、两个 2.5GbE 网口",
+        "source": "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+      }
+    ],
+    "sources": [
+      "https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"
+    ],
+    "unresolved": null,
+    "originalSha256": "431ef4362c60e9c0670e5a3f014cbe697228b77cfda80408ed3f54d9aff6b10e",
+    "newSha256": "ba26983677a035947be64ba8b12fb6e245f0c4afcba15c1e77b82b3a1b7922b0"
+  },
+  {
+    "path": "content/hardware/minisforum-v3-2026.md",
+    "url": "https://www.nucnas.top/review/minisforum-v3-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum V3三合一平板：AMD Ryzen 8000系列的极致创新（来源待核查）",
+    "title": "MINISFORUM V3：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "形态/CPU",
+        "claim": "V3 是三合一平板，搭载 Ryzen 7 8840U",
+        "source": "https://weixin-bot.minisforum.com/page/v3/index.html?lang=zh"
+      },
+      {
+        "field": "屏幕",
+        "claim": "官方规格列 14 英寸、2560 × 1600、165Hz",
+        "source": "https://weixin-bot.minisforum.com/page/v3/index.html?lang=zh"
+      }
+    ],
+    "sources": [
+      "https://weixin-bot.minisforum.com/page/v3/index.html?lang=zh"
+    ],
+    "unresolved": null,
+    "originalSha256": "7112d3321f00b794c71f04cbba420a5b2bde3fc9eee761db5b3e396c6b43e648",
+    "newSha256": "9185cfed0b962cccbfb6b687080630bf26d937e8a07b76a3047371d8124e4903"
+  },
+  {
+    "path": "content/hardware/minisforum-v3.md",
+    "url": "https://www.nucnas.top/review/minisforum-v3/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum V3 评测：AMD 8840U 三合一平板（来源待核查）",
+    "title": "MINISFORUM V3：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "形态/CPU",
+        "claim": "V3 是三合一平板，搭载 Ryzen 7 8840U",
+        "source": "https://weixin-bot.minisforum.com/page/v3/index.html?lang=zh"
+      },
+      {
+        "field": "屏幕",
+        "claim": "官方规格列 14 英寸、2560 × 1600、165Hz",
+        "source": "https://weixin-bot.minisforum.com/page/v3/index.html?lang=zh"
+      }
+    ],
+    "sources": [
+      "https://weixin-bot.minisforum.com/page/v3/index.html?lang=zh"
+    ],
+    "unresolved": null,
+    "originalSha256": "743d8e2ce68a6fb177d0548cccdf6ffb6d815fe6bc897cdc175185a4e4136f2c",
+    "newSha256": "d46484a0766a2b71f13aa8097c5aa62187055252d7d4f1517fcb1fbdc0accd5f"
+  },
+  {
+    "path": "content/hardware/minisforum-v7.md",
+    "url": "https://www.nucnas.top/review/minisforum-v7/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum V7 评测：AMD 8845HS 旗舰迷你主机（来源待核查）",
+    "title": "MINISFORUM V7：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://www.minisforum.com/pages/product-info"
+    ],
+    "unresolved": "未找到能与旧稿对应的 V7 正式产品规格，不以 V3 替代。",
+    "originalSha256": "b048e4a4797b6b8cab661b5663841baf096e6fed4ca589ca7f3b58aa2e99a471",
+    "newSha256": "4601cc4b1e9db0bc077b42d8dc05ecb1f6c8ee2fcbb0ce87dbd638083daac105"
+  },
+  {
+    "path": "content/hardware/morefine-m9.md",
+    "url": "https://www.nucnas.top/review/morefine-m9/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Morefine M9 评测：Intel Core i9-12900HK 旗舰迷你主机（来源待核查）",
+    "title": "MOREFINE M9：版本纠错：版本与资料入口",
+    "status": "reviewed",
+    "scope": "当前商品页的版本名称与旧稿冲突；历史机器的规格仍需单独核对。",
+    "claims": [
+      {
+        "field": "当前官方页面",
+        "claim": "标题列 Intel N150 / i5-8257U，不是旧稿的 i9-12900HK",
+        "source": "https://www.morefine.com/en-ca/products/morefine-m9-mini-pc-intel-n100"
+      }
+    ],
+    "sources": [
+      "https://www.morefine.com/en-ca/products/morefine-m9-mini-pc-intel-n100"
+    ],
+    "unresolved": null,
+    "originalSha256": "74a300b9b97ca2ce1c3562d85e196894176a7cfbd5d53cf1af2b525248d7a2cd",
+    "newSha256": "c5ca10a3cba9ec7f423c07111e80601ff4dbdcf6cd024ccd6c5bd53e3117d296"
+  },
+  {
+    "path": "content/hardware/ms-01-vs-nuc-14-pro-plus-comparison-2026.md",
+    "url": "https://www.nucnas.top/review/ms-01-vs-nuc-14-pro-plus-comparison/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Minisforum MS-01 vs ASUS NUC 14 Pro Plus 对比横评（来源待核查）",
+    "title": "MS-01 与 NUC 14 Pro+：平台范围比较：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "MS-01",
+        "claim": "官方列 i5-12600H、i9-12900H、i9-13900H 与双 SFP+、双 2.5GbE",
+        "source": "https://www.minisforum.com/products/minisforum-ms-01"
+      },
+      {
+        "field": "NUC 14 Pro+",
+        "claim": "ASUS 发布资料列 Core Ultra 9 / 7 / 5，见第二来源",
+        "source": "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+      }
+    ],
+    "sources": [
+      "https://www.minisforum.com/products/minisforum-ms-01",
+      "https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"
+    ],
+    "unresolved": null,
+    "originalSha256": "cb9f3556eb3b7da6431983afdc32db072920f1ce6cc2d05d29ed2b435305b75f",
+    "newSha256": "39c766bfeee224b69e243bb0e78aa8ae01024504cfb913eb8ceff4ac4b540fa2"
+  },
+  {
+    "path": "content/hardware/n100-minipc-recommend-2026.md",
+    "url": "https://www.nucnas.top/review/n100-minipc-recommend-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "2026年N100迷你主机推荐：百元级性能小钢炮（来源待核查）",
+    "title": "Intel N 系列选型：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "N150 / N100",
+        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "Core i3-N305 / N350",
+        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+    ],
+    "unresolved": null,
+    "originalSha256": "3d7d72705ceef1bb2a4f51c2f75312f9552aa6fa163a7528c973a8666d8f5f25",
+    "newSha256": "f8d6c1f3b4fa10eea3ea7849f2931b386e35dca7aa23240c10c64c878aa76a35"
+  },
+  {
+    "path": "content/hardware/nas-buying-guide-2026.md",
+    "url": "https://www.nucnas.top/review/nas-buying-guide-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "2026年最值得购买的NAS推荐：从入门到旗舰全覆盖（来源待核查）",
+    "title": "NAS 选购：盘位、兼容性与恢复验证：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "依据与边界",
+        "claim": "TS-464 官方参数说明 SATA 与 M.2 盘位分别列出，不能混为同一种扩展。",
+        "source": "https://www.qnap.com/en-as/product/ts-464/specs/hardware"
+      }
+    ],
+    "sources": [
+      "https://www.qnap.com/en-as/product/ts-464/specs/hardware"
+    ],
+    "unresolved": null,
+    "originalSha256": "5fe18242663f4cca3bdbeabdcca3979e987715a23f7292e70b20c450f8aad228",
+    "newSha256": "c57e6b8dacb276d719f7a711275661f5520df496afa18840d72f11f38327783a"
+  },
+  {
+    "path": "content/hardware/oem-laptop-beginner-guide-2026.md",
+    "url": "https://www.nucnas.top/review/2026%E5%B9%B4oem%E7%AC%94%E8%AE%B0%E6%9C%AC%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E5%95%86%E5%8A%A1%E6%9C%AC%E5%AD%A6%E7%94%9F%E6%9C%AC%E6%80%8E%E4%B9%88%E9%80%89/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "2026年OEM笔记本新手入门指南：商务本、学生本怎么选？（来源待核查）",
+    "title": "贴牌笔记本新手：确认实际型号和支持：方法与验收",
+    "status": "reviewed",
+    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "claims": [
+      {
+        "field": "系统核对",
+        "claim": "Microsoft 文档：Windows 11 的激活状态位于设置 → 系统 → 激活；激活状态本身不保证 Windows 副本为正版",
+        "source": "https://support.microsoft.com/en-us/windows/activation/activate-windows"
+      }
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-us/windows/activation/activate-windows"
+    ],
+    "unresolved": null,
+    "originalSha256": "c8ce995ebfe5c629a0a66b329d8bca71899d8d84ab8bc73189fc12be601d512b",
+    "newSha256": "32110d215d72ed353d9d2c044f9c8cf81bc23f0dc23a86abb129a2dfe1f925d0"
+  },
+  {
+    "path": "content/hardware/qnap-ts-464.md",
+    "url": "https://www.nucnas.top/review/qnap-ts-464/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "QNAP TS-464 评测：4盘位NAS旗舰，性能与功能兼具（来源待核查）",
+    "title": "QNAP TS-464：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "配置范围",
+        "claim": "TS-464-8G 官方规格列 Intel Celeron N5095",
+        "source": "https://www.qnap.com/en-as/product/ts-464/specs/hardware"
+      },
+      {
+        "field": "盘位",
+        "claim": "四个 SATA 盘位与两个 M.2 插槽",
+        "source": "https://www.qnap.com/en-as/product/ts-464/specs/hardware"
+      }
+    ],
+    "sources": [
+      "https://www.qnap.com/en-as/product/ts-464/specs/hardware"
+    ],
+    "unresolved": null,
+    "originalSha256": "ce86e61d8a47b980f4328f100cb9d3917cdb6b9b8be70eedb162173ff7613097",
+    "newSha256": "95b6460a15038554cfd3694a81c108c7988d8ca22b1603e0b937749cfc29d5c2"
+  },
+  {
+    "path": "content/hardware/ser5-pro.md",
+    "url": "https://www.nucnas.top/review/ser5-pro/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 SER5 Pro 评测：AMD 5800H 升级版（来源待核查）",
+    "title": "Beelink SER5 Pro：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录分别列出 SER5 Pro 5600H 与 SER5 Pro 5800H",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=105"
+    ],
+    "unresolved": null,
+    "originalSha256": "6c482ff37f010088115f47c33518e08607fe870cd5f6ef8aaffbceec23218d1f",
+    "newSha256": "d02409f861c7c41d2ad3caa9abae3c1a16b7923a9a9b40051a08dbce0263f4e9"
+  },
+  {
+    "path": "content/hardware/ser6.md",
+    "url": "https://www.nucnas.top/review/ser6/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 SER6 评测：AMD 6600H 入门级（来源待核查）",
+    "title": "Beelink SER6：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录区分 SER6 6600H 与 SER6 6900HX",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "237ef8abf25018c40f4a403b2be60e0d94930e860e3a550c67dbdce27bc19269",
+    "newSha256": "4c1357a4c03a96618216a7d19ddc882ff9aab7a4a108a80ef85c34ced16fe5ae"
+  },
+  {
+    "path": "content/hardware/ser7.md",
+    "url": "https://www.nucnas.top/review/ser7/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 SER7 评测：AMD 7840HS 高性能迷你主机（来源待核查）",
+    "title": "Beelink SER7：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录列为 SER7 7840HS",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "6ee84c5526dcad72f1d87f543314446ff78c9300b243cdece5d8520357582da2",
+    "newSha256": "78cabe839622bdfb180ee5239ec1e265687bd7d4f93164eab94268f26e04d7d4"
+  },
+  {
+    "path": "content/hardware/ser8-8845hs.md",
+    "url": "https://www.nucnas.top/review/ser8-8845hs/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 SER8 8845HS 评测：AMD 8845HS 静音旗舰（来源待核查）",
+    "title": "Beelink SER8 8845HS：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录分别列出 SER8 8845HS 与 SER8 8745HS",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+    ],
+    "unresolved": null,
+    "originalSha256": "34d21ade19236f65cd8d4af5fa6076d085b6756b9824789b64b3e2d35208bc25",
+    "newSha256": "3ad8172457c0b28faf6bd65f290ce25f7a0e4857c92f7e0b3c57c412ccb4eed2"
+  },
+  {
+    "path": "content/hardware/skybarium-gem12-pro-review.md",
+    "url": "https://www.nucnas.top/review/%E5%A4%A9%E9%92%A1-gem12-pro-%E6%B5%8B%E8%AF%84%E5%B8%A6%E5%89%AF%E5%B1%8F%E7%9A%84%E5%88%9B%E6%96%B0%E8%AE%BE%E8%AE%A1/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "天钡 GEM12 Pro 测评：带副屏的创新设计（来源待核查）",
+    "title": "AOOSTAR GEM12 Pro：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [
+      "https://aoostar.com/zh/pages/drives-systems"
+    ],
+    "unresolved": "已找到 GEM12 Pro 支持记录，但原稿具体 Pro/PRO MAX、CPU 和配件配置需要进一步对应。",
+    "originalSha256": "36c249e7ba471f0832ddc744841f121fb578a688adc4360d9b7ffe343ce2f433",
+    "newSha256": "895313fc47875b0bd00b3d8ee30a8c5b25dedcc9fe09482ea47d5956b4c8c67f"
+  },
+  {
+    "path": "content/hardware/synology-ds923+.md",
+    "url": "https://www.nucnas.top/review/synology-ds923-/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Synology DS923+ 评测：中小企业NAS首选，性能升级（来源待核查）",
+    "title": "Synology DS923+：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU / 内存",
+        "claim": "AMD Ryzen R1600，2 核 4 线程；出厂 4GB DDR4 ECC",
+        "source": "https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS923%2B/enu/Synology_DS923%2B_Data_Sheet_enu.pdf"
+      },
+      {
+        "field": "存储 / 网络",
+        "claim": "四个 SATA 盘位、两个 M.2 2280 NVMe；两个 1GbE 网口",
+        "source": "https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS923%2B/enu/Synology_DS923%2B_Data_Sheet_enu.pdf"
+      }
+    ],
+    "sources": [
+      "https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS923%2B/enu/Synology_DS923%2B_Data_Sheet_enu.pdf"
+    ],
+    "unresolved": null,
+    "originalSha256": "aeb8c5912fa99e2bc3ea42da2ae883315f233561f31895ae0fa39d89f12101b3",
+    "newSha256": "f067619853036110d24b283b22728386c85bfe8b69bc9d99eee8229f57194aa8"
+  },
+  {
+    "path": "content/hardware/ugreen-dx4600-pro-2026.md",
+    "url": "https://www.nucnas.top/review/ugreen-dx4600-pro-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "绿联DX4600 Pro深度测评：2026年最值得购买的家用NAS（来源待核查）",
+    "title": "绿联 DX4600 系列：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU 区分",
+        "claim": "DX4600 / DX4600+：N5105；DX4600 Pro：N6005",
+        "source": "https://jxs.ugnas.com/parameter/6"
+      },
+      {
+        "field": "盘位与网络",
+        "claim": "四个 SATA 盘位、两个 M.2 插槽、两个 2.5GbE 网口",
+        "source": "https://jxs.ugnas.com/parameter/6"
+      }
+    ],
+    "sources": [
+      "https://jxs.ugnas.com/parameter/6"
+    ],
+    "unresolved": null,
+    "originalSha256": "13e1d9df60c0df497c8a8fe26086dd23d5c97249b62aac2faa08ba9cbb4c1e3a",
+    "newSha256": "8ec07a3be183ccb5eae5658baa88e4055165699c8faf76c72efc763fe5cf06a5"
+  },
+  {
+    "path": "content/hardware/ugreen-dx4600.md",
+    "url": "https://www.nucnas.top/review/ugreen-dx4600/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "绿联 DX4600 评测：国产NAS崛起，性价比之王（来源待核查）",
+    "title": "绿联 DX4600 系列：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU 区分",
+        "claim": "DX4600 / DX4600+：N5105；DX4600 Pro：N6005",
+        "source": "https://jxs.ugnas.com/parameter/6"
+      },
+      {
+        "field": "盘位与网络",
+        "claim": "四个 SATA 盘位、两个 M.2 插槽、两个 2.5GbE 网口",
+        "source": "https://jxs.ugnas.com/parameter/6"
+      }
+    ],
+    "sources": [
+      "https://jxs.ugnas.com/parameter/6"
+    ],
+    "unresolved": null,
+    "originalSha256": "056a9e2a974be3dcd7a5f70179bfc2119f101e319e96fb7eb3de1dc185b1aa63",
+    "newSha256": "a56c33804e419db94815a59b20deb9bd2af40698e26087de96397f0798acc2d4"
+  },
+  {
+    "path": "content/hardware/xiaomi-mini-host.md",
+    "url": "https://www.nucnas.top/review/xiaomi-mini-host/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "小米迷你主机评测：Intel Core i7-1260P + 16GB内存够用吗？（来源待核查）",
+    "title": "Xiaomi 迷你主机：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "CPU",
+        "claim": "官方页面列 Core i5-1240P，12 核 16 线程",
+        "source": "https://www.mi.com/computer-mini"
+      },
+      {
+        "field": "接口边界",
+        "claim": "两个 Thunderbolt 4；HDMI 2.1 使用 TMDS，官方注明最高 18Gbps",
+        "source": "https://www.mi.com/computer-mini"
+      }
+    ],
+    "sources": [
+      "https://www.mi.com/computer-mini"
+    ],
+    "unresolved": null,
+    "originalSha256": "2670039f17ef045f4069cd630a7f96e2a5204970f0dced45293081267a8c8b11",
+    "newSha256": "15b233d81455951ca1dd7a406112311bc9420d42a2d7044bc6e7ef28a9b34660"
+  },
+  {
+    "path": "content/hardware/zero-bee-ser8-pro-review-2026.md",
+    "url": "https://www.nucnas.top/review/zero-bee-ser8-pro-review-2026/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻 SER8 Pro 深度测评：8845HS 迷你主机性能实测（来源待核查）",
+    "title": "Beelink SER8 Pro：配置与选型核对",
+    "status": "reviewed",
+    "scope": "官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。",
+    "claims": [
+      {
+        "field": "官方型号/版本",
+        "claim": "支持目录将 SER8 Pro 单列，不能直接使用普通 SER8 的参数",
+        "source": "https://www.bee-link.com.cn/cms/support/productlist?id=7"
+      }
+    ],
+    "sources": [
+      "https://www.bee-link.com.cn/cms/support/productlist?id=7",
+      "https://www.bee-link.com.cn/cms/support/service?product_id=141"
+    ],
+    "unresolved": null,
+    "originalSha256": "68bc62be1917e36a1973e5071206aa235e2c723f19f421164f2a28850c6d6095",
+    "newSha256": "49b7583585d26f387e4399c39184b1a7f7b1f21fedaf22a4823485a0dbead679"
+  },
+  {
+    "path": "content/hardware/zerobit-gtx-14-pro-review-2026.md",
+    "url": "https://www.nucnas.top/review/zerobit-gtx-14-pro-review/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "零刻GTX 14 Pro深度测评：Intel Ultra 7 155H 性能实测（来源待核查）",
+    "title": "GTX 14 Pro：来源核查与遗留问题",
+    "status": "pending",
+    "scope": null,
+    "claims": [],
+    "sources": [],
+    "unresolved": "旧稿品牌、GTX 14 Pro 型号和 CPU 缺少可对应的正式产品文档；不能借用 Beelink GTi14 资料。",
+    "originalSha256": "6d7209216f82b5bd3074dea0cafb6181c88962606761fcca2de90a5bec2e03fc",
+    "newSha256": "1fdee14e676ec079bd7679860bb2922a02199512a0f28ae38ec3437191d0cdfd"
+  },
+  {
+    "path": "content/hardware/zotac-magnus-one.md",
+    "url": "https://www.nucnas.top/review/zotac-magnus-one%E8%AF%84%E6%B5%8Brtx4070%E6%A1%8C%E9%9D%A2%E7%BA%A7%E6%98%BE%E5%8D%A1-8l%E4%BD%93%E7%A7%AF%E6%80%A7%E8%83%BD%E6%80%AA%E5%85%BD%E6%9D%A5%E8%A2%AD/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "Zotac Magnus ONE评测：RTX4070桌面级显卡+8L体积，性能怪兽来袭（来源待核查）",
+    "title": "ZOTAC MAGNUS ONE ERP74070W：版本与资料入口",
+    "status": "reviewed",
+    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "claims": [
+      {
+        "field": "产品版本",
+        "claim": "ERP74070W Barebone：第 13 代 Core i7 与 GeForce RTX 4070",
+        "source": "https://www.zotac.com/us/us-store/product/mini_pcs/magnus-one-ERP74070W-barebone"
+      }
+    ],
+    "sources": [
+      "https://www.zotac.com/us/us-store/product/mini_pcs/magnus-one-ERP74070W-barebone"
+    ],
+    "unresolved": null,
+    "originalSha256": "6798503ca2e3737442db3116e01ed491289c2202c73eae8a257c27d607b053ef",
+    "newSha256": "fc0fb8918d6d5354fc523fd8032db846d4e4918ba22597887ff3a17d614be3da"
+  },
+  {
+    "path": "content/nas/2026-03-12-geakos-complete-guide.md",
+    "url": "https://www.nucnas.top/guide/geakos-%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%E5%9B%BD%E4%BA%A7%E6%96%B0%E9%94%90nas-%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E4%BD%93%E9%AA%8C%E5%90%AB-35-%E9%81%BF%E5%9D%91%E5%A4%A7%E5%85%A8/",
+    "auditedAt": "2026-10-13",
+    "originalTitle": "GEAKOS旧教程核查：先确认安装来源",
+    "title": "GEAKOS 安装前核对：版本与资料入口",
+    "status": "reviewed",
+    "scope": "截至核查日的官方安装文档、系统平台、目标盘操作边界、校验入口与发布记录；不涵盖真实部署、恢复成功率或 AI 功能实测。",
+    "claims": [
+      {
+        "field": "系统平台",
+        "claim": "官方安装教程限定 x86，ARM 不支持；下载页进一步注明 x86-64（amd64）",
+        "source": "https://www.geakos.com/en/download"
+      },
+      {
+        "field": "磁盘操作",
+        "claim": "官方图形安装流程说明选定目标盘的数据会被清除，并提供 System + Data 与 System Only 分区模式",
+        "source": "https://www.geakos.com/en/legal/tutorial"
+      },
+      {
+        "field": "发布记录",
+        "claim": "官方发布页顶部为 NAS v1.0.20，发布日期 2026-09-24；该记录不证明下载镜像版本",
+        "source": "https://www.geakos.com/en/changelog"
+      },
+      {
+        "field": "镜像校验",
+        "claim": "官方主页的 File verification 入口提供 MD5；应核对当次下载对应的信息",
+        "source": "https://www.geakos.com/"
+      }
+    ],
+    "sources": [
+      "https://www.geakos.com/en/legal/tutorial",
+      "https://www.geakos.com/en/download",
+      "https://www.geakos.com/en/changelog",
+      "https://www.geakos.com/"
+    ],
+    "unresolved": null,
+    "originalSha256": "f06af20ad4f4cf8d7d15de49c6d328d18f5b35b6c55f5480e2f8c9be9e366092",
+    "newSha256": "8a81b8730ec2a2418453ce9f7c219fb4a803dcdc2cab17550e722c14f27eced5"
+  }
+]

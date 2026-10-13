@@ -1,58 +1,39 @@
 ---
-title: "Beelink EQ13 评测：入门级迷你主机，性价比之选（来源待核查）"
-date: 2026-02-17
-categories: ["hardware"]
-brand: "Beelink"
-model: "EQ13"
-platform: "intel"
-official_url: "https://search.jd.com/Search?keyword=Beelink+EQ13"
-bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+EQ13+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Beelink+EQ13+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "Beelink EQ13：版本与资料入口"
+date: "2026-02-17"
+draft: false
 slug: "beelink-eq13"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "Beelink EQ13：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Beelink EQ13：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.bee-link.com.cn/cms/support/productlist?id=7"]
+url: "/review/beelink-eq13/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。 本站没有对应机器的独立实测记录。
 
-# Beelink EQ13 评测：入门级迷你主机性价比之选
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 官方型号/版本 | EQ13 官方资料列有 N100 / N200 版本 | [官方资料](https://www.bee-link.com.cn/cms/support/productlist?id=7) |
 
+## 阅读与选型边界
 
+先按铭牌与订单中的完整型号找到对应支持条目，再下载该型号的说明书和驱动。相近名称的 Pro、MAX 或处理器变体不应共用规格结论。本页只提供版本辨认方法；旧稿中的主观做工评价、实测语气、固定售价和无记录的性能保证已撤下。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.bee-link.com.cn/cms/support/productlist?id=7)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-在入门级<a href="/hardware/" target="_blank">迷你主机</a>市场，零刻EQ系列一直以高性价比著称。EQ13作为EQ12的升级版，带来了两项重大革新：**内置电源设计**和**MSC2.0散热系统**，让桌面更整洁、运行更安静。
-
-## 二、外观与接口
-
-**体积与设计**
-EQ13的机身尺寸为126×126×39mm，体积约**0.62升**，重量极轻。提供藏青蓝和千禧灰两种配色，采用塑料材质外壳但表面有特殊涂层工艺，抗指纹效果不错。
-
-**最大亮点：内置电源**
-EQ13将电源适配器集成在机身内部，只需一根"8"字头电源线即可供电，无需外置适配器，桌面整洁度大幅提升，外出携带也更轻便。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/asus-rog-nuc/" rel="prev">上一页：ROG NUC 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

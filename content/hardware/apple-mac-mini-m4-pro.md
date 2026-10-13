@@ -1,61 +1,40 @@
 ---
+title: "Mac mini M4 Pro（2024）：版本与资料入口"
+date: "2026-02-27"
+draft: false
 slug: "apple-mac-mini-m4-pro"
-title: "Mac mini M4 Pro 评测：性能怪兽还是小钢炮？（来源待核查）"
-date: 2026-02-27
-score: 8.5
-hw_specs:
-  cpu: "Apple M4 Pro (14-core CPU)"
-  lan: ""
-  storage: ""
-  tdp: ""
-pros:
-  - 做工精良，极致的 5x5 英寸设计
-  - M4 Pro 性能释放稳定，能效比无敌
-  - 前置接口增加，雷电 5 传输极快
-cons:
-  - 高负载渲染时风扇噪音可感知
-  - 无法自行升级内存 (统一内存架构)
-  - 电源键位置设计在底部
+categories: ["hardware"]
 tags: ["mac mini", "M4"]
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+summary: "Mac mini M4 Pro（2024）：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Mac mini M4 Pro（2024）：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://support.apple.com/en-us/121555"]
+url: "/review/apple-mac-mini-m4-pro/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Mac mini M4 Pro 评测：性能怪兽还是小钢炮？
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 基础芯片 | M4 Pro：12 核 CPU、16 核 GPU；另有 14 / 20 核配置 | [官方资料](https://support.apple.com/en-us/121555) |
+| 内存与接口 | 基础统一内存 24GB；后部三个 Thunderbolt 5 接口 | [官方资料](https://support.apple.com/en-us/121555) |
 
+## 阅读与选型边界
 
+先判断软件是否有 macOS 版本，再按真实项目的峰值内存占用选择配置。M4 Pro 的端口标准不能套到普通 M4。剪辑导出和本地 AI 是否满足需要，应使用自己的素材或模型验证；本文不提供没有测试日志的帧率或 tokens/s。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://support.apple.com/en-us/121555)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-2010年以来的首次重新设计，苹果用M4 Pro芯片在仅**5×5英寸**的机身内，塞进了足以媲美Mac Studio的专业性能。这是第一款专为Apple Intelligence打造的Mac，也是首款碳中和Mac。
-
-## 二、外观与接口：14年来最大变革
-
-**体积与设计**
-Mac mini M4 Pro机身尺寸仅**12.7×12.7×5cm**（5×5×2英寸），比前代缩小近一半，接近Apple TV大小，可轻松放入单肩包。全再生铝金属机身，重约**0.73kg**，质感扎实。全新散热架构让气流从底部贯穿排出。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/aoostar-gem12/" rel="prev">上一页：Aoostar GEM12 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

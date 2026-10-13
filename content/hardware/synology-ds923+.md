@@ -1,52 +1,40 @@
 ---
-title: "Synology DS923+ 评测：中小企业NAS首选，性能升级（来源待核查）"
-date: 2026-02-20
+title: "Synology DS923+：版本与资料入口"
+date: "2026-02-20"
+draft: false
+slug: "synology-ds923-"
 categories: ["hardware"]
-brand: "Synology"
-model: "DS923+"
-platform: "nas"
-official_url: "https://search.jd.com/Search?keyword=Synology+DS923+"
-bilibili_url: "https://search.bilibili.com/all?keyword=Synology+DS923++测评"
-youtube_url: "https://www.youtube.com/results?search_query=Synology+DS923++review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
-slug: "synology-ds923+"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+tags: []
+summary: "Synology DS923+：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Synology DS923+：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS923%2B/enu/Synology_DS923%2B_Data_Sheet_enu.pdf"]
+url: "/review/synology-ds923-/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Synology DS923+ 评测
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| CPU / 内存 | AMD Ryzen R1600，2 核 4 线程；出厂 4GB DDR4 ECC | [官方资料](https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS923%2B/enu/Synology_DS923%2B_Data_Sheet_enu.pdf) |
+| 存储 / 网络 | 四个 SATA 盘位、两个 M.2 2280 NVMe；两个 1GbE 网口 | [官方资料](https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS923%2B/enu/Synology_DS923%2B_Data_Sheet_enu.pdf) |
 
+## 阅读与选型边界
 
+官方数据表将可选 10GbE 升级与出厂网口分开说明，不能写成自带万兆。M.2 的存储用途和完整兼容性需要按当前 DSM 与厂商清单确认。买盘之前先规划独立备份，迁移前完成恢复验证。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS923%2B/enu/Synology_DS923%2B_Data_Sheet_enu.pdf)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-作为DS920+的继任者，**群晖 DS923+** 自发布以来就备受关注。它搭载了AMD Ryzen R1600处理器，支持ECC内存纠错，并可升级万兆网络。
-
-在2026年的当下，虽然市场上不乏硬件性能更强的竞品，但群晖凭借其成熟的**DSM生态系统**，依然是许多专业用户和中小企业的首选。
-
----
-
-*更多<a href="/nas/" target="_blank">NAS</a>产品测评请关注 [NAS学院](/nas/)。*
-
-<div class="page-nav">
-  <a href="/review/qnap-ts-464/" rel="prev">上一页：QNAP TS-464 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

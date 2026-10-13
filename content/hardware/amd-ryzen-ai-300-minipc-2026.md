@@ -1,82 +1,40 @@
 ---
-title: "2026年AMD Ryzen AI 300系列迷你主机选购指南：AI时代的高性能计算（来源待核查）"
-date: 2026-03-05
+title: "AMD Ryzen AI 300 系列：版本与资料入口"
+date: "2026-03-05"
+draft: false
+slug: "amd-ryzen-ai-300-minipc-2026"
 categories: ["hardware"]
 tags: ["AMD", "Ryzen AI", "迷你主机", "AI PC", "2026"]
-brand: "AMD"
-model: "Ryzen AI 300"
-platform: "amd"
-slug: "amd-ryzen-ai-300-minipc-2026"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+summary: "AMD Ryzen AI 300 系列：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "AMD Ryzen AI 300 系列：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html"]
+url: "/review/amd-ryzen-ai-300-minipc-2026/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# AMD Ryzen AI 300系列迷你主机横评：2026年最值得购买的AI PC
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 产品范围 | Ryzen AI 300 是处理器系列，不是一台固定配置的迷你主机 | [官方资料](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html) |
+| 架构 | AMD 资料介绍 Zen 5 CPU 与 RDNA 3.5 图形架构 | [官方资料](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html) |
 
+## 阅读与选型边界
 
+确认完整 CPU 型号后，再查整机内存配置和软件支持。不要将系列最高规格套到每款机器，也不要用 NPU 的 TOPS 推算大语言模型每秒输出字数。本文撤下没有原始记录的游戏帧率和 AI 推理速度。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言：AI PC时代的到来
-
-2026年，AI PC已经从概念走向普及。AMD推出的Ryzen AI 300系列处理器凭借强大的NPU算力，成为<a href="/hardware/" target="_blank">迷你主机</a>市场的新宠。本文将为你详细解析Ryzen AI 300系列的技术优势，并推荐几款值得购买的机型。
-
-## 二、Ryzen AI 300系列技术解析
-
-### 2.1 架构升级
-
-Ryzen AI 300系列采用全新的**Zen 5架构**，配备**XDNA 2 NPU**，AI算力最高可达**50 TOPS**。相比上一代，AI性能提升约3倍。
-
-### 2.2 处理器型号一览
-
-| 型号 | 核心/线程 | 最高频率 | NPU算力 | TDP |
-| :--- | :--- | :--- | :--- | :--- |
-| **Ryzen AI 9 HX 370** | 12核24线程 | 5.1GHz | 50 TOPS | 28W |
-| **Ryzen AI 9 365** | 10核20线程 | 5.0GHz | 45 TOPS | 28W |
-| **Ryzen AI 7 HX 350** | 8核16线程 | 5.0GHz | 40 TOPS | 28W |
-
-### 2.3 核显性能
-
-采用**RDNA 3.5架构**的Radeon 880M核显，性能接近入门级独显GTX 1650，可以流畅运行主流游戏。
-
-## 三、推荐机型
-
-### 3.1 入门级：AMD Ryzen 7 8845HS机型
-
-**适合人群**：日常办公、轻度AI应用
-
-**参考配置**：
-- 处理器：AMD Ryzen 7 8845HS（上一代，但性价比高）
-- 内存：16GB DDR5
-- 存储：512GB NVMe SSD
-- 价格区间：2500-3500元
-
-### 3.2 主流级：Ryzen AI 9 HX 370机型
-
-**适合人群**：专业AI应用、重度办公
-
-**推荐机型**：<a href="/review/minisforum-v3-2026/" target="_blank">Minisforum V3</a>、<a href="/review/asus-rog-nuc/" target="_blank">ASUS ROG NUC</a>
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评和<a href="/ai/" target="_blank">AI</a>相关内容请关注 [硬件频道](/hardware/) 和 [AI频道](/ai/)。*
-
-<div class="page-nav">
-  <a href="/review/beelink-ser8/" rel="prev">上一页：Beelink SER8 深度评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

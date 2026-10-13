@@ -1,82 +1,40 @@
 ---
-title: "Intel NUC 14 Pro+ 实测：迷你主机性能天花板？（来源待核查）"
-date: 2026-03-07
-categories: ["hardware"]
-brand: "Intel"
-model: "NUC 14 Pro+"
-platform: "intel"
+title: "ASUS NUC 14 Pro+：配置与选型核对"
+date: "2026-03-07"
+draft: false
 slug: "intel-nuc-14-pro-plus-review"
+categories: ["hardware"]
 tags: ["NUC测评", "迷你主机推荐", "Intel Ultra"]
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+summary: "ASUS NUC 14 Pro+：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "ASUS NUC 14 Pro+：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/"]
+url: "/review/intel-nuc-14-pro-plus-review/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Intel NUC 14 Pro+ 实测：迷你主机性能天花板？
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 系列处理器 | 官方发布资料列 Core Ultra 9、7 与 5 选项 | [官方资料](https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/) |
+| 图形与 AI | 官方说明包含 Arc 图形与集成 NPU | [官方资料](https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/) |
 
+## 阅读与选型边界
 
+NUC 14 Pro+、NUC 14 Pro 和 NUC 14 Pro AI 要按完整名称区分。准系统和预装整机还需要分别确认内存、SSD 与系统授权。原稿中的外置显卡支持、跑分及游戏帧率不能由“Core Ultra”名称推出，已撤下。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://press.asus.com/news/press-releases/asus-nuc-14-pro-plus/)：支持上文注明的事实范围，不证明本站实测。
 
-
-等了小半年，终于上手了这台 **Intel NUC 14 Pro+**。作为 Intel 最新的旗舰迷你主机，这玩意的配置确实够顶。
-
-## 核心配置
-
-- **CPU**: Intel Core Ultra 7 155H（6P+8E+2LPE，16核22线程）
-- **GPU**: Intel Arc GPU（8 Xe核心）
-- **内存**: 双通道 DDR5-5600，最大支持 96GB
-- **存储**: 2x M.2 2280（PCIe 4.0 x4）
-
-## 实测数据
-
-用 CPU-Z 和 AIDA64 跑了一整天，以下是真实数据：
-
-| 项目 | 得分 |
-|------|------|
-| CPU-Z 单核 | 750 分 |
-| CPU-Z 多核 | 8200 分 |
-| AIDA64 内存读取 | 75000 MB/s |
-| 3DMark Time Spy | 3200 分 |
-| 待机功耗 | 12W |
-| 满载功耗 | 85W |
-
-## 实际体验
-
-**办公场景**：开 20 个 Chrome 标签页 + Excel + Word + Zoom，CPU 占用才 30% 左右，风扇基本静音。
-
-**游戏测试**：跑了下《原神》中画质，1080p 稳定 45 帧；《CS2》中画质能跑 60 帧。核显性能比上代提升明显，但跟 RTX 4060 还是没法比。
-
-**噪音控制**：这是我见过最安静的 NUC。待机 25dB，满载 38dB，放在桌上完全不影响工作。
-
-## 优缺点总结
-
-**优点**：
-- 性能释放激进，单烤 FPU 能跑 45W
-- 接口丰富，2x Thunderbolt 4 + 2.5G 网口
-- 散热设计合理，长时间负载温度稳定
-
-**缺点**：
-- 价格感人，准系统约 4500 元
-- 电源适配器有点大（120W）
-- 内存和硬盘需另购
-
-## 适合谁？
-
-如果你需要一台**高性能迷你主机**用于办公、开发轻度设计工作，NUC 14 Pro+ 值得考虑。但对于普通家用，零刻、极摩客的性价比机型更香。
-
-对了，这代 NUC 改用华硕代工后，做工确实比之前好不少。有问题评论区见！
-
-
----
+- [新手阅读入口](/start/)

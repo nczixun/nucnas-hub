@@ -21,6 +21,7 @@ jobs:
         run: |
           python3 scripts/verify_routes.py /tmp/hugo
           python3 scripts/verify_content.py /tmp/hugo
+          python3 scripts/verify_source_evidence.py /tmp/hugo
           /tmp/hugo --minify
           python3 scripts/verify_site.py
           python3 scripts/test_local_rag.py

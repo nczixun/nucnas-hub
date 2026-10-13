@@ -1,83 +1,40 @@
 ---
-title: "ASUS NUC 14 Pro 评测：Intel Ultra 9 185H 迷你主机性能实测（来源待核查）"
-date: 2026-02-16
-categories: ["hardware"]
-brand: "ASUS"
-model: "NUC 14 Pro"
-platform: "intel"
-official_url: "https://search.jd.com/Search?keyword=ASUS+NUC 14 Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=ASUS+NUC 14 Pro+测评"
-youtube_url: "https://www.youtube.com/results?search_query=ASUS+NUC 14 Pro+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "ASUS NUC 14 Pro：版本与资料入口"
+date: "2026-02-16"
+draft: false
 slug: "asus-nuc-14-pro"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "ASUS NUC 14 Pro：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "ASUS NUC 14 Pro：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://dlcdnets.asus.com/pub/ASUS/NUC/TPS/NUC14_Pro_ProPlus_TPS_1.6_20250415.pdf?model=NUC14RVS"]
+url: "/review/asus-nuc-14-pro/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# ASUS NUC 14 Pro 评测：Intel Ultra 9 185H 迷你主机性能实测
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 产品形态 | 技术文档区分主板、套件与预装整机 | [官方资料](https://dlcdnets.asus.com/pub/ASUS/NUC/TPS/NUC14_Pro_ProPlus_TPS_1.6_20250415.pdf?model=NUC14RVS) |
+| CPU 示例 | 文档列 NUC 14 Pro 的 Core Ultra 7 155H 与 Ultra 5 125H 配置 | [官方资料](https://dlcdnets.asus.com/pub/ASUS/NUC/TPS/NUC14_Pro_ProPlus_TPS_1.6_20250415.pdf?model=NUC14RVS) |
 
+## 阅读与选型边界
 
+Tall、Slim 和 Pro+ 的机箱不能混用扩展说明。购买前用完整产品代码查技术文档，再确认需要自行补充哪些组件。本文不把套件的裸机报价与预装整机价格直接比较。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://dlcdnets.asus.com/pub/ASUS/NUC/TPS/NUC14_Pro_ProPlus_TPS_1.6_20250415.pdf?model=NUC14RVS)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-作为华硕接手Intel NUC产品线后的首批标准机型，<a href="/hardware/" target="_blank">NUC</a> 14 Pro承载着传承经典4x4英寸设计的使命。相比同门带"AI"后缀的Lunar Lake版本，这款标准Pro系列采用第一代酷睿Ultra处理器（Meteor Lake），主打**稳定可靠、扩展性强**的商用市场。
-
-它提供**薄款（37mm）和高款（54mm）**两种选择，后者可安装2.5英寸硬盘，满足不同场景需求。这台被称为"标准4x4商用典范"的<a href="/hardware/" target="_blank">迷你主机</a>，究竟能否延续NUC的经典血脉？让我们一探究竟。
-
-## 二、外观与接口：经典尺寸，接口大满贯
-
-**体积与设计**
-<a href="/review/asus-nuc-14-pro/" target="_blank">NUC</a> 14 Pro延续了经典的4x4英寸设计，机身尺寸117×112×37mm（薄款）/54mm（高款），体积约**0.5-0.6升**，重量**470-600克**。全黑色磨砂机身，顶盖带有ASUS Logo，低调务实。
-
-**接口配置** 
-
-| 位置 | 接口类型 | 规格 |
-| :--- | :--- | :--- |
-| **前置** | USB 3.2 Gen2x2 Type-C（20Gbps）、2×USB 3.2 Gen2 Type-A（10Gbps）、Kensington锁孔 | 方便日常使用 |
-| **后置** | **2×雷电4**（支持DP 1.4）、**2×HDMI 2.1**、2.5G网口、USB 3.2 Gen2 Type-A、USB 2.0 Type-A、DC电源输入 | 支持**四屏4K输出** |
-
-**高款额外**：内置2.5英寸硬盘位，需配合附赠螺丝安装。
-
-## 三、内部构造：双M.2+双SO-DIMM，扩展无忧
-
-- **内存**：2个SO-DIMM插槽，支持最高**96GB DDR5-5600MHz**双通道内存
-- **存储**：**2个PCIe 4.0 M.2插槽**（2280+2242），高款额外支持1个2.5英寸SATA硬盘位
-- **无线**：Intel AX211，支持Wi-Fi 6E和蓝牙5.3
-- **散热**：智能散热方案，支持24x7全天候运行
-
-## 四、核心硬件：酷睿Ultra + Arc核显
-
-**处理器选项** 
-
-| 型号 | 核心/线程 | 最高睿频 | TDP | 备注 |
-| :--- | :--- | :--- | :--- | :--- |
-| **酷睿Ultra 7 165H** | 16核22线程 | 5.0GHz | 40W | vPro版 |
-| **酷睿Ultra 7 155H** | 16核22线程 | 4.8GHz | 40W | 主流版 |
-| **酷睿Ultra 5 135H** | 14核18线程 | 4.6GHz | 40W | vPro版 |
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/guide/fnos-day7-backup/" rel="prev">上一页：Day 7：飞牛OS数据备份与同步</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

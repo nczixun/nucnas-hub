@@ -1,62 +1,40 @@
 ---
-title: "Minisforum UM790 Pro 评测：AMD 7940HS 旗舰迷你主机（来源待核查）"
-date: 2026-02-20
-categories: ["hardware"]
-brand: "Minisforum"
-model: "UM790 Pro"
-platform: "amd"
-official_url: "https://search.jd.com/Search?keyword=Minisforum+UM790 Pro"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+UM790 Pro+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Minisforum+UM790 Pro+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "MINISFORUM UM790 Pro：版本与资料入口"
+date: "2026-02-20"
+draft: false
 slug: "minisforum-um790-pro"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "MINISFORUM UM790 Pro：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "MINISFORUM UM790 Pro：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://store.minisforum.com/products/minisforum-um790-pro-mini-pc"]
+url: "/review/minisforum-um790-pro/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Minisforum UM790 Pro 评测：AMD 7940HS 旗舰迷你主机
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 处理器/图形 | Ryzen 9 7940HS 与 Radeon 780M | [官方资料](https://store.minisforum.com/products/minisforum-um790-pro-mini-pc) |
+| 内存/存储 | 官方规格列双 DDR5 SO-DIMM、双 M.2 2280 PCIe 4.0 SSD 槽 | [官方资料](https://store.minisforum.com/products/minisforum-um790-pro-mini-pc) |
 
+## 阅读与选型边界
 
+UM790 Pro 的 CPU 是 Ryzen 9，不能写成 Ryzen 7。普通 UM790、UM790 Pro 与后续型号应分开核查。内存最大值以对应版本说明书为准，游戏或推理表现需要固定软件和配置的实际记录。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://store.minisforum.com/products/minisforum-um790-pro-mini-pc)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-在<a href="/hardware/" target="_blank">迷你主机</a>市场，性能与体积的平衡一直是各家厂商追逐的目标。今天来到测评室的，是来自**Minisforum铭凡**的**UM790 Pro**——一款搭载**AMD锐龙9 7940HS处理器**和**Radeon 780M核显**的旗舰级<a href="/hardware/" target="_blank">迷你主机</a>。
-
-这台仅0.77升体积的"性能小钢炮"，究竟能释放多大的能量？让我们一探究竟。
-
-## 二、外观设计
-
-**包装与配件**
-UM790 Pro的包装盒采用橙黑配色，设计简约，体积比前代产品明显缩小。
-
-- **120W电源适配器**：由航嘉代工，体积较小
-- **HDMI视频线**
-- **VESA挂架及螺丝**
-- **备用橡胶脚垫**
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/minisforum-un100d/" rel="prev">上一页：Minisforum UN100D 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)
