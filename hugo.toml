@@ -8,6 +8,11 @@ enableGitInfo = true
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
 
+# Hosting checkouts may have shallow Git history. Use recorded editorial dates,
+# not the newest deployment commit, for sitemap and Article freshness.
+[frontmatter]
+  lastmod = ["lastmod", "modified", "date", "publishdate", "pubdate", "published"]
+
 [encoding]
   charset = "utf-8"
 
@@ -43,7 +48,7 @@ hasCJKLanguage = true
   priority = 0.5
 
 [params]
-  description = "NUC NAS Hub - 专注迷你主机、NAS私有云与本地AI部署的专业测评网站。提供最详细的硬件评测、NAS系统教程、本地AI部署方案。"
+  description = "迷你主机型号核对、NAS备份恢复教程、本地AI部署指南与计算工具。文章注明来源、适用版本和核查范围。"
 
 [permalinks]
   posts = "/post/:slug/"

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }} - 迷你主机、NAS与本地AI指南{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
 
     {{/* SEO tags are in partials/seo.html */}}
     {{ partial "seo.html" . }}

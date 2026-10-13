@@ -24,7 +24,9 @@ jobs:
           python3 scripts/verify_source_evidence.py /tmp/hugo
           /tmp/hugo --minify
           python3 scripts/verify_site.py
+          python3 scripts/verify_date_metadata.py public /tmp/hugo
           python3 scripts/test_local_rag.py
           python3 scripts/audit_links.py public
           node scripts/test_browser_arithmetic.cjs
           node scripts/test_search_filters.cjs
+          node scripts/test_growth_calculators.cjs public
