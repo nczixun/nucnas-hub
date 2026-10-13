@@ -1,56 +1,41 @@
 ---
-title: "Minisforum MS-A1 评测：AM5插槽可换CPU，8700G核显怪兽（来源待核查）"
-date: 2026-03-01
-categories: ["hardware"]
-brand: "Minisforum"
-model: "MS-A1"
-platform: "amd"
-official_url: "https://search.jd.com/Search?keyword=Minisforum+MS-A1"
-bilibili_url: "https://search.bilibili.com/all?keyword=Minisforum+MS-A1+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Minisforum+MS-A1+review"
-pros: "AM5插槽可升级,8700G核显强劲,接口丰富"
-cons: "散热器体积较大,准系统价格较高"
+title: "MINISFORUM MS-A1：版本与资料入口"
+date: "2026-03-01"
+draft: false
 slug: "minisforum-ms-a1"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "MINISFORUM MS-A1：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "MINISFORUM MS-A1：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.minisforum.com/products/minisforum-ms-a1", "https://www.minisforum.com/pages/product-info"]
+url: "/review/minisforum-ms-a1/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：裸机销售范围与官方支持版本区分；不覆盖全部 CPU 兼容性或整机实测。 本站没有对应机器的独立实测记录。
 
-# Minisforum MS-A1 评测
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 销售形式 | 官方产品选项包含不带 CPU 的裸机配置 | [官方资料](https://www.minisforum.com/products/minisforum-ms-a1) |
+| 版本边界 | 支持中心分别列 7000/9000 与 8000G 的 Type-C 固件入口 | [官方支持中心](https://www.minisforum.com/pages/product-info) |
 
+## 阅读与选型边界
 
+MS-A1 不是 MS-01 的 AMD 同配置版本。裸机是否含 CPU、内存、SSD 和系统授权应写入订单。CPU、固件与主板的组合必须按对应支持资料确认，不能把插座相同解释为任何处理器均可使用。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.minisforum.com/products/minisforum-ms-a1)：支持上文注明的事实范围，不证明本站实测。
+- [官方资料入口 2](https://www.minisforum.com/pages/product-info)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-<a href="/review/minisforum-ms-a1/" target="_blank">Minisforum MS-A1</a> 是一款创新的<a href="/hardware/" target="_blank">迷你主机</a>，采用AM5插槽设计，可更换CPU。
-
-## 主要特点
-
-- AM5插槽可升级CPU
-- 8700G核显强劲
-- 接口丰富
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/ai/ollama-local-llm/" rel="prev">上一页：本地部署 AI 大模型</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

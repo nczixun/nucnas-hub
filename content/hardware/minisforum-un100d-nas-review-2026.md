@@ -1,45 +1,40 @@
 ---
-title: "铭凡UN100D评测：Intel N100入门NAS神器还是鸡肋？（来源待核查）"
-date: 2026-03-06
+title: "MINISFORUM UN100D：配置与选型核对"
+date: "2026-03-06"
+draft: false
+slug: "minisforum-un100d-nas-review-2026"
 categories: ["hardware"]
 tags: ["铭凡", "UN100D", "Intel N100", "NAS", "评测"]
-slug: "minisforum-un100d-nas-review-2026"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+summary: "MINISFORUM UN100D：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "MINISFORUM UN100D：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished"]
+url: "/review/minisforum-un100d-nas-review-2026/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# 铭凡UN100D评测
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| CPU | Intel N100，4 核 4 线程 | [官方资料](https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished) |
+| 内存与网络 | 官方翻新页列板载 LPDDR5、两个 2.5GbE 网口 | [官方资料](https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished) |
 
+## 阅读与选型边界
 
+这里引用的是厂商翻新页的硬件规格，不是新机报价或供货承诺。作为 NAS 候选应先核对板载内存限制、硬盘连接方式和系统驱动，再用可恢复的测试数据验证共享与备份。本文撤下未测量的文件传输速度。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://refurbished.minisforum.com/de/products/minisforum-un100d-refurbished)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-铭凡UN100D是一款搭载Intel N100处理器的<a href="/hardware/" target="_blank">迷你主机</a>，定位入门级市场。
-
-## 外观与接口
-
-接口丰富，够用。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/minisforum-un100d-review-2026/" rel="prev">上一页：Minisforum UN100D使用体验</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

@@ -1,54 +1,40 @@
 ---
-title: "Beelink SER6 评测：AMD 6900HX 升级款（来源待核查）"
-date: 2026-02-18
-categories: ["hardware"]
-brand: "Beelink"
-model: "SER6"
-platform: "amd"
-official_url: "https://search.jd.com/Search?keyword=Beelink+SER6"
-bilibili_url: "https://search.bilibili.com/all?keyword=Beelink+SER6+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Beelink+SER6+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "Beelink SER6：版本与资料入口"
+date: "2026-02-18"
+draft: false
 slug: "beelink-ser6"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "Beelink SER6：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Beelink SER6：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.bee-link.com.cn/cms/support/productlist?id=7", "https://www.bee-link.com.cn/cms/support/service?product_id=99"]
+url: "/review/beelink-ser6/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。 本站没有对应机器的独立实测记录。
 
-# Beelink SER6 评测
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 官方型号/版本 | 支持目录区分 SER6 6600H 与 SER6 6900HX | [官方资料](https://www.bee-link.com.cn/cms/support/productlist?id=7) |
 
+## 阅读与选型边界
 
+先按铭牌与订单中的完整型号找到对应支持条目，再下载该型号的说明书和驱动。相近名称的 Pro、MAX 或处理器变体不应共用规格结论。本页只提供版本辨认方法；旧稿中的主观做工评价、实测语气、固定售价和无记录的性能保证已撤下。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.bee-link.com.cn/cms/support/productlist?id=7)：支持上文注明的事实范围，不证明本站实测。
+- [官方资料入口 2](https://www.bee-link.com.cn/cms/support/service?product_id=99)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-<a href="/review/beelink-ser6/" target="_blank">Beelink SER6</a> 搭载 AMD 6900HX 处理器，是 SER5 的升级款<a href="/hardware/" target="_blank">迷你主机</a>。
-
-## 主要特点
-
-- AMD 6900HX 性能更强
-- 接口升级
-- 散热改进
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/beelink-ser5/" rel="prev">上一页：Beelink SER5 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

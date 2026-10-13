@@ -1,50 +1,40 @@
 ---
-title: "Intel Ultra 200V 系列发布：Lunar Lake 架构全面更新（来源待核查）"
-date: 2026-03-07
-categories: ["hardware"]
-brand: "Intel"
-model: "Ultra 200V"
-platform: "intel"
+title: "Intel Core Ultra 200V：版本与资料入口"
+date: "2026-03-07"
+draft: false
 slug: "intel-ultra-200v-release"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "Intel Core Ultra 200V：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Intel Core Ultra 200V：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"]
+url: "/review/intel-ultra-200v-release/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# Intel Ultra 200V 系列发布：Lunar Lake 架构全面更新
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 系列名称 | Core Ultra 200V 是 Intel 的移动处理器系列 | [官方资料](https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html) |
+| 图形平台 | Intel 系列资料列出 Arc 图形与 AI 功能 | [官方资料](https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html) |
 
+## 阅读与选型边界
 
+200V 是系列后缀，不能与 200H 或 200U 混写。购买前查明整机使用的完整 CPU 型号、内存容量以及是否可升级。旧标题中的“2026 首发”和未核实的发布日期已撤下；本文只整理系列范围，不预测新机价格。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html)：支持上文注明的事实范围，不证明本站实测。
 
-
-Intel 正式发布 Ultra 200V 系列处理器，采用全新的 Lunar Lake 架构。这次升级，主要针对**能效比**和**AI 算力**进行了优化。
-
-**核心参数：**
-
-- 最多 8 核 8 线程（4 性能核 + 4 能效核）
-- 核显升级为 Xe2 架构，图形性能提升 30%
-- NPU 算力最高 48 TOPS
-- TDP 范围 17W-37W
-
-**实测数据：**
-
-- Cinebench R23 单核得分：2100+ 分
-- 3DMark Time Spy 核显分数：3400+ 分
-- 功耗比上代降低 40%
-
-这款处理器主要面向**轻薄本**和**迷你主机**市场，预计 Q2 正式上市。关注 nucnas.top，获取更多新品资讯。
-
-
----
+- [新手阅读入口](/start/)

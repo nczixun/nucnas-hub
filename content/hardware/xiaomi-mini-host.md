@@ -1,50 +1,40 @@
 ---
-title: "小米迷你主机评测：Intel Core i7-1260P + 16GB内存够用吗？（来源待核查）"
-date: 2026-02-20
-categories: ["hardware"]
-brand: "Xiaomi"
-model: "Mini Host"
-platform: "intel"
-official_url: "https://search.jd.com/Search?keyword=Xiaomi+Mini Host"
-bilibili_url: "https://search.bilibili.com/all?keyword=Xiaomi+Mini+Host+测评"
-youtube_url: "https://www.youtube.com/results?search_query=Xiaomi+Mini+Host+review"
-pros: "做工精良, 性能稳定, 接口丰富"
-cons: "负载较高时有风扇声, 扩展位有限"
+title: "Xiaomi 迷你主机：版本与资料入口"
+date: "2026-02-20"
+draft: false
 slug: "xiaomi-mini-host"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["hardware"]
+tags: []
+summary: "Xiaomi 迷你主机：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Xiaomi 迷你主机：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.mi.com/computer-mini"]
+url: "/review/xiaomi-mini-host/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# 小米迷你主机评测
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| CPU | 官方页面列 Core i5-1240P，12 核 16 线程 | [官方资料](https://www.mi.com/computer-mini) |
+| 接口边界 | 两个 Thunderbolt 4；HDMI 2.1 使用 TMDS，官方注明最高 18Gbps | [官方资料](https://www.mi.com/computer-mini) |
 
+## 阅读与选型边界
 
+接口名称中的 HDMI 2.1 不代表所有 HDMI 2.1 带宽模式。Thunderbolt 4 的对外供电也不意味着主机支持通过该口受电。先按显示器分辨率和刷新率核对整条连接链，再选线材。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.mi.com/computer-mini)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 一、前言
-
-在2022年底，小米发布了旗下首款桌面<a href="/hardware/" target="_blank">迷你主机</a>，正式进军这个被Intel NUC和Mac mini主导的市场。它延续了小米生态一贯的**简约设计语言**，搭载12代酷睿i5-1240P处理器，定价**2999元**起，直接瞄准了入门级办公和家庭用户。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/review/synology-ds923-/" rel="prev">上一页：Synology DS923+ 评测</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

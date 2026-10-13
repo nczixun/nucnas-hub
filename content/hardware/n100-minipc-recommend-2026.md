@@ -1,73 +1,40 @@
 ---
-title: "2026年N100迷你主机推荐：百元级性能小钢炮（来源待核查）"
-date: 2026-03-05
+title: "Intel N 系列选型：版本与资料入口"
+date: "2026-03-05"
 draft: false
-description: "Intel N100处理器迷你主机选购指南，2026年性价比最高的入门级mini PC推荐"
-tags: ["N100", "迷你主机", "mini PC", "Intel", "性价比", "2026", "入门"]
-categories: ["硬件测评"]
-featured_image: ""
-sticky: false
-unversioned: false
-author: "NUCNAS"
 slug: "n100-minipc-recommend-2026"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+categories: ["硬件测评"]
+tags: ["N100", "迷你主机", "mini PC", "Intel", "性价比", "2026", "入门"]
+summary: "Intel N 系列选型：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Intel N 系列选型：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"]
+url: "/review/n100-minipc-recommend-2026/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# 2026年N100迷你主机推荐：百元级性能小钢炮
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| N150 / N100 | 均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz | [官方资料](https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html) |
+| Core i3-N305 / N350 | 均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz | [官方资料](https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html) |
 
+## 阅读与选型边界
 
+N350 不是 6 核型号，N305 的完整名称包含 Core i3。处理器表不能说明整机待机耗电或长期散热；这些需要同一电源模式、相同外设和墙上功率计记录。优先确认内存和网卡规格，不把小幅最高频率变化写成固定百分比性能提升。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html)：支持上文注明的事实范围，不证明本站实测。
 
-
-
-## 前言
-
-如果你预算有限，又想买一台性能还不错的<a href="/hardware/" target="_blank">迷你主机</a>，那 **Intel N100** 一定是2026年最值得关注的选择！
-
-这期给大家整理了目前市面上最值得购买的N100<a href="/hardware/" target="_blank">迷你主机</a>，从百元到千元，总有一款适合你。
-
----
-
-## 一、什么是N100？
-
-### 1.1 处理器介绍
-
-Intel N100是Intel第12代Alder Lake-N系列处理器，采用全新的Gracemont架构：
-
-| 参数 | 规格 |
-|-----|------|
-| 核心数 | 4核心4线程 |
-| 基础频率 | 1.8GHz |
-| 睿频 | 3.4GHz |
-| 缓存 | 6MB L3 |
-| 功耗 | 6W TDP |
-| 制程 | Intel 7 (10nm) |
-| 核显 | 24EU Xe核显 |
-
-### 1.2 性能表现
-
-N100的性能对于日常办公和轻度<a href="/nas/" target="_blank">NAS</a>应用来说完全够用。
-
----
-
-*更多<a href="/hardware/" target="_blank">迷你主机</a>测评请关注 [硬件频道](/hardware/)。*
-
-<div class="page-nav">
-  <a href="/guide/nas-power-save/" rel="prev">上一页：24/7运行也不心疼电费：小主机功耗优化策略</a>
-</div>
-
-*本文由 NUC NAS Hub 自动生成*
+- [新手阅读入口](/start/)

@@ -1,97 +1,41 @@
 ---
-title: "AMD Ryzen AI 300 vs Intel Ultra 200V 巅峰对决：2026 年最强移动 AI 处理器横评（来源待核查）"
-date: 2026-03-08
-categories: ["hardware"]
-brand: "AMD"
-model: "Ryzen AI 300"
-platform: "amd"
+title: "Ryzen AI 300 与 Core Ultra 200V：任务需求"
+date: "2026-03-08"
+draft: false
 slug: "amd-ryzen-ai-300-vs-intel-ultra-200v-comparison-2026"
+categories: ["hardware"]
 tags: ["AMD Ryzen AI 300", "Intel Ultra 200V", "处理器对比", "AI PC", "移动处理器"]
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+summary: "Ryzen AI 300 与 Core Ultra 200V：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Ryzen AI 300 与 Core Ultra 200V：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html", "https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html"]
+url: "/review/amd-ryzen-ai-300-vs-intel-ultra-200v-comparison-2026/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。 本站没有对应机器的独立实测记录。
 
-# AMD Ryzen AI 300 vs Intel Ultra 200V 巅峰对决：2026 年最强移动 AI 处理器横评
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| AMD 平台 | Ryzen AI 300：Zen 5 与 RDNA 3.5，见 AMD 系列说明 | [官方资料](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html) |
+| Intel 平台 | Core Ultra 200V：Intel 官方的移动处理器系列，见第二来源 | [Intel 系列说明](https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html) |
 
+## 阅读与选型边界
 
+比较时写全双方 SKU，固定内存、软件版本、模型、量化格式与电源模式。CPU、GPU、NPU 是不同执行后端；一个应用能否调用 NPU，需要该应用和驱动的支持，不能由品牌宣传值代替。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.amd.com/en/partner/articles/ryzen-ai-300-series-processors.html)：支持上文注明的事实范围，不证明本站实测。
+- [官方资料入口 2](https://www.intel.com/content/www/us/en/now/core-ultra-200v-series-processors.html)：支持上文注明的事实范围，不证明本站实测。
 
-
-2026 年的移动处理器市场迎来了一场激动人心的对决：AMD Ryzen AI 300 系列正面硬刚 Intel Ultra 200V 系列。这不仅是两家芯片巨头的技术较量，更是 AI PC 时代开端的标志性事件。本文将从规格、性能、功耗、续航等多个维度，全面对比这两款旗舰级移动处理器。
-
-## 处理器规格对比
-
-| 参数 | AMD Ryzen AI 9 HX 370 | Intel Core Ultra 7 256V |
-|------|----------------------|------------------------|
-| 架构 | Zen 5 + XDNA2 | Lunar Lake |
-| 核心/线程 | 12/24 | 8/8 (4P+4E) |
-| 最大功耗 | 28W | 17W |
-| AI 算力 | 50 TOPS | 47 TOPS |
-| 核显 | Radeon 890M (16CU) | Arc 140V (8Xe) |
-| 最大内存 | 64GB LPDDR5x | 32GB LPDDR5x |
-
-## 处理器性能测试
-
-**Cinebench R23 多核**
-- Ryzen AI 9 HX 370：单核 1980 / 多核 18500 分
-- Core Ultra 7 256V：单核 1850 / 多核 10200 分
-
-**3DMark Time Spy 核显性能**
-- Ryzen AI 9 HX 370：3450 分
-- Core Ultra 7 256V：2800 分
-
-**Geekbench 6 AI 基准测试**
-- Ryzen AI 9 HX 370：18500 分（CPU）/ 32000 分（NPU）
-- Core Ultra 7 256V：16200 分（CPU）/ 28500 分（NPU）
-
-**AI 图像处理性能对比**
-- Ryzen AI 9 HX 370：125 images/sec
-- Core Ultra 7 256V：98 images/sec
-
-## 功耗与续航表现
-
-**基础功耗**
-- Ryzen AI 9 HX 370：8W
-- Core Ultra 7 256V：5W
-
-**高负载功耗**
-- Ryzen AI 9 HX 370：65W
-- Core Ultra 7 256V：45W
-
-**日常办公续航测试（30 分钟）**
-- Ryzen AI 9 HX 370：78% 电量剩余
-- Core Ultra 7 256V：72% 电量剩余
-
-## 适用场景分析
-
-**推荐选择 AMD Ryzen AI 300 系列**
-- 追求极致多线程性能的专业用户
-- 需要强大核显进行轻度游戏或图形处理
-- 开发者和数据科学家需要本地 AI 部署
-- 预算充足追求旗舰性能
-
-**推荐选择 Intel Ultra 200V 系列**
-- 注重超长续航的商务人士
-- 偏好 Intel 生态和 OpenVINO 工具链
-- 轻度办公和日常内容消费为主
-- 对发热和噪音敏感
-
-## 选购建议
-
-综合来看，如果你需要极致的多核性能和更强的 AI 算力，且预算在 3500-4500 元区间，AMD Ryzen AI 9 HX 370 是更优选择。如果你更看重续航和低功耗，且预算在 4000-5000 元区间，Intel Ultra 7 256V 同样值得考虑。两款处理器各有优势，最终选择还需根据个人需求和偏好决定。
-
-
----
+- [新手阅读入口](/start/)

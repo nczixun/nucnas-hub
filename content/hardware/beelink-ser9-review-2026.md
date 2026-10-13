@@ -1,72 +1,40 @@
 ---
-title: "零刻 SER9 深度测评：AMD Ryzen AI 9 HX 370 性能数据实测报告（来源待核查）"
-date: 2026-03-08
+title: "Beelink SER9：配置与选型核对"
+date: "2026-03-08"
+draft: false
+slug: "beelink-ser9-review-2026"
 categories: ["hardware"]
 tags: ["零刻", "SER9", "AMD", "Ryzen AI 9", "迷你主机", "测评"]
-slug: "beelink-ser9-review-2026"
-
-contentStatus: "pending"
-
-contentType: "历史资料"
-
+summary: "Beelink SER9：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+description: "Beelink SER9：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
+contentType: "资料整理"
+contentStatus: "reviewed"
+lastmod: "2026-10-13"
 sourceAuditAt: "2026-10-13"
-
-summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
+sources: ["https://www.bee-link.com.cn/cms/support/productlist?id=7", "https://www.bee-link.com.cn/cms/support/service?product_id=137"]
+url: "/review/beelink-ser9-review-2026/"
+reviewedAt: "2026-10-13"
 ---
 
-> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
+资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：官方支持目录中的版本名称与资料入口；未完成整机参数表或实测核验。 本站没有对应机器的独立实测记录。
 
-# 零刻 SER9 深度测评：AMD Ryzen AI 9 HX 370 性能数据实测报告
+## 已核对的依据
 
+| 核对项目 | 可确认内容 | 对应来源 |
+|---|---|---|
+| 官方型号/版本 | 支持目录列有 SER9 HX370 / AI365；另列 SER9 Pro255 | [官方资料](https://www.bee-link.com.cn/cms/support/productlist?id=7) |
 
+## 阅读与选型边界
 
+先按铭牌与订单中的完整型号找到对应支持条目，再下载该型号的说明书和驱动。相近名称的 Pro、MAX 或处理器变体不应共用规格结论。本页只提供版本辨认方法；旧稿中的主观做工评价、实测语气、固定售价和无记录的性能保证已撤下。
 
+## 如何验收自己的配置
 
----
+先记录完整型号、CPU、内存、SSD、系统与驱动版本。用自己的主要任务确认功能和兼容性；如要比较速度，保留输入、设置与原始结果。厂商规格与编辑建议不代表本站实测，历史跑分、价格、噪音和体验描述没有原始证据的部分已撤下，旧版本可在仓库历史中追溯。
 
+## 来源与范围
 
+- [官方资料入口 1](https://www.bee-link.com.cn/cms/support/productlist?id=7)：支持上文注明的事实范围，不证明本站实测。
+- [官方资料入口 2](https://www.bee-link.com.cn/cms/support/service?product_id=137)：支持上文注明的事实范围，不证明本站实测。
 
-
-零刻 SER9 终于测完了，这款搭载 AMD Ryzen AI 9 HX 370 的旗舰迷你主机表现如何？直接上数据。
-
-## 核心配置
-
-我手里这台是 32GB+1TB 版本，处理器是 AMD Ryzen AI 9 HX 370，12 核心 24 线程，NPU 算力 50 TOPS。内存是 DDR5 5600MHz，固态是 PCIe 4.0 SSD。
-
-## 实测性能数据
-
-### CPU 基准测试
-
-用 Cinebench R23 测试，单核得分 1985，多核得分 18500。对比 Intel N150，单核提升约 6 倍，多核提升接近 18 倍。这个性能已经超越很多桌面级处理器。
-
-### NPU 算力测试
-
-用 Procyon AI Benchmark 测试，NPU 得分 1850 分左右。本地运行 Phi-3.5-mini 这类小模型，完全可以离线使用。
-
-### 核显性能
-
-Radeon 890M 核显在 3DMark Time Spy 中得分 3200 分左右，能够流畅运行《原神》中画质、《CS2》中高画质。
-
-### 功耗与温度
-
-| 场景 | 功耗 | CPU 温度 |
-|------|------|----------|
-| 待机 | 8W | 35℃ |
-| 办公 | 25W | 55℃ |
-| 烤机 | 65W | 78℃ |
-
-## 优缺点分析
-
-优点：性能强劲、NPU 算力领先、接口丰富（双 USB4、双 2.5G 网口）、支持 WiFi 7
-缺点：准系统价格约 3500 元、长时间高负载噪音略大
-
-## 选购建议
-
-如果你是专业用户，需要本地跑 AI 模型、剪辑视频或者开发编译，零刻 SER9 值得考虑。但对于普通办公用户，Intel N150 性价比更高。
-
----
-
-*实测数据基于 nucnas.top 测试环境，实际情况可能因配置和使用环境不同而有差异。*
-
-
----
+- [新手阅读入口](/start/)
