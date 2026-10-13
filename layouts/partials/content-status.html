@@ -1,0 +1,7 @@
+{{ if eq .Params.contentstatus "pending" }}
+<p class="content-status content-status-pending">来源待核查：历史测试、参数与价格尚无完整可追溯记录。请先核对官方资料。</p>
+{{ else }}{{ with .Params.reviewedat }}
+<p class="content-status">资料核对 {{ time.Format "2006-01-02" . }} · 核查范围见正文，实测需有独立记录。</p>
+{{ else }}{{ if in (slice "hardware" "nas" "ai" "openclaw") .Section }}
+<p class="content-status">尚未标记资料核查日期，请核对版本与来源后使用。</p>
+{{ end }}{{ end }}{{ end }}

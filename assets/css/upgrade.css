@@ -83,3 +83,20 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
 
 .site-navigation, .nav-container { height: auto; min-height: 56px; } .nav-container { padding-top: 8px; padding-bottom: 8px; } .breadcrumb, .pagination { position: static; height: auto; z-index: auto; backdrop-filter: none; } .skip-link { z-index: 10001; }
+
+/* Review information and search controls: scoped to the reading workflow. */
+.content-status { padding:12px 16px; border-left:3px solid #0066cc; background:#f3f7fc; color:#234366; font-size:.95rem; line-height:1.65; }
+.content-status-pending { border-color:#956013; background:#fff8ea; color:#674612; }
+.selection-explainer, .search-help { color:#555; line-height:1.7; margin:16px 0; }
+.recent-review { margin:48px 0 64px; }
+.recent-review > p { color:#555; margin:16px 0; }
+.recent-review ul { list-style:none; padding:0; }
+.recent-review li { display:flex; flex-wrap:wrap; gap:8px 24px; justify-content:space-between; padding:16px 0; border-bottom:1px solid #ddd; }
+.recent-review li a { color:#0059b3; flex:1 1 320px; }
+.recent-review li span { color:#555; font-size:.9rem; }
+.search-filters { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin:18px 0; }
+.search-filters select { max-width:100%; padding:10px; border:1px solid #888; border-radius:6px; font:inherit; background:white; color:#222; }
+.search-filters .review-filter { display:flex; align-items:center; gap:8px; }
+.search-result .search-review-status { color:#234366; font-size:.9rem; }
+.search-result .search-review-pending { color:#674612; }
+.search-filters input { width:18px; height:18px; }

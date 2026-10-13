@@ -26,3 +26,4 @@ jobs:
           python3 scripts/test_local_rag.py
           python3 scripts/audit_links.py public
           node scripts/test_browser_arithmetic.cjs
+          node scripts/test_search_filters.cjs
