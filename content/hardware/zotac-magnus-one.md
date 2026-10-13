@@ -1,5 +1,5 @@
 ---
-title: "Zotac Magnus ONE评测：RTX4070桌面级显卡+8L体积，性能怪兽来袭"
+title: "Zotac Magnus ONE评测：RTX4070桌面级显卡+8L体积，性能怪兽来袭（来源待核查）"
 date: 2026-03-12
 categories: ["hardware"]
 tags: ["迷你主机", "RTX4070", "桌面级", "游戏主机", "Zotac", "工作站"]
@@ -7,21 +7,28 @@ description: "搭载RTX4070桌面级显卡，8L超小体积，Zotac Magnus ONE�
 image: "https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=800"
 toc: true
 draft: false
+
+slug: "zotac-magnus-one评测rtx4070桌面级显卡-8l体积性能怪兽来袭"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Zotac Magnus ONE评测：RTX4070桌面级显卡+8L体积，性能怪兽来袭
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 
@@ -123,5 +130,3 @@ Magnus ONE采用**三风扇+VC均热板**散热：
 
 
 ---
-
-*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

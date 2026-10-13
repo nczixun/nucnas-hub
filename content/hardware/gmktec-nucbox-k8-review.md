@@ -1,25 +1,31 @@
 ---
-title: "极摩客 Nucbox K8 测评：Ryzen 7 8845HS 性价比之王"
+title: "极摩客 Nucbox K8 测评：Ryzen 7 8845HS 性价比之王（来源待核查）"
 date: 2026-03-13
 categories: ["硬件测评"]
-summary: "极摩客 Nucbox K8深度测评，搭载AMD Ryzen 7 8845HS，性价比极高，适合高性能办公和游戏。"
 image: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=800"
 tags: ["测评", "迷你主机", "极摩客", "GMKtec", "Nucbox K8", "Ryzen 7"]
+
+slug: "极摩客-nucbox-k8-测评ryzen-7-8845hs-性价比之王"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # 极摩客 Nucbox K8 测评：Ryzen 7 8845HS 性价比之王
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 

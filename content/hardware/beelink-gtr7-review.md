@@ -1,5 +1,5 @@
 ---
-title: "Beelink GTR7深度评测：7840HS+指纹识别+磁吸电源，迷你主机天花板"
+title: "Beelink GTR7深度评测：7840HS+指纹识别+磁吸电源，迷你主机天花板（来源待核查）"
 date: 2026-03-12
 categories: ["hardware"]
 tags: ["迷你主机", "AMD 7840HS", "指纹识别", "磁吸电源", "Beelink", "静音"]
@@ -7,21 +7,28 @@ description: "搭载AMD 7840HS处理器，配备指纹识别和磁吸电源，Be
 image: "https://images.pexels.com/photos/2050718/pexels-photo-2050718.jpeg?auto=compress&cs=tinysrgb&w=800"
 toc: true
 draft: false
+
+slug: "beelink-gtr7深度评测7840hs-指纹识别-磁吸电源迷你主机天花板"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Beelink GTR7深度评测：7840HS+指纹识别+磁吸电源，迷你主机天花板
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 
@@ -126,5 +133,3 @@ GTR7配备了**VC均热板**散热系统：
 
 
 ---
-
-*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

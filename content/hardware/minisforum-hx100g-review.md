@@ -1,5 +1,5 @@
 ---
-title: "Minisforum HX100G评测：RX6650M独显+液金散热，游戏小钢炮来了"
+title: "Minisforum HX100G评测：RX6650M独显+液金散热，游戏小钢炮来了（来源待核查）"
 date: 2026-03-12
 categories: ["hardware"]
 tags: ["迷你主机", "AMD 7840HS", "RX6650M", "独显", "游戏", "Minisforum"]
@@ -7,21 +7,28 @@ description: "搭载AMD 7840HS处理器和RX6650M独立显卡，液金散热加�
 image: "https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=800"
 toc: true
 draft: false
+
+slug: "minisforum-hx100g评测rx6650m独显-液金散热游戏小钢炮来了"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Minisforum HX100G评测：RX6650M独显+液金散热，游戏小钢炮来了
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 
@@ -111,5 +118,3 @@ HX100G采用了**液金散热**，导热效率比传统硅脂更高。满载时�
 
 
 ---
-
-*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

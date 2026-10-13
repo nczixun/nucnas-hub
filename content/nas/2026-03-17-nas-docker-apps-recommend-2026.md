@@ -1,108 +1,47 @@
 ---
-title: "NAS Docker应用推荐2026：这些容器让你的NAS更强大"
 date: 2026-03-17
 categories: ["nas"]
 tags: ["NAS", "Docker", "容器"]
-description: "盘点2026年最值得安装的NAS Docker应用，从影音到办公全覆盖。"
 keywords: ["NAS Docker", "Docker应用推荐", "NAS软件"]
+
+slug: "nas-docker应用推荐2026这些容器让你的nas更强大"
+
+
+
+
+
+
+
+title: "NAS容器应用：选择和验收顺序"
+
+summary: "NAS容器应用：选择和验收顺序"
+
+description: "NAS容器应用：选择和验收顺序：前提、核对方法与验收。"
+
+lastmod: "2026-10-13"
+
+contentStatus: "reviewed"
+
+contentType: "资料整理"
+reviewedAt: 2026-10-13
 ---
 
-# NAS Docker应用推荐2026：这些容器让你的NAS更强大
-## 为什么要在NAS上跑Docker�?
-Docker让NAS不再只是"存储盒子"。通过容器，你可以把NAS变成家庭媒体中心、下载机、HomeLab甚至开发环境。以下是2026年最值得安装的Docker应用推荐�?
-## 影音娱乐�?
-### 1. Jellyfin / Emby / Plex
+资料核对：**2026-10-13**。旧稿存在无法恢复的乱码和缺少证据的结论。本次重写可确认的操作边界；本站未进行真实设备或软件部署实测。
 
-家庭媒体三巨头，任选其一即可�?
-| 媒体服务�?| 特点 | 收费 |
-|------------|------|------|
-| Jellyfin | 开源免�?| 免费 |
-| Emby | 刮削强大 | 付费解锁高级功能 |
-| Plex | 生态完�?| 付费会员 |
+## 按任务选择应用
 
-**推荐配置**�?```yaml
-services:
-  jellyfin:
-    image: jellyfin/jellyfin:latest
-    container_name: jellyfin
-    volumes:
-      - ./config:/config
-      - ./cache:/cache
-      - /path/to/media:/media
-    ports:
-      - "8096:8096"
-    devices:
-      - /dev/dri:/dev/dri
-    restart: unless-stopped
-```
+文件管理、照片、媒体与家庭自动化是不同任务。先选择一个确实需要的应用，按项目官方镜像和安装说明核对系统、CPU架构、端口与数据目录，不使用通用模板替代全部应用文档。
 
-### 2. Alist
+## 配置与数据分开记录
 
-网盘聚合神器，支持阿里云盘、百度网盘、Google Drive等�?
-```bash
-# 一键部�?docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PASSWORD=yourpassword xhofe/alist:latest
-```
+记录镜像的具体版本、数据卷、备份和恢复方法。挂载Docker socket会赋予很大控制能力，不是所有应用都需要；不要为方便统一挂载。密码不放在公开示例中。
 
-### 3. QBittorrent / Transmission
+## 验收
 
-下载工具，PT/BT通吃�?
-## 系统工具�?
-### 4. Portainer
+用测试数据确认启动、访问权限和重启后的持久化，再恢复一次备份。升级前保存配置与数据，一次改一个应用，出错时按记录恢复。旧稿未经核实的镜像和端口配置已撤下。
 
-可视化管理Docker，告别命令行�?
-```bash
-docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-```
+## 资料与下一步
 
-### 5. Watchtower
-
-自动更新容器，懒人必备�?
-```bash
-docker run --name watchtower -d --restart=always -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower
-```
-
-### 6. Nginx Proxy Manager
-
-反向代理+SSL证书，小白也能轻松建站�?
-## HomeLab�?
-### 7. Home Assistant
-
-智能家居中枢，支持米家、HomeKit等�?
-### 8. AdGuard Home
-
-DNS广告过滤，保护全家上网安全�?
-### 9. Uptime Kuma
-
-自建监控面板，网站状态一目了然�?
-## 开发工具类
-
-### 10. Code-Server
-
-浏览器里的VSCode，随时随地写代码�?
-### 11. Cloudflare Tunnel
-
-内网穿透，无需公网IP也能暴露服务�?
-## 推荐组合
-
-| 使用场景 | 推荐容器组合 |
-|----------|--------------|
-| 影音爱好�?| Jellyfin + Alist + QBittorrent |
-| 智能家居 | Home Assistant + AdGuard |
-| 开发�?| Code-Server + Nginx Proxy Manager |
-| All in One | 以上全部(需4GB+内存) |
-
-## 性能消耗参�?
-| 容器 | 内存占用 | CPU占用(Idle) |
-|------|----------|---------------|
-| Jellyfin | 200-500MB | 1-3% |
-| Alist | 50-100MB | 0-1% |
-| Home Assistant | 300-800MB | 2-5% |
-| Portainer | 100-200MB | 0-1% |
-
-## 注意事项
-
-1. **内存**：跑得多需要更大内存，建议8GB起步
-2. **硬盘**：Docker镜像会占用空间，定期清理
-3. **网络**：部分镜像需要特殊网络配�?4. **安全**：不要把全部服务暴露到公�?
-**相关阅读**�?- [NAS Docker进阶玩法](/guide/docker-compose-advanced-2026)
-- [NAS远程访问方案横评](/guide/nas%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE%E6%96%B9%E6%A1%88%E6%A8%AA%E8%AF%842026tailscale-vs-zerotier-vs-ddns/)
+- [Docker Compose服务配置](https://docs.docker.com/reference/compose-file/services/)
+- [Docker基础与验收](/guide/docker-best-practice/)
+- [NAS阅读路线](/nas-roadmap/)

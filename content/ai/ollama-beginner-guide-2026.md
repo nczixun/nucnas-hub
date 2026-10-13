@@ -1,4 +1,6 @@
 ---
+reviewedAt: 2026-10-10
+contentStatus: reviewed
 title: "本地大模型部署入门指南：Ollama使用教程，2026年轻松在电脑上跑AI"
 date: 2026-03-05
 draft: false

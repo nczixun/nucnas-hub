@@ -1,4 +1,6 @@
 ---
+reviewedAt: 2026-10-10
+contentStatus: reviewed
 slug: "ollama-openwebui"
 title: "Ollama + OpenWebUI 搭建本地 AI 聊天界面"
 date: 2026-02-18

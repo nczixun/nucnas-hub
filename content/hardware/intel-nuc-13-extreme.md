@@ -1,5 +1,5 @@
-﻿---
-title: "Intel NUC 13 Extreme 评测：13代i9 + RTX 4080 性能怪兽"
+---
+title: "Intel NUC 13 Extreme 评测：13代i9 + RTX 4080 性能怪兽（来源待核查）"
 date: 2026-02-19
 categories: ["hardware"]
 brand: "Intel"
@@ -11,21 +11,26 @@ youtube_url: "https://www.youtube.com/results?search_query=Intel+NUC 13 Extreme+
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "intel-nuc-13-extreme"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # 性能无妥协的"小尺寸巨兽"——Intel NUC 13 Extreme 猛禽峡谷 开箱测评：当NUC终于长成ITX的模样
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 
@@ -263,5 +268,3 @@ slug: "intel-nuc-13-extreme"
 
 
 ---
-
-*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

@@ -1,4 +1,6 @@
 ---
+reviewedAt: 2026-10-10
+contentStatus: reviewed
 title: "本地AI知识库搭建教程：RAG系统实战指南"
 date: 2026-03-08
 categories: ["ai"]

@@ -1,4 +1,5 @@
 ---
+homeFeatured: true
 title: "Beelink SEi14：125H版本辨识与官方资料"
 date: 2026-03-08
 categories: ["hardware"]

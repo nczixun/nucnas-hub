@@ -1,26 +1,31 @@
-﻿---
-title: "Minisforum UM790 评测：AMD 7940H 顶级迷你主机"
+---
+title: "Minisforum UM790 评测：AMD 7940H 顶级迷你主机（来源待核查）"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
 model: "UM790"
 platform: "amd"
 slug: "minisforum-um790"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Minisforum UM790 评测
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 

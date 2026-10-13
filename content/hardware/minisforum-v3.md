@@ -1,5 +1,5 @@
-﻿---
-title: "Minisforum V3 评测：AMD 8840U 三合一平板"
+---
+title: "Minisforum V3 评测：AMD 8840U 三合一平板（来源待核查）"
 date: 2026-02-20
 categories: ["hardware"]
 brand: "Minisforum"
@@ -11,21 +11,26 @@ youtube_url: "https://www.youtube.com/results?search_query=Minisforum+V3+review"
 pros: "做工精良, 性能稳定, 接口丰富"
 cons: "负载较高时有风扇声, 扩展位有限"
 slug: "minisforum-v3"
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Minisforum V3 评测
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 

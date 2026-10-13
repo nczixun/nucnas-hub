@@ -1,5 +1,5 @@
-﻿---
-title: "Intel Core Ultra 200V系列发布：最强核显轻薄本来了？"
+---
+title: "Intel Core Ultra 200V系列发布：最强核显轻薄本来了？（来源待核查）"
 date: 2026-03-03
 categories: ["hardware"]
 brand: "Intel"
@@ -22,7 +22,6 @@ score: 8.2
 tags: 
   - "首发"
   - "AI PC"
-summary: "Xe2核显+120TOPS AI算力，英特尔移动端最强之作"
 audience: "追求便携与AI性能的专业用户"
 price: "待定"
 hw_specs:
@@ -38,21 +37,26 @@ radar:
   io: 8
   noise: 9
   price: 7
+
+contentStatus: "pending"
+
+contentType: "历史资料"
+
+sourceAuditAt: "2026-10-13"
+
+summary: "历史资料：来源和测试条件尚未完整核验，请先核对具体型号及官方文档。"
 ---
+
+> **来源待核查（2026-10-13）**：下文为保留的历史资料。测试描述、价格、参数和第一人称体验缺少完整可追溯记录，不能当作本站已完成的实测或当前购买/执行依据。搜索结果页不等于具体评测来源；若有候选视频，其作者、内容和引用范围仍需核验。
 
 # Intel Core Ultra 200V系列深度解析：Xe2核显+120TOPS AI，这才是真正的AI PC？
 
 
 
-> 本篇文章基于 B站/YouTube 真实评测视频内容聚合而成
+
 
 ---
 
-## 📊 视频来源
-
-| 序号 | 视频标题 | 博主 |
-|------|----------|------|
-| 1 | 待补充 | 待补充 |
 
 
 
@@ -160,5 +164,3 @@ Xe2核显性能强劲, AI算力达120TOPS, 功耗控制优秀, Wi-Fi 7支持
 
 
 ---
-
-*本文由 NUC NAS Hub 基于真实评测视频自动聚合生成*

@@ -1,4 +1,5 @@
 ---
+homeFeatured: true
 title: "零刻 EQ14、小米迷你主机与联想 M700：配置核查和选购检查"
 date: 2026-03-29
 categories: ["硬件", "迷你主机"]

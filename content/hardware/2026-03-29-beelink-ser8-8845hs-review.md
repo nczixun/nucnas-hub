@@ -1,4 +1,5 @@
 ---
+homeFeatured: true
 title: "Beelink SER8 8845HS：型号核查与本地AI准备"
 date: 2026-03-29
 categories: ["硬件", "迷你主机"]
