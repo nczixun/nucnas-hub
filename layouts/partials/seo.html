@@ -3,19 +3,21 @@
 {{- $isArticle := and .IsPage (in (slice "hardware" "nas" "ai" "openclaw") .Section) -}}
 {{- $noindex := or .Params.noindex (eq .Kind "404") (in (slice "taxonomy" "term") .Kind) -}}
 {{- $image := "" -}}
+{{- $pageTitle := printf "%s | %s" .Title .Site.Title -}}
+{{- if .IsHome -}}{{- $pageTitle = printf "%s - 迷你主机、NAS与本地AI指南" .Site.Title -}}{{- end -}}
 {{- with .Params.image -}}{{- $image = . | absURL -}}{{- end -}}
 <meta name="description" content="{{ $description }}">
 <meta name="author" content="{{ .Site.Params.author | default .Site.Title }}">
 <meta name="robots" content="{{ if $noindex }}noindex, follow{{ else }}index, follow{{ end }}">
 <link rel="canonical" href="{{ $pageURL }}">
-<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="og:title" content="{{ $pageTitle }}">
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:type" content="{{ if $isArticle }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ $pageURL }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}">
-<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta name="twitter:title" content="{{ $pageTitle }}">
 <meta name="twitter:description" content="{{ $description }}">
 {{ with $image }}<meta property="og:image" content="{{ . }}"><meta name="twitter:image" content="{{ . }}">{{ end }}
 {{ if $isArticle }}
