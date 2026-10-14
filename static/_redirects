@@ -7,3 +7,8 @@
 /openclaw/openclaw-day4-skills-system/ /ai/openclaw-day4-skills-system/ 301
 
 /openclaw/openclaw-day6-advanced-browser-file/ /ai/openclaw-day6-advanced-browser-file/ 301
+
+# Exact legacy section paths reported by Search Console; existing same-slug pages.
+/hardware/ser7/ /review/ser7/ 301
+/hardware/gtr7-7940hs/ /review/gtr7-7940hs/ 301
+/hardware/gtr/ /review/gtr/ 301
