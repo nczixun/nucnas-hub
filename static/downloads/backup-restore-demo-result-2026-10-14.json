@@ -1,0 +1,279 @@
+{
+  "demo_version": "1.0.1",
+  "python_version": "3.12.10",
+  "python_implementation": "CPython",
+  "started_at_utc": "2026-10-14T09:16:12.235+00:00",
+  "finished_at_utc": "2026-10-14T09:16:12.281+00:00",
+  "elapsed_seconds": 0.046428,
+  "synthetic_data_only": true,
+  "overall_passed": true,
+  "expected_failure_detected": true,
+  "independent_failure_domain_verified": false,
+  "steps": [
+    {
+      "step": "create_synthetic_source",
+      "started_at_utc": "2026-10-14T09:16:12.235+00:00",
+      "finished_at_utc": "2026-10-14T09:16:12.245+00:00",
+      "directory": "source",
+      "manifest": {
+        "file_count": 6,
+        "total_bytes": 1255,
+        "files": [
+          {
+            "path": "config/example.json",
+            "bytes": 71,
+            "sha256": "e11569c2b5463ad2f5a59038277f409180c9d2378d4f50ebbf9937f783029cca"
+          },
+          {
+            "path": "data/empty.bin",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "data/sample.bin",
+            "bytes": 1024,
+            "sha256": "785b0751fc2c53dc14a4ce3d800e69ef9ce1009eb327ccf458afe09c242c26c9"
+          },
+          {
+            "path": "docs/恢复检查.txt",
+            "bytes": 49,
+            "sha256": "434291f025927d3b81b0d2af36164a923eafd9b8a5625a290c889a86bce48f9d"
+          },
+          {
+            "path": "notes/setup.txt",
+            "bytes": 55,
+            "sha256": "b51ec7be40bd093e295443b10f66100a057d5dc4a9da7022c6b99f9f3ae2b3df"
+          },
+          {
+            "path": "README.txt",
+            "bytes": 56,
+            "sha256": "8ef2954c6a26edb8a1ed63bd21d3cc9b2e5e042508803640ee75dcd736d87081"
+          }
+        ]
+      }
+    },
+    {
+      "step": "copy_to_backup",
+      "started_at_utc": "2026-10-14T09:16:12.245+00:00",
+      "finished_at_utc": "2026-10-14T09:16:12.254+00:00",
+      "directory": "backup",
+      "manifest": {
+        "file_count": 6,
+        "total_bytes": 1255,
+        "files": [
+          {
+            "path": "config/example.json",
+            "bytes": 71,
+            "sha256": "e11569c2b5463ad2f5a59038277f409180c9d2378d4f50ebbf9937f783029cca"
+          },
+          {
+            "path": "data/empty.bin",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "data/sample.bin",
+            "bytes": 1024,
+            "sha256": "785b0751fc2c53dc14a4ce3d800e69ef9ce1009eb327ccf458afe09c242c26c9"
+          },
+          {
+            "path": "docs/恢复检查.txt",
+            "bytes": 49,
+            "sha256": "434291f025927d3b81b0d2af36164a923eafd9b8a5625a290c889a86bce48f9d"
+          },
+          {
+            "path": "notes/setup.txt",
+            "bytes": 55,
+            "sha256": "b51ec7be40bd093e295443b10f66100a057d5dc4a9da7022c6b99f9f3ae2b3df"
+          },
+          {
+            "path": "README.txt",
+            "bytes": 56,
+            "sha256": "8ef2954c6a26edb8a1ed63bd21d3cc9b2e5e042508803640ee75dcd736d87081"
+          }
+        ]
+      },
+      "verification": {
+        "passed": true,
+        "missing": [],
+        "unexpected": [],
+        "changed": []
+      }
+    },
+    {
+      "step": "restore_from_backup",
+      "started_at_utc": "2026-10-14T09:16:12.254+00:00",
+      "finished_at_utc": "2026-10-14T09:16:12.265+00:00",
+      "directory": "restored",
+      "manifest": {
+        "file_count": 6,
+        "total_bytes": 1255,
+        "files": [
+          {
+            "path": "config/example.json",
+            "bytes": 71,
+            "sha256": "e11569c2b5463ad2f5a59038277f409180c9d2378d4f50ebbf9937f783029cca"
+          },
+          {
+            "path": "data/empty.bin",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "data/sample.bin",
+            "bytes": 1024,
+            "sha256": "785b0751fc2c53dc14a4ce3d800e69ef9ce1009eb327ccf458afe09c242c26c9"
+          },
+          {
+            "path": "docs/恢复检查.txt",
+            "bytes": 49,
+            "sha256": "434291f025927d3b81b0d2af36164a923eafd9b8a5625a290c889a86bce48f9d"
+          },
+          {
+            "path": "notes/setup.txt",
+            "bytes": 55,
+            "sha256": "b51ec7be40bd093e295443b10f66100a057d5dc4a9da7022c6b99f9f3ae2b3df"
+          },
+          {
+            "path": "README.txt",
+            "bytes": 56,
+            "sha256": "8ef2954c6a26edb8a1ed63bd21d3cc9b2e5e042508803640ee75dcd736d87081"
+          }
+        ]
+      },
+      "verification": {
+        "passed": true,
+        "missing": [],
+        "unexpected": [],
+        "changed": []
+      }
+    },
+    {
+      "step": "detect_intentional_tamper",
+      "started_at_utc": "2026-10-14T09:16:12.265+00:00",
+      "finished_at_utc": "2026-10-14T09:16:12.268+00:00",
+      "directory": "restored",
+      "manifest": {
+        "file_count": 6,
+        "total_bytes": 1285,
+        "files": [
+          {
+            "path": "config/example.json",
+            "bytes": 71,
+            "sha256": "e11569c2b5463ad2f5a59038277f409180c9d2378d4f50ebbf9937f783029cca"
+          },
+          {
+            "path": "data/empty.bin",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "data/sample.bin",
+            "bytes": 1054,
+            "sha256": "b1929db92bddc7037beef6afc895085bc285cfbb8a21bfee8fec4644e0ea114f"
+          },
+          {
+            "path": "docs/恢复检查.txt",
+            "bytes": 49,
+            "sha256": "434291f025927d3b81b0d2af36164a923eafd9b8a5625a290c889a86bce48f9d"
+          },
+          {
+            "path": "notes/setup.txt",
+            "bytes": 55,
+            "sha256": "b51ec7be40bd093e295443b10f66100a057d5dc4a9da7022c6b99f9f3ae2b3df"
+          },
+          {
+            "path": "README.txt",
+            "bytes": 56,
+            "sha256": "8ef2954c6a26edb8a1ed63bd21d3cc9b2e5e042508803640ee75dcd736d87081"
+          }
+        ]
+      },
+      "intentionally_modified_file": "data/sample.bin",
+      "expected_passed": false,
+      "verification": {
+        "passed": false,
+        "missing": [],
+        "unexpected": [],
+        "changed": [
+          {
+            "path": "data/sample.bin",
+            "expected_bytes": 1024,
+            "observed_bytes": 1054,
+            "expected_sha256": "785b0751fc2c53dc14a4ce3d800e69ef9ce1009eb327ccf458afe09c242c26c9",
+            "observed_sha256": "b1929db92bddc7037beef6afc895085bc285cfbb8a21bfee8fec4644e0ea114f"
+          }
+        ]
+      }
+    },
+    {
+      "step": "restore_again_from_unchanged_backup",
+      "started_at_utc": "2026-10-14T09:16:12.268+00:00",
+      "finished_at_utc": "2026-10-14T09:16:12.281+00:00",
+      "directory": "restored-again",
+      "manifest": {
+        "file_count": 6,
+        "total_bytes": 1255,
+        "files": [
+          {
+            "path": "config/example.json",
+            "bytes": 71,
+            "sha256": "e11569c2b5463ad2f5a59038277f409180c9d2378d4f50ebbf9937f783029cca"
+          },
+          {
+            "path": "data/empty.bin",
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "data/sample.bin",
+            "bytes": 1024,
+            "sha256": "785b0751fc2c53dc14a4ce3d800e69ef9ce1009eb327ccf458afe09c242c26c9"
+          },
+          {
+            "path": "docs/恢复检查.txt",
+            "bytes": 49,
+            "sha256": "434291f025927d3b81b0d2af36164a923eafd9b8a5625a290c889a86bce48f9d"
+          },
+          {
+            "path": "notes/setup.txt",
+            "bytes": 55,
+            "sha256": "b51ec7be40bd093e295443b10f66100a057d5dc4a9da7022c6b99f9f3ae2b3df"
+          },
+          {
+            "path": "README.txt",
+            "bytes": 56,
+            "sha256": "8ef2954c6a26edb8a1ed63bd21d3cc9b2e5e042508803640ee75dcd736d87081"
+          }
+        ]
+      },
+      "verification": {
+        "passed": true,
+        "missing": [],
+        "unexpected": [],
+        "changed": []
+      },
+      "backup_unchanged": true,
+      "source_unchanged": true
+    }
+  ],
+  "scope": {
+    "verified": [
+      "relative file paths",
+      "file count",
+      "byte counts",
+      "SHA-256",
+      "intentional change detection",
+      "second restore from unchanged backup"
+    ],
+    "not_verified": [
+      "independent devices or failure domains",
+      "NAS backup software",
+      "historical versions",
+      "permissions or ownership",
+      "application consistency",
+      "encryption key recovery",
+      "real disaster recovery"
+    ]
+  }
+}
