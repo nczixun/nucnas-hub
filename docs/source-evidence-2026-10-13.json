@@ -1420,29 +1420,51 @@
   {
     "path": "content/hardware/intel-n150-mini-pc-review.md",
     "url": "https://www.nucnas.top/review/intel-n150-%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E8%AF%84%E6%B5%8B%E5%AF%B9%E6%AF%94-n100-%E5%85%A8%E9%9D%A2%E5%8D%87%E7%BA%A7%E6%80%A7%E8%83%BD%E6%8F%90%E5%8D%87%E6%98%BE%E8%91%97/",
-    "auditedAt": "2026-10-13",
+    "auditedAt": "2026-10-16",
     "originalTitle": "Intel N150 迷你主机评测：对比 N100 全面升级，性能提升显著（来源待核查）",
-    "title": "Intel N 系列选型：配置与选型核对",
+    "title": "Intel N150 迷你主机怎么选：N100 参数差异与整机核对清单",
     "status": "reviewed",
-    "scope": "官方产品/支持资料中的型号与列出的规格；不涵盖整机跑分、功耗、噪音或当前售价。",
+    "scope": "Intel 官方处理器规格页中 N150/N100 的核心数、最高频率、缓存、官方列出的功耗字段、内存容量与通道，以及内存类型；不证明任何整机的接口实现、性能、功耗、噪声或价格。",
     "claims": [
       {
-        "field": "N150 / N100",
-        "claim": "均为 4 核 4 线程；最高频率分别为 3.6 / 3.4GHz",
+        "field": "N150 / N100 核心与最高频率",
+        "claim": "N150 与 N100 都是 4 核 4 线程，最高睿频分别为 3.6 GHz 与 3.40 GHz。",
         "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
       },
       {
-        "field": "Core i3-N305 / N350",
-        "claim": "均为 8 核 8 线程；最高频率分别为 3.8 / 3.9GHz",
+        "field": "N150 / N100 缓存",
+        "claim": "N150 与 N100 均列出 6 MB 缓存。",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "N150 官方功耗字段",
+        "claim": "Intel N150 页面列出 Processor Base Power 6 W",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/241636/intel-processor-n150-6m-cache-up-to-3-60-ghz/specifications.html"
+      },
+      {
+        "field": "N100 官方功耗字段",
+        "claim": "N100 页面列出 TDP 6 W",
+        "source": "https://www.intel.com/content/www/us/en/products/sku/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz/specifications.html"
+      },
+      {
+        "field": "N150 / N100 最大内存与通道",
+        "claim": "Intel 对 N150 与 N100 均列出最大内存 16 GB、最大内存通道数 1。",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "N150 / N100 支持的内存类型",
+        "claim": "两个型号都列出 DDR4-3200、DDR5-4800 与 LPDDR5-4800 支持",
         "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
       }
     ],
     "sources": [
+      "https://www.intel.com/content/www/us/en/products/sku/241636/intel-processor-n150-6m-cache-up-to-3-60-ghz/specifications.html",
+      "https://www.intel.com/content/www/us/en/products/sku/231803/intel-processor-n100-6m-cache-up-to-3-40-ghz/specifications.html",
       "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
     ],
     "unresolved": null,
     "originalSha256": "2886ad292c8accb71aab9169c99fe655a2766c3a6c3a44c876296b9ecf18dcc2",
-    "newSha256": "d8b868fbc188453b527af8d8a9893a930eba88f2b46bf78d9505e7bf20fdafe9"
+    "newSha256": "1a778d0999dcd33eba9875d50ff1a0d5c801d97b86cb9dfa929052e560254213"
   },
   {
     "path": "content/hardware/intel-n150-minipc-comparison-2026-03-08.md",
