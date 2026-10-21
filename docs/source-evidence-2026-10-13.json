@@ -3101,5 +3101,38 @@
     "unresolved": null,
     "originalSha256": "4e72945f05ea22cf7eb8c9f4521f2a50db9787288f2496d2af0d23d8f71b6436",
     "newSha256": "213ab1563b3897de2f203000480b4b74073391eb14c0815bb0eca3740997a29b"
+  },
+  {
+    "path": "content/nas/2026-03-20-nas-capacity-guide.md",
+    "url": "https://www.nucnas.top/guide/%E5%AE%B6%E5%BA%ADnas%E4%B9%B0%E5%87%A0tb%E5%90%88%E9%80%822026%E5%B9%B4%E5%AE%B9%E9%87%8F%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97/",
+    "auditedAt": "2026-10-21",
+    "originalTitle": "家庭NAS买几TB合适？2026年容量选购指南",
+    "title": "家庭 NAS 容量怎么规划：从现有数据估算三年需求",
+    "status": "reviewed",
+    "scope": "核对TrueNAS文档说明的理论容量估算、vdev最小盘容量限制和冗余不等于备份；本文算例数字均为假设，不代表实测或设备建议。",
+    "claims": [
+      {
+        "field": "ZFS 容量估算",
+        "claim": "输入磁盘数量与容量，并比较 RAID 类型",
+        "source": "https://www.truenas.com/docs/references/zfscapacitycalculator/"
+      },
+      {
+        "field": "vdev 容量",
+        "claim": "ZFS vdev 的容量受其中最小磁盘容量限制",
+        "source": "https://www.truenas.com/docs/references/zfsprimer/"
+      },
+      {
+        "field": "冗余与备份",
+        "claim": "RAID 和磁盘冗余不替代可靠备份策略",
+        "source": "https://www.truenas.com/docs/references/zfsprimer/"
+      }
+    ],
+    "sources": [
+      "https://www.truenas.com/docs/references/zfscapacitycalculator/",
+      "https://www.truenas.com/docs/references/zfsprimer/"
+    ],
+    "unresolved": null,
+    "originalSha256": "19c484af6acae6cf0272e3926def44e9ae2fd8c26717829622da28a390409382",
+    "newSha256": "ee9da40994c2bad7e94937a2aca64ec457f4fe91d2a07baabb7ca8a67a4c4891"
   }
 ]
