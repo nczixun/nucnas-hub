@@ -9,20 +9,34 @@ summary: "迷你主机选购：核对准系统和整机：根据对应官方资�
 description: "迷你主机选购：核对准系统和整机：根据对应官方资料核对正文列出的信息，注明版本边界与验证方法。"
 contentType: "资料整理"
 contentStatus: "reviewed"
-lastmod: "2026-10-13"
-sourceAuditAt: "2026-10-13"
-sources: ["https://support.apple.com/en-us/121555"]
+lastmod: "2026-10-22"
+sourceAuditAt: "2026-10-22"
+sources: ["https://support.apple.com/en-us/121555", "https://www.bee-link.com/products/beelink-eq14-n150", "https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9"]
 url: "/review/minipc-buying-guide-2026-spring/"
-reviewedAt: "2026-10-13"
+reviewedAt: "2026-10-22"
 ---
 
-资料核对：**2026-10-13**。本页依据官方资料整理，核查范围是：有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。 本站没有对应机器的独立实测记录。
+资料核对：**2026-10-22**。本页依据厂商规格页整理，核查范围是公开型号规格与购买前核对方法；不构成本站产品实测、当前报价、地区库存或某个零售订单 SKU 的确认。本站没有对应机器的独立实测记录。
 
 ## 已核对的依据
 
 | 核对项目 | 可确认内容 | 对应来源 |
 |---|---|---|
-| 依据与边界 | Apple 的 2024 Mac mini 技术规格分别列 M4 与 M4 Pro 的配置选项。 | [官方资料](https://support.apple.com/en-us/121555) |
+| Apple 桌面平台 | Apple 的 2024 Mac mini 技术规格分别列出 M4、M4 Pro 的内存、存储及接口选项；配置范围不等于可升级性。 | [Apple 技术规格](https://support.apple.com/en-us/121555) |
+| Beelink EQ14 N150 | 厂商页面列出 DDR4 SO-DIMM、双 M.2 2280 插槽及不同网络选项；应以购买时选定的具体配置为准。 | [Beelink 产品页](https://www.bee-link.com/products/beelink-eq14-n150) |
+| GMKtec NucBox G9 | 厂商页面列出板载 LPDDR5、最多四个 M.2 2280 槽位和双 2.5GbE；同页电源输入资料有冲突，须由厂商按具体 SKU 澄清。 | [GMKtec 产品页](https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9) |
+
+## 型号级规格对照
+
+下表把厂商公开页面中可确认的边界放在一起。它不是完整零售 SKU 清单：页面没有稳定、可交叉核实的地区货号/订单选项时，保留“购买前确认”，不猜测实际组合或随箱配件。
+
+| 型号/平台 | 内存 | 存储接口 | 网络与扩展 | 购买前确认 |
+|---|---|---|---|---|
+| Apple Mac mini (2024)，M4 / M4 Pro | M4 规格列 16GB，选配 24GB/32GB；M4 Pro 列 24GB，选配 48GB/64GB。 | M4 列 256GB 起，选配至 2TB；M4 Pro 列 512GB 起，选配至 8TB。 | M4 为 Thunderbolt 4；M4 Pro 为 Thunderbolt 5；均有千兆以太网选配 10GbE。 | 选定芯片、内存、SSD 和网络选项；这些是出厂配置选项，本文不声称用户可自行升级。 |
+| Beelink EQ14 N150 | 厂商页列 1 个 DDR4 SO-DIMM，页面标注最高 16GB。 | 双 M.2 2280 PCIe 3.0 插槽；存储容量/预装盘按实际销售选项确认。 | 页面提供双千兆或双 2.5GbE等选项，不能只凭 EQ14 型号名确定网卡组合。 | 订单里选定的网口版本、内存/SSD是否包含、适配器和保修范围。 |
+| GMKtec NucBox G9 N150 | 厂商页列板载 LPDDR5，标准 12GB、最高 16GB；板载内存不是可替换 SO-DIMM。 | 页面宣称最多 4 个 M.2 2280 PCIe 槽位；实际容量、盘/散热件是否随附须按订单确认。 | 厂商页列双 Intel I226 2.5GbE。 | 页面不同位置对输入电压/电流的描述不一致。下单前应向厂商核对具体 SKU 的电源规格，不能据此页自行挑选适配器。 |
+
+Apple 与两款 N150 整机面向的系统和使用方式不同，不能按表格直接排名。厂商列出的槽位/选配不代表已验证盘位共存、散热、驱动、功耗、噪声或系统兼容；若要做 NAS 或软路由，先确认控制器、启动方式、驱动支持和备份安排。
 
 ## 阅读与选型边界
 
@@ -34,6 +48,8 @@ reviewedAt: "2026-10-13"
 
 ## 来源与范围
 
-- [官方资料入口 1](https://support.apple.com/en-us/121555)：支持上文注明的事实范围，不证明本站实测。
+- [Apple Mac mini (2024) 技术规格](https://support.apple.com/en-us/121555)：支持该机型列出的配置选项，不证明自行升级能力或本站实测。
+- [Beelink EQ14 N150 产品页](https://www.bee-link.com/products/beelink-eq14-n150)：支持厂商页面列出的型号级插槽/选项，不确认零售订单 SKU 与到货配置。
+- [GMKtec NucBox G9 产品页](https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9)：支持厂商页面列出的型号级信息；电源参数冲突尚待厂商按具体 SKU 澄清。
 
 - [新手阅读入口](/start/)

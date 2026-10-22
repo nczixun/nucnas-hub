@@ -1926,24 +1926,36 @@
   {
     "path": "content/hardware/minipc-buying-guide-2026-spring.md",
     "url": "https://www.nucnas.top/review/minipc-buying-guide-2026-spring/",
-    "auditedAt": "2026-10-13",
+    "auditedAt": "2026-10-22",
     "originalTitle": "2026年迷你主机选购指南：按需求对号入座（来源待核查）",
-    "title": "迷你主机选购：核对准系统和整机：方法与验收",
+    "title": "迷你主机选购：核对准系统和整机：型号级规格对照",
     "status": "reviewed",
-    "scope": "有出处的示例与编辑核对方法；不构成本站产品实测或当前报价。",
+    "scope": "Apple Mac mini (2024) M4/M4 Pro、Beelink EQ14 N150及GMKtec NucBox G9厂商规格页列明的内存/存储/接口选项；不确认地区零售SKU、库存、报价、性能/噪声/功耗实测或系统兼容。GMKtec同页电源信息冲突，待厂商按具体SKU澄清。",
     "claims": [
       {
-        "field": "依据与边界",
-        "claim": "Apple 的 2024 Mac mini 技术规格分别列 M4 与 M4 Pro 的配置选项。",
+        "field": "Apple Mac mini (2024)",
+        "claim": "Apple 的 2024 Mac mini 技术规格分别列出 M4、M4 Pro 的内存、存储及接口选项；配置范围不等于可升级性。",
         "source": "https://support.apple.com/en-us/121555"
+      },
+      {
+        "field": "Beelink EQ14 N150",
+        "claim": "厂商页面列出 DDR4 SO-DIMM、双 M.2 2280 插槽及不同网络选项；应以购买时选定的具体配置为准。",
+        "source": "https://www.bee-link.com/products/beelink-eq14-n150"
+      },
+      {
+        "field": "GMKtec NucBox G9",
+        "claim": "厂商页面列出板载 LPDDR5、最多四个 M.2 2280 槽位和双 2.5GbE；同页电源输入资料有冲突，须由厂商按具体 SKU 澄清。",
+        "source": "https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9"
       }
     ],
     "sources": [
-      "https://support.apple.com/en-us/121555"
+      "https://support.apple.com/en-us/121555",
+      "https://www.bee-link.com/products/beelink-eq14-n150",
+      "https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9"
     ],
-    "unresolved": null,
+    "unresolved": "尚无地区/订单级 SKU 对照与厂商对 G9 电源规格冲突的书面澄清；未做设备兼容或性能实测。",
     "originalSha256": "b826c6aa7ba9bd1058d551e47e8ca0ae29f6500146b9bea6a96e871fccbde9fd",
-    "newSha256": "6060ad144b097d842fcf6029b7238b8663d90eea68c3c47270db7d164e5364c1"
+    "newSha256": "61d5861dfd989f64dc93b7d4996629aa704ef59533e9438f7a9fc61a5a013c77"
   },
   {
     "path": "content/hardware/minipc-cooling-solution-2026.md",
