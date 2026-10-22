@@ -3077,11 +3077,11 @@
   {
     "path": "content/hardware/mini-pc-buying-guide-spring-2026.md",
     "url": "https://www.nucnas.top/review/2026%E5%B9%B4%E6%98%A5%E5%AD%A3%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E9%AB%98%E7%AB%AF%E5%85%A8%E6%94%BB%E7%95%A5/",
-    "auditedAt": "2026-10-20",
+    "auditedAt": "2026-10-22",
     "originalTitle": "2026年春季迷你主机选购指南：从入门到高端全攻略",
     "title": "迷你主机怎么选：先按任务、内存和接口筛选",
     "status": "reviewed",
-    "scope": "仅核对Intel N150与AMD Ryzen 7 8845HS CPU厂商公开规格和文中对应说明；不涵盖整机SKU、售价、跑分、功耗、温度或噪声实测。",
+    "scope": "核对Intel N150与AMD Ryzen 7 8845HS的CPU厂商规格，以及Beelink EQ14和GMKtec NucBox G9的厂商产品页所列内存、存储、网络与页面电源信息；仅为型号级公开资料对照，不验证地区/订单SKU、现货、性能、噪声、功耗或兼容实测。",
     "claims": [
       {
         "field": "Intel N150",
@@ -3092,15 +3092,37 @@
         "field": "AMD Ryzen 7 8845HS",
         "claim": "8 核 16 线程、最高加速频率 5.1 GHz",
         "source": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html"
+      },
+      {
+        "field": "Beelink EQ14 内存与SSD",
+        "claim": "SO-DIMM DDR4，页面列最大 16 GB",
+        "source": "https://www.bee-link.com/products/beelink-eq14-n150"
+      },
+      {
+        "field": "Beelink EQ14 网口选项",
+        "claim": "产品页列出双千兆与双 2.5GbE 选项",
+        "source": "https://www.bee-link.com/products/beelink-eq14-n150"
+      },
+      {
+        "field": "GMKtec NucBox G9 存储扩展",
+        "claim": "最多 4 个 M.2 2280 PCIe SSD、每槽最高 4 TB",
+        "source": "https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9"
+      },
+      {
+        "field": "GMKtec NucBox G9 电源信息冲突",
+        "claim": "同一产品页的规格表写 USB-C 输入 19 V/3.42 A，功能图则写 12 V/3 A",
+        "source": "https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9"
       }
     ],
     "sources": [
       "https://www.intel.com/content/www/us/en/products/sku/241636/intel-processor-n150-6m-cache-up-to-3-60-ghz/specifications.html",
-      "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html"
+      "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html",
+      "https://www.bee-link.com/products/beelink-eq14-n150",
+      "https://www.gmktec.com/products/intel-twin-lake-n150-dual-system-4-bay-nas-mini-pc-nucbox-g9"
     ],
     "unresolved": null,
     "originalSha256": "4e72945f05ea22cf7eb8c9f4521f2a50db9787288f2496d2af0d23d8f71b6436",
-    "newSha256": "213ab1563b3897de2f203000480b4b74073391eb14c0815bb0eca3740997a29b"
+    "newSha256": "591b35aa43a4b7f89fc082e43190fb7f3e20f4103e4d6866e59bef55f02269ff"
   },
   {
     "path": "content/nas/2026-03-20-nas-capacity-guide.md",
