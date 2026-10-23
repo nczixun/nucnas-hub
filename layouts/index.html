@@ -49,7 +49,6 @@
 </section>
 
 <!-- 编辑精选 -->
-<p class="selection-explainer">编辑选择已完成资料核对的硬件文章；不按流量排名，也不代替设备实测。</p>
 <section style="margin-bottom:80px;">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;">
         <h2 class="section-title" style="font-size:36px;font-weight:700;margin-bottom:0;">编辑精选</h2>
@@ -67,17 +66,12 @@
                     {{ with .Params.hw_specs.cpu }}<span style="font-size:12px;background:#f5f5f7;padding:6px 10px;border-radius:6px;color:#666;">{{ . }}</span>{{ end }}
                 </div>
                 <div style="font-size:20px;font-weight:700;color:#FF3B30;">
-                    查看资料核对范围
+                    阅读文章
                 </div>
             </div>
         </a>
         {{ end }}
     </div>
-</section>
-
-<section class="recent-review" aria-labelledby="recent-review-title">
-<h2 class="section-title" id="recent-review-title">近期资料核对</h2><p>按正文的实际核查日期整理，优先阅读版本、前提和验收范围。</p>
-<ul>{{ range first 6 (sort (where (where (where .Site.RegularPages "Section" "in" (slice "hardware" "nas" "ai" "openclaw")) "Params.reviewedat" "ne" nil) "Params.contentstatus" "ne" "pending") "Params.reviewedat" "desc") }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a><span>资料核对 {{ time.Format "2006-01-02" .Params.reviewedat }}</span></li>{{ end }}</ul>
 </section>
 
 <!-- 最新文章 -->
