@@ -3168,5 +3168,45 @@
     "unresolved": null,
     "originalSha256": "19c484af6acae6cf0272e3926def44e9ae2fd8c26717829622da28a390409382",
     "newSha256": "ee9da40994c2bad7e94937a2aca64ec457f4fe91d2a07baabb7ca8a67a4c4891"
+  },
+  {
+    "path": "content/local-ai-roadmap.md",
+    "url": "https://www.nucnas.top/local-ai-roadmap/",
+    "auditedAt": "2026-10-23",
+    "originalTitle": "本地 AI 阅读路线：先完成一次本机对话",
+    "title": "本地 AI 阅读路线：先完成一次本机对话",
+    "status": "reviewed",
+    "scope": "Ollama官方快速开始对本机/云请求的区分、模型列表API返回字段、关闭云功能选项及Open WebUI持久化卷/固定密钥说明；补充非敏感复测记录模板。未在本站安装或运行模型、容器，也未测量模型表现或验证读者设备的数据路径。",
+    "claims": [
+      {
+        "field": "本机与云端调用及凭据",
+        "claim": "官方快速开始区分本机模型与云端请求：本机模型不需要云服务 API key；不要把账号/密钥填入本机记录模板。",
+        "source": "https://docs.ollama.com/quickstart"
+      },
+      {
+        "field": "关闭Ollama云功能",
+        "claim": "其中提供 `OLLAMA_NO_CLOUD=1` 环境变量选项，修改后须重启 Ollama。",
+        "source": "https://docs.ollama.com/faq"
+      },
+      {
+        "field": "本机模型列表",
+        "claim": "Ollama 官方本地接口可列出已安装模型及标签、摘要和量化信息；",
+        "source": "https://docs.ollama.com/api/tags"
+      },
+      {
+        "field": "Open WebUI持久化",
+        "claim": "先按其官方部署说明确认数据卷和固定密钥的设置；",
+        "source": "https://docs.openwebui.com/getting-started/quick-start/"
+      }
+    ],
+    "sources": [
+      "https://docs.ollama.com/quickstart",
+      "https://docs.ollama.com/api/tags",
+      "https://docs.ollama.com/faq",
+      "https://docs.openwebui.com/getting-started/quick-start/"
+    ],
+    "unresolved": null,
+    "originalSha256": "f0a42a75cf667552eea67beb33d9c1b85d5c6eca9a70f5ec03032323790e521c",
+    "newSha256": "503e97d76d12ff8e509c9060bc40f9b5b3edf91bdf02c0230e6c2005674498a5"
   }
 ]
