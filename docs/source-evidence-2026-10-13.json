@@ -3208,5 +3208,33 @@
     "unresolved": null,
     "originalSha256": "f0a42a75cf667552eea67beb33d9c1b85d5c6eca9a70f5ec03032323790e521c",
     "newSha256": "503e97d76d12ff8e509c9060bc40f9b5b3edf91bdf02c0230e6c2005674498a5"
+  },
+  {
+    "path": "content/ai/local-ai-knowledge-base-guide.md",
+    "url": "https://www.nucnas.top/ai/local-ai-knowledge-base-guide/",
+    "auditedAt": "2026-10-24",
+    "originalTitle": "本地AI知识库搭建教程：RAG系统实战指南",
+    "title": "本地AI知识库搭建教程：RAG系统实战指南",
+    "status": "reviewed",
+    "scope": "补充小型、人工可复测的RAG验收集；核对检索过程评估与最终回答评估的区分。未运行真实模型、未使用真实文件、未测准确率/速度/硬件性能。",
+    "claims": [
+      {
+        "field": "RAG evaluation dimensions",
+        "claim": "Microsoft 文档将检索质量评估归入处理流程评估，将依据充分性和相关性归入最终回答评估。",
+        "source": "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/rag-evaluators"
+      }
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/rag-evaluators",
+      "https://docs.ollama.com/api/embed",
+      "https://docs.ollama.com/api/chat",
+      "https://docs.ollama.com/faq",
+      "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/",
+      "https://docs.openwebui.com/tutorials/maintenance/offline-mode/",
+      "https://docs.openwebui.com/features/chat-conversations/rag/document-extraction/"
+    ],
+    "unresolved": null,
+    "originalSha256": "23fd76ab82324e6d8ff9c028138fba7856f1671c1076a8e30bbdd9a61071f69c",
+    "newSha256": "179857c21647fe14fb7cec2d3866100abf2f59b50aff774250a62f6b00babcb3"
   }
 ]
