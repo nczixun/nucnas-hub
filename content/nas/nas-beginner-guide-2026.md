@@ -1,6 +1,6 @@
 ---
-reviewedAt: 2026-10-09
-contentStatus: reviewed
+reviewedAt: "2026-10-25"
+contentStatus: "reviewed"
 title: "NAS新手入门完全指南：2026年从零开始玩转私有云"
 date: 2026-03-05
 draft: false
@@ -11,11 +11,13 @@ sticky: false
 unversioned: false
 author: "NUCNAS"
 slug: "nas-beginner-guide-2026"
-lastmod: 2026-10-09
+lastmod: 2026-10-25
+sources:
+  - "https://www.truenas.com/docs/scale/27/datasets/permissions/configuringacls/"
 description: "NAS入门：先确认数据与硬件，再完成账户、存储、文件共享和恢复验证，区分RAID与备份。"
 ---
 
-资料核对：**2026-10-09**。适用于准备首次使用 NAS 的读者。不同设备、系统版本和文件系统的界面与能力不同；本文是通用流程，未在真实 NAS 上执行安装、磁盘初始化或性能测试。
+适用于准备首次使用 NAS 的读者。不同设备、系统版本和文件系统的界面与能力不同；本文是通用流程，未在真实 NAS 上执行安装、磁盘初始化或性能测试。
 
 ## 先确认需求与现有数据
 
@@ -53,7 +55,15 @@ TrueNAS 用户可从[官方入门文档](https://www.truenas.com/docs/scale/gett
 - 需要只读时，确认读取成功且写入被拒绝。
 - 记录客户端、网络连接方式和错误信息；速度慢先区分网络、磁盘与应用，不承诺“局域网必定满速”。
 
-权限出错先核对账户、共享权限和文件 ACL；不要直接给所有人读写权限。
+把权限验收限制在空的测试共享和专用测试账号中，不要拿家人的正式资料做删除或覆盖测试。可按下表填写预期结果和实际结果：
+
+| 测试身份 | 查看测试目录 | 新建/修改测试文件 | 查看未授权目录 | 实际结果/日期 |
+| --- | --- | --- | --- | --- |
+| 日常读写账号 | 允许 | 允许 | 拒绝 | 待填写 |
+| 只读账号（如需要） | 允许 | 拒绝 | 拒绝 | 待填写 |
+| 无授权账号 | 拒绝 | 拒绝 | 拒绝 | 待填写 |
+
+若结果不符，先确认客户端当前使用的账号，再按该系统文档检查共享权限和目录/文件系统 ACL；不要直接给所有人读写权限。以 TrueNAS 为例，官方文档把 SMB 共享级 ACL 与数据集文件系统 ACL 分开说明，并警告递归修改 ACL 可能有破坏性。套用到实际数据前先核对已安装版本的流程、影响范围和可恢复副本；其他 NAS 也应使用自己的官方说明。
 
 ## 第四步：先做恢复验证，再安装应用
 
@@ -76,5 +86,6 @@ TrueNAS 用户可从[官方入门文档](https://www.truenas.com/docs/scale/gett
 ## 官方资料与下一步
 
 - [TrueNAS 入门与版本文档](https://www.truenas.com/docs/scale/gettingstarted/)
+- [TrueNAS：配置数据集 ACL 权限](https://www.truenas.com/docs/scale/27/datasets/permissions/configuringacls/)
 - [加拿大网络安全中心：备份建议](https://www.cyber.gc.ca/en/guidance/tips-backing-your-information-itsap40002)
 - [NAS 阅读路线](/nas-roadmap/) · [备份策略](/guide/data-321-backup/) · [Docker 基础](/guide/docker-best-practice/)

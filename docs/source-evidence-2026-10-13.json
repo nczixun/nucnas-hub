@@ -3236,5 +3236,29 @@
     "unresolved": null,
     "originalSha256": "23fd76ab82324e6d8ff9c028138fba7856f1671c1076a8e30bbdd9a61071f69c",
     "newSha256": "179857c21647fe14fb7cec2d3866100abf2f59b50aff774250a62f6b00babcb3"
+  },
+  {
+    "path": "content/nas/nas-beginner-guide-2026.md",
+    "url": "https://www.nucnas.top/guide/nas-beginner-guide-2026/",
+    "auditedAt": "2026-10-25",
+    "originalTitle": "NAS新手入门完全指南：2026年从零开始玩转私有云",
+    "title": "NAS新手入门完全指南：2026年从零开始玩转私有云",
+    "status": "reviewed",
+    "scope": "增加仅使用空测试共享/专用测试账号的权限验收矩阵；核对 TrueNAS 官方 SMB 与数据集 ACL 边界和递归修改风险。未在 NAS 实机执行权限或恢复测试。",
+    "claims": [
+      {
+        "field": "TrueNAS ACL scope and recursive change caution",
+        "claim": "以 TrueNAS 为例，官方文档把 SMB 共享级 ACL 与数据集文件系统 ACL 分开说明，并警告递归修改 ACL 可能有破坏性。",
+        "source": "https://www.truenas.com/docs/scale/27/datasets/permissions/configuringacls/"
+      }
+    ],
+    "sources": [
+      "https://www.truenas.com/docs/scale/27/datasets/permissions/configuringacls/",
+      "https://www.truenas.com/docs/scale/gettingstarted/",
+      "https://www.cyber.gc.ca/en/guidance/tips-backing-your-information-itsap40002"
+    ],
+    "unresolved": null,
+    "originalSha256": "785b6c4b648ec10b899551e77f12f04022c397996668f16db572882f65a5735b",
+    "newSha256": "21a52411c8a849b57a21a8314cfda32a12132d5d7e890755df69c15ee17d3708"
   }
 ]
