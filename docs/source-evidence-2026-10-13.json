@@ -1926,11 +1926,11 @@
   {
     "path": "content/hardware/minipc-buying-guide-2026-spring.md",
     "url": "https://www.nucnas.top/review/minipc-buying-guide-2026-spring/",
-    "auditedAt": "2026-10-22",
+    "auditedAt": "2026-10-26",
     "originalTitle": "2026年迷你主机选购指南：按需求对号入座（来源待核查）",
     "title": "迷你主机选购：核对准系统和整机：型号级规格对照",
     "status": "reviewed",
-    "scope": "Apple Mac mini (2024) M4/M4 Pro、Beelink EQ14 N150及GMKtec NucBox G9厂商规格页列明的内存/存储/接口选项；不确认地区零售SKU、库存、报价、性能/噪声/功耗实测或系统兼容。GMKtec同页电源信息冲突，待厂商按具体SKU澄清。",
+    "scope": "Rechecked the three cited vendor configuration pages and added an unfilled order-level checklist for region/date, selected SKU, included memory/storage, network, power adapter, warranty and unresolved conflicts. Exact regional SKU and written GMKtec power-input clarification remain unresolved; no current price, stock, purchase or device test claimed.",
     "claims": [
       {
         "field": "Apple Mac mini (2024)",
@@ -1955,7 +1955,7 @@
     ],
     "unresolved": "尚无地区/订单级 SKU 对照与厂商对 G9 电源规格冲突的书面澄清；未做设备兼容或性能实测。",
     "originalSha256": "b826c6aa7ba9bd1058d551e47e8ca0ae29f6500146b9bea6a96e871fccbde9fd",
-    "newSha256": "61d5861dfd989f64dc93b7d4996629aa704ef59533e9438f7a9fc61a5a013c77"
+    "newSha256": "c025e282e5eb44802a6deb41f2dbb64b705ddd5ba02530da9b5e5ebe85dc62c3"
   },
   {
     "path": "content/hardware/minipc-cooling-solution-2026.md",
