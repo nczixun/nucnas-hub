@@ -3260,5 +3260,38 @@
     "unresolved": null,
     "originalSha256": "785b6c4b648ec10b899551e77f12f04022c397996668f16db572882f65a5735b",
     "newSha256": "21a52411c8a849b57a21a8314cfda32a12132d5d7e890755df69c15ee17d3708"
+  },
+  {
+    "path": "content/hardware/2026-03-29-intel-n150-review.md",
+    "url": "https://www.nucnas.top/review/intel-n150%E8%BF%B7%E4%BD%A0%E4%B8%BB%E6%9C%BA%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%84%E5%85%A5%E9%97%A8%E7%BA%A7%E6%96%B0%E6%A0%87%E6%9D%86/",
+    "auditedAt": "2026-10-27",
+    "originalTitle": "Intel N150迷你主机深度测评入门级新标杆",
+    "title": "Intel N150迷你主机：处理器规格与整机选购核对",
+    "status": "reviewed",
+    "scope": "重新核对Intel N系列规格表与Beelink EQ14产品页；增加具体产品页的电源文字冲突提示，并把历史高展现入口连到订单SKU核对清单和NAS路线。历史GSC展现/点击仅为2026-09-14至10-11快照，不代表当前排名或访问。未购买或测试设备、价格、噪声或性能。",
+    "claims": [
+      {
+        "field": "N150 and N100 core/frequency specs",
+        "claim": "Intel 的 N 系列对照表将 N150 / N100 都列为 4 核 4 线程，最高睿频分别为 3.6GHz / 3.4GHz；这是处理器规格，不是整机性能分数。",
+        "source": "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html"
+      },
+      {
+        "field": "EQ14 listed memory/storage/network configurations",
+        "claim": "零刻 EQ14 产品页列出 DDR4 SO-DIMM 最高 16GB、双 M.2 2280 PCIe 3.0 插槽和双 2.5GbE。",
+        "source": "https://www.bee-link.com/products/beelink-eq14-n150"
+      },
+      {
+        "field": "EQ14 power supply information conflict",
+        "claim": "该页同时写有“内置电源”和包装清单中的“电源适配器可选”，供电说明存在冲突；本文不替厂商消解，也不把它当作任一地区订单的供电承诺。",
+        "source": "https://www.bee-link.com/products/beelink-eq14-n150"
+      }
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000100305/processors.html",
+      "https://www.bee-link.com/products/beelink-eq14-n150"
+    ],
+    "unresolved": "Beelink EQ14页面对内置电源与可选电源适配器的描述冲突；地区订单SKU未核实。",
+    "originalSha256": "6c28d21d25d213950ef1a77970a925c1afa17d3989c39b9bd0dfc24c1d964d3b",
+    "newSha256": "ea8d5ad793a89c33aa3f57cb88c2758947b3db1b73fac1e1914d40862b79546a"
   }
 ]
