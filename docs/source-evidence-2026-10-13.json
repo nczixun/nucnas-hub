@@ -3293,5 +3293,88 @@
     "unresolved": "Beelink EQ14页面对内置电源与可选电源适配器的描述冲突；地区订单SKU未核实。",
     "originalSha256": "6c28d21d25d213950ef1a77970a925c1afa17d3989c39b9bd0dfc24c1d964d3b",
     "newSha256": "ea8d5ad793a89c33aa3f57cb88c2758947b3db1b73fac1e1914d40862b79546a"
+  },
+  {
+    "path": "content/ai/ollama-beginner-guide-2026.md",
+    "url": "https://www.nucnas.top/ai/ollama-beginner-guide-2026/",
+    "auditedAt": "2026-10-28",
+    "originalTitle": "本地大模型部署入门指南：Ollama使用教程，2026年轻松在电脑上跑AI",
+    "title": "Ollama 本地模型入门：安装、运行和离线检查",
+    "status": "reviewed",
+    "scope": "核对 Ollama 官方 CLI 模型列表命令、关闭云功能的配置与影响，以及 qwen3:0.6b 模型标签；未在测试设备安装模型、实际断网复测或测量性能。",
+    "claims": [
+      {
+        "field": "CLI model listing",
+        "claim": "ollama ls",
+        "source": "https://docs.ollama.com/cli"
+      },
+      {
+        "field": "cloud mode behavior",
+        "claim": "关闭云功能会同时停用云模型和 Ollama 网页搜索。",
+        "source": "https://docs.ollama.com/faq"
+      },
+      {
+        "field": "cloud disable setting",
+        "claim": "`OLLAMA_NO_CLOUD=1`",
+        "source": "https://docs.ollama.com/faq"
+      },
+      {
+        "field": "example model tag",
+        "claim": "qwen3:0.6b 模型标签",
+        "source": "https://ollama.com/library/qwen3:0.6b"
+      }
+    ],
+    "sources": [
+      "https://ollama.com/download",
+      "https://docs.ollama.com/linux",
+      "https://docs.ollama.com/quickstart",
+      "https://docs.ollama.com/cli",
+      "https://docs.ollama.com/faq",
+      "https://ollama.com/library/qwen3:0.6b"
+    ],
+    "unresolved": null,
+    "originalSha256": "6da26e12e6666103ad6472c3b4f45a3316f985b157d364464613b718169eaa84",
+    "newSha256": "12d87537f8146028fc9e5f88505d6fff74195f8db1c0cda6dd7da782daf1b4fa"
+  },
+  {
+    "path": "content/ai/ollama-quantization-guide-2026.md",
+    "url": "https://www.nucnas.top/ai/ollama模型量化全攻略q4到q2如何选择最适合自己的量化版本/",
+    "auditedAt": "2026-10-28",
+    "originalTitle": "Ollama模型量化全攻略：Q4到Q2如何选择最适合自己的量化版本",
+    "title": "Ollama 模型量化怎么选：按同一模型标签核对",
+    "status": "reviewed",
+    "scope": "根据 Ollama 官方 Qwen3 标签列表核对 qwen3 0.6B 的 Q4_K_M、Q8_0、FP16 标签和下载文件大小；核对 CLI 的 ls/ps 命令及 FAQ 对上下文、并发和 CPU/GPU 分配的说明；使用 llama.cpp 格式文档解释量化格式边界。没有设备安装、模型推理、内存/速度/回答质量实测。",
+    "claims": [
+      {
+        "field": "registry model tags and file sizes",
+        "claim": "`qwen3:0.6b-q4_K_M` | 523 MB",
+        "source": "https://registry.ollama.com/library/qwen3/tags"
+      },
+      {
+        "field": "CLI list command",
+        "claim": "ollama ls",
+        "source": "https://docs.ollama.com/cli"
+      },
+      {
+        "field": "runtime processor allocation",
+        "claim": "`ollama ps` 看运行时显示的 CPU/GPU 分配",
+        "source": "https://docs.ollama.com/faq"
+      },
+      {
+        "field": "quantized tensor format variety",
+        "claim": "具体格式涉及分组和张量处理",
+        "source": "https://github.com/ggml-org/llama.cpp/wiki/Tensor-Encoding-Schemes"
+      }
+    ],
+    "sources": [
+      "https://registry.ollama.com/library/qwen3/tags",
+      "https://ollama.com/library",
+      "https://docs.ollama.com/cli",
+      "https://docs.ollama.com/faq",
+      "https://github.com/ggml-org/llama.cpp/wiki/Tensor-Encoding-Schemes"
+    ],
+    "unresolved": null,
+    "originalSha256": "59631cd35fca88cee777addec20d51db5a4dc135b4acaab6f4d22ddb8c97111e",
+    "newSha256": "aa729f57c2bdfc2b7cb9d0dd18dd302b6f4570c02ff550537f936d52e8cfa217"
   }
 ]
