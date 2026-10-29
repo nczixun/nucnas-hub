@@ -3376,5 +3376,57 @@
     "unresolved": null,
     "originalSha256": "59631cd35fca88cee777addec20d51db5a4dc135b4acaab6f4d22ddb8c97111e",
     "newSha256": "aa729f57c2bdfc2b7cb9d0dd18dd302b6f4570c02ff550537f936d52e8cfa217"
+  },
+  {
+    "path": "content/nas/nas-must-have-docker-containers-2026.md",
+    "url": "https://www.nucnas.top/guide/nas-must-have-docker-containers-2026/",
+    "auditedAt": "2026-10-29",
+    "originalTitle": "NAS必装Docker容器推荐：这几个容器让你的NAS更强大",
+    "title": "NAS Docker 应用怎么选：先按用途安装",
+    "status": "reviewed",
+    "scope": "将只有一句应用推荐的薄页改为按用途选择及安装前检查。核对 Docker 容器层数据持久化、卷以及远程 daemon 的风险；项目候选仅连至各自官方安装/要求文档。未实机部署、未测试兼容性或性能，不构成品牌 NAS 推荐。",
+    "claims": [
+      {
+        "field": "container writable layer persistence",
+        "claim": "容器可写层中的数据在容器被销毁后不会保留；",
+        "source": "https://docs.docker.com/engine/storage/"
+      },
+      {
+        "field": "Docker volumes",
+        "claim": "卷由 Docker 管理并保存在主机文件系统中；卷可在使用它的容器被移除后继续保留数据，",
+        "source": "https://docs.docker.com/engine/storage/volumes/"
+      },
+      {
+        "field": "remote Docker daemon risk",
+        "claim": "未妥善保护的远程访问可能使未授权用户取得主机高权限；",
+        "source": "https://docs.docker.com/engine/daemon/remote-access/"
+      },
+      {
+        "field": "Portainer CE installation",
+        "claim": "Portainer CE 安装文档",
+        "source": "https://docs.portainer.io/start/install-ce"
+      },
+      {
+        "field": "Jellyfin installation scope",
+        "claim": "Jellyfin 安装文档",
+        "source": "https://jellyfin.org/docs/general/installation/"
+      },
+      {
+        "field": "Immich requirements",
+        "claim": "Immich 安装要求",
+        "source": "https://docs.immich.app/install/requirements/"
+      }
+    ],
+    "sources": [
+      "https://docs.docker.com/engine/storage/",
+      "https://docs.docker.com/engine/storage/volumes/",
+      "https://docs.docker.com/engine/daemon/remote-access/",
+      "https://docs.portainer.io/start/install-ce",
+      "https://jellyfin.org/docs/general/installation/",
+      "https://docs.immich.app/install/requirements/"
+    ],
+    "unresolved": null,
+    "originalSha256": null,
+    "newSha256": "2c0069689e1bd727bae32c47e2e1890565c51d3ef22146e57e930fa86cb3f808"
   }
 ]
